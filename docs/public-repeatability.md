@@ -2,7 +2,7 @@
 
 ## Question and frozen design
 
-I will check whether the saved Jev choices and display decisions recur when the provider receives exactly the same requests. The named input gained one correct held-out case over compact input; another shared error was withheld. A single response cannot show how stable either result is.
+This diagnostic checks whether the saved Jev choices and display decisions recur when the provider receives exactly the same requests. The named input gained one correct held-out case over compact input; another shared error was withheld. A single response cannot show how stable either result is.
 
 This diagnostic selects all six inspected calibration/evaluation cases where at least one Jev input disagrees with the published target. It adds the lexicographically first case for each of six faults where all three inputs were correct. That produces 12 cases; selection deliberately uses earlier outcomes. It does not represent the benchmark population or create a new held-out set.
 
@@ -14,7 +14,7 @@ The original display thresholds remain 0.60 for compact and 0.50 for named and e
 
 A committed protocol records the selection, source and evidence hashes, exact request plan, stop conditions and 180-call maximum. A once-only claim rejects another execution under that protocol, including another output directory. Calls have a 30-second timeout and no retries or warmup. HTTP, network or model-version errors stop execution; three consecutive malformed replies also stop it. Failed and unattempted calls remain in the planned denominators.
 
-Results will show correctness, displayed errors and withheld choices for each round. Case-level inspection will distinguish stable choices from stable display decisions: the same selected service can move above or below its threshold. Five consistent wrong answers remain wrong. Each round will retain the named-versus-compact fixes and explained-versus-named regressions.
+Results show correctness, displayed errors and withheld choices for each round. Case-level inspection distinguishes stable choices from stable display decisions: the same selected service can move above or below its threshold. Five consistent wrong answers remain wrong. Each round retains the named-versus-compact fixes and explained-versus-named regressions.
 
 The author-set research gate keeps the reserve sealed if any call fails or is missing, a named-input displayed recommendation is wrong, a named choice or display decision changes across the five rounds, or named input loses an originally correct selection. Passing this targeted diagnostic would support considering a separately frozen reserve confirmation. It would not establish an operational error budget or justify automatic routing.
 

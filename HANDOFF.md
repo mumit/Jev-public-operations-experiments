@@ -2,7 +2,7 @@
 
 ## Current state
 
-Both public studies are complete and preserved. The standalone extraction passes 48 tests; a fresh GitHub clone restores all 347 release files and recomputes both studies exactly. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
+Both public studies are complete and preserved. The standalone extraction passes 52 tests; a fresh GitHub clone restores all 347 release files and recomputes both studies exactly. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
 
 Start with README.md, docs/public-input-format.md, docs/migration.md and docs/evidence.md. Restore the evidence bundle, run scripts.verify_evidence, then inspect `/public-format` and `/public-rca`. Browsing and verification need no API key.
 
@@ -18,7 +18,7 @@ The exact-request replay is complete: 180 successful calls on 12 inspected cases
 
 Across five new rounds, compact/named/explained choices stayed stable on 12/9/11 cases; display decisions stayed stable on 11/10/12. Wrong displayed response counts were 7/0/5 out of 60 per input. Named retained all originally correct selections but changed choices on three already-wrong or insufficient-evidence cases. Two correct named selections crossed the frozen display threshold. Explained displayed the shared delay error in all five rounds although its original response had been withheld.
 
-The predeclared gate failed on named choice and display variability. Keep the 36 reserve cases sealed. Inspect the ambiguous cases and evidence discarded by median summaries before designing a new transformation on fresh development cases. Do not tune thresholds or rerun this completed protocol. docs/public-repeatability.md reports the full diagnostic; these selected repeats do not estimate held-out accuracy or an operational error rate.
+The predeclared gate failed on named choice and display variability. Keep the 36 reserve cases sealed. Inspect the ambiguous cases and evidence discarded by median summaries before designing a new transformation on fresh development cases. Do not tune thresholds or rerun this completed protocol. The read-only `/repeatability` inspector compares original and repeated responses, exposes exact wire JSON and hides published case answers until reveal. docs/public-repeatability.md reports the full diagnostic; these selected repeats do not estimate held-out accuracy or an operational error rate.
 
 ## Preservation and source boundaries
 
