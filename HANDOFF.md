@@ -2,9 +2,9 @@
 
 ## Current state
 
-Two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation and reserve confirmation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-confirmation.md. Restore all four versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective and scripts.verify_public_confirmation. The suite passes 75 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-confirmation.md. Restore all five versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective scripts.verify_public_confirmation and scripts.verify_public_agreement. The suite passes 81 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -47,7 +47,7 @@ Sock Shop shows 27 correct, zero wrong and nine withheld per round. Unfiltered J
 
 Both reserve panels are now inspected. All 90 Online Boutique, 90 Sock Shop and 90 Train Ticket cases used here have been opened. No later policy may treat these as untouched validation. The app exposes both confirmation panels under /selective, including per-case Jev/ML agreement for inspection; that indicator does not modify the frozen recommendation.
 
-The next experiment requires fresh cases and a new protocol. Recommended direction: test disagreement as a review trigger, with lost correct coverage measured. Alternative: add causal evidence such as traces/dependency context. This next objective needs a user decision; neither direction has been implemented as an inference or display change.
+The next experiment requires fresh cases and a new protocol. The user subsequently selected and completed disagreement testing on fresh RE1 cases, recorded below. The earlier RE2 agreement indicator remains diagnostic; its historical policy is unchanged.
 
 ## Current disagreement experiment
 
@@ -56,3 +56,12 @@ The user selected Jev/ML disagreement as the next review trigger. A separate RE1
 The committed public-agreement plan selects 50 fresh RE1 cases per application, in ten intact service/fault groups with five repetitions. It reserves 70 per application. All input construction, Jev questions, candidates, the fitted Online Boutique ML and the 0.70 boundary remain unchanged. An eligible Jev lead becomes review-required when ML disagrees; ML never substitutes its answer. The 300-call budget is three serial rounds with no retries or warmup. Source and request fingerprints freeze before execution. Do not tune or replace cases after inspection.
 
 The new /agreement inspector will expose the paired decisions, both choices, retained wrong agreements, lost correct leads, exact input and actual provider response. References require reveal. Completed historical inference sources remain unchanged.
+
+
+## Completed disagreement results
+
+All 300 calls succeeded on the fixed 100-case RE1 panel. Disagreement catches no eligible wrong Jev lead. Train Ticket sends 2/3/3 correct leads to review and retains 25/22/22 correct leads, with no eligible base errors. Sock Shop sends 1/0/1 correct leads to review and retains 41/40/42 correct leads plus one wrong lead in round three. Jev and ML both choose orders for published user-service loss in AGR-6362c127a31c; Jev's probability crosses 0.70 only in round three. Routing is stable on 46/50 and 44/50 cases. No policy tuning or ML fallback occurred.
+
+The descriptive gate is not established. Its frozen no_error_opportunity label refers to the requirement for eligible errors in every round, not absence of all Sock Shop errors. The report and inspector show the actual retained error explicitly. All five bundles preserve 1,207 actual responses. The separate public-agreement-v1 supplement also preserves ten schema-audit cases; prior releases remain unchanged.
+
+Seventy RE1 cases per application remain unopened. Current RE1 evaluation and audit groups are inspected and cannot validate later changes. The pending human choice is causal evidence for Jev, a stronger ML comparator, or unchanged-policy reserve confirmation. Causal evidence is recommended because both models share the fresh error. Do not open reserves or change inference before that choice and a new frozen protocol.

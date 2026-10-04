@@ -8,6 +8,7 @@ The current evidence comes from controlled RCAEval Online Boutique, Sock Shop an
 
 | Study | Held-out evidence | Result |
 |---|---|---|
+| Disagreement review trigger | 50 RE1 Train Ticket and 50 Sock Shop cases, three rounds | No wrong leads caught. Only correct Jev leads sent to review; Jev and ML agree on the one eligible Sock Shop error. |
 | Reserve confirmation | 18 Train Ticket and 36 Sock Shop cases, three rounds | Train Ticket retains one confidently wrong lead per round; Sock Shop shows 27 correct leads and withholds nine correct choices. The zero-error result does not reproduce uniformly. |
 | Selective recommendation policy | 36 Train Ticket cases, twelve groups, three rounds | Frozen 0.70 rule displays 19–22 correct leads, no wrong leads, and withholds 14–17 cases per round. Unfiltered Jev ranks 30/36 first; ML ranks 28/36. |
 | Metric root-cause comparison | 18 Online Boutique cases, six groups | Change ranking 18/18; Jev and trained ML 17/18; resource ranking 14/18. Jev's threshold displays one wrong recommendation. |
@@ -28,10 +29,11 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all four [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 reserve responses. All four retain measurements, separate references and exact requests, with no synthetic runs or credentials.
+A fresh clone includes source, reports and checkpoints. Restore all five [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. All five retain measurements, separate references and exact requests, with no synthetic runs or credentials.
 
 ## Read and inspect
 
+- [Disagreement study](docs/public-agreement.md): errors caught, correct guidance lost and shared mistakes on fresh recordings.
 - [Dataset assessment](docs/public-data-assessment.md): sources, terms and input preparation.
 - [Metric experiment](docs/public-rca-experiment.md): training, grouped splits, methods and results.
 - [Input comparison](docs/public-input-format.md): lossless transformations, matched cases and review thresholds.
@@ -52,6 +54,7 @@ uv run --locked --extra public-data python -m scripts.verify_evidence
 uv run --locked --extra public-data python -m scripts.verify_public_diagnostics
 uv run --locked --extra public-data python -m scripts.verify_public_selective
 uv run --locked --extra public-data python -m scripts.verify_public_confirmation
+uv run --locked --extra public-data python -m scripts.verify_public_agreement
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
 node --check triage_bench/web/public-repeat.js
