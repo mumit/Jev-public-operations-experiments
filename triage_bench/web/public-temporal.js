@@ -1,0 +1,34 @@
+'use strict';
+const $=id=>document.getElementById(id);
+const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const labels={named:'Named',temporal:'Named + timing'},controlLabels={ml:'Frozen ML transfer',change:'Change ranking',resource:'Resource ranking'};
+let overview,current,revealed=false,ticket=0;
+const fmt=v=>v==null?'Unavailable':Number(v).toLocaleString(undefined,{maximumSignificantDigits:7});
+async function fetchJSON(path){const r=await fetch(path);if(!r.ok)throw Error('Verified development evidence is unavailable.');return r.json();}
+function updateURL(){history.replaceState(null,'','/temporal?'+new URLSearchParams({case:$('case').value,arm:$('arm').value,round:$('round').value,service:$('service').value})+location.hash);$('report-link').href='/study?doc=public-temporal&return='+encodeURIComponent(location.pathname+location.search+location.hash);}
+function renderInput(){if(!current)return;const service=$('service').value;
+ $('base-values').innerHTML=Object.entries(current.named_state.services[service]||{}).map(([m,v])=>`<tr><td>${esc(m)}</td>${['before_median','after_median','signed_change','before_missing_fraction','after_missing_fraction'].map(k=>`<td>${fmt(v[k])}</td>`).join('')}</tr>`).join('');
+ const series=Object.entries(current.added_windows.series).filter(([name])=>name.startsWith(service+'_'));
+ $('windows').innerHTML=series.length?series.flatMap(([name,rows])=>rows.map((v,index)=>`<tr><td>${esc(name.slice(service.length+1))}</td><td>${current.added_windows.offset_seconds[index].join('–')} s</td>${v.map(x=>`<td>${fmt(x)}</td>`).join('')}</tr>`)).join(''):'<tr><td colspan="6">This observed service has no latency metric. The temporal variant adds no measurement for it.</td></tr>';updateURL();}
+function renderResponse(){if(!current)return;const number=Number($('round').value),data=current.case.arms[current.arm],response=current.responses.find(r=>r.round===number);
+ $('timeline').innerHTML=data.rounds.map(r=>`<tr class="${r.round===number?'selected-row':''}"><td>${r.round}</td><td>${esc(r.choice)}</td><td>${esc(r.shortlist.join(' → ')||'Withheld')}</td><td class="${r.top1_correct===false?'reference-error':''}">${r.top1_correct==null?'Hidden':r.top1_correct?'Matches':'Does not match'}</td><td>${r.target_in_shortlist==null?'Hidden':r.target_in_shortlist?'Yes':'No'}</td></tr>`).join('');
+ $('distribution').innerHTML=Object.entries(response.probabilities).sort((a,b)=>b[1]-a[1]||(a[0]===response.choice?-1:b[0]===response.choice?1:a[0].localeCompare(b[0]))).slice(0,12).map(([name,p])=>`<div class="distribution-row"><span>${esc(name)}${name===response.choice?' · selected':''}</span><progress class="prob-track" max="1" value="${p}" aria-label="${esc(name)} probability"></progress><span>${(p*100).toFixed(1)}%</span></div>`).join('');
+ $('raw').textContent=JSON.stringify(response.raw_response,null,2);$('usage').textContent=`${response.usage.input_tokens.toLocaleString()} input tokens · ${Math.round(response.latency_ms)} ms · provider confidence ${response.provider_confidence}`;
+ $('local').innerHTML=Object.entries(current.controls).map(([arm,r])=>`<p><strong>${controlLabels[arm]}</strong><br>${esc(r.ranking.slice(0,3).map(x=>x.service).join(' → '))}</p>`).join('');updateURL();}
+async function loadCase(){const mine=++ticket;current=null;$('round').disabled=true;$('reveal').disabled=true;$('service').disabled=true;['timeline','distribution','base-values','windows','local'].forEach(id=>$(id).replaceChildren());['raw','request','reference','consistency','usage'].forEach(id=>$(id).textContent='Verifying saved evidence…');$('status').textContent='Verifying case evidence…';const q=new URLSearchParams({case:$('case').value,arm:$('arm').value});if(revealed)q.set('reference','1');
+ try{const r=await fetchJSON('/api/public-temporal/case?'+q);if(mine!==ticket)return;current=r;for(const id of ['round','reveal','service'])$(id).disabled=false;
+ const d=current.case.arms[current.arm];$('consistency').textContent=`Three rounds: ${d.choice_stable?'first choice stayed the same':'first choice changed'}; ${d.shortlist_stable?'ordered shortlist stayed the same':'ordered shortlist changed'}.`;
+ $('reference').textContent=current.reference?`Published injected service: ${current.reference.target}. This benchmark reference does not establish analyst benefit.`:'Published reference hidden.';$('reveal').textContent=revealed?'Hide published reference':'Reveal published reference';
+ const saved=$('service').value||new URLSearchParams(location.search).get('service');$('service').innerHTML=Object.keys(current.named_state.services).sort().map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');
+ const selected=current.responses.find(x=>x.round===Number($('round').value)).choice;
+ if(current.named_state.services[saved])$('service').value=saved;else if(current.named_state.services[selected])$('service').value=selected;
+ $('request').textContent=JSON.stringify(current.request,null,2);renderResponse();renderInput();$('status').textContent='Verified saved development evidence. Browsing makes no model calls.';
+ }catch(e){if(mine===ticket)$('status').textContent=e.message;}}
+async function main(){try{overview=await fetchJSON('/api/public-temporal');if(!overview.available){$('status').textContent=overview.notes.join(' ');return;}$('content').hidden=false;
+ $('summary').innerHTML=Object.entries(overview.metrics).flatMap(([arm,m])=>m.per_round.map(r=>`<tr><td>${labels[arm]}</td><td>${r.round}</td><td>${r.top1_correct}/18</td><td>${r.target_in_shortlist}/18</td><td>${r.wrong_leads}</td><td>${r.total_leads}</td><td>${r.withheld}</td></tr>`)).join('');
+ $('stability').textContent=Object.entries(overview.metrics).map(([a,m])=>`${labels[a]}: ${m.choice_stable_cases}/18 stable first choices; ${m.shortlist_stable_cases}/18 stable ordered shortlists.`).join(' ');
+ $('local-summary').innerHTML=Object.entries(overview.controls).map(([arm,r])=>`<tr><td>${controlLabels[arm]}</td><td>${r.top1_correct}/18</td><td>${r.top3_inclusion}/18</td></tr>`).join('');$('gate').textContent=overview.next_gate;
+ $('case').innerHTML=overview.cases.map(c=>`<option value="${esc(c.id)}">${esc(c.id)} · ${esc(c.fault)}</option>`).join('');const q=new URLSearchParams(location.search);if(overview.cases.some(c=>c.id===q.get('case')))$('case').value=q.get('case');if(labels[q.get('arm')])$('arm').value=q.get('arm');if(/^[1-3]$/.test(q.get('round')||''))$('round').value=q.get('round');
+ for(const id of ['case','arm'])$(id).addEventListener('change',()=>{if(id==='case')revealed=false;loadCase();});$('round').addEventListener('change',renderResponse);$('service').addEventListener('change',renderInput);$('reveal').addEventListener('click',()=>{revealed=!revealed;loadCase();});await loadCase();
+ }catch(e){$('status').textContent=e.message;}}
+main();

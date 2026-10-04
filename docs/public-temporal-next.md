@@ -4,7 +4,7 @@
 
 The [repeatability diagnostic](public-repeatability.md) separates two problems. Named input changes some weak, withheld selections, and two correct selections cross its display boundary. It keeps all originally correct service choices on the selected panel. Explained input displays a shared error that its original response withheld. Exact requests do not guarantee fixed recommendations, and five repeats do not reveal the provider's internal reason.
 
-The next experiment will keep single-service accuracy as a control and test whether an analyst receives a useful shortlist of up to three services, with the cause explicitly unconfirmed. A shortlist is an investigation aid, not a confirmed diagnosis. Including the published target in three candidates is a different result from selecting it first; the report must show both, shortlist size, wrong leads and withheld outputs. No current threshold or historical score changes.
+The development experiment keeps single-service accuracy as a control and tests shortlists of up to three services, with the cause explicitly unconfirmed. A shortlist is an investigation aid, not a confirmed diagnosis. Including the published target in three candidates is a different result from selecting it first; the report must show both, shortlist size, wrong leads and withheld outputs. No current threshold or historical score changes.
 
 ## Offline timing audit
 
@@ -26,11 +26,11 @@ The output folder must already exist. The recorded checkpoint contains the inspe
 
 ## Fresh development evidence
 
-The pinned RCAEval index contains 90 RE2 Train Ticket cases that these studies have not inspected. All report 720 before and 721 after samples. Their service/fault repetition groups can stay together in 18 development, 18 calibration, 36 evaluation and 18 reserve cases. Both the existing 36-case Sock Shop reserve and the new Train Ticket calibration/evaluation/reserve telemetry will stay sealed while development is prepared.
+The pinned RCAEval index provided 90 RE2 Train Ticket cases that the earlier studies had not inspected. All report 720 before and 721 after samples. Their service/fault repetition groups can stay together in 18 development, 18 calibration, 36 evaluation and 18 reserve cases. The existing 36-case Sock Shop reserve and new Train Ticket calibration/evaluation/reserve telemetry remain sealed.
 
-Train Ticket is larger: index entries report 340–376 metric series per case, compared with the smaller applications already studied. The first preparation will measure actual request size and candidate coverage before any hosted call. The current named input and a temporal variant must fit the declared context bound without silently dropping candidates or measurements.
+Train Ticket is larger: index entries report 340–376 metric series per case, compared with the smaller applications already studied. Preparation measured request size and candidate coverage before any hosted call. The current named input and a temporal variant must fit the declared context bound without silently dropping candidates or measurements.
 
-Once preparation passes, a separate protocol can compare unchanged named summaries with the same summaries plus latency time windows. Both arms will keep the same candidate services and cause-selection question. The shortlist will come from the saved choice distribution, not another hidden inference step. Single-service accuracy, candidate inclusion, shortlist size and display behavior must stay visible separately. New ML fitting, trace interpretation and automatic routing are outside this comparison.
+The separate protocol compares unchanged named summaries with the same summaries plus latency time windows. Both arms keep the same candidate services and cause-selection question. The shortlist comes from the saved choice distribution, not another hidden inference step. Single-service accuracy, candidate inclusion, shortlist size and display behavior must stay visible separately. New ML fitting, trace interpretation and automatic routing are outside this comparison.
 
 The shortlist direction was selected after the instruction to continue. Its precise development contract is now frozen below.
 
@@ -72,7 +72,7 @@ Both named errors involve train-service network-loss cases, where admin-travel r
 
 ## Decision before calibration
 
-The named input is the development candidate. Temporal windows add request size and one repeated regression without improving target inclusion. I will preserve that result rather than add timing detail to the candidate by default.
+Named input is the development candidate. Temporal windows add request size and one repeated regression without improving target inclusion. The candidate keeps the named summaries.
 
 A shortlist includes the published cause more often than one selected service here, but extra leads can create unnecessary investigation. Most named first choices were already correct. Adding weak alternatives to those cases inflated the lead count without fixing a primary error. The benchmark reference can count those extras; it cannot measure their actual investigation cost or usefulness to an analyst.
 

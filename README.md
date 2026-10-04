@@ -26,14 +26,14 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore the [public evidence bundle](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The bundle supplies pinned metric files, prepared inputs, separate references, the original fitted ML control and all 294 saved Jev calls across the two studies. It contains no synthetic study runs or credentials.
+A fresh clone includes source, reports and checkpoints. Restore both [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. Both retain measurements, separate references and exact requests, with no synthetic runs or credentials.
 
 ## Read and inspect
 
 - [Dataset assessment](docs/public-data-assessment.md): sources, terms and input preparation.
 - [Metric experiment](docs/public-rca-experiment.md): training, grouped splits, methods and results.
 - [Input comparison](docs/public-input-format.md): lossless transformations, matched cases and review thresholds.
-- [Next evidence experiment](docs/public-temporal-next.md): exploratory timing audit and fresh development design.
+- [Next evidence experiment](docs/public-temporal-next.md): timing audit, fresh development results and pending shortlist objective.
 - [Repeatability diagnostic](docs/public-repeatability.md): exact-request replay design and research gate.
 - [Evidence bundle](docs/evidence.md): download, safe restoration and verification.
 - [Migration](docs/migration.md): archived sources and the standalone extraction.
@@ -45,8 +45,11 @@ A fresh clone includes source, reports and checkpoints. Restore the [public evid
 ```bash
 uv run --locked --extra public-data python -m unittest discover -s tests -v
 uv run --locked --extra public-data python -m scripts.verify_evidence
+uv run --locked --extra public-data python -m scripts.verify_public_diagnostics
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
+node --check triage_bench/web/public-repeat.js
+node --check triage_bench/web/public-temporal.js
 node --check triage_bench/web/study.js
 ```
 

@@ -44,7 +44,7 @@ The other two named choice changes occurred on weak, withheld disk-fault selecti
 
 Named input remains the strongest candidate among these formats for analyst-facing research. It retained its correct choices and displayed no wrong recommendation on this panel. However, its original held-out display count is a single-run observation, not stable coverage. Explained input displayed the shared delay error in all five replays despite withholding the original response.
 
-The predeclared research gate failed on named choice and display variability. The 36 reserve cases stay sealed; thresholds and historical results stay fixed. Before another hosted experiment, I will inspect what evidence the ambiguous cases contain and what the median summaries discard. A fresh development set and separately frozen candidate are needed to evaluate a transformation. Changing the threshold to fit these inspected responses would not answer that question.
+The predeclared research gate failed on named choice and display variability. The 36 reserve cases stay sealed; thresholds and historical results stay fixed. The subsequent [timing audit and fresh development comparison](public-temporal-next.md) inspect what the summaries discard and test an addition on Train Ticket cases. Changing the threshold to fit these inspected responses would not answer that question.
 
 ## Inspect and reproduce
 
@@ -56,4 +56,4 @@ The committed protocol and assessment record the request plan, source hashes, st
 uv run --locked --extra public-data python -m scripts.run_public_repeat score
 ```
 
-The original public-study-v1 bundle contains the two historical studies only. Replay evidence is a separate run and will need a separate release asset for restoration in another clone. No credentials belong in either bundle.
+The original public-study-v1 bundle contains the two historical studies only. The separate public-diagnostics-v1 asset supplies this replay and the later development evidence; restore it after the original bundle using the [evidence guide](evidence.md). No credentials belong in either bundle.

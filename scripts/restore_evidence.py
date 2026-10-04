@@ -40,6 +40,6 @@ def restore(archive,root=ROOT,manifest=None):
 
 
 def main():
-    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('archive');args=parser.parse_args()
-    print(json.dumps(restore(args.archive)))
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('archive');parser.add_argument('--manifest',default='evidence/public-study-v1.json');args=parser.parse_args()
+    print(json.dumps(restore(args.archive,manifest=json.loads(Path(args.manifest).read_text()))))
 if __name__=='__main__':main()

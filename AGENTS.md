@@ -17,3 +17,5 @@ Before publication, run the Python unit suite, both pack validators, scripts.ver
 Write plain, concise prose. Use first person for authorship and choices; let models, data and results lead descriptions of behavior. Avoid repeated I used/I trained/I will openings, em dashes, fluff and unsupported causal claims.
 
 The completed repeatability protocol and its new inference/scoring modules are frozen too. Do not rerun it or edit its fingerprinted source. Its research gate failed; the Sock Shop reserve remains sealed. Add new diagnostic modules for further transformations.
+
+Fresh Train Ticket development, the one-call context probe and the three-round temporal comparison are frozen and complete. Preserve their preparation/source fingerprints and recorded results. Do not automatically open calibration: its shortlist inclusion-versus-withholding objective is awaiting a user decision. Use scripts.verify_public_diagnostics for all later evidence; the original evidence verifier still checks public-study-v1 independently.

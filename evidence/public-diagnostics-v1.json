@@ -1,0 +1,216 @@
+{
+  "schema": "public-diagnostics-evidence-1",
+  "archive": "public-diagnostics-v1.tar.gz",
+  "archive_sha256": "db0f9712e96d92886ef6b186dac29ae0632d5d79f8da7686b518d288ce14c84d",
+  "bytes": 13814645,
+  "source_commit": "9ee078f59ccf2e9d2bc42242338f08cef32bdbf2",
+  "requires": "public-study-v1",
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 289,
+  "files": {
+    "runs/public-repeat/diagnostic-2026-10-03-v1/requests.json": {
+      "bytes": 2475878,
+      "sha256": "c09da72eaa9a1fdf0d9cd24d73175ea6a6e67a7444850e64f412a4245dc25d57"
+    },
+    "runs/public-repeat/diagnostic-2026-10-03-v1/responses.jsonl": {
+      "bytes": 215636,
+      "sha256": "e6f1bc30fdca636fe8741e59788dc713af0cc26ebfa405c16620f7444610f826"
+    },
+    "runs/public-repeat/diagnostic-2026-10-03-v1/summary.json": {
+      "bytes": 461,
+      "sha256": "beb277a77eae375259f50202c75a6259b9ddd2b16a18e7792ffcdeeb905e5dd2"
+    },
+    "runs/public-repeat/execution/3032ebe11375a61e014612799dade8104bcdf963c8366eed6c6c242f689e334b.json": {
+      "bytes": 57,
+      "sha256": "ad68432d0fc2a1e90c1bb9242b2d8e15662d32d56cdd72b051a6538267c39866"
+    },
+    "runs/public-temporal/comparison-development-2026-10-04-v1/controls.json": {
+      "bytes": 2500405,
+      "sha256": "f85aa0ac250f98c69462bd53cf50da6e5a24742e895a261d75142c30529d7b0d"
+    },
+    "runs/public-temporal/comparison-development-2026-10-04-v1/requests.json": {
+      "bytes": 8128869,
+      "sha256": "7b7e766ffc4d6f15a2ad5e0a73739d7422e530c483a50254d2ef0772f65fcdd7"
+    },
+    "runs/public-temporal/comparison-development-2026-10-04-v1/responses.jsonl": {
+      "bytes": 476751,
+      "sha256": "f19880938d9ab142590d73f44090907f6468b314600528ca6d27264f93f9aeab"
+    },
+    "runs/public-temporal/comparison-development-2026-10-04-v1/summary.json": {
+      "bytes": 542,
+      "sha256": "bce53bfa12a893a73783630388d2ce0b1e737c3f05c116d969c316702d136607"
+    },
+    "runs/public-temporal/context-probe-2026-10-04-v1/request.json": {
+      "bytes": 80441,
+      "sha256": "f2d0a95452705b1a6c2cb29430f74850c0a995015ed0c5394c810aeb3047e917"
+    },
+    "runs/public-temporal/context-probe-2026-10-04-v1/result.json": {
+      "bytes": 3326,
+      "sha256": "2adae685805677e3ca27d491863706a34b5f2dec077d1beca2ee87dd1eb862e0"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/assignments.json": {
+      "bytes": 13965,
+      "sha256": "b708b992fc099ff061c954117787391c88f550b285e2edd156d9eccd98bf2235"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/development.inputs.json": {
+      "bytes": 3649433,
+      "sha256": "d01e844bb52d8c2e00432300d06172f97c8787b4927fd68db4599d5bbbc50517"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/development.references.json": {
+      "bytes": 2361,
+      "sha256": "16e165aac0bd17ef663389f4180f7b8bf4009a45a21eb7a06ed11295dd24d9a1"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/manifest.json": {
+      "bytes": 10490,
+      "sha256": "0fd29353adab611d92b613a93e291d1c65439fffc10632834f365682de536cc3"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-1aea25a65457/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "30ab641bab10e65055578d691018e1285f005e0846950ebcbd9ff55a81bc2845"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-1aea25a65457/metrics.parquet": {
+      "bytes": 936821,
+      "sha256": "bc24cdc910a3f72df6cb6371b0188f265ab42fb4eef4f8a9f3744a8d3bfa7cc8"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-3345b709a24e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b529318f1b8da9a25b7d6e026084b6c78d4219e777491a5f205d21cc61165883"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-3345b709a24e/metrics.parquet": {
+      "bytes": 840490,
+      "sha256": "a14350b6ffe814f0749083dcf5b4d9cab5b4816d02c8b46cab1717b924d2a29f"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-3cfc8cf70d39/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9217645ed126bbf5641f4ed2263f848b8336526a58db0c574301137d93648831"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-3cfc8cf70d39/metrics.parquet": {
+      "bytes": 933062,
+      "sha256": "3defe3d34b6373badf39bd030e1144a1178467a12ad1543f68273eaae132ddf6"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-422ac9cb1056/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fd9c5b7dd87c6f3fd65d89425c7184d7afa2ecbfe245276ba5aa4664e2e1b635"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-422ac9cb1056/metrics.parquet": {
+      "bytes": 938472,
+      "sha256": "63f8185be0e244e20de749050365bc46cdffbe2a89dc2f2b48043a4339a6f6cc"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-536c2593bbc8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "52129ae3a529b7088caae16baab322862823761105676bb40927ec0507171a07"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-536c2593bbc8/metrics.parquet": {
+      "bytes": 859395,
+      "sha256": "be0b6f65d3989208b9aae0d3ca3e0ad5acb8955fd8ba27e104f80f46f7b11625"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-5759aa6d37ca/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "093b53855297d6a86fe88023d705bb87cc11042aa6f3c1524447e85e89dff345"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-5759aa6d37ca/metrics.parquet": {
+      "bytes": 1019911,
+      "sha256": "a1011870fc827f1eb7d97687ee41a30a0f6629c5aebec62b0c16640a6e0245a9"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-5b07c4ccd5f9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "304feaf4eb34a2fd824f7a9ea55bf5c3295d435c7fd15ad4bdd8dc86d588f350"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-5b07c4ccd5f9/metrics.parquet": {
+      "bytes": 929974,
+      "sha256": "7d8122b167861a21926ff8b5a8c8d39ee2ea63e43f72dd25dbd08d04a0688a25"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-602eb7dcc9b6/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "aff13ac02bc5a66c74e66a9207222e362c090b398125edcd532adcbee96d3d11"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-602eb7dcc9b6/metrics.parquet": {
+      "bytes": 938243,
+      "sha256": "a2edeaae64b0d7b148597b140385c070d96b5fa3dd3be6ae8bf7f4d8eb83b3de"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-62d29373ae39/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b21871b8b5c3a46e551a8f5b3d97947fb4cf5e160e304e41dfc6b1c8a2e47a93"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-62d29373ae39/metrics.parquet": {
+      "bytes": 926201,
+      "sha256": "535542c80c6fa3c744cb7cc5fb671f37b613900f22b13b184c63f08caff21f17"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-6ce822751fad/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4c38fbf0ded48fa646edd8aa448134cc9670656fec809c2516cd365129099ef4"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-6ce822751fad/metrics.parquet": {
+      "bytes": 931939,
+      "sha256": "30c6a0a1d15aeb77b8b2fae867f371ccb0726ef1d1cd91a17d019387b401a54c"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-78faf393b2da/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3ccf760f424e411bf8c31c46780fa5b6d008f02db1f3108e80795c1be0d0ea03"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-78faf393b2da/metrics.parquet": {
+      "bytes": 926818,
+      "sha256": "10d78809a7945af553fa49cf119f9decaeccd1989200d03c54ceb973fe101f24"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-8029dc51d694/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a6288dff27d70bb1238845c9711dd396560bef874ec64c44688d505d60edc42e"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-8029dc51d694/metrics.parquet": {
+      "bytes": 927318,
+      "sha256": "59f696a169b59f783e9b9c335c0ffd5c311411d108be385db24c940a77a8b84a"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-86406daa6fce/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ecc8ac8295583809dc546a829b3079120d7762f44cca6a573aa03706f741b8b3"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-86406daa6fce/metrics.parquet": {
+      "bytes": 933362,
+      "sha256": "16597725c18258ce0a3bdedc1833fb52ad6638fdc5068e944dce23c1bbde6d93"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-aaa2d8deaf2c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f696288f3d53e98429bd6e5808e802282da9aae7fd06d9d07e1fbcbe4ce4b84e"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-aaa2d8deaf2c/metrics.parquet": {
+      "bytes": 930654,
+      "sha256": "37eb05d8d10ddfb04acf7314be3b476273a0fac21dd6c7df427f77cb52ca44cc"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-ab7504094d40/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a5e903a898fb227d628e1156911b1b5ee582e7efc263166270560fc236081988"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-ab7504094d40/metrics.parquet": {
+      "bytes": 945334,
+      "sha256": "9193394a5c0a02f9a44e0c59f460faae8c4ab3db840edf157a91e5951895a30a"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-b6165ab45de6/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "09c4da507576a3e12bd2a9653fbeff08d028d118ddcecb5435a36f1d7a5108c5"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-b6165ab45de6/metrics.parquet": {
+      "bytes": 929522,
+      "sha256": "5821cfe381361135378016fab59073989beac33b86206677aaca263a288399e4"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-b66e05767653/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "858579759b6983ad51390c51d978949ce07627608959d44248da88c3f144e996"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-b66e05767653/metrics.parquet": {
+      "bytes": 941584,
+      "sha256": "6b346b31f92385884f40dae0fbe4fdcb3ffd941062f61c54166496cb2942ef55"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-d2783a24c7be/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4d498668cfec1932e5cbc6af4255fcef773b924e125eff5508f2934908074bb3"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/raw/TMP-d2783a24c7be/metrics.parquet": {
+      "bytes": 1008256,
+      "sha256": "e870291e6c87bd6b278b34234259e9e0063cca7f0baf890fe89fb8a2e4895ce7"
+    },
+    "runs/public-temporal/development-2026-10-04-v1/request-sizing.json": {
+      "bytes": 4611,
+      "sha256": "24c691c651df1961ac23a745865b4b1cdcb01f622594b46e90be226491edc641"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Standalone verification
 
-The public-only extraction passes 60 Python tests and syntax checks for all four browser scripts. Tests cover grouped splits, missingness, input/reference separation, response validation, stage gates, explicit reference reveal, origin protection and safe article links. Migration tests compare extracted helper definitions with their archived originals, reject changes to source fingerprints, block new calls under completed historical protocols and reject unsafe or corrupted release archives.
+The public-only extraction passes 63 Python tests and syntax checks for all five browser scripts. Tests cover grouped splits, missingness, input/reference separation, response validation, stage gates, explicit reference reveal, origin protection and safe article links. Migration tests compare extracted helper definitions with their archived originals, reject changes to source fingerprints, block new calls under completed historical protocols and reject unsafe or corrupted release archives.
 
 The evidence verifier reconstructs all 294 saved request bodies, reproduces the fitted ML control from training-only data and recomputes all six stage assessments and frozen thresholds exactly. Both pack validators confirm the original assignments, measurement hashes and 36 undownloaded reserve cases. The migration makes no hosted calls.
 
@@ -19,3 +19,5 @@ The offline timing audit tests fixed before-window scaling, elapsed-time bins, e
 The completed fresh development pack reconstructs all 18 named/temporal requests from publisher-verified metric sources and keeps 72 future cases undownloaded. Request sizes fail the conservative byte guard. A separate one-call context probe test verifies once-only execution, credential redaction and absence of accuracy scoring; the actual one-call probe was accepted and reported 30,471 input tokens.
 
 The new development shortlist tests check tied selected winners, deterministic cutoff order, exclusion of zero-probability candidates and withholding on insufficient-evidence, failed or missing responses. All 108 calls succeeded; scoring verifies normalized provider outputs, planned denominators, fixed transfer controls and exact recorded request plans.
+
+The later diagnostic verifier reconstructs all 180 replay calls, the accepted one-call capacity probe, the 12-case exploratory timing audit and all 108 development calls, including frozen transfer controls. It makes no provider calls. The temporal inspector requires a complete recomputed assessment and hides answer-derived case fields until reference reveal.

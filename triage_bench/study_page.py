@@ -12,7 +12,7 @@ DOCUMENTS={'public-temporal':'docs/public-temporal-next.md','public-repeat':'doc
 
 def return_path(value):
     value=value or '/public-format';p=urlparse(value)
-    if p.scheme or p.netloc or p.path not in {'/','/public-rca','/public-format','/repeatability'} or '\\' in value or len(value)>4096:return '/public-format'
+    if p.scheme or p.netloc or p.path not in {'/','/public-rca','/public-format','/repeatability','/temporal'} or '\\' in value or len(value)>4096:return '/public-format'
     if p.fragment and p.fragment not in {'overview','evidence','input','decision','inspect','wire'}:return '/public-format'
     return value
 
@@ -25,7 +25,7 @@ def render_study(study,params):
     document=params.get('doc','public-format')
     if document not in DOCUMENTS:raise ValueError('Unknown study document.')
     source=(study.root/DOCUMENTS[document]).read_text()
-    back=return_path(params.get('return','/repeatability' if document=='public-repeat' else '/public-rca' if document in {'public-rca','public-data'} else '/public-format'))
+    back=return_path(params.get('return','/temporal' if document=='public-temporal' else '/repeatability' if document=='public-repeat' else '/public-rca' if document in {'public-rca','public-data'} else '/public-format'))
     def reader_link(href):
         p=urlparse(href)
         if not p.scheme and not p.netloc:
@@ -33,7 +33,7 @@ def render_study(study,params):
             for key,path in DOCUMENTS.items():
                 if p.path in {path,Path(path).name,'../'+path,'../'+Path(path).name}:
                     return '/study?'+urlencode({'doc':key,'return':back})+('#section-'+p.fragment if p.fragment else '')
-        if p.hostname in {'localhost','127.0.0.1'} and p.path in {'/','/public-rca','/public-format','/repeatability','/study'}:
+        if p.hostname in {'localhost','127.0.0.1'} and p.path in {'/','/public-rca','/public-format','/repeatability','/temporal','/study'}:
             return p.path+('?' +p.query if p.query else '')+('#'+p.fragment if p.fragment else '')
         return href
     md = MarkdownIt('js-default')
