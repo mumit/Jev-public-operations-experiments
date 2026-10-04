@@ -31,3 +31,5 @@ A fresh local clone restored all three bundles, 522 files in total, passed all t
 
 
 Reserve-confirmation tests verify that download stops before network access if preceding evidence fails its gate, that the exact unchanged policy and complete evaluation reproduce, and that scoring keeps applications separate without boundary selection. All 162 confirmation calls succeeded. The confirmation verifier reconstructs publisher-verified data, exact requests, normalized replies, unchanged controls and both recorded application assessments without inference. Original verifier sealing counts refer to their historical stage; the two reserve panels are now inspected.
+
+A fresh local clone restored all four evidence bundles, 638 files in total, and passed all four evidence verifiers and all 75 tests without a key or the original checkout. Browser review verified the separate confirmation panels, persistent wrong-lead reference reveal, Jev/ML disagreement, unchanged-input measurement inspection, round switching and report return context. The published assets preserve the earlier zero-error result and the later failure separately.

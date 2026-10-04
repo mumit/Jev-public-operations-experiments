@@ -1,6 +1,6 @@
 # Confirm the selective policy on untouched reserves
 
-The user selected confirmation of the existing selective policy. This experiment consumes the remaining 18 Train Ticket and 36 Sock Shop reserve cases under a separate protocol committed before download. Their service/fault repetition groups remain intact: six Train Ticket groups and twelve Sock Shop groups.
+I tested the unchanged selective policy on the remaining 18 Train Ticket and 36 Sock Shop reserve cases under a separate protocol committed before download. Their service/fault repetition groups remain intact: six Train Ticket groups and twelve Sock Shop groups.
 
 The named input, cause-selection question, all observed candidates, Jev version and fitted ML stay unchanged. Every call uses the same 0.70 probability display boundary, zero required margin, and at most one lead. Insufficient-evidence choices, failures and missing responses withhold. The protocol performs no threshold search, calibration, prompt changes, candidate filtering or refitting.
 
