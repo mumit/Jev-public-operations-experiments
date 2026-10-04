@@ -2,9 +2,9 @@
 
 ## Current state
 
-Two public comparisons, an exact-request replay and a fresh temporal development comparison are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Two public comparisons, an exact-request replay, a fresh temporal development comparison and selective calibration/evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-temporal-next.md. Restore both versioned evidence bundles, then run scripts.verify_evidence and scripts.verify_public_diagnostics. The suite passes 63 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-selective.md. Restore both versioned evidence bundles, then run scripts.verify_evidence and scripts.verify_public_diagnostics. The suite passes 72 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -26,7 +26,7 @@ The user chose fewer wrong leads, accepting more withholding, on 2026-10-04. Nam
 
 The probability threshold and the gap to the strongest competing option, including insufficient_evidence, control display. Calibration considers all three rounds and maximizes useful coverage among policies with zero observed wrong leads in every round. This is an author-set research criterion, not an operational error budget. Correct withheld recommendations remain visible in scoring.
 
-All 54 calibration calls succeeded. The selected rule is probability >=0.70, margin >=0, one lead at most. It shows 11/10/11 correct leads and zero wrong leads; withholds 7/8/7 including 1/3/3 correct first choices. ML transfers at 15/18 on calibration, Jev unfiltered at 12/13/14. The new plan permits 108 evaluation calls. Evaluation download requires a complete, recomputed and committed calibration boundary. A boundary with no eligible displayed recommendations keeps evaluation sealed. No historical model request or boundary changes. Both reserve sets remain undownloaded.
+All 54 calibration calls succeeded. The selected rule is probability >=0.70, margin >=0, one lead at most. It shows 11/10/11 correct leads and zero wrong leads; withholds 7/8/7 including 1/3/3 correct first choices. ML transfers at 15/18 on calibration, Jev unfiltered at 12/13/14. The new plan permits 108 evaluation calls. All 108 evaluation calls succeeded on 36 untouched cases in twelve groups. The frozen policy shows 21/19/22 correct leads, zero wrong leads, and withholds 15/17/14 cases including 9/11/8 correct first choices. Display is stable on 33/36 cases. Unfiltered Jev ranks 30/36 first each round; ML/change/resource rank 28/27/25. The policy improves displayed precision by withholding, not model accuracy. See /selective and docs/public-selective.md. Both reserve sets, 18 Train Ticket and 36 Sock Shop cases, remain undownloaded. A fixed-boundary confirmation needs a separate committed protocol; recovering coverage with new inputs or ML fallback needs fresh development and calibration.
 
 ## Frozen evidence and continuation
 

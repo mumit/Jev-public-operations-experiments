@@ -33,3 +33,30 @@ All 54 calibration calls completed successfully. The frozen rule selects a proba
 Without filtering, Jev's first choice matches 12, 13 and 14 of 18 targets. The original three-service shortlist includes all targets but adds 34–35 wrong leads per round. Frozen ML ranks 15 targets first; change and resource rankings each match 10. The perfect development ML result did not carry over to these calibration groups.
 
 Calibration chose the boundary, so its zero-error result is not an independent validation. Evaluation is the next test and uses the committed boundary unchanged. Implementation tests cover competing insufficient-evidence probabilities, alternative support, failures, every-round calibration eligibility, once-only calls, credential redaction and the evaluation download gate.
+
+## Untouched evaluation result
+
+All 108 evaluation calls completed successfully. The 36 cases belong to twelve previously unopened service/fault groups. The 0.70 probability boundary and zero margin stayed unchanged.
+
+| Display policy | Correct first choice per round | Published cause included per round | Extra wrong leads per round | Withheld cases per round |
+|---|---:|---:|---:|---:|
+| Calibrated one lead or withhold | 21, 19, 22 | 21, 19, 22 | 0, 0, 0 | 15, 17, 14 |
+| Unfiltered first choice | 30, 30, 30 | 30, 30, 30 | 5, 5, 5 | 1, 1, 1 |
+| Fixed supported alternative | 30, 30, 30 | 33, 34, 33 | 6, 6, 7 | 1, 1, 1 |
+| Original up-to-three shortlist | Not a first-choice display policy | 35, 35, 35 | 63, 62, 64 | 1, 1, 1 |
+
+The selective rule removes every observed wrong first choice, but also withholds 9, 11 and 8 correct first choices. It provides a correct lead for roughly 53–61% of cases. This is improved precision of displayed output, not improved model accuracy. One case chooses insufficient evidence in all rounds; its exclusion is distinct from withholding a selected service below 0.70.
+
+Unchanged ML ranks 28/36 causes first, change ranking 27/36 and resource ranking 25/36. Their first-three inclusion counts are 31, 32 and 30. They have no new display calibration, so comparing their unfiltered choices directly with Jev's selective display rate would conceal the coverage difference. Jev's 30/36 unfiltered result is slightly higher here; ML's earlier perfect development result was specific to those six groups.
+
+Display stays identical on 33/36 cases. The remaining three are correct first choices that cross the boundary. For `TMP-ac37c4d350a2`, Jev selects train-service every time, with probabilities 0.6869, 0.64 and 0.71. The policy withholds the first two responses and shows the third. The other crossings involve route-service memory and socket cases. Exact requests still do not guarantee a stable analyst-facing recommendation.
+
+The strongest remaining errors are delay cases: two train-service and two travel-service cases rank admin-travel first in every round. All stay below 0.70. An order-service loss case selects preserve, also below the boundary. This observation identifies failures to inspect; it does not justify changing the threshold on evaluation data.
+
+## What this says about Jev
+
+On this held-out panel, Jev can supply selective, analyst-facing service recommendations from named metric summaries. The calibrated rule avoids observed wrong leads at a substantial coverage cost. It is not ready for automatic routing: the study supplies incident boundaries, has few correlated fault groups, and leaves investigation time and real incident accuracy unmeasured.
+
+The remaining 18 Train Ticket reserve cases and 36 Sock Shop reserve cases stay undownloaded. The next confirmation should keep the input and 0.70 boundary fixed, test new groups, and report display stability alongside precision and lost coverage. Any attempt to recover withheld cases through a new transformation or ML fallback needs a separate development/calibration protocol. These inspected evaluation cases cannot select the next boundary.
+
+Inspect [the selective workbench](http://127.0.0.1:8769/selective) for per-case probabilities, the competing-option gap, display reasons, published references and the unchanged input.

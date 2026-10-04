@@ -1,0 +1,6004 @@
+{
+  "schema": "public-selective-assessment-1",
+  "split": "evaluation",
+  "cases": 36,
+  "groups": 12,
+  "rounds": 3,
+  "planned_calls": 108,
+  "failed_or_missing": 0,
+  "selected": {
+    "policy": {
+      "threshold": 0.7,
+      "margin": 0.0,
+      "maximum_leads": 1
+    },
+    "per_round": [
+      {
+        "round": 1,
+        "cases": 18,
+        "shown": 11,
+        "correct_first": 11,
+        "cause_included": 11,
+        "wrong_leads": 0,
+        "total_leads": 11,
+        "withheld": 7,
+        "correct_first_withheld": 1,
+        "wrong_first_withheld": 6,
+        "failed_or_missing": 0
+      },
+      {
+        "round": 2,
+        "cases": 18,
+        "shown": 10,
+        "correct_first": 10,
+        "cause_included": 10,
+        "wrong_leads": 0,
+        "total_leads": 10,
+        "withheld": 8,
+        "correct_first_withheld": 3,
+        "wrong_first_withheld": 5,
+        "failed_or_missing": 0
+      },
+      {
+        "round": 3,
+        "cases": 18,
+        "shown": 11,
+        "correct_first": 11,
+        "cause_included": 11,
+        "wrong_leads": 0,
+        "total_leads": 11,
+        "withheld": 7,
+        "correct_first_withheld": 3,
+        "wrong_first_withheld": 4,
+        "failed_or_missing": 0
+      }
+    ],
+    "stable_display_cases": 17
+  },
+  "selective": {
+    "policy": {
+      "threshold": 0.7,
+      "margin": 0.0,
+      "maximum_leads": 1
+    },
+    "per_round": [
+      {
+        "round": 1,
+        "cases": 36,
+        "shown": 21,
+        "correct_first": 21,
+        "cause_included": 21,
+        "wrong_leads": 0,
+        "total_leads": 21,
+        "withheld": 15,
+        "correct_first_withheld": 9,
+        "wrong_first_withheld": 6,
+        "failed_or_missing": 0
+      },
+      {
+        "round": 2,
+        "cases": 36,
+        "shown": 19,
+        "correct_first": 19,
+        "cause_included": 19,
+        "wrong_leads": 0,
+        "total_leads": 19,
+        "withheld": 17,
+        "correct_first_withheld": 11,
+        "wrong_first_withheld": 6,
+        "failed_or_missing": 0
+      },
+      {
+        "round": 3,
+        "cases": 36,
+        "shown": 22,
+        "correct_first": 22,
+        "cause_included": 22,
+        "wrong_leads": 0,
+        "total_leads": 22,
+        "withheld": 14,
+        "correct_first_withheld": 8,
+        "wrong_first_withheld": 6,
+        "failed_or_missing": 0
+      }
+    ],
+    "stable_display_cases": 33,
+    "outcomes": [
+      {
+        "id": "TMP-a0a3fa8209f6",
+        "group": "ts-auth-service/disk",
+        "target": "ts-auth-service",
+        "fault": "disk",
+        "round": 1,
+        "leads": [
+          "ts-auth-service"
+        ],
+        "reason": "shown",
+        "probability": 0.87,
+        "margin": 0.78,
+        "choice": "ts-auth-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-a0a3fa8209f6",
+        "group": "ts-auth-service/disk",
+        "target": "ts-auth-service",
+        "fault": "disk",
+        "round": 2,
+        "leads": [
+          "ts-auth-service"
+        ],
+        "reason": "shown",
+        "probability": 0.87,
+        "margin": 0.79,
+        "choice": "ts-auth-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-a0a3fa8209f6",
+        "group": "ts-auth-service/disk",
+        "target": "ts-auth-service",
+        "fault": "disk",
+        "round": 3,
+        "leads": [
+          "ts-auth-service"
+        ],
+        "reason": "shown",
+        "probability": 0.89,
+        "margin": 0.81,
+        "choice": "ts-auth-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-6dff0b58ffa9",
+        "group": "ts-auth-service/disk",
+        "target": "ts-auth-service",
+        "fault": "disk",
+        "round": 1,
+        "leads": [
+          "ts-auth-service"
+        ],
+        "reason": "shown",
+        "probability": 0.88,
+        "margin": 0.79,
+        "choice": "ts-auth-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-6dff0b58ffa9",
+        "group": "ts-auth-service/disk",
+        "target": "ts-auth-service",
+        "fault": "disk",
+        "round": 2,
+        "leads": [
+          "ts-auth-service"
+        ],
+        "reason": "shown",
+        "probability": 0.9,
+        "margin": 0.8300000000000001,
+        "choice": "ts-auth-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-6dff0b58ffa9",
+        "group": "ts-auth-service/disk",
+        "target": "ts-auth-service",
+        "fault": "disk",
+        "round": 3,
+        "leads": [
+          "ts-auth-service"
+        ],
+        "reason": "shown",
+        "probability": 0.91,
+        "margin": 0.8400000000000001,
+        "choice": "ts-auth-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-c94ef17d3736",
+        "group": "ts-auth-service/disk",
+        "target": "ts-auth-service",
+        "fault": "disk",
+        "round": 1,
+        "leads": [
+          "ts-auth-service"
+        ],
+        "reason": "shown",
+        "probability": 0.88,
+        "margin": 0.79,
+        "choice": "ts-auth-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-c94ef17d3736",
+        "group": "ts-auth-service/disk",
+        "target": "ts-auth-service",
+        "fault": "disk",
+        "round": 2,
+        "leads": [
+          "ts-auth-service"
+        ],
+        "reason": "shown",
+        "probability": 0.86,
+        "margin": 0.77,
+        "choice": "ts-auth-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-c94ef17d3736",
+        "group": "ts-auth-service/disk",
+        "target": "ts-auth-service",
+        "fault": "disk",
+        "round": 3,
+        "leads": [
+          "ts-auth-service"
+        ],
+        "reason": "shown",
+        "probability": 0.85,
+        "margin": 0.75,
+        "choice": "ts-auth-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-ab56c585efd8",
+        "group": "ts-auth-service/loss",
+        "target": "ts-auth-service",
+        "fault": "loss",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5757575757575758,
+        "margin": 0.4040404040404041,
+        "choice": "ts-auth-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-ab56c585efd8",
+        "group": "ts-auth-service/loss",
+        "target": "ts-auth-service",
+        "fault": "loss",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.6565656565656566,
+        "margin": 0.5050505050505051,
+        "choice": "ts-auth-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-ab56c585efd8",
+        "group": "ts-auth-service/loss",
+        "target": "ts-auth-service",
+        "fault": "loss",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.59,
+        "margin": 0.41999999999999993,
+        "choice": "ts-auth-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-9c2c3dbeebc2",
+        "group": "ts-auth-service/loss",
+        "target": "ts-auth-service",
+        "fault": "loss",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.4747474747474748,
+        "margin": 0.21212121212121215,
+        "choice": "ts-auth-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-9c2c3dbeebc2",
+        "group": "ts-auth-service/loss",
+        "target": "ts-auth-service",
+        "fault": "loss",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5,
+        "margin": 0.27,
+        "choice": "ts-auth-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-9c2c3dbeebc2",
+        "group": "ts-auth-service/loss",
+        "target": "ts-auth-service",
+        "fault": "loss",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.49,
+        "margin": 0.24,
+        "choice": "ts-auth-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-37367fdc1339",
+        "group": "ts-auth-service/loss",
+        "target": "ts-auth-service",
+        "fault": "loss",
+        "round": 1,
+        "leads": [],
+        "reason": "insufficient_evidence",
+        "probability": 0.31313131313131315,
+        "margin": null,
+        "choice": "insufficient_evidence",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-37367fdc1339",
+        "group": "ts-auth-service/loss",
+        "target": "ts-auth-service",
+        "fault": "loss",
+        "round": 2,
+        "leads": [],
+        "reason": "insufficient_evidence",
+        "probability": 0.31313131313131315,
+        "margin": null,
+        "choice": "insufficient_evidence",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-37367fdc1339",
+        "group": "ts-auth-service/loss",
+        "target": "ts-auth-service",
+        "fault": "loss",
+        "round": 3,
+        "leads": [],
+        "reason": "insufficient_evidence",
+        "probability": 0.31313131313131315,
+        "margin": null,
+        "choice": "insufficient_evidence",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-51f8f084ef2c",
+        "group": "ts-order-service/loss",
+        "target": "ts-order-service",
+        "fault": "loss",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.38,
+        "margin": 0.16,
+        "choice": "ts-preserve-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-51f8f084ef2c",
+        "group": "ts-order-service/loss",
+        "target": "ts-order-service",
+        "fault": "loss",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.3535353535353536,
+        "margin": 0.10101010101010105,
+        "choice": "ts-preserve-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-51f8f084ef2c",
+        "group": "ts-order-service/loss",
+        "target": "ts-order-service",
+        "fault": "loss",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.32323232323232326,
+        "margin": 0.07070707070707072,
+        "choice": "ts-preserve-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-29dbc9ba81e0",
+        "group": "ts-order-service/loss",
+        "target": "ts-order-service",
+        "fault": "loss",
+        "round": 1,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.92,
+        "margin": 0.88,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-29dbc9ba81e0",
+        "group": "ts-order-service/loss",
+        "target": "ts-order-service",
+        "fault": "loss",
+        "round": 2,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.91,
+        "margin": 0.85,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-29dbc9ba81e0",
+        "group": "ts-order-service/loss",
+        "target": "ts-order-service",
+        "fault": "loss",
+        "round": 3,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.9,
+        "margin": 0.84,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-f270d0b0f870",
+        "group": "ts-order-service/loss",
+        "target": "ts-order-service",
+        "fault": "loss",
+        "round": 1,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.8282828282828283,
+        "margin": 0.7070707070707071,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-f270d0b0f870",
+        "group": "ts-order-service/loss",
+        "target": "ts-order-service",
+        "fault": "loss",
+        "round": 2,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.77,
+        "margin": 0.63,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-f270d0b0f870",
+        "group": "ts-order-service/loss",
+        "target": "ts-order-service",
+        "fault": "loss",
+        "round": 3,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.79,
+        "margin": 0.66,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-0899c071903d",
+        "group": "ts-order-service/mem",
+        "target": "ts-order-service",
+        "fault": "mem",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.52,
+        "margin": 0.30000000000000004,
+        "choice": "ts-order-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-0899c071903d",
+        "group": "ts-order-service/mem",
+        "target": "ts-order-service",
+        "fault": "mem",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5454545454545454,
+        "margin": 0.3131313131313131,
+        "choice": "ts-order-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-0899c071903d",
+        "group": "ts-order-service/mem",
+        "target": "ts-order-service",
+        "fault": "mem",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5656565656565656,
+        "margin": 0.3535353535353535,
+        "choice": "ts-order-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-86f05f71889a",
+        "group": "ts-order-service/mem",
+        "target": "ts-order-service",
+        "fault": "mem",
+        "round": 1,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.87,
+        "margin": 0.78,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-86f05f71889a",
+        "group": "ts-order-service/mem",
+        "target": "ts-order-service",
+        "fault": "mem",
+        "round": 2,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.88,
+        "margin": 0.8,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-86f05f71889a",
+        "group": "ts-order-service/mem",
+        "target": "ts-order-service",
+        "fault": "mem",
+        "round": 3,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.89,
+        "margin": 0.81,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-916ab4cf25a6",
+        "group": "ts-order-service/mem",
+        "target": "ts-order-service",
+        "fault": "mem",
+        "round": 1,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.87,
+        "margin": 0.79,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-916ab4cf25a6",
+        "group": "ts-order-service/mem",
+        "target": "ts-order-service",
+        "fault": "mem",
+        "round": 2,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.88,
+        "margin": 0.8,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-916ab4cf25a6",
+        "group": "ts-order-service/mem",
+        "target": "ts-order-service",
+        "fault": "mem",
+        "round": 3,
+        "leads": [
+          "ts-order-service"
+        ],
+        "reason": "shown",
+        "probability": 0.85,
+        "margin": 0.76,
+        "choice": "ts-order-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-78b058937ed8",
+        "group": "ts-route-service/cpu",
+        "target": "ts-route-service",
+        "fault": "cpu",
+        "round": 1,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.84,
+        "margin": 0.72,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-78b058937ed8",
+        "group": "ts-route-service/cpu",
+        "target": "ts-route-service",
+        "fault": "cpu",
+        "round": 2,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.86,
+        "margin": 0.76,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-78b058937ed8",
+        "group": "ts-route-service/cpu",
+        "target": "ts-route-service",
+        "fault": "cpu",
+        "round": 3,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.84,
+        "margin": 0.72,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-385841cd915a",
+        "group": "ts-route-service/cpu",
+        "target": "ts-route-service",
+        "fault": "cpu",
+        "round": 1,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.91,
+        "margin": 0.86,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-385841cd915a",
+        "group": "ts-route-service/cpu",
+        "target": "ts-route-service",
+        "fault": "cpu",
+        "round": 2,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.92,
+        "margin": 0.88,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-385841cd915a",
+        "group": "ts-route-service/cpu",
+        "target": "ts-route-service",
+        "fault": "cpu",
+        "round": 3,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.91,
+        "margin": 0.86,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-4e10ab4374a1",
+        "group": "ts-route-service/cpu",
+        "target": "ts-route-service",
+        "fault": "cpu",
+        "round": 1,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.86,
+        "margin": 0.79,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-4e10ab4374a1",
+        "group": "ts-route-service/cpu",
+        "target": "ts-route-service",
+        "fault": "cpu",
+        "round": 2,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.86,
+        "margin": 0.79,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-4e10ab4374a1",
+        "group": "ts-route-service/cpu",
+        "target": "ts-route-service",
+        "fault": "cpu",
+        "round": 3,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.89,
+        "margin": 0.8300000000000001,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-f8631baff3cd",
+        "group": "ts-route-service/mem",
+        "target": "ts-route-service",
+        "fault": "mem",
+        "round": 1,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.7,
+        "margin": 0.48,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-f8631baff3cd",
+        "group": "ts-route-service/mem",
+        "target": "ts-route-service",
+        "fault": "mem",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.686868686868687,
+        "margin": 0.46464646464646475,
+        "choice": "ts-route-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-f8631baff3cd",
+        "group": "ts-route-service/mem",
+        "target": "ts-route-service",
+        "fault": "mem",
+        "round": 3,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.72,
+        "margin": 0.5399999999999999,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-e774f8c1babe",
+        "group": "ts-route-service/mem",
+        "target": "ts-route-service",
+        "fault": "mem",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.39,
+        "margin": 0.13,
+        "choice": "ts-route-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-e774f8c1babe",
+        "group": "ts-route-service/mem",
+        "target": "ts-route-service",
+        "fault": "mem",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.41414141414141414,
+        "margin": 0.20202020202020202,
+        "choice": "ts-route-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-e774f8c1babe",
+        "group": "ts-route-service/mem",
+        "target": "ts-route-service",
+        "fault": "mem",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.41414141414141414,
+        "margin": 0.19191919191919193,
+        "choice": "ts-route-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-103e020057f5",
+        "group": "ts-route-service/mem",
+        "target": "ts-route-service",
+        "fault": "mem",
+        "round": 1,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.85,
+        "margin": 0.75,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-103e020057f5",
+        "group": "ts-route-service/mem",
+        "target": "ts-route-service",
+        "fault": "mem",
+        "round": 2,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.86,
+        "margin": 0.77,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-103e020057f5",
+        "group": "ts-route-service/mem",
+        "target": "ts-route-service",
+        "fault": "mem",
+        "round": 3,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.89,
+        "margin": 0.83,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-be71b41b30e2",
+        "group": "ts-route-service/socket",
+        "target": "ts-route-service",
+        "fault": "socket",
+        "round": 1,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.73,
+        "margin": 0.5,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-be71b41b30e2",
+        "group": "ts-route-service/socket",
+        "target": "ts-route-service",
+        "fault": "socket",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.6767676767676767,
+        "margin": 0.38383838383838376,
+        "choice": "ts-route-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-be71b41b30e2",
+        "group": "ts-route-service/socket",
+        "target": "ts-route-service",
+        "fault": "socket",
+        "round": 3,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.7,
+        "margin": 0.43999999999999995,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-638415594638",
+        "group": "ts-route-service/socket",
+        "target": "ts-route-service",
+        "fault": "socket",
+        "round": 1,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.9494949494949495,
+        "margin": 0.9090909090909091,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-638415594638",
+        "group": "ts-route-service/socket",
+        "target": "ts-route-service",
+        "fault": "socket",
+        "round": 2,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.9393939393939393,
+        "margin": 0.8989898989898989,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-638415594638",
+        "group": "ts-route-service/socket",
+        "target": "ts-route-service",
+        "fault": "socket",
+        "round": 3,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.92,
+        "margin": 0.86,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-6ae5171925c4",
+        "group": "ts-route-service/socket",
+        "target": "ts-route-service",
+        "fault": "socket",
+        "round": 1,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.86,
+        "margin": 0.76,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-6ae5171925c4",
+        "group": "ts-route-service/socket",
+        "target": "ts-route-service",
+        "fault": "socket",
+        "round": 2,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.8181818181818181,
+        "margin": 0.6767676767676767,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-6ae5171925c4",
+        "group": "ts-route-service/socket",
+        "target": "ts-route-service",
+        "fault": "socket",
+        "round": 3,
+        "leads": [
+          "ts-route-service"
+        ],
+        "reason": "shown",
+        "probability": 0.86,
+        "margin": 0.76,
+        "choice": "ts-route-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-ac37c4d350a2",
+        "group": "ts-train-service/cpu",
+        "target": "ts-train-service",
+        "fault": "cpu",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.6868686868686869,
+        "margin": 0.45454545454545453,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-ac37c4d350a2",
+        "group": "ts-train-service/cpu",
+        "target": "ts-train-service",
+        "fault": "cpu",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.64,
+        "margin": 0.4,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-ac37c4d350a2",
+        "group": "ts-train-service/cpu",
+        "target": "ts-train-service",
+        "fault": "cpu",
+        "round": 3,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.71,
+        "margin": 0.49999999999999994,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-b89a39995940",
+        "group": "ts-train-service/cpu",
+        "target": "ts-train-service",
+        "fault": "cpu",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.65,
+        "margin": 0.45,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-b89a39995940",
+        "group": "ts-train-service/cpu",
+        "target": "ts-train-service",
+        "fault": "cpu",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.64,
+        "margin": 0.39,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-b89a39995940",
+        "group": "ts-train-service/cpu",
+        "target": "ts-train-service",
+        "fault": "cpu",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.62,
+        "margin": 0.38,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-0ba2dc57f921",
+        "group": "ts-train-service/cpu",
+        "target": "ts-train-service",
+        "fault": "cpu",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5757575757575758,
+        "margin": 0.3131313131313132,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-0ba2dc57f921",
+        "group": "ts-train-service/cpu",
+        "target": "ts-train-service",
+        "fault": "cpu",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5656565656565656,
+        "margin": 0.2727272727272727,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-0ba2dc57f921",
+        "group": "ts-train-service/cpu",
+        "target": "ts-train-service",
+        "fault": "cpu",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.52,
+        "margin": 0.21000000000000002,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-2b828164cf13",
+        "group": "ts-train-service/delay",
+        "target": "ts-train-service",
+        "fault": "delay",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.3333333333333333,
+        "margin": 0.06060606060606061,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-2b828164cf13",
+        "group": "ts-train-service/delay",
+        "target": "ts-train-service",
+        "fault": "delay",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.31313131313131315,
+        "margin": 0.030303030303030276,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-2b828164cf13",
+        "group": "ts-train-service/delay",
+        "target": "ts-train-service",
+        "fault": "delay",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.36363636363636365,
+        "margin": 0.101010101010101,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-0b728fd172ee",
+        "group": "ts-train-service/delay",
+        "target": "ts-train-service",
+        "fault": "delay",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.41414141414141414,
+        "margin": 0.24242424242424243,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-0b728fd172ee",
+        "group": "ts-train-service/delay",
+        "target": "ts-train-service",
+        "fault": "delay",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.42,
+        "margin": 0.23999999999999996,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-0b728fd172ee",
+        "group": "ts-train-service/delay",
+        "target": "ts-train-service",
+        "fault": "delay",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.45,
+        "margin": 0.29000000000000004,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-e6636091f1c3",
+        "group": "ts-train-service/delay",
+        "target": "ts-train-service",
+        "fault": "delay",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5656565656565656,
+        "margin": 0.41414141414141414,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-e6636091f1c3",
+        "group": "ts-train-service/delay",
+        "target": "ts-train-service",
+        "fault": "delay",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5656565656565656,
+        "margin": 0.3939393939393939,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-e6636091f1c3",
+        "group": "ts-train-service/delay",
+        "target": "ts-train-service",
+        "fault": "delay",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.4747474747474748,
+        "margin": 0.2525252525252526,
+        "choice": "ts-train-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-83e50d0447d1",
+        "group": "ts-train-service/socket",
+        "target": "ts-train-service",
+        "fault": "socket",
+        "round": 1,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.86,
+        "margin": 0.78,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-83e50d0447d1",
+        "group": "ts-train-service/socket",
+        "target": "ts-train-service",
+        "fault": "socket",
+        "round": 2,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.85,
+        "margin": 0.77,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-83e50d0447d1",
+        "group": "ts-train-service/socket",
+        "target": "ts-train-service",
+        "fault": "socket",
+        "round": 3,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.85,
+        "margin": 0.77,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-da256518b0c0",
+        "group": "ts-train-service/socket",
+        "target": "ts-train-service",
+        "fault": "socket",
+        "round": 1,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.77,
+        "margin": 0.64,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-da256518b0c0",
+        "group": "ts-train-service/socket",
+        "target": "ts-train-service",
+        "fault": "socket",
+        "round": 2,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.73,
+        "margin": 0.57,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-da256518b0c0",
+        "group": "ts-train-service/socket",
+        "target": "ts-train-service",
+        "fault": "socket",
+        "round": 3,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.77,
+        "margin": 0.63,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-afc5016d91e8",
+        "group": "ts-train-service/socket",
+        "target": "ts-train-service",
+        "fault": "socket",
+        "round": 1,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.73,
+        "margin": 0.59,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-afc5016d91e8",
+        "group": "ts-train-service/socket",
+        "target": "ts-train-service",
+        "fault": "socket",
+        "round": 2,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.72,
+        "margin": 0.57,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-afc5016d91e8",
+        "group": "ts-train-service/socket",
+        "target": "ts-train-service",
+        "fault": "socket",
+        "round": 3,
+        "leads": [
+          "ts-train-service"
+        ],
+        "reason": "shown",
+        "probability": 0.8080808080808081,
+        "margin": 0.7070707070707071,
+        "choice": "ts-train-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-7bf780462a46",
+        "group": "ts-travel-service/delay",
+        "target": "ts-travel-service",
+        "fault": "delay",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.3636363636363636,
+        "margin": 0.18181818181818177,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-7bf780462a46",
+        "group": "ts-travel-service/delay",
+        "target": "ts-travel-service",
+        "fault": "delay",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.39,
+        "margin": 0.17,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-7bf780462a46",
+        "group": "ts-travel-service/delay",
+        "target": "ts-travel-service",
+        "fault": "delay",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.3434343434343434,
+        "margin": 0.1616161616161616,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-7b460f6c8d58",
+        "group": "ts-travel-service/delay",
+        "target": "ts-travel-service",
+        "fault": "delay",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.4141414141414142,
+        "margin": 0.15151515151515155,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-7b460f6c8d58",
+        "group": "ts-travel-service/delay",
+        "target": "ts-travel-service",
+        "fault": "delay",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.41414141414141414,
+        "margin": 0.13131313131313133,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-7b460f6c8d58",
+        "group": "ts-travel-service/delay",
+        "target": "ts-travel-service",
+        "fault": "delay",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.4141414141414142,
+        "margin": 0.13131313131313133,
+        "choice": "ts-admin-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": false
+      },
+      {
+        "id": "TMP-1e2cce990457",
+        "group": "ts-travel-service/delay",
+        "target": "ts-travel-service",
+        "fault": "delay",
+        "round": 1,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5,
+        "margin": 0.28,
+        "choice": "ts-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-1e2cce990457",
+        "group": "ts-travel-service/delay",
+        "target": "ts-travel-service",
+        "fault": "delay",
+        "round": 2,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5353535353535354,
+        "margin": 0.35353535353535354,
+        "choice": "ts-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-1e2cce990457",
+        "group": "ts-travel-service/delay",
+        "target": "ts-travel-service",
+        "fault": "delay",
+        "round": 3,
+        "leads": [],
+        "reason": "below_probability_boundary",
+        "probability": 0.5656565656565656,
+        "margin": 0.36363636363636365,
+        "choice": "ts-travel-service",
+        "correct_first": false,
+        "cause_included": false,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-57a3cfecaae8",
+        "group": "ts-travel-service/disk",
+        "target": "ts-travel-service",
+        "fault": "disk",
+        "round": 1,
+        "leads": [
+          "ts-travel-service"
+        ],
+        "reason": "shown",
+        "probability": 0.8282828282828283,
+        "margin": 0.7474747474747475,
+        "choice": "ts-travel-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-57a3cfecaae8",
+        "group": "ts-travel-service/disk",
+        "target": "ts-travel-service",
+        "fault": "disk",
+        "round": 2,
+        "leads": [
+          "ts-travel-service"
+        ],
+        "reason": "shown",
+        "probability": 0.84,
+        "margin": 0.7799999999999999,
+        "choice": "ts-travel-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-57a3cfecaae8",
+        "group": "ts-travel-service/disk",
+        "target": "ts-travel-service",
+        "fault": "disk",
+        "round": 3,
+        "leads": [
+          "ts-travel-service"
+        ],
+        "reason": "shown",
+        "probability": 0.87,
+        "margin": 0.8099999999999999,
+        "choice": "ts-travel-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-ad51fec8fc98",
+        "group": "ts-travel-service/disk",
+        "target": "ts-travel-service",
+        "fault": "disk",
+        "round": 1,
+        "leads": [
+          "ts-travel-service"
+        ],
+        "reason": "shown",
+        "probability": 0.92,
+        "margin": 0.87,
+        "choice": "ts-travel-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-ad51fec8fc98",
+        "group": "ts-travel-service/disk",
+        "target": "ts-travel-service",
+        "fault": "disk",
+        "round": 2,
+        "leads": [
+          "ts-travel-service"
+        ],
+        "reason": "shown",
+        "probability": 0.9494949494949495,
+        "margin": 0.9191919191919192,
+        "choice": "ts-travel-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-ad51fec8fc98",
+        "group": "ts-travel-service/disk",
+        "target": "ts-travel-service",
+        "fault": "disk",
+        "round": 3,
+        "leads": [
+          "ts-travel-service"
+        ],
+        "reason": "shown",
+        "probability": 0.93,
+        "margin": 0.89,
+        "choice": "ts-travel-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-14d167227aea",
+        "group": "ts-travel-service/disk",
+        "target": "ts-travel-service",
+        "fault": "disk",
+        "round": 1,
+        "leads": [
+          "ts-travel-service"
+        ],
+        "reason": "shown",
+        "probability": 0.92,
+        "margin": 0.88,
+        "choice": "ts-travel-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-14d167227aea",
+        "group": "ts-travel-service/disk",
+        "target": "ts-travel-service",
+        "fault": "disk",
+        "round": 2,
+        "leads": [
+          "ts-travel-service"
+        ],
+        "reason": "shown",
+        "probability": 0.89,
+        "margin": 0.83,
+        "choice": "ts-travel-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      },
+      {
+        "id": "TMP-14d167227aea",
+        "group": "ts-travel-service/disk",
+        "target": "ts-travel-service",
+        "fault": "disk",
+        "round": 3,
+        "leads": [
+          "ts-travel-service"
+        ],
+        "reason": "shown",
+        "probability": 0.9393939393939393,
+        "margin": 0.9090909090909091,
+        "choice": "ts-travel-service",
+        "correct_first": true,
+        "cause_included": true,
+        "wrong_leads": 0,
+        "raw_correct_first": true
+      }
+    ]
+  },
+  "comparators": {
+    "unfiltered_first": {
+      "policy": {
+        "threshold": 0.0,
+        "margin": 0.0,
+        "maximum_leads": 1
+      },
+      "per_round": [
+        {
+          "round": 1,
+          "cases": 36,
+          "shown": 35,
+          "correct_first": 30,
+          "cause_included": 30,
+          "wrong_leads": 5,
+          "total_leads": 35,
+          "withheld": 1,
+          "correct_first_withheld": 0,
+          "wrong_first_withheld": 1,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 2,
+          "cases": 36,
+          "shown": 35,
+          "correct_first": 30,
+          "cause_included": 30,
+          "wrong_leads": 5,
+          "total_leads": 35,
+          "withheld": 1,
+          "correct_first_withheld": 0,
+          "wrong_first_withheld": 1,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 3,
+          "cases": 36,
+          "shown": 35,
+          "correct_first": 30,
+          "cause_included": 30,
+          "wrong_leads": 5,
+          "total_leads": 35,
+          "withheld": 1,
+          "correct_first_withheld": 0,
+          "wrong_first_withheld": 1,
+          "failed_or_missing": 0
+        }
+      ],
+      "stable_display_cases": 36,
+      "outcomes": [
+        {
+          "id": "TMP-a0a3fa8209f6",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.78,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-a0a3fa8209f6",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.79,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-a0a3fa8209f6",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.81,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6dff0b58ffa9",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.88,
+          "margin": 0.79,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6dff0b58ffa9",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9,
+          "margin": 0.8300000000000001,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6dff0b58ffa9",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.91,
+          "margin": 0.8400000000000001,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-c94ef17d3736",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.88,
+          "margin": 0.79,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-c94ef17d3736",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.77,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-c94ef17d3736",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.75,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ab56c585efd8",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5757575757575758,
+          "margin": 0.4040404040404041,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ab56c585efd8",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.6565656565656566,
+          "margin": 0.5050505050505051,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ab56c585efd8",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.59,
+          "margin": 0.41999999999999993,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-9c2c3dbeebc2",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.4747474747474748,
+          "margin": 0.21212121212121215,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-9c2c3dbeebc2",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5,
+          "margin": 0.27,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-9c2c3dbeebc2",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.49,
+          "margin": 0.24,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-37367fdc1339",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [],
+          "reason": "insufficient_evidence",
+          "probability": 0.31313131313131315,
+          "margin": null,
+          "choice": "insufficient_evidence",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-37367fdc1339",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [],
+          "reason": "insufficient_evidence",
+          "probability": 0.31313131313131315,
+          "margin": null,
+          "choice": "insufficient_evidence",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-37367fdc1339",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [],
+          "reason": "insufficient_evidence",
+          "probability": 0.31313131313131315,
+          "margin": null,
+          "choice": "insufficient_evidence",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-51f8f084ef2c",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-preserve-service"
+          ],
+          "reason": "shown",
+          "probability": 0.38,
+          "margin": 0.16,
+          "choice": "ts-preserve-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-51f8f084ef2c",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-preserve-service"
+          ],
+          "reason": "shown",
+          "probability": 0.3535353535353536,
+          "margin": 0.10101010101010105,
+          "choice": "ts-preserve-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-51f8f084ef2c",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-preserve-service"
+          ],
+          "reason": "shown",
+          "probability": 0.32323232323232326,
+          "margin": 0.07070707070707072,
+          "choice": "ts-preserve-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-29dbc9ba81e0",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.88,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-29dbc9ba81e0",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.91,
+          "margin": 0.85,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-29dbc9ba81e0",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9,
+          "margin": 0.84,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f270d0b0f870",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8282828282828283,
+          "margin": 0.7070707070707071,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f270d0b0f870",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.77,
+          "margin": 0.63,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f270d0b0f870",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.79,
+          "margin": 0.66,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0899c071903d",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.52,
+          "margin": 0.30000000000000004,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0899c071903d",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5454545454545454,
+          "margin": 0.3131313131313131,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0899c071903d",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.3535353535353535,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-86f05f71889a",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.78,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-86f05f71889a",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.88,
+          "margin": 0.8,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-86f05f71889a",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.81,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-916ab4cf25a6",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.79,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-916ab4cf25a6",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.88,
+          "margin": 0.8,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-916ab4cf25a6",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.76,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-78b058937ed8",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.72,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-78b058937ed8",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.76,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-78b058937ed8",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.72,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-385841cd915a",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.91,
+          "margin": 0.86,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-385841cd915a",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.88,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-385841cd915a",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.91,
+          "margin": 0.86,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-4e10ab4374a1",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.79,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-4e10ab4374a1",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.79,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-4e10ab4374a1",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.8300000000000001,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f8631baff3cd",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.7,
+          "margin": 0.48,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f8631baff3cd",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.686868686868687,
+          "margin": 0.46464646464646475,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f8631baff3cd",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.72,
+          "margin": 0.5399999999999999,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e774f8c1babe",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.39,
+          "margin": 0.13,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e774f8c1babe",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.41414141414141414,
+          "margin": 0.20202020202020202,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e774f8c1babe",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.41414141414141414,
+          "margin": 0.19191919191919193,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-103e020057f5",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.75,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-103e020057f5",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.77,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-103e020057f5",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.83,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-be71b41b30e2",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.5,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-be71b41b30e2",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.6767676767676767,
+          "margin": 0.38383838383838376,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-be71b41b30e2",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.7,
+          "margin": 0.43999999999999995,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-638415594638",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9494949494949495,
+          "margin": 0.9090909090909091,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-638415594638",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9393939393939393,
+          "margin": 0.8989898989898989,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-638415594638",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.86,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6ae5171925c4",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.76,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6ae5171925c4",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8181818181818181,
+          "margin": 0.6767676767676767,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6ae5171925c4",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.76,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ac37c4d350a2",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.6868686868686869,
+          "margin": 0.45454545454545453,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ac37c4d350a2",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.64,
+          "margin": 0.4,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ac37c4d350a2",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.71,
+          "margin": 0.49999999999999994,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-b89a39995940",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.65,
+          "margin": 0.45,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-b89a39995940",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.64,
+          "margin": 0.39,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-b89a39995940",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.62,
+          "margin": 0.38,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0ba2dc57f921",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5757575757575758,
+          "margin": 0.3131313131313132,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0ba2dc57f921",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.2727272727272727,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0ba2dc57f921",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.52,
+          "margin": 0.21000000000000002,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-2b828164cf13",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.3333333333333333,
+          "margin": 0.06060606060606061,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-2b828164cf13",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.31313131313131315,
+          "margin": 0.030303030303030276,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-2b828164cf13",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.36363636363636365,
+          "margin": 0.101010101010101,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-0b728fd172ee",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.41414141414141414,
+          "margin": 0.24242424242424243,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-0b728fd172ee",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.42,
+          "margin": 0.23999999999999996,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-0b728fd172ee",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.45,
+          "margin": 0.29000000000000004,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-e6636091f1c3",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.41414141414141414,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e6636091f1c3",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.3939393939393939,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e6636091f1c3",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.4747474747474748,
+          "margin": 0.2525252525252526,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-83e50d0447d1",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.78,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-83e50d0447d1",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.77,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-83e50d0447d1",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.77,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-da256518b0c0",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.77,
+          "margin": 0.64,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-da256518b0c0",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.57,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-da256518b0c0",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.77,
+          "margin": 0.63,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-afc5016d91e8",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.59,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-afc5016d91e8",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.72,
+          "margin": 0.57,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-afc5016d91e8",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8080808080808081,
+          "margin": 0.7070707070707071,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-7bf780462a46",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.3636363636363636,
+          "margin": 0.18181818181818177,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7bf780462a46",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.39,
+          "margin": 0.17,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7bf780462a46",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.3434343434343434,
+          "margin": 0.1616161616161616,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7b460f6c8d58",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.4141414141414142,
+          "margin": 0.15151515151515155,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7b460f6c8d58",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.41414141414141414,
+          "margin": 0.13131313131313133,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7b460f6c8d58",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.4141414141414142,
+          "margin": 0.13131313131313133,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-1e2cce990457",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5,
+          "margin": 0.28,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-1e2cce990457",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5353535353535354,
+          "margin": 0.35353535353535354,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-1e2cce990457",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.36363636363636365,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-57a3cfecaae8",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8282828282828283,
+          "margin": 0.7474747474747475,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-57a3cfecaae8",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.7799999999999999,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-57a3cfecaae8",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.8099999999999999,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ad51fec8fc98",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.87,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ad51fec8fc98",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9494949494949495,
+          "margin": 0.9191919191919192,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ad51fec8fc98",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.93,
+          "margin": 0.89,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-14d167227aea",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.88,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-14d167227aea",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.83,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-14d167227aea",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9393939393939393,
+          "margin": 0.9090909090909091,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        }
+      ]
+    },
+    "supported_alternative": {
+      "policy": {
+        "threshold": 0.0,
+        "margin": 0.0,
+        "maximum_leads": 2
+      },
+      "per_round": [
+        {
+          "round": 1,
+          "cases": 36,
+          "shown": 35,
+          "correct_first": 30,
+          "cause_included": 33,
+          "wrong_leads": 6,
+          "total_leads": 39,
+          "withheld": 1,
+          "correct_first_withheld": 0,
+          "wrong_first_withheld": 1,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 2,
+          "cases": 36,
+          "shown": 35,
+          "correct_first": 30,
+          "cause_included": 34,
+          "wrong_leads": 6,
+          "total_leads": 40,
+          "withheld": 1,
+          "correct_first_withheld": 0,
+          "wrong_first_withheld": 1,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 3,
+          "cases": 36,
+          "shown": 35,
+          "correct_first": 30,
+          "cause_included": 33,
+          "wrong_leads": 7,
+          "total_leads": 40,
+          "withheld": 1,
+          "correct_first_withheld": 0,
+          "wrong_first_withheld": 1,
+          "failed_or_missing": 0
+        }
+      ],
+      "stable_display_cases": 33,
+      "outcomes": [
+        {
+          "id": "TMP-a0a3fa8209f6",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.78,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-a0a3fa8209f6",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.79,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-a0a3fa8209f6",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.81,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6dff0b58ffa9",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.88,
+          "margin": 0.79,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6dff0b58ffa9",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9,
+          "margin": 0.8300000000000001,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6dff0b58ffa9",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.91,
+          "margin": 0.8400000000000001,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-c94ef17d3736",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.88,
+          "margin": 0.79,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-c94ef17d3736",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.77,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-c94ef17d3736",
+          "group": "ts-auth-service/disk",
+          "target": "ts-auth-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.75,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ab56c585efd8",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5757575757575758,
+          "margin": 0.4040404040404041,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ab56c585efd8",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.6565656565656566,
+          "margin": 0.5050505050505051,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ab56c585efd8",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.59,
+          "margin": 0.41999999999999993,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-9c2c3dbeebc2",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.4747474747474748,
+          "margin": 0.21212121212121215,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-9c2c3dbeebc2",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5,
+          "margin": 0.27,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-9c2c3dbeebc2",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.49,
+          "margin": 0.24,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-37367fdc1339",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [],
+          "reason": "insufficient_evidence",
+          "probability": 0.31313131313131315,
+          "margin": null,
+          "choice": "insufficient_evidence",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-37367fdc1339",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [],
+          "reason": "insufficient_evidence",
+          "probability": 0.31313131313131315,
+          "margin": null,
+          "choice": "insufficient_evidence",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-37367fdc1339",
+          "group": "ts-auth-service/loss",
+          "target": "ts-auth-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [],
+          "reason": "insufficient_evidence",
+          "probability": 0.31313131313131315,
+          "margin": null,
+          "choice": "insufficient_evidence",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-51f8f084ef2c",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-preserve-service",
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.38,
+          "margin": 0.16,
+          "choice": "ts-preserve-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-51f8f084ef2c",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-preserve-service",
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.3535353535353536,
+          "margin": 0.10101010101010105,
+          "choice": "ts-preserve-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-51f8f084ef2c",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-preserve-service",
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.32323232323232326,
+          "margin": 0.07070707070707072,
+          "choice": "ts-preserve-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-29dbc9ba81e0",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.88,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-29dbc9ba81e0",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.91,
+          "margin": 0.85,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-29dbc9ba81e0",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9,
+          "margin": 0.84,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f270d0b0f870",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8282828282828283,
+          "margin": 0.7070707070707071,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f270d0b0f870",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.77,
+          "margin": 0.63,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f270d0b0f870",
+          "group": "ts-order-service/loss",
+          "target": "ts-order-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.79,
+          "margin": 0.66,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0899c071903d",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.52,
+          "margin": 0.30000000000000004,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0899c071903d",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5454545454545454,
+          "margin": 0.3131313131313131,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0899c071903d",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.3535353535353535,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-86f05f71889a",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.78,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-86f05f71889a",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.88,
+          "margin": 0.8,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-86f05f71889a",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.81,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-916ab4cf25a6",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.79,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-916ab4cf25a6",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.88,
+          "margin": 0.8,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-916ab4cf25a6",
+          "group": "ts-order-service/mem",
+          "target": "ts-order-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.76,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-78b058937ed8",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.72,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-78b058937ed8",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.76,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-78b058937ed8",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.72,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-385841cd915a",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.91,
+          "margin": 0.86,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-385841cd915a",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.88,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-385841cd915a",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.91,
+          "margin": 0.86,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-4e10ab4374a1",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.79,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-4e10ab4374a1",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.79,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-4e10ab4374a1",
+          "group": "ts-route-service/cpu",
+          "target": "ts-route-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.8300000000000001,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f8631baff3cd",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.7,
+          "margin": 0.48,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f8631baff3cd",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.686868686868687,
+          "margin": 0.46464646464646475,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f8631baff3cd",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.72,
+          "margin": 0.5399999999999999,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e774f8c1babe",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-route-service",
+            "istio-init"
+          ],
+          "reason": "shown",
+          "probability": 0.39,
+          "margin": 0.13,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e774f8c1babe",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.41414141414141414,
+          "margin": 0.20202020202020202,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e774f8c1babe",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-route-service",
+            "istio-init"
+          ],
+          "reason": "shown",
+          "probability": 0.41414141414141414,
+          "margin": 0.19191919191919193,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-103e020057f5",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.75,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-103e020057f5",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.77,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-103e020057f5",
+          "group": "ts-route-service/mem",
+          "target": "ts-route-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.83,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-be71b41b30e2",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.5,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-be71b41b30e2",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.6767676767676767,
+          "margin": 0.38383838383838376,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-be71b41b30e2",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.7,
+          "margin": 0.43999999999999995,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-638415594638",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9494949494949495,
+          "margin": 0.9090909090909091,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-638415594638",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9393939393939393,
+          "margin": 0.8989898989898989,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-638415594638",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.86,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6ae5171925c4",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.76,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6ae5171925c4",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8181818181818181,
+          "margin": 0.6767676767676767,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6ae5171925c4",
+          "group": "ts-route-service/socket",
+          "target": "ts-route-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-route-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.76,
+          "choice": "ts-route-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ac37c4d350a2",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.6868686868686869,
+          "margin": 0.45454545454545453,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ac37c4d350a2",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.64,
+          "margin": 0.4,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ac37c4d350a2",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.71,
+          "margin": 0.49999999999999994,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-b89a39995940",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.65,
+          "margin": 0.45,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-b89a39995940",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.64,
+          "margin": 0.39,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-b89a39995940",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.62,
+          "margin": 0.38,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0ba2dc57f921",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5757575757575758,
+          "margin": 0.3131313131313132,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0ba2dc57f921",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-train-service",
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.2727272727272727,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-0ba2dc57f921",
+          "group": "ts-train-service/cpu",
+          "target": "ts-train-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-train-service",
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.52,
+          "margin": 0.21000000000000002,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-2b828164cf13",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-admin-travel-service",
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.3333333333333333,
+          "margin": 0.06060606060606061,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-2b828164cf13",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-admin-travel-service",
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.31313131313131315,
+          "margin": 0.030303030303030276,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-2b828164cf13",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-admin-travel-service",
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.36363636363636365,
+          "margin": 0.101010101010101,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-0b728fd172ee",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.41414141414141414,
+          "margin": 0.24242424242424243,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-0b728fd172ee",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.42,
+          "margin": 0.23999999999999996,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-0b728fd172ee",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.45,
+          "margin": 0.29000000000000004,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-e6636091f1c3",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.41414141414141414,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e6636091f1c3",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.3939393939393939,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-e6636091f1c3",
+          "group": "ts-train-service/delay",
+          "target": "ts-train-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.4747474747474748,
+          "margin": 0.2525252525252526,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-83e50d0447d1",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.78,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-83e50d0447d1",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.77,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-83e50d0447d1",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.77,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-da256518b0c0",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.77,
+          "margin": 0.64,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-da256518b0c0",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.57,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-da256518b0c0",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.77,
+          "margin": 0.63,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-afc5016d91e8",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.59,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-afc5016d91e8",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.72,
+          "margin": 0.57,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-afc5016d91e8",
+          "group": "ts-train-service/socket",
+          "target": "ts-train-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8080808080808081,
+          "margin": 0.7070707070707071,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-7bf780462a46",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.3636363636363636,
+          "margin": 0.18181818181818177,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7bf780462a46",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-admin-travel-service",
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.39,
+          "margin": 0.17,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7bf780462a46",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-admin-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.3434343434343434,
+          "margin": 0.1616161616161616,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7b460f6c8d58",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-admin-travel-service",
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.4141414141414142,
+          "margin": 0.15151515151515155,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7b460f6c8d58",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-admin-travel-service",
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.41414141414141414,
+          "margin": 0.13131313131313133,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-7b460f6c8d58",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-admin-travel-service",
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.4141414141414142,
+          "margin": 0.13131313131313133,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": true,
+          "wrong_leads": 1,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-1e2cce990457",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5,
+          "margin": 0.28,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-1e2cce990457",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5353535353535354,
+          "margin": 0.35353535353535354,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-1e2cce990457",
+          "group": "ts-travel-service/delay",
+          "target": "ts-travel-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.5656565656565656,
+          "margin": 0.36363636363636365,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-57a3cfecaae8",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8282828282828283,
+          "margin": 0.7474747474747475,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-57a3cfecaae8",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.7799999999999999,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-57a3cfecaae8",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.87,
+          "margin": 0.8099999999999999,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ad51fec8fc98",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.87,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ad51fec8fc98",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9494949494949495,
+          "margin": 0.9191919191919192,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-ad51fec8fc98",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.93,
+          "margin": 0.89,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-14d167227aea",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.92,
+          "margin": 0.88,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-14d167227aea",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.89,
+          "margin": 0.83,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-14d167227aea",
+          "group": "ts-travel-service/disk",
+          "target": "ts-travel-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-travel-service"
+          ],
+          "reason": "shown",
+          "probability": 0.9393939393939393,
+          "margin": 0.9090909090909091,
+          "choice": "ts-travel-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        }
+      ]
+    }
+  },
+  "original_shortlist": [
+    {
+      "round": 1,
+      "cases": 36,
+      "cause_included": 35,
+      "wrong_leads": 63,
+      "total_leads": 98,
+      "withheld": 1
+    },
+    {
+      "round": 2,
+      "cases": 36,
+      "cause_included": 35,
+      "wrong_leads": 62,
+      "total_leads": 97,
+      "withheld": 1
+    },
+    {
+      "round": 3,
+      "cases": 36,
+      "cause_included": 35,
+      "wrong_leads": 64,
+      "total_leads": 99,
+      "withheld": 1
+    }
+  ],
+  "controls": {
+    "ml": {
+      "cases": 36,
+      "correct_first": 28,
+      "cause_in_first_three": 31
+    },
+    "change": {
+      "cases": 36,
+      "correct_first": 27,
+      "cause_in_first_three": 32
+    },
+    "resource": {
+      "cases": 36,
+      "correct_first": 25,
+      "cause_in_first_three": 30
+    }
+  },
+  "curves": [],
+  "evidence": {
+    "plan_sha256": "1bc8b45d0118d7cc2dbdafcdf41f62876afa982b05d16b4ae20e9f153b66934c",
+    "protocol_sha256": "1171dfe133d476c2b4efba229a2b8425457c1822c5e13f279f61c504e415ba92",
+    "summary_sha256": "e3f842ddebc480196bc9d6faf73cd1282014bf6df7186e5581aeb31db766cc23"
+  }
+}

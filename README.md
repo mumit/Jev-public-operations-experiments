@@ -8,6 +8,7 @@ The current evidence comes from controlled RCAEval Online Boutique, Sock Shop an
 
 | Study | Held-out evidence | Result |
 |---|---|---|
+| Selective recommendation policy | 36 Train Ticket cases, twelve groups, three rounds | Frozen 0.70 rule displays 19–22 correct leads, no wrong leads, and withholds 14–17 cases per round. Unfiltered Jev ranks 30/36 first; ML ranks 28/36. |
 | Metric root-cause comparison | 18 Online Boutique cases, six groups | Change ranking 18/18; Jev and trained ML 17/18; resource ranking 14/18. Jev's threshold displays one wrong recommendation. |
 | Jev input presentation | 36 Sock Shop cases, 12 groups | Named fields 35/36; compact and explained inputs 34/36; transferred ML 32/36. Named input displays 34 correct recommendations and withholds two at its frozen threshold. |
 
@@ -47,6 +48,7 @@ A fresh clone includes source, reports and checkpoints. Restore both [public evi
 uv run --locked --extra public-data python -m unittest discover -s tests -v
 uv run --locked --extra public-data python -m scripts.verify_evidence
 uv run --locked --extra public-data python -m scripts.verify_public_diagnostics
+uv run --locked --extra public-data python -m scripts.verify_public_selective
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
 node --check triage_bench/web/public-repeat.js

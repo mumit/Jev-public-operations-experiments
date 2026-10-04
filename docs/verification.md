@@ -1,6 +1,6 @@
 # Standalone verification
 
-The public-only extraction passes 63 Python tests and syntax checks for all five browser scripts. Tests cover grouped splits, missingness, input/reference separation, response validation, stage gates, explicit reference reveal, origin protection and safe article links. Migration tests compare extracted helper definitions with their archived originals, reject changes to source fingerprints, block new calls under completed historical protocols and reject unsafe or corrupted release archives.
+The public-only extraction passes 72 Python tests and syntax checks for all six browser scripts. Tests cover grouped splits, missingness, input/reference separation, response validation, stage gates, explicit reference reveal, origin protection and safe article links. Migration tests compare extracted helper definitions with their archived originals, reject changes to source fingerprints, block new calls under completed historical protocols and reject unsafe or corrupted release archives.
 
 The evidence verifier reconstructs all 294 saved request bodies, reproduces the fitted ML control from training-only data and recomputes all six stage assessments and frozen thresholds exactly. Both pack validators confirm the original assignments, measurement hashes and 36 undownloaded reserve cases. The migration makes no hosted calls.
 
@@ -23,3 +23,6 @@ The new development shortlist tests check tied selected winners, deterministic c
 The later diagnostic verifier reconstructs all 180 replay calls, the accepted one-call capacity probe, the 12-case exploratory timing audit and all 108 development calls, including frozen transfer controls. It makes no provider calls. The temporal inspector requires a complete recomputed assessment and hides answer-derived case fields until reference reveal.
 
 A fresh local clone restored the original 347 files and all 51 supplemental diagnostic files, passed both evidence verifiers and passed all 63 tests without a key or the original checkout. Browser review verified reference reveal, arm and round switching, observed-service measurements and report return context. Both diagnostic inspectors restore the requested section after asynchronous evidence loading and keep report return links aligned with navigation.
+
+
+The selective experiment passes nine additional policy and inspection tests. They verify strongest-option margins including insufficient evidence, alternative support, every-round calibration eligibility, full failure denominators, once-only execution, version-error redaction, the evaluation download gate, hidden reference fields and read-only local routes. All 54 calibration and 108 evaluation calls succeeded. The separate selective verifier reconstructs both packs, all requests, normalized responses, transfer controls, every calibration candidate and the unchanged 0.70 evaluation boundary. It makes no hosted calls.
