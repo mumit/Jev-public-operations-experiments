@@ -18,4 +18,4 @@ The offline timing audit tests fixed before-window scaling, elapsed-time bins, e
 
 The completed fresh development pack reconstructs all 18 named/temporal requests from publisher-verified metric sources and keeps 72 future cases undownloaded. Request sizes fail the conservative byte guard. A separate one-call context probe test verifies once-only execution, credential redaction and absence of accuracy scoring; the actual one-call probe was accepted and reported 30,471 input tokens.
 
-The new development shortlist tests check tied selected winners, deterministic cutoff order, exclusion of zero-probability candidates and withholding on insufficient-evidence, failed or missing responses. The 108-call comparison is frozen but not yet run.
+The new development shortlist tests check tied selected winners, deterministic cutoff order, exclusion of zero-probability candidates and withholding on insufficient-evidence, failed or missing responses. All 108 calls succeeded; scoring verifies normalized provider outputs, planned denominators, fixed transfer controls and exact recorded request plans.

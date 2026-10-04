@@ -41,3 +41,9 @@ The one-call capacity probe completed successfully on the largest temporal reque
 The development comparison is frozen separately for 108 calls: 18 cases, six correlated groups, named versus temporal input, three serial rounds. Keep all measurements, candidates and the cause-selection question fixed. At most three positive-probability service candidates form a shortlist; insufficient-evidence, missing or failed responses withhold it. Tied selected winners come first. Preserve top-1 and shortlist inclusion separately, with wrong leads and withheld cases. The unchanged Online Boutique ML and change/resource rankings remain controls.
 
 Commit checkpoints/public-temporal-development-protocol-2026-10-04.json before scripts.run_public_temporal run. Do not promote automatically to calibration: the analyst shortlist inclusion-versus-withholding criterion must be selected before a new boundary is frozen. All later telemetry remains sealed.
+
+## Current decision point
+
+The 108-call development comparison is complete and assessed at checkpoints/public-temporal-development-results-2026-10-04.json. Every round gives named/temporal top-1 correctness of 16/18 and 15/18. Both include the cause in all 18 shortlists, but named adds 32–34 wrong leads and temporal 36 per round. ML transfer ranks all 18 targets first; change/resource rank 17/10 first. Named wins this development comparison; extra latency windows cause one repeated regression and no fixes.
+
+Do not download calibration until the user selects the shortlist inclusion-versus-withholding objective. Recommend fewer unnecessary leads; the alternative prioritizes retaining possible causes with up to three leads. This is an experiment-design decision, not approval for network actions. No boundary is fitted yet, and all later telemetry remains sealed. docs/public-temporal-next.md contains the full report and next choices.

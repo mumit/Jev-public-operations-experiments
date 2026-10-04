@@ -1,0 +1,2004 @@
+{
+  "schema": "public-temporal-development-assessment-1",
+  "distinct_cases": 18,
+  "distinct_groups": 6,
+  "response_slots": 108,
+  "failed_or_missing": 0,
+  "metrics": {
+    "named": {
+      "choice_stable_cases": 18,
+      "shortlist_stable_cases": 11,
+      "per_round": [
+        {
+          "round": 1,
+          "cases": 18,
+          "top1_correct": 16,
+          "target_in_shortlist": 18,
+          "shown_shortlists": 18,
+          "wrong_leads": 34,
+          "total_leads": 52,
+          "withheld": 0,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 2,
+          "cases": 18,
+          "top1_correct": 16,
+          "target_in_shortlist": 18,
+          "shown_shortlists": 18,
+          "wrong_leads": 32,
+          "total_leads": 50,
+          "withheld": 0,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 3,
+          "cases": 18,
+          "top1_correct": 16,
+          "target_in_shortlist": 18,
+          "shown_shortlists": 18,
+          "wrong_leads": 34,
+          "total_leads": 52,
+          "withheld": 0,
+          "failed_or_missing": 0
+        }
+      ]
+    },
+    "temporal": {
+      "choice_stable_cases": 17,
+      "shortlist_stable_cases": 10,
+      "per_round": [
+        {
+          "round": 1,
+          "cases": 18,
+          "top1_correct": 15,
+          "target_in_shortlist": 18,
+          "shown_shortlists": 18,
+          "wrong_leads": 36,
+          "total_leads": 54,
+          "withheld": 0,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 2,
+          "cases": 18,
+          "top1_correct": 15,
+          "target_in_shortlist": 18,
+          "shown_shortlists": 18,
+          "wrong_leads": 36,
+          "total_leads": 54,
+          "withheld": 0,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 3,
+          "cases": 18,
+          "top1_correct": 15,
+          "target_in_shortlist": 18,
+          "shown_shortlists": 18,
+          "wrong_leads": 36,
+          "total_leads": 54,
+          "withheld": 0,
+          "failed_or_missing": 0
+        }
+      ]
+    }
+  },
+  "controls": {
+    "ml": {
+      "cases": 18,
+      "top1_correct": 18,
+      "top3_inclusion": 18
+    },
+    "change": {
+      "cases": 18,
+      "top1_correct": 17,
+      "top3_inclusion": 18
+    },
+    "resource": {
+      "cases": 18,
+      "top1_correct": 10,
+      "top3_inclusion": 14
+    }
+  },
+  "paired": [
+    {
+      "round": 1,
+      "top1_fixes": [],
+      "top1_regressions": [
+        "TMP-536c2593bbc8"
+      ],
+      "shortlist_fixes": [],
+      "shortlist_regressions": []
+    },
+    {
+      "round": 2,
+      "top1_fixes": [],
+      "top1_regressions": [
+        "TMP-536c2593bbc8"
+      ],
+      "shortlist_fixes": [],
+      "shortlist_regressions": []
+    },
+    {
+      "round": 3,
+      "top1_fixes": [],
+      "top1_regressions": [
+        "TMP-536c2593bbc8"
+      ],
+      "shortlist_fixes": [],
+      "shortlist_regressions": []
+    }
+  ],
+  "cases": [
+    {
+      "id": "TMP-3cfc8cf70d39",
+      "group": "ts-auth-service/cpu",
+      "target": "ts-auth-service",
+      "fault": "cpu",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-auth-mongo",
+                "ts-ui-dashboard"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard",
+                "ts-auth-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard",
+                "ts-auth-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-auth-mongo",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-auth-mongo",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-auth-mongo",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-86406daa6fce",
+      "group": "ts-auth-service/cpu",
+      "target": "ts-auth-service",
+      "fault": "cpu",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard",
+                "ts-station-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard",
+                "ts-station-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-station-service",
+                "ts-ui-dashboard"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-station-service",
+                "ts-auth-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-station-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-station-service",
+                "ts-auth-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        }
+      }
+    },
+    {
+      "id": "TMP-8029dc51d694",
+      "group": "ts-auth-service/cpu",
+      "target": "ts-auth-service",
+      "fault": "cpu",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-preserve-service",
+                "ts-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-preserve-service",
+                "ts-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-payment-service",
+                "ts-preserve-other-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-payment-service",
+                "ts-preserve-other-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-payment-service",
+                "ts-preserve-other-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-1aea25a65457",
+      "group": "ts-auth-service/socket",
+      "target": "ts-auth-service",
+      "fault": "socket",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 1,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 1,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 1,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-payment-service",
+                "ts-preserve-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-payment-service",
+                "ts-preserve-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-payment-service",
+                "ts-preserve-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-aaa2d8deaf2c",
+      "group": "ts-auth-service/socket",
+      "target": "ts-auth-service",
+      "fault": "socket",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard",
+                "ts-voucher-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 1,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard",
+                "ts-inside-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-auth-mongo",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-auth-mongo",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-preserve-service",
+                "ts-preserve-other-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        }
+      }
+    },
+    {
+      "id": "TMP-b6165ab45de6",
+      "group": "ts-auth-service/socket",
+      "target": "ts-auth-service",
+      "fault": "socket",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 1,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 1,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-ui-dashboard",
+                "ts-voucher-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-auth-mongo",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-auth-mongo",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-auth-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-auth-service",
+                "ts-auth-mongo",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-5b07c4ccd5f9",
+      "group": "ts-order-service/delay",
+      "target": "ts-order-service",
+      "fault": "delay",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-preserve-service",
+                "ts-inside-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        }
+      }
+    },
+    {
+      "id": "TMP-536c2593bbc8",
+      "group": "ts-order-service/delay",
+      "target": "ts-order-service",
+      "fault": "delay",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-consign-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-consign-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-consign-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-inside-payment-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-inside-payment-service",
+                "ts-order-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-inside-payment-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-inside-payment-service",
+                "ts-order-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-inside-payment-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-inside-payment-service",
+                "ts-order-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-3345b709a24e",
+      "group": "ts-order-service/delay",
+      "target": "ts-order-service",
+      "fault": "delay",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 1,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 1,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-payment-service",
+                "ts-inside-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-order-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-order-service",
+                "ts-inside-payment-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        }
+      }
+    },
+    {
+      "id": "TMP-422ac9cb1056",
+      "group": "ts-route-service/disk",
+      "target": "ts-route-service",
+      "fault": "disk",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-admin-travel-service",
+                "ts-config-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-admin-travel-service",
+                "ts-config-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-admin-travel-service",
+                "ts-config-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-payment-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-payment-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-payment-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-62d29373ae39",
+      "group": "ts-route-service/disk",
+      "target": "ts-route-service",
+      "fault": "disk",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-admin-travel-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-admin-travel-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-admin-travel-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-d2783a24c7be",
+      "group": "ts-route-service/disk",
+      "target": "ts-route-service",
+      "fault": "disk",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-payment-service",
+                "ts-admin-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-payment-service",
+                "ts-admin-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-payment-service",
+                "ts-admin-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-payment-service",
+                "ts-preserve-other-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-payment-service",
+                "ts-preserve-other-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-route-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-route-service",
+                "ts-payment-service",
+                "ts-preserve-other-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-78faf393b2da",
+      "group": "ts-train-service/loss",
+      "target": "ts-train-service",
+      "fault": "loss",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-train-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-train-service",
+                "ts-admin-travel-service",
+                "ts-train-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-train-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-train-service",
+                "ts-admin-travel-service",
+                "ts-train-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-train-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-train-service",
+                "ts-admin-travel-service",
+                "ts-train-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-train-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-train-service",
+                "ts-admin-travel-service",
+                "ts-train-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-train-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-train-service",
+                "ts-admin-travel-service",
+                "ts-train-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-train-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-train-service",
+                "ts-admin-travel-service",
+                "ts-train-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-602eb7dcc9b6",
+      "group": "ts-train-service/loss",
+      "target": "ts-train-service",
+      "fault": "loss",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-train-service",
+                "ts-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-train-service",
+                "ts-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-train-service",
+                "ts-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-train-service",
+                "ts-preserve-other-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-train-service",
+                "ts-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-train-service",
+                "ts-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        }
+      }
+    },
+    {
+      "id": "TMP-b66e05767653",
+      "group": "ts-train-service/loss",
+      "target": "ts-train-service",
+      "fault": "loss",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-train-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-train-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-train-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-payment-service",
+                "ts-train-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-admin-travel-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-admin-travel-service",
+                "ts-payment-service",
+                "ts-train-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-payment-service",
+              "top1_correct": false,
+              "shortlist": [
+                "ts-payment-service",
+                "ts-admin-travel-service",
+                "ts-train-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": false,
+          "shortlist_stable": false
+        }
+      }
+    },
+    {
+      "id": "TMP-6ce822751fad",
+      "group": "ts-travel-service/mem",
+      "target": "ts-travel-service",
+      "fault": "mem",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-preserve-service",
+                "ts-admin-travel-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        }
+      }
+    },
+    {
+      "id": "TMP-ab7504094d40",
+      "group": "ts-travel-service/mem",
+      "target": "ts-travel-service",
+      "fault": "mem",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-voucher-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        }
+      }
+    },
+    {
+      "id": "TMP-5759aa6d37ca",
+      "group": "ts-travel-service/mem",
+      "target": "ts-travel-service",
+      "fault": "mem",
+      "arms": {
+        "named": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-admin-travel-service",
+                "ts-preserve-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": true
+        },
+        "temporal": {
+          "rounds": [
+            {
+              "round": 1,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-preserve-service",
+                "ts-payment-service"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 2,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-preserve-service",
+                "ts-travel-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            },
+            {
+              "round": 3,
+              "status": "ok",
+              "choice": "ts-travel-service",
+              "top1_correct": true,
+              "shortlist": [
+                "ts-travel-service",
+                "ts-preserve-service",
+                "ts-travel-mongo"
+              ],
+              "target_in_shortlist": true,
+              "wrong_leads": 2,
+              "withheld": false
+            }
+          ],
+          "choice_stable": true,
+          "shortlist_stable": false
+        }
+      }
+    }
+  ],
+  "evidence": {
+    "protocol_sha256": "f4dc4143261f6bf81c55021485e77e280ff0576a1d1a1a85771fcc2be03d7e8d",
+    "summary_sha256": "bce53bfa12a893a73783630388d2ce0b1e737c3f05c116d969c316702d136607"
+  },
+  "next_gate": "Calibration remains sealed until the analyst shortlist inclusion-versus-withholding criterion is selected. No operational error rate, investigation benefit or improvement claim from development."
+}

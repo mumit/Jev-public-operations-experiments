@@ -52,4 +52,30 @@ The analyst shortlist contains at most three positive-probability service candid
 
 Calibration will stay sealed until the intended inclusion-versus-withholding criterion is selected. A list with the target somewhere among three services is not equivalent to one correct recommendation; its extra wrong leads consume analyst effort. That tradeoff determines how a later boundary should be chosen. The protocol does not assume an operational error budget.
 
-The development responses are not recorded yet. This is a frozen plan, not a performance result.
+## Development results
+
+All 108 comparison calls succeeded, and every reported input count stayed within the declared capacity. Each round uses the same 18 cases; do not pool them into 54 independent test cases.
+
+| Method | Correct first choice, each round | Published cause in first three leads, each round | Extra wrong leads per round |
+|---|---:|---:|---:|
+| Jev named | 16/18 | 18/18 | 32–34 |
+| Jev temporal | 15/18 | 18/18 | 36 |
+| Frozen ML transfer | 18/18 | 18/18 | Not a calibrated shortlist policy |
+| Change ranking | 17/18 | 18/18 | Not a calibrated shortlist policy |
+| Resource ranking | 10/18 | 14/18 | Not a calibrated shortlist policy |
+
+Named input kept its first choice on all 18 cases across three rounds. Its ordered shortlist stayed identical on 11 cases. Temporal input kept its first choice on 17 cases and its ordered shortlist on 10. Named generated 50–52 leads per round; temporal generated 54. Neither withheld a shortlist. Secondary leads can change while the primary selection stays fixed.
+
+`TMP-536c2593bbc8` is the consistent regression. Named selected the published orders service in every round. Temporal selected inside-payment instead, with orders second. Adding timing evidence did not remove the true cause from the shortlist, but it displaced the correct first choice. There were no temporal first-choice fixes or shortlist-inclusion gains.
+
+Both named errors involve train-service network-loss cases, where admin-travel ranks first and train remains in the shortlist. On one of those cases, temporal alternates between admin-travel and payment. The unchanged ML control ranks the published service first on every development case. This is an observed transfer result on six groups, not evidence that ML will stay perfect on new faults.
+
+## Decision before calibration
+
+The named input is the development candidate. Temporal windows add request size and one repeated regression without improving target inclusion. I will preserve that result rather than add timing detail to the candidate by default.
+
+A shortlist includes the published cause more often than one selected service here, but extra leads can create unnecessary investigation. Most named first choices were already correct. Adding weak alternatives to those cases inflated the lead count without fixing a primary error. The benchmark reference can count those extras; it cannot measure their actual investigation cost or usefulness to an analyst.
+
+Before any calibration download, choose whether to minimize extra wrong leads and accept more withholding, or maximize inclusion with up to three leads. I recommend fewer unnecessary leads. That choice will set the calibration objective and the rules for when to show one service, alternatives, or no recommendation. No new display boundary has been fitted. All 72 later Train Ticket cases and the 36 Sock Shop reserve cases remain undownloaded.
+
+Inspect the [development comparison](http://127.0.0.1:8769/temporal) for exact inputs, the added latency windows, all three responses and matched local rankings. These are development findings, not held-out improvement or demonstrated analyst benefit.
