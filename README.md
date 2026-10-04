@@ -31,6 +31,7 @@ A fresh clone includes source, reports and checkpoints. Restore the [public evid
 - [Dataset assessment](docs/public-data-assessment.md): sources, terms and input preparation.
 - [Metric experiment](docs/public-rca-experiment.md): training, grouped splits, methods and results.
 - [Input comparison](docs/public-input-format.md): lossless transformations, matched cases and review thresholds.
+- [Next evidence experiment](docs/public-temporal-next.md): exploratory timing audit and fresh development design.
 - [Repeatability diagnostic](docs/public-repeatability.md): exact-request replay design and research gate.
 - [Evidence bundle](docs/evidence.md): download, safe restoration and verification.
 - [Migration](docs/migration.md): archived sources and the standalone extraction.

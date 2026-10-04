@@ -7,7 +7,7 @@ from string import Template
 from urllib.parse import urlencode,urlparse
 from markdown_it import MarkdownIt
 
-DOCUMENTS={'public-repeat':'docs/public-repeatability.md','public-rca':'docs/public-rca-experiment.md','public-format':'docs/public-input-format.md',
+DOCUMENTS={'public-temporal':'docs/public-temporal-next.md','public-repeat':'docs/public-repeatability.md','public-rca':'docs/public-rca-experiment.md','public-format':'docs/public-input-format.md',
            'public-data':'docs/public-data-assessment.md','handoff':'HANDOFF.md','evidence':'docs/evidence.md','migration':'docs/migration.md'}
 
 def return_path(value):

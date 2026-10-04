@@ -1,6 +1,6 @@
 # Standalone verification
 
-The public-only extraction passes 52 Python tests and syntax checks for all four browser scripts. Tests cover grouped splits, missingness, input/reference separation, response validation, stage gates, explicit reference reveal, origin protection and safe article links. Migration tests compare extracted helper definitions with their archived originals, reject changes to source fingerprints, block new calls under completed historical protocols and reject unsafe or corrupted release archives.
+The public-only extraction passes 57 Python tests and syntax checks for all four browser scripts. Tests cover grouped splits, missingness, input/reference separation, response validation, stage gates, explicit reference reveal, origin protection and safe article links. Migration tests compare extracted helper definitions with their archived originals, reject changes to source fingerprints, block new calls under completed historical protocols and reject unsafe or corrupted release archives.
 
 The evidence verifier reconstructs all 294 saved request bodies, reproduces the fitted ML control from training-only data and recomputes all six stage assessments and frozen thresholds exactly. Both pack validators confirm the original assignments, measurement hashes and 36 undownloaded reserve cases. The migration makes no hosted calls.
 
@@ -13,3 +13,5 @@ The tracked verification checkpoint records the standalone source commit and rel
 The separate replay tests verify exact historical wire bytes, the deterministic 12-case selection, balanced call order, failure-inclusive denominators, distinct choice/display consistency, matched regressions, once-only execution and credential redaction on model-version and HTTP failures. All 180 hosted replay calls succeeded; scoring verifies the recorded wire bodies and provider normalization against the frozen protocol. The diagnostic failed its research gate on named choice and display variability.
 
 The replay inspector recomputes complete evidence before reading the committed assessment. Its tests reject mismatched assessments, withhold case answers and answer-bearing group names until reference reveal, preserve immutable case data, and confirm loopback origin protection and read-only routes. Browser review covers the formatted replay article and selected-case return context.
+
+The offline timing audit tests fixed before-window scaling, elapsed-time bins, empty/missing measurements and latency channel selection. New preparation tests keep all Train Ticket repetitions grouped and prove temporal additions preserve the named measurements, question and candidate list. The new inference contract and request budget remain unfrozen.

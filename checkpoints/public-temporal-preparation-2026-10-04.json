@@ -1,0 +1,567 @@
+{
+  "schema": "public-temporal-preparation-1",
+  "revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "index_sha256": "c49a288920dbba2e8e724679a14636d5c7eb2b45426bba14007ef79a6c0ab1bb",
+  "counts": {
+    "development": 18,
+    "calibration": 18,
+    "evaluation": 36,
+    "reserve": 18
+  },
+  "assignments": [
+    {
+      "id": "TMP-3cfc8cf70d39",
+      "split": "development",
+      "group": "ts-auth-service/cpu",
+      "source_case": "re2tt_ts-auth-service_cpu_1"
+    },
+    {
+      "id": "TMP-86406daa6fce",
+      "split": "development",
+      "group": "ts-auth-service/cpu",
+      "source_case": "re2tt_ts-auth-service_cpu_2"
+    },
+    {
+      "id": "TMP-8029dc51d694",
+      "split": "development",
+      "group": "ts-auth-service/cpu",
+      "source_case": "re2tt_ts-auth-service_cpu_3"
+    },
+    {
+      "id": "TMP-27151a44d62b",
+      "split": "reserve",
+      "group": "ts-auth-service/delay",
+      "source_case": "re2tt_ts-auth-service_delay_1"
+    },
+    {
+      "id": "TMP-a601c8faf7d0",
+      "split": "reserve",
+      "group": "ts-auth-service/delay",
+      "source_case": "re2tt_ts-auth-service_delay_2"
+    },
+    {
+      "id": "TMP-d20372a3bed7",
+      "split": "reserve",
+      "group": "ts-auth-service/delay",
+      "source_case": "re2tt_ts-auth-service_delay_3"
+    },
+    {
+      "id": "TMP-a0a3fa8209f6",
+      "split": "evaluation",
+      "group": "ts-auth-service/disk",
+      "source_case": "re2tt_ts-auth-service_disk_1"
+    },
+    {
+      "id": "TMP-6dff0b58ffa9",
+      "split": "evaluation",
+      "group": "ts-auth-service/disk",
+      "source_case": "re2tt_ts-auth-service_disk_2"
+    },
+    {
+      "id": "TMP-c94ef17d3736",
+      "split": "evaluation",
+      "group": "ts-auth-service/disk",
+      "source_case": "re2tt_ts-auth-service_disk_3"
+    },
+    {
+      "id": "TMP-ab56c585efd8",
+      "split": "evaluation",
+      "group": "ts-auth-service/loss",
+      "source_case": "re2tt_ts-auth-service_loss_1"
+    },
+    {
+      "id": "TMP-9c2c3dbeebc2",
+      "split": "evaluation",
+      "group": "ts-auth-service/loss",
+      "source_case": "re2tt_ts-auth-service_loss_2"
+    },
+    {
+      "id": "TMP-37367fdc1339",
+      "split": "evaluation",
+      "group": "ts-auth-service/loss",
+      "source_case": "re2tt_ts-auth-service_loss_3"
+    },
+    {
+      "id": "TMP-f38c2ca4bed8",
+      "split": "calibration",
+      "group": "ts-auth-service/mem",
+      "source_case": "re2tt_ts-auth-service_mem_1"
+    },
+    {
+      "id": "TMP-d7f4bf8b1d02",
+      "split": "calibration",
+      "group": "ts-auth-service/mem",
+      "source_case": "re2tt_ts-auth-service_mem_2"
+    },
+    {
+      "id": "TMP-1ecaec9244a7",
+      "split": "calibration",
+      "group": "ts-auth-service/mem",
+      "source_case": "re2tt_ts-auth-service_mem_3"
+    },
+    {
+      "id": "TMP-1aea25a65457",
+      "split": "development",
+      "group": "ts-auth-service/socket",
+      "source_case": "re2tt_ts-auth-service_socket_1"
+    },
+    {
+      "id": "TMP-aaa2d8deaf2c",
+      "split": "development",
+      "group": "ts-auth-service/socket",
+      "source_case": "re2tt_ts-auth-service_socket_2"
+    },
+    {
+      "id": "TMP-b6165ab45de6",
+      "split": "development",
+      "group": "ts-auth-service/socket",
+      "source_case": "re2tt_ts-auth-service_socket_3"
+    },
+    {
+      "id": "TMP-083d3e979f37",
+      "split": "calibration",
+      "group": "ts-order-service/cpu",
+      "source_case": "re2tt_ts-order-service_cpu_1"
+    },
+    {
+      "id": "TMP-8ad4134082b9",
+      "split": "calibration",
+      "group": "ts-order-service/cpu",
+      "source_case": "re2tt_ts-order-service_cpu_2"
+    },
+    {
+      "id": "TMP-f7cc787f0513",
+      "split": "calibration",
+      "group": "ts-order-service/cpu",
+      "source_case": "re2tt_ts-order-service_cpu_3"
+    },
+    {
+      "id": "TMP-5b07c4ccd5f9",
+      "split": "development",
+      "group": "ts-order-service/delay",
+      "source_case": "re2tt_ts-order-service_delay_1"
+    },
+    {
+      "id": "TMP-536c2593bbc8",
+      "split": "development",
+      "group": "ts-order-service/delay",
+      "source_case": "re2tt_ts-order-service_delay_2"
+    },
+    {
+      "id": "TMP-3345b709a24e",
+      "split": "development",
+      "group": "ts-order-service/delay",
+      "source_case": "re2tt_ts-order-service_delay_3"
+    },
+    {
+      "id": "TMP-87b27e9afb07",
+      "split": "reserve",
+      "group": "ts-order-service/disk",
+      "source_case": "re2tt_ts-order-service_disk_1"
+    },
+    {
+      "id": "TMP-9ec8fc37a779",
+      "split": "reserve",
+      "group": "ts-order-service/disk",
+      "source_case": "re2tt_ts-order-service_disk_2"
+    },
+    {
+      "id": "TMP-1cc349af480b",
+      "split": "reserve",
+      "group": "ts-order-service/disk",
+      "source_case": "re2tt_ts-order-service_disk_3"
+    },
+    {
+      "id": "TMP-51f8f084ef2c",
+      "split": "evaluation",
+      "group": "ts-order-service/loss",
+      "source_case": "re2tt_ts-order-service_loss_1"
+    },
+    {
+      "id": "TMP-29dbc9ba81e0",
+      "split": "evaluation",
+      "group": "ts-order-service/loss",
+      "source_case": "re2tt_ts-order-service_loss_2"
+    },
+    {
+      "id": "TMP-f270d0b0f870",
+      "split": "evaluation",
+      "group": "ts-order-service/loss",
+      "source_case": "re2tt_ts-order-service_loss_3"
+    },
+    {
+      "id": "TMP-0899c071903d",
+      "split": "evaluation",
+      "group": "ts-order-service/mem",
+      "source_case": "re2tt_ts-order-service_mem_1"
+    },
+    {
+      "id": "TMP-86f05f71889a",
+      "split": "evaluation",
+      "group": "ts-order-service/mem",
+      "source_case": "re2tt_ts-order-service_mem_2"
+    },
+    {
+      "id": "TMP-916ab4cf25a6",
+      "split": "evaluation",
+      "group": "ts-order-service/mem",
+      "source_case": "re2tt_ts-order-service_mem_3"
+    },
+    {
+      "id": "TMP-dcfca094a220",
+      "split": "calibration",
+      "group": "ts-order-service/socket",
+      "source_case": "re2tt_ts-order-service_socket_1"
+    },
+    {
+      "id": "TMP-cd1402a66d0e",
+      "split": "calibration",
+      "group": "ts-order-service/socket",
+      "source_case": "re2tt_ts-order-service_socket_2"
+    },
+    {
+      "id": "TMP-5fc7eecbf159",
+      "split": "calibration",
+      "group": "ts-order-service/socket",
+      "source_case": "re2tt_ts-order-service_socket_3"
+    },
+    {
+      "id": "TMP-78b058937ed8",
+      "split": "evaluation",
+      "group": "ts-route-service/cpu",
+      "source_case": "re2tt_ts-route-service_cpu_1"
+    },
+    {
+      "id": "TMP-385841cd915a",
+      "split": "evaluation",
+      "group": "ts-route-service/cpu",
+      "source_case": "re2tt_ts-route-service_cpu_2"
+    },
+    {
+      "id": "TMP-4e10ab4374a1",
+      "split": "evaluation",
+      "group": "ts-route-service/cpu",
+      "source_case": "re2tt_ts-route-service_cpu_3"
+    },
+    {
+      "id": "TMP-98e2b2ba993f",
+      "split": "calibration",
+      "group": "ts-route-service/delay",
+      "source_case": "re2tt_ts-route-service_delay_1"
+    },
+    {
+      "id": "TMP-e28f89b1fbe8",
+      "split": "calibration",
+      "group": "ts-route-service/delay",
+      "source_case": "re2tt_ts-route-service_delay_2"
+    },
+    {
+      "id": "TMP-6285d3eb6d24",
+      "split": "calibration",
+      "group": "ts-route-service/delay",
+      "source_case": "re2tt_ts-route-service_delay_3"
+    },
+    {
+      "id": "TMP-422ac9cb1056",
+      "split": "development",
+      "group": "ts-route-service/disk",
+      "source_case": "re2tt_ts-route-service_disk_1"
+    },
+    {
+      "id": "TMP-62d29373ae39",
+      "split": "development",
+      "group": "ts-route-service/disk",
+      "source_case": "re2tt_ts-route-service_disk_2"
+    },
+    {
+      "id": "TMP-d2783a24c7be",
+      "split": "development",
+      "group": "ts-route-service/disk",
+      "source_case": "re2tt_ts-route-service_disk_3"
+    },
+    {
+      "id": "TMP-e5fd8f1e58ad",
+      "split": "reserve",
+      "group": "ts-route-service/loss",
+      "source_case": "re2tt_ts-route-service_loss_1"
+    },
+    {
+      "id": "TMP-80d015d089a4",
+      "split": "reserve",
+      "group": "ts-route-service/loss",
+      "source_case": "re2tt_ts-route-service_loss_2"
+    },
+    {
+      "id": "TMP-266555bd3ad3",
+      "split": "reserve",
+      "group": "ts-route-service/loss",
+      "source_case": "re2tt_ts-route-service_loss_3"
+    },
+    {
+      "id": "TMP-f8631baff3cd",
+      "split": "evaluation",
+      "group": "ts-route-service/mem",
+      "source_case": "re2tt_ts-route-service_mem_1"
+    },
+    {
+      "id": "TMP-e774f8c1babe",
+      "split": "evaluation",
+      "group": "ts-route-service/mem",
+      "source_case": "re2tt_ts-route-service_mem_2"
+    },
+    {
+      "id": "TMP-103e020057f5",
+      "split": "evaluation",
+      "group": "ts-route-service/mem",
+      "source_case": "re2tt_ts-route-service_mem_3"
+    },
+    {
+      "id": "TMP-be71b41b30e2",
+      "split": "evaluation",
+      "group": "ts-route-service/socket",
+      "source_case": "re2tt_ts-route-service_socket_1"
+    },
+    {
+      "id": "TMP-638415594638",
+      "split": "evaluation",
+      "group": "ts-route-service/socket",
+      "source_case": "re2tt_ts-route-service_socket_2"
+    },
+    {
+      "id": "TMP-6ae5171925c4",
+      "split": "evaluation",
+      "group": "ts-route-service/socket",
+      "source_case": "re2tt_ts-route-service_socket_3"
+    },
+    {
+      "id": "TMP-ac37c4d350a2",
+      "split": "evaluation",
+      "group": "ts-train-service/cpu",
+      "source_case": "re2tt_ts-train-service_cpu_1"
+    },
+    {
+      "id": "TMP-b89a39995940",
+      "split": "evaluation",
+      "group": "ts-train-service/cpu",
+      "source_case": "re2tt_ts-train-service_cpu_2"
+    },
+    {
+      "id": "TMP-0ba2dc57f921",
+      "split": "evaluation",
+      "group": "ts-train-service/cpu",
+      "source_case": "re2tt_ts-train-service_cpu_3"
+    },
+    {
+      "id": "TMP-2b828164cf13",
+      "split": "evaluation",
+      "group": "ts-train-service/delay",
+      "source_case": "re2tt_ts-train-service_delay_1"
+    },
+    {
+      "id": "TMP-0b728fd172ee",
+      "split": "evaluation",
+      "group": "ts-train-service/delay",
+      "source_case": "re2tt_ts-train-service_delay_2"
+    },
+    {
+      "id": "TMP-e6636091f1c3",
+      "split": "evaluation",
+      "group": "ts-train-service/delay",
+      "source_case": "re2tt_ts-train-service_delay_3"
+    },
+    {
+      "id": "TMP-b22c4e1832b0",
+      "split": "calibration",
+      "group": "ts-train-service/disk",
+      "source_case": "re2tt_ts-train-service_disk_1"
+    },
+    {
+      "id": "TMP-83e5a0ac352f",
+      "split": "calibration",
+      "group": "ts-train-service/disk",
+      "source_case": "re2tt_ts-train-service_disk_2"
+    },
+    {
+      "id": "TMP-dda76427dd1b",
+      "split": "calibration",
+      "group": "ts-train-service/disk",
+      "source_case": "re2tt_ts-train-service_disk_3"
+    },
+    {
+      "id": "TMP-78faf393b2da",
+      "split": "development",
+      "group": "ts-train-service/loss",
+      "source_case": "re2tt_ts-train-service_loss_1"
+    },
+    {
+      "id": "TMP-602eb7dcc9b6",
+      "split": "development",
+      "group": "ts-train-service/loss",
+      "source_case": "re2tt_ts-train-service_loss_2"
+    },
+    {
+      "id": "TMP-b66e05767653",
+      "split": "development",
+      "group": "ts-train-service/loss",
+      "source_case": "re2tt_ts-train-service_loss_3"
+    },
+    {
+      "id": "TMP-1d7171dd935e",
+      "split": "reserve",
+      "group": "ts-train-service/mem",
+      "source_case": "re2tt_ts-train-service_mem_1"
+    },
+    {
+      "id": "TMP-13bf5273da67",
+      "split": "reserve",
+      "group": "ts-train-service/mem",
+      "source_case": "re2tt_ts-train-service_mem_2"
+    },
+    {
+      "id": "TMP-e20db0a7af17",
+      "split": "reserve",
+      "group": "ts-train-service/mem",
+      "source_case": "re2tt_ts-train-service_mem_3"
+    },
+    {
+      "id": "TMP-83e50d0447d1",
+      "split": "evaluation",
+      "group": "ts-train-service/socket",
+      "source_case": "re2tt_ts-train-service_socket_1"
+    },
+    {
+      "id": "TMP-da256518b0c0",
+      "split": "evaluation",
+      "group": "ts-train-service/socket",
+      "source_case": "re2tt_ts-train-service_socket_2"
+    },
+    {
+      "id": "TMP-afc5016d91e8",
+      "split": "evaluation",
+      "group": "ts-train-service/socket",
+      "source_case": "re2tt_ts-train-service_socket_3"
+    },
+    {
+      "id": "TMP-0b30942e12c2",
+      "split": "reserve",
+      "group": "ts-travel-service/cpu",
+      "source_case": "re2tt_ts-travel-service_cpu_1"
+    },
+    {
+      "id": "TMP-dd7e5a4bc240",
+      "split": "reserve",
+      "group": "ts-travel-service/cpu",
+      "source_case": "re2tt_ts-travel-service_cpu_2"
+    },
+    {
+      "id": "TMP-5d6832a7c453",
+      "split": "reserve",
+      "group": "ts-travel-service/cpu",
+      "source_case": "re2tt_ts-travel-service_cpu_3"
+    },
+    {
+      "id": "TMP-7bf780462a46",
+      "split": "evaluation",
+      "group": "ts-travel-service/delay",
+      "source_case": "re2tt_ts-travel-service_delay_1"
+    },
+    {
+      "id": "TMP-7b460f6c8d58",
+      "split": "evaluation",
+      "group": "ts-travel-service/delay",
+      "source_case": "re2tt_ts-travel-service_delay_2"
+    },
+    {
+      "id": "TMP-1e2cce990457",
+      "split": "evaluation",
+      "group": "ts-travel-service/delay",
+      "source_case": "re2tt_ts-travel-service_delay_3"
+    },
+    {
+      "id": "TMP-57a3cfecaae8",
+      "split": "evaluation",
+      "group": "ts-travel-service/disk",
+      "source_case": "re2tt_ts-travel-service_disk_1"
+    },
+    {
+      "id": "TMP-ad51fec8fc98",
+      "split": "evaluation",
+      "group": "ts-travel-service/disk",
+      "source_case": "re2tt_ts-travel-service_disk_2"
+    },
+    {
+      "id": "TMP-14d167227aea",
+      "split": "evaluation",
+      "group": "ts-travel-service/disk",
+      "source_case": "re2tt_ts-travel-service_disk_3"
+    },
+    {
+      "id": "TMP-46cff2fd1e05",
+      "split": "calibration",
+      "group": "ts-travel-service/loss",
+      "source_case": "re2tt_ts-travel-service_loss_1"
+    },
+    {
+      "id": "TMP-4d34f89e2458",
+      "split": "calibration",
+      "group": "ts-travel-service/loss",
+      "source_case": "re2tt_ts-travel-service_loss_2"
+    },
+    {
+      "id": "TMP-58e8f1bed0c1",
+      "split": "calibration",
+      "group": "ts-travel-service/loss",
+      "source_case": "re2tt_ts-travel-service_loss_3"
+    },
+    {
+      "id": "TMP-6ce822751fad",
+      "split": "development",
+      "group": "ts-travel-service/mem",
+      "source_case": "re2tt_ts-travel-service_mem_1"
+    },
+    {
+      "id": "TMP-ab7504094d40",
+      "split": "development",
+      "group": "ts-travel-service/mem",
+      "source_case": "re2tt_ts-travel-service_mem_2"
+    },
+    {
+      "id": "TMP-5759aa6d37ca",
+      "split": "development",
+      "group": "ts-travel-service/mem",
+      "source_case": "re2tt_ts-travel-service_mem_3"
+    },
+    {
+      "id": "TMP-50e28a192945",
+      "split": "reserve",
+      "group": "ts-travel-service/socket",
+      "source_case": "re2tt_ts-travel-service_socket_1"
+    },
+    {
+      "id": "TMP-98f82d644923",
+      "split": "reserve",
+      "group": "ts-travel-service/socket",
+      "source_case": "re2tt_ts-travel-service_socket_2"
+    },
+    {
+      "id": "TMP-668c171f20ac",
+      "split": "reserve",
+      "group": "ts-travel-service/socket",
+      "source_case": "re2tt_ts-travel-service_socket_3"
+    }
+  ],
+  "download_split": "development",
+  "maximum_cases": 18,
+  "files_per_case": [
+    "metrics.parquet",
+    "inject_time.txt"
+  ],
+  "maximum_file_bytes": 5000000,
+  "source_sha256": {
+    "triage_bench/public_temporal_data.py": "749711e892ef6439a66b508850eef695284afe83984a1ec5e195ab83a2b45777",
+    "triage_bench/public_temporal_audit.py": "8b212a122edfaf653a0553e59b00465d3ddd7ecee72e7f6fcdff42ec326d9203",
+    "scripts/prepare_public_temporal.py": "2d1b179aca09b481bc8a938c0bb5121dbad9e7f481f82d382b8ff6a5994edbb8"
+  },
+  "conditions": "Known injection boundary; 18 new grouped development cases only. No hosted calls. Keep all other Train Ticket telemetry and all Sock Shop reserve telemetry undownloaded.",
+  "sizing": "Measure complete named and temporal request sizes before inference; do not drop candidates or measurements to fit."
+}

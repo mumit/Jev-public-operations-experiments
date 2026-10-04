@@ -2,7 +2,7 @@
 
 ## Current state
 
-Both public studies are complete and preserved. The standalone extraction passes 52 tests; a fresh GitHub clone restores all 347 release files and recomputes both studies exactly. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
+Both public comparisons and the exact-request replay are complete and preserved. The standalone extraction passes 57 tests; a fresh GitHub clone restores all 347 release files and recomputes both studies exactly. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
 
 Start with README.md, docs/public-input-format.md, docs/migration.md and docs/evidence.md. Restore the evidence bundle, run scripts.verify_evidence, then inspect `/public-format` and `/public-rca`. Browsing and verification need no API key.
 
@@ -25,3 +25,9 @@ The predeclared gate failed on named choice and display variability. Keep the 36
 provenance/migration.json records the original source commit, original protocol fingerprints and active standalone source hashes. Original inference dependencies remain byte-for-byte under provenance/source. They are archival references; the app does not import the original synthetic packages.
 
 Historical protocols are blocked from new hosted execution, even with another output directory. Checkpoints and release evidence must remain unchanged. New inference requires a separate protocol and the user's own key; .env.example documents the settings, without credentials.
+
+## Prepared next stage
+
+The offline timing audit is checkpoints/public-temporal-audit-2026-10-03.json; it uses 12 inspected cases, makes no calls and downloads no reserve data. docs/public-temporal-next.md explains the hypothesis and limitations. The instruction to continue uses the recommended analyst shortlist direction while retaining single-service scores; the inference contract has not been frozen yet.
+
+The new preparation plan assigns all 90 RE2 Train Ticket cases in 18/18/36/18 grouped development/calibration/evaluation/reserve splits. Commit checkpoints/public-temporal-preparation-2026-10-04.json before scripts.prepare_public_temporal prepare. Only 18 development cases may be downloaded. Measure complete named and temporal request sizes and observed candidate coverage before any hosted protocol. All other Train Ticket telemetry stays undownloaded. No temporal hosted calls are authorized by the preparation script itself.
