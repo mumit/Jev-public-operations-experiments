@@ -35,3 +35,16 @@ uv run --locked --extra public-data python -m scripts.verify_public_diagnostics
 ```
 
 The same safe restoration rules apply. The supplemental archive is 13,814,645 bytes. All 72 later Train Ticket cases and 36 Sock Shop reserve cases have assignments only; their telemetry is absent. Verification reconstructs the later assessments without calling Jev. The current decision before calibration is documented in [HANDOFF](../HANDOFF.md).
+
+
+## Selective recommendation evidence
+
+The [public-selective-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-selective-v1) adds the 54 calibration and 108 evaluation responses, public Train Ticket measurements, exact named requests and unchanged transfer controls. Its 124 files total 38,958,221 archive bytes. Restore the two earlier bundles first.
+
+```bash
+gh release download public-selective-v1 --repo mumit/Jev-public-operations-experiments --pattern public-selective-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-selective-v1.tar.gz --manifest evidence/public-selective-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_selective
+```
+
+All three releases preserve 745 actual hosted responses. They do not regenerate hosted inference or contain a live network connection. The remaining 18 Train Ticket reserve cases and 36 Sock Shop reserve cases have no telemetry in these bundles. Safe restoration rejects unknown entries, checksum drift, links and overwrites.

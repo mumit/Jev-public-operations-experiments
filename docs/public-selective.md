@@ -26,7 +26,7 @@ The calibrated boundary must reproduce and be committed before evaluation teleme
 
 Zero observed calibration errors do not establish a production error rate. These are controlled application faults with supplied incident boundaries, published injected-service references and unknown pretraining exposure, not telecom reports.
 
-## Current status
+## Calibration result
 
 All 54 calibration calls completed successfully. The frozen rule selects a probability boundary of 0.70 and a margin of zero. It shows 11, 10 and 11 correct leads across the three rounds, with no wrong leads. It withholds 7, 8 and 7 cases, including 1, 3 and 3 correct raw first choices. Display stays the same on 17 of 18 cases.
 

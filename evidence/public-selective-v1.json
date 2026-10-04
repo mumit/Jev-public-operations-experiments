@@ -1,0 +1,511 @@
+{
+  "schema": "public-selective-evidence-1",
+  "archive": "public-selective-v1.tar.gz",
+  "archive_sha256": "9ed130b7fdeb0e82787586111634d627036b993ddae4460ad36a0d306600eeda",
+  "bytes": 38958221,
+  "source_commit": "742252c74a17affea1d0eded037c8ea0cc8b9524",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 162,
+  "files": {
+    "runs/public-selective/calibration-data-2026-10-04-v1/inputs.json": {
+      "bytes": 2224782,
+      "sha256": "6e20033d1892c97a0e323cd90c4627517e18e5a5b0699f278202c16a79af96f1"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/manifest.json": {
+      "bytes": 10032,
+      "sha256": "cdd39c8a71435f228b19430b4d89574e8f791ef367c040d7dcd901a4a77689ea"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-083d3e979f37/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "702bdfd6a6e74f043dc36c905a29833c69b82a8255bdc3fe943037ced877ea7f"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-083d3e979f37/metrics.parquet": {
+      "bytes": 1023946,
+      "sha256": "98b3bca0944f8b9d505d07078f55723e6e9f29e2186a4dcc7a2e807d9b000645"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-1ecaec9244a7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c392fa9fd9181446da0cfd5792fd4b1ae833c68ca9b37c0f65c52e27a0abccf7"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-1ecaec9244a7/metrics.parquet": {
+      "bytes": 1017582,
+      "sha256": "67b85590eca77297d657a3ff928eacaf1430fad8a4a97f24a6ddecfc0a15e4ad"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-46cff2fd1e05/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6ba385df2c8c7203bd6f9f70547b1d2582a4d9b56b8fd34330a7383c892ec85c"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-46cff2fd1e05/metrics.parquet": {
+      "bytes": 937142,
+      "sha256": "a5cabe5fa7b411db77a87a0c18fbe580c1d445ad04fb2191a64a060cf4035d5f"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-4d34f89e2458/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1a47480e12e63deff1e176b973c4c2b424ee48c7fa4daa664a0bf799536d7b1b"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-4d34f89e2458/metrics.parquet": {
+      "bytes": 941849,
+      "sha256": "a915aa24245aae98a6ff405b8cef13b6808c1aade3c280f57f5d801d459e613e"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-58e8f1bed0c1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c144de8c5baa2b328b3ec17c08a8eecacdc4783bba679349ea33aa4b89e33c56"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-58e8f1bed0c1/metrics.parquet": {
+      "bytes": 934320,
+      "sha256": "7f1b6b071d77f505a229544628aeec1a0ad09a73fb88b6ec4bd549f94f30f352"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-5fc7eecbf159/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "850eab5c8ab4c9b0701674ded7d23f02ec76dadf6263de50155b3a1fa64a0ea4"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-5fc7eecbf159/metrics.parquet": {
+      "bytes": 940994,
+      "sha256": "faa380919572a74697f886d4b059efa5c611a7087b78eeae8f6086033b1ca7d5"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-6285d3eb6d24/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a12bb4fbcf0636c87b19577c315dd1fb2997db3416139c7ab88b89f6bc342daa"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-6285d3eb6d24/metrics.parquet": {
+      "bytes": 926455,
+      "sha256": "47fd5155e447deb3bba717c47bb4f738d383dc2407b7f43f8761dbb6c7421ab5"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-83e5a0ac352f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "09bdc82c7a9e35f33bcb78dfcc545b0e7ebd80f61e7be89ba55971b66c670d97"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-83e5a0ac352f/metrics.parquet": {
+      "bytes": 941666,
+      "sha256": "001bc44ad487c9dbe73a8b238c69d1bda12e3e5f72dc0bf471b0360166a24e1c"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-8ad4134082b9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "cb952ab070df47954050ec316d7c0b617834a878e18d8fa44bccc02198a33960"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-8ad4134082b9/metrics.parquet": {
+      "bytes": 948941,
+      "sha256": "5de67ea1bb8e74f2872541520c1828a9d65eda6bf14731328b07f3a5943e17bf"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-98e2b2ba993f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "12f936f6209fab8555e832a3fce8d56fc58017697d0ac92a0d00e32b6c70f5e4"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-98e2b2ba993f/metrics.parquet": {
+      "bytes": 931142,
+      "sha256": "3e29c85f3d7a11bdc5328c83998175cbb0538396537eab3e26f4dda261666b52"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-b22c4e1832b0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "13d95377f2980132d1c99b8891d21a23b3c4ddbbebebce91e7d8df44c6598675"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-b22c4e1832b0/metrics.parquet": {
+      "bytes": 944841,
+      "sha256": "ebd11f75d1a0ee4c35d3132bd6df150d082978687c538cb0ac4569e96e33e1ec"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-cd1402a66d0e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "58bf83e2891c8f58fb42011285c89ad94065b35455eb299b1a3fd3b3e71f03ea"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-cd1402a66d0e/metrics.parquet": {
+      "bytes": 834787,
+      "sha256": "1e83350bed0c56273bb9a1c21496f2b4b4d644e9c6c94e53b558caa43cdae093"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-d7f4bf8b1d02/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0d9b261a7e7175b3ad0bae4d5069164e8d1d5a37abb00b6a8f39270a8750ebcf"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-d7f4bf8b1d02/metrics.parquet": {
+      "bytes": 924637,
+      "sha256": "df37d28d961bed9ff4f6c42198d9666930122186443609a60b076a9963eaf3c8"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-dcfca094a220/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5eff76a30bcdbe12fe53d76a41c9919fe5f84fe19447f084964aa309ae874baa"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-dcfca094a220/metrics.parquet": {
+      "bytes": 934543,
+      "sha256": "1eb1862980e521fb0e26cff4ed53047a0bd0e32e5134511cf61114d69f722b5c"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-dda76427dd1b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fc0b0301005f25c9794206eb010aaafac9df23dbd7218b745bb62892e6bae480"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-dda76427dd1b/metrics.parquet": {
+      "bytes": 941937,
+      "sha256": "4240f7ad2de4586ff2efb7099a0873d113b730f318b5dc167639e42cd4bd0627"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-e28f89b1fbe8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e89afb360abbf9d83e7e786ed76ceb79a7dbd698079f81794fcb5992a4c24d24"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-e28f89b1fbe8/metrics.parquet": {
+      "bytes": 929723,
+      "sha256": "0f8984335df367891493d087668878073a52ea700bfeeb78ff579506336e65f3"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-f38c2ca4bed8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "509301804e46072ede044a7a943115aac9ae65a244725e2bfd7bf2ac624d1ef3"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-f38c2ca4bed8/metrics.parquet": {
+      "bytes": 928037,
+      "sha256": "27ee4d306a0ff3e09b704e5d5387c65ef8cea307195547137f8605e403d22f98"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-f7cc787f0513/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ce5aaf992f5eb796ee201c5393e46cc0095db11e0db579206f3772f7c8298e1c"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/raw/TMP-f7cc787f0513/metrics.parquet": {
+      "bytes": 944630,
+      "sha256": "722cbf72804a058997a37039b1076e2b4f1f9c6a4fd390e295fd4d672ae5acb2"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/references.json": {
+      "bytes": 2367,
+      "sha256": "f6b5b83c8ddce0cd39d52468371a7b1e197f9fb4e14a4b686727c644dd4c07ba"
+    },
+    "runs/public-selective/calibration-data-2026-10-04-v1/sizing.json": {
+      "bytes": 1587,
+      "sha256": "1145ec6f9b4202f20afa56f81c046bb5404540fdc1390e8ae84c5f77918c53a3"
+    },
+    "runs/public-selective/calibration-hosted-2026-10-04-v1/controls.json": {
+      "bytes": 2502764,
+      "sha256": "0c9b527a503097cf4288365cd11fd260320064157d70ef0d24fbb3e8f2b765d2"
+    },
+    "runs/public-selective/calibration-hosted-2026-10-04-v1/requests.json": {
+      "bytes": 3859704,
+      "sha256": "e25c9642f7b2fd38a17050bf4dcace97706d26be0ce29ba03cf39a1a105ce0a2"
+    },
+    "runs/public-selective/calibration-hosted-2026-10-04-v1/responses.jsonl": {
+      "bytes": 238398,
+      "sha256": "df978b0a87555bec5bf274629636cd7e2de5d7d9d3e60a1192be6d2cb6eb53c5"
+    },
+    "runs/public-selective/calibration-hosted-2026-10-04-v1/summary.json": {
+      "bytes": 567,
+      "sha256": "0583a88a3d42a5cf003eaf7a1b8bedec8b0b11434d75d1de9d8d5c46ee8c23bc"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/inputs.json": {
+      "bytes": 4440199,
+      "sha256": "e70f2eb4c814519acc4c09c7ce18fe64e68fe1edc62b5df3d72f23cae152f0b1"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/manifest.json": {
+      "bytes": 19466,
+      "sha256": "5e2eebe96f1c028c51adf34ede3891543e993cfdc4ce3051aac143a46c02aecf"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-0899c071903d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4e243ad98c77eccd71e99764bcdc0ca05257e8f67a9d1ed101690ebe6fdc5afc"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-0899c071903d/metrics.parquet": {
+      "bytes": 1022530,
+      "sha256": "c13078857bcf86682603c6443ddff1a3e0cea637166d314fd7aa01066656544c"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-0b728fd172ee/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f9f826ed06a16e30dff0dbbfe0ab86b1ddd34f8e424a26c6619c8655ca9e9c25"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-0b728fd172ee/metrics.parquet": {
+      "bytes": 939474,
+      "sha256": "4e68956051f1fd8fdee87acc5dc70f370c174600c932a7e90502003026b1ec5b"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-0ba2dc57f921/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "df57d6b636faf9261e121e46344832fece73c9d4d161ddecb89390a10912b2e0"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-0ba2dc57f921/metrics.parquet": {
+      "bytes": 945919,
+      "sha256": "98bc73c499fa16b0bf350e2f3845a9ab275771cb4619fc0585d5a510ac61647d"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-103e020057f5/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "135bc6148c4bae568c3f51a4d152f4d6835c602eb42f5ecb311cc076008acc51"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-103e020057f5/metrics.parquet": {
+      "bytes": 930504,
+      "sha256": "16870e660c44278f247df8ec689428cde14a772fd01a2df6e46532b07c11aefe"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-14d167227aea/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "beaf8b2e707c4339dbb8cb4616ebdbf03d2689702d28ba9be8769606512ce9da"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-14d167227aea/metrics.parquet": {
+      "bytes": 855033,
+      "sha256": "de89e2f9e9e11f0e3ae5ef9d89f0f63a5593fec867078bea3c50200e8e60501c"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-1e2cce990457/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5394d81ec85a1e46d048a4d2942796a2660f842c2384da02a389cd5608914c5f"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-1e2cce990457/metrics.parquet": {
+      "bytes": 935927,
+      "sha256": "5d91d459ea38c49df0edfb23c09274242862c6387604463f962654a2a4d0d218"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-29dbc9ba81e0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5b5c62abc6830400f4764f60596678eb0282450deca3eb6fd7e6e66179470c6e"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-29dbc9ba81e0/metrics.parquet": {
+      "bytes": 835322,
+      "sha256": "20acb4402d28db43aafb49c412d7fcb442d9de8fb894fe80bf1107c7974d39a7"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-2b828164cf13/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c929f81cbb8c4f0d8952c5cf876daacaf51088af72a3269c6a2791a26616e8d4"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-2b828164cf13/metrics.parquet": {
+      "bytes": 925233,
+      "sha256": "a505ab3f65057d6587efdf4f212f015de32e27d48e3c1fe687b813c5819d11ce"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-37367fdc1339/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fc7536a51ddbeeec9f78c212c82ef898ca62c6f333ec947e85c5c40d8e730781"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-37367fdc1339/metrics.parquet": {
+      "bytes": 941284,
+      "sha256": "06e059fdf798e62eba58688c271ab807677c82eeb49fb0bba5883dbe198cf71a"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-385841cd915a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "35202c261f202f1eed3131aa9de6901d844988475d3213d7afe98a8a411fc790"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-385841cd915a/metrics.parquet": {
+      "bytes": 864499,
+      "sha256": "98b6a7c60176e5abf6a727d0d4156cfedb016711d56dff07fb2f7e4d4acecbd3"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-4e10ab4374a1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b1fd60a2c78f2cfa7a3764fe468b3d579c6a0ff69b9a6845044c5db16634e35f"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-4e10ab4374a1/metrics.parquet": {
+      "bytes": 851311,
+      "sha256": "1d41a63648b1472ca80ad20d6b93c446d554d66fae057e573aca41b4337774de"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-51f8f084ef2c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "08a8a4d23f283347e6be080bb997622b7b3bd7c3225560e76a5fe77fd33a5475"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-51f8f084ef2c/metrics.parquet": {
+      "bytes": 948009,
+      "sha256": "f36d0647d569742de1d8e7b1c7a382c7c10199dde8e5e76e71d56192d9163415"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-57a3cfecaae8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ae7b47b22bda3ba160bc3fb81a2e79a1f6a88eae8f8f36bf9f0262ee69b4f93f"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-57a3cfecaae8/metrics.parquet": {
+      "bytes": 937154,
+      "sha256": "db293894abb9d3e8294ec541491d87db1f46b34b998d0321a07429b17e948b4d"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-638415594638/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "73ced2e65fb0a10f09a1550f356921cc9c20d66d8c8882b0a441d99a295b00de"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-638415594638/metrics.parquet": {
+      "bytes": 1017491,
+      "sha256": "bcbd4f46ae4607cb95182ada51e0db2778c45e5a62135b653b36f3462ab8dba3"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-6ae5171925c4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9f41cf7cd0e81b933c875edbaa2e7dc1d0bd774a470786aafad95ebcb269883e"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-6ae5171925c4/metrics.parquet": {
+      "bytes": 931740,
+      "sha256": "03d4910932b92fb571136a29ca125e6353c8d466bc21657572fb1a78f01d64df"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-6dff0b58ffa9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2de9d768f8bc6cff8bcd1896e220c2726e8ac67784b92ef46ae3bd208de10bd9"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-6dff0b58ffa9/metrics.parquet": {
+      "bytes": 982256,
+      "sha256": "04da10f55530c07286e87d541e20a0880a1f2ef4ea53f78ea5b776877c986939"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-78b058937ed8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2522b37ddcd10ceaa337cf8e590628d237aa591fef71421a3929f025f968fafc"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-78b058937ed8/metrics.parquet": {
+      "bytes": 931076,
+      "sha256": "18aa2f12c8d08bf1aba19bc94b0b78e8800d2a926387154542e0251404c27333"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-7b460f6c8d58/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "13ec124704ad08e96962e4cac53c35da63ac66a87e943c161704a1e880ad4fb2"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-7b460f6c8d58/metrics.parquet": {
+      "bytes": 943553,
+      "sha256": "aa36d63385fa7267791bcc27bd358d5611c04cfc0bb0580518081625baa47092"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-7bf780462a46/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3c5e929ce9927a1531793c87593b8c49045799152eec109498ea58c82ec99d01"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-7bf780462a46/metrics.parquet": {
+      "bytes": 928472,
+      "sha256": "ccb433b31dcfdffccfccaae7e8e5660f47b597253d7ef9a7fa61434f1673543a"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-83e50d0447d1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5a97cc1e654d6aafe7cc5c1447b70185e93b60fc05afba712c4d5a58720ed0ca"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-83e50d0447d1/metrics.parquet": {
+      "bytes": 935385,
+      "sha256": "1a95a22d082afb237d7cb30a2d6903345cb45e9a367c34c5b9310a81602227bf"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-86f05f71889a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b2b2b5e406ab0af951175d9ca4f340f9ad3bf47c7ef600724d883cdec9df2ecb"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-86f05f71889a/metrics.parquet": {
+      "bytes": 1016993,
+      "sha256": "c2413b3a7f53678ed2aef46d5549bbc6100a1675cdc5bf6f2fcbe50c91710699"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-916ab4cf25a6/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "102b0ee43709c7d1d86fe5f0544b61eea8599211809d3a22255eb86806157c5a"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-916ab4cf25a6/metrics.parquet": {
+      "bytes": 947971,
+      "sha256": "8ac23c54d69773a7f5b37d55b7a85e501f1c9fc8fbd5bd7f51e3ca3fe52b973e"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-9c2c3dbeebc2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "385da4c75279b44e45c6313b5fed7aa9a0fe55f67aa169ae0e641726b2d2e4a1"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-9c2c3dbeebc2/metrics.parquet": {
+      "bytes": 955537,
+      "sha256": "d76a69e0badb7270dab098130049898d81205f6e320da5a7298f572d25444ee6"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-a0a3fa8209f6/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9c4383747b1c6a4872d7008968b08552a99231c9ace2e3116815b822855f2728"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-a0a3fa8209f6/metrics.parquet": {
+      "bytes": 963234,
+      "sha256": "cc813361b308ca7851c5e0675ac3d1911e47151fabbd48c84067aef2f3214987"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-ab56c585efd8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "348699bef7c06c3a9338579d40ade483c0f7d9c89c70d4b481a0529bd204d6e5"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-ab56c585efd8/metrics.parquet": {
+      "bytes": 937044,
+      "sha256": "ef113512cbae7646e63a648d3d16242eb8d175be002b29430defef44343f422b"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-ac37c4d350a2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "de5d880cc21396d4f4db7f4877782a44252a2df036572bab76ae8f99bd2fe942"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-ac37c4d350a2/metrics.parquet": {
+      "bytes": 931621,
+      "sha256": "3ae0a6c15a506ef525fd5ebc44357a5b12cf3254697af15bb2e5831c0373b456"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-ad51fec8fc98/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a6853ff7bf4f9966874a1209375d67fa58ecbd55a59ca88f5bfe2dfa2918a0b1"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-ad51fec8fc98/metrics.parquet": {
+      "bytes": 856875,
+      "sha256": "f9a8e05ed7ed99666c2b6f6b59a016c9a9421c939af72a4d7eea620534510ae9"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-afc5016d91e8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "55cb08ca7846903c73faf83273806ce682d8dcaaf6063cf00ac50be9409e7b1a"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-afc5016d91e8/metrics.parquet": {
+      "bytes": 1020513,
+      "sha256": "011d2e2ace36a792795d3f1bf3dfbc8eb71d7d1196a7127159d033df706231df"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-b89a39995940/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a97e6c0e00fb8e0b83b436025356dda23cf57e553d145437a652251345f4b8d5"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-b89a39995940/metrics.parquet": {
+      "bytes": 934881,
+      "sha256": "ba831dbeb8396d0804f7d7a05e23441d56e602fa6703616e8033f62365cd3db5"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-be71b41b30e2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "19dcd93acec0ff037e9833dda59e5405aef64193640e53c4e968b91f0f4a1858"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-be71b41b30e2/metrics.parquet": {
+      "bytes": 937854,
+      "sha256": "b8bd0abf608e90ccf73d34517855b2d602bbef5acca3cfb52a9986797c86253a"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-c94ef17d3736/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2ec44a9b6291c8ecc8cc59fdacf450be213a27ff5e3c5742da697f9104c9fed8"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-c94ef17d3736/metrics.parquet": {
+      "bytes": 933201,
+      "sha256": "9186edf041bd6c6e7e89fba802d54384a41982f4f13449523bdbe6dfb9b87b09"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-da256518b0c0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "cfd069a4a612fdeab0b317127a2b8cac668839c29b60c5ea8c0a1d39c2b76285"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-da256518b0c0/metrics.parquet": {
+      "bytes": 950022,
+      "sha256": "213c8ee19707a63491e60c3d871e4a2a05cb3c97d82134159ab3e3aa9c38dcf3"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-e6636091f1c3/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b5616dc4b7a07132c31b401a814c0999e717f35863ab8385c7aef7d103da3505"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-e6636091f1c3/metrics.parquet": {
+      "bytes": 935281,
+      "sha256": "fbc45b0c670d3618a305199fdc40e19b83708aa80ab62b9a4250a8c8d02a45ac"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-e774f8c1babe/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "bf43dbdd441f6a35fa67e4a4ecbc44670b762f0f2398688257818e2a5e1bee95"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-e774f8c1babe/metrics.parquet": {
+      "bytes": 1019038,
+      "sha256": "14372e1209db9b5a7d9f452b2b6b5e08314ae217160c4428cf86705db9282cdc"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-f270d0b0f870/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "24c3f059c1844e1af5dd001e233d240bc031d3d4fe4e590afd2ea129543950f7"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-f270d0b0f870/metrics.parquet": {
+      "bytes": 833810,
+      "sha256": "260d332c8d590b01765a758636a9d9dae12bf2748fc08cd9dccbf79862c43623"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-f8631baff3cd/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6f2fbc3a5cf6de9f91ecab9d5b19fe082293135ee7e5525122b16cdf97a2d75f"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/raw/TMP-f8631baff3cd/metrics.parquet": {
+      "bytes": 941263,
+      "sha256": "4f8a844308a20e548bc54b936fe923ef4fa447d47ab368b45a36549246490caa"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/references.json": {
+      "bytes": 4731,
+      "sha256": "310c482af982387a757a04461243ed0a9d408e3a8e7ed1c903e3770c65e8d933"
+    },
+    "runs/public-selective/evaluation-data-2026-10-04-v1/sizing.json": {
+      "bytes": 3171,
+      "sha256": "000359f0dd92967b941311fe558fbde60d666dfd57744f4c34dfbf2bbae42960"
+    },
+    "runs/public-selective/evaluation-hosted-2026-10-04-v1/controls.json": {
+      "bytes": 5004299,
+      "sha256": "8c381dc30159ffe743ce2c82bb1f43c2caa335e21a3a752a9917d3d42028789d"
+    },
+    "runs/public-selective/evaluation-hosted-2026-10-04-v1/requests.json": {
+      "bytes": 7704471,
+      "sha256": "c3686addfebd167b41d29be9b403a87ab3bbb0eeb1f0afc7a1e1f4c4139c2e0d"
+    },
+    "runs/public-selective/evaluation-hosted-2026-10-04-v1/responses.jsonl": {
+      "bytes": 477787,
+      "sha256": "8edd904e4e715de59cc3591de7f1a011daae7f375b669e902f25a29095958338"
+    },
+    "runs/public-selective/evaluation-hosted-2026-10-04-v1/summary.json": {
+      "bytes": 568,
+      "sha256": "e3f842ddebc480196bc9d6faf73cd1282014bf6df7186e5581aeb31db766cc23"
+    }
+  }
+}
