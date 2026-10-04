@@ -1,0 +1,425 @@
+{
+  "schema": "public-confirmation-plan-1",
+  "decision": "User selected confirmation on untouched reserve cases on 2026-10-04.",
+  "counts": {
+    "confirmation": 54
+  },
+  "dataset_counts": {
+    "Train Ticket": 18,
+    "Sock Shop": 36
+  },
+  "assignments": [
+    {
+      "id": "TMP-27151a44d62b",
+      "split": "confirmation",
+      "group": "ts-auth-service/delay",
+      "source_case": "re2tt_ts-auth-service_delay_1",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-a601c8faf7d0",
+      "split": "confirmation",
+      "group": "ts-auth-service/delay",
+      "source_case": "re2tt_ts-auth-service_delay_2",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-d20372a3bed7",
+      "split": "confirmation",
+      "group": "ts-auth-service/delay",
+      "source_case": "re2tt_ts-auth-service_delay_3",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-87b27e9afb07",
+      "split": "confirmation",
+      "group": "ts-order-service/disk",
+      "source_case": "re2tt_ts-order-service_disk_1",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-9ec8fc37a779",
+      "split": "confirmation",
+      "group": "ts-order-service/disk",
+      "source_case": "re2tt_ts-order-service_disk_2",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-1cc349af480b",
+      "split": "confirmation",
+      "group": "ts-order-service/disk",
+      "source_case": "re2tt_ts-order-service_disk_3",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-e5fd8f1e58ad",
+      "split": "confirmation",
+      "group": "ts-route-service/loss",
+      "source_case": "re2tt_ts-route-service_loss_1",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-80d015d089a4",
+      "split": "confirmation",
+      "group": "ts-route-service/loss",
+      "source_case": "re2tt_ts-route-service_loss_2",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-266555bd3ad3",
+      "split": "confirmation",
+      "group": "ts-route-service/loss",
+      "source_case": "re2tt_ts-route-service_loss_3",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-1d7171dd935e",
+      "split": "confirmation",
+      "group": "ts-train-service/mem",
+      "source_case": "re2tt_ts-train-service_mem_1",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-13bf5273da67",
+      "split": "confirmation",
+      "group": "ts-train-service/mem",
+      "source_case": "re2tt_ts-train-service_mem_2",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-e20db0a7af17",
+      "split": "confirmation",
+      "group": "ts-train-service/mem",
+      "source_case": "re2tt_ts-train-service_mem_3",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-0b30942e12c2",
+      "split": "confirmation",
+      "group": "ts-travel-service/cpu",
+      "source_case": "re2tt_ts-travel-service_cpu_1",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-dd7e5a4bc240",
+      "split": "confirmation",
+      "group": "ts-travel-service/cpu",
+      "source_case": "re2tt_ts-travel-service_cpu_2",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-5d6832a7c453",
+      "split": "confirmation",
+      "group": "ts-travel-service/cpu",
+      "source_case": "re2tt_ts-travel-service_cpu_3",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-50e28a192945",
+      "split": "confirmation",
+      "group": "ts-travel-service/socket",
+      "source_case": "re2tt_ts-travel-service_socket_1",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-98f82d644923",
+      "split": "confirmation",
+      "group": "ts-travel-service/socket",
+      "source_case": "re2tt_ts-travel-service_socket_2",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "TMP-668c171f20ac",
+      "split": "confirmation",
+      "group": "ts-travel-service/socket",
+      "source_case": "re2tt_ts-travel-service_socket_3",
+      "dataset": "Train Ticket"
+    },
+    {
+      "id": "FMT-fd54e0824c02",
+      "split": "confirmation",
+      "group": "carts/delay",
+      "source_case": "re2ss_carts_delay_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-bad7972e0ea4",
+      "split": "confirmation",
+      "group": "carts/delay",
+      "source_case": "re2ss_carts_delay_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-c84e68bc3d52",
+      "split": "confirmation",
+      "group": "carts/delay",
+      "source_case": "re2ss_carts_delay_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-c67b895315d3",
+      "split": "confirmation",
+      "group": "carts/disk",
+      "source_case": "re2ss_carts_disk_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-ff7580a95217",
+      "split": "confirmation",
+      "group": "carts/disk",
+      "source_case": "re2ss_carts_disk_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-221c1fe931a5",
+      "split": "confirmation",
+      "group": "carts/disk",
+      "source_case": "re2ss_carts_disk_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-9df5da4c1e4e",
+      "split": "confirmation",
+      "group": "catalogue/disk",
+      "source_case": "re2ss_catalogue_disk_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-d19486f6e14f",
+      "split": "confirmation",
+      "group": "catalogue/disk",
+      "source_case": "re2ss_catalogue_disk_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-b1e87209619a",
+      "split": "confirmation",
+      "group": "catalogue/disk",
+      "source_case": "re2ss_catalogue_disk_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-e6b806cb1998",
+      "split": "confirmation",
+      "group": "catalogue/loss",
+      "source_case": "re2ss_catalogue_loss_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-ebe697bd9e55",
+      "split": "confirmation",
+      "group": "catalogue/loss",
+      "source_case": "re2ss_catalogue_loss_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-29013073e4cd",
+      "split": "confirmation",
+      "group": "catalogue/loss",
+      "source_case": "re2ss_catalogue_loss_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-ae5689a1103b",
+      "split": "confirmation",
+      "group": "orders/loss",
+      "source_case": "re2ss_orders_loss_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-c61e87875bd9",
+      "split": "confirmation",
+      "group": "orders/loss",
+      "source_case": "re2ss_orders_loss_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-0820bc493cc7",
+      "split": "confirmation",
+      "group": "orders/loss",
+      "source_case": "re2ss_orders_loss_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-f4e9fe8b8e80",
+      "split": "confirmation",
+      "group": "orders/mem",
+      "source_case": "re2ss_orders_mem_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-cf1f3321d2a6",
+      "split": "confirmation",
+      "group": "orders/mem",
+      "source_case": "re2ss_orders_mem_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-1a3ec8165de5",
+      "split": "confirmation",
+      "group": "orders/mem",
+      "source_case": "re2ss_orders_mem_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-fc6978ec8711",
+      "split": "confirmation",
+      "group": "payment/cpu",
+      "source_case": "re2ss_payment_cpu_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-140b34b777a9",
+      "split": "confirmation",
+      "group": "payment/cpu",
+      "source_case": "re2ss_payment_cpu_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-f7dcedc99f21",
+      "split": "confirmation",
+      "group": "payment/cpu",
+      "source_case": "re2ss_payment_cpu_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-99cc74825f5f",
+      "split": "confirmation",
+      "group": "payment/mem",
+      "source_case": "re2ss_payment_mem_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-cd43e109ea7a",
+      "split": "confirmation",
+      "group": "payment/mem",
+      "source_case": "re2ss_payment_mem_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-f760823c0405",
+      "split": "confirmation",
+      "group": "payment/mem",
+      "source_case": "re2ss_payment_mem_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-9ef8613d5901",
+      "split": "confirmation",
+      "group": "payment/socket",
+      "source_case": "re2ss_payment_socket_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-c923c89e6648",
+      "split": "confirmation",
+      "group": "payment/socket",
+      "source_case": "re2ss_payment_socket_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-ac23b6db3880",
+      "split": "confirmation",
+      "group": "payment/socket",
+      "source_case": "re2ss_payment_socket_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-eb5e486acddd",
+      "split": "confirmation",
+      "group": "user/cpu",
+      "source_case": "re2ss_user_cpu_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-884762d3c408",
+      "split": "confirmation",
+      "group": "user/cpu",
+      "source_case": "re2ss_user_cpu_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-91a4f9c34088",
+      "split": "confirmation",
+      "group": "user/cpu",
+      "source_case": "re2ss_user_cpu_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-5d60431a4708",
+      "split": "confirmation",
+      "group": "user/delay",
+      "source_case": "re2ss_user_delay_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-6ed16da56895",
+      "split": "confirmation",
+      "group": "user/delay",
+      "source_case": "re2ss_user_delay_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-14125add2cd6",
+      "split": "confirmation",
+      "group": "user/delay",
+      "source_case": "re2ss_user_delay_3",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-bcbbd4529d2e",
+      "split": "confirmation",
+      "group": "user/socket",
+      "source_case": "re2ss_user_socket_1",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-01781f30fe20",
+      "split": "confirmation",
+      "group": "user/socket",
+      "source_case": "re2ss_user_socket_2",
+      "dataset": "Sock Shop"
+    },
+    {
+      "id": "FMT-f82f04287066",
+      "split": "confirmation",
+      "group": "user/socket",
+      "source_case": "re2ss_user_socket_3",
+      "dataset": "Sock Shop"
+    }
+  ],
+  "revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "index_sha256": "c49a288920dbba2e8e724679a14636d5c7eb2b45426bba14007ef79a6c0ab1bb",
+  "model": "jev-1.13.0",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "context_tokens": 32768,
+  "maximum_request_bytes": 79840,
+  "maximum_calls": 162,
+  "rounds": 3,
+  "policy": {
+    "threshold": 0.7,
+    "margin": 0.0,
+    "maximum_leads": 1
+  },
+  "input": "Unchanged named summaries, question, every observed service, fixed 0.70 threshold and zero margin. Three serial rounds rotate case order; no retries or warmup.",
+  "selection": "None. No grid search, calibration, threshold fitting, prompt changes, candidate filtering or ML refitting. All reference joins stay outside requests.",
+  "reporting": "Each application separately: correct first choice, shown correct/wrong leads, coverage, correct choices lost to withholding, model insufficient evidence, distinct-case display consistency and unchanged ML/change/resource rankings. Do not pool repeated calls as independent cases.",
+  "gate": "Complete calibration and evaluation must reproduce; the evaluation policy has nonempty coverage and no observed wrong displayed lead in every round. Commit this plan before downloading either reserve, then commit exact request fingerprints before calls.",
+  "limits": "Controlled injected application faults with supplied boundaries; not telecom readiness, an operational error rate or measured analyst benefit. Public pretraining exposure is unknown.",
+  "source_sha256": {
+    "triage_bench/public_confirmation_data.py": "bad12f510379d03cae77441ed92c4f7b616ed88693d35de1baff47e96302072e",
+    "triage_bench/public_confirmation_trial.py": "0986bf0ceea1721ce50bbed86efa350a28e9115d186abb27a264e354dac332a3",
+    "scripts/run_public_confirmation.py": "d86ebc66a29c5514a8fe436357ffd4d4ce26ae805a855cf50ee1324be3bf0940",
+    "uv.lock": "c2279f34fe061961b88c0a44fc7bbf5ca8f72638e1afc2a4b2ef776fde6edce0",
+    "triage_bench/public_selective_policy.py": "93e20cad93fd65eda9b11151a7978317d36d169aa2b06f4cd3c363abcec0c24d",
+    "triage_bench/public_selective_trial.py": "5d5af175545ca5e08c71ad129233da06fb11aabb8f4eda08faadf4e80ca82aaa",
+    "triage_bench/public_selective_data.py": "cd094aa6d8065d570c6abc27a3d9b4da5f406a98c3f50b0a2d71cd836e3e5ef5"
+  },
+  "evidence_sha256": {
+    "checkpoints/public-temporal-preparation-2026-10-04.json": "2c7c8e570b29db6353109346f52543d6d7bb1fdf71dd57d04e3a74159acdc6de",
+    "checkpoints/public-format-plan-2026-10-03.json": "8d2dbfe5ea6b093273d55de4ea7fc32e5f8a24e2d0c299e9a5797d2dfe49efbb",
+    "checkpoints/public-selective-boundary-2026-10-04.json": "a1486fa027231a5e90d3f800b5626503df31c6ef61db5e3b9caa2e8fa7d8d784",
+    "checkpoints/public-selective-evaluation-2026-10-04.json": "90690466dc58b6fc1f8a7ebf37387a816340b8ecd8ff118f4b53cb8ff61f89e4",
+    "checkpoints/public-selective-plan-2026-10-04.json": "1bc8b45d0118d7cc2dbdafcdf41f62876afa982b05d16b4ae20e9f153b66934c"
+  }
+}
