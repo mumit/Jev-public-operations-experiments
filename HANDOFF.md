@@ -20,11 +20,13 @@ The 108-call development comparison makes three rounds across named and temporal
 
 These are controlled application faults with supplied incident boundaries and published injected-service references. Repeats are not independent held-out cases. Public pretraining exposure is unknown. The results do not establish an operational error rate, analyst investigation benefit, anomaly detection or telecom readiness.
 
-## Decision before calibration
+## Selected direction
 
-Keep named input as the development candidate. Do not download calibration until the user selects the shortlist inclusion-versus-withholding objective. Recommend fewer unnecessary leads; the alternative prioritizes retaining possible causes with up to three leads. This decision sets the next calibration objective and whether to show one service, alternatives or no recommendation. No new boundary is fitted. All later telemetry remains sealed.
+The user chose fewer wrong leads, accepting more withholding, on 2026-10-04. Named input remains the candidate. The separate public-selective plan fixes a single-service-or-withhold policy family before any calibration download. A supported two-service alternative is a diagnostic comparator; with one published cause per case it necessarily adds benchmark wrong leads.
 
-The user asked to continue until a decision is needed, committing major steps. The recommended shortlist direction was used after the instruction to continue; its precise three-round development contract is recorded in the protocol. The remaining question concerns the next calibration objective, not authorization for network actions.
+The probability threshold and the gap to the strongest competing option, including insufficient_evidence, control display. Calibration considers all three rounds and maximizes useful coverage among policies with zero observed wrong leads in every round. This is an author-set research criterion, not an operational error budget. Correct withheld recommendations remain visible in scoring.
+
+The new plan permits 54 calibration and 108 evaluation calls. Evaluation download requires a complete, recomputed and committed calibration boundary. A boundary with no eligible displayed recommendations keeps evaluation sealed. No historical model request or boundary changes. Both reserve sets remain undownloaded.
 
 ## Frozen evidence and continuation
 
