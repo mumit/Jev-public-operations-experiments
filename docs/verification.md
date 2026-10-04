@@ -1,6 +1,6 @@
 # Standalone verification
 
-The public-only extraction passes 58 Python tests and syntax checks for all four browser scripts. Tests cover grouped splits, missingness, input/reference separation, response validation, stage gates, explicit reference reveal, origin protection and safe article links. Migration tests compare extracted helper definitions with their archived originals, reject changes to source fingerprints, block new calls under completed historical protocols and reject unsafe or corrupted release archives.
+The public-only extraction passes 60 Python tests and syntax checks for all four browser scripts. Tests cover grouped splits, missingness, input/reference separation, response validation, stage gates, explicit reference reveal, origin protection and safe article links. Migration tests compare extracted helper definitions with their archived originals, reject changes to source fingerprints, block new calls under completed historical protocols and reject unsafe or corrupted release archives.
 
 The evidence verifier reconstructs all 294 saved request bodies, reproduces the fitted ML control from training-only data and recomputes all six stage assessments and frozen thresholds exactly. Both pack validators confirm the original assignments, measurement hashes and 36 undownloaded reserve cases. The migration makes no hosted calls.
 
@@ -16,4 +16,6 @@ The replay inspector recomputes complete evidence before reading the committed a
 
 The offline timing audit tests fixed before-window scaling, elapsed-time bins, empty/missing measurements and latency channel selection. New preparation tests keep all Train Ticket repetitions grouped and prove temporal additions preserve the named measurements, question and candidate list. The new inference contract and request budget remain unfrozen.
 
-The completed fresh development pack reconstructs all 18 named/temporal requests from publisher-verified metric sources and keeps 72 future cases undownloaded. Request sizes fail the conservative byte guard. A separate one-call context probe test verifies once-only execution, credential redaction and absence of accuracy scoring; its actual provider result is pending.
+The completed fresh development pack reconstructs all 18 named/temporal requests from publisher-verified metric sources and keeps 72 future cases undownloaded. Request sizes fail the conservative byte guard. A separate one-call context probe test verifies once-only execution, credential redaction and absence of accuracy scoring; the actual one-call probe was accepted and reported 30,471 input tokens.
+
+The new development shortlist tests check tied selected winners, deterministic cutoff order, exclusion of zero-probability candidates and withholding on insufficient-evidence, failed or missing responses. The 108-call comparison is frozen but not yet run.

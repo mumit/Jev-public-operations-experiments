@@ -1,0 +1,11 @@
+{
+  "schema": "public-context-probe-result-1",
+  "protocol_sha256": "96d4d76cca7afb7d48c63c4ffff0daa49f1c6b2a35f674a7dbe2ebbc79d3ff1e",
+  "request_sha256": "63dbed67e49cb8766c7df5d711577b105765a1a10d27e92bba97c932aa3b8c3a",
+  "request_bytes": 79840,
+  "attempted": 1,
+  "status": "accepted",
+  "input_tokens": 30471,
+  "reported_input_within_declared_capacity": true,
+  "latency_ms": 391.42299999366514
+}

@@ -32,7 +32,7 @@ Train Ticket is larger: index entries report 340–376 metric series per case, c
 
 Once preparation passes, a separate protocol can compare unchanged named summaries with the same summaries plus latency time windows. Both arms will keep the same candidate services and cause-selection question. The shortlist will come from the saved choice distribution, not another hidden inference step. Single-service accuracy, candidate inclusion, shortlist size and display behavior must stay visible separately. New ML fitting, trace interpretation and automatic routing are outside this comparison.
 
-No hosted temporal experiment has been run or frozen yet. The shortlist contract is the recommended direction used after the instruction to continue; it can be revised before freezing inference.
+The shortlist direction was selected after the instruction to continue. Its precise development contract is now frozen below.
 
 ## Development preparation result
 
@@ -40,6 +40,16 @@ All 18 development cases passed source hashes, timestamp checks, input reconstru
 
 Complete named requests contain 67,301–71,940 bytes; temporal requests contain 73,444–79,840 bytes. None passes the lab's conservative bound of request bytes plus 512 within the declared 32,768-token capacity. This is not an actual tokenizer measurement and does not establish that Jev rejects these requests.
 
-[TypeSafe's Models documentation](https://docs.typesafe.ai/models) specifies 64k tokens for a request and 32k for state plus the longest question. The API schema provides token usage after evaluation, but no token-count-only endpoint. A separate, committed one-call capacity protocol selects the largest temporal request by byte size, without reference answers. It will record provider acceptance and actual input usage; it does not score accuracy or loosen any existing guard.
+[TypeSafe's Models documentation](https://docs.typesafe.ai/models) specifies 64k tokens for a request and 32k for state plus the longest question. The API schema provides token usage after evaluation, but no token-count-only endpoint. A separate, committed one-call capacity protocol selects the largest temporal request by byte size, without reference answers. The probe completed successfully: 30,471 input tokens and 391 ms. It does not score accuracy or loosen any existing guard. Acceptance of one request is not an exact token-count proof for every prepared request.
 
 The provider also documents weaknesses with precise numerical tasks and large irrelevant states, recommending calculations and filtering in code. This supports testing focused, computed evidence rather than assuming that more raw numbers will improve the result. It does not prove why any recorded case failed. [Jev 1.13 documented limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13).
+
+## Frozen development comparison
+
+A separate protocol now permits 108 calls: 18 development cases, six groups, two input arms and three serial rounds. Named input keeps the original full-window measurements. Temporal input keeps those measurements and adds only the latency windows. The original cause-selection question and all 68 observed candidates remain identical. Case and first-arm order rotate across rounds. Calls have no retries or warmup; HTTP, network, model-version or reported capacity failures stop execution. Missing calls stay in all planned denominators.
+
+The analyst shortlist contains at most three positive-probability service candidates. The selected tied winner comes first; remaining ties follow service identifier order. Insufficient-evidence choices and failed or missing replies withhold the shortlist. Each lead carries an unconfirmed-cause interpretation. No new probability boundary is fitted. Both top-1 correctness and target inclusion among the leads remain visible, alongside wrong leads, shortlist size and withholding. The original fitted ML transfers unchanged; deterministic change and resource rankings use the same input summaries.
+
+Calibration will stay sealed until the intended inclusion-versus-withholding criterion is selected. A list with the target somewhere among three services is not equivalent to one correct recommendation; its extra wrong leads consume analyst effort. That tradeoff determines how a later boundary should be chosen. The protocol does not assume an operational error budget.
+
+The development responses are not recorded yet. This is a frozen plan, not a performance result.

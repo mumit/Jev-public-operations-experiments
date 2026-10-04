@@ -2,7 +2,7 @@
 
 ## Current state
 
-Both public comparisons and the exact-request replay are complete and preserved. The standalone extraction passes 58 tests; a fresh GitHub clone restores all 347 release files and recomputes both studies exactly. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
+Both public comparisons and the exact-request replay are complete and preserved. The standalone extraction passes 60 tests; a fresh GitHub clone restores all 347 release files and recomputes both studies exactly. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
 
 Start with README.md, docs/public-input-format.md, docs/migration.md and docs/evidence.md. Restore the evidence bundle, run scripts.verify_evidence, then inspect `/public-format` and `/public-rca`. Browsing and verification need no API key.
 
@@ -35,3 +35,9 @@ The new preparation plan assigns all 90 RE2 Train Ticket cases in 18/18/36/18 gr
 Fresh development preparation is now complete and validates exactly. It retains 68 services per case and 345–374 metric series. Complete named/temporal requests are 67–72/73–80 KB and fail the conservative byte bound, not a measured token limit. checkpoints/public-temporal-sizing-2026-10-04.json records counts and manifest hash. All 72 later Train Ticket cases and 36 Sock Shop reserve cases stay undownloaded.
 
 The separate public-context-probe-2026-10-04 protocol allows one call on the largest temporal development request to check provider acceptance and input token usage, with no accuracy score or retries. Commit it before scripts.probe_public_context run. No hosted temporal comparison is frozen.
+
+The one-call capacity probe completed successfully on the largest temporal request: 30,471 input tokens, 79,840 wire bytes. Its recorded result is checkpoints/public-context-probe-result-2026-10-04.json; actual request/response remain in ignored runs. The prepared pack's conservative-byte failure is preserved as an earlier preflight observation, not a provider rejection.
+
+The development comparison is frozen separately for 108 calls: 18 cases, six correlated groups, named versus temporal input, three serial rounds. Keep all measurements, candidates and the cause-selection question fixed. At most three positive-probability service candidates form a shortlist; insufficient-evidence, missing or failed responses withhold it. Tied selected winners come first. Preserve top-1 and shortlist inclusion separately, with wrong leads and withheld cases. The unchanged Online Boutique ML and change/resource rankings remain controls.
+
+Commit checkpoints/public-temporal-development-protocol-2026-10-04.json before scripts.run_public_temporal run. Do not promote automatically to calibration: the analyst shortlist inclusion-versus-withholding criterion must be selected before a new boundary is frozen. All later telemetry remains sealed.
