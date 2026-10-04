@@ -31,6 +31,7 @@ A fresh clone includes source, reports and checkpoints. Restore the [public evid
 - [Dataset assessment](docs/public-data-assessment.md): sources, terms and input preparation.
 - [Metric experiment](docs/public-rca-experiment.md): training, grouped splits, methods and results.
 - [Input comparison](docs/public-input-format.md): lossless transformations, matched cases and review thresholds.
+- [Repeatability diagnostic](docs/public-repeatability.md): exact-request replay design and research gate.
 - [Evidence bundle](docs/evidence.md): download, safe restoration and verification.
 - [Migration](docs/migration.md): archived sources and the standalone extraction.
 - [HANDOFF](HANDOFF.md): current state and next experiment.
@@ -52,6 +53,6 @@ The evidence verifier reconstructs ML from training-only inputs, rebuilds every 
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-The next recommended experiment checks exact-request repeatability on inspected cases. Thirty-six Sock Shop reserve cases remain undownloaded for later confirmation. ML keeps its Online Boutique training recipe; on Sock Shop it is a transfer control, not an optimal or locally retrained model.
+A separate exact-request repeatability diagnostic is prepared for 12 inspected cases, five rounds and 180 calls. Thirty-six Sock Shop reserve cases remain undownloaded for later confirmation. ML keeps its Online Boutique training recipe; on Sock Shop it is a transfer control, not an optimal or locally retrained model.
 
 The repository starts with a fresh Git history. Its public studies retain source provenance from [the earlier repository](https://github.com/mumit/Jev-incident-triage-experiments), without requiring that checkout or its synthetic experiments.

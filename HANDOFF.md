@@ -2,7 +2,7 @@
 
 ## Current state
 
-Both public studies are complete and preserved. The standalone extraction passes 39 tests; a fresh GitHub clone restores all 347 release files and recomputes both studies exactly. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
+Both public studies are complete and preserved. The standalone extraction passes 48 tests; a fresh GitHub clone restores all 347 release files and recomputes both studies exactly. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
 
 Start with README.md, docs/public-input-format.md, docs/migration.md and docs/evidence.md. Restore the evidence bundle, run scripts.verify_evidence, then inspect `/public-format` and `/public-rca`. Browsing and verification need no API key.
 
@@ -14,9 +14,9 @@ These are controlled application faults with a supplied fault window and publish
 
 ## Next experiment
 
-The named input is the strongest candidate for further verification. Before using the reserve, check whether exact-request choices and display decisions remain stable across repeated calls on inspected cases. Prepare a separate protocol with case selection, repetitions, call budget, serial ordering, stop conditions and reporting rules before inference. Keep all three input constructions and existing thresholds frozen. Report each repeat and distinct-case consistency separately; agreement is not correctness and repeats are not new held-out evidence.
+The exact-request replay is prepared in separate modules and documented in docs/public-repeatability.md. It selects all six earlier cases with any Jev reference error and six deterministic all-correct controls. Five serial rounds across compact, named and explained inputs make 180 calls. Exact wire bodies, the Jev checkpoint and original thresholds stay fixed. Original responses remain separate from the repeats.
 
-A later confirmation can use the 36 untouched reserve cases, with the candidate and boundary fixed before inspecting their telemetry. Do not claim that this repeatability recommendation has already been implemented.
+Commit checkpoints/public-repeat-protocol-2026-10-03.json before execution, then run scripts.run_public_repeat and save the assessment to a new checkpoint. Its research gate keeps the 36 reserve cases sealed if calls fail, named choices or display decisions vary, a named recommendation displays an error, or named loses an originally correct selection. Repeats measure variability on inspected cases, not new held-out accuracy. Hosted replay results are not recorded yet.
 
 ## Preservation and source boundaries
 

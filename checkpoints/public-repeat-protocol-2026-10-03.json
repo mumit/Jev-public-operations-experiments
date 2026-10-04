@@ -1,0 +1,1567 @@
+{
+  "schema": "public-repeat-protocol-1",
+  "model": "jev-1.13.0",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "context_tokens": 32768,
+  "rounds": 5,
+  "distinct_cases": 12,
+  "distinct_groups": 8,
+  "maximum_calls": 180,
+  "cases": [
+    {
+      "id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "role": "all_correct_control",
+      "group": "payment/disk",
+      "fault": "disk"
+    },
+    {
+      "id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "role": "all_correct_control",
+      "group": "catalogue/mem",
+      "fault": "mem"
+    },
+    {
+      "id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "role": "all_correct_control",
+      "group": "orders/cpu",
+      "fault": "cpu"
+    },
+    {
+      "id": "FMT-107547061ee3",
+      "split": "calibration",
+      "role": "all_correct_control",
+      "group": "payment/loss",
+      "fault": "loss"
+    },
+    {
+      "id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "role": "all_correct_control",
+      "group": "orders/delay",
+      "fault": "delay"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "role": "inspected_error",
+      "group": "orders/disk",
+      "fault": "disk"
+    },
+    {
+      "id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "role": "all_correct_control",
+      "group": "carts/socket",
+      "fault": "socket"
+    },
+    {
+      "id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "role": "inspected_error",
+      "group": "orders/disk",
+      "fault": "disk"
+    },
+    {
+      "id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "role": "inspected_error",
+      "group": "orders/delay",
+      "fault": "delay"
+    },
+    {
+      "id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "role": "inspected_error",
+      "group": "payment/delay",
+      "fault": "delay"
+    },
+    {
+      "id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "role": "inspected_error",
+      "group": "carts/socket",
+      "fault": "socket"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "role": "inspected_error",
+      "group": "orders/delay",
+      "fault": "delay"
+    }
+  ],
+  "requests": [
+    {
+      "id": "FMT-0320c9b146eb::compact::r1",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "f9d35faa2b4368467acbc75cb14d547b94ee4b95c6216b7aed1f9637b3b17b2a"
+    },
+    {
+      "id": "FMT-0320c9b146eb::named::r1",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "53d5965b096422d0d56ce4a50ec281634ba95b22f227073375fe635cdc527593"
+    },
+    {
+      "id": "FMT-0320c9b146eb::explained::r1",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "6f32f9ae063f19ccb5cc140a4cdf2f7a3f184801ff2b27729e47091f783becd9"
+    },
+    {
+      "id": "FMT-064f8949c05a::named::r1",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "c0ce1681ee2899eed1bae8050c805d2e22084550f18fce4cb4930474884581a5"
+    },
+    {
+      "id": "FMT-064f8949c05a::explained::r1",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "47c23da2d59b243f181c9d20c04b5df33bd8233d6a0f5eed218769c3b495cd7e"
+    },
+    {
+      "id": "FMT-064f8949c05a::compact::r1",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "dd7bb0059d4f14f1936ad18341ac07df61be2cfb4bf9f5d60fbb5e352808335e"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::explained::r1",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "ee48093bca79d5b11377483bd62eb7abfdde2d74b7bc25bf5d7c1c5fe76f5de6"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::compact::r1",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "a77115dda30088b3fb23d995b7da17f99426722a9d28d31882d8fc1317001cbc"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::named::r1",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "d56629a8a946f1545f3370bd81f48a14448647709733f0b9923cf935df88bae3"
+    },
+    {
+      "id": "FMT-107547061ee3::compact::r1",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "0c53753350c24b8db1c468f756f69b6db33d8a7c4b69a351fcb5d79d99740eab"
+    },
+    {
+      "id": "FMT-107547061ee3::named::r1",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "92f64b2eb8c96dd1834d3501896cd00b62d41a58e4f15481e4654bd0dde95baa"
+    },
+    {
+      "id": "FMT-107547061ee3::explained::r1",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "0cd978f21b563b0914ea57d845ec94a86c791deafefbbabcdc25a55a92ae686c"
+    },
+    {
+      "id": "FMT-15700773fde2::named::r1",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "472842f0dd467dba58ab4abb0b7d70838088632405af3c4ce510eb78a052af6f"
+    },
+    {
+      "id": "FMT-15700773fde2::explained::r1",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "a0e3da7c40439a15473a3bcaa5bdb035f129b4df0a6ae6ccbbc0d5d6c9438932"
+    },
+    {
+      "id": "FMT-15700773fde2::compact::r1",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "85b52fe6b273fec86b07de605b016e85b6a829d44217ce7bd772e55d2106e170"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::explained::r1",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "9b14c7f783f142e7296038f934cf805fa23453966978688b64f08fdaf31bbf0a"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::compact::r1",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "e5cbbb2fa7d69ffca2bb1d12337aab6072470e58a148f195378fc4a14856bcf4"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::named::r1",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "be870a50b45d835ed41901cac809d2327b572af2f61518184ae7f52f06088378"
+    },
+    {
+      "id": "FMT-1fc7315d302f::compact::r1",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "21340b6a12197cb11ac64a28dd764937a5615c67ac138211ef5138e600556a49"
+    },
+    {
+      "id": "FMT-1fc7315d302f::named::r1",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "b3446deecbfcbe2090ead5592e24b6b7462ce6182f0a708badc097199bc863a0"
+    },
+    {
+      "id": "FMT-1fc7315d302f::explained::r1",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "4565fc555a45fd68f0425b0df6c847357e922a395fec3d3a74efb3c0ef11b825"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::named::r1",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "38743bbc79a39efd279b8cfb57e33896f24516ba4b491c3fac2d2a31e68c4754"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::explained::r1",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "e14cf10d8ac379fa811e7d95e98db958857264c61c32f656a4f11186369e0bd7"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::compact::r1",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "95e9d910d4010ab9d97d9eb6ea0a3010b749b3ccde9cd08b30992c5ad29a732a"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::explained::r1",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "6ade265db3fafebf76c654b890eec56d71ae82505fae1837f59e7eef360eb32b"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::compact::r1",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "fad536aa36c4b0bfe56ca3e9d68fe8f348586f9b778daee68855d266d0fa1eee"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::named::r1",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "a0852064e35d4064008ada7dd030602b6e764297cf88766d37c6c8b266051d25"
+    },
+    {
+      "id": "FMT-a89dbccd5437::compact::r1",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "caefbc59c71fd063fa831ed04febc61d2f6579fd55d50e80c57b8b9474d1636a"
+    },
+    {
+      "id": "FMT-a89dbccd5437::named::r1",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "5178aba73ab14baf9ff82b0950b16078f690420dccb88d30362ed87b058ed68c"
+    },
+    {
+      "id": "FMT-a89dbccd5437::explained::r1",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "0e6e2f7ce4e47a442b8d660e1deb6374c68f62000870363d27733363b6bb2629"
+    },
+    {
+      "id": "FMT-dff737ef5d78::named::r1",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "a12ab5ef886b698bc58d995744699a28c724e2a61c7d58a0766297b5add85f3c"
+    },
+    {
+      "id": "FMT-dff737ef5d78::explained::r1",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "794311d175deb24f75146c32b1a2721b1b230801b893d3fe98b523784f01597a"
+    },
+    {
+      "id": "FMT-dff737ef5d78::compact::r1",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "03ee81fba344e6ad238f4d9b7796a080489ccd27329a50a2d73a394f7178582b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::explained::r1",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 1,
+      "request_sha256": "d73fc09ebd78189226d283b134717b426f7274cb1c7c374a3e99da9875ded93b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::compact::r1",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 1,
+      "request_sha256": "6f1960e585900a247d7f6f1c6b54437f3a44cbe8d26dc804aa9b2dc6b3743c62"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::named::r1",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 1,
+      "request_sha256": "43fcf2cc86a59cb6240f3d6ce11ef21bc45c426a1beed5788d4e21c4e58701c8"
+    },
+    {
+      "id": "FMT-064f8949c05a::named::r2",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "c0ce1681ee2899eed1bae8050c805d2e22084550f18fce4cb4930474884581a5"
+    },
+    {
+      "id": "FMT-064f8949c05a::explained::r2",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "47c23da2d59b243f181c9d20c04b5df33bd8233d6a0f5eed218769c3b495cd7e"
+    },
+    {
+      "id": "FMT-064f8949c05a::compact::r2",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "dd7bb0059d4f14f1936ad18341ac07df61be2cfb4bf9f5d60fbb5e352808335e"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::explained::r2",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "ee48093bca79d5b11377483bd62eb7abfdde2d74b7bc25bf5d7c1c5fe76f5de6"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::compact::r2",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "a77115dda30088b3fb23d995b7da17f99426722a9d28d31882d8fc1317001cbc"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::named::r2",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "d56629a8a946f1545f3370bd81f48a14448647709733f0b9923cf935df88bae3"
+    },
+    {
+      "id": "FMT-107547061ee3::compact::r2",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "0c53753350c24b8db1c468f756f69b6db33d8a7c4b69a351fcb5d79d99740eab"
+    },
+    {
+      "id": "FMT-107547061ee3::named::r2",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "92f64b2eb8c96dd1834d3501896cd00b62d41a58e4f15481e4654bd0dde95baa"
+    },
+    {
+      "id": "FMT-107547061ee3::explained::r2",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "0cd978f21b563b0914ea57d845ec94a86c791deafefbbabcdc25a55a92ae686c"
+    },
+    {
+      "id": "FMT-15700773fde2::named::r2",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "472842f0dd467dba58ab4abb0b7d70838088632405af3c4ce510eb78a052af6f"
+    },
+    {
+      "id": "FMT-15700773fde2::explained::r2",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "a0e3da7c40439a15473a3bcaa5bdb035f129b4df0a6ae6ccbbc0d5d6c9438932"
+    },
+    {
+      "id": "FMT-15700773fde2::compact::r2",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "85b52fe6b273fec86b07de605b016e85b6a829d44217ce7bd772e55d2106e170"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::explained::r2",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "9b14c7f783f142e7296038f934cf805fa23453966978688b64f08fdaf31bbf0a"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::compact::r2",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "e5cbbb2fa7d69ffca2bb1d12337aab6072470e58a148f195378fc4a14856bcf4"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::named::r2",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "be870a50b45d835ed41901cac809d2327b572af2f61518184ae7f52f06088378"
+    },
+    {
+      "id": "FMT-1fc7315d302f::compact::r2",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "21340b6a12197cb11ac64a28dd764937a5615c67ac138211ef5138e600556a49"
+    },
+    {
+      "id": "FMT-1fc7315d302f::named::r2",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "b3446deecbfcbe2090ead5592e24b6b7462ce6182f0a708badc097199bc863a0"
+    },
+    {
+      "id": "FMT-1fc7315d302f::explained::r2",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "4565fc555a45fd68f0425b0df6c847357e922a395fec3d3a74efb3c0ef11b825"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::named::r2",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "38743bbc79a39efd279b8cfb57e33896f24516ba4b491c3fac2d2a31e68c4754"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::explained::r2",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "e14cf10d8ac379fa811e7d95e98db958857264c61c32f656a4f11186369e0bd7"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::compact::r2",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "95e9d910d4010ab9d97d9eb6ea0a3010b749b3ccde9cd08b30992c5ad29a732a"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::explained::r2",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "6ade265db3fafebf76c654b890eec56d71ae82505fae1837f59e7eef360eb32b"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::compact::r2",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "fad536aa36c4b0bfe56ca3e9d68fe8f348586f9b778daee68855d266d0fa1eee"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::named::r2",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "a0852064e35d4064008ada7dd030602b6e764297cf88766d37c6c8b266051d25"
+    },
+    {
+      "id": "FMT-a89dbccd5437::compact::r2",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "caefbc59c71fd063fa831ed04febc61d2f6579fd55d50e80c57b8b9474d1636a"
+    },
+    {
+      "id": "FMT-a89dbccd5437::named::r2",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "5178aba73ab14baf9ff82b0950b16078f690420dccb88d30362ed87b058ed68c"
+    },
+    {
+      "id": "FMT-a89dbccd5437::explained::r2",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "0e6e2f7ce4e47a442b8d660e1deb6374c68f62000870363d27733363b6bb2629"
+    },
+    {
+      "id": "FMT-dff737ef5d78::named::r2",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "a12ab5ef886b698bc58d995744699a28c724e2a61c7d58a0766297b5add85f3c"
+    },
+    {
+      "id": "FMT-dff737ef5d78::explained::r2",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "794311d175deb24f75146c32b1a2721b1b230801b893d3fe98b523784f01597a"
+    },
+    {
+      "id": "FMT-dff737ef5d78::compact::r2",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "03ee81fba344e6ad238f4d9b7796a080489ccd27329a50a2d73a394f7178582b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::explained::r2",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "d73fc09ebd78189226d283b134717b426f7274cb1c7c374a3e99da9875ded93b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::compact::r2",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "6f1960e585900a247d7f6f1c6b54437f3a44cbe8d26dc804aa9b2dc6b3743c62"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::named::r2",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "43fcf2cc86a59cb6240f3d6ce11ef21bc45c426a1beed5788d4e21c4e58701c8"
+    },
+    {
+      "id": "FMT-0320c9b146eb::compact::r2",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 2,
+      "request_sha256": "f9d35faa2b4368467acbc75cb14d547b94ee4b95c6216b7aed1f9637b3b17b2a"
+    },
+    {
+      "id": "FMT-0320c9b146eb::named::r2",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 2,
+      "request_sha256": "53d5965b096422d0d56ce4a50ec281634ba95b22f227073375fe635cdc527593"
+    },
+    {
+      "id": "FMT-0320c9b146eb::explained::r2",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 2,
+      "request_sha256": "6f32f9ae063f19ccb5cc140a4cdf2f7a3f184801ff2b27729e47091f783becd9"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::explained::r3",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "ee48093bca79d5b11377483bd62eb7abfdde2d74b7bc25bf5d7c1c5fe76f5de6"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::compact::r3",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "a77115dda30088b3fb23d995b7da17f99426722a9d28d31882d8fc1317001cbc"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::named::r3",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "d56629a8a946f1545f3370bd81f48a14448647709733f0b9923cf935df88bae3"
+    },
+    {
+      "id": "FMT-107547061ee3::compact::r3",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "0c53753350c24b8db1c468f756f69b6db33d8a7c4b69a351fcb5d79d99740eab"
+    },
+    {
+      "id": "FMT-107547061ee3::named::r3",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "92f64b2eb8c96dd1834d3501896cd00b62d41a58e4f15481e4654bd0dde95baa"
+    },
+    {
+      "id": "FMT-107547061ee3::explained::r3",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "0cd978f21b563b0914ea57d845ec94a86c791deafefbbabcdc25a55a92ae686c"
+    },
+    {
+      "id": "FMT-15700773fde2::named::r3",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "472842f0dd467dba58ab4abb0b7d70838088632405af3c4ce510eb78a052af6f"
+    },
+    {
+      "id": "FMT-15700773fde2::explained::r3",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "a0e3da7c40439a15473a3bcaa5bdb035f129b4df0a6ae6ccbbc0d5d6c9438932"
+    },
+    {
+      "id": "FMT-15700773fde2::compact::r3",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "85b52fe6b273fec86b07de605b016e85b6a829d44217ce7bd772e55d2106e170"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::explained::r3",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "9b14c7f783f142e7296038f934cf805fa23453966978688b64f08fdaf31bbf0a"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::compact::r3",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "e5cbbb2fa7d69ffca2bb1d12337aab6072470e58a148f195378fc4a14856bcf4"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::named::r3",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "be870a50b45d835ed41901cac809d2327b572af2f61518184ae7f52f06088378"
+    },
+    {
+      "id": "FMT-1fc7315d302f::compact::r3",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "21340b6a12197cb11ac64a28dd764937a5615c67ac138211ef5138e600556a49"
+    },
+    {
+      "id": "FMT-1fc7315d302f::named::r3",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "b3446deecbfcbe2090ead5592e24b6b7462ce6182f0a708badc097199bc863a0"
+    },
+    {
+      "id": "FMT-1fc7315d302f::explained::r3",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "4565fc555a45fd68f0425b0df6c847357e922a395fec3d3a74efb3c0ef11b825"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::named::r3",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "38743bbc79a39efd279b8cfb57e33896f24516ba4b491c3fac2d2a31e68c4754"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::explained::r3",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "e14cf10d8ac379fa811e7d95e98db958857264c61c32f656a4f11186369e0bd7"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::compact::r3",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "95e9d910d4010ab9d97d9eb6ea0a3010b749b3ccde9cd08b30992c5ad29a732a"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::explained::r3",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "6ade265db3fafebf76c654b890eec56d71ae82505fae1837f59e7eef360eb32b"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::compact::r3",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "fad536aa36c4b0bfe56ca3e9d68fe8f348586f9b778daee68855d266d0fa1eee"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::named::r3",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "a0852064e35d4064008ada7dd030602b6e764297cf88766d37c6c8b266051d25"
+    },
+    {
+      "id": "FMT-a89dbccd5437::compact::r3",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "caefbc59c71fd063fa831ed04febc61d2f6579fd55d50e80c57b8b9474d1636a"
+    },
+    {
+      "id": "FMT-a89dbccd5437::named::r3",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "5178aba73ab14baf9ff82b0950b16078f690420dccb88d30362ed87b058ed68c"
+    },
+    {
+      "id": "FMT-a89dbccd5437::explained::r3",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "0e6e2f7ce4e47a442b8d660e1deb6374c68f62000870363d27733363b6bb2629"
+    },
+    {
+      "id": "FMT-dff737ef5d78::named::r3",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "a12ab5ef886b698bc58d995744699a28c724e2a61c7d58a0766297b5add85f3c"
+    },
+    {
+      "id": "FMT-dff737ef5d78::explained::r3",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "794311d175deb24f75146c32b1a2721b1b230801b893d3fe98b523784f01597a"
+    },
+    {
+      "id": "FMT-dff737ef5d78::compact::r3",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "03ee81fba344e6ad238f4d9b7796a080489ccd27329a50a2d73a394f7178582b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::explained::r3",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "d73fc09ebd78189226d283b134717b426f7274cb1c7c374a3e99da9875ded93b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::compact::r3",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "6f1960e585900a247d7f6f1c6b54437f3a44cbe8d26dc804aa9b2dc6b3743c62"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::named::r3",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "43fcf2cc86a59cb6240f3d6ce11ef21bc45c426a1beed5788d4e21c4e58701c8"
+    },
+    {
+      "id": "FMT-0320c9b146eb::compact::r3",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "f9d35faa2b4368467acbc75cb14d547b94ee4b95c6216b7aed1f9637b3b17b2a"
+    },
+    {
+      "id": "FMT-0320c9b146eb::named::r3",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "53d5965b096422d0d56ce4a50ec281634ba95b22f227073375fe635cdc527593"
+    },
+    {
+      "id": "FMT-0320c9b146eb::explained::r3",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "6f32f9ae063f19ccb5cc140a4cdf2f7a3f184801ff2b27729e47091f783becd9"
+    },
+    {
+      "id": "FMT-064f8949c05a::named::r3",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 3,
+      "request_sha256": "c0ce1681ee2899eed1bae8050c805d2e22084550f18fce4cb4930474884581a5"
+    },
+    {
+      "id": "FMT-064f8949c05a::explained::r3",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 3,
+      "request_sha256": "47c23da2d59b243f181c9d20c04b5df33bd8233d6a0f5eed218769c3b495cd7e"
+    },
+    {
+      "id": "FMT-064f8949c05a::compact::r3",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 3,
+      "request_sha256": "dd7bb0059d4f14f1936ad18341ac07df61be2cfb4bf9f5d60fbb5e352808335e"
+    },
+    {
+      "id": "FMT-107547061ee3::compact::r4",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "0c53753350c24b8db1c468f756f69b6db33d8a7c4b69a351fcb5d79d99740eab"
+    },
+    {
+      "id": "FMT-107547061ee3::named::r4",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "92f64b2eb8c96dd1834d3501896cd00b62d41a58e4f15481e4654bd0dde95baa"
+    },
+    {
+      "id": "FMT-107547061ee3::explained::r4",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "0cd978f21b563b0914ea57d845ec94a86c791deafefbbabcdc25a55a92ae686c"
+    },
+    {
+      "id": "FMT-15700773fde2::named::r4",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "472842f0dd467dba58ab4abb0b7d70838088632405af3c4ce510eb78a052af6f"
+    },
+    {
+      "id": "FMT-15700773fde2::explained::r4",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "a0e3da7c40439a15473a3bcaa5bdb035f129b4df0a6ae6ccbbc0d5d6c9438932"
+    },
+    {
+      "id": "FMT-15700773fde2::compact::r4",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "85b52fe6b273fec86b07de605b016e85b6a829d44217ce7bd772e55d2106e170"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::explained::r4",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "9b14c7f783f142e7296038f934cf805fa23453966978688b64f08fdaf31bbf0a"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::compact::r4",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "e5cbbb2fa7d69ffca2bb1d12337aab6072470e58a148f195378fc4a14856bcf4"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::named::r4",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "be870a50b45d835ed41901cac809d2327b572af2f61518184ae7f52f06088378"
+    },
+    {
+      "id": "FMT-1fc7315d302f::compact::r4",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "21340b6a12197cb11ac64a28dd764937a5615c67ac138211ef5138e600556a49"
+    },
+    {
+      "id": "FMT-1fc7315d302f::named::r4",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "b3446deecbfcbe2090ead5592e24b6b7462ce6182f0a708badc097199bc863a0"
+    },
+    {
+      "id": "FMT-1fc7315d302f::explained::r4",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "4565fc555a45fd68f0425b0df6c847357e922a395fec3d3a74efb3c0ef11b825"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::named::r4",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "38743bbc79a39efd279b8cfb57e33896f24516ba4b491c3fac2d2a31e68c4754"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::explained::r4",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "e14cf10d8ac379fa811e7d95e98db958857264c61c32f656a4f11186369e0bd7"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::compact::r4",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "95e9d910d4010ab9d97d9eb6ea0a3010b749b3ccde9cd08b30992c5ad29a732a"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::explained::r4",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "6ade265db3fafebf76c654b890eec56d71ae82505fae1837f59e7eef360eb32b"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::compact::r4",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "fad536aa36c4b0bfe56ca3e9d68fe8f348586f9b778daee68855d266d0fa1eee"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::named::r4",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "a0852064e35d4064008ada7dd030602b6e764297cf88766d37c6c8b266051d25"
+    },
+    {
+      "id": "FMT-a89dbccd5437::compact::r4",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "caefbc59c71fd063fa831ed04febc61d2f6579fd55d50e80c57b8b9474d1636a"
+    },
+    {
+      "id": "FMT-a89dbccd5437::named::r4",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "5178aba73ab14baf9ff82b0950b16078f690420dccb88d30362ed87b058ed68c"
+    },
+    {
+      "id": "FMT-a89dbccd5437::explained::r4",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "0e6e2f7ce4e47a442b8d660e1deb6374c68f62000870363d27733363b6bb2629"
+    },
+    {
+      "id": "FMT-dff737ef5d78::named::r4",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "a12ab5ef886b698bc58d995744699a28c724e2a61c7d58a0766297b5add85f3c"
+    },
+    {
+      "id": "FMT-dff737ef5d78::explained::r4",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "794311d175deb24f75146c32b1a2721b1b230801b893d3fe98b523784f01597a"
+    },
+    {
+      "id": "FMT-dff737ef5d78::compact::r4",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "03ee81fba344e6ad238f4d9b7796a080489ccd27329a50a2d73a394f7178582b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::explained::r4",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "d73fc09ebd78189226d283b134717b426f7274cb1c7c374a3e99da9875ded93b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::compact::r4",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "6f1960e585900a247d7f6f1c6b54437f3a44cbe8d26dc804aa9b2dc6b3743c62"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::named::r4",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "43fcf2cc86a59cb6240f3d6ce11ef21bc45c426a1beed5788d4e21c4e58701c8"
+    },
+    {
+      "id": "FMT-0320c9b146eb::compact::r4",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "f9d35faa2b4368467acbc75cb14d547b94ee4b95c6216b7aed1f9637b3b17b2a"
+    },
+    {
+      "id": "FMT-0320c9b146eb::named::r4",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "53d5965b096422d0d56ce4a50ec281634ba95b22f227073375fe635cdc527593"
+    },
+    {
+      "id": "FMT-0320c9b146eb::explained::r4",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "6f32f9ae063f19ccb5cc140a4cdf2f7a3f184801ff2b27729e47091f783becd9"
+    },
+    {
+      "id": "FMT-064f8949c05a::named::r4",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "c0ce1681ee2899eed1bae8050c805d2e22084550f18fce4cb4930474884581a5"
+    },
+    {
+      "id": "FMT-064f8949c05a::explained::r4",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "47c23da2d59b243f181c9d20c04b5df33bd8233d6a0f5eed218769c3b495cd7e"
+    },
+    {
+      "id": "FMT-064f8949c05a::compact::r4",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "dd7bb0059d4f14f1936ad18341ac07df61be2cfb4bf9f5d60fbb5e352808335e"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::explained::r4",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 4,
+      "request_sha256": "ee48093bca79d5b11377483bd62eb7abfdde2d74b7bc25bf5d7c1c5fe76f5de6"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::compact::r4",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 4,
+      "request_sha256": "a77115dda30088b3fb23d995b7da17f99426722a9d28d31882d8fc1317001cbc"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::named::r4",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 4,
+      "request_sha256": "d56629a8a946f1545f3370bd81f48a14448647709733f0b9923cf935df88bae3"
+    },
+    {
+      "id": "FMT-15700773fde2::named::r5",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "472842f0dd467dba58ab4abb0b7d70838088632405af3c4ce510eb78a052af6f"
+    },
+    {
+      "id": "FMT-15700773fde2::explained::r5",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "a0e3da7c40439a15473a3bcaa5bdb035f129b4df0a6ae6ccbbc0d5d6c9438932"
+    },
+    {
+      "id": "FMT-15700773fde2::compact::r5",
+      "case_id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "85b52fe6b273fec86b07de605b016e85b6a829d44217ce7bd772e55d2106e170"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::explained::r5",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "9b14c7f783f142e7296038f934cf805fa23453966978688b64f08fdaf31bbf0a"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::compact::r5",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "e5cbbb2fa7d69ffca2bb1d12337aab6072470e58a148f195378fc4a14856bcf4"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5::named::r5",
+      "case_id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "be870a50b45d835ed41901cac809d2327b572af2f61518184ae7f52f06088378"
+    },
+    {
+      "id": "FMT-1fc7315d302f::compact::r5",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "21340b6a12197cb11ac64a28dd764937a5615c67ac138211ef5138e600556a49"
+    },
+    {
+      "id": "FMT-1fc7315d302f::named::r5",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "b3446deecbfcbe2090ead5592e24b6b7462ce6182f0a708badc097199bc863a0"
+    },
+    {
+      "id": "FMT-1fc7315d302f::explained::r5",
+      "case_id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "4565fc555a45fd68f0425b0df6c847357e922a395fec3d3a74efb3c0ef11b825"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::named::r5",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "38743bbc79a39efd279b8cfb57e33896f24516ba4b491c3fac2d2a31e68c4754"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::explained::r5",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "e14cf10d8ac379fa811e7d95e98db958857264c61c32f656a4f11186369e0bd7"
+    },
+    {
+      "id": "FMT-2c481ec2aefb::compact::r5",
+      "case_id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "95e9d910d4010ab9d97d9eb6ea0a3010b749b3ccde9cd08b30992c5ad29a732a"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::explained::r5",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "6ade265db3fafebf76c654b890eec56d71ae82505fae1837f59e7eef360eb32b"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::compact::r5",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "fad536aa36c4b0bfe56ca3e9d68fe8f348586f9b778daee68855d266d0fa1eee"
+    },
+    {
+      "id": "FMT-49b5cf388bb3::named::r5",
+      "case_id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "a0852064e35d4064008ada7dd030602b6e764297cf88766d37c6c8b266051d25"
+    },
+    {
+      "id": "FMT-a89dbccd5437::compact::r5",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "caefbc59c71fd063fa831ed04febc61d2f6579fd55d50e80c57b8b9474d1636a"
+    },
+    {
+      "id": "FMT-a89dbccd5437::named::r5",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "5178aba73ab14baf9ff82b0950b16078f690420dccb88d30362ed87b058ed68c"
+    },
+    {
+      "id": "FMT-a89dbccd5437::explained::r5",
+      "case_id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "0e6e2f7ce4e47a442b8d660e1deb6374c68f62000870363d27733363b6bb2629"
+    },
+    {
+      "id": "FMT-dff737ef5d78::named::r5",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "a12ab5ef886b698bc58d995744699a28c724e2a61c7d58a0766297b5add85f3c"
+    },
+    {
+      "id": "FMT-dff737ef5d78::explained::r5",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "794311d175deb24f75146c32b1a2721b1b230801b893d3fe98b523784f01597a"
+    },
+    {
+      "id": "FMT-dff737ef5d78::compact::r5",
+      "case_id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "03ee81fba344e6ad238f4d9b7796a080489ccd27329a50a2d73a394f7178582b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::explained::r5",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "d73fc09ebd78189226d283b134717b426f7274cb1c7c374a3e99da9875ded93b"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::compact::r5",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "6f1960e585900a247d7f6f1c6b54437f3a44cbe8d26dc804aa9b2dc6b3743c62"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15::named::r5",
+      "case_id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "43fcf2cc86a59cb6240f3d6ce11ef21bc45c426a1beed5788d4e21c4e58701c8"
+    },
+    {
+      "id": "FMT-0320c9b146eb::compact::r5",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "f9d35faa2b4368467acbc75cb14d547b94ee4b95c6216b7aed1f9637b3b17b2a"
+    },
+    {
+      "id": "FMT-0320c9b146eb::named::r5",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "53d5965b096422d0d56ce4a50ec281634ba95b22f227073375fe635cdc527593"
+    },
+    {
+      "id": "FMT-0320c9b146eb::explained::r5",
+      "case_id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "6f32f9ae063f19ccb5cc140a4cdf2f7a3f184801ff2b27729e47091f783becd9"
+    },
+    {
+      "id": "FMT-064f8949c05a::named::r5",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "c0ce1681ee2899eed1bae8050c805d2e22084550f18fce4cb4930474884581a5"
+    },
+    {
+      "id": "FMT-064f8949c05a::explained::r5",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "47c23da2d59b243f181c9d20c04b5df33bd8233d6a0f5eed218769c3b495cd7e"
+    },
+    {
+      "id": "FMT-064f8949c05a::compact::r5",
+      "case_id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "dd7bb0059d4f14f1936ad18341ac07df61be2cfb4bf9f5d60fbb5e352808335e"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::explained::r5",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "ee48093bca79d5b11377483bd62eb7abfdde2d74b7bc25bf5d7c1c5fe76f5de6"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::compact::r5",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "a77115dda30088b3fb23d995b7da17f99426722a9d28d31882d8fc1317001cbc"
+    },
+    {
+      "id": "FMT-0794fee4f8b8::named::r5",
+      "case_id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "d56629a8a946f1545f3370bd81f48a14448647709733f0b9923cf935df88bae3"
+    },
+    {
+      "id": "FMT-107547061ee3::compact::r5",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "compact",
+      "round": 5,
+      "request_sha256": "0c53753350c24b8db1c468f756f69b6db33d8a7c4b69a351fcb5d79d99740eab"
+    },
+    {
+      "id": "FMT-107547061ee3::named::r5",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "named",
+      "round": 5,
+      "request_sha256": "92f64b2eb8c96dd1834d3501896cd00b62d41a58e4f15481e4654bd0dde95baa"
+    },
+    {
+      "id": "FMT-107547061ee3::explained::r5",
+      "case_id": "FMT-107547061ee3",
+      "split": "calibration",
+      "arm": "explained",
+      "round": 5,
+      "request_sha256": "0cd978f21b563b0914ea57d845ec94a86c791deafefbbabcdc25a55a92ae686c"
+    }
+  ],
+  "source_sha256": {
+    "triage_bench/public_repeat_trial.py": "9a21ee557b83b0ee938b443da15ab7467c22e47d9f81c2334930984682482511",
+    "triage_bench/public_repeat_results.py": "a79686d756ecf80e0d10caec2790da13b88780fd0b4e6fdc2ececf71a7a0d7ed",
+    "scripts/run_public_repeat.py": "239012f5ca7660a1a67f1af07c46c29174a3d648eadb1e7268d40082336b6d3d",
+    "uv.lock": "c2279f34fe061961b88c0a44fc7bbf5ca8f72638e1afc2a4b2ef776fde6edce0"
+  },
+  "evidence_sha256": {
+    "checkpoints/public-format-protocol-2026-10-03.json": "429d54786da408f98d266fed6029315eb7828dcd414a03a7eff1bfdfcfcc387a",
+    "checkpoints/public-format-boundary-2026-10-03.json": "46de20c9acaee383986871c8645aac25175d30c2cb49f4c57256a1e1091a8836",
+    "checkpoints/public-format-evaluation-2026-10-03.json": "cd6e85812a4194abb85ff4533fc1b66c6381cf1ee0b475b3c7178e1fb8d1f8a1",
+    "runs/public-data/input-format-2026-10-03-v1/manifest.json": "d95e5297f781ca7508c8b1d6546862bd085f9fad2d540b3bf3ef987335596402",
+    "runs/public-format/calibration-2026-10-03-v1/summary.json": "bc73f058e3462ed12a193fc05ba777058d7948cd47e54ea379528d294d03239b",
+    "runs/public-format/calibration-2026-10-03-v1/requests.json": "8c4be736e54d2c9fb7a9c2387cc87163c7ef28367ab0e19fa25e6e668fc25d16",
+    "runs/public-format/calibration-2026-10-03-v1/responses.jsonl": "0d768ca79969eb5cee43454e9dd33334c99799fb353c16572b7a500f021dcaac",
+    "runs/public-format/evaluation-2026-10-03-v1/summary.json": "d2e9e20b6ba53234dcc75aa9808f2069ef0eed581207b6c21a1cd6382c290211",
+    "runs/public-format/evaluation-2026-10-03-v1/requests.json": "4fe698f285a2867cab390e0c31e228288e4a500234752fc003474f645659d845",
+    "runs/public-format/evaluation-2026-10-03-v1/responses.jsonl": "f797fcec4f855ca3eae3723f862e5781f709fbeeab0dfff23e9a0149b19de5a0"
+  },
+  "thresholds": {
+    "compact": 0.6,
+    "named": 0.5,
+    "explained": 0.5
+  },
+  "largest_request_bytes": 17987,
+  "selection": "All six inspected calibration/evaluation cases with any Jev reference error, plus lexicographically first all-three-correct case for each of six faults. Selection is outcome-based and not representative.",
+  "execution": "Five serial rounds. Rotate case starting position by round and first arm by position plus round. Copy exact historical request bodies; no timestamps, seeds, hints, examples or references enter the wire. No retries or warmup; timeout 30 seconds; stop on HTTP/version/network errors or three consecutive malformed responses.",
+  "primary": "Per-round choices, correctness and frozen display status on 12 distinct inspected cases; per-case choice and display consistency across five rounds and separately against the original response.",
+  "research_gate": "Keep reserve sealed if any call fails/is missing, any named-input displayed recommendation is wrong, or any named choice/display decision changes across the five new rounds, or named loses an originally correct service selection. This is an author-set diagnostic criterion, not an operational error budget.",
+  "limits": "Five nearby rounds do not establish long-term stability, provider internals or absence of caching. Correlated and outcome-selected cases do not estimate population accuracy. Repeats are not new held-out evidence. No original thresholds or predictions change."
+}
