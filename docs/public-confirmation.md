@@ -42,4 +42,3 @@ The zero-wrong-lead result from the earlier evaluation did not reproduce on Trai
 The next experiment needs fresh cases and a separately frozen protocol. I recommend testing Jev/ML disagreement as a reason for analyst review, with the lost correct coverage reported explicitly. The other direction is richer causal evidence, such as traces or dependency context, to help Jev distinguish origin from propagated symptoms. The inspected reserve failure can guide that design but cannot evaluate its success.
 
 Inspect [Train Ticket confirmation](http://127.0.0.1:8769/selective?split=train-ticket-reserve&case=TMP-80d015d089a4&round=1#inspect) and [Sock Shop confirmation](http://127.0.0.1:8769/selective?split=sock-shop-reserve#overview).
-

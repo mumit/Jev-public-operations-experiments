@@ -28,7 +28,7 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all three [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. All three retain measurements, separate references and exact requests, with no synthetic runs or credentials.
+A fresh clone includes source, reports and checkpoints. Restore all four [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 reserve responses. All four retain measurements, separate references and exact requests, with no synthetic runs or credentials.
 
 ## Read and inspect
 
@@ -51,6 +51,7 @@ uv run --locked --extra public-data python -m unittest discover -s tests -v
 uv run --locked --extra public-data python -m scripts.verify_evidence
 uv run --locked --extra public-data python -m scripts.verify_public_diagnostics
 uv run --locked --extra public-data python -m scripts.verify_public_selective
+uv run --locked --extra public-data python -m scripts.verify_public_confirmation
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
 node --check triage_bench/web/public-repeat.js

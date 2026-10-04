@@ -2,9 +2,9 @@
 
 ## Current state
 
-Two public comparisons, an exact-request replay, a fresh temporal development comparison selective calibration/evaluation and reserve confirmation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation and reserve confirmation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-selective.md. Restore all three versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics and scripts.verify_public_selective. The suite passes 75 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-confirmation.md. Restore all four versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective and scripts.verify_public_confirmation. The suite passes 75 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -32,7 +32,7 @@ All 54 calibration calls succeeded. The selected rule is probability >=0.70, mar
 
 Original protocols and active inference sources remain fingerprinted by provenance/migration.json; original source bytes stay under provenance/source. Do not modify or rerun them. Later protocol names begin public-repeat, public-context-probe and public-temporal. Their request plans, source fingerprints and results are committed under checkpoints. Their runners reject another execution. New experiments need separate modules, protocols and output folders.
 
-The original public-study-v1 release contains 294 calls and 347 files. The separate public-diagnostics-v1 asset adds 289 calls and 51 files, including replay evidence, fresh development measurements and the capacity probe. Restore it after the original bundle. The public-selective-v1 asset adds 162 responses and 124 files for calibration and evaluation. All three preserve 745 recorded calls. They contain no credentials or synthetic runs and must not be replaced with changed evidence.
+The original public-study-v1 release contains 294 calls and 347 files. The separate public-diagnostics-v1 asset adds 289 calls and 51 files, including replay evidence, fresh development measurements and the capacity probe. Restore it after the original bundle. The public-selective-v1 asset adds 162 responses and 124 files for calibration and evaluation. The public-confirmation-v1 asset adds 162 responses and 116 files. All four preserve 907 recorded calls. They contain no credentials or synthetic runs and must not be replaced with changed evidence.
 
 The app reveals published case answers explicitly. It exposes comparison results only after complete evidence matches the committed assessment. Keys remain server-side in ignored local configuration. Do not introduce other model providers, download model weights or execute network changes without a new request.
 

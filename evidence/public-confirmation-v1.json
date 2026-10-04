@@ -1,0 +1,480 @@
+{
+  "schema": "public-confirmation-evidence-1",
+  "archive": "public-confirmation-v1.tar.gz",
+  "archive_sha256": "c40fd91885a07893919d93f3616cdcf3d9a2e1ead234771a7a580d0be208e84b",
+  "bytes": 17791339,
+  "source_commit": "b787c8ceeb1fc064ae75b9914c024ac85f180018",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 162,
+  "files": {
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/inputs.json": {
+      "bytes": 3188344,
+      "sha256": "b665470c14633faf7a131d95805dc337de61d1bbe6f75d3ccacd3b5ab2b8bcb3"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/manifest.json": {
+      "bytes": 28905,
+      "sha256": "ff4151d6e8d720c324bfdf13dd30ccb918eb5dd2dc8d129eeb7064794bdf9aa5"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-01781f30fe20/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4f7525f7c2c46249bc6893d71e47f91f5bb6dc0ec84f64ba01d7377b40951255"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-01781f30fe20/metrics.parquet": {
+      "bytes": 161282,
+      "sha256": "80fdab29e70dcfcb10769c3e91059b4e38c3823d8cbec44020a6aa6611bcebdc"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-0820bc493cc7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "df7202a43278b5e421847ffec0e23173f4e494c6259356797693e7748062a0b8"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-0820bc493cc7/metrics.parquet": {
+      "bytes": 157221,
+      "sha256": "bf7beefb45a4ddab130d260987bff0e75034e56a33c94930360e69f920cbf1e8"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-140b34b777a9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "25e5bd2d5e92a31f4f0b14191df14b0054306242ea930c179a0db951f87d5b6e"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-140b34b777a9/metrics.parquet": {
+      "bytes": 158525,
+      "sha256": "bf71efdef0418328922bee3d796321a24ef61928fd8a6bd21ff8b2eeb132646e"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-14125add2cd6/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "265f1ab204a3cd9f0d9a5a6c96fdfda0e4fa0d1e6c12bc99015eb2add2a3fa90"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-14125add2cd6/metrics.parquet": {
+      "bytes": 160345,
+      "sha256": "3c736f744cf147b4b80a2533e53c8f8dbbbebbe13b4c328febeabca16abf5b1c"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-1a3ec8165de5/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "dfcb009ba419e4d645d15ba0a949a80df04aa66a462a5250c52b60521b687044"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-1a3ec8165de5/metrics.parquet": {
+      "bytes": 167196,
+      "sha256": "00f1f5e4e40b6a0a4ef0079d3d481906a1f4e7371f9d8aa7e7ed901f62230b90"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-221c1fe931a5/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2fbcb62e0445eb3427eed4294bb2050af317a451bf471eb94d57f3306f7d9640"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-221c1fe931a5/metrics.parquet": {
+      "bytes": 168325,
+      "sha256": "f2f78af0a44f2285b00ab79bb3635cf4cc3dc04b3f29c0c058846a8f541125a1"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-29013073e4cd/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "43523042e2ea35b6366a0ac171205b45d1150a1f4a98f6557a5a4c5aa99f7a91"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-29013073e4cd/metrics.parquet": {
+      "bytes": 163724,
+      "sha256": "e99ef22d087b8044f678a1ea1c3107d24b85f950738d3f8a095faf1898791d69"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-5d60431a4708/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4b06af735463945661412c7a2bae31ef952a9820601200c580c0b0e3e8722ac1"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-5d60431a4708/metrics.parquet": {
+      "bytes": 166393,
+      "sha256": "a8c9f53edfd045363303b886577fe60cfbabd930be7509e0151db333e45d1582"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-6ed16da56895/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "38ba53b9b353aec7ee77cef46f2c0d1ace7b7c266c1502898664ab2f75d99cb3"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-6ed16da56895/metrics.parquet": {
+      "bytes": 158153,
+      "sha256": "86f7ccf530f373ed1a2526fbd539ec9a933f73a3ee5d1eca9f684254885e2a2c"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-884762d3c408/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f595e2c261b47ab3f7b1fc0ce34c5350977b6a63a3dbf9662e7324629dde69e5"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-884762d3c408/metrics.parquet": {
+      "bytes": 156116,
+      "sha256": "18353c97e431318615e3ec86b570900ddedad8ae68bacac12db7c9a61ab66dd0"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-91a4f9c34088/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6a29510ddbd0aac072cc3189e6d17a064e30010491b6bcb52e61275706c7cb0b"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-91a4f9c34088/metrics.parquet": {
+      "bytes": 160826,
+      "sha256": "f295e917faff65e754fdf89c4c1d806506dcd9b74607a96b123b6c4f8fd08f64"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-99cc74825f5f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "79355fd6f1f55462e68f1dd5ba83c02953d4f79babdb0b55544c66eabd31a64b"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-99cc74825f5f/metrics.parquet": {
+      "bytes": 168181,
+      "sha256": "a0df03e26373d8c2c5a464625838c7fe64ee38187ae46f0f00e1163e6a62ccee"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-9df5da4c1e4e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "dbd1c8ab1c1871003f1087cccb81c248371632555ef996b5034ff09340c89a58"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-9df5da4c1e4e/metrics.parquet": {
+      "bytes": 169426,
+      "sha256": "710c4adb549be827bb7c6a98657b5fd91db2d5660647e9dc8f94c9027c8c6c92"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-9ef8613d5901/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "83e03a2d8078deeca250f78b3ef072207b24d25b69c21d777adf5ba9fc5437f1"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-9ef8613d5901/metrics.parquet": {
+      "bytes": 169066,
+      "sha256": "0f26c03e237c9a051be15548f602bdcc8dc01a902a8e10204dda6fddcd06917d"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-ac23b6db3880/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d33e43ed6597aeb4d2eeda91e87ab171522e66f5aaef2be7c12325d20b0a5896"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-ac23b6db3880/metrics.parquet": {
+      "bytes": 159050,
+      "sha256": "6fd649e76646dc940f325faec5d86899651f9ad16fe20d906d68a2d203486d7c"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-ae5689a1103b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "78a246c95a688efa63cc5fc6df1ce1f1b877efb9661cecb37b20392b1f7af4de"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-ae5689a1103b/metrics.parquet": {
+      "bytes": 164063,
+      "sha256": "fb61d06bd040deb2f9f610b62976cb2c069f5a038975a04b5e72b7ef93446c6c"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-b1e87209619a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "995d40d2b9d02aa42be9b5144a08e2a3a36a46d5b6cf0e017b137b1f0b9e8d99"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-b1e87209619a/metrics.parquet": {
+      "bytes": 164909,
+      "sha256": "40ce4ce6534ed7cb062cba2cccfdf1b925a976694c61bdaf5a0dcc9d949cec38"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-bad7972e0ea4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9c72a5181ef6ffdb3c44f9db9922797196d476d99ec752d435ea45e52882d6d5"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-bad7972e0ea4/metrics.parquet": {
+      "bytes": 160392,
+      "sha256": "d007a519f3718df19951081ac7cb50983bc87a78085abf0a0c22aa9a73c89f20"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-bcbbd4529d2e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "914bf0a2dfc79fbfeef1f1b8d53a337a749c07860de4dff3fdae4f1a0bbe891e"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-bcbbd4529d2e/metrics.parquet": {
+      "bytes": 165684,
+      "sha256": "f160807523b94fe890de348f7c464f8cd9d7fd55e46c221c6668bca73e90d4ad"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-c61e87875bd9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "522c7d07b3c74005d6e83aa423bf443dcab5e5fb8bfaebc325b172abbbfbf42e"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-c61e87875bd9/metrics.parquet": {
+      "bytes": 157848,
+      "sha256": "84c180302d1447d72f864f6ad6d60864a38cc7972e0d49c0fc48a9245bd8b2bc"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-c67b895315d3/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "df31e6ccef10f7b026e7a67fa100473e9b77c94dd2b948af27fbd491bd7e1894"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-c67b895315d3/metrics.parquet": {
+      "bytes": 171547,
+      "sha256": "2f98e3cbf7213ea0b0d5b6ca89df4b87b1408503b17e5cd62c4321af68bb8679"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-c84e68bc3d52/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "82a1cf14eb0f2ff01edb68910a52c84df6f18400a387a071ae2598bc68065d58"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-c84e68bc3d52/metrics.parquet": {
+      "bytes": 163368,
+      "sha256": "1818445052dbb850160e3abc8bb5f13f68cf9ecf8138cca37406550dfde5e2b2"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-c923c89e6648/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "167690e48980e94e1c3e9abd7e7212baa0a7c7dee0506309b8a18f0d856110be"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-c923c89e6648/metrics.parquet": {
+      "bytes": 158204,
+      "sha256": "61c77f07a1ed5f438998f957a94a131de0f4675294943856b1918b5460a2fac5"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-cd43e109ea7a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "aff0a2ad12628c9fbb34afcca3d6bd8a3f24c9221221af34a1ef04162144ce7f"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-cd43e109ea7a/metrics.parquet": {
+      "bytes": 161329,
+      "sha256": "01616d020289fbd1c701e78c5b75d0629561150cca8992b7b3c00c8b54f3e635"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-cf1f3321d2a6/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a6db47efbf7259e394c3c0a1a410734d62cf7d97d7cbc07b0042cd2de4a3b50d"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-cf1f3321d2a6/metrics.parquet": {
+      "bytes": 165761,
+      "sha256": "a890b52faaab6d71d9eb151ff18399c261feb3d45cf28f84e91f4cc4e0245775"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-d19486f6e14f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "dc62e9993d1482f7e392e8523d1499172d97d37854ccee918d5c73071834e819"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-d19486f6e14f/metrics.parquet": {
+      "bytes": 176164,
+      "sha256": "f804248894f18fc8040cfed1712804a5c2091d1334bf378c0813d7cde1a4a703"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-e6b806cb1998/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "78a2d76b68e40209a99253d51d673f9bf4e0d6b45c5d00b7849b856e34cbdf67"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-e6b806cb1998/metrics.parquet": {
+      "bytes": 156003,
+      "sha256": "8d94a9276ef819cb6b6c09fc7efad007ae44e1ca2c753d437b37a35cb5890948"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-eb5e486acddd/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8d4ac5d701811f8178ad47d78b228276eebd559e9b025473cc172c254572fbc3"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-eb5e486acddd/metrics.parquet": {
+      "bytes": 159747,
+      "sha256": "7b471a0963add6fc8edea47ce7ea134c76177213a8868b15bdd3ac63d8ee8dd5"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-ebe697bd9e55/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b5fecdc90a1b0dc16a430149a8f1a4848aac9deb0002bfd9121041097129e885"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-ebe697bd9e55/metrics.parquet": {
+      "bytes": 162912,
+      "sha256": "a4769b56ad2ae0e8dd34eeedd9ff7439a21a82e5a745f7d1778e28edb9d4d711"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-f4e9fe8b8e80/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "80b7657c222b52f16f7d088e9d4b2f83ee02cd4c5b0bde33ab4586e12cb96ac7"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-f4e9fe8b8e80/metrics.parquet": {
+      "bytes": 169237,
+      "sha256": "a659f2eaa202d5262e7f503864790019e192717b3e287458a2a273a21019faaf"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-f760823c0405/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4f08a9de648d84013ef5fd0ae8b5f7f673ec3ffbd16f0cbca63c85c18ce46e55"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-f760823c0405/metrics.parquet": {
+      "bytes": 159274,
+      "sha256": "8a06c595696dbc14dbf60e03f4f492f0feb1c3da2b180006fff7eb8345c8f007"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-f7dcedc99f21/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b351a36f445094036db479c0251428dfb2933ebe4ab604680a163db083602525"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-f7dcedc99f21/metrics.parquet": {
+      "bytes": 160444,
+      "sha256": "eb516d43907dc7495d30959131d00e8e74f5abca7065d87feded3770e6251d1d"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-f82f04287066/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f24eb2bf46133637d6a7fe3f07fa10eec4566821b842ca1eebcda200df5a4c99"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-f82f04287066/metrics.parquet": {
+      "bytes": 173946,
+      "sha256": "e8a71fbdb959dc8b0a07f466c8717fe5c56feeb8d8ef6ea0ae33ca13fa32d87c"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-fc6978ec8711/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "38ef69414b4e1601a2d2c2e391b135198caf9d3817e98609cedadf27179f06f0"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-fc6978ec8711/metrics.parquet": {
+      "bytes": 164242,
+      "sha256": "09bc7398424ff96cca4e7d57189558172d51bd7fce0cf55d9c313fed7cc8c0bb"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-fd54e0824c02/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e03d56f9096f1c428b587ef5273aa9678c24695428448c4c6ffac8056d66fce8"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-fd54e0824c02/metrics.parquet": {
+      "bytes": 168010,
+      "sha256": "cdd740ff7715f0c77acdb7bd4e8045ebc04f26fa54857c0ac5d8baa68286712c"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-ff7580a95217/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "18bf47cffacb14bef56c751884c6199f052f80119595c846dfe34c7f5e84daf6"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/FMT-ff7580a95217/metrics.parquet": {
+      "bytes": 165557,
+      "sha256": "50e99003ed635392934e9d688404165d60cd0bd09b478abafc1d11f8ff932e52"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-0b30942e12c2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8c2d13483fd70e2f6f8fc2f8036a8ccc1748bae3e2caee88d5a3784cacf64dd7"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-0b30942e12c2/metrics.parquet": {
+      "bytes": 1018038,
+      "sha256": "e105858fb95a3213476bc55302c6a870f1dbb56bd38b568085c076e089b52916"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-13bf5273da67/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c450bc0eb4d90854abe63bad0a3ec20f6889029a346a18a2530da98f3570cbc9"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-13bf5273da67/metrics.parquet": {
+      "bytes": 1035347,
+      "sha256": "5a04403c67e194dafb259cf757fd8caa5e13ff48a09419c0c0aec0580ea299af"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-1cc349af480b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f09b1ef47eaa2f9b1a7fb0c51a22b01d48b75beec564afe5070e996e5bb6487e"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-1cc349af480b/metrics.parquet": {
+      "bytes": 843531,
+      "sha256": "8017c6dc7061043bdcad646965252cc31976e7db3fd11c1245ac1858d3f39745"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-1d7171dd935e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "26dec7a98c255fbabf97d84e77a83a4a20024ad2914bc3412132664bfc1dc9fa"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-1d7171dd935e/metrics.parquet": {
+      "bytes": 1031173,
+      "sha256": "79fab518113cf0f6f65dcb56a88673827a37cca02de67ce32256db06f47d807b"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-266555bd3ad3/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "495b221a7f10e4ebea648ef5b822045cd1322d38ce7cf7040040d9c0efc67b98"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-266555bd3ad3/metrics.parquet": {
+      "bytes": 1029824,
+      "sha256": "1c5112f802b07543b19005002b0b707b67aebf879ee2197ef0d5513f6398659e"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-27151a44d62b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6b50e3c5db3ee0c3a3e7b5ca6c6f2e4251fd76405739bd0bf3d36aa1ce00d5bf"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-27151a44d62b/metrics.parquet": {
+      "bytes": 934559,
+      "sha256": "746fd74313b3e151f9a7827356758779133e44307c4d58acbcdae7ecaf7ab733"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-50e28a192945/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "cc28dadd6bfedd79162619c7d549e1c803d1e8291a97f9b0c87be0e7bfd7b0ab"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-50e28a192945/metrics.parquet": {
+      "bytes": 855203,
+      "sha256": "ed8628fcbadc8fafffb12c557dac2ae38f7d3649cec0fae2c4c7de5b1b082e18"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-5d6832a7c453/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "91ce94b0e15cd27e6fabd380855f82f004c5cb149fdb5a0dc1d78d73052c08e9"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-5d6832a7c453/metrics.parquet": {
+      "bytes": 924994,
+      "sha256": "1586665e4dfcc0b59bfe969495843fe64ecd5fa18e634554ec18b820ec84f890"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-668c171f20ac/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "83d31df4df49b75e022036c85118dd251e0571e3c3e019ea46fa2e2ee46b31af"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-668c171f20ac/metrics.parquet": {
+      "bytes": 939349,
+      "sha256": "042825b9cb50343f2c1ab33039e180641df7a329aba943e6b3b554aaefa1d8c0"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-80d015d089a4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "01618b9ae4e659f0a20e6a6e1eb06b24985bf10843230b600ecc7cb60dafb77b"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-80d015d089a4/metrics.parquet": {
+      "bytes": 926564,
+      "sha256": "ef731bf26b756ac864c095c9eef91485dd64ea666600bca65bf6a22a083485a6"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-87b27e9afb07/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9161cc5bb78159d433554f5413a17673f9255c7b06e5e92e7f816ec1eb6aecba"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-87b27e9afb07/metrics.parquet": {
+      "bytes": 936138,
+      "sha256": "12a1a880698981d1ef3a553d270480eec9bfdd3e0d4c1c9ae4696e82b86d9691"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-98f82d644923/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8d84b1104aa088b604f4f533b40d75818e10f4f5e39715333440bd785239225d"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-98f82d644923/metrics.parquet": {
+      "bytes": 1028115,
+      "sha256": "c3ea4e1ecf87b30158bff7f12293acf6eeedcfa7e409b927f660e90edd848092"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-9ec8fc37a779/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "13a5e1ca86cb27e5bf00083d79a9964d029f635affff84340f20968ffe353146"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-9ec8fc37a779/metrics.parquet": {
+      "bytes": 851342,
+      "sha256": "1e6d61b5ec0835a06652410e71dd353a0899bd65ad31079e4b83ec8ee9f38d15"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-a601c8faf7d0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fd9f54a9e9bf637461210e4f7eaa856183085a7898af0327c4c4cc4731412f2e"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-a601c8faf7d0/metrics.parquet": {
+      "bytes": 1018624,
+      "sha256": "57546fd87b4f4e3b8dbc057075a0c44b6447e69ea83ae1da6f8aff422fe5d748"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-d20372a3bed7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f69fffffb5e0dfa8b930fe81dc9b5595d0a78e93576f38fe87b8934340ccfc89"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-d20372a3bed7/metrics.parquet": {
+      "bytes": 1030163,
+      "sha256": "f81f88234e29af3d1ca416f6f850b194ebafb4fc1c3ae6f8124e2ce2d075b265"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-dd7e5a4bc240/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4423c9ffd462753541875eff742773204bcd016f14b7d9fc43ddf1520dd93ddc"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-dd7e5a4bc240/metrics.parquet": {
+      "bytes": 923157,
+      "sha256": "7f99d3c7534f1063658932d17011833fa5e1e9b46bf99ea71ac9149755211569"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-e20db0a7af17/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "60f8258f0080469bf19cb63938bfb4aec684b09925a638d2e39f914cba574bbd"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-e20db0a7af17/metrics.parquet": {
+      "bytes": 956193,
+      "sha256": "ac5d04a06e8812e0512ec320ff964a926fe3f278763c19068b2153b72a3c1839"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-e5fd8f1e58ad/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "cf717fd140f07a236d2d0fa43394c1788fd16ce03cb92d1e5906fa7f8ea88fca"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/raw/TMP-e5fd8f1e58ad/metrics.parquet": {
+      "bytes": 935999,
+      "sha256": "3235a42a37d7f5e991a97fb5aaefb635f4e04c0030a084908bf02115de6dd173"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/references.json": {
+      "bytes": 6387,
+      "sha256": "4efc6fe667fefea006da879dbcdb6ddc482765a1f061320972db991d0cf0a3ae"
+    },
+    "runs/public-confirmation/confirmation-data-2026-10-04-v1/sizing.json": {
+      "bytes": 4755,
+      "sha256": "fbed807fc20a85e02c941f187cfe90239a29804bfb835aca2e3d0da36be9cbba"
+    },
+    "runs/public-confirmation/confirmation-hosted-2026-10-04-v1/controls.json": {
+      "bytes": 3598417,
+      "sha256": "2d8781493db8e5184ae27f9c7c17bea4fb935b11448635821c8588f6fae85233"
+    },
+    "runs/public-confirmation/confirmation-hosted-2026-10-04-v1/requests.json": {
+      "bytes": 5559360,
+      "sha256": "5922c83c55fcf51a96d8aa184b62b561cbef958bbe5e805284849a565c45111a"
+    },
+    "runs/public-confirmation/confirmation-hosted-2026-10-04-v1/responses.jsonl": {
+      "bytes": 365206,
+      "sha256": "156f718b7965d46b8ba50b0be22a75e02e93e469d2d7ea45357c8ab9f2e6a5d1"
+    },
+    "runs/public-confirmation/confirmation-hosted-2026-10-04-v1/summary.json": {
+      "bytes": 573,
+      "sha256": "323b39053a42083dd44a95acb6e5691c0df6cc995b1da6266335abd748028cc5"
+    }
+  }
+}

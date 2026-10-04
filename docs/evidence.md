@@ -48,3 +48,16 @@ uv run --locked --extra public-data python -m scripts.verify_public_selective
 ```
 
 All three releases preserve 745 actual hosted responses. They do not regenerate hosted inference or contain a live network connection. The remaining 18 Train Ticket reserve cases and 36 Sock Shop reserve cases have no telemetry in these bundles. Safe restoration rejects unknown entries, checksum drift, links and overwrites.
+
+
+## Reserve confirmation evidence
+
+The [public-confirmation-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-confirmation-v1) adds 162 responses on the final 18 Train Ticket and 36 Sock Shop reserve cases. Its 116 files include public measurements, exact named requests and unchanged local controls. The archive is 17,791,339 bytes. Restore the three earlier bundles first.
+
+```bash
+gh release download public-confirmation-v1 --repo mumit/Jev-public-operations-experiments --pattern public-confirmation-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-confirmation-v1.tar.gz --manifest evidence/public-confirmation-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_confirmation
+```
+
+The four releases preserve 907 actual hosted responses and 638 files. Both former reserve panels are now inspected. Earlier bundle descriptions and verifier sealing counts describe the state at their original stage, not the current supply of fresh validation data. See [confirmation results](public-confirmation.md) and [HANDOFF](../HANDOFF.md) before designing another experiment.
