@@ -39,7 +39,7 @@ Disagreement catches no eligible wrong lead. Every additional review case contai
 
 Train Ticket has no eligible Jev errors to test. Sock Shop has one in round three, and the agreement check retains it. Removing a correct lead raises that round's wrong fraction from 1/44 to 1/43. Neither application establishes the intended benefit. The frozen assessment's `no_error_opportunity` status means the every-round opportunity requirement was not met; it does not mean Sock Shop had no error.
 
-Unfiltered Jev matches 42/43/43 Train Ticket references and 49/49/47 Sock Shop references across the three rounds. Frozen ML matches 37/50 and 48/50; change ranking matches 41/50 and 46/50. The original probability boundary already withholds 15/18/18 correct Train Ticket choices and 7/9/4 correct Sock Shop choices. Agreement adds withholding without correcting the model itself.
+Unfiltered Jev matches 42/43/43 Train Ticket references and 49/49/47 Sock Shop references across the three rounds. Frozen ML matches 37/50 and 48/50; change ranking matches 41/50 and 46/50. The original probability boundary already withholds 15/18/18 correct Train Ticket choices and 7/9/4 correct Sock Shop choices. Agreement adds review referrals without correcting the model itself.
 
 Routing stays stable on 46/50 Train Ticket and 44/50 Sock Shop cases. Consistent choices and consistent display decisions remain different properties.
 

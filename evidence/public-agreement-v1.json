@@ -1,0 +1,933 @@
+{
+  "schema": "public-agreement-evidence-1",
+  "archive": "public-agreement-v1.tar.gz",
+  "archive_sha256": "f294ef552eaa0ac345c2ac615d355cb8d49094e5909522e24e98b0d9e9956045",
+  "bytes": 30394164,
+  "source_commit": "ab64d181befe3fd367be87e315eb2345b59cca1d",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 300,
+  "files": {
+    "runs/public-agreement/audit-data-2026-10-04-v1/manifest.json": {
+      "bytes": 56339,
+      "sha256": "c83ccfd94c66ca6fe4ac436fd43ce83d573d9a3fc9ad9fa72017d8ce1da38aeb"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-348c8ba40743/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "41a2c62959be69ab71e38c149246dd911d541c130ae1cda44ac7b66769165463"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-348c8ba40743/metrics.parquet": {
+      "bytes": 528655,
+      "sha256": "e149ac6ccef9a7d8afb94e0ebb88264633b6c0de9970d6b2785a0267e69280d6"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-3dbe9ff43109/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a1e5c39d54602e29b81aaa60fb7382d638dfa455bc3faee2d6c4cb9fbef888c3"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-3dbe9ff43109/metrics.parquet": {
+      "bytes": 107906,
+      "sha256": "4d515069459c0bfd799e8b79e5f109aa6ded6cabf91f9c7d3200f4ba90097580"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-3e7d9c4845c2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2937c354754df3f9b4e7abb774bfdd9bf3f39357cb4be229a2cd068901e57591"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-3e7d9c4845c2/metrics.parquet": {
+      "bytes": 107673,
+      "sha256": "a2382fcb9c524f2203fcdcd099629cf2612dc9f7aebd472459e588d2a084127f"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-4b53a08e026e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "70f04be725e182888598f9892e02a31fc113dac8bd9d2db858d3758ba908a93e"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-4b53a08e026e/metrics.parquet": {
+      "bytes": 522525,
+      "sha256": "4c500360daf3502fd69c776b55f44d32a7c17e208a73374d3f74617ea7162263"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-5951e8017fcc/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "17ccf59139191dfc9b176f126d223dc8488bf44eaeb9d9a8f81ec060ff62a798"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-5951e8017fcc/metrics.parquet": {
+      "bytes": 130921,
+      "sha256": "25d22bb722e4a83d33d5e061012eeb5c3986bd3627c3fd5f2f41abce2a35df3d"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-7a3aa5c27dee/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e5437d802c8859b364598e8cad91f99f46a0ec2885f97f08dc1da2cb25e3b57b"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-7a3aa5c27dee/metrics.parquet": {
+      "bytes": 122174,
+      "sha256": "9f00c57e1b0196675d14a9294f31e86da639f69cdf177ad3d4ba437b236a4ff3"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-877db5cd733c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1b922e31c96d959d595e695a827a7d04033df8d731b31ff6ec5b2958bbd751b1"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-877db5cd733c/metrics.parquet": {
+      "bytes": 596565,
+      "sha256": "15dd9821d1091e525429fd912411fc6202a1b386f284a06ac4ff8e8d5830e4f7"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-8baa4eab526b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8fdf57c6e1c9ce7e7cf0f8e8a7d43e15a7809de8fb7a407bd05bd28512fa2ddb"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-8baa4eab526b/metrics.parquet": {
+      "bytes": 733457,
+      "sha256": "7fbee835ac5a4d998390ef541cb9ba52613f17bc274ce35c4a90d66c66970f3c"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-b3e44fdacf68/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1fb037a3b080d0fbcd6fca554efa4f7a5af083917152aa8c4cc2db6abb3abc2d"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-b3e44fdacf68/metrics.parquet": {
+      "bytes": 111573,
+      "sha256": "8c3071aa76c485aa573231c112b5b7eef8e241dc72e827612b0d4ee21ee36d06"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-f012bfb2172d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9bc8b68669a3734a812bef333236ad31348e3b3e5d61a2c40b3bb453c1429519"
+    },
+    "runs/public-agreement/audit-data-2026-10-04-v1/raw/AGR-f012bfb2172d/metrics.parquet": {
+      "bytes": 585299,
+      "sha256": "ca8afa9218cb7bb8df9cecb870ab556543e33fd58673946b106bc557a3dd8c2b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/inputs.json": {
+      "bytes": 5131327,
+      "sha256": "beb26d458d2d670c8b5a2045f16080638080e7e9ea246e68d3e9859cb18547bf"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/manifest.json": {
+      "bytes": 53022,
+      "sha256": "8ccc76e552bd6ee722ad1a606208fd2d324dd00ecea98cbfa107f893a72817e2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-01c4e13b704b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ee783058759c76c11d3c83a517739096d2f938b19a8cf422b932be30f668cfb5"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-01c4e13b704b/metrics.parquet": {
+      "bytes": 531865,
+      "sha256": "ca19281fe70f0b5227ed293d4e27d4c9f51075c424db62269c956f4ee14496e3"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-02db25f0bac1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "692a0c77f03e3eb879efbe526ed8cb224423083e7b0c5e0eca5badf4ad54f3eb"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-02db25f0bac1/metrics.parquet": {
+      "bytes": 549705,
+      "sha256": "66e49dff133dab99b1338282475a6aec47d10a42bf169c6c05373ae191ee52b0"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-04f79432b581/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f70cdae3bfc50384e1e2c09f980e57b7b231c6e7311a8bfab3b9a5577e827ea2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-04f79432b581/metrics.parquet": {
+      "bytes": 588105,
+      "sha256": "6b0b032a4c2edf7b8784823e1b5378903b5c321d5cfc806588bdc109b81b4520"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-0b2a07335c47/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c43b3eee40c9cbda2eea07c616a6ef6f1c2de28afda2bdd17491a59c5db3402e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-0b2a07335c47/metrics.parquet": {
+      "bytes": 137456,
+      "sha256": "63c633517ea3ba8a79189caf85a88cf8d1f68a2e451aecf2e03d212777d572e9"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-0b44d669ebca/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "462488c5f401dd5696448d68b1e0445d82ed581cd5dec9027525e8f0ad94be51"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-0b44d669ebca/metrics.parquet": {
+      "bytes": 560959,
+      "sha256": "45ce199db92b0454a73f0a8c46fb3ac510dda2e229c541eef29c0866b92c35e6"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-0bcf9753e062/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7661b7b5d32f2578d66255dd3822fc51b45e2f5e05f2258b5c55fc9559369b3a"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-0bcf9753e062/metrics.parquet": {
+      "bytes": 141376,
+      "sha256": "235522ed235fec486dc2f9cd80ecfa2e90848a7835fc0e6a45fa94a14a233f18"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-0f6374de4b60/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "66c75df6eff2d2e4d42d9812c56afb0241e0554ca8e8f43af7584fe2320fe63f"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-0f6374de4b60/metrics.parquet": {
+      "bytes": 119452,
+      "sha256": "ae98a3fa62b7011721007c53a93c220a52f7874074fdef4021aab028bf1669fd"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-1036a8cb37f9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3809788e88fa90b76bb246b5e1c5964eac93b5ab47004b29fce6fa8f4b8621b3"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-1036a8cb37f9/metrics.parquet": {
+      "bytes": 543962,
+      "sha256": "1550ccb8f7b82e9f84cf83a0f8570dc45a1d03c0b09f038939d4618e3f5571f2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-1b59bfa15ef9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ed1783f26e2c100add612fe6412a09a2dfcf1f9b51dc7df4487d5c68efcf0266"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-1b59bfa15ef9/metrics.parquet": {
+      "bytes": 117421,
+      "sha256": "aa2caa538bb5995f84908fd26ae082c2ec90d650c5d3bf9742073847f3f01cf9"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-1c182424bade/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b0a7dd27dcb452b9645770d22bbab426d78b47485be926243bf60f9e17feba14"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-1c182424bade/metrics.parquet": {
+      "bytes": 116089,
+      "sha256": "08b30dd58346ff4637408b94c21c0b8b55e94b7e698a3c536dbd8d6ed7afa5ed"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-1f687f3f99c9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "288b2bbfb00077327eb48e3b6bea5c4359b6e46e93d14cb7e4505e40c1e8540c"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-1f687f3f99c9/metrics.parquet": {
+      "bytes": 115217,
+      "sha256": "5f9d6d47f60716c5b60e83b3e8b9605c7464f6e6c2a7996db7a1b16e24145d7d"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-22958562da09/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a76563a575ae446ff4d7316c328378c7a3528228bd9eae2fb2f68db2b30b51ce"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-22958562da09/metrics.parquet": {
+      "bytes": 128148,
+      "sha256": "a6b367ebf4089faef391e6955ae6be729643107cb143879942f7511d40a3b99b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2537a9da5513/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "67ddfef782632e130bb3958ebcfc7f62c367f070ef70eaded7001af94322eb75"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2537a9da5513/metrics.parquet": {
+      "bytes": 121386,
+      "sha256": "b34f06a7052c046048dcfa39015cee6e543939509987db0a54afb52b0b70726a"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-263b04149ff1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "754d9c23b09aaf92202288a2dd53ec637d75db4238a6858454888598f94ef085"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-263b04149ff1/metrics.parquet": {
+      "bytes": 605536,
+      "sha256": "5d88da99dc53ffe7f58d3d8ce3a539511e97667f9ac14aa40b95b9a070a3f5d5"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-26778200233f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "cbc0bebcf16e7ab3e8ea682c763e87a727702598a65102a7d4debb0bd9609c7d"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-26778200233f/metrics.parquet": {
+      "bytes": 119491,
+      "sha256": "529f4e4c455a84cca43bee0b3ac22414f33609526760d2edd8809a029400adca"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2699799c18fb/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4cf15c37de120fadb42712e8e030bd9ed7a9a353c4dd07d4de4209f9516539d3"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2699799c18fb/metrics.parquet": {
+      "bytes": 117886,
+      "sha256": "1ea298aed590c57e560c02ec7c09b91976195783929434e907c6f0b534f28ccb"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-27c21d2bf481/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7dfdd5078c1f0da2e58582addb9943dd6012e2820bdef5ec2d262ef9f8e8a826"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-27c21d2bf481/metrics.parquet": {
+      "bytes": 114676,
+      "sha256": "3a2a6c802a5df1a1d60670c32f0a88f49d22bec29ed85d2bccab185b2d01595d"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-28b15343a01a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "53c6ecda8703417ec99eb042485f25a0b594345bbfe2245408deca6e2200c5ad"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-28b15343a01a/metrics.parquet": {
+      "bytes": 513959,
+      "sha256": "90ca37dd02a45c29e40844f2d6372029054d01286f46aa1792490d67616c9a8b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2b5f81ab53ed/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "54d97ea18ed26bccdd6a966d9c41a32b5436045c2bd38f95e4228d74427c7766"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2b5f81ab53ed/metrics.parquet": {
+      "bytes": 576862,
+      "sha256": "71665e08e347405f8668e992b823572f9f290a97e4c9e641dc0650778ba994fc"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2ba395190614/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b2321a176a9f50f6b447f88bc4fe9d7adb3b5f1c6ae74f2878875379d9d313f0"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2ba395190614/metrics.parquet": {
+      "bytes": 99191,
+      "sha256": "d5f16faa0ebd836574be6c202df2e8b53191e7372192dca3d0a2b1f5b2b8df39"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2ca604881c10/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4bf80917383f2d4d63d2505f88c840377d3cd0d19897f62a66806e7d89939b3b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-2ca604881c10/metrics.parquet": {
+      "bytes": 544194,
+      "sha256": "2362e3f8916441e150fa87ab55b57c5f3910536e443b8cc6054b9731e3aebc99"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-3123d91bd5f0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3511b472105c5d59b15aee4e5e73aeba52a11ca27859c2f024ff432896480e15"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-3123d91bd5f0/metrics.parquet": {
+      "bytes": 137145,
+      "sha256": "792c41176353610ecc672116c9307f18c52821c6cc3412012b2348605bc5bf14"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-3393d8d8eb1a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "35f18613534669d2a1b5514a3b1dcb0715dda09fa5c3b1947d0b33481f4ccf0a"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-3393d8d8eb1a/metrics.parquet": {
+      "bytes": 128577,
+      "sha256": "75ab44d683c97f297264b82bf0e95267d98c88239a5a41019b4bd243e7b26a5f"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-415342920f4e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "15dc76e72cf17481e8cf95e418969e4a341571ede1cecc95a54bca5d1a8e4c32"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-415342920f4e/metrics.parquet": {
+      "bytes": 121889,
+      "sha256": "da1bc7e5111b140521081aead8a6817851c76ce4a60005beefca3f077b9ae819"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4187a4082dea/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9ceb66508dcc2b1b51ed25eaafa493dd154db9027871d8d354a7985a0a7b1fb3"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4187a4082dea/metrics.parquet": {
+      "bytes": 138530,
+      "sha256": "dcd809b1203c20adccaf033854bd6cbacb8ff82a1b7dac38e6bd437374dc68e9"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-45891a4d12d4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "92cd74acf610ffdfa5793cb60662a83bac1dd794b3e4e7f28b7aaddcd619af95"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-45891a4d12d4/metrics.parquet": {
+      "bytes": 577812,
+      "sha256": "370c6c9bb7cda6a4b1b40b30bf8bd6015893924d2c8ff33419556a2186a0f72d"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-459a39e27a46/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e282eed542bade471d31f61c8ce601568fb9667bd57c5395ca2921b5b8e9cedb"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-459a39e27a46/metrics.parquet": {
+      "bytes": 137725,
+      "sha256": "ecf70c39b52e79b6ed5292f4ef7b247563e4d436b88d4e903499df2b6f0f479e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4619fcdb8416/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "455f506948f51c744f978e76965f446c67fcd9d2df597edd38c4ae2ba4229886"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4619fcdb8416/metrics.parquet": {
+      "bytes": 542608,
+      "sha256": "286064b5df962c2d2d2baa309ac978065a9bc79e3da2ff73620dc3c1696975fe"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-46ae9a50941b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "76f1bf8158bc710da6e24453acac210af35795d8078ae5379d743dd6f233ffeb"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-46ae9a50941b/metrics.parquet": {
+      "bytes": 585216,
+      "sha256": "c0e7faf56ce88fa2d469dbe6c75d7d6f4cccaad978661740b85bbf3ea31970d0"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4a106bd0f03b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3f460087263c617ec99f22c3c24439e01b1052cb8b37f91b63f13c12b47304c9"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4a106bd0f03b/metrics.parquet": {
+      "bytes": 119482,
+      "sha256": "99f05477f14486d3834010b18b9766496c55e4f3283f8d929ec6985e44e7d243"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4c0455756f6b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c681befe54c28ac808130ddc814921221bbaefded0acec5fc3cb50227407e9b9"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4c0455756f6b/metrics.parquet": {
+      "bytes": 133706,
+      "sha256": "b45638c9b0ab5fae306e27626a5a35b822fa25f144eab2931d86bf128b85c56c"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4ffeb9e79e3c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f6b9fcda61e47be151cc70bfea2cc5ea49d3c4c8a8c612fd7fe17cc742fe124d"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-4ffeb9e79e3c/metrics.parquet": {
+      "bytes": 643531,
+      "sha256": "e48107af1227ac36a145a7f6b679d6489110f29e040e50a5d6e62670f21ba13b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-54107d8f6b6c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1ae01659b2eaf17eb4f96f834a7b58452ac5522c0649c1a63c17db5d978a07a5"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-54107d8f6b6c/metrics.parquet": {
+      "bytes": 122337,
+      "sha256": "bc7deaa9fe40364a12003e73535ee3f44c30d5b28fd041d660947418ef6b8594"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-5fb5dffa8521/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4a1e5470d2c644c848933ed88b0b75f8871da13da505b06f29451c2cdc64cd75"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-5fb5dffa8521/metrics.parquet": {
+      "bytes": 573011,
+      "sha256": "2c49d5f2db728daef4f18f7ad3ca7ef70297211524a4c15d83fb74c1559ab02f"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-60029658ab6e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e632c088070687f094af7ceddd33b3e5b0108861f833b05b085bd6700e247299"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-60029658ab6e/metrics.parquet": {
+      "bytes": 559394,
+      "sha256": "dc02a574b28f34d9835106acd23ada8e54d10c796005680ebd4e024f422c62a4"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6362c127a31c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3591c5e7bbaa8e587509a13619bf36ddc0f3cd1f29aa985cdeedef034a20f5ad"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6362c127a31c/metrics.parquet": {
+      "bytes": 116969,
+      "sha256": "a9c7f34372a3470d3e6b9aaa0cc3579b51e7298aa2b2272555f56e75abda8229"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-636e11ad1191/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "267c5aecd730e081af27794682547ac0df657e9f2f0a535f96cfdabb5899e73a"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-636e11ad1191/metrics.parquet": {
+      "bytes": 116076,
+      "sha256": "8d43e2bd7ec74507f9939fe8ed794c2601a8a0c8b7b4344985ade718e0a411cf"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-63a23f52ccdc/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "638db67997766958b6eaefecdc0c763eb2ad56b82873453209a117c7281b11ef"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-63a23f52ccdc/metrics.parquet": {
+      "bytes": 604095,
+      "sha256": "a8e62329ed545bf2fe59f8e7d609040af461d53082e9eac1bf79e81a4042b7af"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-654c8017d5c8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ff0903fdbc82441b82b6a0fdd215d9f412922ef8ae240ecaffc351eecf40276b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-654c8017d5c8/metrics.parquet": {
+      "bytes": 119332,
+      "sha256": "ea684a0717db8a2c74779f70b41cba20278bd7b690f0f1d7d3d8d96b90bd8e72"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-664488b15fdd/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b3bd83967da2b2b25ae2e7be7df1384f0070cb0f4aa839b062c77b83e1f94468"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-664488b15fdd/metrics.parquet": {
+      "bytes": 133890,
+      "sha256": "dba96ea0f1c7177e2e136ab6327daf04b762eb394d62b906d97fd555b67427b5"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6862fae3f3c2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "466eab78c6181a803793a372ce7b4f7d2abcd861045be3cb5f3e7c44df823a6a"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6862fae3f3c2/metrics.parquet": {
+      "bytes": 597500,
+      "sha256": "ec8a877ea79f893029af44b1ef74718c16bf5f5fb3185bab14b2b01990a8817e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6a6a0bb7fa75/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0c40b8c00efc275a07ec762e8747758edead25e346a217e533067f4ff8b30a0c"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6a6a0bb7fa75/metrics.parquet": {
+      "bytes": 597837,
+      "sha256": "24623fb75fbd9200195835bc4f2945524f0eb2157c6527f641229709d38f59f2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6c041902bae3/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "80758efc01c3d4762674b0a5376bce6eb996fcb9afadb7dabb2906951c3dd0f3"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6c041902bae3/metrics.parquet": {
+      "bytes": 111574,
+      "sha256": "ebaedb253348d99b660b1351f152fab2edebdfaba8fc2afe31d8d2a7cf2ad139"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6da3bbe4571a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c7f341d19ed2319e52b8b942b7d4acb180d74ae5b7f766e20e077355965042ff"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-6da3bbe4571a/metrics.parquet": {
+      "bytes": 666836,
+      "sha256": "32907fb7e6aa0e8ca34315732cd58af83f60b0a6c69a0cd1c4654c9b4d1f4b51"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-782fd4f32ca9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "bc9ae6bf27e3d538ac010170aec7a226007692d8a9edbffb0da167c669792c66"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-782fd4f32ca9/metrics.parquet": {
+      "bytes": 514337,
+      "sha256": "bcbdc659597bc58fd9645190b7694e761f3e93b8033ce3cd08c62cbf02886a64"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-7d20f8d4bd7d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "613678d1bc84096b0015d7eee0d81dac73584d287ab53db745dea077dd5370e1"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-7d20f8d4bd7d/metrics.parquet": {
+      "bytes": 137924,
+      "sha256": "94e9088a9848cbd9121fd9001f800a92aff1859110781cce46cb18bdcf277012"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-805116402a73/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c7d83c160cc9329304576a687d36bfd2465ab3db0421eb5a05df1996a9fdc86b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-805116402a73/metrics.parquet": {
+      "bytes": 106664,
+      "sha256": "3b3e0e2304a74c3dd2533c4395c7623c7e2e6c5962bbec4aebd07156dd1fdd7f"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-80b58e2fd207/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5a279a420117b3c01947d0d4ba38b137bc905589c24f47058dd074860ece143f"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-80b58e2fd207/metrics.parquet": {
+      "bytes": 583803,
+      "sha256": "5acd2f7e59358d5b4b5e79c71a2dafe8a5691aff297ec3c5144f04051728ee4e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-84658c1bd19c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0b2b6fe0a8e8c338e94db509c6b7456e6b60a7310049b12ce697e94108f84563"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-84658c1bd19c/metrics.parquet": {
+      "bytes": 514688,
+      "sha256": "d2a190d1b9755d9e7aa68b70b862927958c8110477d4e3eba145a00e01b62fbe"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-89057ae3a127/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "785eb9160031aada98357316948a77c2f4ed9a689f80c03993aabf33395a5e34"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-89057ae3a127/metrics.parquet": {
+      "bytes": 102477,
+      "sha256": "a9cc042a7236e5ec303bf15b6441bdb71038fbdceaee15c05ed8ba9abc8c46b6"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-8f2451aaf5ca/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "badcfb4730f509966f50ec614ae53bbfb82d69947afbdc536c56e9b26ebc0f1b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-8f2451aaf5ca/metrics.parquet": {
+      "bytes": 145334,
+      "sha256": "01fc3115f5c36a044a57f3760f8f95594b6caa75e6cff463963ef10f7f66edf2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-923aa9502025/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ce4756a38308bdafff0accba6bacce1cc73f5ad741055d891f12ea596ed3fa18"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-923aa9502025/metrics.parquet": {
+      "bytes": 122172,
+      "sha256": "282fb01a0bd2dab12f585a4c78598d661cfc9746d4af620ad861f5344258d74e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-9622b2f74887/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a46e92c4bd00e9fdea2d5d280af4759eecc9c48983b26ea2f24ad55bc55949ba"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-9622b2f74887/metrics.parquet": {
+      "bytes": 590984,
+      "sha256": "3152f9c9189dd8259f003419a944fd443b6044f5e10b088957596423a274c452"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-988577fd2d88/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6939253cb0d0f4a28b1e06aa5a28bec5d8aa79b41d5304f50d243aa4d43f56ad"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-988577fd2d88/metrics.parquet": {
+      "bytes": 140256,
+      "sha256": "b9c401abf2e520cc71dcdbc9304b560879e59436d8ec18974346c924de2d602e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-9cc524bfad21/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ad0d9e8f1dd4fc5decb6acc5762d227459f35d3f98bdc898106f51c11c9b748b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-9cc524bfad21/metrics.parquet": {
+      "bytes": 107267,
+      "sha256": "45f1d83adb3e08ea326750e2e2512b232c9c0ad730650b70af918f9f1b34e9e2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-9f82f6ed3afe/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8c4787a5d37ee0511a55ec79b23e867ac1a7bb48cd3502529f5b73eb07ca6523"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-9f82f6ed3afe/metrics.parquet": {
+      "bytes": 541977,
+      "sha256": "51f32b73feeb24c1c8a74b7fbb40dbbf5e716976caee4da968a76f5081e99013"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a012e6a75438/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0abadec4fedba6a363ba907be566e92c451752fd5313807d027c9912db394918"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a012e6a75438/metrics.parquet": {
+      "bytes": 573614,
+      "sha256": "1d67720246c3cee812c2db22ff0b7bdae9ca3268769fc7337cc11a74d45fc9d5"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a760b2d2bd9f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fcedb92ec432c902216a693e226f940dea050ccbf8ccb9ed8c135ef5faacd1de"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a760b2d2bd9f/metrics.parquet": {
+      "bytes": 544188,
+      "sha256": "6348eba3ea3f4013723f390998accac603fdd9d464001db969b2f36293e9bb37"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a807f0a169fe/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1289e2d34ee0643d9644c1012da99fd3ab020432183588168a66f053b77da5fd"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a807f0a169fe/metrics.parquet": {
+      "bytes": 129032,
+      "sha256": "8d88da4904e3305331182020c59a3591e6fad233f340b0cc09fdf79d1777afc0"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a80ec814d3c7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "12cf08b241fb41fe21623b28e4d506fcde9212e05cebdd1c65a223a59d556366"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a80ec814d3c7/metrics.parquet": {
+      "bytes": 109546,
+      "sha256": "266807afcba8189481a1db80796f5b0229869cbb3cd16c20b8797ec6f754a26e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a8a20f791c01/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4b1c9a6e3fbb74651c1dd34a4ee803ab6774ee2f8759584481600b8d0d828c92"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-a8a20f791c01/metrics.parquet": {
+      "bytes": 105781,
+      "sha256": "0a92b6c9968987bb6f55e93f69540f5bece1773c4bb9d4cf8003f454814cc174"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-aced1a1802a9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "303a4bbc5a67cf771b594ad7d5e92ee2318042f26d76330aee92407a6ccca12f"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-aced1a1802a9/metrics.parquet": {
+      "bytes": 131940,
+      "sha256": "7096b8fbceb15b8f001af0673776924a168156a089db5c3007d926db452c9733"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-ae065b34c60d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1e8a17328c7d3dd5567a34daaf6f4a3ff1c1253f56d3649cb07b43c9c8408c94"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-ae065b34c60d/metrics.parquet": {
+      "bytes": 605999,
+      "sha256": "3b5c71e3276e686437530920c05d77d58fbcf4f4f2cc3ca060109a2226921f5b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-af73d5e7a01f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f5a37fbe2a3fe43e8126b6fb0a1524871159d30db40ee8bc5c1874889272220b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-af73d5e7a01f/metrics.parquet": {
+      "bytes": 121201,
+      "sha256": "23bc41d0636be5001e9c12d4a55f687c2cf8e7b01f013469794def4695929cd0"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-b149307a0da8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "233035ab251175ba3e762c57eb8fb178b610e6e23a8847532a53e7b31eed710c"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-b149307a0da8/metrics.parquet": {
+      "bytes": 534206,
+      "sha256": "50002dfa4bce035f064501663a44b55b63760f0edc2f1abd19a4bbe6f728058c"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-b1818b7a15a6/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a9d9f685bf052a686bc0d44007689786de3e5baefeb91581a3e1635f2be07e15"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-b1818b7a15a6/metrics.parquet": {
+      "bytes": 613308,
+      "sha256": "c81558ece7f92a8e122f77d3b86da0be669f5f604ce12c0c0efbf13029cd3238"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-b24924296d42/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2f889059eac4fa8964eca6459b021db53d87cff66a8e586ac4525d4facdd5daa"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-b24924296d42/metrics.parquet": {
+      "bytes": 547749,
+      "sha256": "69b46d1a205f07e55182d29b0ca9097a873f6a64e0e2575dceac3d464b0d7e30"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-b625cc0a8954/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d8cc4371ac10502474890c1729bad40b8c8bf7b936804b78f9d756cec3a7c085"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-b625cc0a8954/metrics.parquet": {
+      "bytes": 575522,
+      "sha256": "6b56991b20ce131b3da659f65810eb21ecdac4ebcb0cbf790f970332bd89ff90"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-bb0acae5a317/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1dc13f2d3a2948257246f2c9a2c96e57bb734522de121f8866520119f0fef92f"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-bb0acae5a317/metrics.parquet": {
+      "bytes": 112687,
+      "sha256": "e2b8984b1527315add26c225f2d865d2a0687c463748227b0c06e5cd541bcdd9"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-bcaf04830d69/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c1570f855e69cc3da3285c702cf6a95f7a0e1880b43134293f8cc76de4b870b9"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-bcaf04830d69/metrics.parquet": {
+      "bytes": 593708,
+      "sha256": "e049921f73f044089722ed9b2560d84f15fa4b5bd1ec9469b73ccda46efac003"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-becc1e283135/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "adfe0c7fc52008693cd0665241f59a1b19f52a8bfbc936312837f2ae7f79b55b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-becc1e283135/metrics.parquet": {
+      "bytes": 119589,
+      "sha256": "c2f953118874bf9c00c8c6675d0d95d6106d1ff832d47dc2120fc806d5a117d2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-bf9687460c0e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d54497ef36e61d14b298186b1457bb8df9e7a5e4438f8686377316f15300801f"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-bf9687460c0e/metrics.parquet": {
+      "bytes": 549849,
+      "sha256": "afa6d9bad17a3351160c56403b814622284911d8a6024da015001f3bc2dae0e7"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c50567613f16/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "dc3ee47784fa22b464c18a8dd892a8cb6cc9d3ee3be006aaea80f8de53efb0c5"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c50567613f16/metrics.parquet": {
+      "bytes": 586176,
+      "sha256": "defdc02f8c4787fa55720b32d3780f3fa505a758e4fa219179b6245529983069"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c55c73327d19/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "122ce6e74d578ba80fda66a17950dd0b670ac10827852c8c1bafe4036ea8f864"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c55c73327d19/metrics.parquet": {
+      "bytes": 529889,
+      "sha256": "93977df491b98a3faeef2ec16dffed802c3a3afaf135c558173701fa0e81fb8d"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c6826ebefab0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "800701ecd91caee57fe28f3a13082bceee0808010905c222798225835daa4618"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c6826ebefab0/metrics.parquet": {
+      "bytes": 126271,
+      "sha256": "a1b19c6f2bed5554948f9e1c7c8a5a3f87d83b81a4766a9a76c912f220216b2e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c8aa7290d1be/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b69704fe76f8327f108c21db953c713a49860c8ed752e39cf32b02fa14de6dd0"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c8aa7290d1be/metrics.parquet": {
+      "bytes": 578197,
+      "sha256": "fee2eb5c865b64aedbb7c0ee2514a6c19263be1b157de1dfdc27221bcff3bbfe"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c8de8f8c8e54/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c3c0bee30bf1e9d96e70418ee2b1e1172c76d4b0ea936bfabac3656a561c4317"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c8de8f8c8e54/metrics.parquet": {
+      "bytes": 669976,
+      "sha256": "d102b95310edc4578496f6062d2ca1f51c9b69fd89da5fe45e8f96e19b89812b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c984c8f04369/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "caa74f923b094af6e3a472e5bd06dfede096f6cfc62bb735c4269375d36c91b2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-c984c8f04369/metrics.parquet": {
+      "bytes": 133159,
+      "sha256": "0b067f77c5667d2805b31844a070b580edcfda34b98926e33709843973a77af1"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-cd1b2cdb4530/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f18bd67ec5be1f323d5f824944f1a6152a5fd46f06bf2f5d988638daf6675544"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-cd1b2cdb4530/metrics.parquet": {
+      "bytes": 581848,
+      "sha256": "7455132617d7356092b4f2f9d3464a2445712ee929f074ac16caa81e75e83531"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d040048799d0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "794108ae3b63ce0d9fe6f470b6c273c00fe4c33d961cb66dcd6d4a3b5a32f9bd"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d040048799d0/metrics.parquet": {
+      "bytes": 557782,
+      "sha256": "cbf43a719e82009fba52b7ece7907933f8b4116a13080bb5c7b0d7c384fdfd9f"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d16409a43d1c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ca07068303d5c32d207050308b504b75a2f503e352b4b0910b7f096164b4f06c"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d16409a43d1c/metrics.parquet": {
+      "bytes": 600476,
+      "sha256": "0900c088d7c540b7976dfe1c3d9ee27fee0bc5a9dd90b500eb6d5e7c0b3043eb"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d33bf87d16a4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "035f0dba1b38434bc5266e06d0d44d35128a5f99ae7569ec12b9a65ca3399825"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d33bf87d16a4/metrics.parquet": {
+      "bytes": 122472,
+      "sha256": "0358fc8790d2052c40d59e09b60715798e1db94fac6a33db8f40948db85c2434"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d4cdb8d1a44e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "939affd0e4695479ac6287347aeb8545c6a39eba19a87b20351ed5e64d80f4ff"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d4cdb8d1a44e/metrics.parquet": {
+      "bytes": 578300,
+      "sha256": "5fb1aca0d361c6384683e8a3bb199a1e8e4346c2b25cafadb80b09fb08fcaae2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d643331cec83/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "87a36485e698b2316e72ac0baff670d6b7164871947db741f7f4c5f8d8c77d56"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d643331cec83/metrics.parquet": {
+      "bytes": 134357,
+      "sha256": "c487de1113476bebc3b76cdb6c051b7d85819012131b5b0bac14c4e721d33f1e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d781aabdaa55/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "daa5fd0bb5380a4f6335c5253f7738fdc4ff54a1647afedddc9321f99a913bf0"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-d781aabdaa55/metrics.parquet": {
+      "bytes": 510996,
+      "sha256": "d98a39519578e6aafb49f66a49a10ef8c984682791cfc5c1c9650f33fa01cc15"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-da2a8957e20f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d38164282a2f76b161ac82efe7d61d89f0c18fae4752b2d388cd69aea6e84ac2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-da2a8957e20f/metrics.parquet": {
+      "bytes": 602290,
+      "sha256": "7bd376364339411b79cf857346b9c5ae3cbc0698b11ccba3e455acdc075fe4aa"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-dcb144293623/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6893b36cc7466f2b0bc0cb48ab2896915a7d3e00b2ad72e5fa972a0e0a6ffac1"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-dcb144293623/metrics.parquet": {
+      "bytes": 545693,
+      "sha256": "3ac986bd7641c91a62864a4c6382598d6ef69a8dd7de8bfb0c065c5a41b56384"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-e3f12524a7f6/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7ae67b2dddee781295797ae54606a3e8e978608185514cb0ce5b52b50b4cc81b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-e3f12524a7f6/metrics.parquet": {
+      "bytes": 625058,
+      "sha256": "08d1b41a40841fee4d0d38111dedf44952d18e0c63aab3aaefd38e2169d164a0"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-e7971b750b63/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "00142ced4973e35a92627ed5ec39a0a8e48cb9e6756edbf875b400ea29da830b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-e7971b750b63/metrics.parquet": {
+      "bytes": 118907,
+      "sha256": "17d920fcc65555eec9b5dac9939768b8492d5818fecb359bbc31fcbd13fe0cf2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-e89d88fc618b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "54addb56544b3c733113a546bb3bd35b34ca986b7db4f1f19677c3c58bdfbc15"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-e89d88fc618b/metrics.parquet": {
+      "bytes": 120076,
+      "sha256": "446bc70e3eace223cf9d01af66021e8b546718b56ff21b2d5e4d0d3976ceb678"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-e96de19174e1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d1f1fdf8c8b766fcb87e8fff32871dddea58e91aa6a31c7f34751a3e6544378a"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-e96de19174e1/metrics.parquet": {
+      "bytes": 125064,
+      "sha256": "439e6b99149ba0b0f7e1130f38683d28407aaa69e9a9ca85325c7e69a54d7eed"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-ed8f88cd7dd7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "dd6f8c6595368ba714ac9d0139e37ced78d270473cf30a2363adcc20a1503e11"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-ed8f88cd7dd7/metrics.parquet": {
+      "bytes": 646651,
+      "sha256": "ec76a741d79534ac1e0a29c3c0e3fab5bdef5d8593821088791d5a4fd45cd20a"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-f03a37d7bed3/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "80e8ff31faccbde16a9e76ad92cc225b95d735d5fd176f6345f840c6f13656d3"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-f03a37d7bed3/metrics.parquet": {
+      "bytes": 525357,
+      "sha256": "1762f02aeb975c9a1456a58fe0b3f741099507c91022a1c1f3fc091132b4f633"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-f20fe10ccf3a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3ce372e2436547e954ce3538162fe83472e8c38e3cffeaa98946d14a466d04f2"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-f20fe10ccf3a/metrics.parquet": {
+      "bytes": 664657,
+      "sha256": "c4b3453c4d67af7cd10845ce06798147ef75bbe33102e9642ffaf3043093d91e"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-f38bf76f9dda/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "efcc9448fae6d9351291c24ade59f95912ac3040e617a776d8a80bf7cd5e185d"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-f38bf76f9dda/metrics.parquet": {
+      "bytes": 106449,
+      "sha256": "c92cce3686db798c4ba59967d032b8f9b835bd6920867d39cf9bcd0bc3969796"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-f4a35d98213a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1ec3f902c5218dcab451f15e442e816d958b061d19198450201d480c3935f0bf"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-f4a35d98213a/metrics.parquet": {
+      "bytes": 644377,
+      "sha256": "901873ef35701cdc38b5074fe4cf67d86573005d591f26ac4e9ce763b1033ff0"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-facb8c1c2b3f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0231b22edf7c4fa61088b213f9d9e7e9aac7bf33387fd02d7ab9fe56130395e5"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-facb8c1c2b3f/metrics.parquet": {
+      "bytes": 119173,
+      "sha256": "2967e34ce7d9aa352391be9586bf527c430f5026ac83c3c31d13d2078b4b7c38"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-fc0c259db25d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f06768785df9e90557f9a08eb8c75357f9ac3cb6c27412dce6067cb958587a8b"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-fc0c259db25d/metrics.parquet": {
+      "bytes": 104134,
+      "sha256": "4b5e803697b4d890730c93e43c771d3fdc0fe06cfc3fca332c90be9910b70623"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-febcfa564907/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "82b5249a8b7931335491fe55ee241d898cc01501068d378f5ac32e3eb49f9dcb"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-febcfa564907/metrics.parquet": {
+      "bytes": 548882,
+      "sha256": "a94ef4d370b16f4039f5330de27658bb6f7efe4ab9f225b54f6f7bc1208f91ee"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-ff34d5ea3472/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e9fef11471a76e226ffd1a384ca9b38762b93cf13e9c5ce82d2f6830c96cecf5"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/raw/AGR-ff34d5ea3472/metrics.parquet": {
+      "bytes": 117332,
+      "sha256": "64981002f38d3571c0bcc93e4b79d2d14aecad2fdcb27996d684894a0b091979"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/references.json": {
+      "bytes": 12783,
+      "sha256": "e13923253efb3f58a1e2f934ed772e067c855126ba47371175c5016aeb4ddd40"
+    },
+    "runs/public-agreement/evaluation-data-2026-10-04-v1/sizing.json": {
+      "bytes": 21503,
+      "sha256": "2a78b78764a0ddfdfc844031f533d8df0195279a386809bbc2d2506668a6df57"
+    },
+    "runs/public-agreement/evaluation-hosted-2026-10-04-v1/controls.json": {
+      "bytes": 7978554,
+      "sha256": "8a1bd313070392d30fe14706d25df9a8c074e5badb00b550efaa7f8350071009"
+    },
+    "runs/public-agreement/evaluation-hosted-2026-10-04-v1/requests.json": {
+      "bytes": 9181800,
+      "sha256": "04a593dd6d9be211cdbd2f5b6dd30acbc20e36d413fff3ce366666ed3cda2835"
+    },
+    "runs/public-agreement/evaluation-hosted-2026-10-04-v1/responses.jsonl": {
+      "bytes": 803914,
+      "sha256": "bac16f90780044e45f44660135f0c345915500062540245774ee277e869dd402"
+    },
+    "runs/public-agreement/evaluation-hosted-2026-10-04-v1/summary.json": {
+      "bytes": 568,
+      "sha256": "2ac9bb5d2826d242c2d431d4c69d30ec69b7ad894a967873fc91c01ed299d2a4"
+    }
+  }
+}

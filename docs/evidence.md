@@ -61,3 +61,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_confirmation
 ```
 
 The four releases preserve 907 actual hosted responses and 638 files. Both former reserve panels are now inspected. Earlier bundle descriptions and verifier sealing counts describe the state at their original stage, not the current supply of fresh validation data. See [confirmation results](public-confirmation.md) and [HANDOFF](../HANDOFF.md) before designing another experiment.
+
+## Fresh disagreement evidence
+
+The [public-agreement-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-agreement-v1) adds 300 responses on 50 RE1 Train Ticket and 50 Sock Shop recordings, plus the ten-case schema audit. Its 229 files contain public measurements, separate references, exact requests, unchanged controls and saved paired routing outcomes. The archive is 30,394,164 bytes. Restore the four earlier bundles first.
+
+```bash
+gh release download public-agreement-v1 --repo mumit/Jev-public-operations-experiments --pattern public-agreement-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-agreement-v1.tar.gz --manifest evidence/public-agreement-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_agreement
+```
+
+All five bundles preserve 1,207 actual hosted responses and 867 files. The fifth verifier reconstructs the schema audit, publisher hashes, grouped evaluation packets, exact requests, normalized responses, fixed ML controls and both applications' paired outcomes without inference. Seventy RE1 cases per application remain unopened; their assignments are metadata only and their telemetry is absent from the archive. Earlier bundle reserve counts describe those historical stages, not the current RE2 state.
