@@ -34,6 +34,7 @@ A fresh clone includes source, reports and checkpoints. Restore the [public evid
 - [Evidence bundle](docs/evidence.md): download, safe restoration and verification.
 - [Migration](docs/migration.md): archived sources and the standalone extraction.
 - [HANDOFF](HANDOFF.md): current state and next experiment.
+- [Verification](docs/verification.md): standalone tests and fresh-clone evidence replay.
 
 ## Checks
 

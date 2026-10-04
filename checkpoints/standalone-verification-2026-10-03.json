@@ -1,0 +1,29 @@
+{
+  "schema": "standalone-public-verification-1",
+  "verified_at": "2026-10-04T05:45:28.662273+00:00",
+  "source_commit": "ae7b5d09d965261751cde252d3a3706fdd7acc27",
+  "source_repository": "https://github.com/mumit/Jev-public-operations-experiments",
+  "unit_tests": {
+    "passed": 39,
+    "failed": 0
+  },
+  "browser_script_syntax_checks": 3,
+  "public_studies_verified": 2,
+  "stage_assessments_recomputed": 6,
+  "recorded_hosted_requests_reconstructed": 294,
+  "new_hosted_calls": 0,
+  "reserve_cases_undownloaded": 36,
+  "fresh_github_clone": {
+    "archive_downloaded": true,
+    "archive_sha256": "fffaf47d9c590064a97b0c65aadf9877d1f08a28e65b2c0a8ce65d71ee63d8a3",
+    "files_restored": 347,
+    "full_evidence_verifier": "passed"
+  },
+  "browser_review": [
+    "Public home",
+    "Matched input scores and boundaries",
+    "Exact saved request and actual response",
+    "Formatted article and public return context",
+    "No browser errors or warnings"
+  ]
+}

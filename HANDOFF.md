@@ -2,7 +2,7 @@
 
 ## Current state
 
-Both public studies are complete and preserved. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
+Both public studies are complete and preserved. The standalone extraction passes 39 tests; a fresh GitHub clone restores all 347 release files and recomputes both studies exactly. The repository has a standalone read-only app, pinned preparation and inference code, separate references, recorded checkpoints and a public evidence release. The earlier synthetic studies and Git history remain in their original repository.
 
 Start with README.md, docs/public-input-format.md, docs/migration.md and docs/evidence.md. Restore the evidence bundle, run scripts.verify_evidence, then inspect `/public-format` and `/public-rca`. Browsing and verification need no API key.
 
