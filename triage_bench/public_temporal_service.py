@@ -2,6 +2,7 @@
 import copy,json
 from pathlib import Path
 from .public_rca_stages import load,committed
+from .public_rca_models import FEATURES
 from .public_temporal_trial import DATA,PROTOCOL,OUTPUT,score,ARMS
 
 
@@ -41,5 +42,5 @@ class PublicTemporalStudy:
             'named_state':json.loads(packet['requests']['named']['state']),
             'added_windows':json.loads(packet['requests']['temporal']['state'])['latency_time_windows'],
             'responses':[r for r in rows if r['case_id']==identifier and r['arm']==arm],
-            'controls':load(OUTPUT/'controls.json')[identifier],
+            'controls':load(OUTPUT/'controls.json')[identifier],'ml_features':FEATURES,
             'reference':{'target':source['target'],'fault':source['fault']} if reveal else None}
