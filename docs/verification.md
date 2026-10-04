@@ -10,4 +10,4 @@ Browser review verified the public starting page, matched result and boundary ta
 
 The tracked verification checkpoint records the standalone source commit and release checksum. These checks establish preservation and implementation behavior, not an operational error guarantee or telecom readiness.
 
-The separate replay tests verify exact historical wire bytes, the deterministic 12-case selection, balanced call order, failure-inclusive denominators, distinct choice/display consistency, matched regressions, once-only execution and credential redaction on model-version and HTTP failures. The diagnostic has not made hosted calls yet.
+The separate replay tests verify exact historical wire bytes, the deterministic 12-case selection, balanced call order, failure-inclusive denominators, distinct choice/display consistency, matched regressions, once-only execution and credential redaction on model-version and HTTP failures. All 180 hosted replay calls succeeded; scoring verifies the recorded wire bodies and provider normalization against the frozen protocol. The diagnostic failed its research gate on named choice and display variability.

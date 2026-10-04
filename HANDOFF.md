@@ -14,9 +14,11 @@ These are controlled application faults with a supplied fault window and publish
 
 ## Next experiment
 
-The exact-request replay is prepared in separate modules and documented in docs/public-repeatability.md. It selects all six earlier cases with any Jev reference error and six deterministic all-correct controls. Five serial rounds across compact, named and explained inputs make 180 calls. Exact wire bodies, the Jev checkpoint and original thresholds stay fixed. Original responses remain separate from the repeats.
+The exact-request replay is complete: 180 successful calls on 12 inspected cases, five serial rounds across three inputs. Protocol and assessment are checkpoints/public-repeat-protocol-2026-10-03.json and checkpoints/public-repeat-results-2026-10-03.json. Recompute with scripts.run_public_repeat score. Original wire bodies, checkpoint and thresholds remain fixed.
 
-Commit checkpoints/public-repeat-protocol-2026-10-03.json before execution, then run scripts.run_public_repeat and save the assessment to a new checkpoint. Its research gate keeps the 36 reserve cases sealed if calls fail, named choices or display decisions vary, a named recommendation displays an error, or named loses an originally correct selection. Repeats measure variability on inspected cases, not new held-out accuracy. Hosted replay results are not recorded yet.
+Across five new rounds, compact/named/explained choices stayed stable on 12/9/11 cases; display decisions stayed stable on 11/10/12. Wrong displayed response counts were 7/0/5 out of 60 per input. Named retained all originally correct selections but changed choices on three already-wrong or insufficient-evidence cases. Two correct named selections crossed the frozen display threshold. Explained displayed the shared delay error in all five rounds although its original response had been withheld.
+
+The predeclared gate failed on named choice and display variability. Keep the 36 reserve cases sealed. Inspect the ambiguous cases and evidence discarded by median summaries before designing a new transformation on fresh development cases. Do not tune thresholds or rerun this completed protocol. docs/public-repeatability.md reports the full diagnostic; these selected repeats do not estimate held-out accuracy or an operational error rate.
 
 ## Preservation and source boundaries
 

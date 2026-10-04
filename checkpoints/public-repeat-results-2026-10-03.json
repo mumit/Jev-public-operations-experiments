@@ -1,0 +1,2329 @@
+{
+  "schema": "public-repeat-assessment-1",
+  "distinct_cases": 12,
+  "distinct_groups": 8,
+  "response_slots": 180,
+  "failed_or_missing": 0,
+  "metrics": {
+    "compact": {
+      "distinct_cases": 12,
+      "response_slots": 60,
+      "choice_stable_cases": 12,
+      "display_stable_cases": 11,
+      "matches_original_choice_cases": 12,
+      "wrong_displayed_responses": 7,
+      "per_round": [
+        {
+          "round": 1,
+          "cases": 12,
+          "correct": 7,
+          "displayed": 9,
+          "wrong_displayed": 2,
+          "withheld": 3,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 2,
+          "cases": 12,
+          "correct": 7,
+          "displayed": 9,
+          "wrong_displayed": 2,
+          "withheld": 3,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 3,
+          "cases": 12,
+          "correct": 7,
+          "displayed": 8,
+          "wrong_displayed": 1,
+          "withheld": 4,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 4,
+          "cases": 12,
+          "correct": 7,
+          "displayed": 8,
+          "wrong_displayed": 1,
+          "withheld": 4,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 5,
+          "cases": 12,
+          "correct": 7,
+          "displayed": 8,
+          "wrong_displayed": 1,
+          "withheld": 4,
+          "failed_or_missing": 0
+        }
+      ]
+    },
+    "named": {
+      "distinct_cases": 12,
+      "response_slots": 60,
+      "choice_stable_cases": 9,
+      "display_stable_cases": 10,
+      "matches_original_choice_cases": 9,
+      "wrong_displayed_responses": 0,
+      "per_round": [
+        {
+          "round": 1,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 8,
+          "wrong_displayed": 0,
+          "withheld": 4,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 2,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 8,
+          "wrong_displayed": 0,
+          "withheld": 4,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 3,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 7,
+          "wrong_displayed": 0,
+          "withheld": 5,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 4,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 8,
+          "wrong_displayed": 0,
+          "withheld": 4,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 5,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 9,
+          "wrong_displayed": 0,
+          "withheld": 3,
+          "failed_or_missing": 0
+        }
+      ]
+    },
+    "explained": {
+      "distinct_cases": 12,
+      "response_slots": 60,
+      "choice_stable_cases": 11,
+      "display_stable_cases": 12,
+      "matches_original_choice_cases": 10,
+      "wrong_displayed_responses": 5,
+      "per_round": [
+        {
+          "round": 1,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 10,
+          "wrong_displayed": 1,
+          "withheld": 2,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 2,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 10,
+          "wrong_displayed": 1,
+          "withheld": 2,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 3,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 10,
+          "wrong_displayed": 1,
+          "withheld": 2,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 4,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 10,
+          "wrong_displayed": 1,
+          "withheld": 2,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 5,
+          "cases": 12,
+          "correct": 9,
+          "displayed": 10,
+          "wrong_displayed": 1,
+          "withheld": 2,
+          "failed_or_missing": 0
+        }
+      ]
+    }
+  },
+  "cases": [
+    {
+      "id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "role": "all_correct_control",
+      "group": "payment/disk",
+      "fault": "disk",
+      "target": "payment",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.97,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.97,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.96,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.96,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.97,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.93,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.93,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.92,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.9494949494949495,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.93,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.93,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.9393939393939393,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.93,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.96,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.9393939393939393,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "role": "all_correct_control",
+      "group": "catalogue/mem",
+      "fault": "mem",
+      "target": "catalogue",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "catalogue",
+            "probability": 0.97,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.97,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.98,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.97,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.97,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.97,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "catalogue",
+            "probability": 0.95,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.96,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.96,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "catalogue",
+            "probability": 0.96,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.97,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.96,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.96,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "catalogue",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.96,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "role": "all_correct_control",
+      "group": "orders/cpu",
+      "fault": "cpu",
+      "target": "orders",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.9393939393939393,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.9393939393939393,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.9494949494949495,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.9393939393939393,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.9292929292929294,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.92,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.86,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.87,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.84,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.88,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.88,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.86,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.96,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.9494949494949495,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.95,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-107547061ee3",
+      "split": "calibration",
+      "role": "all_correct_control",
+      "group": "payment/loss",
+      "fault": "loss",
+      "target": "payment",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.87,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.83,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.89,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.85,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.86,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.89,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.87,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.83,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.86,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.89,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.88,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.84,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.93,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.93,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.91,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.93,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.9393939393939393,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.92,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "role": "all_correct_control",
+      "group": "orders/delay",
+      "fault": "delay",
+      "target": "orders",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.79,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.8,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.79,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.79,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.8,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.79,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.8,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.76,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.83,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.8282828282828283,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.8080808080808081,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.79,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.86,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.8282828282828283,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.87,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.85,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.84,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.8282828282828283,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "role": "inspected_error",
+      "group": "orders/disk",
+      "fault": "disk",
+      "target": "orders",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "orders-db",
+            "probability": 0.3,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders-db",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.33,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders-db",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.3,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders-db",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.33,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders-db",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.3,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders-db",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.32,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "insufficient_evidence",
+            "probability": 0.24,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "insufficient_evidence",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.27,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "front-end",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.25,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "insufficient_evidence",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.27,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "insufficient_evidence",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.24000000000000002,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "insufficient_evidence",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.22999999999999998,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": false,
+          "display_stable": true,
+          "matches_original_choice": false,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "carts-db",
+            "probability": 0.22,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "carts-db",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.22,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "carts-db",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.21000000000000002,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "carts-db",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.18,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "carts-db",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.21000000000000002,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "carts",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.2,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": false,
+          "display_stable": true,
+          "matches_original_choice": false,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "role": "all_correct_control",
+      "group": "carts/socket",
+      "fault": "socket",
+      "target": "carts",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "carts",
+            "probability": 0.75,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.79,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.75,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.72,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.74,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.72,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "carts",
+            "probability": 0.89,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.88,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.88,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.88,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.87,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.87,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "carts",
+            "probability": 0.87,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.85,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.85,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.88,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.87,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.86,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "role": "inspected_error",
+      "group": "orders/disk",
+      "fault": "disk",
+      "target": "orders",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "shipping",
+            "probability": 0.27,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.28,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.27,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.29,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.23,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.24000000000000002,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "shipping",
+            "probability": 0.26,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.27,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.25,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.24,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.3,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "front-end",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.25,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": false,
+          "display_stable": true,
+          "matches_original_choice": false,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "shipping",
+            "probability": 0.43,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.37,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.43,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.41,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.42,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.37,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "role": "inspected_error",
+      "group": "orders/delay",
+      "fault": "delay",
+      "target": "orders",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.6,
+            "correct": false,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.61,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.61,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.5656565656565656,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.58,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.58,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": false,
+          "matches_original_choice": true,
+          "wrong_displayed": 2
+        },
+        "named": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.53,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders",
+              "correct": true,
+              "displayed": false,
+              "probability": 0.49,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders",
+              "correct": true,
+              "displayed": false,
+              "probability": 0.41000000000000003,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders",
+              "correct": true,
+              "displayed": false,
+              "probability": 0.44,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders",
+              "correct": true,
+              "displayed": false,
+              "probability": 0.49,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.54,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": false,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.67,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.64,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.63,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.65,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.66,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.71,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "role": "inspected_error",
+      "group": "payment/delay",
+      "fault": "delay",
+      "target": "payment",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.8,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.81,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.78,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.8181818181818182,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.8181818181818181,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.85,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.58,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.5656565656565656,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.5,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": true,
+              "displayed": false,
+              "probability": 0.49,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.64,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.61,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": false,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.48,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.52,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.52,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.52,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.53,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.52,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": false,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "role": "inspected_error",
+      "group": "carts/socket",
+      "fault": "socket",
+      "target": "carts",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "orders",
+            "probability": 0.5,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "orders",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.45,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "orders",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.43,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "orders",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.37,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "orders",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.45,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "orders",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.44,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "named": {
+          "original": {
+            "choice": "carts",
+            "probability": 0.63,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.6565656565656566,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.63,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.66,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.6666666666666666,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.67,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "carts",
+            "probability": 0.66,
+            "correct": true,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.64,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.6868686868686869,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.6666666666666666,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.6767676767676767,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "carts",
+              "correct": true,
+              "displayed": true,
+              "probability": 0.6666666666666666,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 0
+        }
+      }
+    },
+    {
+      "id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "role": "inspected_error",
+      "group": "orders/delay",
+      "fault": "delay",
+      "target": "orders",
+      "arms": {
+        "compact": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.8080808080808081,
+            "correct": false,
+            "displayed": true
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.8,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.76,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.78,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.76,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.79,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 5
+        },
+        "named": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.43,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.45,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.45,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.46,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "shipping",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.45,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": false,
+              "displayed": false,
+              "probability": 0.44,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": false,
+          "display_stable": true,
+          "matches_original_choice": false,
+          "wrong_displayed": 0
+        },
+        "explained": {
+          "original": {
+            "choice": "payment",
+            "probability": 0.47474747474747475,
+            "correct": false,
+            "displayed": false
+          },
+          "repeats": [
+            {
+              "round": 1,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.64,
+              "status": "ok"
+            },
+            {
+              "round": 2,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.53,
+              "status": "ok"
+            },
+            {
+              "round": 3,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.5,
+              "status": "ok"
+            },
+            {
+              "round": 4,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.56,
+              "status": "ok"
+            },
+            {
+              "round": 5,
+              "choice": "payment",
+              "correct": false,
+              "displayed": true,
+              "probability": 0.6,
+              "status": "ok"
+            }
+          ],
+          "choice_stable": true,
+          "display_stable": true,
+          "matches_original_choice": true,
+          "wrong_displayed": 5
+        }
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "round": 1,
+      "comparison": "named_vs_compact",
+      "fixes": [
+        "FMT-49b5cf388bb3",
+        "FMT-dff737ef5d78"
+      ],
+      "regressions": []
+    },
+    {
+      "round": 1,
+      "comparison": "explained_vs_named",
+      "fixes": [],
+      "regressions": []
+    },
+    {
+      "round": 2,
+      "comparison": "named_vs_compact",
+      "fixes": [
+        "FMT-49b5cf388bb3",
+        "FMT-dff737ef5d78"
+      ],
+      "regressions": []
+    },
+    {
+      "round": 2,
+      "comparison": "explained_vs_named",
+      "fixes": [],
+      "regressions": []
+    },
+    {
+      "round": 3,
+      "comparison": "named_vs_compact",
+      "fixes": [
+        "FMT-49b5cf388bb3",
+        "FMT-dff737ef5d78"
+      ],
+      "regressions": []
+    },
+    {
+      "round": 3,
+      "comparison": "explained_vs_named",
+      "fixes": [],
+      "regressions": []
+    },
+    {
+      "round": 4,
+      "comparison": "named_vs_compact",
+      "fixes": [
+        "FMT-49b5cf388bb3",
+        "FMT-dff737ef5d78"
+      ],
+      "regressions": []
+    },
+    {
+      "round": 4,
+      "comparison": "explained_vs_named",
+      "fixes": [],
+      "regressions": []
+    },
+    {
+      "round": 5,
+      "comparison": "named_vs_compact",
+      "fixes": [
+        "FMT-49b5cf388bb3",
+        "FMT-dff737ef5d78"
+      ],
+      "regressions": []
+    },
+    {
+      "round": 5,
+      "comparison": "explained_vs_named",
+      "fixes": [],
+      "regressions": []
+    }
+  ],
+  "research_gate": {
+    "passed": false,
+    "reasons": [
+      "Named choices vary across new rounds.",
+      "Named display decisions vary across new rounds."
+    ],
+    "meaning": "Author-set repeatability diagnostic, not operational validation; reserve remains unconsumed."
+  },
+  "evidence": {
+    "protocol_sha256": "3032ebe11375a61e014612799dade8104bcdf963c8366eed6c6c242f689e334b",
+    "summary_sha256": "beb277a77eae375259f50202c75a6259b9ddd2b16a18e7792ffcdeeb905e5dd2"
+  }
+}

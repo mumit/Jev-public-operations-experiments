@@ -20,14 +20,40 @@ The author-set research gate keeps the reserve sealed if any call fails or is mi
 
 Five nearby rounds cannot establish stability across days, provider updates or production load. The hosted internals and caching are unknown. Correlated cases and outcome-based selection prevent a general accuracy estimate. All recommendations require analyst review, and all 36 reserve cases remain undownloaded.
 
-## Prepared state
+## Results
 
-The replay is implemented in separate modules; original inference sources and checkpoints remain unchanged. Hosted results are not recorded yet. The new protocol must be committed before execution.
+All 180 calls succeeded. Each request matched its historical wire hash. The table counts stability across the five new rounds; the original response remains a separate comparison.
+
+| Input | Stable choices, 12 cases | Stable display decisions, 12 cases | Always matches original choice, 12 cases | Wrong displayed responses, 60 calls |
+|---|---:|---:|---:|---:|
+| Compact | 12 | 11 | 12 | 7 |
+| Named | 9 | 10 | 9 | 0 |
+| Explained | 11 | 12 | 10 | 5 |
+
+Each round matched 7/12 published targets for compact and 9/12 for named and explained input. Named retained both earlier fixes over compact on this selected panel, with no regression. All six originally correct controls stayed correct across every input and round. These are descriptive counts on outcome-selected cases, not general accuracy estimates.
+
+Three cases show why choice stability and display stability need separate checks:
+
+- `FMT-49b5cf388bb3`: named selected the correct orders service in all five rounds, but its probability ranged from 0.41 to 0.54. Only the last round displayed the recommendation at the frozen 0.50 threshold. Compact consistently selected the wrong payment service and displayed it in two rounds.
+- `FMT-a89dbccd5437`: named always selected the correct payment service, but one round fell to 0.49 and withheld it. Explained changed from its original wrong orders selection to payment in every new round. That change happened with identical requests.
+- `FMT-ebb72cb3ab15`: named alternated between payment and shipping, both wrong, and withheld every response. Explained consistently selected payment, also wrong, and displayed it in every new round. Its original response had been withheld. Added explanations did not protect the display boundary.
+
+The other two named choice changes occurred on weak, withheld disk-fault selections. Five nearby rounds cannot explain the provider's internal source of variation. They show that exact inputs do not guarantee identical choices or display decisions.
+
+## What this changes
+
+Named input remains the strongest candidate among these formats for analyst-facing research. It retained its correct choices and displayed no wrong recommendation on this panel. However, its original held-out display count is a single-run observation, not stable coverage. Explained input displayed the shared delay error in all five replays despite withholding the original response.
+
+The predeclared research gate failed on named choice and display variability. The 36 reserve cases stay sealed; thresholds and historical results stay fixed. Before another hosted experiment, I will inspect what evidence the ambiguous cases contain and what the median summaries discard. A fresh development set and separately frozen candidate are needed to evaluate a transformation. Changing the threshold to fit these inspected responses would not answer that question.
+
+## Inspect and reproduce
+
+The read-only [replay inspector](http://127.0.0.1:8769/repeatability) compares the original response with each round, displays choice distributions and exposes exact request and response JSON. Published references require explicit reveal. Browsing makes no model calls.
+
+The committed protocol and assessment record the request plan, source hashes, stop conditions and results. Original inference code and checkpoints remain unchanged. The runner refuses another execution under this protocol. Use the saved evidence to recompute it:
 
 ```bash
-uv run --locked --extra public-data python -m scripts.run_public_repeat freeze
-uv run --locked --extra public-data python -m scripts.run_public_repeat run
-uv run --locked --extra public-data python -m scripts.run_public_repeat score --assessment checkpoints/public-repeat-results-2026-10-03.json
+uv run --locked --extra public-data python -m scripts.run_public_repeat score
 ```
 
-The CLI reads the local ignored `.env` by default; `--env-file` can select an existing local configuration. The key stays in process memory and never enters the protocol, requests, results or Git. Restoring the public evidence release is required before preparation.
+The original public-study-v1 bundle contains the two historical studies only. Replay evidence is a separate run and will need a separate release asset for restoration in another clone. No credentials belong in either bundle.

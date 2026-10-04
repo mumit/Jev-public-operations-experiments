@@ -53,6 +53,6 @@ The evidence verifier reconstructs ML from training-only inputs, rebuilds every 
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-A separate exact-request repeatability diagnostic is prepared for 12 inspected cases, five rounds and 180 calls. Thirty-six Sock Shop reserve cases remain undownloaded for later confirmation. ML keeps its Online Boutique training recipe; on Sock Shop it is a transfer control, not an optimal or locally retrained model.
+The exact-request replay completed 180 calls on 12 inspected cases. Named displayed no wrong recommendation but changed choices on three cases and display decisions on two, failing its research gate. Thirty-six Sock Shop reserve cases remain undownloaded for later confirmation. ML keeps its Online Boutique training recipe; on Sock Shop it is a transfer control, not an optimal or locally retrained model.
 
 The repository starts with a fresh Git history. Its public studies retain source provenance from [the earlier repository](https://github.com/mumit/Jev-incident-triage-experiments), without requiring that checkout or its synthetic experiments.
