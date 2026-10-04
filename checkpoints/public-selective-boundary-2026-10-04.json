@@ -1,0 +1,5553 @@
+{
+  "schema": "public-selective-boundary-1",
+  "plan_sha256": "1bc8b45d0118d7cc2dbdafcdf41f62876afa982b05d16b4ae20e9f153b66934c",
+  "assessment": {
+    "schema": "public-selective-assessment-1",
+    "split": "calibration",
+    "cases": 18,
+    "groups": 6,
+    "rounds": 3,
+    "planned_calls": 54,
+    "failed_or_missing": 0,
+    "selected": {
+      "policy": {
+        "threshold": 0.7,
+        "margin": 0.0,
+        "maximum_leads": 1
+      },
+      "per_round": [
+        {
+          "round": 1,
+          "cases": 18,
+          "shown": 11,
+          "correct_first": 11,
+          "cause_included": 11,
+          "wrong_leads": 0,
+          "total_leads": 11,
+          "withheld": 7,
+          "correct_first_withheld": 1,
+          "wrong_first_withheld": 6,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 2,
+          "cases": 18,
+          "shown": 10,
+          "correct_first": 10,
+          "cause_included": 10,
+          "wrong_leads": 0,
+          "total_leads": 10,
+          "withheld": 8,
+          "correct_first_withheld": 3,
+          "wrong_first_withheld": 5,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 3,
+          "cases": 18,
+          "shown": 11,
+          "correct_first": 11,
+          "cause_included": 11,
+          "wrong_leads": 0,
+          "total_leads": 11,
+          "withheld": 7,
+          "correct_first_withheld": 3,
+          "wrong_first_withheld": 4,
+          "failed_or_missing": 0
+        }
+      ],
+      "stable_display_cases": 17
+    },
+    "selective": {
+      "policy": {
+        "threshold": 0.7,
+        "margin": 0.0,
+        "maximum_leads": 1
+      },
+      "per_round": [
+        {
+          "round": 1,
+          "cases": 18,
+          "shown": 11,
+          "correct_first": 11,
+          "cause_included": 11,
+          "wrong_leads": 0,
+          "total_leads": 11,
+          "withheld": 7,
+          "correct_first_withheld": 1,
+          "wrong_first_withheld": 6,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 2,
+          "cases": 18,
+          "shown": 10,
+          "correct_first": 10,
+          "cause_included": 10,
+          "wrong_leads": 0,
+          "total_leads": 10,
+          "withheld": 8,
+          "correct_first_withheld": 3,
+          "wrong_first_withheld": 5,
+          "failed_or_missing": 0
+        },
+        {
+          "round": 3,
+          "cases": 18,
+          "shown": 11,
+          "correct_first": 11,
+          "cause_included": 11,
+          "wrong_leads": 0,
+          "total_leads": 11,
+          "withheld": 7,
+          "correct_first_withheld": 3,
+          "wrong_first_withheld": 4,
+          "failed_or_missing": 0
+        }
+      ],
+      "stable_display_cases": 17,
+      "outcomes": [
+        {
+          "id": "TMP-f38c2ca4bed8",
+          "group": "ts-auth-service/mem",
+          "target": "ts-auth-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.83,
+          "margin": 0.73,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f38c2ca4bed8",
+          "group": "ts-auth-service/mem",
+          "target": "ts-auth-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.76,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f38c2ca4bed8",
+          "group": "ts-auth-service/mem",
+          "target": "ts-auth-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.85,
+          "margin": 0.76,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-d7f4bf8b1d02",
+          "group": "ts-auth-service/mem",
+          "target": "ts-auth-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.7676767676767677,
+          "margin": 0.6565656565656566,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-d7f4bf8b1d02",
+          "group": "ts-auth-service/mem",
+          "target": "ts-auth-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.6969696969696969,
+          "margin": 0.5555555555555555,
+          "choice": "ts-auth-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-d7f4bf8b1d02",
+          "group": "ts-auth-service/mem",
+          "target": "ts-auth-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.71,
+          "margin": 0.6,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-1ecaec9244a7",
+          "group": "ts-auth-service/mem",
+          "target": "ts-auth-service",
+          "fault": "mem",
+          "round": 1,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.73,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-1ecaec9244a7",
+          "group": "ts-auth-service/mem",
+          "target": "ts-auth-service",
+          "fault": "mem",
+          "round": 2,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.73,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-1ecaec9244a7",
+          "group": "ts-auth-service/mem",
+          "target": "ts-auth-service",
+          "fault": "mem",
+          "round": 3,
+          "leads": [
+            "ts-auth-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8080808080808081,
+          "margin": 0.6767676767676768,
+          "choice": "ts-auth-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-083d3e979f37",
+          "group": "ts-order-service/cpu",
+          "target": "ts-order-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.5454545454545454,
+          "margin": 0.303030303030303,
+          "choice": "ts-order-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-083d3e979f37",
+          "group": "ts-order-service/cpu",
+          "target": "ts-order-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.5757575757575758,
+          "margin": 0.3434343434343435,
+          "choice": "ts-order-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-083d3e979f37",
+          "group": "ts-order-service/cpu",
+          "target": "ts-order-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.5454545454545454,
+          "margin": 0.29292929292929293,
+          "choice": "ts-order-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-8ad4134082b9",
+          "group": "ts-order-service/cpu",
+          "target": "ts-order-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.75,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-8ad4134082b9",
+          "group": "ts-order-service/cpu",
+          "target": "ts-order-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8282828282828283,
+          "margin": 0.7272727272727273,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-8ad4134082b9",
+          "group": "ts-order-service/cpu",
+          "target": "ts-order-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8080808080808082,
+          "margin": 0.686868686868687,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f7cc787f0513",
+          "group": "ts-order-service/cpu",
+          "target": "ts-order-service",
+          "fault": "cpu",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8080808080808082,
+          "margin": 0.7171717171717172,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f7cc787f0513",
+          "group": "ts-order-service/cpu",
+          "target": "ts-order-service",
+          "fault": "cpu",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.77,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-f7cc787f0513",
+          "group": "ts-order-service/cpu",
+          "target": "ts-order-service",
+          "fault": "cpu",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8282828282828283,
+          "margin": 0.7474747474747475,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-dcfca094a220",
+          "group": "ts-order-service/socket",
+          "target": "ts-order-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.75,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-dcfca094a220",
+          "group": "ts-order-service/socket",
+          "target": "ts-order-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8080808080808081,
+          "margin": 0.696969696969697,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-dcfca094a220",
+          "group": "ts-order-service/socket",
+          "target": "ts-order-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.8080808080808081,
+          "margin": 0.7171717171717171,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-cd1402a66d0e",
+          "group": "ts-order-service/socket",
+          "target": "ts-order-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.72,
+          "margin": 0.49,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-cd1402a66d0e",
+          "group": "ts-order-service/socket",
+          "target": "ts-order-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.71,
+          "margin": 0.47,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-cd1402a66d0e",
+          "group": "ts-order-service/socket",
+          "target": "ts-order-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.7,
+          "margin": 0.44999999999999996,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-5fc7eecbf159",
+          "group": "ts-order-service/socket",
+          "target": "ts-order-service",
+          "fault": "socket",
+          "round": 1,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.86,
+          "margin": 0.79,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-5fc7eecbf159",
+          "group": "ts-order-service/socket",
+          "target": "ts-order-service",
+          "fault": "socket",
+          "round": 2,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.75,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-5fc7eecbf159",
+          "group": "ts-order-service/socket",
+          "target": "ts-order-service",
+          "fault": "socket",
+          "round": 3,
+          "leads": [
+            "ts-order-service"
+          ],
+          "reason": "shown",
+          "probability": 0.84,
+          "margin": 0.76,
+          "choice": "ts-order-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-98e2b2ba993f",
+          "group": "ts-route-service/delay",
+          "target": "ts-route-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.44,
+          "margin": 0.12,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-98e2b2ba993f",
+          "group": "ts-route-service/delay",
+          "target": "ts-route-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.3939393939393939,
+          "margin": 0.04040404040404039,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-98e2b2ba993f",
+          "group": "ts-route-service/delay",
+          "target": "ts-route-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.38,
+          "margin": 0.020000000000000018,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-e28f89b1fbe8",
+          "group": "ts-route-service/delay",
+          "target": "ts-route-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.393939393939394,
+          "margin": 0.07070707070707072,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-e28f89b1fbe8",
+          "group": "ts-route-service/delay",
+          "target": "ts-route-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.4,
+          "margin": 0.040000000000000036,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-e28f89b1fbe8",
+          "group": "ts-route-service/delay",
+          "target": "ts-route-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.39,
+          "margin": 0.07,
+          "choice": "ts-route-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6285d3eb6d24",
+          "group": "ts-route-service/delay",
+          "target": "ts-route-service",
+          "fault": "delay",
+          "round": 1,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.41414141414141414,
+          "margin": 0.07070707070707072,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-6285d3eb6d24",
+          "group": "ts-route-service/delay",
+          "target": "ts-route-service",
+          "fault": "delay",
+          "round": 2,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.41414141414141414,
+          "margin": 0.06060606060606061,
+          "choice": "ts-route-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-6285d3eb6d24",
+          "group": "ts-route-service/delay",
+          "target": "ts-route-service",
+          "fault": "delay",
+          "round": 3,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.41000000000000003,
+          "margin": 0.050000000000000044,
+          "choice": "ts-route-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-b22c4e1832b0",
+          "group": "ts-train-service/disk",
+          "target": "ts-train-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.57,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-b22c4e1832b0",
+          "group": "ts-train-service/disk",
+          "target": "ts-train-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.71,
+          "margin": 0.5599999999999999,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-b22c4e1832b0",
+          "group": "ts-train-service/disk",
+          "target": "ts-train-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.77,
+          "margin": 0.65,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-83e5a0ac352f",
+          "group": "ts-train-service/disk",
+          "target": "ts-train-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.5499999999999999,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-83e5a0ac352f",
+          "group": "ts-train-service/disk",
+          "target": "ts-train-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.5499999999999999,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-83e5a0ac352f",
+          "group": "ts-train-service/disk",
+          "target": "ts-train-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.74,
+          "margin": 0.57,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-dda76427dd1b",
+          "group": "ts-train-service/disk",
+          "target": "ts-train-service",
+          "fault": "disk",
+          "round": 1,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.76,
+          "margin": 0.62,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-dda76427dd1b",
+          "group": "ts-train-service/disk",
+          "target": "ts-train-service",
+          "fault": "disk",
+          "round": 2,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.73,
+          "margin": 0.5499999999999999,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-dda76427dd1b",
+          "group": "ts-train-service/disk",
+          "target": "ts-train-service",
+          "fault": "disk",
+          "round": 3,
+          "leads": [
+            "ts-train-service"
+          ],
+          "reason": "shown",
+          "probability": 0.79,
+          "margin": 0.65,
+          "choice": "ts-train-service",
+          "correct_first": true,
+          "cause_included": true,
+          "wrong_leads": 0,
+          "raw_correct_first": true
+        },
+        {
+          "id": "TMP-46cff2fd1e05",
+          "group": "ts-travel-service/loss",
+          "target": "ts-travel-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.44,
+          "margin": 0.07,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-46cff2fd1e05",
+          "group": "ts-travel-service/loss",
+          "target": "ts-travel-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.4545454545454546,
+          "margin": 0.101010101010101,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-46cff2fd1e05",
+          "group": "ts-travel-service/loss",
+          "target": "ts-travel-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.43,
+          "margin": 0.03999999999999998,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-4d34f89e2458",
+          "group": "ts-travel-service/loss",
+          "target": "ts-travel-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.59,
+          "margin": 0.35,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-4d34f89e2458",
+          "group": "ts-travel-service/loss",
+          "target": "ts-travel-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.61,
+          "margin": 0.37,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-4d34f89e2458",
+          "group": "ts-travel-service/loss",
+          "target": "ts-travel-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.5757575757575758,
+          "margin": 0.3131313131313132,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-58e8f1bed0c1",
+          "group": "ts-travel-service/loss",
+          "target": "ts-travel-service",
+          "fault": "loss",
+          "round": 1,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.61,
+          "margin": 0.5,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-58e8f1bed0c1",
+          "group": "ts-travel-service/loss",
+          "target": "ts-travel-service",
+          "fault": "loss",
+          "round": 2,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.6363636363636364,
+          "margin": 0.5252525252525252,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        },
+        {
+          "id": "TMP-58e8f1bed0c1",
+          "group": "ts-travel-service/loss",
+          "target": "ts-travel-service",
+          "fault": "loss",
+          "round": 3,
+          "leads": [],
+          "reason": "below_probability_boundary",
+          "probability": 0.63,
+          "margin": 0.53,
+          "choice": "ts-admin-travel-service",
+          "correct_first": false,
+          "cause_included": false,
+          "wrong_leads": 0,
+          "raw_correct_first": false
+        }
+      ]
+    },
+    "comparators": {
+      "unfiltered_first": {
+        "policy": {
+          "threshold": 0.0,
+          "margin": 0.0,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 18,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 6,
+            "total_leads": 18,
+            "withheld": 0,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 0,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 18,
+            "correct_first": 13,
+            "cause_included": 13,
+            "wrong_leads": 5,
+            "total_leads": 18,
+            "withheld": 0,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 0,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 18,
+            "correct_first": 14,
+            "cause_included": 14,
+            "wrong_leads": 4,
+            "total_leads": 18,
+            "withheld": 0,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 0,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 16,
+        "outcomes": [
+          {
+            "id": "TMP-f38c2ca4bed8",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 1,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.83,
+            "margin": 0.73,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f38c2ca4bed8",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 2,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.85,
+            "margin": 0.76,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f38c2ca4bed8",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 3,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.85,
+            "margin": 0.76,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-d7f4bf8b1d02",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 1,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.7676767676767677,
+            "margin": 0.6565656565656566,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-d7f4bf8b1d02",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 2,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.6969696969696969,
+            "margin": 0.5555555555555555,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-d7f4bf8b1d02",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 3,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.71,
+            "margin": 0.6,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-1ecaec9244a7",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 1,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.73,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-1ecaec9244a7",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 2,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.73,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-1ecaec9244a7",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 3,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808081,
+            "margin": 0.6767676767676768,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-083d3e979f37",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.5454545454545454,
+            "margin": 0.303030303030303,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-083d3e979f37",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.5757575757575758,
+            "margin": 0.3434343434343435,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-083d3e979f37",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.5454545454545454,
+            "margin": 0.29292929292929293,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-8ad4134082b9",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.75,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-8ad4134082b9",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8282828282828283,
+            "margin": 0.7272727272727273,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-8ad4134082b9",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808082,
+            "margin": 0.686868686868687,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f7cc787f0513",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808082,
+            "margin": 0.7171717171717172,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f7cc787f0513",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.77,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f7cc787f0513",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8282828282828283,
+            "margin": 0.7474747474747475,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dcfca094a220",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.75,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dcfca094a220",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808081,
+            "margin": 0.696969696969697,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dcfca094a220",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808081,
+            "margin": 0.7171717171717171,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-cd1402a66d0e",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.72,
+            "margin": 0.49,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-cd1402a66d0e",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.71,
+            "margin": 0.47,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-cd1402a66d0e",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.7,
+            "margin": 0.44999999999999996,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-5fc7eecbf159",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.86,
+            "margin": 0.79,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-5fc7eecbf159",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.75,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-5fc7eecbf159",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.76,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-98e2b2ba993f",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.44,
+            "margin": 0.12,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-98e2b2ba993f",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.3939393939393939,
+            "margin": 0.04040404040404039,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-98e2b2ba993f",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 3,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.38,
+            "margin": 0.020000000000000018,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-e28f89b1fbe8",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.393939393939394,
+            "margin": 0.07070707070707072,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-e28f89b1fbe8",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.4,
+            "margin": 0.040000000000000036,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-e28f89b1fbe8",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 3,
+            "leads": [
+              "ts-route-service"
+            ],
+            "reason": "shown",
+            "probability": 0.39,
+            "margin": 0.07,
+            "choice": "ts-route-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-6285d3eb6d24",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.41414141414141414,
+            "margin": 0.07070707070707072,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-6285d3eb6d24",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 2,
+            "leads": [
+              "ts-route-service"
+            ],
+            "reason": "shown",
+            "probability": 0.41414141414141414,
+            "margin": 0.06060606060606061,
+            "choice": "ts-route-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-6285d3eb6d24",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 3,
+            "leads": [
+              "ts-route-service"
+            ],
+            "reason": "shown",
+            "probability": 0.41000000000000003,
+            "margin": 0.050000000000000044,
+            "choice": "ts-route-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-b22c4e1832b0",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 1,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.73,
+            "margin": 0.57,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-b22c4e1832b0",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 2,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.71,
+            "margin": 0.5599999999999999,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-b22c4e1832b0",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 3,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.77,
+            "margin": 0.65,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-83e5a0ac352f",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 1,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.73,
+            "margin": 0.5499999999999999,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-83e5a0ac352f",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 2,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.73,
+            "margin": 0.5499999999999999,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-83e5a0ac352f",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 3,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.74,
+            "margin": 0.57,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dda76427dd1b",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 1,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.76,
+            "margin": 0.62,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dda76427dd1b",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 2,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.73,
+            "margin": 0.5499999999999999,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dda76427dd1b",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 3,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.79,
+            "margin": 0.65,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-46cff2fd1e05",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.44,
+            "margin": 0.07,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-46cff2fd1e05",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.4545454545454546,
+            "margin": 0.101010101010101,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-46cff2fd1e05",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 3,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.43,
+            "margin": 0.03999999999999998,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-4d34f89e2458",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.59,
+            "margin": 0.35,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-4d34f89e2458",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.61,
+            "margin": 0.37,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-4d34f89e2458",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 3,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.5757575757575758,
+            "margin": 0.3131313131313132,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-58e8f1bed0c1",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.61,
+            "margin": 0.5,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-58e8f1bed0c1",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.6363636363636364,
+            "margin": 0.5252525252525252,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-58e8f1bed0c1",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 3,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.63,
+            "margin": 0.53,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          }
+        ]
+      },
+      "supported_alternative": {
+        "policy": {
+          "threshold": 0.0,
+          "margin": 0.0,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 18,
+            "correct_first": 12,
+            "cause_included": 16,
+            "wrong_leads": 6,
+            "total_leads": 22,
+            "withheld": 0,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 0,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 18,
+            "correct_first": 13,
+            "cause_included": 16,
+            "wrong_leads": 6,
+            "total_leads": 22,
+            "withheld": 0,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 0,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 18,
+            "correct_first": 14,
+            "cause_included": 16,
+            "wrong_leads": 6,
+            "total_leads": 22,
+            "withheld": 0,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 0,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 16,
+        "outcomes": [
+          {
+            "id": "TMP-f38c2ca4bed8",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 1,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.83,
+            "margin": 0.73,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f38c2ca4bed8",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 2,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.85,
+            "margin": 0.76,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f38c2ca4bed8",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 3,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.85,
+            "margin": 0.76,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-d7f4bf8b1d02",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 1,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.7676767676767677,
+            "margin": 0.6565656565656566,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-d7f4bf8b1d02",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 2,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.6969696969696969,
+            "margin": 0.5555555555555555,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-d7f4bf8b1d02",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 3,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.71,
+            "margin": 0.6,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-1ecaec9244a7",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 1,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.73,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-1ecaec9244a7",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 2,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.73,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-1ecaec9244a7",
+            "group": "ts-auth-service/mem",
+            "target": "ts-auth-service",
+            "fault": "mem",
+            "round": 3,
+            "leads": [
+              "ts-auth-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808081,
+            "margin": 0.6767676767676768,
+            "choice": "ts-auth-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-083d3e979f37",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.5454545454545454,
+            "margin": 0.303030303030303,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-083d3e979f37",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.5757575757575758,
+            "margin": 0.3434343434343435,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-083d3e979f37",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.5454545454545454,
+            "margin": 0.29292929292929293,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-8ad4134082b9",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.75,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-8ad4134082b9",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8282828282828283,
+            "margin": 0.7272727272727273,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-8ad4134082b9",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808082,
+            "margin": 0.686868686868687,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f7cc787f0513",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808082,
+            "margin": 0.7171717171717172,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f7cc787f0513",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.77,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-f7cc787f0513",
+            "group": "ts-order-service/cpu",
+            "target": "ts-order-service",
+            "fault": "cpu",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8282828282828283,
+            "margin": 0.7474747474747475,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dcfca094a220",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.75,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dcfca094a220",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808081,
+            "margin": 0.696969696969697,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dcfca094a220",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.8080808080808081,
+            "margin": 0.7171717171717171,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-cd1402a66d0e",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.72,
+            "margin": 0.49,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-cd1402a66d0e",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.71,
+            "margin": 0.47,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-cd1402a66d0e",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.7,
+            "margin": 0.44999999999999996,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-5fc7eecbf159",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 1,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.86,
+            "margin": 0.79,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-5fc7eecbf159",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 2,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.75,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-5fc7eecbf159",
+            "group": "ts-order-service/socket",
+            "target": "ts-order-service",
+            "fault": "socket",
+            "round": 3,
+            "leads": [
+              "ts-order-service"
+            ],
+            "reason": "shown",
+            "probability": 0.84,
+            "margin": 0.76,
+            "choice": "ts-order-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-98e2b2ba993f",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service",
+              "ts-route-service"
+            ],
+            "reason": "shown",
+            "probability": 0.44,
+            "margin": 0.12,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-98e2b2ba993f",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service",
+              "ts-route-service"
+            ],
+            "reason": "shown",
+            "probability": 0.3939393939393939,
+            "margin": 0.04040404040404039,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-98e2b2ba993f",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 3,
+            "leads": [
+              "ts-admin-travel-service",
+              "ts-route-service"
+            ],
+            "reason": "shown",
+            "probability": 0.38,
+            "margin": 0.020000000000000018,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-e28f89b1fbe8",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service",
+              "ts-route-service"
+            ],
+            "reason": "shown",
+            "probability": 0.393939393939394,
+            "margin": 0.07070707070707072,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-e28f89b1fbe8",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service",
+              "ts-route-service"
+            ],
+            "reason": "shown",
+            "probability": 0.4,
+            "margin": 0.040000000000000036,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-e28f89b1fbe8",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 3,
+            "leads": [
+              "ts-route-service",
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.39,
+            "margin": 0.07,
+            "choice": "ts-route-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-6285d3eb6d24",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service",
+              "ts-route-service"
+            ],
+            "reason": "shown",
+            "probability": 0.41414141414141414,
+            "margin": 0.07070707070707072,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-6285d3eb6d24",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 2,
+            "leads": [
+              "ts-route-service",
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.41414141414141414,
+            "margin": 0.06060606060606061,
+            "choice": "ts-route-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-6285d3eb6d24",
+            "group": "ts-route-service/delay",
+            "target": "ts-route-service",
+            "fault": "delay",
+            "round": 3,
+            "leads": [
+              "ts-route-service",
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.41000000000000003,
+            "margin": 0.050000000000000044,
+            "choice": "ts-route-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-b22c4e1832b0",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 1,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.73,
+            "margin": 0.57,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-b22c4e1832b0",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 2,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.71,
+            "margin": 0.5599999999999999,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-b22c4e1832b0",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 3,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.77,
+            "margin": 0.65,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-83e5a0ac352f",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 1,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.73,
+            "margin": 0.5499999999999999,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-83e5a0ac352f",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 2,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.73,
+            "margin": 0.5499999999999999,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-83e5a0ac352f",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 3,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.74,
+            "margin": 0.57,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dda76427dd1b",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 1,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.76,
+            "margin": 0.62,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dda76427dd1b",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 2,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.73,
+            "margin": 0.5499999999999999,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-dda76427dd1b",
+            "group": "ts-train-service/disk",
+            "target": "ts-train-service",
+            "fault": "disk",
+            "round": 3,
+            "leads": [
+              "ts-train-service"
+            ],
+            "reason": "shown",
+            "probability": 0.79,
+            "margin": 0.65,
+            "choice": "ts-train-service",
+            "correct_first": true,
+            "cause_included": true,
+            "wrong_leads": 0,
+            "raw_correct_first": true
+          },
+          {
+            "id": "TMP-46cff2fd1e05",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service",
+              "ts-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.44,
+            "margin": 0.07,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-46cff2fd1e05",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service",
+              "ts-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.4545454545454546,
+            "margin": 0.101010101010101,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-46cff2fd1e05",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 3,
+            "leads": [
+              "ts-admin-travel-service",
+              "ts-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.43,
+            "margin": 0.03999999999999998,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": true,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-4d34f89e2458",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.59,
+            "margin": 0.35,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-4d34f89e2458",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.61,
+            "margin": 0.37,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-4d34f89e2458",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 3,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.5757575757575758,
+            "margin": 0.3131313131313132,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-58e8f1bed0c1",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 1,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.61,
+            "margin": 0.5,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-58e8f1bed0c1",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 2,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.6363636363636364,
+            "margin": 0.5252525252525252,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          },
+          {
+            "id": "TMP-58e8f1bed0c1",
+            "group": "ts-travel-service/loss",
+            "target": "ts-travel-service",
+            "fault": "loss",
+            "round": 3,
+            "leads": [
+              "ts-admin-travel-service"
+            ],
+            "reason": "shown",
+            "probability": 0.63,
+            "margin": 0.53,
+            "choice": "ts-admin-travel-service",
+            "correct_first": false,
+            "cause_included": false,
+            "wrong_leads": 1,
+            "raw_correct_first": false
+          }
+        ]
+      }
+    },
+    "original_shortlist": [
+      {
+        "round": 1,
+        "cases": 18,
+        "cause_included": 18,
+        "wrong_leads": 35,
+        "total_leads": 53,
+        "withheld": 0
+      },
+      {
+        "round": 2,
+        "cases": 18,
+        "cause_included": 18,
+        "wrong_leads": 34,
+        "total_leads": 52,
+        "withheld": 0
+      },
+      {
+        "round": 3,
+        "cases": 18,
+        "cause_included": 18,
+        "wrong_leads": 35,
+        "total_leads": 53,
+        "withheld": 0
+      }
+    ],
+    "controls": {
+      "ml": {
+        "cases": 18,
+        "correct_first": 15,
+        "cause_in_first_three": 15
+      },
+      "change": {
+        "cases": 18,
+        "correct_first": 10,
+        "cause_in_first_three": 15
+      },
+      "resource": {
+        "cases": 18,
+        "correct_first": 10,
+        "cause_in_first_three": 14
+      }
+    },
+    "curves": [
+      {
+        "policy": {
+          "threshold": 0.5,
+          "margin": 0.0,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 2,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.5,
+          "margin": 0.1,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 2,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.5,
+          "margin": 0.2,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 2,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.6,
+          "margin": 0.0,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 13,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 2,
+            "total_leads": 13,
+            "withheld": 5,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.6,
+          "margin": 0.1,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 13,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 2,
+            "total_leads": 13,
+            "withheld": 5,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.6,
+          "margin": 0.2,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 13,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 2,
+            "total_leads": 13,
+            "withheld": 5,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.7,
+          "margin": 0.0,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 10,
+            "correct_first": 10,
+            "cause_included": 10,
+            "wrong_leads": 0,
+            "total_leads": 10,
+            "withheld": 8,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.7,
+          "margin": 0.1,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 10,
+            "correct_first": 10,
+            "cause_included": 10,
+            "wrong_leads": 0,
+            "total_leads": 10,
+            "withheld": 8,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.7,
+          "margin": 0.2,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 10,
+            "correct_first": 10,
+            "cause_included": 10,
+            "wrong_leads": 0,
+            "total_leads": 10,
+            "withheld": 8,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.8,
+          "margin": 0.0,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 6,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 7,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 8,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.8,
+          "margin": 0.1,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 6,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 7,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 8,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.8,
+          "margin": 0.2,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 6,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 7,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 8,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.9,
+          "margin": 0.0,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.9,
+          "margin": 0.1,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.9,
+          "margin": 0.2,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.95,
+          "margin": 0.0,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.95,
+          "margin": 0.1,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.95,
+          "margin": 0.2,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.99,
+          "margin": 0.0,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.99,
+          "margin": 0.1,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.99,
+          "margin": 0.2,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 1.0,
+          "margin": 0.0,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 1.0,
+          "margin": 0.1,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 1.0,
+          "margin": 0.2,
+          "maximum_leads": 1
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.5,
+          "margin": 0.0,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 2,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.5,
+          "margin": 0.1,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 2,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.5,
+          "margin": 0.2,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 0,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 14,
+            "correct_first": 12,
+            "cause_included": 12,
+            "wrong_leads": 2,
+            "total_leads": 14,
+            "withheld": 4,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 2,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.6,
+          "margin": 0.0,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 13,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 2,
+            "total_leads": 13,
+            "withheld": 5,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.6,
+          "margin": 0.1,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 13,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 2,
+            "total_leads": 13,
+            "withheld": 5,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.6,
+          "margin": 0.2,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 13,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 2,
+            "total_leads": 13,
+            "withheld": 5,
+            "correct_first_withheld": 2,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 12,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 1,
+            "total_leads": 12,
+            "withheld": 6,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 3,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.7,
+          "margin": 0.0,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 10,
+            "correct_first": 10,
+            "cause_included": 10,
+            "wrong_leads": 0,
+            "total_leads": 10,
+            "withheld": 8,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.7,
+          "margin": 0.1,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 10,
+            "correct_first": 10,
+            "cause_included": 10,
+            "wrong_leads": 0,
+            "total_leads": 10,
+            "withheld": 8,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.7,
+          "margin": 0.2,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 1,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 10,
+            "correct_first": 10,
+            "cause_included": 10,
+            "wrong_leads": 0,
+            "total_leads": 10,
+            "withheld": 8,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 11,
+            "correct_first": 11,
+            "cause_included": 11,
+            "wrong_leads": 0,
+            "total_leads": 11,
+            "withheld": 7,
+            "correct_first_withheld": 3,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 17
+      },
+      {
+        "policy": {
+          "threshold": 0.8,
+          "margin": 0.0,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 6,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 7,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 8,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.8,
+          "margin": 0.1,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 6,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 7,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 8,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.8,
+          "margin": 0.2,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 6,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 7,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 6,
+            "correct_first": 6,
+            "cause_included": 6,
+            "wrong_leads": 0,
+            "total_leads": 6,
+            "withheld": 12,
+            "correct_first_withheld": 8,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.9,
+          "margin": 0.0,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.9,
+          "margin": 0.1,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.9,
+          "margin": 0.2,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.95,
+          "margin": 0.0,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.95,
+          "margin": 0.1,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.95,
+          "margin": 0.2,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.99,
+          "margin": 0.0,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.99,
+          "margin": 0.1,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 0.99,
+          "margin": 0.2,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 1.0,
+          "margin": 0.0,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 1.0,
+          "margin": 0.1,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      },
+      {
+        "policy": {
+          "threshold": 1.0,
+          "margin": 0.2,
+          "maximum_leads": 2
+        },
+        "per_round": [
+          {
+            "round": 1,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 12,
+            "wrong_first_withheld": 6,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 2,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 13,
+            "wrong_first_withheld": 5,
+            "failed_or_missing": 0
+          },
+          {
+            "round": 3,
+            "cases": 18,
+            "shown": 0,
+            "correct_first": 0,
+            "cause_included": 0,
+            "wrong_leads": 0,
+            "total_leads": 0,
+            "withheld": 18,
+            "correct_first_withheld": 14,
+            "wrong_first_withheld": 4,
+            "failed_or_missing": 0
+          }
+        ],
+        "stable_display_cases": 18
+      }
+    ],
+    "evidence": {
+      "plan_sha256": "1bc8b45d0118d7cc2dbdafcdf41f62876afa982b05d16b4ae20e9f153b66934c",
+      "protocol_sha256": "191bf88201a2f91bac475a42a7b9c1cca0dc8d803cab3a95400951a4123ddf6a",
+      "summary_sha256": "0583a88a3d42a5cf003eaf7a1b8bedec8b0b11434d75d1de9d8d5c46ee8c23bc"
+    }
+  },
+  "selected": {
+    "policy": {
+      "threshold": 0.7,
+      "margin": 0.0,
+      "maximum_leads": 1
+    },
+    "per_round": [
+      {
+        "round": 1,
+        "cases": 18,
+        "shown": 11,
+        "correct_first": 11,
+        "cause_included": 11,
+        "wrong_leads": 0,
+        "total_leads": 11,
+        "withheld": 7,
+        "correct_first_withheld": 1,
+        "wrong_first_withheld": 6,
+        "failed_or_missing": 0
+      },
+      {
+        "round": 2,
+        "cases": 18,
+        "shown": 10,
+        "correct_first": 10,
+        "cause_included": 10,
+        "wrong_leads": 0,
+        "total_leads": 10,
+        "withheld": 8,
+        "correct_first_withheld": 3,
+        "wrong_first_withheld": 5,
+        "failed_or_missing": 0
+      },
+      {
+        "round": 3,
+        "cases": 18,
+        "shown": 11,
+        "correct_first": 11,
+        "cause_included": 11,
+        "wrong_leads": 0,
+        "total_leads": 11,
+        "withheld": 7,
+        "correct_first_withheld": 3,
+        "wrong_first_withheld": 4,
+        "failed_or_missing": 0
+      }
+    ],
+    "stable_display_cases": 17
+  },
+  "meaning": "User preference: fewer wrong leads. Zero observed errors across three calibration rounds are not an operational guarantee. No post-evaluation changes."
+}

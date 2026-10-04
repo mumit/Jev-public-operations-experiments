@@ -26,7 +26,7 @@ The user chose fewer wrong leads, accepting more withholding, on 2026-10-04. Nam
 
 The probability threshold and the gap to the strongest competing option, including insufficient_evidence, control display. Calibration considers all three rounds and maximizes useful coverage among policies with zero observed wrong leads in every round. This is an author-set research criterion, not an operational error budget. Correct withheld recommendations remain visible in scoring.
 
-The new plan permits 54 calibration and 108 evaluation calls. Evaluation download requires a complete, recomputed and committed calibration boundary. A boundary with no eligible displayed recommendations keeps evaluation sealed. No historical model request or boundary changes. Both reserve sets remain undownloaded.
+All 54 calibration calls succeeded. The selected rule is probability >=0.70, margin >=0, one lead at most. It shows 11/10/11 correct leads and zero wrong leads; withholds 7/8/7 including 1/3/3 correct first choices. ML transfers at 15/18 on calibration, Jev unfiltered at 12/13/14. The new plan permits 108 evaluation calls. Evaluation download requires a complete, recomputed and committed calibration boundary. A boundary with no eligible displayed recommendations keeps evaluation sealed. No historical model request or boundary changes. Both reserve sets remain undownloaded.
 
 ## Frozen evidence and continuation
 

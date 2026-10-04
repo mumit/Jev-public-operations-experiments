@@ -28,4 +28,8 @@ Zero observed calibration errors do not establish a production error rate. These
 
 ## Current status
 
-The selective plan is frozen before any new calibration download. Implementation tests cover competing insufficient-evidence probabilities, alternative support, failures, every-round calibration eligibility, once-only calls, credential redaction and the evaluation download gate. No selective hosted calls have been made yet.
+All 54 calibration calls completed successfully. The frozen rule selects a probability boundary of 0.70 and a margin of zero. It shows 11, 10 and 11 correct leads across the three rounds, with no wrong leads. It withholds 7, 8 and 7 cases, including 1, 3 and 3 correct raw first choices. Display stays the same on 17 of 18 cases.
+
+Without filtering, Jev's first choice matches 12, 13 and 14 of 18 targets. The original three-service shortlist includes all targets but adds 34–35 wrong leads per round. Frozen ML ranks 15 targets first; change and resource rankings each match 10. The perfect development ML result did not carry over to these calibration groups.
+
+Calibration chose the boundary, so its zero-error result is not an independent validation. Evaluation is the next test and uses the committed boundary unchanged. Implementation tests cover competing insufficient-evidence probabilities, alternative support, failures, every-round calibration eligibility, once-only calls, credential redaction and the evaluation download gate.
