@@ -26,3 +26,5 @@ A fresh local clone restored the original 347 files and all 51 supplemental diag
 
 
 The selective experiment passes nine additional policy and inspection tests. They verify strongest-option margins including insufficient evidence, alternative support, every-round calibration eligibility, full failure denominators, once-only execution, version-error redaction, the evaluation download gate, hidden reference fields and read-only local routes. All 54 calibration and 108 evaluation calls succeeded. The separate selective verifier reconstructs both packs, all requests, normalized responses, transfer controls, every calibration candidate and the unchanged 0.70 evaluation boundary. It makes no hosted calls.
+
+A fresh local clone restored all three bundles, 522 files in total, passed all three evidence verifiers and passed all 72 tests without a key or the original checkout. Browser review verified separate calibration/evaluation displays, reference reveal, the probability boundary crossing, round and service selection, and formatted report links returning to the selected section. All six browser scripts passed syntax checks.
