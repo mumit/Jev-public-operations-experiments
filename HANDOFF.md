@@ -48,3 +48,11 @@ Sock Shop shows 27 correct, zero wrong and nine withheld per round. Unfiltered J
 Both reserve panels are now inspected. All 90 Online Boutique, 90 Sock Shop and 90 Train Ticket cases used here have been opened. No later policy may treat these as untouched validation. The app exposes both confirmation panels under /selective, including per-case Jev/ML agreement for inspection; that indicator does not modify the frozen recommendation.
 
 The next experiment requires fresh cases and a new protocol. Recommended direction: test disagreement as a review trigger, with lost correct coverage measured. Alternative: add causal evidence such as traces/dependency context. This next objective needs a user decision; neither direction has been implemented as an inference or display change.
+
+## Current disagreement experiment
+
+The user selected Jev/ML disagreement as the next review trigger. A separate RE1 schema audit opens five Train Ticket auth CPU and five Sock Shop carts CPU recordings, excludes both groups from evaluation, and makes no hosted calls. Its source labels fit the unchanged summary pipeline.
+
+The committed public-agreement plan selects 50 fresh RE1 cases per application, in ten intact service/fault groups with five repetitions. It reserves 70 per application. All input construction, Jev questions, candidates, the fitted Online Boutique ML and the 0.70 boundary remain unchanged. An eligible Jev lead becomes review-required when ML disagrees; ML never substitutes its answer. The 300-call budget is three serial rounds with no retries or warmup. Source and request fingerprints freeze before execution. Do not tune or replace cases after inspection.
+
+The new /agreement inspector will expose the paired decisions, both choices, retained wrong agreements, lost correct leads, exact input and actual provider response. References require reveal. Completed historical inference sources remain unchanged.
