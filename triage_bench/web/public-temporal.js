@@ -29,6 +29,7 @@ async function main(){try{overview=await fetchJSON('/api/public-temporal');if(!o
  $('stability').textContent=Object.entries(overview.metrics).map(([a,m])=>`${labels[a]}: ${m.choice_stable_cases}/18 stable first choices; ${m.shortlist_stable_cases}/18 stable ordered shortlists.`).join(' ');
  $('local-summary').innerHTML=Object.entries(overview.controls).map(([arm,r])=>`<tr><td>${controlLabels[arm]}</td><td>${r.top1_correct}/18</td><td>${r.top3_inclusion}/18</td></tr>`).join('');$('gate').textContent=overview.next_gate;
  $('case').innerHTML=overview.cases.map(c=>`<option value="${esc(c.id)}">${esc(c.id)} · ${esc(c.fault)}</option>`).join('');const q=new URLSearchParams(location.search);if(overview.cases.some(c=>c.id===q.get('case')))$('case').value=q.get('case');if(labels[q.get('arm')])$('arm').value=q.get('arm');if(/^[1-3]$/.test(q.get('round')||''))$('round').value=q.get('round');
- for(const id of ['case','arm'])$(id).addEventListener('change',()=>{if(id==='case')revealed=false;loadCase();});$('round').addEventListener('change',renderResponse);$('service').addEventListener('change',renderInput);$('reveal').addEventListener('click',()=>{revealed=!revealed;loadCase();});await loadCase();
+ for(const id of ['case','arm'])$(id).addEventListener('change',()=>{if(id==='case')revealed=false;loadCase();});$('round').addEventListener('change',renderResponse);$('service').addEventListener('change',renderInput);$('reveal').addEventListener('click',()=>{revealed=!revealed;loadCase();});window.addEventListener('hashchange',()=>{if(current)updateURL();});await loadCase();
+ const section=location.hash.slice(1);if(current&&["overview", "inspect", "input"].includes(section))$(section).scrollIntoView();
  }catch(e){$('status').textContent=e.message;}}
 main();

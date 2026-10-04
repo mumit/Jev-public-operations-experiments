@@ -24,6 +24,7 @@ async function main(){try{overview=await fetchJSON('/api/public-repeat');if(!ove
  $('gate').classList.toggle('good',overview.research_gate.passed);$('gate').innerHTML=`<strong>${overview.research_gate.passed?'Diagnostic criterion passed':'Reserve stays sealed'}</strong><p>${esc(overview.research_gate.reasons.join(' ')||'Named input passed the predeclared targeted diagnostic.')}</p><p>This author-set criterion is not operational validation. The 36 reserve cases remain undownloaded.</p>`;
  $('case').innerHTML=overview.cases.map(c=>`<option value="${esc(c.id)}">${esc(c.id)} · ${esc(c.fault)} · ${c.role==='inspected_error'?'earlier error':'control'}</option>`).join('');
  const q=new URLSearchParams(location.search);if(overview.cases.some(c=>c.id===q.get('case')))$('case').value=q.get('case');if(labels[q.get('arm')])$('arm').value=q.get('arm');if(/^[0-5]$/.test(q.get('round')||''))$('round').value=q.get('round');
- for(const id of ['case','arm'])$(id).addEventListener('change',()=>{if(id==='case')revealed=false;loadCase();});$('round').addEventListener('change',renderResponse);$('reveal').addEventListener('click',()=>{revealed=!revealed;loadCase();});await loadCase();
+ for(const id of ['case','arm'])$(id).addEventListener('change',()=>{if(id==='case')revealed=false;loadCase();});$('round').addEventListener('change',renderResponse);$('reveal').addEventListener('click',()=>{revealed=!revealed;loadCase();});window.addEventListener('hashchange',()=>{if(current)setURL();});await loadCase();
+ const section=location.hash.slice(1);if(current&&["overview", "inspect", "wire"].includes(section))$(section).scrollIntoView();
  }catch(e){$('status').textContent=e.message;}}
 main();
