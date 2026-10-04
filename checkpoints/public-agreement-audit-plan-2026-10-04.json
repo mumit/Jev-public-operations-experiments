@@ -1,0 +1,27 @@
+{
+  "schema": "public-agreement-audit-plan-1",
+  "revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "index_sha256": "c49a288920dbba2e8e724679a14636d5c7eb2b45426bba14007ef79a6c0ab1bb",
+  "cases": [
+    "re1ss_carts_cpu_1",
+    "re1ss_carts_cpu_2",
+    "re1ss_carts_cpu_3",
+    "re1ss_carts_cpu_4",
+    "re1ss_carts_cpu_5",
+    "re1tt_ts-auth-service_cpu_1",
+    "re1tt_ts-auth-service_cpu_2",
+    "re1tt_ts-auth-service_cpu_3",
+    "re1tt_ts-auth-service_cpu_4",
+    "re1tt_ts-auth-service_cpu_5"
+  ],
+  "maximum_calls": 0,
+  "purpose": "Check RE1 metric names, timestamp schema and evidence compatibility before a separately frozen disagreement experiment. These ten cases and both full service/fault groups become inspected development; exclude them from evaluation and reserves.",
+  "user_decision": "Test Jev/ML disagreement as an analyst-review trigger. Do not substitute the ML answer or retune the 0.70 boundary.",
+  "source_sha256": {
+    "scripts/audit_public_agreement.py": "59b757797ae4add724f13aeb288c4931b6a3e7c923a11242428fd036d5be20c7",
+    "triage_bench/public_data.py": "f90643117a3a691522c2c273e954bfb57680fb3cc764fae9ef8c1ed732414af0",
+    "triage_bench/public_rca_stages.py": "d4ce1ebfab517ea72abb9edfe20ba507f38cb1a6fd8f9bab6d508d19d0afe9d2",
+    "triage_bench/public_rca_data.py": "4849978589d8ed5b9a804a9cce585eaa91e2fa7f09e72144b77547e931baf903",
+    "uv.lock": "c2279f34fe061961b88c0a44fc7bbf5ca8f72638e1afc2a4b2ef776fde6edce0"
+  }
+}
