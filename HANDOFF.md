@@ -2,9 +2,9 @@
 
 ## Current state
 
-Two public comparisons, an exact-request replay, a fresh temporal development comparison and selective calibration/evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Two public comparisons, an exact-request replay, a fresh temporal development comparison selective calibration/evaluation and reserve confirmation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-selective.md. Restore all three versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics and scripts.verify_public_selective. The suite passes 72 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-selective.md. Restore all three versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics and scripts.verify_public_selective. The suite passes 75 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -26,7 +26,7 @@ The user chose fewer wrong leads, accepting more withholding, on 2026-10-04. Nam
 
 The probability threshold and the gap to the strongest competing option, including insufficient_evidence, control display. Calibration considers all three rounds and maximizes useful coverage among policies with zero observed wrong leads in every round. This is an author-set research criterion, not an operational error budget. Correct withheld recommendations remain visible in scoring.
 
-All 54 calibration calls succeeded. The selected rule is probability >=0.70, margin >=0, one lead at most. It shows 11/10/11 correct leads and zero wrong leads; withholds 7/8/7 including 1/3/3 correct first choices. ML transfers at 15/18 on calibration, Jev unfiltered at 12/13/14. The new plan permits 108 evaluation calls. All 108 evaluation calls succeeded on 36 untouched cases in twelve groups. The frozen policy shows 21/19/22 correct leads, zero wrong leads, and withholds 15/17/14 cases including 9/11/8 correct first choices. Display is stable on 33/36 cases. Unfiltered Jev ranks 30/36 first each round; ML/change/resource rank 28/27/25. The policy improves displayed precision by withholding, not model accuracy. See /selective and docs/public-selective.md. Both reserve sets, 18 Train Ticket and 36 Sock Shop cases, remain undownloaded. The user chose fixed-boundary confirmation on untouched reserve cases. The new public-confirmation plan permits 162 calls on 18 Train Ticket and 36 Sock Shop reserve cases, with all results separated by application. Its input and 0.70 policy stay unchanged; there is no fitting or threshold search. Commit the plan before reserve download, then the exact request fingerprints before calls. Recovering coverage with new inputs or ML fallback needs fresh development and calibration.
+All 54 calibration calls succeeded. The selected rule is probability >=0.70, margin >=0, one lead at most. It shows 11/10/11 correct leads and zero wrong leads; withholds 7/8/7 including 1/3/3 correct first choices. ML transfers at 15/18 on calibration, Jev unfiltered at 12/13/14. The new plan permits 108 evaluation calls. All 108 evaluation calls succeeded on 36 untouched cases in twelve groups. The frozen policy shows 21/19/22 correct leads, zero wrong leads, and withholds 15/17/14 cases including 9/11/8 correct first choices. Display is stable on 33/36 cases. Unfiltered Jev ranks 30/36 first each round; ML/change/resource rank 28/27/25. The policy improves displayed precision by withholding, not model accuracy. See /selective and docs/public-selective.md. Both reserve sets were undownloaded when selective evaluation ended. The user chose fixed-boundary confirmation on untouched reserve cases. The new public-confirmation plan permits 162 calls on 18 Train Ticket and 36 Sock Shop reserve cases, with all results separated by application. Its input and 0.70 policy stay unchanged; there is no fitting or threshold search. Commit the plan before reserve download, then the exact request fingerprints before calls. Recovering coverage with new inputs or ML fallback needs fresh development and calibration.
 
 ## Frozen evidence and continuation
 
@@ -35,3 +35,16 @@ Original protocols and active inference sources remain fingerprinted by provenan
 The original public-study-v1 release contains 294 calls and 347 files. The separate public-diagnostics-v1 asset adds 289 calls and 51 files, including replay evidence, fresh development measurements and the capacity probe. Restore it after the original bundle. The public-selective-v1 asset adds 162 responses and 124 files for calibration and evaluation. All three preserve 745 recorded calls. They contain no credentials or synthetic runs and must not be replaced with changed evidence.
 
 The app reveals published case answers explicitly. It exposes comparison results only after complete evidence matches the committed assessment. Keys remain server-side in ignored local configuration. Do not introduce other model providers, download model weights or execute network changes without a new request.
+
+
+## Completed reserve confirmation
+
+The user selected confirmation, then authorized the separate committed public-confirmation plan. All 162 calls on the final 18 Train Ticket and 36 Sock Shop cases succeeded. Input, model and the 0.70 boundary stayed fixed. No threshold search or refitting occurred.
+
+Train Ticket shows 11/10/11 correct and one wrong lead per round, withholds 6/7/6 including 4/5/4 correct first choices, and has stable display on 15/18 cases. Unfiltered Jev matches 15/18 first, ML 16/18. The persistent error TMP-80d015d089a4 selects admin-travel at about 0.81 instead of the published route-service loss cause; ML chooses route. The earlier zero-error result does not reproduce.
+
+Sock Shop shows 27 correct, zero wrong and nine withheld per round. Unfiltered Jev is correct on all 36 cases; the rule withholds nine correct first choices. All 36 display decisions stay stable. ML/change each match 34 first. Keep both applications separate.
+
+Both reserve panels are now inspected. All 90 Online Boutique, 90 Sock Shop and 90 Train Ticket cases used here have been opened. No later policy may treat these as untouched validation. The app exposes both confirmation panels under /selective, including per-case Jev/ML agreement for inspection; that indicator does not modify the frozen recommendation.
+
+The next experiment requires fresh cases and a new protocol. Recommended direction: test disagreement as a review trigger, with lost correct coverage measured. Alternative: add causal evidence such as traces/dependency context. This next objective needs a user decision; neither direction has been implemented as an inference or display change.

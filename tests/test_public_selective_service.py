@@ -25,10 +25,11 @@ class SelectiveServiceTests(unittest.TestCase):
             (data/'inputs.json').write_text(json.dumps([{'id':'x','request':{'state':'{}'}}]))
             (run/'responses.jsonl').write_text(json.dumps({'case_id':'x','round':1})+'\n');(run/'controls.json').write_text(json.dumps({'x':{}}))
             study=PublicSelectiveStudy(root)
-            with patch.object(study,'verified',return_value=a),patch('triage_bench.public_selective_service.folder',return_value=data),patch('triage_bench.public_selective_service.output',return_value=run):
+            with patch.object(study,'verified',return_value=a),patch('triage_bench.public_selective_service.folder',return_value=data),patch('triage_bench.public_selective_service.output',return_value=run),patch('triage_bench.public_selective_service.confirmation_folder',return_value=data),patch('triage_bench.public_selective_service.confirmation_output',return_value=run):
                 hidden=study.case('calibration','x');self.assertIsNone(hidden['reference'])
                 for key in ('target','group','correct_first','cause_included','wrong_leads','raw_correct_first'):self.assertNotIn(key,hidden['outcomes'][0])
                 self.assertEqual(study.case('calibration','x',True)['reference']['target'],'a');self.assertTrue(row['correct_first'])
+                reserve=study.case('train-ticket-reserve','x');self.assertIsNone(reserve['reference']);self.assertNotIn('target',reserve['outcomes'][0]);self.assertEqual(reserve['split'],'train-ticket-reserve')
 
     def test_loopback_routes_reader_and_origin_do_not_invoke_inference(self):
         server=ThreadingHTTPServer(('127.0.0.1',0),handler_for(App()));thread=threading.Thread(target=server.serve_forever,daemon=True);thread.start();base=f'http://127.0.0.1:{server.server_port}'

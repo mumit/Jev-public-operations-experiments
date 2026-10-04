@@ -23,3 +23,5 @@ Fresh Train Ticket development, the one-call context probe and the three-round t
 The public-selective plan, both stage protocols and all four fingerprinted new inference/data/policy sources are frozen after execution. The selected calibration boundary is probability >=0.70 and margin >=0, single lead or withholding. Evaluation must apply it unchanged. Changes after evaluation need a new experiment on untouched data; neither reserve opens automatically.
 
 The user authorized fixed-boundary confirmation on both untouched reserve panels. The public-confirmation plan permits 162 calls: 18 Train Ticket and 36 Sock Shop cases, three rounds each. Preserve its new source fingerprints after execution. Report each application separately and never recalibrate from confirmation outcomes.
+
+Both reserve confirmation panels are now complete and inspected. Preserve the confirmation sources, protocol and results. The fixed rule retains a confidently wrong Train Ticket lead; do not retune it on confirmation. Future policy changes require fresh cases from a new data protocol. A Jev/ML agreement indicator is diagnostic only and does not change the frozen display output.

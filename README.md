@@ -8,6 +8,7 @@ The current evidence comes from controlled RCAEval Online Boutique, Sock Shop an
 
 | Study | Held-out evidence | Result |
 |---|---|---|
+| Reserve confirmation | 18 Train Ticket and 36 Sock Shop cases, three rounds | Train Ticket retains one confidently wrong lead per round; Sock Shop shows 27 correct leads and withholds nine correct choices. The zero-error result does not reproduce uniformly. |
 | Selective recommendation policy | 36 Train Ticket cases, twelve groups, three rounds | Frozen 0.70 rule displays 19–22 correct leads, no wrong leads, and withholds 14–17 cases per round. Unfiltered Jev ranks 30/36 first; ML ranks 28/36. |
 | Metric root-cause comparison | 18 Online Boutique cases, six groups | Change ranking 18/18; Jev and trained ML 17/18; resource ranking 14/18. Jev's threshold displays one wrong recommendation. |
 | Jev input presentation | 36 Sock Shop cases, 12 groups | Named fields 35/36; compact and explained inputs 34/36; transferred ML 32/36. Named input displays 34 correct recommendations and withholds two at its frozen threshold. |
@@ -35,6 +36,7 @@ A fresh clone includes source, reports and checkpoints. Restore all three [publi
 - [Metric experiment](docs/public-rca-experiment.md): training, grouped splits, methods and results.
 - [Input comparison](docs/public-input-format.md): lossless transformations, matched cases and review thresholds.
 - [Next evidence experiment](docs/public-temporal-next.md): timing audit, fresh development results and selected shortlist direction.
+- [Reserve confirmation](docs/public-confirmation.md): unchanged policy on both previously untouched reserve panels.
 - [Selective recommendations](docs/public-selective.md): fewer leads, calibration boundaries and withholding costs.
 - [Repeatability diagnostic](docs/public-repeatability.md): exact-request replay design and research gate.
 - [Evidence bundle](docs/evidence.md): download, safe restoration and verification.

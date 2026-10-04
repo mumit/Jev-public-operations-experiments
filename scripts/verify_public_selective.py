@@ -11,6 +11,6 @@ def verify():
     if result!=load(RESULTS):raise ValueError('Evaluation assessment differs from recorded result.')
     reserve={a['id'] for a in p['assignments'] if a['split']=='reserve'}
     if any(d.name in reserve for d in BASE.glob('*-data-*/raw/*')):raise ValueError('Reserve telemetry entered selective evidence.')
-    return {'status':'verified','calibration_calls':54,'evaluation_calls':108,'new_hosted_calls':0,'sealed_train_ticket_reserve_cases':18,'sealed_sock_shop_reserve_cases':36}
+    return {'status':'verified','calibration_calls':54,'evaluation_calls':108,'new_hosted_calls':0,'train_ticket_reserve_cases_sealed_at_selective_completion':18,'sock_shop_reserve_cases_sealed_at_selective_completion':36}
 
 if __name__=='__main__':print(json.dumps(verify(),indent=2))

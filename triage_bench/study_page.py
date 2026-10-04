@@ -7,7 +7,7 @@ from string import Template
 from urllib.parse import urlencode,urlparse
 from markdown_it import MarkdownIt
 
-DOCUMENTS={'public-selective':'docs/public-selective.md','public-temporal':'docs/public-temporal-next.md','public-repeat':'docs/public-repeatability.md','public-rca':'docs/public-rca-experiment.md','public-format':'docs/public-input-format.md',
+DOCUMENTS={'public-confirmation':'docs/public-confirmation.md','public-selective':'docs/public-selective.md','public-temporal':'docs/public-temporal-next.md','public-repeat':'docs/public-repeatability.md','public-rca':'docs/public-rca-experiment.md','public-format':'docs/public-input-format.md',
            'public-data':'docs/public-data-assessment.md','handoff':'HANDOFF.md','evidence':'docs/evidence.md','migration':'docs/migration.md'}
 
 def return_path(value):
@@ -25,7 +25,7 @@ def render_study(study,params):
     document=params.get('doc','public-format')
     if document not in DOCUMENTS:raise ValueError('Unknown study document.')
     source=(study.root/DOCUMENTS[document]).read_text()
-    back=return_path(params.get('return','/selective' if document=='public-selective' else '/temporal' if document=='public-temporal' else '/repeatability' if document=='public-repeat' else '/public-rca' if document in {'public-rca','public-data'} else '/public-format'))
+    back=return_path(params.get('return','/selective' if document in {'public-selective','public-confirmation'} else '/temporal' if document=='public-temporal' else '/repeatability' if document=='public-repeat' else '/public-rca' if document in {'public-rca','public-data'} else '/public-format'))
     def reader_link(href):
         p=urlparse(href)
         if not p.scheme and not p.netloc:
