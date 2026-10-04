@@ -1,0 +1,30 @@
+{
+  "schema": "public-temporal-sizing-1",
+  "development_cases": 18,
+  "groups": 6,
+  "candidate_services_per_case": 68,
+  "metric_series_range": [
+    345,
+    374
+  ],
+  "request_bytes": {
+    "named": [
+      67301,
+      71940
+    ],
+    "temporal": [
+      73444,
+      79840
+    ]
+  },
+  "conservative_bound_passes": {
+    "named": 0,
+    "temporal": 0
+  },
+  "source_bytes": 16797536,
+  "sealed_train_ticket_cases": 72,
+  "sealed_sock_shop_cases": 36,
+  "new_hosted_comparison_calls": 0,
+  "condition": "Byte bound is conservative, not actual provider tokenization; pending separate one-call capacity probe.",
+  "manifest_sha256": "0fd29353adab611d92b613a93e291d1c65439fffc10632834f365682de536cc3"
+}

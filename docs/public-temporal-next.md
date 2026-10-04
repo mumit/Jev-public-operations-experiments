@@ -33,3 +33,13 @@ Train Ticket is larger: index entries report 340–376 metric series per case, c
 Once preparation passes, a separate protocol can compare unchanged named summaries with the same summaries plus latency time windows. Both arms will keep the same candidate services and cause-selection question. The shortlist will come from the saved choice distribution, not another hidden inference step. Single-service accuracy, candidate inclusion, shortlist size and display behavior must stay visible separately. New ML fitting, trace interpretation and automatic routing are outside this comparison.
 
 No hosted temporal experiment has been run or frozen yet. The shortlist contract is the recommended direction used after the instruction to continue; it can be revised before freezing inference.
+
+## Development preparation result
+
+All 18 development cases passed source hashes, timestamp checks, input reconstruction and separate reference joins. Every case retains 68 observed services; the published cause is present in every candidate set. Metric counts range from 345 to 374. The downloaded metrics and boundary files total 16,797,536 bytes. All 72 later Train Ticket cases and 36 Sock Shop reserve cases remain undownloaded.
+
+Complete named requests contain 67,301–71,940 bytes; temporal requests contain 73,444–79,840 bytes. None passes the lab's conservative bound of request bytes plus 512 within the declared 32,768-token capacity. This is not an actual tokenizer measurement and does not establish that Jev rejects these requests.
+
+[TypeSafe's Models documentation](https://docs.typesafe.ai/models) specifies 64k tokens for a request and 32k for state plus the longest question. The API schema provides token usage after evaluation, but no token-count-only endpoint. A separate, committed one-call capacity protocol selects the largest temporal request by byte size, without reference answers. It will record provider acceptance and actual input usage; it does not score accuracy or loosen any existing guard.
+
+The provider also documents weaknesses with precise numerical tasks and large irrelevant states, recommending calculations and filtering in code. This supports testing focused, computed evidence rather than assuming that more raw numbers will improve the result. It does not prove why any recorded case failed. [Jev 1.13 documented limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13).

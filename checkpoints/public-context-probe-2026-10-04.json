@@ -1,0 +1,15 @@
+{
+  "schema": "public-context-probe-1",
+  "maximum_calls": 1,
+  "model": "jev-1.13.0",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "context_tokens": 32768,
+  "case_id": "TMP-422ac9cb1056",
+  "arm": "temporal",
+  "request_sha256": "63dbed67e49cb8766c7df5d711577b105765a1a10d27e92bba97c932aa3b8c3a",
+  "request_bytes": 79840,
+  "source_sha256": "864acaeea0ce654a473ee01d46f481b1842db0f63e06e932a30ec1dabbc95a5a",
+  "manifest_sha256": "0fd29353adab611d92b613a93e291d1c65439fffc10632834f365682de536cc3",
+  "purpose": "Capacity and actual billable token count for the largest prepared development request. Selection uses request size, not answers. No accuracy score, retries, calibration or sealed telemetry.",
+  "limit": "Current lab byte bound failed. That is not proof of a token overflow. Provider validates the actual context limit. This separate single-call probe does not change any historical or preparation guard."
+}
