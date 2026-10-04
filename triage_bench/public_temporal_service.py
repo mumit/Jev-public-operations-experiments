@@ -24,6 +24,9 @@ class PublicTemporalStudy:
             result['notes']=['Verified temporal development evidence is unavailable locally. The original public-study-v1 bundle does not include this later run. No results have been fabricated.'];return result
         result.update(available=True,cases=[{'id':c['id'],'fault':c['fault']} for c in assessment['cases']],metrics=assessment['metrics'],controls=assessment['controls'],paired=assessment['paired'],
             condition='18 development cases, six correlated groups, 68 observed services per case. Three repeated rounds are not independent held-out cases.',next_gate=assessment['next_gate'])
+        if (self.root/'checkpoints/public-selective-plan-2026-10-04.json').exists():
+            result['next_gate']='The user selected fewer wrong leads. Follow the separate selective-policy study for gated calibration and evaluation; this development assessment remains unchanged.'
+            result['next_study']='/selective'
         return result
 
     def case(self,identifier,arm='named',reveal=False):

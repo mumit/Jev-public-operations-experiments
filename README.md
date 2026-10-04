@@ -2,7 +2,7 @@
 
 I am testing whether Jev can help identify the originating faulty service from public telemetry, and which input changes improve its recommendations. The app exposes the measurements, exact requests, actual responses, local ML scores and frozen review thresholds.
 
-The current evidence comes from controlled RCAEval Online Boutique and Sock Shop faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
+The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
 ## Completed comparisons
 
@@ -33,7 +33,8 @@ A fresh clone includes source, reports and checkpoints. Restore both [public evi
 - [Dataset assessment](docs/public-data-assessment.md): sources, terms and input preparation.
 - [Metric experiment](docs/public-rca-experiment.md): training, grouped splits, methods and results.
 - [Input comparison](docs/public-input-format.md): lossless transformations, matched cases and review thresholds.
-- [Next evidence experiment](docs/public-temporal-next.md): timing audit, fresh development results and pending shortlist objective.
+- [Next evidence experiment](docs/public-temporal-next.md): timing audit, fresh development results and selected shortlist direction.
+- [Selective recommendations](docs/public-selective.md): fewer leads, calibration boundaries and withholding costs.
 - [Repeatability diagnostic](docs/public-repeatability.md): exact-request replay design and research gate.
 - [Evidence bundle](docs/evidence.md): download, safe restoration and verification.
 - [Migration](docs/migration.md): archived sources and the standalone extraction.
@@ -50,6 +51,7 @@ node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
 node --check triage_bench/web/public-repeat.js
 node --check triage_bench/web/public-temporal.js
+node --check triage_bench/web/public-selective.js
 node --check triage_bench/web/study.js
 ```
 

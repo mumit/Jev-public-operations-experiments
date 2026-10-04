@@ -29,6 +29,6 @@ def verify():
     result=temporal_score()
     if result['failed_or_missing'] or result!=load(checkpoint):raise ValueError('Development assessment changed.')
     return {'status':'verified','replay_calls':180,'capacity_probe_calls':1,'development_calls':108,'development_cases':18,'new_hosted_calls':0,
-        'sealed_train_ticket_cases':72,'sealed_sock_shop_reserve_cases':36}
+        'train_ticket_cases_sealed_at_development_completion':72,'sealed_sock_shop_reserve_cases':36}
 
 if __name__=='__main__':print(json.dumps(verify(),indent=2))
