@@ -1,0 +1,1845 @@
+{
+  "schema": "public-format-boundary-1",
+  "candidate_sha256": "a8daa8c86c8bebef9ecf13ff2097ebfa81676a491eea5c2132e830c945788414",
+  "calibration": "runs/public-format/calibration-2026-10-03-v1",
+  "selected": {
+    "compact": {
+      "threshold": 0.6,
+      "suggestions": 13,
+      "wrong": 0,
+      "review": 5,
+      "groups": 6
+    },
+    "named": {
+      "threshold": 0.5,
+      "suggestions": 16,
+      "wrong": 0,
+      "review": 2,
+      "groups": 6
+    },
+    "explained": {
+      "threshold": 0.5,
+      "suggestions": 16,
+      "wrong": 0,
+      "review": 2,
+      "groups": 6
+    }
+  },
+  "assessment": {
+    "schema": "public-format-assessment-1",
+    "split": "calibration",
+    "metrics": {
+      "change": {
+        "correct": 15,
+        "cases": 18,
+        "withheld": 0,
+        "groups_all_correct": 4,
+        "groups": 6,
+        "by_fault": {
+          "cpu": {
+            "correct": 3,
+            "cases": 3
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 2,
+            "cases": 3
+          },
+          "loss": {
+            "correct": 1,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "resource": {
+        "correct": 16,
+        "cases": 18,
+        "withheld": 0,
+        "groups_all_correct": 5,
+        "groups": 6,
+        "by_fault": {
+          "cpu": {
+            "correct": 3,
+            "cases": 3
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 1,
+            "cases": 3
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "ml": {
+        "correct": 16,
+        "cases": 18,
+        "withheld": 0,
+        "groups_all_correct": 5,
+        "groups": 6,
+        "by_fault": {
+          "cpu": {
+            "correct": 3,
+            "cases": 3
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 1,
+            "cases": 3
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "compact": {
+        "correct": 15,
+        "cases": 18,
+        "withheld": 0,
+        "groups_all_correct": 4,
+        "groups": 6,
+        "by_fault": {
+          "cpu": {
+            "correct": 3,
+            "cases": 3
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 1,
+            "cases": 3
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 2,
+            "cases": 3
+          }
+        }
+      },
+      "named": {
+        "correct": 16,
+        "cases": 18,
+        "withheld": 1,
+        "groups_all_correct": 5,
+        "groups": 6,
+        "by_fault": {
+          "cpu": {
+            "correct": 3,
+            "cases": 3
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 1,
+            "cases": 3
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "explained": {
+        "correct": 16,
+        "cases": 18,
+        "withheld": 0,
+        "groups_all_correct": 5,
+        "groups": 6,
+        "by_fault": {
+          "cpu": {
+            "correct": 3,
+            "cases": 3
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 1,
+            "cases": 3
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      }
+    },
+    "outcomes": [
+      {
+        "id": "FMT-bc159c2c3cde",
+        "group": "carts/cpu",
+        "fault": "cpu",
+        "target": "carts",
+        "choices": {
+          "change": "carts",
+          "resource": "carts",
+          "ml": "carts",
+          "compact": "carts",
+          "named": "carts",
+          "explained": "carts"
+        },
+        "probabilities": {
+          "compact": {
+            "insufficient_evidence": 0.12,
+            "session-db": 0.0,
+            "carts": 0.59,
+            "rabbitmq-exporter": 0.0,
+            "orders": 0.1,
+            "catalogue": 0.0,
+            "rabbitmq": 0.0,
+            "catalogue-db": 0.01,
+            "carts-db": 0.03,
+            "orders-db": 0.15000000000000002,
+            "user-db": 0.0,
+            "front-end": 0.0,
+            "user": 0.0,
+            "payment": 0.0,
+            "shipping": 0.0,
+            "queue-master": 0.0
+          },
+          "named": {
+            "carts": 0.85,
+            "orders": 0.01,
+            "insufficient_evidence": 0.08,
+            "catalogue-db": 0.01,
+            "rabbitmq": 0.0,
+            "orders-db": 0.04,
+            "session-db": 0.0,
+            "catalogue": 0.0,
+            "shipping": 0.0,
+            "user-db": 0.0,
+            "front-end": 0.0,
+            "payment": 0.0,
+            "carts-db": 0.01,
+            "user": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.0
+          },
+          "explained": {
+            "orders-db": 0.050505050505050504,
+            "rabbitmq": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.0,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.0707070707070707,
+            "front-end": 0.0,
+            "user": 0.0,
+            "carts-db": 0.0303030303030303,
+            "catalogue": 0.0,
+            "orders": 0.0404040404040404,
+            "carts": 0.8080808080808081,
+            "catalogue-db": 0.0,
+            "shipping": 0.0,
+            "user-db": 0.0,
+            "payment": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.55,
+          "named": 0.83,
+          "explained": 0.79
+        }
+      },
+      {
+        "id": "FMT-5f82975d89b7",
+        "group": "carts/cpu",
+        "fault": "cpu",
+        "target": "carts",
+        "choices": {
+          "change": "carts",
+          "resource": "carts",
+          "ml": "carts",
+          "compact": "carts",
+          "named": "carts",
+          "explained": "carts"
+        },
+        "probabilities": {
+          "compact": {
+            "orders-db": 0.03,
+            "carts-db": 0.01,
+            "catalogue": 0.0,
+            "payment": 0.0,
+            "session-db": 0.0,
+            "user": 0.0,
+            "carts": 0.86,
+            "rabbitmq": 0.0,
+            "orders": 0.01,
+            "insufficient_evidence": 0.06,
+            "front-end": 0.0,
+            "queue-master": 0.03,
+            "shipping": 0.0,
+            "catalogue-db": 0.0,
+            "user-db": 0.0,
+            "rabbitmq-exporter": 0.0
+          },
+          "named": {
+            "shipping": 0.0,
+            "rabbitmq": 0.0,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.06,
+            "orders": 0.0,
+            "user": 0.0,
+            "front-end": 0.0,
+            "orders-db": 0.03,
+            "rabbitmq-exporter": 0.0,
+            "catalogue": 0.0,
+            "carts-db": 0.01,
+            "carts": 0.88,
+            "queue-master": 0.02,
+            "payment": 0.0,
+            "catalogue-db": 0.0,
+            "user-db": 0.0
+          },
+          "explained": {
+            "session-db": 0.0,
+            "rabbitmq": 0.0,
+            "catalogue": 0.0,
+            "orders": 0.01,
+            "catalogue-db": 0.0,
+            "user-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "shipping": 0.0,
+            "queue-master": 0.01,
+            "front-end": 0.0,
+            "carts-db": 0.01,
+            "insufficient_evidence": 0.04,
+            "user": 0.0,
+            "orders-db": 0.03,
+            "payment": 0.0,
+            "carts": 0.9
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.84,
+          "named": 0.86,
+          "explained": 0.9
+        }
+      },
+      {
+        "id": "FMT-b87181b8cbc7",
+        "group": "carts/cpu",
+        "fault": "cpu",
+        "target": "carts",
+        "choices": {
+          "change": "carts",
+          "resource": "carts",
+          "ml": "carts",
+          "compact": "carts",
+          "named": "carts",
+          "explained": "carts"
+        },
+        "probabilities": {
+          "compact": {
+            "carts": 0.89,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.06,
+            "catalogue-db": 0.0,
+            "rabbitmq": 0.0,
+            "orders-db": 0.0,
+            "orders": 0.02,
+            "catalogue": 0.01,
+            "shipping": 0.01,
+            "user-db": 0.0,
+            "front-end": 0.0,
+            "payment": 0.0,
+            "carts-db": 0.01,
+            "user": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.0
+          },
+          "named": {
+            "orders-db": 0.0,
+            "queue-master": 0.0,
+            "orders": 0.03,
+            "payment": 0.0,
+            "user": 0.0,
+            "shipping": 0.0,
+            "carts": 0.87,
+            "user-db": 0.0,
+            "insufficient_evidence": 0.09,
+            "front-end": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "session-db": 0.0,
+            "rabbitmq": 0.0,
+            "catalogue": 0.0,
+            "carts-db": 0.01,
+            "catalogue-db": 0.0
+          },
+          "explained": {
+            "payment": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.08,
+            "user-db": 0.0,
+            "orders-db": 0.0,
+            "orders": 0.03,
+            "user": 0.0,
+            "queue-master": 0.0,
+            "front-end": 0.0,
+            "shipping": 0.0,
+            "carts-db": 0.02,
+            "rabbitmq": 0.0,
+            "carts": 0.87,
+            "catalogue-db": 0.0,
+            "catalogue": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.87,
+          "named": 0.85,
+          "explained": 0.86
+        }
+      },
+      {
+        "id": "FMT-65b4f5502153",
+        "group": "carts/socket",
+        "fault": "socket",
+        "target": "carts",
+        "choices": {
+          "change": "carts",
+          "resource": "carts",
+          "ml": "carts",
+          "compact": "carts",
+          "named": "carts",
+          "explained": "carts"
+        },
+        "probabilities": {
+          "compact": {
+            "user-db": 0.0,
+            "orders": 0.24,
+            "payment": 0.0,
+            "front-end": 0.01,
+            "rabbitmq-exporter": 0.01,
+            "orders-db": 0.0,
+            "session-db": 0.0,
+            "queue-master": 0.01,
+            "carts": 0.52,
+            "catalogue": 0.05,
+            "user": 0.0,
+            "rabbitmq": 0.01,
+            "catalogue-db": 0.0,
+            "shipping": 0.0,
+            "carts-db": 0.01,
+            "insufficient_evidence": 0.14
+          },
+          "named": {
+            "carts-db": 0.0101010101010101,
+            "payment": 0.0,
+            "insufficient_evidence": 0.1717171717171717,
+            "orders-db": 0.0,
+            "front-end": 0.0101010101010101,
+            "orders": 0.29292929292929293,
+            "user": 0.0,
+            "shipping": 0.0,
+            "carts": 0.505050505050505,
+            "queue-master": 0.0101010101010101,
+            "session-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "catalogue": 0.0,
+            "user-db": 0.0,
+            "rabbitmq": 0.0,
+            "catalogue-db": 0.0
+          },
+          "explained": {
+            "rabbitmq": 0.0,
+            "insufficient_evidence": 0.10101010101010101,
+            "orders": 0.20202020202020202,
+            "catalogue": 0.0101010101010101,
+            "rabbitmq-exporter": 0.0,
+            "session-db": 0.0,
+            "orders-db": 0.0,
+            "queue-master": 0.0,
+            "user-db": 0.0,
+            "shipping": 0.0,
+            "carts-db": 0.0101010101010101,
+            "catalogue-db": 0.0,
+            "front-end": 0.0101010101010101,
+            "payment": 0.0,
+            "user": 0.0,
+            "carts": 0.6666666666666666
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.48,
+          "named": 0.46,
+          "explained": 0.63
+        }
+      },
+      {
+        "id": "FMT-dff737ef5d78",
+        "group": "carts/socket",
+        "fault": "socket",
+        "target": "carts",
+        "choices": {
+          "change": "carts",
+          "resource": "carts",
+          "ml": "carts",
+          "compact": "orders",
+          "named": "carts",
+          "explained": "carts"
+        },
+        "probabilities": {
+          "compact": {
+            "carts": 0.18,
+            "session-db": 0.0,
+            "orders": 0.5,
+            "catalogue-db": 0.0,
+            "rabbitmq": 0.01,
+            "orders-db": 0.09,
+            "insufficient_evidence": 0.1,
+            "catalogue": 0.09,
+            "shipping": 0.0,
+            "user-db": 0.0,
+            "front-end": 0.0,
+            "payment": 0.0,
+            "carts-db": 0.01,
+            "user": 0.0,
+            "rabbitmq-exporter": 0.02,
+            "queue-master": 0.0
+          },
+          "named": {
+            "payment": 0.0,
+            "queue-master": 0.0,
+            "user-db": 0.0,
+            "front-end": 0.0,
+            "orders-db": 0.01,
+            "carts-db": 0.0,
+            "rabbitmq-exporter": 0.02,
+            "orders": 0.18000000000000002,
+            "user": 0.0,
+            "catalogue": 0.01,
+            "insufficient_evidence": 0.15,
+            "rabbitmq": 0.0,
+            "catalogue-db": 0.0,
+            "session-db": 0.0,
+            "carts": 0.63,
+            "shipping": 0.0
+          },
+          "explained": {
+            "orders-db": 0.02,
+            "carts-db": 0.0,
+            "catalogue": 0.03,
+            "payment": 0.0,
+            "session-db": 0.0,
+            "user": 0.0,
+            "carts": 0.66,
+            "rabbitmq": 0.0,
+            "orders": 0.16,
+            "insufficient_evidence": 0.11,
+            "front-end": 0.0,
+            "queue-master": 0.0,
+            "shipping": 0.0,
+            "catalogue-db": 0.0,
+            "user-db": 0.0,
+            "rabbitmq-exporter": 0.02
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.46,
+          "named": 0.59,
+          "explained": 0.62
+        }
+      },
+      {
+        "id": "FMT-1fc7315d302f",
+        "group": "carts/socket",
+        "fault": "socket",
+        "target": "carts",
+        "choices": {
+          "change": "carts",
+          "resource": "carts",
+          "ml": "carts",
+          "compact": "carts",
+          "named": "carts",
+          "explained": "carts"
+        },
+        "probabilities": {
+          "compact": {
+            "rabbitmq-exporter": 0.0,
+            "rabbitmq": 0.01,
+            "insufficient_evidence": 0.11,
+            "user": 0.0,
+            "front-end": 0.0,
+            "orders-db": 0.0,
+            "carts": 0.75,
+            "catalogue-db": 0.0,
+            "queue-master": 0.02,
+            "carts-db": 0.03,
+            "user-db": 0.04,
+            "orders": 0.02,
+            "session-db": 0.0,
+            "shipping": 0.0,
+            "catalogue": 0.02,
+            "payment": 0.0
+          },
+          "named": {
+            "orders-db": 0.0,
+            "payment": 0.0,
+            "rabbitmq": 0.0,
+            "shipping": 0.0,
+            "front-end": 0.0,
+            "user-db": 0.0,
+            "queue-master": 0.01,
+            "rabbitmq-exporter": 0.0,
+            "carts": 0.89,
+            "carts-db": 0.01,
+            "catalogue": 0.0,
+            "orders": 0.01,
+            "catalogue-db": 0.0,
+            "insufficient_evidence": 0.08,
+            "session-db": 0.0,
+            "user": 0.0
+          },
+          "explained": {
+            "carts": 0.87,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.07,
+            "catalogue-db": 0.0,
+            "rabbitmq": 0.0,
+            "orders-db": 0.0,
+            "orders": 0.01,
+            "catalogue": 0.01,
+            "shipping": 0.0,
+            "user-db": 0.0,
+            "front-end": 0.0,
+            "payment": 0.0,
+            "carts-db": 0.03,
+            "user": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.01
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.73,
+          "named": 0.88,
+          "explained": 0.85
+        }
+      },
+      {
+        "id": "FMT-f52193520338",
+        "group": "catalogue/delay",
+        "fault": "delay",
+        "target": "catalogue",
+        "choices": {
+          "change": "catalogue",
+          "resource": "catalogue",
+          "ml": "catalogue",
+          "compact": "catalogue",
+          "named": "catalogue",
+          "explained": "catalogue"
+        },
+        "probabilities": {
+          "compact": {
+            "session-db": 0.0,
+            "catalogue": 0.98,
+            "rabbitmq": 0.0,
+            "orders": 0.0,
+            "catalogue-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "user-db": 0.0,
+            "shipping": 0.0,
+            "queue-master": 0.0,
+            "front-end": 0.0,
+            "carts-db": 0.01,
+            "insufficient_evidence": 0.01,
+            "user": 0.0,
+            "orders-db": 0.0,
+            "payment": 0.0,
+            "carts": 0.0
+          },
+          "named": {
+            "rabbitmq": 0.0,
+            "payment": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "orders-db": 0.0,
+            "catalogue-db": 0.0,
+            "carts": 0.0,
+            "shipping": 0.0,
+            "carts-db": 0.01,
+            "front-end": 0.0,
+            "user": 0.0,
+            "user-db": 0.0,
+            "insufficient_evidence": 0.02,
+            "orders": 0.0,
+            "catalogue": 0.97,
+            "session-db": 0.0,
+            "queue-master": 0.0
+          },
+          "explained": {
+            "payment": 0.0,
+            "orders-db": 0.0,
+            "user": 0.0,
+            "catalogue": 0.97,
+            "queue-master": 0.0,
+            "catalogue-db": 0.0,
+            "insufficient_evidence": 0.01,
+            "carts-db": 0.02,
+            "user-db": 0.0,
+            "front-end": 0.0,
+            "rabbitmq": 0.0,
+            "orders": 0.0,
+            "carts": 0.0,
+            "shipping": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "session-db": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.98,
+          "named": 0.96,
+          "explained": 0.96
+        }
+      },
+      {
+        "id": "FMT-cd38dda759a6",
+        "group": "catalogue/delay",
+        "fault": "delay",
+        "target": "catalogue",
+        "choices": {
+          "change": "catalogue",
+          "resource": "catalogue",
+          "ml": "catalogue",
+          "compact": "catalogue",
+          "named": "catalogue",
+          "explained": "catalogue"
+        },
+        "probabilities": {
+          "compact": {
+            "shipping": 0.0,
+            "rabbitmq": 0.0,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.01,
+            "orders": 0.0,
+            "user": 0.0,
+            "front-end": 0.0,
+            "orders-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "catalogue": 0.98,
+            "carts-db": 0.0,
+            "carts": 0.0,
+            "payment": 0.0,
+            "queue-master": 0.0,
+            "catalogue-db": 0.01,
+            "user-db": 0.0
+          },
+          "named": {
+            "shipping": 0.0,
+            "rabbitmq": 0.0,
+            "session-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "orders": 0.0,
+            "user": 0.0,
+            "front-end": 0.01,
+            "catalogue": 0.97,
+            "insufficient_evidence": 0.02,
+            "orders-db": 0.0,
+            "carts-db": 0.0,
+            "catalogue-db": 0.0,
+            "payment": 0.0,
+            "queue-master": 0.0,
+            "carts": 0.0,
+            "user-db": 0.0
+          },
+          "explained": {
+            "orders": 0.0,
+            "catalogue-db": 0.0,
+            "user": 0.0,
+            "carts-db": 0.0,
+            "shipping": 0.0,
+            "orders-db": 0.0,
+            "carts": 0.0,
+            "rabbitmq": 0.0,
+            "user-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "front-end": 0.01,
+            "session-db": 0.0,
+            "queue-master": 0.0,
+            "catalogue": 0.97,
+            "insufficient_evidence": 0.02,
+            "payment": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.97,
+          "named": 0.96,
+          "explained": 0.96
+        }
+      },
+      {
+        "id": "FMT-1c26d3422bdf",
+        "group": "catalogue/delay",
+        "fault": "delay",
+        "target": "catalogue",
+        "choices": {
+          "change": "catalogue",
+          "resource": "catalogue",
+          "ml": "catalogue",
+          "compact": "catalogue",
+          "named": "catalogue",
+          "explained": "catalogue"
+        },
+        "probabilities": {
+          "compact": {
+            "user-db": 0.0,
+            "orders": 0.0,
+            "orders-db": 0.0,
+            "insufficient_evidence": 0.01,
+            "carts": 0.0,
+            "session-db": 0.0,
+            "carts-db": 0.0,
+            "catalogue-db": 0.0,
+            "queue-master": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "user": 0.0,
+            "catalogue": 0.99,
+            "front-end": 0.0,
+            "shipping": 0.0,
+            "rabbitmq": 0.0,
+            "payment": 0.0
+          },
+          "named": {
+            "payment": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.02,
+            "user-db": 0.0,
+            "orders-db": 0.0,
+            "orders": 0.0,
+            "user": 0.0,
+            "queue-master": 0.0,
+            "front-end": 0.01,
+            "rabbitmq": 0.0,
+            "carts-db": 0.0,
+            "shipping": 0.0,
+            "carts": 0.0,
+            "catalogue-db": 0.0,
+            "catalogue": 0.97
+          },
+          "explained": {
+            "carts-db": 0.0,
+            "catalogue-db": 0.0,
+            "user": 0.0,
+            "orders": 0.0,
+            "shipping": 0.0,
+            "orders-db": 0.0,
+            "carts": 0.0,
+            "rabbitmq": 0.0,
+            "user-db": 0.0,
+            "session-db": 0.0,
+            "front-end": 0.01,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.0,
+            "catalogue": 0.97,
+            "insufficient_evidence": 0.02,
+            "payment": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.99,
+          "named": 0.96,
+          "explained": 0.97
+        }
+      },
+      {
+        "id": "FMT-2c481ec2aefb",
+        "group": "orders/disk",
+        "fault": "disk",
+        "target": "orders",
+        "choices": {
+          "change": "orders",
+          "resource": "user",
+          "ml": "shipping",
+          "compact": "shipping",
+          "named": "shipping",
+          "explained": "shipping"
+        },
+        "probabilities": {
+          "compact": {
+            "orders-db": 0.02,
+            "queue-master": 0.05,
+            "orders": 0.19,
+            "payment": 0.0,
+            "carts": 0.08,
+            "shipping": 0.27,
+            "user": 0.05,
+            "user-db": 0.02,
+            "insufficient_evidence": 0.16,
+            "front-end": 0.12,
+            "rabbitmq-exporter": 0.0,
+            "session-db": 0.0,
+            "rabbitmq": 0.02,
+            "catalogue-db": 0.0,
+            "carts-db": 0.01,
+            "catalogue": 0.01
+          },
+          "named": {
+            "orders-db": 0.01,
+            "payment": 0.01,
+            "rabbitmq": 0.02,
+            "shipping": 0.26,
+            "front-end": 0.2,
+            "user-db": 0.0,
+            "queue-master": 0.06,
+            "rabbitmq-exporter": 0.01,
+            "carts": 0.11,
+            "carts-db": 0.01,
+            "catalogue": 0.01,
+            "orders": 0.07,
+            "session-db": 0.0,
+            "user": 0.01,
+            "insufficient_evidence": 0.22,
+            "catalogue-db": 0.0
+          },
+          "explained": {
+            "catalogue-db": 0.0,
+            "payment": 0.0,
+            "user": 0.01,
+            "user-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "front-end": 0.14,
+            "orders": 0.09,
+            "orders-db": 0.0,
+            "catalogue": 0.0,
+            "rabbitmq": 0.01,
+            "carts": 0.07,
+            "queue-master": 0.06,
+            "shipping": 0.43,
+            "session-db": 0.0,
+            "carts-db": 0.02,
+            "insufficient_evidence": 0.17
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.21,
+          "named": 0.21,
+          "explained": 0.38
+        }
+      },
+      {
+        "id": "FMT-1ce8546ab3c5",
+        "group": "orders/disk",
+        "fault": "disk",
+        "target": "orders",
+        "choices": {
+          "change": "orders-db",
+          "resource": "orders-db",
+          "ml": "user",
+          "compact": "orders-db",
+          "named": "insufficient_evidence",
+          "explained": "carts-db"
+        },
+        "probabilities": {
+          "compact": {
+            "orders": 0.07,
+            "catalogue-db": 0.0,
+            "user": 0.02,
+            "carts-db": 0.05,
+            "shipping": 0.03,
+            "orders-db": 0.3,
+            "carts": 0.13,
+            "rabbitmq": 0.01,
+            "user-db": 0.01,
+            "session-db": 0.0,
+            "front-end": 0.14,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.02,
+            "insufficient_evidence": 0.19,
+            "catalogue": 0.0,
+            "payment": 0.03
+          },
+          "named": {
+            "user-db": 0.01,
+            "orders-db": 0.15,
+            "user": 0.02,
+            "rabbitmq": 0.01,
+            "catalogue": 0.0,
+            "carts": 0.03,
+            "session-db": 0.0,
+            "front-end": 0.22,
+            "carts-db": 0.11,
+            "queue-master": 0.02,
+            "insufficient_evidence": 0.24,
+            "orders": 0.11,
+            "rabbitmq-exporter": 0.0,
+            "payment": 0.02,
+            "catalogue-db": 0.0,
+            "shipping": 0.06
+          },
+          "explained": {
+            "orders-db": 0.16,
+            "rabbitmq-exporter": 0.0,
+            "orders": 0.06,
+            "queue-master": 0.01,
+            "insufficient_evidence": 0.12,
+            "user-db": 0.01,
+            "carts-db": 0.22,
+            "rabbitmq": 0.02,
+            "front-end": 0.1,
+            "user": 0.01,
+            "session-db": 0.0,
+            "payment": 0.01,
+            "shipping": 0.1,
+            "carts": 0.18000000000000002,
+            "catalogue-db": 0.0,
+            "catalogue": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.24,
+          "named": 0.18,
+          "explained": 0.16
+        }
+      },
+      {
+        "id": "FMT-f80611c617c8",
+        "group": "orders/disk",
+        "fault": "disk",
+        "target": "orders",
+        "choices": {
+          "change": "orders",
+          "resource": "orders",
+          "ml": "orders",
+          "compact": "orders",
+          "named": "orders",
+          "explained": "orders"
+        },
+        "probabilities": {
+          "compact": {
+            "shipping": 0.0,
+            "queue-master": 0.0,
+            "carts-db": 0.0,
+            "orders-db": 0.0,
+            "catalogue-db": 0.0,
+            "payment": 0.0303030303030303,
+            "user-db": 0.0,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.0909090909090909,
+            "rabbitmq-exporter": 0.0,
+            "catalogue": 0.0,
+            "carts": 0.050505050505050504,
+            "front-end": 0.0,
+            "user": 0.0,
+            "orders": 0.8282828282828283,
+            "rabbitmq": 0.0
+          },
+          "named": {
+            "insufficient_evidence": 0.0909090909090909,
+            "rabbitmq": 0.0,
+            "orders": 0.8181818181818181,
+            "catalogue": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "session-db": 0.0,
+            "orders-db": 0.0,
+            "queue-master": 0.0101010101010101,
+            "user-db": 0.0,
+            "shipping": 0.0,
+            "carts-db": 0.0202020202020202,
+            "catalogue-db": 0.0,
+            "front-end": 0.0,
+            "payment": 0.0,
+            "user": 0.0,
+            "carts": 0.0606060606060606
+          },
+          "explained": {
+            "shipping": 0.0,
+            "queue-master": 0.0,
+            "carts-db": 0.01,
+            "orders-db": 0.0,
+            "catalogue-db": 0.0,
+            "payment": 0.0,
+            "insufficient_evidence": 0.05,
+            "session-db": 0.0,
+            "user-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "catalogue": 0.0,
+            "carts": 0.060000000000000005,
+            "front-end": 0.0,
+            "user": 0.0,
+            "orders": 0.88,
+            "rabbitmq": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.79,
+          "named": 0.79,
+          "explained": 0.86
+        }
+      },
+      {
+        "id": "FMT-c161e1ce9d91",
+        "group": "payment/loss",
+        "fault": "loss",
+        "target": "payment",
+        "choices": {
+          "change": "orders",
+          "resource": "payment",
+          "ml": "payment",
+          "compact": "payment",
+          "named": "payment",
+          "explained": "payment"
+        },
+        "probabilities": {
+          "compact": {
+            "orders": 0.02,
+            "user-db": 0.0,
+            "payment": 0.87,
+            "rabbitmq-exporter": 0.0,
+            "front-end": 0.01,
+            "orders-db": 0.02,
+            "session-db": 0.0,
+            "queue-master": 0.01,
+            "carts": 0.0,
+            "catalogue": 0.0,
+            "user": 0.0,
+            "rabbitmq": 0.0,
+            "catalogue-db": 0.0,
+            "shipping": 0.01,
+            "carts-db": 0.0,
+            "insufficient_evidence": 0.06
+          },
+          "named": {
+            "payment": 0.83,
+            "rabbitmq-exporter": 0.0,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.06,
+            "user-db": 0.0,
+            "orders-db": 0.0,
+            "orders": 0.05,
+            "user": 0.0,
+            "queue-master": 0.0,
+            "front-end": 0.03,
+            "rabbitmq": 0.0,
+            "carts-db": 0.0,
+            "shipping": 0.01,
+            "carts": 0.02,
+            "catalogue-db": 0.0,
+            "catalogue": 0.0
+          },
+          "explained": {
+            "queue-master": 0.01,
+            "session-db": 0.0,
+            "payment": 0.87,
+            "rabbitmq-exporter": 0.0,
+            "rabbitmq": 0.0,
+            "catalogue-db": 0.0,
+            "orders-db": 0.01,
+            "shipping": 0.01,
+            "carts": 0.01,
+            "user": 0.0,
+            "user-db": 0.0,
+            "orders": 0.04,
+            "catalogue": 0.0,
+            "front-end": 0.01,
+            "insufficient_evidence": 0.04,
+            "carts-db": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.86,
+          "named": 0.81,
+          "explained": 0.86
+        }
+      },
+      {
+        "id": "FMT-10b772fdf90e",
+        "group": "payment/loss",
+        "fault": "loss",
+        "target": "payment",
+        "choices": {
+          "change": "payment",
+          "resource": "payment",
+          "ml": "payment",
+          "compact": "payment",
+          "named": "payment",
+          "explained": "payment"
+        },
+        "probabilities": {
+          "compact": {
+            "rabbitmq": 0.0,
+            "payment": 0.98,
+            "queue-master": 0.0,
+            "orders-db": 0.0,
+            "catalogue-db": 0.0,
+            "carts": 0.0,
+            "shipping": 0.0,
+            "carts-db": 0.0,
+            "front-end": 0.0,
+            "insufficient_evidence": 0.02,
+            "user-db": 0.0,
+            "user": 0.0,
+            "orders": 0.0,
+            "catalogue": 0.0,
+            "session-db": 0.0,
+            "rabbitmq-exporter": 0.0
+          },
+          "named": {
+            "payment": 0.95,
+            "carts-db": 0.0,
+            "session-db": 0.0,
+            "user": 0.0,
+            "queue-master": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "orders-db": 0.0,
+            "user-db": 0.0,
+            "catalogue": 0.0,
+            "rabbitmq": 0.0,
+            "insufficient_evidence": 0.05,
+            "front-end": 0.0,
+            "orders": 0.0,
+            "shipping": 0.0,
+            "catalogue-db": 0.0,
+            "carts": 0.0
+          },
+          "explained": {
+            "orders-db": 0.0,
+            "rabbitmq": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.0,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.03,
+            "front-end": 0.0,
+            "user": 0.0,
+            "carts-db": 0.0,
+            "catalogue": 0.0,
+            "catalogue-db": 0.0,
+            "carts": 0.0,
+            "orders": 0.0,
+            "shipping": 0.0,
+            "payment": 0.97,
+            "user-db": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.97,
+          "named": 0.93,
+          "explained": 0.95
+        }
+      },
+      {
+        "id": "FMT-107547061ee3",
+        "group": "payment/loss",
+        "fault": "loss",
+        "target": "payment",
+        "choices": {
+          "change": "orders",
+          "resource": "payment",
+          "ml": "payment",
+          "compact": "payment",
+          "named": "payment",
+          "explained": "payment"
+        },
+        "probabilities": {
+          "compact": {
+            "carts-db": 0.0,
+            "payment": 0.87,
+            "insufficient_evidence": 0.02,
+            "orders-db": 0.0,
+            "front-end": 0.0,
+            "orders": 0.11,
+            "user": 0.0,
+            "shipping": 0.0,
+            "carts": 0.0,
+            "queue-master": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "rabbitmq": 0.0,
+            "catalogue": 0.0,
+            "user-db": 0.0,
+            "session-db": 0.0,
+            "catalogue-db": 0.0
+          },
+          "named": {
+            "carts-db": 0.0,
+            "catalogue-db": 0.0,
+            "user": 0.0,
+            "orders": 0.1,
+            "shipping": 0.0,
+            "orders-db": 0.0,
+            "carts": 0.0,
+            "rabbitmq": 0.0,
+            "user-db": 0.0,
+            "session-db": 0.0,
+            "front-end": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.0,
+            "insufficient_evidence": 0.03,
+            "catalogue": 0.0,
+            "payment": 0.87
+          },
+          "explained": {
+            "orders": 0.05,
+            "session-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "payment": 0.93,
+            "catalogue-db": 0.0,
+            "user": 0.0,
+            "rabbitmq": 0.0,
+            "orders-db": 0.0,
+            "insufficient_evidence": 0.02,
+            "shipping": 0.0,
+            "carts-db": 0.0,
+            "front-end": 0.0,
+            "catalogue": 0.0,
+            "queue-master": 0.0,
+            "carts": 0.0,
+            "user-db": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.85,
+          "named": 0.85,
+          "explained": 0.91
+        }
+      },
+      {
+        "id": "FMT-5dac0cd3c5f4",
+        "group": "user/mem",
+        "fault": "mem",
+        "target": "user",
+        "choices": {
+          "change": "user",
+          "resource": "user",
+          "ml": "user",
+          "compact": "user",
+          "named": "user",
+          "explained": "user"
+        },
+        "probabilities": {
+          "compact": {
+            "user-db": 0.06,
+            "orders": 0.01,
+            "front-end": 0.0,
+            "payment": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "orders-db": 0.0,
+            "session-db": 0.0,
+            "queue-master": 0.0,
+            "carts": 0.0,
+            "catalogue": 0.0,
+            "user": 0.9,
+            "rabbitmq": 0.0,
+            "shipping": 0.0,
+            "catalogue-db": 0.0,
+            "carts-db": 0.0,
+            "insufficient_evidence": 0.03
+          },
+          "named": {
+            "rabbitmq-exporter": 0.0,
+            "session-db": 0.0,
+            "orders": 0.01,
+            "user": 0.77,
+            "catalogue-db": 0.0,
+            "payment": 0.0,
+            "rabbitmq": 0.0,
+            "shipping": 0.0,
+            "insufficient_evidence": 0.12,
+            "orders-db": 0.0,
+            "carts-db": 0.01,
+            "front-end": 0.01,
+            "catalogue": 0.0,
+            "queue-master": 0.0,
+            "carts": 0.02,
+            "user-db": 0.06
+          },
+          "explained": {
+            "queue-master": 0.0,
+            "payment": 0.0,
+            "orders-db": 0.0,
+            "shipping": 0.0,
+            "carts-db": 0.0,
+            "user-db": 0.0707070707070707,
+            "orders": 0.0303030303030303,
+            "rabbitmq": 0.0,
+            "session-db": 0.0,
+            "user": 0.8080808080808081,
+            "insufficient_evidence": 0.0707070707070707,
+            "catalogue-db": 0.0,
+            "catalogue": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "front-end": 0.0101010101010101,
+            "carts": 0.0101010101010101
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.89,
+          "named": 0.75,
+          "explained": 0.78
+        }
+      },
+      {
+        "id": "FMT-a84a90545dac",
+        "group": "user/mem",
+        "fault": "mem",
+        "target": "user",
+        "choices": {
+          "change": "user",
+          "resource": "user",
+          "ml": "user",
+          "compact": "user",
+          "named": "user",
+          "explained": "user"
+        },
+        "probabilities": {
+          "compact": {
+            "orders-db": 0.0,
+            "payment": 0.0,
+            "rabbitmq": 0.0,
+            "shipping": 0.0,
+            "front-end": 0.02,
+            "user-db": 0.01,
+            "queue-master": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "carts": 0.0,
+            "carts-db": 0.0,
+            "catalogue": 0.0,
+            "orders": 0.01,
+            "catalogue-db": 0.0,
+            "user": 0.92,
+            "insufficient_evidence": 0.04,
+            "session-db": 0.0
+          },
+          "named": {
+            "carts": 0.0,
+            "session-db": 0.0,
+            "orders": 0.060000000000000005,
+            "catalogue-db": 0.0,
+            "rabbitmq": 0.0,
+            "orders-db": 0.0,
+            "insufficient_evidence": 0.12,
+            "catalogue": 0.0,
+            "shipping": 0.0,
+            "user-db": 0.02,
+            "front-end": 0.02,
+            "payment": 0.0,
+            "carts-db": 0.0,
+            "user": 0.78,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.0
+          },
+          "explained": {
+            "shipping": 0.0,
+            "rabbitmq": 0.0101010101010101,
+            "session-db": 0.0,
+            "insufficient_evidence": 0.0606060606060606,
+            "orders": 0.0404040404040404,
+            "user": 0.8181818181818181,
+            "front-end": 0.0202020202020202,
+            "orders-db": 0.0101010101010101,
+            "rabbitmq-exporter": 0.0,
+            "catalogue": 0.0,
+            "carts-db": 0.0101010101010101,
+            "carts": 0.0,
+            "queue-master": 0.0,
+            "catalogue-db": 0.0,
+            "payment": 0.0,
+            "user-db": 0.0303030303030303
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.91,
+          "named": 0.76,
+          "explained": 0.8
+        }
+      },
+      {
+        "id": "FMT-8070789451ec",
+        "group": "user/mem",
+        "fault": "mem",
+        "target": "user",
+        "choices": {
+          "change": "user",
+          "resource": "user",
+          "ml": "user",
+          "compact": "user",
+          "named": "user",
+          "explained": "user"
+        },
+        "probabilities": {
+          "compact": {
+            "orders-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.0,
+            "orders": 0.0,
+            "insufficient_evidence": 0.03,
+            "user-db": 0.0,
+            "rabbitmq": 0.0,
+            "carts-db": 0.0,
+            "front-end": 0.01,
+            "session-db": 0.0,
+            "user": 0.96,
+            "payment": 0.0,
+            "shipping": 0.0,
+            "carts": 0.0,
+            "catalogue-db": 0.0,
+            "catalogue": 0.0
+          },
+          "named": {
+            "orders-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "queue-master": 0.0,
+            "orders": 0.01,
+            "user-db": 0.0,
+            "insufficient_evidence": 0.07,
+            "rabbitmq": 0.0,
+            "carts-db": 0.02,
+            "front-end": 0.04,
+            "user": 0.85,
+            "session-db": 0.0,
+            "payment": 0.0,
+            "shipping": 0.0,
+            "carts": 0.01,
+            "catalogue-db": 0.0,
+            "catalogue": 0.0
+          },
+          "explained": {
+            "session-db": 0.0,
+            "catalogue": 0.0,
+            "catalogue-db": 0.0,
+            "orders": 0.0,
+            "rabbitmq": 0.0,
+            "user-db": 0.0,
+            "rabbitmq-exporter": 0.0,
+            "shipping": 0.0,
+            "carts-db": 0.01,
+            "queue-master": 0.0,
+            "front-end": 0.04,
+            "insufficient_evidence": 0.060000000000000005,
+            "user": 0.89,
+            "orders-db": 0.0,
+            "payment": 0.0,
+            "carts": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.95,
+          "named": 0.83,
+          "explained": 0.88
+        }
+      }
+    ],
+    "comparisons": {
+      "named_vs_compact": {
+        "fixes": [
+          "FMT-dff737ef5d78"
+        ],
+        "regressions": [],
+        "changed_choices": [
+          "FMT-dff737ef5d78",
+          "FMT-1ce8546ab3c5"
+        ]
+      },
+      "explained_vs_named": {
+        "fixes": [],
+        "regressions": [],
+        "changed_choices": [
+          "FMT-1ce8546ab3c5"
+        ]
+      },
+      "explained_vs_compact": {
+        "fixes": [
+          "FMT-dff737ef5d78"
+        ],
+        "regressions": [],
+        "changed_choices": [
+          "FMT-dff737ef5d78",
+          "FMT-1ce8546ab3c5"
+        ]
+      },
+      "explained_vs_ml": {
+        "fixes": [],
+        "regressions": [],
+        "changed_choices": [
+          "FMT-1ce8546ab3c5"
+        ]
+      },
+      "explained_vs_change": {
+        "fixes": [
+          "FMT-c161e1ce9d91",
+          "FMT-107547061ee3"
+        ],
+        "regressions": [
+          "FMT-2c481ec2aefb"
+        ],
+        "changed_choices": [
+          "FMT-2c481ec2aefb",
+          "FMT-1ce8546ab3c5",
+          "FMT-c161e1ce9d91",
+          "FMT-107547061ee3"
+        ]
+      }
+    },
+    "curves": {
+      "compact": [
+        {
+          "threshold": 0.5,
+          "suggestions": 16,
+          "wrong": 1,
+          "review": 2,
+          "groups": 6
+        },
+        {
+          "threshold": 0.6,
+          "suggestions": 13,
+          "wrong": 0,
+          "review": 5,
+          "groups": 6
+        },
+        {
+          "threshold": 0.7,
+          "suggestions": 13,
+          "wrong": 0,
+          "review": 5,
+          "groups": 6
+        },
+        {
+          "threshold": 0.8,
+          "suggestions": 12,
+          "wrong": 0,
+          "review": 6,
+          "groups": 5
+        },
+        {
+          "threshold": 0.9,
+          "suggestions": 7,
+          "wrong": 0,
+          "review": 11,
+          "groups": 3
+        },
+        {
+          "threshold": 0.95,
+          "suggestions": 5,
+          "wrong": 0,
+          "review": 13,
+          "groups": 3
+        },
+        {
+          "threshold": 0.99,
+          "suggestions": 1,
+          "wrong": 0,
+          "review": 17,
+          "groups": 1
+        },
+        {
+          "threshold": 1.0,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 18,
+          "groups": 0
+        }
+      ],
+      "named": [
+        {
+          "threshold": 0.5,
+          "suggestions": 16,
+          "wrong": 0,
+          "review": 2,
+          "groups": 6
+        },
+        {
+          "threshold": 0.6,
+          "suggestions": 15,
+          "wrong": 0,
+          "review": 3,
+          "groups": 6
+        },
+        {
+          "threshold": 0.7,
+          "suggestions": 14,
+          "wrong": 0,
+          "review": 4,
+          "groups": 6
+        },
+        {
+          "threshold": 0.8,
+          "suggestions": 12,
+          "wrong": 0,
+          "review": 6,
+          "groups": 6
+        },
+        {
+          "threshold": 0.9,
+          "suggestions": 4,
+          "wrong": 0,
+          "review": 14,
+          "groups": 2
+        },
+        {
+          "threshold": 0.95,
+          "suggestions": 4,
+          "wrong": 0,
+          "review": 14,
+          "groups": 2
+        },
+        {
+          "threshold": 0.99,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 18,
+          "groups": 0
+        },
+        {
+          "threshold": 1.0,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 18,
+          "groups": 0
+        }
+      ],
+      "explained": [
+        {
+          "threshold": 0.5,
+          "suggestions": 16,
+          "wrong": 0,
+          "review": 2,
+          "groups": 6
+        },
+        {
+          "threshold": 0.6,
+          "suggestions": 16,
+          "wrong": 0,
+          "review": 2,
+          "groups": 6
+        },
+        {
+          "threshold": 0.7,
+          "suggestions": 14,
+          "wrong": 0,
+          "review": 4,
+          "groups": 6
+        },
+        {
+          "threshold": 0.8,
+          "suggestions": 14,
+          "wrong": 0,
+          "review": 4,
+          "groups": 6
+        },
+        {
+          "threshold": 0.9,
+          "suggestions": 6,
+          "wrong": 0,
+          "review": 12,
+          "groups": 3
+        },
+        {
+          "threshold": 0.95,
+          "suggestions": 4,
+          "wrong": 0,
+          "review": 14,
+          "groups": 2
+        },
+        {
+          "threshold": 0.99,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 18,
+          "groups": 0
+        },
+        {
+          "threshold": 1.0,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 18,
+          "groups": 0
+        }
+      ]
+    },
+    "failed_or_missing": 0,
+    "latency": {
+      "compact": {
+        "median_ms": 153.4700000047451,
+        "p95_ms": 281.61804101546295
+      },
+      "named": {
+        "median_ms": 173.07637449994218,
+        "p95_ms": 286.87245899345726
+      },
+      "explained": {
+        "median_ms": 172.61116701411083,
+        "p95_ms": 235.65462499391288
+      }
+    },
+    "usage": {
+      "compact": {
+        "input_tokens": 71273,
+        "output_tokens": 2802
+      },
+      "named": {
+        "input_tokens": 97809,
+        "output_tokens": 2808
+      },
+      "explained": {
+        "input_tokens": 104401,
+        "output_tokens": 2804
+      }
+    },
+    "evidence": {
+      "protocol": "429d54786da408f98d266fed6029315eb7828dcd414a03a7eff1bfdfcfcc387a",
+      "hosted_summary": "bc73f058e3462ed12a193fc05ba777058d7948cd47e54ea379528d294d03239b"
+    }
+  },
+  "meaning": "Research display thresholds only. All recommendations require analyst review."
+}

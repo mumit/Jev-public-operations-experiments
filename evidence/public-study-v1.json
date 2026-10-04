@@ -1,0 +1,1398 @@
+{
+  "schema": "public-study-evidence-1",
+  "archive": "public-study-v1.tar.gz",
+  "archive_sha256": "fffaf47d9c590064a97b0c65aadf9877d1f08a28e65b2c0a8ce65d71ee63d8a3",
+  "bytes": 47605226,
+  "source_commit": "2102ccb53793a2d797e3af4069518be82b3a139b",
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "files": {
+    "runs/public-data/input-format-2026-10-03-v1/assignments.json": {
+      "bytes": 12129,
+      "sha256": "eae87c3a26ae1f15b6c6c94bf69b15e2f6df7ed2b3b0a63427745ef6b313a2f4"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/calibration.inputs.json": {
+      "bytes": 205501,
+      "sha256": "8ece9051fe13f7b71288130fc4132445bff84bcf0c72bddd9b4013b90a99474c"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/calibration.references.json": {
+      "bytes": 2007,
+      "sha256": "818b77b848559308ceb850578ba30ffe374b5a589e31f97a5a4446b73f631e45"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/development.inputs.json": {
+      "bytes": 261228,
+      "sha256": "bd876a341626ee3f98ea338baf0a317bd8b2ed3abb1d55eb6f3c04e318ea4958"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/development.references.json": {
+      "bytes": 3171,
+      "sha256": "e0f6409fe2f234af398e193bb6bb7377c2d1a85ac42987bd6abcbd158f7e384a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/evaluation.inputs.json": {
+      "bytes": 410476,
+      "sha256": "fb22b65d7b42ac406fd76f676d3f44804a91a15bdbfee4070aced76afc73dbed"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/evaluation.references.json": {
+      "bytes": 4041,
+      "sha256": "eeaa9494af33cc24488c34f5507822c98deec4280692952e4a4a962d50168965"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/manifest.json": {
+      "bytes": 29530,
+      "sha256": "d95e5297f781ca7508c8b1d6546862bd085f9fad2d540b3bf3ef987335596402"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-0320c9b146eb/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c22a2011632bc832996c7855f3ec83597a5407f3033457bbfb718b75ac872283"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-0320c9b146eb/metrics.parquet": {
+      "bytes": 173388,
+      "sha256": "bbcf79d5791d8efa3d999b04d2da236e81f1262e8f9ee4b57b403f3ff302bd30"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-064f8949c05a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9a23fe7a2739d6e7adfd0b24eace49ca5c2b617e75b14e2b17480e43e915cb5e"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-064f8949c05a/metrics.parquet": {
+      "bytes": 167902,
+      "sha256": "13d067f4d128ac64a949744dc4f6363bf517651f91d7333d46132fc9f1ac7d5f"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-0794fee4f8b8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "eb00959e4071b4df9cf1540f6bd9de3411e0ec4bf217e8aa5fb5f2c7b354827c"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-0794fee4f8b8/metrics.parquet": {
+      "bytes": 169209,
+      "sha256": "f86c9782e7efecc781ab42c1581bc6882588307c1afa9d96088801d7266f5d0e"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-0a008a76082a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fad7e6196b6f5081dcec6533f82c6126ee56fe7e28474f9e8775b11bf759990e"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-0a008a76082a/metrics.parquet": {
+      "bytes": 165898,
+      "sha256": "e994f36632845a3f4e277c92e22ff895dd2575656192d94807c1408b7d68e65a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-107547061ee3/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7d139ac2ab161cc2132d351995e745fb562b29809d6b04cacfc32b1845095f20"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-107547061ee3/metrics.parquet": {
+      "bytes": 166806,
+      "sha256": "6e7a1b1e098389c5f6f0486207fd146cf7b5396639173c06aab5ea517f32900c"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-10b772fdf90e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e83c43a01722262cc7e63047a6bd883e81637c8c0e69120b6b42c2c37fee35bb"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-10b772fdf90e/metrics.parquet": {
+      "bytes": 164255,
+      "sha256": "8a6f0243d11a286f4085778dd81457118e5986a5c765b2ef9d99be7eefe828f9"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-15700773fde2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d6d4759e756897afc3ab3ac3ce38bd10d3b46730f7c959fd6f3f0d147cd5a7a8"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-15700773fde2/metrics.parquet": {
+      "bytes": 157871,
+      "sha256": "0264e014c6f2e9716c2df98addf6ecae2ececb56f69f056bcee3bf1ee548d9a7"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1735bd7168ff/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "65c7c87148dc187009faa4882f804e702428f0819b309741608d5b1a3f777d5b"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1735bd7168ff/metrics.parquet": {
+      "bytes": 179443,
+      "sha256": "a396c62384a6b2d9f6ce18e1856e0b96117b435d678ddcef4879dd6268e4a524"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1c26d3422bdf/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3ee4ef26ee5cf429892b4f37e692e6e69a52da7c346eb6b977fa55a0d51a8a01"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1c26d3422bdf/metrics.parquet": {
+      "bytes": 175716,
+      "sha256": "d8a5b4fb19196da7ec02e533a4e8b84a857832185c6969057f3c67d042271ebe"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1ce8546ab3c5/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e6e094030d0cda97a268557dd3d2c4a6a2fb814070ed4de8244c33f54e9569ae"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1ce8546ab3c5/metrics.parquet": {
+      "bytes": 180022,
+      "sha256": "1ca2a9a4f1e9b296a242fb8db460a2bf59cd40a8e056f22b5c6de4ad5925e685"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1fc7315d302f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "42a6c87a3e11f0b9d8edef2d63453eb183fa6da5c54bca0f82af213e97b38d20"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1fc7315d302f/metrics.parquet": {
+      "bytes": 164594,
+      "sha256": "e07cd6e54b8f7e794879ff236d6e37e4b55d2d3521aa8006b81ade6a8e0b73be"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1fd5c3468617/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1dc08248bad7bec130e72699df9f390f53cf0b335f8cfbf1b19310d8ef880240"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-1fd5c3468617/metrics.parquet": {
+      "bytes": 166278,
+      "sha256": "aaeec67b570e73d4c596eb5b91f9d3795b9effcd8da25e78108d3c46de5cca3a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-213252fb43b8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9961bc301618363a3bb8c7e38c85bbbbd0df6b2288d93dc6ebf9730e7a149a10"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-213252fb43b8/metrics.parquet": {
+      "bytes": 162643,
+      "sha256": "4eebb210195a64bb65f02c0655fabf341f0de30fb83a3e9fdd822c8aa9b254ce"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-24bf9c6ee0c1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "535c4aba1ca43260455f76da3d51bbac5a1086ce7f681ddfab62196932b05cfd"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-24bf9c6ee0c1/metrics.parquet": {
+      "bytes": 166534,
+      "sha256": "2d5fc2e2775df334161147578d7e3064d689f86c81625d31ae3510eabb141979"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-2c481ec2aefb/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b1c46c258a60fc247cfb2cbe78257c5924aebc4f669488a3e19703efee92aa0c"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-2c481ec2aefb/metrics.parquet": {
+      "bytes": 180973,
+      "sha256": "f2563901c968f33b7af328701c6bd4ca65a5ac9398862ea519836962bf9cd15a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-49b5cf388bb3/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1c5902d2015ad3517db697198e9d795b105889b7b3c9eb3d720860d9ce0468cf"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-49b5cf388bb3/metrics.parquet": {
+      "bytes": 162553,
+      "sha256": "15decea2a3b185311a64e73957fa9581bec019e5ee3e1cd7c02ecedcaa9fa73a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-4d28515b0bce/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5121fac8647a74d81625c334e4e7b841f1a4cbd6c810444f533f8cd1854324e9"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-4d28515b0bce/metrics.parquet": {
+      "bytes": 161371,
+      "sha256": "529070cd91ec1436f37ecaf14568623f3b76fb269212be66505b2aeca3e1d5ee"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-4f54e133f043/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e0557128667e6a2869dc800ad7dc66a88b912428eb0f37c829483372b894ccd0"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-4f54e133f043/metrics.parquet": {
+      "bytes": 161890,
+      "sha256": "d146edf638fd59f267c639773bc42c6da42fe9d4a6311135ef0e6ec9577ad721"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-52f9bce34b8f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9a5b29901a88a6ee89eb8c7e06d7a6b119dbd0ad43c504161a6bf8a65f25ebc9"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-52f9bce34b8f/metrics.parquet": {
+      "bytes": 161547,
+      "sha256": "292a6bf4a4c4804ed5896591f121075d4ccc80ebbb79df642c2e98ee44783fdc"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-5bb70564df05/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "26d3ba537c2c88ce14a2d9f995148f96dc57ec11898f3a895c1680000974144b"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-5bb70564df05/metrics.parquet": {
+      "bytes": 169085,
+      "sha256": "271524c44320a953384f0a538ef9b3df76e4d1860672b64cb229c9e72e4aa5bf"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-5dac0cd3c5f4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f04ac701097cb88e6176bde8fa965c399e1fb5a9ecefc0dc4cab6369100ff75b"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-5dac0cd3c5f4/metrics.parquet": {
+      "bytes": 166001,
+      "sha256": "9d3699ead96fc022eabcd23200566024a82aa4b76f642ab85bd4bf64c2fd3bc5"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-5f82975d89b7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3fd6917e0e99df4dca61c0e1a46a142ed3663cdedf0687b2aa83106598840862"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-5f82975d89b7/metrics.parquet": {
+      "bytes": 159665,
+      "sha256": "f51a39a9925c881daf517b2100e5f3b3e6f44fb8174e16a8e784120557f3ae8a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-6219200c5423/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0927913026f986ebfbfb480119da3fd77fb598231fb2ab980ca4c6f7dcb53510"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-6219200c5423/metrics.parquet": {
+      "bytes": 163574,
+      "sha256": "46c4fe0fe75deb3d207dbd8da4a4d89b6b307762d60f8eb8d9d4e93a1acfb9e6"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-65b4f5502153/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5bcbbcb618c4b73a20e6635a88912184cff45e426f274a672a9a94ac78879b53"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-65b4f5502153/metrics.parquet": {
+      "bytes": 166459,
+      "sha256": "776f606c19ea31a1949f846825d15d35e8ed71ab27467fab69434a1291614b70"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-6b49dc3cbafe/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9eef1a9f2bf785336456979e857d428240e86bd87af6771851498f9012f8a66e"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-6b49dc3cbafe/metrics.parquet": {
+      "bytes": 163341,
+      "sha256": "0b725ed140cd405b5b7c0b9a01d65271fd628b016d524905ffe108e54bfb01cb"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-6cfda2c82f55/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "dc665ab536e925f212d3f5898459495b3191275d64e151278461474958a6aed3"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-6cfda2c82f55/metrics.parquet": {
+      "bytes": 164785,
+      "sha256": "214dae7695a3d935f908db539264db4a1de28dc0bfef7afb94440dfb5ece7f85"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-790a38c65ab7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "70509f03a2b60020f1d1a40f01cc8d9c800a4b263910f8814f28ce7db218adc5"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-790a38c65ab7/metrics.parquet": {
+      "bytes": 169047,
+      "sha256": "f3e71713372cbc44df404f030cd69d0de406b384e98e9cf5c78b086155b6f0a8"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-7b2f8b11750e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2909cbd4d4bb3df433378749c1d49b714128c9eed18fbb5ca24324e983a66134"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-7b2f8b11750e/metrics.parquet": {
+      "bytes": 164164,
+      "sha256": "25e3b566da528b02b547a976621c2787b547c1966737560cad7495689b0a7cf3"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-8070789451ec/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "63a83e75458656e6018a6810d51513d52d87a76e3a0e0f139d3363f2db2239e8"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-8070789451ec/metrics.parquet": {
+      "bytes": 161969,
+      "sha256": "80cce14280705307f891165e1082f60d1a0f4e8075ef59ee9101344e83d04d5b"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-8a8acc3a2e96/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e4fee12aa8b87b16541f08f3a4e0a970c61ce5c977deb4fcb1da021845b5644f"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-8a8acc3a2e96/metrics.parquet": {
+      "bytes": 164541,
+      "sha256": "5e35e2c7650946ee28a798a3501fc7c3302edea541c5cd9f8bb2d6295f699cec"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-977716480a8a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "27bd8e5aafaf9ce65be576c3ec286fe1e7d9fb7c6a4b103712c85ce08b6591f4"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-977716480a8a/metrics.parquet": {
+      "bytes": 161724,
+      "sha256": "cd6d4e303a07ee428c9444bc1ebbaf5f310cf6419fa1705a1ddd993aeb579ba9"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-a84a90545dac/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e628b0104af551e2f89bda711a5267cf85b25f7f7dbd59379bce25e6e4fcc6a2"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-a84a90545dac/metrics.parquet": {
+      "bytes": 172533,
+      "sha256": "0bd0fa7744da49ca8bd86bd60ccc932b4af31440f69929aaabd35b39bd3ec020"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-a89dbccd5437/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5bfece9d0fa4b7c38b51f3d205f0d34da2354222531ea66f83afb4856bd519e9"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-a89dbccd5437/metrics.parquet": {
+      "bytes": 157219,
+      "sha256": "105dc1fde3cbd552613a6ad061ae80fe0917009df8ef8406025a0b9d64b3ea9f"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-b87181b8cbc7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "52cf22addefa264570c708f3eb705c2f68272b2bd5a9e7730c1d03ccfab1f437"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-b87181b8cbc7/metrics.parquet": {
+      "bytes": 158053,
+      "sha256": "3213cef96225f4db4fd9d7cd701c0df5283c6f27800ee6fa9378c0667a27b950"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-bab17bc9a915/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3008aefd482ccf4bdde2305d02b10ead1af57291eeec2d52d94149a28be1571b"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-bab17bc9a915/metrics.parquet": {
+      "bytes": 156165,
+      "sha256": "9533f1d3d66f1996a3c834eeec1805ce150b2d91ac7cb03e19b174c87bf078ef"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-bc159c2c3cde/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3f36b0fc7d05c41dc5677b85fa6226b558edd1281a83f632b0495a0b3516ab34"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-bc159c2c3cde/metrics.parquet": {
+      "bytes": 163868,
+      "sha256": "86600d6cb1d76a764602fcc1a5b9fb62e213fe33f01e5366f7cb4682470c9d8e"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-bc898a979cae/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "84fd6c0268962f353264452c39635482cdefe89c4fecf524b7c3fea9d1fe07c5"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-bc898a979cae/metrics.parquet": {
+      "bytes": 162390,
+      "sha256": "45ecbe82209f7420e7154b4bcddd664020282c340786fc3e96dde57ee234a858"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-bdc276e696a9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6b59f6d23ab2cf3d01bb083040dc81093e5de00e534ae96e5c75c7db7d861257"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-bdc276e696a9/metrics.parquet": {
+      "bytes": 160850,
+      "sha256": "877e13f25a5f8b8bf0366ced3ac9af2f020e936b42103afe79a5accadeeec40a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-c161e1ce9d91/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6a792964f8e8cebb47658406bb7522d0b64032f53acbe134f746a109cb99baf0"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-c161e1ce9d91/metrics.parquet": {
+      "bytes": 166535,
+      "sha256": "f15f66c05be157814c41df5fd994134a8bbc9f3f4d351f7e896d156306837d91"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-c3ba38139ff5/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "440d38c65cbd9d563f3d5f87a9481e72ff16f30e3e6a61e467eab8d834b9a11c"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-c3ba38139ff5/metrics.parquet": {
+      "bytes": 164588,
+      "sha256": "8d767fad9f20f3777a942f43d7d8964592bf8b633227fd3e499e9b5b621537fc"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-cd38dda759a6/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "63cba8377f7fbf0b59ba9c6181706ebdcdf625242e57b8dc3c1e22eca9006f37"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-cd38dda759a6/metrics.parquet": {
+      "bytes": 158021,
+      "sha256": "fff7549271bfd2f7e694b161b92618c48d6c6b5039c62965233a212a7c6dd692"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-d11d978e6684/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7ed3bfd628625c97657b4873d18f1f836be46ee2c4ab4de27ee1778e43e1311a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-d11d978e6684/metrics.parquet": {
+      "bytes": 163334,
+      "sha256": "2af61b6b443e2d7742ea3a9c3e6a9aeb425e4fa3f77d77af08fc91e2128bb9f6"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-d856e0a00ea9/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3f848f2e3bf1ed9fae2acb63b54788fb4ffbf12a9fcf794bcd6e0b741c0d1983"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-d856e0a00ea9/metrics.parquet": {
+      "bytes": 168608,
+      "sha256": "1432013b8788c7f4430a4386bf0474580af2123943acc5a3e32afcea7e83e38c"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-dc02f921b101/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "04e119be4da1a7051e2bd2b61430f12c339eefdfc87d032557d6b0187dcb88dc"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-dc02f921b101/metrics.parquet": {
+      "bytes": 166955,
+      "sha256": "f803def38a9e1cdcd45f25cd1877c882eb9d9fc3b81db20dfcf5ed30f43055f0"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-dff737ef5d78/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "71dff5b818252a92c1523a0aec59ee85aaf45940770c20868fae83f8891eedf5"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-dff737ef5d78/metrics.parquet": {
+      "bytes": 165812,
+      "sha256": "9dc40966d4464b1f0cf0363ac0c7ed13a4b161598d0714df9131afb4d80ae9db"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-ea3b93d48fdb/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b7af3604a9f1b10af3285872575a14ffb9e9eab53fd4ab350a775ba2b51179c7"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-ea3b93d48fdb/metrics.parquet": {
+      "bytes": 157940,
+      "sha256": "7ffa0441bb55d710f1d18fd27486eb8f1b8202931b49c14a23de656fe6d6f45c"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-eacbf919bae7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a9ca3f0f50f5b9548da4243975cf314c4ebf462ccdf0c2c23d9dd554eab37e23"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-eacbf919bae7/metrics.parquet": {
+      "bytes": 178862,
+      "sha256": "24c0674b235d150ab5d5196a5fb8a2dd370daf022b2de989b831fe64fefae5e5"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-eae5bba9c34f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7b4aa7ce6ba1f5883965a571380e91f10f5c152c03e92e8bd5ee80d74a4d719a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-eae5bba9c34f/metrics.parquet": {
+      "bytes": 163454,
+      "sha256": "47a7bb4c5f852b2157b31ec3ab80364485dd6a72375f192126c4397c5c1708ff"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-ebb72cb3ab15/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "69c7233dec3528459153849d8863aa9eedfd83f01a48e70cb614e69097df5c94"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-ebb72cb3ab15/metrics.parquet": {
+      "bytes": 164851,
+      "sha256": "cd747527c03e6ed848513342deed517febcbe9b36c7153093fcb3835601b730f"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f1a96982dbc4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0af9553426e06427905877e224849d455debe053cd6fd0978f75152b5ba2382e"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f1a96982dbc4/metrics.parquet": {
+      "bytes": 174232,
+      "sha256": "6df58e29853b69a960c8c752f2b55fb089a3ec47430f7ac3018824be24e427a8"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f488223089c0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6985203f627d7a245fda641aba3a240f9b0378008e85468dac3db3a5a908a394"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f488223089c0/metrics.parquet": {
+      "bytes": 167563,
+      "sha256": "ec15dd90c7c67477d6c121ba83e9dac16f019d7802a6c33265342f341bb9743d"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f52193520338/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4e6ad4ca192123ca9961c644b0900e0024c4a57ec55c60c7ebc6d2f5d08f47ab"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f52193520338/metrics.parquet": {
+      "bytes": 166831,
+      "sha256": "7ee964c5aef51816a519d3dc4a4b707d89a58ee21d1d88d649a608096852a66d"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f80611c617c8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "994d6bac7b5d5a3f953790ac4117e653859c587baff9f1922bf51e47e89de761"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f80611c617c8/metrics.parquet": {
+      "bytes": 163282,
+      "sha256": "122d81fab7c73d863c9d1e84eb60c7c96d40ae3c4c8f96d9d01cdeed23706274"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f8d40b9589d8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "926e3e0b37339e18d268f45d9714ab813c2568a9388a346469c22de10b524e1a"
+    },
+    "runs/public-data/input-format-2026-10-03-v1/raw/FMT-f8d40b9589d8/metrics.parquet": {
+      "bytes": 163825,
+      "sha256": "a4ee3d5b15eaae38be6d520995a521e5cbf6e5918f8c58aebdf2167a3b41a80a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/assignments.json": {
+      "bytes": 14019,
+      "sha256": "9ab32f1db4df29a6214442ddee6ed03579fd485032ca181a83238075f3daabcc"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/calibration.inputs.json": {
+      "bytes": 198025,
+      "sha256": "ead776e041d780ff710ddfeb6d1ea1aaf8976c722fbbb1e47802af59a1cc06b0"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/calibration.references.json": {
+      "bytes": 2385,
+      "sha256": "2a627fbc1cef5e06a4b61ba8b8380d95701afadd4a1b8a9670b98f646974131d"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/development.inputs.json": {
+      "bytes": 261228,
+      "sha256": "bd876a341626ee3f98ea338baf0a317bd8b2ed3abb1d55eb6f3c04e318ea4958"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/development.references.json": {
+      "bytes": 3171,
+      "sha256": "e0f6409fe2f234af398e193bb6bb7377c2d1a85ac42987bd6abcbd158f7e384a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/evaluation.inputs.json": {
+      "bytes": 197845,
+      "sha256": "9f5e14a151df427c20f51c0b976a4d68c5bd7c526f8deac55e647dee33684a77"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/evaluation.references.json": {
+      "bytes": 2421,
+      "sha256": "664c054c7f1c0e960d951dcbaf88198b2ba548370b505204d20778b488cd6a80"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/manifest.json": {
+      "bytes": 48490,
+      "sha256": "7011d62dad6bbd03c25d377ab276a5ef735e8bcc7c1d1d242dcc883f18f7810c"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-011f3b9bc355/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "758476a2189ee7f2ba1400bb9922125d1828dbea33ff6f900350be7367e54d84"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-011f3b9bc355/metrics.parquet": {
+      "bytes": 157661,
+      "sha256": "a7164fda5feb30ca9ff28990d9935052987b8d8bc192dadc58a297e48c66ffec"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-025a43e8ef90/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "375c288779a77bb96ce878b3fbec82b2caefacea89ef59fd2aaa038bf9ae7372"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-025a43e8ef90/metrics.parquet": {
+      "bytes": 164778,
+      "sha256": "59b36387c7a66818e5545a7fab07060841a8d76e9cc93177906ff959c7a27220"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-073e220e9693/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "21f2ea97b996ebaf0edf1b3c11e85e38b89c69abfd0b0c4618f38e74d4056186"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-073e220e9693/metrics.parquet": {
+      "bytes": 152389,
+      "sha256": "f4203867be1a50f8647fe2fd7e362d0b4068066b12c62524063c62d6abc6058d"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-0776f54cd90f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "266a28375e6f0120e296387329f9a093104e6aa76d0ecaecf81b65c3f45b67ee"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-0776f54cd90f/metrics.parquet": {
+      "bytes": 159697,
+      "sha256": "65f1dcc88d780c32184d36ac8cb38e7e298d8c4606c38037eac3e87910a967f1"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-0abf02c9508b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a6533a760eaff52ec5092c25add46ec8aa95a4744e9af16a7a94f230bd8bfc38"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-0abf02c9508b/metrics.parquet": {
+      "bytes": 156391,
+      "sha256": "52752452d9f2fdb69cec2b7575b617f84419131338fcb1c2e1829ef5c242e586"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-0ae1ec693f61/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "85864d3190cccf2c148a411b9f95048c87bde5e85890844c990552910fca0249"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-0ae1ec693f61/metrics.parquet": {
+      "bytes": 160489,
+      "sha256": "0b3078df04188dd7c2b752a9b936b7cbb95921fc14bc0b482b6033ac5d8c508a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-0db34b4c7ece/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "eff4e19e1d2ceae5232f4a589a18a7289f63acd46894b0ab68a58622d771035f"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-0db34b4c7ece/metrics.parquet": {
+      "bytes": 158552,
+      "sha256": "d9e62c8b4929b1ad6d571e97d7c72be7b6d1c328e501e02b08f7d6c3e59f678e"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-17329102bc3b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8798d9bb40c198063203f9e909b6f78af3ad864acfadf4e44cab1e2ce8083ba6"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-17329102bc3b/metrics.parquet": {
+      "bytes": 165385,
+      "sha256": "ec8e5938b8c077d8085c094a8138a2fdf174138b5de2e5f5b5618b0d69b1ab2a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-177092bf56a4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "eccb168df7472b75c89a6b4295e127e62f78fbad5b3a09527ba7e4c51c9bc7a7"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-177092bf56a4/metrics.parquet": {
+      "bytes": 151674,
+      "sha256": "1ca9985d028a24ca1dddd77d0aff71b04a59ae64b3d21332c1e5d399151984be"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-18804bdd7fcb/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b61d74dcb1885c3499afbae97bc4224134b837d40ef17654458f68ac3c63a424"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-18804bdd7fcb/metrics.parquet": {
+      "bytes": 155729,
+      "sha256": "e0b722bfc8b9d8a9ef733023dfdfdfbb39d8abb8e77e195151dda1851874bd63"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-1d28b0670811/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c15efcdbecb239ceb83324d7c48b741e0352766a2068847009deabc9da59b2ed"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-1d28b0670811/metrics.parquet": {
+      "bytes": 130707,
+      "sha256": "056254dfdea1f1ec385e513331db82cb99fa8ce2a28a808d37776fc5d4bb951d"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-1d389615b34c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c412fb79e310b259c67dd0fbf9f57b7030a052254f0434756cc1680460b4f18e"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-1d389615b34c/metrics.parquet": {
+      "bytes": 165081,
+      "sha256": "a11e3af15c8c574809cb0bc40f5613ebc6865e658f64f217e2e8f763015e8664"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-1f89afb4ec11/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d05e05abdb0a0c4c3054da7de07363438c9654dba713f945f9176b5c20170ead"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-1f89afb4ec11/metrics.parquet": {
+      "bytes": 160731,
+      "sha256": "8e80309f3055030f9ec4636b60e2fa44cb7fed23264e9ecb4d37ab8610318a5c"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-22a755618135/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "bdcf06ace5882acbf895da1eda2b64990f2a60360489963f8ded4528575d1e6a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-22a755618135/metrics.parquet": {
+      "bytes": 159459,
+      "sha256": "5a7a21f08af00b9fbade3b6dc1a18045d804a8d438a6b1ce7975e90edad00674"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-295188811210/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2745afe55b2cfe52e0a948eb055db460d59f7ce24952f3b250fae3fcb4ba8bc5"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-295188811210/metrics.parquet": {
+      "bytes": 161139,
+      "sha256": "9996d312665780341f977b4e3cef2a13aff8473375a79aabeb693abc59bbca3d"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-2bb29befe5f0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "782bc0e87781a862bb07cf32b73a6759db30f338c203a7c6feb5fc265794a75a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-2bb29befe5f0/metrics.parquet": {
+      "bytes": 160184,
+      "sha256": "3510933da38ebb9940fa59bd53cbfad4f9f966b3b1402a9879f2d5a8a39d7f94"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-2cd85ef30d9b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "cc5a467814b0f6759a5d8da7744a2b8cd531712c643d411fddfc166d4ac8b6cd"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-2cd85ef30d9b/metrics.parquet": {
+      "bytes": 159195,
+      "sha256": "8d4b475d7a6938b19e95c5b3ca74f147a938eb5b45ce67fc37b93cbfa4244509"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-2cf334d2e0a4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7b948d20df7751e5ea0f42a42b3ca0c5820b00a5be40216e4080f574454f9008"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-2cf334d2e0a4/metrics.parquet": {
+      "bytes": 158975,
+      "sha256": "90f8fcaa8dfece1d1276a9baab35a8818efe5e793a92da07163bc32fc4aaa9ed"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-2e930efa748a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e075b67b22a06f8eac9c7e78233b933d81df5b37faadde73722a484f1af485b7"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-2e930efa748a/metrics.parquet": {
+      "bytes": 153741,
+      "sha256": "e9b26768fc98a5dfa694527a71e131450848e6c736f73c162ee17f9bf14a337b"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-34a5398b520e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b46ba552f10d493ed20980a402c3ee7a5d436d1ec442f1534343bc964f3bd0b8"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-34a5398b520e/metrics.parquet": {
+      "bytes": 158238,
+      "sha256": "ad82f59a98501f4f634fe30bed508cabb0f4a809993c165fb5aa2f340c64b692"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-37a5303b48a5/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7e422aee2ed582ab2639ae9d703ad947f35ac8a87e7f752cde57f593b3836313"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-37a5303b48a5/metrics.parquet": {
+      "bytes": 161933,
+      "sha256": "5a3fafe7ba66c724370f00bb931d6d7c1b286af4dc06e6ac44e7ff1f7314c5df"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-3a0764b124e5/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "389956a869c59f76a88abdbe65d5ba2b033248a0d4562e66edd37d6e9ec4ea39"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-3a0764b124e5/metrics.parquet": {
+      "bytes": 155859,
+      "sha256": "217523780a38bd6afc28fad3362cbc15a6f1b97c4a1ca1400f442c25140236e0"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-3a0809d8d00f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8b68d557a2c05456352b26b33504c36cd97f2edec40894837e2d645460cd21c1"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-3a0809d8d00f/metrics.parquet": {
+      "bytes": 163223,
+      "sha256": "c4055cbedea6c9aeb164bba921b81023ba76f798ad90c672f0a5ed51550b8568"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-3bb38f316524/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ff597adbcb262a8133a4af8d573db8718ea81dc1c5b76b355755f7851be5e909"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-3bb38f316524/metrics.parquet": {
+      "bytes": 162407,
+      "sha256": "ac6b3d751f45963eca95d66f771123cd10b862eabd4783d4138e467c72c1f267"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-3cc10cccb63c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e235854dec09d738024021b17feff34c647f3610d3e669e08f027bbb9b7bd3df"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-3cc10cccb63c/metrics.parquet": {
+      "bytes": 127755,
+      "sha256": "11f2df96b6b2b60a9600bacd8d3163b2f31a614aa756c19adfc51a41bcbebfc7"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-407a9f7eba24/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7fcad484ebe9abce9be73317a87892ba5fa3e759d5a1c7ca818294968464f04c"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-407a9f7eba24/metrics.parquet": {
+      "bytes": 157432,
+      "sha256": "749be516f2111b61533daf060379f66b8a1e8e9a2b262100cab1a772d2d169cd"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-498b272d099d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4cf4aebd3f677bc6a963fc38700f8fe7077d9b9d204c3390779ef28b24141d39"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-498b272d099d/metrics.parquet": {
+      "bytes": 154647,
+      "sha256": "8e4e586944eeb863c6e3d9440403eae4680c61efa6c0694849915236e91c5df1"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-4d387bea1c3d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0fd57d169b53ed2ad31d229ada9d9a85fbe92db4225ea138246b5945bde09f4b"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-4d387bea1c3d/metrics.parquet": {
+      "bytes": 159003,
+      "sha256": "c06a8807374665322abcd580ce8d62e7f97e5d22cf4586c3dc6b65e24cfdd1d2"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-50e3775f48c8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b6d6a179b9a7b8908c3644cb60cf4466ed6b94bb6c2836bc4901b30812173195"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-50e3775f48c8/metrics.parquet": {
+      "bytes": 160320,
+      "sha256": "2d95b75fe4e5c726c74ba53199bcb8377fb0228fa2ed8067838c2a38b4463781"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-52eb6b0c94e3/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e9f05c88ae5ce0764180449ba3accf48773611f8e861944cc4c536eb2a02b7ff"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-52eb6b0c94e3/metrics.parquet": {
+      "bytes": 151437,
+      "sha256": "9c5de9512542195415fc108987f3ab38932d61d36ba791df4ae13bc2c5463c7d"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-54eaff8bb087/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a4dcf67714a77a0378fdea43716db5b659d2283d1f64bd5e24f3a0204b731e76"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-54eaff8bb087/metrics.parquet": {
+      "bytes": 150383,
+      "sha256": "53a3f66825f8e01efd8ca78931c5cc9e3d2e7c900845c885aa25d8b33c37bce4"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-5930118bc1d3/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "38a03d2cffa1bb4f8da75315f566ab7ca484b7c25e8b2547ce135f9a3ab7bffa"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-5930118bc1d3/metrics.parquet": {
+      "bytes": 174494,
+      "sha256": "51fafedd0f3f0d8a0075adf3c23f9414708f4f1d2da85cf384b8165b31b26f09"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-5ad5f3d0de56/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "64580d7dca6090e1fd36fd68df6be12806f6fe262c5b82dad0976fbc064d6ec8"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-5ad5f3d0de56/metrics.parquet": {
+      "bytes": 153938,
+      "sha256": "d0bb3a38d4fb930e63e3f862712d72a2a3f2ee82ab14c071d926f2c2e9de46fc"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-648fd4869863/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f174f8bbe484e6506b2fc986044c10dbef2f5719f42dd1064a042362f291f59a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-648fd4869863/metrics.parquet": {
+      "bytes": 153820,
+      "sha256": "888dae20bf94fe78534fe3e2bb821b898ab66f53e2c87101d21466c0fb88aea1"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6775d676c8d5/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0e684c18d36b88cb764c93cc9a334de057a166fefcd79787a25d295129c36995"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6775d676c8d5/metrics.parquet": {
+      "bytes": 163794,
+      "sha256": "7591c5247d44be365b178c0e2a6a450ccd2fa54e59298490fa72861321f53214"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6ab11c1b3d3a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "05b5b0fcf7eb0b83e316b776a4f60feb7013af050243929d3741cccc56da9191"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6ab11c1b3d3a/metrics.parquet": {
+      "bytes": 150905,
+      "sha256": "e8c463622aecc31adc519e998361f3623a5ac2df8a7308e1e88dee21e674e01f"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6e0dc584250e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "afd71197c23b67e0ee30123f51a6b52549f1db01fd537bdc39f3ddb813d225ed"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6e0dc584250e/metrics.parquet": {
+      "bytes": 160014,
+      "sha256": "5e6a6def74364ab09d682777c6c09b29fbc2e2c1b6b8ee279958764d0b6a27bd"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6e97052d5785/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "164a230d4f38c344e03868e235dd471d71a3acc6b3353b308d3841243d2d083b"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6e97052d5785/metrics.parquet": {
+      "bytes": 159852,
+      "sha256": "a551edda9023b9020b83e42b6a6b3d65f64c98cd15c7732edfd2a766ecc99ddc"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6f03d011b8b8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ba736210fb5432101885b0b37bea27f591654c6205ffd7b7e3463a1145b11ba4"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-6f03d011b8b8/metrics.parquet": {
+      "bytes": 161178,
+      "sha256": "77e53bb71fe31b220a4a67cad933bc8103da6a0d2461bc8ba7ab670817e96581"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-704139964136/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2eea62172576543bb1d64edaec13f3bcb619241264cd83ea7058720f154eb425"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-704139964136/metrics.parquet": {
+      "bytes": 149986,
+      "sha256": "3b5921d96ab975ca0ce6eca4eb7b7d576a86c9c794afa33ec946ef99848807b9"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-75d480fc3d6b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "bf9a57ae33bb5c17ee2b91fd07d2237c8137563c4d9e6a30e0e6b315ff968ef8"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-75d480fc3d6b/metrics.parquet": {
+      "bytes": 164350,
+      "sha256": "6bbf8a1452e7ed6cd3ef464ac0ae56861970267f1839a45968eb6bdc22b3c8ae"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-7c01c927826d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "36cb3ef8f17433ff63e1f325e1ac436b1864174a5ff9af2dce8afa5abc1e048d"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-7c01c927826d/metrics.parquet": {
+      "bytes": 154363,
+      "sha256": "2ac0a1cfd4eb2a1ef40ffe5627a82d49c542b803590db2c43b93ff7f41b77e66"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-7c907c38acf4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "08a32723f185307cdbc4a563e185986579659c60af53adc65312c77228bc2626"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-7c907c38acf4/metrics.parquet": {
+      "bytes": 157489,
+      "sha256": "b59f3b7193915ec3a19c7714d80f6b2f4446b9b471f61c8abe7cd9e1c4173199"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-847b7ca5783f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f46e708203ce226e22800227bd5455f0635173f2864abb82543ad299b0e22dcb"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-847b7ca5783f/metrics.parquet": {
+      "bytes": 158761,
+      "sha256": "8a97bd135d13810f3c798514e65540fa029942b315377f1f1ae08941d672d9f1"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-8610a6ecab56/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "63633f50483f5cc1b43eec581aa6a35c19dfcaf1eadfc189c299b7050b035fe5"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-8610a6ecab56/metrics.parquet": {
+      "bytes": 157288,
+      "sha256": "25f927f934f8a91723bd146fd2c020713516f3f1d5705051b942bdfcb9e1ce08"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-870814bb240c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b27b53e8222205f4c6c50f19fa18ec8aaffffa4c5f12224cae0b9a13c0b3e753"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-870814bb240c/metrics.parquet": {
+      "bytes": 164793,
+      "sha256": "0d67d50f608a6b74bb323171b67b5c439e614ad26102c5c075d65c6e43c0eda8"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-8e8d35d1643c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3898497514b3806617131b4d92f4d15898e006d7c0a5ec8abde5b8c121051565"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-8e8d35d1643c/metrics.parquet": {
+      "bytes": 156934,
+      "sha256": "7d96768d13a0700c2c4d80f9a3c693d408f423cc5923c5c90bcf2147c7a38136"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-90376d73d983/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "93bb936b7f1fb8cb800006d7cc12a77dd0e829bdaab152768d5748cf6fdaaaf8"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-90376d73d983/metrics.parquet": {
+      "bytes": 171031,
+      "sha256": "5ab4187e2220146eeb971899b0f7634bc465a884fd30ef4a477cbcc0c5866ce3"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-92c08bd0d258/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7a37199f1341fdbc722fef2e4e7d3969b777578b23fe5be72cbdb74831a55b7c"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-92c08bd0d258/metrics.parquet": {
+      "bytes": 155684,
+      "sha256": "667c022923e804d160d01e04b70c18ae78f11ffd36f6b2b7886da80231784d79"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-94e5ae21b233/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f03a914b07fdc89cfc8b8c18bc5791375463efe37ac761167295c233b3a73976"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-94e5ae21b233/metrics.parquet": {
+      "bytes": 156224,
+      "sha256": "f4c6d5617b8895dcf131e444d960a7ffd0b3be48552ad49d3318330fe17be27d"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-963cb0c46160/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "08b66b99669f95e114f47a013a2a74db14b52f4015e4183b8f756294f00a076f"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-963cb0c46160/metrics.parquet": {
+      "bytes": 175958,
+      "sha256": "a5213638c132451d072e8a90cdd53846bb80ebbff9b40c5a6a17bbe8fcc59cd8"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-97bf1c72d29f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c17fcaa1047c07738176849000c1b88e1f0ddda57a2a73a42ab0c8c58c83e0a3"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-97bf1c72d29f/metrics.parquet": {
+      "bytes": 157212,
+      "sha256": "f46b3d354b234e37c424f54a005329b61aac83d15dcdd46b5642e55f390ab25a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-98649a36b06b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ec4ace7e7fadb585f5cfcc967da1e4ab95a38490c813d6df8b922541afdf8856"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-98649a36b06b/metrics.parquet": {
+      "bytes": 150055,
+      "sha256": "8802204a9814cd14c1840ba111f3b2b663ff7aaf2e7910d4ada96702fbaa07df"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-99fc833ae8e5/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4abb2fa5f140d5f6c5f1cd5421174ab2ad0fd20ff2a5428ff6a5c37db244dc96"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-99fc833ae8e5/metrics.parquet": {
+      "bytes": 151711,
+      "sha256": "c37e0e13bcc77cf5dd89d3aceb197264d28454ec273aeb9e5746690a90d44553"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-9a8d5cecc670/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5a78500bb0108d2db64d932ff4688aae3a031ee571dc879cb41430559c825dbd"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-9a8d5cecc670/metrics.parquet": {
+      "bytes": 152961,
+      "sha256": "7164e16e330f7afe979836e01ed7abf7d9c9c256caede854ac11500893b31df9"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-9fa5601eb7e1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "636b08395c76ca662e9ecdcbc399efbcbf4bfea7f452ce4cc0aca14d67b4b7a8"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-9fa5601eb7e1/metrics.parquet": {
+      "bytes": 172668,
+      "sha256": "92c9622bb656a4ab9879d9ae3bcad6ef0c4764ce3eb8ae2ada9da740236fa0f0"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-a0cadd712cb1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "bd920b1bc479620445963c03b5a512cfe1a4f90d43ed2f8a5e500509f9b89c55"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-a0cadd712cb1/metrics.parquet": {
+      "bytes": 157993,
+      "sha256": "c59c8e43619afe8b1a2783d580a4d19bbc604f4cdff64f4d87cb4911ce04b769"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-a254fd474200/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c6ac93a51c0878d99a746010802d943ad4114aab2250b5cc3c63a18a2f3ed7d6"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-a254fd474200/metrics.parquet": {
+      "bytes": 162192,
+      "sha256": "052b10383bb2841a15d6daef4d89aa2de8723ca9c107d6eada3c22bd4a0cc12b"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-a28d1285e74a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "803eeaffc6fbcc9e320ed9dfb73f1cd52a7375756f8fac8478f1d4a0ce999164"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-a28d1285e74a/metrics.parquet": {
+      "bytes": 160544,
+      "sha256": "02faf42fc54f07a868c1e7659f073d010ded9ac407440b69b9f2c9f856849f8e"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-aae861ca5155/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e99822a74ce4b3ddc30b528c502ff3fa8a9b6cc53ce730ca3b0dd2e66b0158af"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-aae861ca5155/metrics.parquet": {
+      "bytes": 160614,
+      "sha256": "df715e01d9bdf3e6d89b1381737fc87766c806134672632adbd9ee4c27262a48"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-b0f876b48e4f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f9b81dd59dde96ee541de8ff7df7dfd79ca262d1d9c5c67b3f75ba18887412e1"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-b0f876b48e4f/metrics.parquet": {
+      "bytes": 159560,
+      "sha256": "6c7d7e5038844fc6e3e66ae2561d57ba1bbb8c9950b8017433bfa5791daa269a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-b8a8899e6327/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "9898468c4a5d558a67ba9fd49257722ca6fa11708568edb9e418c7279531bc02"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-b8a8899e6327/metrics.parquet": {
+      "bytes": 156331,
+      "sha256": "c37ac65df0835cffa10785162c8c73dcc601fafcaec3b7da63fbbead8358d0ab"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-b9ecf644afb7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8d712c7f18a63f31196144232e9d1ce1e370992bf37638f7f3893343ec75a203"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-b9ecf644afb7/metrics.parquet": {
+      "bytes": 158756,
+      "sha256": "2f98ae267cb2a54954094104304ae62f07654fed1e890f3b2680ab97096f4340"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-ba7c71dce547/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8d70cc624e381f2d1ffe35a29c68928038cd6e1bb0c17e694c833355598f3ffb"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-ba7c71dce547/metrics.parquet": {
+      "bytes": 154373,
+      "sha256": "2bb250b67c392a4335deea8168464124141e9070fe259ef48de0e4385fc78cc3"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-bba0bc25ab41/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c170d6d7744cee5b4838dc5ccf4799b117b68ffd32cefbd6dc33106b1787f4b6"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-bba0bc25ab41/metrics.parquet": {
+      "bytes": 162878,
+      "sha256": "5563e35b896144b6d5fc700a1048913857c136a0fae0558dbac6db11879be782"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-bd0ab7fc84d2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8aee6eb87e4d18da3c541623d2f092b33480c2b235efda360f441d8f415b6b30"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-bd0ab7fc84d2/metrics.parquet": {
+      "bytes": 153289,
+      "sha256": "8cab3320fe89c122b22978739da0a2dfa805f6f473a697713234f32b152f7c97"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-bdf8aad8af1b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "add38087b4414942f62d47bff8e07a144417c939eefe5f8f5bd5d3220edb3d8a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-bdf8aad8af1b/metrics.parquet": {
+      "bytes": 153586,
+      "sha256": "58640c77551e8eddb189f555457d597fefebd65ac28043d1f633891cd9f0178d"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-be290185f290/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "495d83ea17c997d3f279535195d63f2b3e0b576ea40d40fb1cebeea2646f8ffa"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-be290185f290/metrics.parquet": {
+      "bytes": 143586,
+      "sha256": "40a32cdc027251907770a69cfff1a1f7f0b93d9188148b837a3afa1ed425f2de"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-c4a56b723370/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "397053a4744aad571ff72fbaccb305e3e1093691201a4a5faf67450185af350e"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-c4a56b723370/metrics.parquet": {
+      "bytes": 159200,
+      "sha256": "99ac0290637e18669331a8f1a67ed7b870d9ca8950eefccb0fd4a7166b781569"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-c91fd2df9faa/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e96bdf0ef3810862c5c2fffa2babb5834db4ebd8351bb7a5f7ff103b150ecdf0"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-c91fd2df9faa/metrics.parquet": {
+      "bytes": 159581,
+      "sha256": "12756074029a5e2361a67254fbf15b9c192e845fd9c77bc5961f7293b51f8feb"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-c923bc4f2d73/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0e5bb508de30ac752cb1c2b726dbdc99698989ada19c3db7f92a78fde2c0615a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-c923bc4f2d73/metrics.parquet": {
+      "bytes": 152725,
+      "sha256": "73bd5326950593f6b02153ef7b286018a91d2853747a5f78f7d6a912b7edb196"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-c9e38942cb9d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c89645a1c53ef2511973b4d7aa0d4fc73b4fe802b55cc67944a358a6e0f2ea80"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-c9e38942cb9d/metrics.parquet": {
+      "bytes": 158127,
+      "sha256": "73b48c73e9f51abfc33bcdaec00f105573cb4aa29e0a6e5bf4636581938bce2c"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-cc8c3892e287/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fa5b8cd7433275e0f98a593aefcd91c133da96f7a6cd2d40284124bfca82e5a1"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-cc8c3892e287/metrics.parquet": {
+      "bytes": 153427,
+      "sha256": "cad61a8a5f39014c82dccd107bd0b131fc7fed24fd03a53870500dcd494f980b"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-ce14e33b0bc8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ed79a2203ec0ce69dd9e0481e12b1a263d895eda521b9c011df14d5fb51b01cd"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-ce14e33b0bc8/metrics.parquet": {
+      "bytes": 160840,
+      "sha256": "7fc076f546364b1f5c99701eb4c40756ebcedc3e841b5750f7bf8f9d4bf15a0a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-d1059aa9c325/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5645e0d0842f4d538ee756bac26ef55228c5ec26ef5e4b0d24d55706bcde9177"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-d1059aa9c325/metrics.parquet": {
+      "bytes": 162125,
+      "sha256": "b2c6882086e4a011e7e4450d027c158689ef6bf8811d5efe27e49ae3e343dd3d"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-d20ce8215231/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "939e7b2a0b2d465dc22075f479b38548c47759c612cf0c5b6e72dbc954c9553a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-d20ce8215231/metrics.parquet": {
+      "bytes": 158114,
+      "sha256": "5a7291e34ce019824e0dafb6c3f2d29153b54563c65795444d9a329e745c4b25"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-d7fc5dfaee09/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a0de26a5d08864950d6e84cc4fc8311088eb0011d1f47b4a3c51e9f2aa0660a0"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-d7fc5dfaee09/metrics.parquet": {
+      "bytes": 162150,
+      "sha256": "a31419d13452d1c969f8dd22ab82089fe77c8fa3ae2ca4aadeb17180849f17fc"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-db856d2c9bd1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6ded0d3b6a7ed6b0f2a4e350b00e9e15235c6e3e56a4c3a2da76acb8cf122fff"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-db856d2c9bd1/metrics.parquet": {
+      "bytes": 161226,
+      "sha256": "59aa24e82f58dfc77a025802305b5694313edc4fa8924b6001be34965a775f37"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e26fc30ca66a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7b1543cae6c4c16baf7d85fb35e5a008d1522d18b0a49ea903e27732401c1fa0"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e26fc30ca66a/metrics.parquet": {
+      "bytes": 158714,
+      "sha256": "689b626fe46e2ee6bb430853dedcc410c839ae2a93833349be9ad96803fee6e0"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e375de9cb8bc/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "412547acf7656dc3fc494c0ee46e93177ecf7f665c376cff4ab8a8de3b536a72"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e375de9cb8bc/metrics.parquet": {
+      "bytes": 158037,
+      "sha256": "761de264537cd3134834cca7cf90d230683a60d58ca0a0a35e538096e701383e"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e38b7757b455/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0a3c2dbbd507f52deb6d313f818037c133b192401e94441230fb8145c0391ca4"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e38b7757b455/metrics.parquet": {
+      "bytes": 163779,
+      "sha256": "3d6da65da0438f2b0ffffcec73b2e1df489c693d48a9db6b0770e53f6d0464f4"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e39c7bb9d68d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1d3384826a795d9533cd0cc40673999550a14c9a05e6a3b3842a0f3f3c93c03c"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e39c7bb9d68d/metrics.parquet": {
+      "bytes": 163698,
+      "sha256": "326f12119594afa643db66c9a1251935a07b9560cf40651fbc49d5ac450a4e82"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e425dee775a0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5b8132d68105c187d8aad124f7af4a8bdee399082a1fbf35f2f58aa9d1229d55"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e425dee775a0/metrics.parquet": {
+      "bytes": 161729,
+      "sha256": "3a428e2e4792c6ceecd1e47c770477887b7c14c175347ac52b28011595d23088"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e5abfe8ebd20/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ffd7fbfa3e6bf6a7f849d351097d17533e474b8f118cb8263997588970e4b0c8"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e5abfe8ebd20/metrics.parquet": {
+      "bytes": 160101,
+      "sha256": "7080eff2016aa46caf64474916b366736f5840716edff66fc4dc195578b5a89a"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e9781b0ed555/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b39e25ae53d5db2c108c58d418a1db2ba2715d0f3b2bc8dbb9380eb81aa83b62"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-e9781b0ed555/metrics.parquet": {
+      "bytes": 151171,
+      "sha256": "bdf571081a68868ffd9e2bad4be6ac96d0a49a931cda4ed2cf8ee246a9b246ea"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-ec15cb00cd29/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "237551aa1715ac61218b262e11f793e2baa1e29570478d14ecb9754915f7774f"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-ec15cb00cd29/metrics.parquet": {
+      "bytes": 161336,
+      "sha256": "5fe97059484d3c5162c15ff872cc97d13223ada6b82b43045537ebdd98aa2f23"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-ec9e76a45dab/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "74826033bc742446202dd5d53a0c3e8bd63bbdd6311bc22d6d76fda8308d11bc"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-ec9e76a45dab/metrics.parquet": {
+      "bytes": 156363,
+      "sha256": "5a2561b573136dcc34f188017b4ac93521794dab966f1e92063d1e2085f5678c"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-f07bba6dfd98/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "224008c0f64abc12792eb74d78f7edfadff3c9f1229dd5b10184506bc7f020a4"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-f07bba6dfd98/metrics.parquet": {
+      "bytes": 154910,
+      "sha256": "ac702e590019b9015449286eb3123489c02ffd458009551f5cbeb51b2b6ec54f"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-f9278c4f7bab/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "87a24c90d82e973adc4df3a1216a85141e2caac93a982cc78e99999b0e80dec7"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-f9278c4f7bab/metrics.parquet": {
+      "bytes": 159637,
+      "sha256": "ed8471d2f53c0c3f4095b25eff69d5c45762425afaa973d4dbdc04d7bc32c0f3"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-fc745c5f4c9a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2596c6e6d51db97eb81580ba22772da5d87e3428545400c9374d10ad26094dc6"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/raw/PUB-fc745c5f4c9a/metrics.parquet": {
+      "bytes": 154244,
+      "sha256": "6695d4e58c7383a5a32f7a936f3700aa332501d4431c49003d111d3ef282b12f"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/train.inputs.json": {
+      "bytes": 327728,
+      "sha256": "361898aa1ff16baab759be3291e96a5435e102b08250148dd7faadc56ed29410"
+    },
+    "runs/public-data/metric-study-2026-10-03-v2/train.references.json": {
+      "bytes": 3999,
+      "sha256": "34ff0bc983b9ead3fc0d6d5023a2354b46407e9c81ee4ce124f7443c58534eaf"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/cases.parquet": {
+      "bytes": 29500,
+      "sha256": "c49a288920dbba2e8e724679a14636d5c7eb2b45426bba14007ef79a6c0ab1bb"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/manifest.json": {
+      "bytes": 3422,
+      "sha256": "a0da67b2a6b4f5890cb80c6e6cd792501c520cfaf04d4d8d316e2b61256b467a"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/prepared-inputs.json": {
+      "bytes": 21819,
+      "sha256": "9dc6c7e3a4ffad95924a7556d3013f22e45da186818e373e0e9a623552476e9f"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/profile.json": {
+      "bytes": 13612,
+      "sha256": "1e4eedda1d6a18a497091d934a0a855f387cfab1484f984d4d863e3ca19f85b8"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_checkoutservice_cpu_1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c17fcaa1047c07738176849000c1b88e1f0ddda57a2a73a42ab0c8c58c83e0a3"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_checkoutservice_cpu_1/logs.parquet": {
+      "bytes": 336876,
+      "sha256": "e1a25e50c8b0beae4b2886df54d86d2f28877d0b611fed98411e9c0b0c77dad3"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_checkoutservice_cpu_1/metrics.parquet": {
+      "bytes": 157212,
+      "sha256": "f46b3d354b234e37c424f54a005329b61aac83d15dcdd46b5642e55f390ab25a"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_checkoutservice_cpu_1/traces.parquet": {
+      "bytes": 10146857,
+      "sha256": "56ca8f6dbeb76fab2d33faeca54bce8f40e9c5491ebd76404ebb2dfd83409367"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_currencyservice_delay_1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "939e7b2a0b2d465dc22075f479b38548c47759c612cf0c5b6e72dbc954c9553a"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_currencyservice_delay_1/logs.parquet": {
+      "bytes": 321294,
+      "sha256": "32c77b4bcdeba1e0fa770c96417c79616b7c6c41576644d193e1d5a2944c4b1d"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_currencyservice_delay_1/metrics.parquet": {
+      "bytes": 158114,
+      "sha256": "5a7291e34ce019824e0dafb6c3f2d29153b54563c65795444d9a329e745c4b25"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_currencyservice_delay_1/traces.parquet": {
+      "bytes": 9806239,
+      "sha256": "9e6b77c4512536fa9d83cb6ff2c037e31af6db28e752891ba35f822d888f23af"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_emailservice_socket_1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7b948d20df7751e5ea0f42a42b3ca0c5820b00a5be40216e4080f574454f9008"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_emailservice_socket_1/logs.parquet": {
+      "bytes": 342384,
+      "sha256": "6b6a356dad7f1e4b69a1130120b65b456a047219af404ff90a630cfbb40aa973"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_emailservice_socket_1/metrics.parquet": {
+      "bytes": 158975,
+      "sha256": "90f8fcaa8dfece1d1276a9baab35a8818efe5e793a92da07163bc32fc4aaa9ed"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/raw/re2ob_emailservice_socket_1/traces.parquet": {
+      "bytes": 10259725,
+      "sha256": "d6e043dc5a0fedf9f7c846f9fe71e6541ff5387960ce6eef52a65cbbfea55c80"
+    },
+    "runs/public-data/preflight-2026-10-03-v1/references.json": {
+      "bytes": 600,
+      "sha256": "1d6f1beaf67de50e4637324ec409995f5f9a824170729e0605c64f05e1db8c70"
+    },
+    "runs/public-format/calibration-2026-10-03-v1/requests.json": {
+      "bytes": 743653,
+      "sha256": "8c4be736e54d2c9fb7a9c2387cc87163c7ef28367ab0e19fa25e6e668fc25d16"
+    },
+    "runs/public-format/calibration-2026-10-03-v1/responses.jsonl": {
+      "bytes": 62579,
+      "sha256": "0d768ca79969eb5cee43454e9dd33334c99799fb353c16572b7a500f021dcaac"
+    },
+    "runs/public-format/calibration-2026-10-03-v1/summary.json": {
+      "bytes": 485,
+      "sha256": "bc73f058e3462ed12a193fc05ba777058d7948cd47e54ea379528d294d03239b"
+    },
+    "runs/public-format/development-2026-10-03-v1/requests.json": {
+      "bytes": 937399,
+      "sha256": "b47b0343ea2381f7721b261afe88309b1fc2456add64291be568012c888dc877"
+    },
+    "runs/public-format/development-2026-10-03-v1/responses.jsonl": {
+      "bytes": 84737,
+      "sha256": "d459cfe99595ca047e3b157c325fd7ccd51c93e66ab80c4c25e7fed33fc4117d"
+    },
+    "runs/public-format/development-2026-10-03-v1/summary.json": {
+      "bytes": 485,
+      "sha256": "e18d86e33367427ae5606b2d2b0115b7b9e71199a319126eb4f2eea317b631e1"
+    },
+    "runs/public-format/evaluation-2026-10-03-v1/requests.json": {
+      "bytes": 1486013,
+      "sha256": "4fe698f285a2867cab390e0c31e228288e4a500234752fc003474f645659d845"
+    },
+    "runs/public-format/evaluation-2026-10-03-v1/responses.jsonl": {
+      "bytes": 125058,
+      "sha256": "f797fcec4f855ca3eae3723f862e5781f709fbeeab0dfff23e9a0149b19de5a0"
+    },
+    "runs/public-format/evaluation-2026-10-03-v1/summary.json": {
+      "bytes": 486,
+      "sha256": "d2e9e20b6ba53234dcc75aa9808f2069ef0eed581207b6c21a1cd6382c290211"
+    },
+    "runs/public-format/execution/429d54786da408f98d266fed6029315eb7828dcd414a03a7eff1bfdfcfcc387a-calibration.json": {
+      "bytes": 82,
+      "sha256": "49f9c6ba5ab668993e535e4867917295dc26e495e526be3e00bec8e67e3b8260"
+    },
+    "runs/public-format/execution/429d54786da408f98d266fed6029315eb7828dcd414a03a7eff1bfdfcfcc387a-development.json": {
+      "bytes": 82,
+      "sha256": "fe4298d44e591c82025c8c4680642ba5f02012e9174a51e84ccd4af50131823c"
+    },
+    "runs/public-format/execution/429d54786da408f98d266fed6029315eb7828dcd414a03a7eff1bfdfcfcc387a-evaluation.json": {
+      "bytes": 80,
+      "sha256": "2f390bcb910d37571b9dedd1d171d927dcd3b8b497d974204f76f359f255357a"
+    },
+    "runs/public-rca/calibration-2026-10-03-v1/requests.json": {
+      "bytes": 127951,
+      "sha256": "69f5f2e257d90b34b73dcd78e0000ef35f9806832c4a316be8035b5f329285b3"
+    },
+    "runs/public-rca/calibration-2026-10-03-v1/responses.jsonl": {
+      "bytes": 20079,
+      "sha256": "d4b83f92ae74830704abb76035972330a6fcaab116b22fd990eb90c5734d5154"
+    },
+    "runs/public-rca/calibration-2026-10-03-v1/summary.json": {
+      "bytes": 486,
+      "sha256": "e7e6843cd7849a895a38f565a52e8d6dd009493e75b2c6de0b1f2e6bc8aa2361"
+    },
+    "runs/public-rca/development-2026-10-03-v1/requests.json": {
+      "bytes": 170144,
+      "sha256": "75984da1ff3baaa55bf00ae7b20b32be8e8eac65c67a5d8a6d9a6c53fe0eaae5"
+    },
+    "runs/public-rca/development-2026-10-03-v1/responses.jsonl": {
+      "bytes": 26814,
+      "sha256": "3c969c05ee6ad41120270b3ce23a35a87b393bc278e78372524170de5175ec66"
+    },
+    "runs/public-rca/development-2026-10-03-v1/summary.json": {
+      "bytes": 486,
+      "sha256": "9a594d90e1df2d96aa193c5e0f610ea24198c8a6b16316f3b5faa67aec1dc84c"
+    },
+    "runs/public-rca/evaluation-2026-10-03-v1/requests.json": {
+      "bytes": 128164,
+      "sha256": "cf36878e4a57281943becf0e7af5db5ddc27d9fa576b7ed6446089d3ecfa8be7"
+    },
+    "runs/public-rca/evaluation-2026-10-03-v1/responses.jsonl": {
+      "bytes": 20176,
+      "sha256": "f3541ee74de528c6736d09c9b5a4bdcf5b500c26cf2471c669f74a5e24a3e74f"
+    },
+    "runs/public-rca/evaluation-2026-10-03-v1/summary.json": {
+      "bytes": 485,
+      "sha256": "a633624cdea8afda7db95f1edef8f6eb1700df9ae647ea0bb23e83b57cc7ceca"
+    },
+    "runs/public-rca/local-2026-10-03-v1/fitted.json": {
+      "bytes": 4389,
+      "sha256": "d4e12be84cfec5efef2706f7b583029b84c8ab72981186a50d80404696d238ed"
+    },
+    "runs/public-rca/local-2026-10-03-v1/manifest.json": {
+      "bytes": 445,
+      "sha256": "cef03fce76195d3a46595990a9f57b1228050597b19442e0dbb60b1cebdc47f0"
+    },
+    "runs/public-rca/local-2026-10-03-v1/predictions.json": {
+      "bytes": 639732,
+      "sha256": "5b0aea7cc1a3dbbd8f6dab6dea510196f95f25aae5ddfde5efa79e8a1f00c675"
+    }
+  }
+}

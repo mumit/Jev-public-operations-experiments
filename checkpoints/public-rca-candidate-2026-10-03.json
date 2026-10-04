@@ -1,0 +1,918 @@
+{
+  "schema": "public-rca-candidate-1",
+  "protocol_sha256": "26795e6870192438fb3d9d1b06bbbbba624c97c15d1467625848408c5b00ec37",
+  "data_manifest_sha256": "7011d62dad6bbd03c25d377ab276a5ef735e8bcc7c1d1d242dcc883f18f7810c",
+  "local": "runs/public-rca/local-2026-10-03-v1",
+  "development": "runs/public-rca/development-2026-10-03-v1",
+  "local_model_sha256": "d4e12be84cfec5efef2706f7b583029b84c8ab72981186a50d80404696d238ed",
+  "development_summary_sha256": "9a594d90e1df2d96aa193c5e0f610ea24198c8a6b16316f3b5faa67aec1dc84c",
+  "assessment": {
+    "schema": "public-rca-assessment-1",
+    "split": "development",
+    "metrics": {
+      "change": {
+        "correct": 23,
+        "cases": 24,
+        "accuracy": 0.9583333333333334,
+        "withheld": 0,
+        "groups_all_correct": 7,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 2,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "resource": {
+        "correct": 23,
+        "cases": 24,
+        "accuracy": 0.9583333333333334,
+        "withheld": 0,
+        "groups_all_correct": 7,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 2,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "ml": {
+        "correct": 23,
+        "cases": 24,
+        "accuracy": 0.9583333333333334,
+        "withheld": 0,
+        "groups_all_correct": 7,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 2,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "jev": {
+        "correct": 24,
+        "cases": 24,
+        "accuracy": 1.0,
+        "withheld": 0,
+        "groups_all_correct": 8,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      }
+    },
+    "outcomes": [
+      {
+        "id": "PUB-97bf1c72d29f",
+        "group": "checkoutservice/cpu",
+        "target": "checkoutservice",
+        "fault": "cpu",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "jev": "checkoutservice"
+        },
+        "jev_probabilities": {
+          "productcatalogservice": 0.0,
+          "emailservice": 0.0,
+          "frontend": 0.0,
+          "recommendationservice": 0.01,
+          "currencyservice": 0.0,
+          "insufficient_evidence": 0.03,
+          "shippingservice": 0.0,
+          "frontend-external": 0.0,
+          "cartservice": 0.0,
+          "checkoutservice": 0.95,
+          "redis": 0.01,
+          "paymentservice": 0.0,
+          "adservice": 0.0
+        },
+        "jev_confidence": 0.93
+      },
+      {
+        "id": "PUB-3cc10cccb63c",
+        "group": "checkoutservice/cpu",
+        "target": "checkoutservice",
+        "fault": "cpu",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "jev": "checkoutservice"
+        },
+        "jev_probabilities": {
+          "insufficient_evidence": 0.04,
+          "redis": 0.0,
+          "checkoutservice": 0.93,
+          "currencyservice": 0.0,
+          "frontend": 0.0,
+          "emailservice": 0.0,
+          "productcatalogservice": 0.01,
+          "adservice": 0.0,
+          "frontend-external": 0.0,
+          "recommendationservice": 0.01,
+          "shippingservice": 0.0,
+          "InboundPassthroughClusterIpv4": 0.0,
+          "paymentservice": 0.0,
+          "PassthroughCluster": 0.01,
+          "cartservice": 0.0
+        },
+        "jev_confidence": 0.92
+      },
+      {
+        "id": "PUB-34a5398b520e",
+        "group": "checkoutservice/cpu",
+        "target": "checkoutservice",
+        "fault": "cpu",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "jev": "checkoutservice"
+        },
+        "jev_probabilities": {
+          "productcatalogservice": 0.0,
+          "shippingservice": 0.0,
+          "frontend": 0.01,
+          "paymentservice": 0.0,
+          "adservice": 0.01,
+          "redis": 0.01,
+          "emailservice": 0.0,
+          "checkoutservice": 0.93,
+          "currencyservice": 0.01,
+          "insufficient_evidence": 0.03,
+          "recommendationservice": 0.0,
+          "cartservice": 0.0,
+          "frontend-external": 0.0
+        },
+        "jev_confidence": 0.92
+      },
+      {
+        "id": "PUB-aae861ca5155",
+        "group": "checkoutservice/disk",
+        "target": "checkoutservice",
+        "fault": "disk",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "jev": "checkoutservice"
+        },
+        "jev_probabilities": {
+          "adservice": 0.0,
+          "cartservice": 0.0,
+          "checkoutservice": 0.97,
+          "currencyservice": 0.0,
+          "emailservice": 0.01,
+          "frontend": 0.0,
+          "frontend-external": 0.0,
+          "insufficient_evidence": 0.02,
+          "paymentservice": 0.0,
+          "productcatalogservice": 0.0,
+          "recommendationservice": 0.0,
+          "redis": 0.0,
+          "shippingservice": 0.0
+        },
+        "jev_confidence": 0.97
+      },
+      {
+        "id": "PUB-025a43e8ef90",
+        "group": "checkoutservice/disk",
+        "target": "checkoutservice",
+        "fault": "disk",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "jev": "checkoutservice"
+        },
+        "jev_probabilities": {
+          "redis": 0.02,
+          "checkoutservice": 0.96,
+          "emailservice": 0.0,
+          "cartservice": 0.0,
+          "paymentservice": 0.0,
+          "currencyservice": 0.0,
+          "insufficient_evidence": 0.02,
+          "recommendationservice": 0.0,
+          "shippingservice": 0.0,
+          "adservice": 0.0,
+          "productcatalogservice": 0.0,
+          "frontend": 0.0
+        },
+        "jev_confidence": 0.95
+      },
+      {
+        "id": "PUB-bba0bc25ab41",
+        "group": "checkoutservice/disk",
+        "target": "checkoutservice",
+        "fault": "disk",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "jev": "checkoutservice"
+        },
+        "jev_probabilities": {
+          "redis": 0.0,
+          "recommendationservice": 0.0,
+          "insufficient_evidence": 0.03,
+          "checkoutservice": 0.96,
+          "adservice": 0.0,
+          "cartservice": 0.0,
+          "frontend": 0.0,
+          "emailservice": 0.01,
+          "paymentservice": 0.0,
+          "shippingservice": 0.0,
+          "productcatalogservice": 0.0,
+          "currencyservice": 0.0
+        },
+        "jev_confidence": 0.94
+      },
+      {
+        "id": "PUB-d20ce8215231",
+        "group": "currencyservice/delay",
+        "target": "currencyservice",
+        "fault": "delay",
+        "choices": {
+          "change": "currencyservice",
+          "resource": "frontend",
+          "ml": "checkoutservice",
+          "jev": "currencyservice"
+        },
+        "jev_probabilities": {
+          "recommendationservice": 0.0,
+          "productcatalogservice": 0.0,
+          "frontend-external": 0.0,
+          "currencyservice": 0.49,
+          "frontend": 0.04,
+          "cartservice": 0.0,
+          "insufficient_evidence": 0.11,
+          "redis": 0.01,
+          "shippingservice": 0.0,
+          "adservice": 0.0,
+          "emailservice": 0.0,
+          "paymentservice": 0.0,
+          "checkoutservice": 0.35000000000000003
+        },
+        "jev_confidence": 0.44
+      },
+      {
+        "id": "PUB-0db34b4c7ece",
+        "group": "currencyservice/delay",
+        "target": "currencyservice",
+        "fault": "delay",
+        "choices": {
+          "change": "currencyservice",
+          "resource": "currencyservice",
+          "ml": "currencyservice",
+          "jev": "currencyservice"
+        },
+        "jev_probabilities": {
+          "insufficient_evidence": 0.06,
+          "frontend-external": 0.0,
+          "frontend": 0.02,
+          "redis": 0.01,
+          "productcatalogservice": 0.02,
+          "emailservice": 0.0,
+          "shippingservice": 0.0,
+          "adservice": 0.0,
+          "paymentservice": 0.0,
+          "recommendationservice": 0.0,
+          "currencyservice": 0.83,
+          "cartservice": 0.0,
+          "checkoutservice": 0.06
+        },
+        "jev_confidence": 0.81
+      },
+      {
+        "id": "PUB-c91fd2df9faa",
+        "group": "currencyservice/delay",
+        "target": "currencyservice",
+        "fault": "delay",
+        "choices": {
+          "change": "currencyservice",
+          "resource": "currencyservice",
+          "ml": "currencyservice",
+          "jev": "currencyservice"
+        },
+        "jev_probabilities": {
+          "productcatalogservice": 0.0,
+          "insufficient_evidence": 0.11,
+          "frontend-external": 0.0,
+          "shippingservice": 0.0,
+          "recommendationservice": 0.0,
+          "cartservice": 0.0,
+          "paymentservice": 0.0,
+          "frontend": 0.03,
+          "checkoutservice": 0.06,
+          "redis": 0.01,
+          "currencyservice": 0.79,
+          "adservice": 0.0,
+          "emailservice": 0.0
+        },
+        "jev_confidence": 0.76
+      },
+      {
+        "id": "PUB-011f3b9bc355",
+        "group": "emailservice/loss",
+        "target": "emailservice",
+        "fault": "loss",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "jev": "emailservice"
+        },
+        "jev_probabilities": {
+          "checkoutservice": 0.08,
+          "emailservice": 0.91,
+          "adservice": 0.0,
+          "recommendationservice": 0.0,
+          "cartservice": 0.0,
+          "paymentservice": 0.0,
+          "insufficient_evidence": 0.01,
+          "shippingservice": 0.0,
+          "currencyservice": 0.0,
+          "redis": 0.0,
+          "productcatalogservice": 0.0,
+          "frontend": 0.0,
+          "frontend-external": 0.0
+        },
+        "jev_confidence": 0.89
+      },
+      {
+        "id": "PUB-1f89afb4ec11",
+        "group": "emailservice/loss",
+        "target": "emailservice",
+        "fault": "loss",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "jev": "emailservice"
+        },
+        "jev_probabilities": {
+          "productcatalogservice": 0.0,
+          "recommendationservice": 0.0,
+          "checkoutservice": 0.12,
+          "shippingservice": 0.0,
+          "adservice": 0.0,
+          "frontend": 0.0,
+          "frontend-external": 0.0,
+          "currencyservice": 0.0,
+          "redis": 0.0,
+          "emailservice": 0.86,
+          "cartservice": 0.0,
+          "paymentservice": 0.0,
+          "insufficient_evidence": 0.02
+        },
+        "jev_confidence": 0.84
+      },
+      {
+        "id": "PUB-b9ecf644afb7",
+        "group": "emailservice/loss",
+        "target": "emailservice",
+        "fault": "loss",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "jev": "emailservice"
+        },
+        "jev_probabilities": {
+          "insufficient_evidence": 0.02,
+          "recommendationservice": 0.0,
+          "adservice": 0.0,
+          "checkoutservice": 0.12,
+          "cartservice": 0.0,
+          "currencyservice": 0.0,
+          "shippingservice": 0.0,
+          "redis": 0.0,
+          "frontend": 0.0,
+          "paymentservice": 0.0,
+          "emailservice": 0.86,
+          "frontend-external": 0.0,
+          "productcatalogservice": 0.0
+        },
+        "jev_confidence": 0.84
+      },
+      {
+        "id": "PUB-2cf334d2e0a4",
+        "group": "emailservice/socket",
+        "target": "emailservice",
+        "fault": "socket",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "jev": "emailservice"
+        },
+        "jev_probabilities": {
+          "insufficient_evidence": 0.03,
+          "frontend-external": 0.0,
+          "paymentservice": 0.0,
+          "productcatalogservice": 0.0,
+          "checkoutservice": 0.02,
+          "redis": 0.0,
+          "shippingservice": 0.0,
+          "cartservice": 0.0,
+          "emailservice": 0.92,
+          "frontend": 0.03,
+          "recommendationservice": 0.0,
+          "currencyservice": 0.0,
+          "adservice": 0.0
+        },
+        "jev_confidence": 0.91
+      },
+      {
+        "id": "PUB-ec9e76a45dab",
+        "group": "emailservice/socket",
+        "target": "emailservice",
+        "fault": "socket",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "jev": "emailservice"
+        },
+        "jev_probabilities": {
+          "shippingservice": 0.0,
+          "productcatalogservice": 0.0,
+          "cartservice": 0.0,
+          "paymentservice": 0.0,
+          "frontend-external": 0.0,
+          "currencyservice": 0.01,
+          "checkoutservice": 0.08,
+          "insufficient_evidence": 0.02,
+          "redis": 0.0,
+          "adservice": 0.0,
+          "emailservice": 0.89,
+          "recommendationservice": 0.0,
+          "frontend": 0.0
+        },
+        "jev_confidence": 0.88
+      },
+      {
+        "id": "PUB-18804bdd7fcb",
+        "group": "emailservice/socket",
+        "target": "emailservice",
+        "fault": "socket",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "jev": "emailservice"
+        },
+        "jev_probabilities": {
+          "recommendationservice": 0.0,
+          "insufficient_evidence": 0.04,
+          "paymentservice": 0.0,
+          "adservice": 0.0,
+          "checkoutservice": 0.04,
+          "shippingservice": 0.03,
+          "currencyservice": 0.0,
+          "emailservice": 0.88,
+          "productcatalogservice": 0.0,
+          "redis": 0.0,
+          "cartservice": 0.0,
+          "frontend-external": 0.0,
+          "frontend": 0.01
+        },
+        "jev_confidence": 0.87
+      },
+      {
+        "id": "PUB-be290185f290",
+        "group": "productcatalogservice/cpu",
+        "target": "productcatalogservice",
+        "fault": "cpu",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "jev": "productcatalogservice"
+        },
+        "jev_probabilities": {
+          "paymentservice": 0.0,
+          "productcatalogservice": 0.9400000000000001,
+          "cartservice": 0.0,
+          "shippingservice": 0.0,
+          "frontend-external": 0.0,
+          "recommendationservice": 0.06,
+          "redis": 0.0,
+          "checkoutservice": 0.0,
+          "currencyservice": 0.0,
+          "adservice": 0.0,
+          "emailservice": 0.0,
+          "insufficient_evidence": 0.0,
+          "frontend": 0.0
+        },
+        "jev_confidence": 0.92
+      },
+      {
+        "id": "PUB-94e5ae21b233",
+        "group": "productcatalogservice/cpu",
+        "target": "productcatalogservice",
+        "fault": "cpu",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "jev": "productcatalogservice"
+        },
+        "jev_probabilities": {
+          "shippingservice": 0.0,
+          "emailservice": 0.0,
+          "redis": 0.0,
+          "frontend": 0.01,
+          "recommendationservice": 0.12,
+          "currencyservice": 0.0,
+          "adservice": 0.0,
+          "paymentservice": 0.0,
+          "insufficient_evidence": 0.01,
+          "productcatalogservice": 0.86,
+          "checkoutservice": 0.0,
+          "frontend-external": 0.0,
+          "cartservice": 0.0
+        },
+        "jev_confidence": 0.84
+      },
+      {
+        "id": "PUB-498b272d099d",
+        "group": "productcatalogservice/cpu",
+        "target": "productcatalogservice",
+        "fault": "cpu",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "jev": "productcatalogservice"
+        },
+        "jev_probabilities": {
+          "shippingservice": 0.0,
+          "recommendationservice": 0.13,
+          "cartservice": 0.0,
+          "currencyservice": 0.0,
+          "insufficient_evidence": 0.02,
+          "checkoutservice": 0.0,
+          "productcatalogservice": 0.84,
+          "frontend": 0.01,
+          "redis": 0.0,
+          "emailservice": 0.0,
+          "frontend-external": 0.0,
+          "paymentservice": 0.0,
+          "adservice": 0.0
+        },
+        "jev_confidence": 0.81
+      },
+      {
+        "id": "PUB-3bb38f316524",
+        "group": "productcatalogservice/mem",
+        "target": "productcatalogservice",
+        "fault": "mem",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "jev": "productcatalogservice"
+        },
+        "jev_probabilities": {
+          "adservice": 0.0,
+          "currencyservice": 0.0,
+          "paymentservice": 0.0,
+          "cartservice": 0.0,
+          "recommendationservice": 0.04,
+          "emailservice": 0.0,
+          "productcatalogservice": 0.91,
+          "redis": 0.01,
+          "insufficient_evidence": 0.03,
+          "shippingservice": 0.0,
+          "frontend": 0.01,
+          "checkoutservice": 0.0,
+          "frontend-external": 0.0
+        },
+        "jev_confidence": 0.9
+      },
+      {
+        "id": "PUB-295188811210",
+        "group": "productcatalogservice/mem",
+        "target": "productcatalogservice",
+        "fault": "mem",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "jev": "productcatalogservice"
+        },
+        "jev_probabilities": {
+          "emailservice": 0.0,
+          "insufficient_evidence": 0.02,
+          "redis": 0.0,
+          "productcatalogservice": 0.89,
+          "recommendationservice": 0.06,
+          "frontend-external": 0.0,
+          "paymentservice": 0.0,
+          "shippingservice": 0.0,
+          "currencyservice": 0.01,
+          "cartservice": 0.0,
+          "frontend": 0.01,
+          "adservice": 0.01,
+          "checkoutservice": 0.0
+        },
+        "jev_confidence": 0.87
+      },
+      {
+        "id": "PUB-22a755618135",
+        "group": "productcatalogservice/mem",
+        "target": "productcatalogservice",
+        "fault": "mem",
+        "choices": {
+          "change": "recommendationservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "jev": "productcatalogservice"
+        },
+        "jev_probabilities": {
+          "shippingservice": 0.0,
+          "redis": 0.0,
+          "checkoutservice": 0.0,
+          "recommendationservice": 0.23,
+          "frontend": 0.01,
+          "productcatalogservice": 0.72,
+          "emailservice": 0.0,
+          "adservice": 0.0,
+          "paymentservice": 0.0,
+          "cartservice": 0.0,
+          "currencyservice": 0.02,
+          "frontend-external": 0.0,
+          "insufficient_evidence": 0.02
+        },
+        "jev_confidence": 0.69
+      },
+      {
+        "id": "PUB-92c08bd0d258",
+        "group": "recommendationservice/disk",
+        "target": "recommendationservice",
+        "fault": "disk",
+        "choices": {
+          "change": "recommendationservice",
+          "resource": "recommendationservice",
+          "ml": "recommendationservice",
+          "jev": "recommendationservice"
+        },
+        "jev_probabilities": {
+          "frontend": 0.0,
+          "paymentservice": 0.0,
+          "currencyservice": 0.0,
+          "insufficient_evidence": 0.01,
+          "adservice": 0.0,
+          "emailservice": 0.0,
+          "shippingservice": 0.0,
+          "recommendationservice": 0.98,
+          "productcatalogservice": 0.01,
+          "cartservice": 0.0,
+          "redis": 0.0,
+          "frontend-external": 0.0,
+          "checkoutservice": 0.0
+        },
+        "jev_confidence": 0.98
+      },
+      {
+        "id": "PUB-c923bc4f2d73",
+        "group": "recommendationservice/disk",
+        "target": "recommendationservice",
+        "fault": "disk",
+        "choices": {
+          "change": "recommendationservice",
+          "resource": "recommendationservice",
+          "ml": "recommendationservice",
+          "jev": "recommendationservice"
+        },
+        "jev_probabilities": {
+          "emailservice": 0.0,
+          "redis": 0.0,
+          "shippingservice": 0.0,
+          "adservice": 0.0,
+          "currencyservice": 0.0,
+          "cartservice": 0.0,
+          "frontend": 0.02,
+          "recommendationservice": 0.97,
+          "productcatalogservice": 0.0,
+          "paymentservice": 0.0,
+          "checkoutservice": 0.0,
+          "insufficient_evidence": 0.01,
+          "frontend-external": 0.0
+        },
+        "jev_confidence": 0.97
+      },
+      {
+        "id": "PUB-ba7c71dce547",
+        "group": "recommendationservice/disk",
+        "target": "recommendationservice",
+        "fault": "disk",
+        "choices": {
+          "change": "recommendationservice",
+          "resource": "recommendationservice",
+          "ml": "recommendationservice",
+          "jev": "recommendationservice"
+        },
+        "jev_probabilities": {
+          "frontend": 0.03,
+          "checkoutservice": 0.0,
+          "emailservice": 0.0,
+          "cartservice": 0.0,
+          "redis": 0.0,
+          "paymentservice": 0.0,
+          "productcatalogservice": 0.0,
+          "frontend-external": 0.0,
+          "adservice": 0.0,
+          "recommendationservice": 0.96,
+          "currencyservice": 0.0,
+          "shippingservice": 0.0,
+          "insufficient_evidence": 0.01
+        },
+        "jev_confidence": 0.94
+      }
+    ],
+    "curves": [
+      {
+        "threshold": 0.5,
+        "suggestions": 23,
+        "wrong": 0,
+        "review": 1,
+        "groups": 8
+      },
+      {
+        "threshold": 0.6,
+        "suggestions": 23,
+        "wrong": 0,
+        "review": 1,
+        "groups": 8
+      },
+      {
+        "threshold": 0.7,
+        "suggestions": 23,
+        "wrong": 0,
+        "review": 1,
+        "groups": 8
+      },
+      {
+        "threshold": 0.8,
+        "suggestions": 21,
+        "wrong": 0,
+        "review": 3,
+        "groups": 8
+      },
+      {
+        "threshold": 0.9,
+        "suggestions": 13,
+        "wrong": 0,
+        "review": 11,
+        "groups": 7
+      },
+      {
+        "threshold": 0.95,
+        "suggestions": 7,
+        "wrong": 0,
+        "review": 17,
+        "groups": 3
+      },
+      {
+        "threshold": 0.99,
+        "suggestions": 0,
+        "wrong": 0,
+        "review": 24,
+        "groups": 0
+      },
+      {
+        "threshold": 1.0,
+        "suggestions": 0,
+        "wrong": 0,
+        "review": 24,
+        "groups": 0
+      }
+    ],
+    "comparisons": {
+      "change": {
+        "jev_fixes": [
+          "PUB-22a755618135"
+        ],
+        "jev_regressions": []
+      },
+      "resource": {
+        "jev_fixes": [
+          "PUB-d20ce8215231"
+        ],
+        "jev_regressions": []
+      },
+      "ml": {
+        "jev_fixes": [
+          "PUB-d20ce8215231"
+        ],
+        "jev_regressions": []
+      }
+    },
+    "failed_or_missing": 0,
+    "candidate_coverage": 24,
+    "latency_median_ms": 139.91468749009073,
+    "latency_p95_ms": 166.7310839984566,
+    "provider_usage": {
+      "input_tokens": 90056,
+      "output_tokens": 3665
+    },
+    "probability_note": "Jev choice probabilities only. ML scores are binary candidate margins, not a competing calibrated incident distribution.",
+    "evidence": {
+      "protocol": "26795e6870192438fb3d9d1b06bbbbba624c97c15d1467625848408c5b00ec37",
+      "local_model": "d4e12be84cfec5efef2706f7b583029b84c8ab72981186a50d80404696d238ed",
+      "hosted_summary": "9a594d90e1df2d96aa193c5e0f610ea24198c8a6b16316f3b5faa67aec1dc84c"
+    }
+  },
+  "selection": "All four fixed methods retained. No development-driven transformation or hyperparameter change."
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "public-operations-migration-1",
+  "source_repository": "https://github.com/mumit/Jev-incident-triage-experiments",
+  "source_commit": "2102ccb53793a2d797e3af4069518be82b3a139b",
+  "historical_source_sets": [
+    {
+      "triage_bench/public_data.py": "f90643117a3a691522c2c273e954bfb57680fb3cc764fae9ef8c1ed732414af0",
+      "triage_bench/public_rca_data.py": "4849978589d8ed5b9a804a9cce585eaa91e2fa7f09e72144b77547e931baf903",
+      "triage_bench/public_rca_models.py": "a9ce947562c60a9856f2c9344932d093965942d99fb444e9f26e1f463d892a5d",
+      "triage_bench/public_rca_trial.py": "f81052c56cb7d517ddac1891378dc631eb1824392cc8a8b2aaad843bf43e81fe",
+      "triage_bench/public_rca_stages.py": "8d0f5a941916f6963d806d63649401a715cbc33c0bb7da2accae982f5ba38a90",
+      "scripts/run_public_rca.py": "01ac1c5e2953cd8309efa3c8a2e360ed1ed520c6ec6e0c1e1a394fe3c88505fe",
+      "triage_bench/runner.py": "6851e727336e626b69ad632776974b20f81467e1a564675b9442dc40380d95cd",
+      "triage_bench/experiment3/hosted.py": "faeb5d6f5f90957523a935da185addd25674c3b7f5ccbd4e729516f8e2d5be3b",
+      "triage_bench/experiment3/task_fit_trial.py": "9a61adf6c8630a8d424356a0161d6bec455bb5fbf8bcdd88887f6f8c1601600d"
+    },
+    {
+      "triage_bench/public_data.py": "f90643117a3a691522c2c273e954bfb57680fb3cc764fae9ef8c1ed732414af0",
+      "triage_bench/public_rca_data.py": "4849978589d8ed5b9a804a9cce585eaa91e2fa7f09e72144b77547e931baf903",
+      "triage_bench/public_rca_models.py": "a9ce947562c60a9856f2c9344932d093965942d99fb444e9f26e1f463d892a5d",
+      "triage_bench/public_rca_trial.py": "f81052c56cb7d517ddac1891378dc631eb1824392cc8a8b2aaad843bf43e81fe",
+      "triage_bench/public_rca_stages.py": "8d0f5a941916f6963d806d63649401a715cbc33c0bb7da2accae982f5ba38a90",
+      "scripts/run_public_rca.py": "01ac1c5e2953cd8309efa3c8a2e360ed1ed520c6ec6e0c1e1a394fe3c88505fe",
+      "triage_bench/runner.py": "6851e727336e626b69ad632776974b20f81467e1a564675b9442dc40380d95cd",
+      "triage_bench/experiment3/hosted.py": "faeb5d6f5f90957523a935da185addd25674c3b7f5ccbd4e729516f8e2d5be3b",
+      "triage_bench/experiment3/task_fit_trial.py": "9a61adf6c8630a8d424356a0161d6bec455bb5fbf8bcdd88887f6f8c1601600d",
+      "triage_bench/public_format_data.py": "41fd1a689c193b71533df54adad546a3afdc374c58b5aef0f36b4435672b4858",
+      "triage_bench/public_format_trial.py": "a00ca85d2ddc6f256065d50865418d060d9de4e6e3d221562578aa897f78415d",
+      "triage_bench/public_format_stages.py": "0129ff3c2a7171935fc4c1ce79ecc43ffcf8adb8abc9c246a088077dddf610aa",
+      "scripts/run_public_format.py": "db6232730cab6040c0695238c8f562301152136bf57bd28dd009cbc6307735c7"
+    }
+  ],
+  "archived_source_sha256": {
+    "triage_bench/public_data.py": "f90643117a3a691522c2c273e954bfb57680fb3cc764fae9ef8c1ed732414af0",
+    "triage_bench/public_rca_data.py": "4849978589d8ed5b9a804a9cce585eaa91e2fa7f09e72144b77547e931baf903",
+    "triage_bench/public_rca_models.py": "a9ce947562c60a9856f2c9344932d093965942d99fb444e9f26e1f463d892a5d",
+    "triage_bench/public_rca_trial.py": "f81052c56cb7d517ddac1891378dc631eb1824392cc8a8b2aaad843bf43e81fe",
+    "triage_bench/public_rca_stages.py": "8d0f5a941916f6963d806d63649401a715cbc33c0bb7da2accae982f5ba38a90",
+    "scripts/run_public_rca.py": "01ac1c5e2953cd8309efa3c8a2e360ed1ed520c6ec6e0c1e1a394fe3c88505fe",
+    "triage_bench/runner.py": "6851e727336e626b69ad632776974b20f81467e1a564675b9442dc40380d95cd",
+    "triage_bench/experiment3/hosted.py": "faeb5d6f5f90957523a935da185addd25674c3b7f5ccbd4e729516f8e2d5be3b",
+    "triage_bench/experiment3/task_fit_trial.py": "9a61adf6c8630a8d424356a0161d6bec455bb5fbf8bcdd88887f6f8c1601600d",
+    "triage_bench/public_format_data.py": "41fd1a689c193b71533df54adad546a3afdc374c58b5aef0f36b4435672b4858",
+    "triage_bench/public_format_trial.py": "a00ca85d2ddc6f256065d50865418d060d9de4e6e3d221562578aa897f78415d",
+    "triage_bench/public_format_stages.py": "0129ff3c2a7171935fc4c1ce79ecc43ffcf8adb8abc9c246a088077dddf610aa",
+    "scripts/run_public_format.py": "db6232730cab6040c0695238c8f562301152136bf57bd28dd009cbc6307735c7"
+  },
+  "historical_protocol_sha256": {
+    "public-rca-protocol-2026-10-03.json": "26795e6870192438fb3d9d1b06bbbbba624c97c15d1467625848408c5b00ec37",
+    "public-format-protocol-2026-10-03.json": "429d54786da408f98d266fed6029315eb7828dcd414a03a7eff1bfdfcfcc387a"
+  },
+  "active_source_sha256": {
+    "triage_bench/public_data.py": "f90643117a3a691522c2c273e954bfb57680fb3cc764fae9ef8c1ed732414af0",
+    "triage_bench/public_rca_data.py": "4849978589d8ed5b9a804a9cce585eaa91e2fa7f09e72144b77547e931baf903",
+    "triage_bench/public_rca_models.py": "a9ce947562c60a9856f2c9344932d093965942d99fb444e9f26e1f463d892a5d",
+    "triage_bench/public_rca_trial.py": "9a66e6f376dc9741c0b725f07c987df9d8505fafe72083154e64e866f5cf535f",
+    "triage_bench/public_rca_stages.py": "d4ce1ebfab517ea72abb9edfe20ba507f38cb1a6fd8f9bab6d508d19d0afe9d2",
+    "triage_bench/public_format_data.py": "41fd1a689c193b71533df54adad546a3afdc374c58b5aef0f36b4435672b4858",
+    "triage_bench/public_format_trial.py": "0470eb551f30dda1c9c89a1ca64774b419817ffd6aec63f77321a2da27c761a6",
+    "triage_bench/public_format_stages.py": "0129ff3c2a7171935fc4c1ce79ecc43ffcf8adb8abc9c246a088077dddf610aa",
+    "triage_bench/runner.py": "831c155f0a5fd291da6f13d0d337b6fd73722126d87f8e5423ddcb974d7b152c",
+    "triage_bench/hosted.py": "7e4a8ed9f019aedd1b72cbb6eb7e58c69290da23f19c1285f256fb670de915b8",
+    "triage_bench/profile.py": "4b8ea3f947f1af6797e1f9a1ba67fa0dbd0d150cbc2545cdd388a580a31ae8a7",
+    "triage_bench/provenance.py": "ec81ffb0eef9274f4fd48db57a3f8f856cc0a39b81b6d4cebb1e69e9f00a9b0d",
+    "scripts/run_public_rca.py": "dc073508634b9398f220ce8b8993961c7cacd6b49b746b96c89714b7393e46da",
+    "scripts/run_public_format.py": "9491e1a6428fe4615333abb7a9f6cbdeb77cacfb03cae4308924470b2c81ed09"
+  },
+  "evidence_directories": [
+    "runs/public-data/preflight-2026-10-03-v1",
+    "runs/public-data/metric-study-2026-10-03-v2",
+    "runs/public-data/input-format-2026-10-03-v1",
+    "runs/public-rca/local-2026-10-03-v1",
+    "runs/public-rca/development-2026-10-03-v1",
+    "runs/public-rca/calibration-2026-10-03-v1",
+    "runs/public-rca/evaluation-2026-10-03-v1",
+    "runs/public-format/development-2026-10-03-v1",
+    "runs/public-format/calibration-2026-10-03-v1",
+    "runs/public-format/evaluation-2026-10-03-v1",
+    "runs/public-format/execution"
+  ],
+  "meaning": "Historical inference sources archived verbatim; standalone extraction verified against recorded requests and result checkpoints. No new inference."
+}

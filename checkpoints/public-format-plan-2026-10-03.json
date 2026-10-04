@@ -1,0 +1,546 @@
+{
+  "schema": "public-format-plan-1",
+  "assignment_rule": "For ordered services carts/catalogue/orders/payment/user and faults cpu/delay/disk/loss/mem/socket, offset=(service_index-fault_index)%5. Offset 0 calibration, 1/2 evaluation, 3/4 reserved. All three repetitions stay together.",
+  "assignments": [
+    {
+      "id": "FMT-bc159c2c3cde",
+      "split": "calibration",
+      "group": "carts/cpu",
+      "source_case": "re2ss_carts_cpu_1"
+    },
+    {
+      "id": "FMT-5f82975d89b7",
+      "split": "calibration",
+      "group": "carts/cpu",
+      "source_case": "re2ss_carts_cpu_2"
+    },
+    {
+      "id": "FMT-b87181b8cbc7",
+      "split": "calibration",
+      "group": "carts/cpu",
+      "source_case": "re2ss_carts_cpu_3"
+    },
+    {
+      "id": "FMT-fd54e0824c02",
+      "split": "reserve",
+      "group": "carts/delay",
+      "source_case": "re2ss_carts_delay_1"
+    },
+    {
+      "id": "FMT-bad7972e0ea4",
+      "split": "reserve",
+      "group": "carts/delay",
+      "source_case": "re2ss_carts_delay_2"
+    },
+    {
+      "id": "FMT-c84e68bc3d52",
+      "split": "reserve",
+      "group": "carts/delay",
+      "source_case": "re2ss_carts_delay_3"
+    },
+    {
+      "id": "FMT-c67b895315d3",
+      "split": "reserve",
+      "group": "carts/disk",
+      "source_case": "re2ss_carts_disk_1"
+    },
+    {
+      "id": "FMT-ff7580a95217",
+      "split": "reserve",
+      "group": "carts/disk",
+      "source_case": "re2ss_carts_disk_2"
+    },
+    {
+      "id": "FMT-221c1fe931a5",
+      "split": "reserve",
+      "group": "carts/disk",
+      "source_case": "re2ss_carts_disk_3"
+    },
+    {
+      "id": "FMT-5bb70564df05",
+      "split": "evaluation",
+      "group": "carts/loss",
+      "source_case": "re2ss_carts_loss_1"
+    },
+    {
+      "id": "FMT-eacbf919bae7",
+      "split": "evaluation",
+      "group": "carts/loss",
+      "source_case": "re2ss_carts_loss_2"
+    },
+    {
+      "id": "FMT-d856e0a00ea9",
+      "split": "evaluation",
+      "group": "carts/loss",
+      "source_case": "re2ss_carts_loss_3"
+    },
+    {
+      "id": "FMT-1735bd7168ff",
+      "split": "evaluation",
+      "group": "carts/mem",
+      "source_case": "re2ss_carts_mem_1"
+    },
+    {
+      "id": "FMT-bab17bc9a915",
+      "split": "evaluation",
+      "group": "carts/mem",
+      "source_case": "re2ss_carts_mem_2"
+    },
+    {
+      "id": "FMT-f1a96982dbc4",
+      "split": "evaluation",
+      "group": "carts/mem",
+      "source_case": "re2ss_carts_mem_3"
+    },
+    {
+      "id": "FMT-65b4f5502153",
+      "split": "calibration",
+      "group": "carts/socket",
+      "source_case": "re2ss_carts_socket_1"
+    },
+    {
+      "id": "FMT-dff737ef5d78",
+      "split": "calibration",
+      "group": "carts/socket",
+      "source_case": "re2ss_carts_socket_2"
+    },
+    {
+      "id": "FMT-1fc7315d302f",
+      "split": "calibration",
+      "group": "carts/socket",
+      "source_case": "re2ss_carts_socket_3"
+    },
+    {
+      "id": "FMT-ea3b93d48fdb",
+      "split": "evaluation",
+      "group": "catalogue/cpu",
+      "source_case": "re2ss_catalogue_cpu_1"
+    },
+    {
+      "id": "FMT-bdc276e696a9",
+      "split": "evaluation",
+      "group": "catalogue/cpu",
+      "source_case": "re2ss_catalogue_cpu_2"
+    },
+    {
+      "id": "FMT-f8d40b9589d8",
+      "split": "evaluation",
+      "group": "catalogue/cpu",
+      "source_case": "re2ss_catalogue_cpu_3"
+    },
+    {
+      "id": "FMT-f52193520338",
+      "split": "calibration",
+      "group": "catalogue/delay",
+      "source_case": "re2ss_catalogue_delay_1"
+    },
+    {
+      "id": "FMT-cd38dda759a6",
+      "split": "calibration",
+      "group": "catalogue/delay",
+      "source_case": "re2ss_catalogue_delay_2"
+    },
+    {
+      "id": "FMT-1c26d3422bdf",
+      "split": "calibration",
+      "group": "catalogue/delay",
+      "source_case": "re2ss_catalogue_delay_3"
+    },
+    {
+      "id": "FMT-9df5da4c1e4e",
+      "split": "reserve",
+      "group": "catalogue/disk",
+      "source_case": "re2ss_catalogue_disk_1"
+    },
+    {
+      "id": "FMT-d19486f6e14f",
+      "split": "reserve",
+      "group": "catalogue/disk",
+      "source_case": "re2ss_catalogue_disk_2"
+    },
+    {
+      "id": "FMT-b1e87209619a",
+      "split": "reserve",
+      "group": "catalogue/disk",
+      "source_case": "re2ss_catalogue_disk_3"
+    },
+    {
+      "id": "FMT-e6b806cb1998",
+      "split": "reserve",
+      "group": "catalogue/loss",
+      "source_case": "re2ss_catalogue_loss_1"
+    },
+    {
+      "id": "FMT-ebe697bd9e55",
+      "split": "reserve",
+      "group": "catalogue/loss",
+      "source_case": "re2ss_catalogue_loss_2"
+    },
+    {
+      "id": "FMT-29013073e4cd",
+      "split": "reserve",
+      "group": "catalogue/loss",
+      "source_case": "re2ss_catalogue_loss_3"
+    },
+    {
+      "id": "FMT-064f8949c05a",
+      "split": "evaluation",
+      "group": "catalogue/mem",
+      "source_case": "re2ss_catalogue_mem_1"
+    },
+    {
+      "id": "FMT-6219200c5423",
+      "split": "evaluation",
+      "group": "catalogue/mem",
+      "source_case": "re2ss_catalogue_mem_2"
+    },
+    {
+      "id": "FMT-8a8acc3a2e96",
+      "split": "evaluation",
+      "group": "catalogue/mem",
+      "source_case": "re2ss_catalogue_mem_3"
+    },
+    {
+      "id": "FMT-eae5bba9c34f",
+      "split": "evaluation",
+      "group": "catalogue/socket",
+      "source_case": "re2ss_catalogue_socket_1"
+    },
+    {
+      "id": "FMT-6cfda2c82f55",
+      "split": "evaluation",
+      "group": "catalogue/socket",
+      "source_case": "re2ss_catalogue_socket_2"
+    },
+    {
+      "id": "FMT-bc898a979cae",
+      "split": "evaluation",
+      "group": "catalogue/socket",
+      "source_case": "re2ss_catalogue_socket_3"
+    },
+    {
+      "id": "FMT-6b49dc3cbafe",
+      "split": "evaluation",
+      "group": "orders/cpu",
+      "source_case": "re2ss_orders_cpu_1"
+    },
+    {
+      "id": "FMT-0a008a76082a",
+      "split": "evaluation",
+      "group": "orders/cpu",
+      "source_case": "re2ss_orders_cpu_2"
+    },
+    {
+      "id": "FMT-0794fee4f8b8",
+      "split": "evaluation",
+      "group": "orders/cpu",
+      "source_case": "re2ss_orders_cpu_3"
+    },
+    {
+      "id": "FMT-ebb72cb3ab15",
+      "split": "evaluation",
+      "group": "orders/delay",
+      "source_case": "re2ss_orders_delay_1"
+    },
+    {
+      "id": "FMT-49b5cf388bb3",
+      "split": "evaluation",
+      "group": "orders/delay",
+      "source_case": "re2ss_orders_delay_2"
+    },
+    {
+      "id": "FMT-15700773fde2",
+      "split": "evaluation",
+      "group": "orders/delay",
+      "source_case": "re2ss_orders_delay_3"
+    },
+    {
+      "id": "FMT-2c481ec2aefb",
+      "split": "calibration",
+      "group": "orders/disk",
+      "source_case": "re2ss_orders_disk_1"
+    },
+    {
+      "id": "FMT-1ce8546ab3c5",
+      "split": "calibration",
+      "group": "orders/disk",
+      "source_case": "re2ss_orders_disk_2"
+    },
+    {
+      "id": "FMT-f80611c617c8",
+      "split": "calibration",
+      "group": "orders/disk",
+      "source_case": "re2ss_orders_disk_3"
+    },
+    {
+      "id": "FMT-ae5689a1103b",
+      "split": "reserve",
+      "group": "orders/loss",
+      "source_case": "re2ss_orders_loss_1"
+    },
+    {
+      "id": "FMT-c61e87875bd9",
+      "split": "reserve",
+      "group": "orders/loss",
+      "source_case": "re2ss_orders_loss_2"
+    },
+    {
+      "id": "FMT-0820bc493cc7",
+      "split": "reserve",
+      "group": "orders/loss",
+      "source_case": "re2ss_orders_loss_3"
+    },
+    {
+      "id": "FMT-f4e9fe8b8e80",
+      "split": "reserve",
+      "group": "orders/mem",
+      "source_case": "re2ss_orders_mem_1"
+    },
+    {
+      "id": "FMT-cf1f3321d2a6",
+      "split": "reserve",
+      "group": "orders/mem",
+      "source_case": "re2ss_orders_mem_2"
+    },
+    {
+      "id": "FMT-1a3ec8165de5",
+      "split": "reserve",
+      "group": "orders/mem",
+      "source_case": "re2ss_orders_mem_3"
+    },
+    {
+      "id": "FMT-f488223089c0",
+      "split": "evaluation",
+      "group": "orders/socket",
+      "source_case": "re2ss_orders_socket_1"
+    },
+    {
+      "id": "FMT-52f9bce34b8f",
+      "split": "evaluation",
+      "group": "orders/socket",
+      "source_case": "re2ss_orders_socket_2"
+    },
+    {
+      "id": "FMT-213252fb43b8",
+      "split": "evaluation",
+      "group": "orders/socket",
+      "source_case": "re2ss_orders_socket_3"
+    },
+    {
+      "id": "FMT-fc6978ec8711",
+      "split": "reserve",
+      "group": "payment/cpu",
+      "source_case": "re2ss_payment_cpu_1"
+    },
+    {
+      "id": "FMT-140b34b777a9",
+      "split": "reserve",
+      "group": "payment/cpu",
+      "source_case": "re2ss_payment_cpu_2"
+    },
+    {
+      "id": "FMT-f7dcedc99f21",
+      "split": "reserve",
+      "group": "payment/cpu",
+      "source_case": "re2ss_payment_cpu_3"
+    },
+    {
+      "id": "FMT-24bf9c6ee0c1",
+      "split": "evaluation",
+      "group": "payment/delay",
+      "source_case": "re2ss_payment_delay_1"
+    },
+    {
+      "id": "FMT-a89dbccd5437",
+      "split": "evaluation",
+      "group": "payment/delay",
+      "source_case": "re2ss_payment_delay_2"
+    },
+    {
+      "id": "FMT-1fd5c3468617",
+      "split": "evaluation",
+      "group": "payment/delay",
+      "source_case": "re2ss_payment_delay_3"
+    },
+    {
+      "id": "FMT-790a38c65ab7",
+      "split": "evaluation",
+      "group": "payment/disk",
+      "source_case": "re2ss_payment_disk_1"
+    },
+    {
+      "id": "FMT-0320c9b146eb",
+      "split": "evaluation",
+      "group": "payment/disk",
+      "source_case": "re2ss_payment_disk_2"
+    },
+    {
+      "id": "FMT-977716480a8a",
+      "split": "evaluation",
+      "group": "payment/disk",
+      "source_case": "re2ss_payment_disk_3"
+    },
+    {
+      "id": "FMT-c161e1ce9d91",
+      "split": "calibration",
+      "group": "payment/loss",
+      "source_case": "re2ss_payment_loss_1"
+    },
+    {
+      "id": "FMT-10b772fdf90e",
+      "split": "calibration",
+      "group": "payment/loss",
+      "source_case": "re2ss_payment_loss_2"
+    },
+    {
+      "id": "FMT-107547061ee3",
+      "split": "calibration",
+      "group": "payment/loss",
+      "source_case": "re2ss_payment_loss_3"
+    },
+    {
+      "id": "FMT-99cc74825f5f",
+      "split": "reserve",
+      "group": "payment/mem",
+      "source_case": "re2ss_payment_mem_1"
+    },
+    {
+      "id": "FMT-cd43e109ea7a",
+      "split": "reserve",
+      "group": "payment/mem",
+      "source_case": "re2ss_payment_mem_2"
+    },
+    {
+      "id": "FMT-f760823c0405",
+      "split": "reserve",
+      "group": "payment/mem",
+      "source_case": "re2ss_payment_mem_3"
+    },
+    {
+      "id": "FMT-9ef8613d5901",
+      "split": "reserve",
+      "group": "payment/socket",
+      "source_case": "re2ss_payment_socket_1"
+    },
+    {
+      "id": "FMT-c923c89e6648",
+      "split": "reserve",
+      "group": "payment/socket",
+      "source_case": "re2ss_payment_socket_2"
+    },
+    {
+      "id": "FMT-ac23b6db3880",
+      "split": "reserve",
+      "group": "payment/socket",
+      "source_case": "re2ss_payment_socket_3"
+    },
+    {
+      "id": "FMT-eb5e486acddd",
+      "split": "reserve",
+      "group": "user/cpu",
+      "source_case": "re2ss_user_cpu_1"
+    },
+    {
+      "id": "FMT-884762d3c408",
+      "split": "reserve",
+      "group": "user/cpu",
+      "source_case": "re2ss_user_cpu_2"
+    },
+    {
+      "id": "FMT-91a4f9c34088",
+      "split": "reserve",
+      "group": "user/cpu",
+      "source_case": "re2ss_user_cpu_3"
+    },
+    {
+      "id": "FMT-5d60431a4708",
+      "split": "reserve",
+      "group": "user/delay",
+      "source_case": "re2ss_user_delay_1"
+    },
+    {
+      "id": "FMT-6ed16da56895",
+      "split": "reserve",
+      "group": "user/delay",
+      "source_case": "re2ss_user_delay_2"
+    },
+    {
+      "id": "FMT-14125add2cd6",
+      "split": "reserve",
+      "group": "user/delay",
+      "source_case": "re2ss_user_delay_3"
+    },
+    {
+      "id": "FMT-dc02f921b101",
+      "split": "evaluation",
+      "group": "user/disk",
+      "source_case": "re2ss_user_disk_1"
+    },
+    {
+      "id": "FMT-4f54e133f043",
+      "split": "evaluation",
+      "group": "user/disk",
+      "source_case": "re2ss_user_disk_2"
+    },
+    {
+      "id": "FMT-c3ba38139ff5",
+      "split": "evaluation",
+      "group": "user/disk",
+      "source_case": "re2ss_user_disk_3"
+    },
+    {
+      "id": "FMT-4d28515b0bce",
+      "split": "evaluation",
+      "group": "user/loss",
+      "source_case": "re2ss_user_loss_1"
+    },
+    {
+      "id": "FMT-d11d978e6684",
+      "split": "evaluation",
+      "group": "user/loss",
+      "source_case": "re2ss_user_loss_2"
+    },
+    {
+      "id": "FMT-7b2f8b11750e",
+      "split": "evaluation",
+      "group": "user/loss",
+      "source_case": "re2ss_user_loss_3"
+    },
+    {
+      "id": "FMT-5dac0cd3c5f4",
+      "split": "calibration",
+      "group": "user/mem",
+      "source_case": "re2ss_user_mem_1"
+    },
+    {
+      "id": "FMT-a84a90545dac",
+      "split": "calibration",
+      "group": "user/mem",
+      "source_case": "re2ss_user_mem_2"
+    },
+    {
+      "id": "FMT-8070789451ec",
+      "split": "calibration",
+      "group": "user/mem",
+      "source_case": "re2ss_user_mem_3"
+    },
+    {
+      "id": "FMT-bcbbd4529d2e",
+      "split": "reserve",
+      "group": "user/socket",
+      "source_case": "re2ss_user_socket_1"
+    },
+    {
+      "id": "FMT-01781f30fe20",
+      "split": "reserve",
+      "group": "user/socket",
+      "source_case": "re2ss_user_socket_2"
+    },
+    {
+      "id": "FMT-f82f04287066",
+      "split": "reserve",
+      "group": "user/socket",
+      "source_case": "re2ss_user_socket_3"
+    }
+  ]
+}

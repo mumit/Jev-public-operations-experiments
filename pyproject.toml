@@ -1,0 +1,12 @@
+[project]
+name = "jev-public-operations-experiments"
+version = "0.1.0"
+description = "Public operations studies comparing Jev, fitted ML and metric rankings"
+requires-python = ">=3.11"
+dependencies = ["markdown-it-py==4.0.0", "scikit-learn==1.9.1"]
+
+[tool.uv]
+package = false
+
+[project.optional-dependencies]
+public-data = ["pyarrow==25.0.1"]

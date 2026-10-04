@@ -1,0 +1,2040 @@
+{
+  "schema": "public-format-candidate-1",
+  "protocol_sha256": "429d54786da408f98d266fed6029315eb7828dcd414a03a7eff1bfdfcfcc387a",
+  "development": "runs/public-format/development-2026-10-03-v1",
+  "assessment": {
+    "schema": "public-format-assessment-1",
+    "split": "development",
+    "metrics": {
+      "change": {
+        "correct": 23,
+        "cases": 24,
+        "withheld": 0,
+        "groups_all_correct": 7,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 2,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "resource": {
+        "correct": 23,
+        "cases": 24,
+        "withheld": 0,
+        "groups_all_correct": 7,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 2,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "ml": {
+        "correct": 23,
+        "cases": 24,
+        "withheld": 0,
+        "groups_all_correct": 7,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 2,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "compact": {
+        "correct": 24,
+        "cases": 24,
+        "withheld": 0,
+        "groups_all_correct": 8,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "named": {
+        "correct": 24,
+        "cases": 24,
+        "withheld": 0,
+        "groups_all_correct": 8,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      },
+      "explained": {
+        "correct": 24,
+        "cases": 24,
+        "withheld": 0,
+        "groups_all_correct": 8,
+        "groups": 8,
+        "by_fault": {
+          "cpu": {
+            "correct": 6,
+            "cases": 6
+          },
+          "delay": {
+            "correct": 3,
+            "cases": 3
+          },
+          "disk": {
+            "correct": 6,
+            "cases": 6
+          },
+          "loss": {
+            "correct": 3,
+            "cases": 3
+          },
+          "mem": {
+            "correct": 3,
+            "cases": 3
+          },
+          "socket": {
+            "correct": 3,
+            "cases": 3
+          }
+        }
+      }
+    },
+    "outcomes": [
+      {
+        "id": "PUB-97bf1c72d29f",
+        "group": "checkoutservice/cpu",
+        "fault": "cpu",
+        "target": "checkoutservice",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "compact": "checkoutservice",
+          "named": "checkoutservice",
+          "explained": "checkoutservice"
+        },
+        "probabilities": {
+          "compact": {
+            "shippingservice": 0.0,
+            "emailservice": 0.0,
+            "currencyservice": 0.0,
+            "frontend": 0.0,
+            "recommendationservice": 0.01,
+            "redis": 0.01,
+            "adservice": 0.0,
+            "checkoutservice": 0.95,
+            "insufficient_evidence": 0.03,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "frontend-external": 0.0,
+            "productcatalogservice": 0.0
+          },
+          "named": {
+            "emailservice": 0.0,
+            "insufficient_evidence": 0.09,
+            "redis": 0.01,
+            "shippingservice": 0.0,
+            "recommendationservice": 0.0,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "productcatalogservice": 0.0,
+            "currencyservice": 0.01,
+            "frontend-external": 0.0,
+            "frontend": 0.0,
+            "adservice": 0.0,
+            "checkoutservice": 0.89
+          },
+          "explained": {
+            "cartservice": 0.0,
+            "frontend": 0.0,
+            "productcatalogservice": 0.0,
+            "shippingservice": 0.0,
+            "currencyservice": 0.01,
+            "recommendationservice": 0.0,
+            "emailservice": 0.0,
+            "adservice": 0.0,
+            "insufficient_evidence": 0.04,
+            "frontend-external": 0.0,
+            "redis": 0.0,
+            "checkoutservice": 0.95,
+            "paymentservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.94,
+          "named": 0.87,
+          "explained": 0.94
+        }
+      },
+      {
+        "id": "PUB-3cc10cccb63c",
+        "group": "checkoutservice/cpu",
+        "fault": "cpu",
+        "target": "checkoutservice",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "compact": "checkoutservice",
+          "named": "checkoutservice",
+          "explained": "checkoutservice"
+        },
+        "probabilities": {
+          "compact": {
+            "insufficient_evidence": 0.0303030303030303,
+            "emailservice": 0.0,
+            "frontend": 0.0,
+            "shippingservice": 0.0,
+            "adservice": 0.0,
+            "paymentservice": 0.0,
+            "cartservice": 0.0,
+            "PassthroughCluster": 0.0101010101010101,
+            "productcatalogservice": 0.0101010101010101,
+            "frontend-external": 0.0,
+            "redis": 0.0,
+            "checkoutservice": 0.9393939393939393,
+            "InboundPassthroughClusterIpv4": 0.0,
+            "recommendationservice": 0.0101010101010101,
+            "currencyservice": 0.0
+          },
+          "named": {
+            "InboundPassthroughClusterIpv4": 0.01,
+            "PassthroughCluster": 0.04,
+            "insufficient_evidence": 0.06,
+            "frontend": 0.0,
+            "shippingservice": 0.0,
+            "productcatalogservice": 0.01,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.87,
+            "adservice": 0.0,
+            "cartservice": 0.0,
+            "currencyservice": 0.0,
+            "paymentservice": 0.0,
+            "emailservice": 0.0,
+            "recommendationservice": 0.01,
+            "redis": 0.0
+          },
+          "explained": {
+            "recommendationservice": 0.01,
+            "InboundPassthroughClusterIpv4": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend-external": 0.0,
+            "frontend": 0.0,
+            "cartservice": 0.0,
+            "insufficient_evidence": 0.03,
+            "adservice": 0.0,
+            "emailservice": 0.0,
+            "currencyservice": 0.0,
+            "redis": 0.0,
+            "checkoutservice": 0.95,
+            "shippingservice": 0.0,
+            "PassthroughCluster": 0.01,
+            "paymentservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.92,
+          "named": 0.85,
+          "explained": 0.95
+        }
+      },
+      {
+        "id": "PUB-34a5398b520e",
+        "group": "checkoutservice/cpu",
+        "fault": "cpu",
+        "target": "checkoutservice",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "compact": "checkoutservice",
+          "named": "checkoutservice",
+          "explained": "checkoutservice"
+        },
+        "probabilities": {
+          "compact": {
+            "adservice": 0.02,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.91,
+            "redis": 0.01,
+            "currencyservice": 0.01,
+            "insufficient_evidence": 0.04,
+            "shippingservice": 0.0,
+            "recommendationservice": 0.0,
+            "emailservice": 0.0,
+            "frontend": 0.01,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "productcatalogservice": 0.0
+          },
+          "named": {
+            "emailservice": 0.0,
+            "frontend-external": 0.0,
+            "insufficient_evidence": 0.07,
+            "redis": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend": 0.0,
+            "checkoutservice": 0.91,
+            "adservice": 0.0,
+            "paymentservice": 0.0,
+            "recommendationservice": 0.0,
+            "currencyservice": 0.02,
+            "cartservice": 0.0,
+            "shippingservice": 0.0
+          },
+          "explained": {
+            "currencyservice": 0.0202020202020202,
+            "recommendationservice": 0.0,
+            "cartservice": 0.0,
+            "checkoutservice": 0.9393939393939393,
+            "insufficient_evidence": 0.0404040404040404,
+            "paymentservice": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend": 0.0,
+            "redis": 0.0,
+            "frontend-external": 0.0,
+            "emailservice": 0.0,
+            "shippingservice": 0.0,
+            "adservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.91,
+          "named": 0.9,
+          "explained": 0.92
+        }
+      },
+      {
+        "id": "PUB-aae861ca5155",
+        "group": "checkoutservice/disk",
+        "fault": "disk",
+        "target": "checkoutservice",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "compact": "checkoutservice",
+          "named": "checkoutservice",
+          "explained": "checkoutservice"
+        },
+        "probabilities": {
+          "compact": {
+            "productcatalogservice": 0.0,
+            "adservice": 0.0,
+            "frontend-external": 0.0,
+            "cartservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "recommendationservice": 0.0,
+            "redis": 0.0,
+            "checkoutservice": 0.97,
+            "paymentservice": 0.0,
+            "frontend": 0.0,
+            "currencyservice": 0.0,
+            "emailservice": 0.01,
+            "shippingservice": 0.0
+          },
+          "named": {
+            "emailservice": 0.0101010101010101,
+            "redis": 0.0,
+            "shippingservice": 0.0,
+            "adservice": 0.0,
+            "currencyservice": 0.0101010101010101,
+            "cartservice": 0.0,
+            "frontend": 0.0,
+            "recommendationservice": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.9393939393939393,
+            "insufficient_evidence": 0.0404040404040404,
+            "paymentservice": 0.0
+          },
+          "explained": {
+            "checkoutservice": 0.93,
+            "emailservice": 0.03,
+            "adservice": 0.0,
+            "recommendationservice": 0.0,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "insufficient_evidence": 0.03,
+            "shippingservice": 0.0,
+            "currencyservice": 0.01,
+            "redis": 0.0,
+            "frontend-external": 0.0,
+            "frontend": 0.0,
+            "productcatalogservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.96,
+          "named": 0.93,
+          "explained": 0.92
+        }
+      },
+      {
+        "id": "PUB-025a43e8ef90",
+        "group": "checkoutservice/disk",
+        "fault": "disk",
+        "target": "checkoutservice",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "compact": "checkoutservice",
+          "named": "checkoutservice",
+          "explained": "checkoutservice"
+        },
+        "probabilities": {
+          "compact": {
+            "productcatalogservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "recommendationservice": 0.0,
+            "redis": 0.02,
+            "shippingservice": 0.0,
+            "checkoutservice": 0.96,
+            "currencyservice": 0.0,
+            "paymentservice": 0.0,
+            "frontend": 0.0,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "adservice": 0.0
+          },
+          "named": {
+            "productcatalogservice": 0.0,
+            "insufficient_evidence": 0.03,
+            "recommendationservice": 0.0,
+            "redis": 0.01,
+            "shippingservice": 0.0,
+            "checkoutservice": 0.96,
+            "currencyservice": 0.0,
+            "frontend": 0.0,
+            "paymentservice": 0.0,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "adservice": 0.0
+          },
+          "explained": {
+            "productcatalogservice": 0.0,
+            "emailservice": 0.0,
+            "frontend": 0.0,
+            "recommendationservice": 0.0,
+            "shippingservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "currencyservice": 0.0,
+            "redis": 0.0,
+            "cartservice": 0.0,
+            "checkoutservice": 0.98,
+            "adservice": 0.0,
+            "paymentservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.95,
+          "named": 0.94,
+          "explained": 0.97
+        }
+      },
+      {
+        "id": "PUB-bba0bc25ab41",
+        "group": "checkoutservice/disk",
+        "fault": "disk",
+        "target": "checkoutservice",
+        "choices": {
+          "change": "checkoutservice",
+          "resource": "checkoutservice",
+          "ml": "checkoutservice",
+          "compact": "checkoutservice",
+          "named": "checkoutservice",
+          "explained": "checkoutservice"
+        },
+        "probabilities": {
+          "compact": {
+            "checkoutservice": 0.95,
+            "emailservice": 0.01,
+            "adservice": 0.01,
+            "recommendationservice": 0.0,
+            "cartservice": 0.0,
+            "insufficient_evidence": 0.03,
+            "paymentservice": 0.0,
+            "shippingservice": 0.0,
+            "currencyservice": 0.0,
+            "redis": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend": 0.0
+          },
+          "named": {
+            "adservice": 0.0,
+            "cartservice": 0.0,
+            "checkoutservice": 0.95,
+            "currencyservice": 0.0,
+            "emailservice": 0.0,
+            "frontend": 0.0,
+            "insufficient_evidence": 0.05,
+            "paymentservice": 0.0,
+            "productcatalogservice": 0.0,
+            "recommendationservice": 0.0,
+            "redis": 0.0,
+            "shippingservice": 0.0
+          },
+          "explained": {
+            "adservice": 0.0,
+            "currencyservice": 0.0,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "insufficient_evidence": 0.04,
+            "frontend": 0.0,
+            "paymentservice": 0.0,
+            "productcatalogservice": 0.0,
+            "redis": 0.0,
+            "checkoutservice": 0.96,
+            "shippingservice": 0.0,
+            "recommendationservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.94,
+          "named": 0.94,
+          "explained": 0.95
+        }
+      },
+      {
+        "id": "PUB-d20ce8215231",
+        "group": "currencyservice/delay",
+        "fault": "delay",
+        "target": "currencyservice",
+        "choices": {
+          "change": "currencyservice",
+          "resource": "frontend",
+          "ml": "checkoutservice",
+          "compact": "currencyservice",
+          "named": "currencyservice",
+          "explained": "currencyservice"
+        },
+        "probabilities": {
+          "compact": {
+            "insufficient_evidence": 0.1,
+            "redis": 0.01,
+            "adservice": 0.0,
+            "frontend-external": 0.0,
+            "currencyservice": 0.54,
+            "cartservice": 0.0,
+            "recommendationservice": 0.0,
+            "shippingservice": 0.0,
+            "frontend": 0.04,
+            "emailservice": 0.0,
+            "paymentservice": 0.0,
+            "checkoutservice": 0.31,
+            "productcatalogservice": 0.0
+          },
+          "named": {
+            "adservice": 0.0,
+            "insufficient_evidence": 0.1,
+            "redis": 0.0,
+            "recommendationservice": 0.0,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "checkoutservice": 0.12,
+            "frontend-external": 0.0,
+            "productcatalogservice": 0.0,
+            "paymentservice": 0.0,
+            "currencyservice": 0.72,
+            "shippingservice": 0.0,
+            "frontend": 0.06
+          },
+          "explained": {
+            "shippingservice": 0.0,
+            "emailservice": 0.0,
+            "currencyservice": 0.73,
+            "adservice": 0.0,
+            "recommendationservice": 0.0,
+            "frontend": 0.07,
+            "redis": 0.0,
+            "paymentservice": 0.0,
+            "insufficient_evidence": 0.09,
+            "productcatalogservice": 0.0,
+            "checkoutservice": 0.11,
+            "frontend-external": 0.0,
+            "cartservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.49,
+          "named": 0.68,
+          "explained": 0.7
+        }
+      },
+      {
+        "id": "PUB-0db34b4c7ece",
+        "group": "currencyservice/delay",
+        "fault": "delay",
+        "target": "currencyservice",
+        "choices": {
+          "change": "currencyservice",
+          "resource": "currencyservice",
+          "ml": "currencyservice",
+          "compact": "currencyservice",
+          "named": "currencyservice",
+          "explained": "currencyservice"
+        },
+        "probabilities": {
+          "compact": {
+            "emailservice": 0.0,
+            "insufficient_evidence": 0.07,
+            "redis": 0.01,
+            "productcatalogservice": 0.02,
+            "recommendationservice": 0.0,
+            "frontend-external": 0.0,
+            "paymentservice": 0.0,
+            "cartservice": 0.0,
+            "currencyservice": 0.8,
+            "shippingservice": 0.0,
+            "frontend": 0.02,
+            "adservice": 0.0,
+            "checkoutservice": 0.08
+          },
+          "named": {
+            "adservice": 0.0,
+            "productcatalogservice": 0.04,
+            "insufficient_evidence": 0.09,
+            "recommendationservice": 0.0,
+            "shippingservice": 0.0,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "frontend": 0.06,
+            "redis": 0.01,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.16,
+            "paymentservice": 0.0,
+            "currencyservice": 0.64
+          },
+          "explained": {
+            "productcatalogservice": 0.04,
+            "frontend-external": 0.0,
+            "insufficient_evidence": 0.06,
+            "recommendationservice": 0.0,
+            "redis": 0.0,
+            "shippingservice": 0.0,
+            "checkoutservice": 0.11,
+            "currencyservice": 0.74,
+            "paymentservice": 0.0,
+            "frontend": 0.05,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "adservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.79,
+          "named": 0.6,
+          "explained": 0.71
+        }
+      },
+      {
+        "id": "PUB-c91fd2df9faa",
+        "group": "currencyservice/delay",
+        "fault": "delay",
+        "target": "currencyservice",
+        "choices": {
+          "change": "currencyservice",
+          "resource": "currencyservice",
+          "ml": "currencyservice",
+          "compact": "currencyservice",
+          "named": "currencyservice",
+          "explained": "currencyservice"
+        },
+        "probabilities": {
+          "compact": {
+            "adservice": 0.0,
+            "currencyservice": 0.79,
+            "frontend-external": 0.0,
+            "cartservice": 0.0,
+            "emailservice": 0.0,
+            "paymentservice": 0.0,
+            "productcatalogservice": 0.0,
+            "redis": 0.01,
+            "insufficient_evidence": 0.09,
+            "shippingservice": 0.0,
+            "frontend": 0.04,
+            "checkoutservice": 0.07,
+            "recommendationservice": 0.0
+          },
+          "named": {
+            "adservice": 0.0,
+            "insufficient_evidence": 0.12,
+            "redis": 0.01,
+            "recommendationservice": 0.0,
+            "emailservice": 0.0,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.07,
+            "cartservice": 0.0,
+            "productcatalogservice": 0.01,
+            "paymentservice": 0.0,
+            "currencyservice": 0.68,
+            "shippingservice": 0.0,
+            "frontend": 0.11
+          },
+          "explained": {
+            "emailservice": 0.0,
+            "insufficient_evidence": 0.06,
+            "productcatalogservice": 0.0,
+            "shippingservice": 0.0,
+            "recommendationservice": 0.0,
+            "frontend-external": 0.0,
+            "paymentservice": 0.0,
+            "cartservice": 0.0,
+            "currencyservice": 0.77,
+            "redis": 0.01,
+            "frontend": 0.06,
+            "adservice": 0.0,
+            "checkoutservice": 0.1
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.77,
+          "named": 0.65,
+          "explained": 0.74
+        }
+      },
+      {
+        "id": "PUB-011f3b9bc355",
+        "group": "emailservice/loss",
+        "fault": "loss",
+        "target": "emailservice",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "compact": "emailservice",
+          "named": "emailservice",
+          "explained": "emailservice"
+        },
+        "probabilities": {
+          "compact": {
+            "insufficient_evidence": 0.0202020202020202,
+            "redis": 0.0,
+            "adservice": 0.0,
+            "frontend-external": 0.0,
+            "cartservice": 0.0,
+            "currencyservice": 0.0,
+            "recommendationservice": 0.0,
+            "checkoutservice": 0.0404040404040404,
+            "frontend": 0.0,
+            "emailservice": 0.9393939393939393,
+            "paymentservice": 0.0,
+            "shippingservice": 0.0,
+            "productcatalogservice": 0.0
+          },
+          "named": {
+            "recommendationservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "paymentservice": 0.0,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.03,
+            "shippingservice": 0.0,
+            "currencyservice": 0.0,
+            "emailservice": 0.95,
+            "redis": 0.0,
+            "adservice": 0.0,
+            "cartservice": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend": 0.0
+          },
+          "explained": {
+            "adservice": 0.0,
+            "frontend-external": 0.0,
+            "insufficient_evidence": 0.01,
+            "recommendationservice": 0.0,
+            "redis": 0.0,
+            "shippingservice": 0.0,
+            "checkoutservice": 0.04,
+            "currencyservice": 0.0,
+            "frontend": 0.0,
+            "paymentservice": 0.0,
+            "emailservice": 0.95,
+            "cartservice": 0.0,
+            "productcatalogservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.93,
+          "named": 0.95,
+          "explained": 0.94
+        }
+      },
+      {
+        "id": "PUB-1f89afb4ec11",
+        "group": "emailservice/loss",
+        "fault": "loss",
+        "target": "emailservice",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "compact": "emailservice",
+          "named": "emailservice",
+          "explained": "emailservice"
+        },
+        "probabilities": {
+          "compact": {
+            "frontend": 0.0,
+            "currencyservice": 0.0,
+            "emailservice": 0.86,
+            "cartservice": 0.0,
+            "redis": 0.0,
+            "paymentservice": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend-external": 0.0,
+            "recommendationservice": 0.0,
+            "adservice": 0.0,
+            "checkoutservice": 0.11,
+            "shippingservice": 0.0,
+            "insufficient_evidence": 0.03
+          },
+          "named": {
+            "productcatalogservice": 0.0,
+            "recommendationservice": 0.0,
+            "checkoutservice": 0.04,
+            "shippingservice": 0.0,
+            "frontend": 0.0,
+            "adservice": 0.0,
+            "frontend-external": 0.0,
+            "currencyservice": 0.0,
+            "redis": 0.0,
+            "emailservice": 0.93,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "insufficient_evidence": 0.03
+          },
+          "explained": {
+            "adservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "redis": 0.0,
+            "recommendationservice": 0.0,
+            "emailservice": 0.91,
+            "cartservice": 0.0,
+            "checkoutservice": 0.07,
+            "frontend-external": 0.0,
+            "productcatalogservice": 0.0,
+            "paymentservice": 0.0,
+            "currencyservice": 0.0,
+            "shippingservice": 0.0,
+            "frontend": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.84,
+          "named": 0.92,
+          "explained": 0.9
+        }
+      },
+      {
+        "id": "PUB-b9ecf644afb7",
+        "group": "emailservice/loss",
+        "fault": "loss",
+        "target": "emailservice",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "compact": "emailservice",
+          "named": "emailservice",
+          "explained": "emailservice"
+        },
+        "probabilities": {
+          "compact": {
+            "insufficient_evidence": 0.02,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "currencyservice": 0.0,
+            "adservice": 0.0,
+            "frontend": 0.0,
+            "emailservice": 0.85,
+            "redis": 0.0,
+            "checkoutservice": 0.13,
+            "productcatalogservice": 0.0,
+            "shippingservice": 0.0,
+            "recommendationservice": 0.0,
+            "frontend-external": 0.0
+          },
+          "named": {
+            "emailservice": 0.92,
+            "insufficient_evidence": 0.03,
+            "frontend-external": 0.0,
+            "frontend": 0.0,
+            "cartservice": 0.0,
+            "recommendationservice": 0.0,
+            "paymentservice": 0.0,
+            "shippingservice": 0.0,
+            "checkoutservice": 0.05,
+            "redis": 0.0,
+            "currencyservice": 0.0,
+            "adservice": 0.0,
+            "productcatalogservice": 0.0
+          },
+          "explained": {
+            "checkoutservice": 0.07,
+            "cartservice": 0.0,
+            "adservice": 0.0,
+            "recommendationservice": 0.0,
+            "emailservice": 0.91,
+            "insufficient_evidence": 0.02,
+            "paymentservice": 0.0,
+            "shippingservice": 0.0,
+            "currencyservice": 0.0,
+            "frontend-external": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend": 0.0,
+            "redis": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.83,
+          "named": 0.91,
+          "explained": 0.9
+        }
+      },
+      {
+        "id": "PUB-2cf334d2e0a4",
+        "group": "emailservice/socket",
+        "fault": "socket",
+        "target": "emailservice",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "compact": "emailservice",
+          "named": "emailservice",
+          "explained": "emailservice"
+        },
+        "probabilities": {
+          "compact": {
+            "shippingservice": 0.0,
+            "redis": 0.0,
+            "insufficient_evidence": 0.03,
+            "frontend": 0.04,
+            "recommendationservice": 0.0,
+            "productcatalogservice": 0.0,
+            "paymentservice": 0.0,
+            "adservice": 0.0,
+            "emailservice": 0.91,
+            "cartservice": 0.0,
+            "currencyservice": 0.0,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.02
+          },
+          "named": {
+            "productcatalogservice": 0.0,
+            "adservice": 0.0,
+            "cartservice": 0.0,
+            "frontend-external": 0.0,
+            "insufficient_evidence": 0.05,
+            "currencyservice": 0.0,
+            "emailservice": 0.9,
+            "checkoutservice": 0.04,
+            "paymentservice": 0.0,
+            "frontend": 0.01,
+            "redis": 0.0,
+            "recommendationservice": 0.0,
+            "shippingservice": 0.0
+          },
+          "explained": {
+            "recommendationservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "redis": 0.0,
+            "adservice": 0.0,
+            "emailservice": 0.9299999999999999,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.04,
+            "cartservice": 0.0,
+            "productcatalogservice": 0.0,
+            "paymentservice": 0.0,
+            "currencyservice": 0.0,
+            "shippingservice": 0.0,
+            "frontend": 0.01
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.9,
+          "named": 0.89,
+          "explained": 0.93
+        }
+      },
+      {
+        "id": "PUB-ec9e76a45dab",
+        "group": "emailservice/socket",
+        "fault": "socket",
+        "target": "emailservice",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "compact": "emailservice",
+          "named": "emailservice",
+          "explained": "emailservice"
+        },
+        "probabilities": {
+          "compact": {
+            "shippingservice": 0.0,
+            "redis": 0.0,
+            "paymentservice": 0.0,
+            "frontend": 0.0,
+            "checkoutservice": 0.07,
+            "productcatalogservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "adservice": 0.0,
+            "recommendationservice": 0.0,
+            "currencyservice": 0.01,
+            "cartservice": 0.0,
+            "frontend-external": 0.0,
+            "emailservice": 0.9
+          },
+          "named": {
+            "shippingservice": 0.0,
+            "recommendationservice": 0.0,
+            "cartservice": 0.0,
+            "checkoutservice": 0.09,
+            "insufficient_evidence": 0.05,
+            "adservice": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend": 0.0,
+            "redis": 0.0,
+            "emailservice": 0.85,
+            "frontend-external": 0.0,
+            "paymentservice": 0.0,
+            "currencyservice": 0.01
+          },
+          "explained": {
+            "adservice": 0.0,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.09,
+            "redis": 0.0,
+            "currencyservice": 0.0,
+            "insufficient_evidence": 0.03,
+            "paymentservice": 0.0,
+            "recommendationservice": 0.0,
+            "emailservice": 0.88,
+            "frontend": 0.0,
+            "cartservice": 0.0,
+            "shippingservice": 0.0,
+            "productcatalogservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.89,
+          "named": 0.83,
+          "explained": 0.86
+        }
+      },
+      {
+        "id": "PUB-18804bdd7fcb",
+        "group": "emailservice/socket",
+        "fault": "socket",
+        "target": "emailservice",
+        "choices": {
+          "change": "emailservice",
+          "resource": "emailservice",
+          "ml": "emailservice",
+          "compact": "emailservice",
+          "named": "emailservice",
+          "explained": "emailservice"
+        },
+        "probabilities": {
+          "compact": {
+            "redis": 0.0,
+            "checkoutservice": 0.05,
+            "emailservice": 0.88,
+            "currencyservice": 0.0,
+            "paymentservice": 0.0,
+            "cartservice": 0.0,
+            "insufficient_evidence": 0.04,
+            "recommendationservice": 0.0,
+            "frontend-external": 0.0,
+            "shippingservice": 0.02,
+            "adservice": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend": 0.01
+          },
+          "named": {
+            "shippingservice": 0.01,
+            "redis": 0.0,
+            "insufficient_evidence": 0.12,
+            "recommendationservice": 0.0,
+            "frontend": 0.01,
+            "productcatalogservice": 0.0,
+            "checkoutservice": 0.15,
+            "adservice": 0.01,
+            "paymentservice": 0.0,
+            "currencyservice": 0.0,
+            "cartservice": 0.0,
+            "frontend-external": 0.0,
+            "emailservice": 0.7
+          },
+          "explained": {
+            "cartservice": 0.0,
+            "productcatalogservice": 0.0,
+            "frontend-external": 0.0,
+            "currencyservice": 0.0,
+            "frontend": 0.0101010101010101,
+            "redis": 0.0,
+            "insufficient_evidence": 0.0707070707070707,
+            "adservice": 0.0,
+            "shippingservice": 0.0202020202020202,
+            "checkoutservice": 0.10101010101010101,
+            "emailservice": 0.7979797979797979,
+            "paymentservice": 0.0,
+            "recommendationservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.86,
+          "named": 0.66,
+          "explained": 0.76
+        }
+      },
+      {
+        "id": "PUB-be290185f290",
+        "group": "productcatalogservice/cpu",
+        "fault": "cpu",
+        "target": "productcatalogservice",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "compact": "productcatalogservice",
+          "named": "productcatalogservice",
+          "explained": "productcatalogservice"
+        },
+        "probabilities": {
+          "compact": {
+            "redis": 0.0,
+            "frontend": 0.0,
+            "emailservice": 0.0,
+            "currencyservice": 0.0,
+            "paymentservice": 0.0,
+            "cartservice": 0.0,
+            "frontend-external": 0.0,
+            "shippingservice": 0.0,
+            "recommendationservice": 0.04,
+            "insufficient_evidence": 0.0,
+            "adservice": 0.0,
+            "productcatalogservice": 0.96,
+            "checkoutservice": 0.0
+          },
+          "named": {
+            "frontend": 0.0,
+            "paymentservice": 0.0,
+            "currencyservice": 0.0,
+            "productcatalogservice": 0.9393939393939393,
+            "adservice": 0.0,
+            "emailservice": 0.0,
+            "shippingservice": 0.0,
+            "frontend-external": 0.0,
+            "recommendationservice": 0.050505050505050504,
+            "cartservice": 0.0,
+            "checkoutservice": 0.0,
+            "insufficient_evidence": 0.0101010101010101,
+            "redis": 0.0
+          },
+          "explained": {
+            "frontend-external": 0.0,
+            "frontend": 0.0,
+            "emailservice": 0.0,
+            "insufficient_evidence": 0.01,
+            "currencyservice": 0.0,
+            "productcatalogservice": 0.9,
+            "checkoutservice": 0.0,
+            "shippingservice": 0.0,
+            "recommendationservice": 0.09,
+            "adservice": 0.0,
+            "paymentservice": 0.0,
+            "cartservice": 0.0,
+            "redis": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.94,
+          "named": 0.92,
+          "explained": 0.88
+        }
+      },
+      {
+        "id": "PUB-94e5ae21b233",
+        "group": "productcatalogservice/cpu",
+        "fault": "cpu",
+        "target": "productcatalogservice",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "compact": "productcatalogservice",
+          "named": "productcatalogservice",
+          "explained": "productcatalogservice"
+        },
+        "probabilities": {
+          "compact": {
+            "paymentservice": 0.0,
+            "cartservice": 0.0,
+            "emailservice": 0.0,
+            "insufficient_evidence": 0.01,
+            "currencyservice": 0.0,
+            "productcatalogservice": 0.84,
+            "checkoutservice": 0.0,
+            "shippingservice": 0.0,
+            "recommendationservice": 0.14,
+            "adservice": 0.0,
+            "frontend": 0.01,
+            "frontend-external": 0.0,
+            "redis": 0.0
+          },
+          "named": {
+            "redis": 0.0,
+            "currencyservice": 0.0,
+            "frontend-external": 0.0,
+            "cartservice": 0.0,
+            "checkoutservice": 0.0,
+            "insufficient_evidence": 0.03,
+            "productcatalogservice": 0.73,
+            "recommendationservice": 0.22,
+            "frontend": 0.02,
+            "adservice": 0.0,
+            "shippingservice": 0.0,
+            "emailservice": 0.0,
+            "paymentservice": 0.0
+          },
+          "explained": {
+            "adservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "redis": 0.0,
+            "recommendationservice": 0.26,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "checkoutservice": 0.0,
+            "frontend-external": 0.0,
+            "productcatalogservice": 0.71,
+            "paymentservice": 0.0,
+            "currencyservice": 0.0,
+            "shippingservice": 0.0,
+            "frontend": 0.01
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.82,
+          "named": 0.7,
+          "explained": 0.68
+        }
+      },
+      {
+        "id": "PUB-498b272d099d",
+        "group": "productcatalogservice/cpu",
+        "fault": "cpu",
+        "target": "productcatalogservice",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "compact": "productcatalogservice",
+          "named": "productcatalogservice",
+          "explained": "productcatalogservice"
+        },
+        "probabilities": {
+          "compact": {
+            "emailservice": 0.0,
+            "redis": 0.0,
+            "shippingservice": 0.0,
+            "adservice": 0.0,
+            "currencyservice": 0.0,
+            "cartservice": 0.0,
+            "frontend": 0.03,
+            "recommendationservice": 0.09,
+            "productcatalogservice": 0.85,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.0,
+            "insufficient_evidence": 0.03,
+            "paymentservice": 0.0
+          },
+          "named": {
+            "checkoutservice": 0.0,
+            "cartservice": 0.0,
+            "adservice": 0.0,
+            "recommendationservice": 0.23,
+            "emailservice": 0.0,
+            "paymentservice": 0.0,
+            "insufficient_evidence": 0.03,
+            "shippingservice": 0.0,
+            "currencyservice": 0.0,
+            "productcatalogservice": 0.71,
+            "redis": 0.0,
+            "frontend": 0.03,
+            "frontend-external": 0.0
+          },
+          "explained": {
+            "adservice": 0.0,
+            "currencyservice": 0.0,
+            "recommendationservice": 0.24,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "emailservice": 0.0,
+            "productcatalogservice": 0.71,
+            "insufficient_evidence": 0.02,
+            "redis": 0.0,
+            "shippingservice": 0.0,
+            "frontend": 0.03,
+            "checkoutservice": 0.0,
+            "frontend-external": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.83,
+          "named": 0.67,
+          "explained": 0.68
+        }
+      },
+      {
+        "id": "PUB-3bb38f316524",
+        "group": "productcatalogservice/mem",
+        "fault": "mem",
+        "target": "productcatalogservice",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "compact": "productcatalogservice",
+          "named": "productcatalogservice",
+          "explained": "productcatalogservice"
+        },
+        "probabilities": {
+          "compact": {
+            "cartservice": 0.0,
+            "productcatalogservice": 0.9,
+            "paymentservice": 0.0,
+            "shippingservice": 0.0,
+            "frontend-external": 0.0,
+            "recommendationservice": 0.05,
+            "checkoutservice": 0.0,
+            "currencyservice": 0.0,
+            "redis": 0.01,
+            "adservice": 0.0,
+            "emailservice": 0.0,
+            "insufficient_evidence": 0.03,
+            "frontend": 0.01
+          },
+          "named": {
+            "insufficient_evidence": 0.03,
+            "frontend-external": 0.0,
+            "adservice": 0.0,
+            "recommendationservice": 0.05,
+            "cartservice": 0.0,
+            "redis": 0.0,
+            "currencyservice": 0.0,
+            "shippingservice": 0.0,
+            "frontend": 0.01,
+            "emailservice": 0.0,
+            "paymentservice": 0.0,
+            "checkoutservice": 0.0,
+            "productcatalogservice": 0.91
+          },
+          "explained": {
+            "insufficient_evidence": 0.02,
+            "checkoutservice": 0.0,
+            "adservice": 0.0,
+            "recommendationservice": 0.04,
+            "currencyservice": 0.0,
+            "redis": 0.0,
+            "cartservice": 0.0,
+            "shippingservice": 0.0,
+            "frontend": 0.01,
+            "emailservice": 0.0,
+            "paymentservice": 0.0,
+            "frontend-external": 0.0,
+            "productcatalogservice": 0.93
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.89,
+          "named": 0.89,
+          "explained": 0.91
+        }
+      },
+      {
+        "id": "PUB-295188811210",
+        "group": "productcatalogservice/mem",
+        "fault": "mem",
+        "target": "productcatalogservice",
+        "choices": {
+          "change": "productcatalogservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "compact": "productcatalogservice",
+          "named": "productcatalogservice",
+          "explained": "productcatalogservice"
+        },
+        "probabilities": {
+          "compact": {
+            "productcatalogservice": 0.88,
+            "frontend-external": 0.0,
+            "insufficient_evidence": 0.03,
+            "recommendationservice": 0.07,
+            "redis": 0.0,
+            "shippingservice": 0.0,
+            "checkoutservice": 0.0,
+            "currencyservice": 0.01,
+            "paymentservice": 0.0,
+            "frontend": 0.01,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "adservice": 0.0
+          },
+          "named": {
+            "frontend": 0.01,
+            "currencyservice": 0.01,
+            "emailservice": 0.0,
+            "redis": 0.0,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "frontend-external": 0.0,
+            "productcatalogservice": 0.92,
+            "adservice": 0.01,
+            "recommendationservice": 0.03,
+            "checkoutservice": 0.0,
+            "shippingservice": 0.0,
+            "insufficient_evidence": 0.02
+          },
+          "explained": {
+            "adservice": 0.0,
+            "recommendationservice": 0.03,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "insufficient_evidence": 0.01,
+            "currencyservice": 0.0,
+            "productcatalogservice": 0.95,
+            "frontend": 0.01,
+            "redis": 0.0,
+            "frontend-external": 0.0,
+            "emailservice": 0.0,
+            "shippingservice": 0.0,
+            "checkoutservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.86,
+          "named": 0.91,
+          "explained": 0.94
+        }
+      },
+      {
+        "id": "PUB-22a755618135",
+        "group": "productcatalogservice/mem",
+        "fault": "mem",
+        "target": "productcatalogservice",
+        "choices": {
+          "change": "recommendationservice",
+          "resource": "productcatalogservice",
+          "ml": "productcatalogservice",
+          "compact": "productcatalogservice",
+          "named": "productcatalogservice",
+          "explained": "productcatalogservice"
+        },
+        "probabilities": {
+          "compact": {
+            "adservice": 0.0,
+            "currencyservice": 0.01,
+            "paymentservice": 0.0,
+            "cartservice": 0.0,
+            "recommendationservice": 0.25,
+            "frontend-external": 0.0,
+            "redis": 0.0,
+            "productcatalogservice": 0.71,
+            "insufficient_evidence": 0.02,
+            "shippingservice": 0.0,
+            "frontend": 0.01,
+            "checkoutservice": 0.0,
+            "emailservice": 0.0
+          },
+          "named": {
+            "frontend-external": 0.0,
+            "paymentservice": 0.0,
+            "emailservice": 0.0,
+            "insufficient_evidence": 0.04,
+            "currencyservice": 0.01,
+            "productcatalogservice": 0.7,
+            "checkoutservice": 0.0,
+            "shippingservice": 0.0,
+            "recommendationservice": 0.24,
+            "adservice": 0.0,
+            "frontend": 0.01,
+            "cartservice": 0.0,
+            "redis": 0.0
+          },
+          "explained": {
+            "adservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "frontend-external": 0.0,
+            "recommendationservice": 0.22,
+            "redis": 0.0,
+            "shippingservice": 0.0,
+            "checkoutservice": 0.0,
+            "currencyservice": 0.0,
+            "frontend": 0.0,
+            "paymentservice": 0.0,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "productcatalogservice": 0.76
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.67,
+          "named": 0.67,
+          "explained": 0.73
+        }
+      },
+      {
+        "id": "PUB-92c08bd0d258",
+        "group": "recommendationservice/disk",
+        "fault": "disk",
+        "target": "recommendationservice",
+        "choices": {
+          "change": "recommendationservice",
+          "resource": "recommendationservice",
+          "ml": "recommendationservice",
+          "compact": "recommendationservice",
+          "named": "recommendationservice",
+          "explained": "recommendationservice"
+        },
+        "probabilities": {
+          "compact": {
+            "frontend-external": 0.0,
+            "emailservice": 0.0,
+            "recommendationservice": 0.99,
+            "insufficient_evidence": 0.0,
+            "checkoutservice": 0.0,
+            "cartservice": 0.0,
+            "adservice": 0.0,
+            "frontend": 0.0,
+            "productcatalogservice": 0.01,
+            "paymentservice": 0.0,
+            "redis": 0.0,
+            "shippingservice": 0.0,
+            "currencyservice": 0.0
+          },
+          "named": {
+            "frontend": 0.0,
+            "productcatalogservice": 0.01,
+            "insufficient_evidence": 0.01,
+            "recommendationservice": 0.97,
+            "shippingservice": 0.0,
+            "emailservice": 0.0,
+            "cartservice": 0.0,
+            "adservice": 0.0,
+            "redis": 0.0,
+            "frontend-external": 0.0,
+            "paymentservice": 0.0,
+            "currencyservice": 0.01,
+            "checkoutservice": 0.0
+          },
+          "explained": {
+            "shippingservice": 0.0,
+            "recommendationservice": 0.98,
+            "cartservice": 0.0,
+            "checkoutservice": 0.0,
+            "insufficient_evidence": 0.01,
+            "currencyservice": 0.0,
+            "productcatalogservice": 0.01,
+            "frontend": 0.0,
+            "redis": 0.0,
+            "frontend-external": 0.0,
+            "emailservice": 0.0,
+            "paymentservice": 0.0,
+            "adservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.98,
+          "named": 0.96,
+          "explained": 0.98
+        }
+      },
+      {
+        "id": "PUB-c923bc4f2d73",
+        "group": "recommendationservice/disk",
+        "fault": "disk",
+        "target": "recommendationservice",
+        "choices": {
+          "change": "recommendationservice",
+          "resource": "recommendationservice",
+          "ml": "recommendationservice",
+          "compact": "recommendationservice",
+          "named": "recommendationservice",
+          "explained": "recommendationservice"
+        },
+        "probabilities": {
+          "compact": {
+            "adservice": 0.0,
+            "insufficient_evidence": 0.01,
+            "redis": 0.0,
+            "recommendationservice": 0.96,
+            "emailservice": 0.0,
+            "frontend-external": 0.0,
+            "checkoutservice": 0.0,
+            "cartservice": 0.0,
+            "frontend": 0.03,
+            "paymentservice": 0.0,
+            "currencyservice": 0.0,
+            "shippingservice": 0.0,
+            "productcatalogservice": 0.0
+          },
+          "named": {
+            "frontend-external": 0.0,
+            "productcatalogservice": 0.0,
+            "insufficient_evidence": 0.01,
+            "recommendationservice": 0.97,
+            "cartservice": 0.0,
+            "checkoutservice": 0.0,
+            "adservice": 0.0,
+            "frontend": 0.02,
+            "emailservice": 0.0,
+            "paymentservice": 0.0,
+            "shippingservice": 0.0,
+            "redis": 0.0,
+            "currencyservice": 0.0
+          },
+          "explained": {
+            "shippingservice": 0.0,
+            "paymentservice": 0.0,
+            "redis": 0.0,
+            "frontend": 0.02,
+            "emailservice": 0.0,
+            "productcatalogservice": 0.0,
+            "checkoutservice": 0.0,
+            "adservice": 0.0,
+            "recommendationservice": 0.97,
+            "cartservice": 0.0,
+            "currencyservice": 0.0,
+            "frontend-external": 0.0,
+            "insufficient_evidence": 0.01
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.96,
+          "named": 0.96,
+          "explained": 0.97
+        }
+      },
+      {
+        "id": "PUB-ba7c71dce547",
+        "group": "recommendationservice/disk",
+        "fault": "disk",
+        "target": "recommendationservice",
+        "choices": {
+          "change": "recommendationservice",
+          "resource": "recommendationservice",
+          "ml": "recommendationservice",
+          "compact": "recommendationservice",
+          "named": "recommendationservice",
+          "explained": "recommendationservice"
+        },
+        "probabilities": {
+          "compact": {
+            "adservice": 0.0,
+            "insufficient_evidence": 0.01,
+            "paymentservice": 0.0,
+            "productcatalogservice": 0.0,
+            "cartservice": 0.0,
+            "redis": 0.0,
+            "shippingservice": 0.0,
+            "checkoutservice": 0.0,
+            "emailservice": 0.0,
+            "frontend": 0.04,
+            "recommendationservice": 0.95,
+            "currencyservice": 0.0,
+            "frontend-external": 0.0
+          },
+          "named": {
+            "shippingservice": 0.0,
+            "productcatalogservice": 0.0,
+            "cartservice": 0.0,
+            "paymentservice": 0.0,
+            "frontend-external": 0.0,
+            "currencyservice": 0.0,
+            "checkoutservice": 0.0,
+            "redis": 0.0,
+            "recommendationservice": 0.95,
+            "adservice": 0.0,
+            "emailservice": 0.0,
+            "insufficient_evidence": 0.02,
+            "frontend": 0.03
+          },
+          "explained": {
+            "insufficient_evidence": 0.01,
+            "frontend-external": 0.0,
+            "redis": 0.0,
+            "productcatalogservice": 0.0,
+            "cartservice": 0.0,
+            "checkoutservice": 0.0,
+            "shippingservice": 0.0,
+            "paymentservice": 0.0,
+            "emailservice": 0.0,
+            "frontend": 0.02,
+            "recommendationservice": 0.97,
+            "currencyservice": 0.0,
+            "adservice": 0.0
+          }
+        },
+        "provider_confidence": {
+          "compact": 0.94,
+          "named": 0.95,
+          "explained": 0.97
+        }
+      }
+    ],
+    "comparisons": {
+      "named_vs_compact": {
+        "fixes": [],
+        "regressions": [],
+        "changed_choices": []
+      },
+      "explained_vs_named": {
+        "fixes": [],
+        "regressions": [],
+        "changed_choices": []
+      },
+      "explained_vs_compact": {
+        "fixes": [],
+        "regressions": [],
+        "changed_choices": []
+      },
+      "explained_vs_ml": {
+        "fixes": [
+          "PUB-d20ce8215231"
+        ],
+        "regressions": [],
+        "changed_choices": [
+          "PUB-d20ce8215231"
+        ]
+      },
+      "explained_vs_change": {
+        "fixes": [
+          "PUB-22a755618135"
+        ],
+        "regressions": [],
+        "changed_choices": [
+          "PUB-22a755618135"
+        ]
+      }
+    },
+    "curves": {
+      "compact": [
+        {
+          "threshold": 0.5,
+          "suggestions": 24,
+          "wrong": 0,
+          "review": 0,
+          "groups": 8
+        },
+        {
+          "threshold": 0.6,
+          "suggestions": 23,
+          "wrong": 0,
+          "review": 1,
+          "groups": 8
+        },
+        {
+          "threshold": 0.7,
+          "suggestions": 23,
+          "wrong": 0,
+          "review": 1,
+          "groups": 8
+        },
+        {
+          "threshold": 0.8,
+          "suggestions": 21,
+          "wrong": 0,
+          "review": 3,
+          "groups": 8
+        },
+        {
+          "threshold": 0.9,
+          "suggestions": 14,
+          "wrong": 0,
+          "review": 10,
+          "groups": 7
+        },
+        {
+          "threshold": 0.95,
+          "suggestions": 8,
+          "wrong": 0,
+          "review": 16,
+          "groups": 4
+        },
+        {
+          "threshold": 0.99,
+          "suggestions": 1,
+          "wrong": 0,
+          "review": 23,
+          "groups": 1
+        },
+        {
+          "threshold": 1.0,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 24,
+          "groups": 0
+        }
+      ],
+      "named": [
+        {
+          "threshold": 0.5,
+          "suggestions": 24,
+          "wrong": 0,
+          "review": 0,
+          "groups": 8
+        },
+        {
+          "threshold": 0.6,
+          "suggestions": 24,
+          "wrong": 0,
+          "review": 0,
+          "groups": 8
+        },
+        {
+          "threshold": 0.7,
+          "suggestions": 22,
+          "wrong": 0,
+          "review": 2,
+          "groups": 8
+        },
+        {
+          "threshold": 0.8,
+          "suggestions": 17,
+          "wrong": 0,
+          "review": 7,
+          "groups": 7
+        },
+        {
+          "threshold": 0.9,
+          "suggestions": 14,
+          "wrong": 0,
+          "review": 10,
+          "groups": 7
+        },
+        {
+          "threshold": 0.95,
+          "suggestions": 6,
+          "wrong": 0,
+          "review": 18,
+          "groups": 3
+        },
+        {
+          "threshold": 0.99,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 24,
+          "groups": 0
+        },
+        {
+          "threshold": 1.0,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 24,
+          "groups": 0
+        }
+      ],
+      "explained": [
+        {
+          "threshold": 0.5,
+          "suggestions": 24,
+          "wrong": 0,
+          "review": 0,
+          "groups": 8
+        },
+        {
+          "threshold": 0.6,
+          "suggestions": 24,
+          "wrong": 0,
+          "review": 0,
+          "groups": 8
+        },
+        {
+          "threshold": 0.7,
+          "suggestions": 24,
+          "wrong": 0,
+          "review": 0,
+          "groups": 8
+        },
+        {
+          "threshold": 0.8,
+          "suggestions": 17,
+          "wrong": 0,
+          "review": 7,
+          "groups": 7
+        },
+        {
+          "threshold": 0.9,
+          "suggestions": 16,
+          "wrong": 0,
+          "review": 8,
+          "groups": 7
+        },
+        {
+          "threshold": 0.95,
+          "suggestions": 9,
+          "wrong": 0,
+          "review": 15,
+          "groups": 5
+        },
+        {
+          "threshold": 0.99,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 24,
+          "groups": 0
+        },
+        {
+          "threshold": 1.0,
+          "suggestions": 0,
+          "wrong": 0,
+          "review": 24,
+          "groups": 0
+        }
+      ]
+    },
+    "failed_or_missing": 0,
+    "latency": {
+      "compact": {
+        "median_ms": 152.51531249668915,
+        "p95_ms": 188.53108398616314
+      },
+      "named": {
+        "median_ms": 163.4668955084635,
+        "p95_ms": 190.14345898176543
+      },
+      "explained": {
+        "median_ms": 170.75014601869043,
+        "p95_ms": 206.68125001247972
+      }
+    },
+    "usage": {
+      "compact": {
+        "input_tokens": 90056,
+        "output_tokens": 3665
+      },
+      "named": {
+        "input_tokens": 123806,
+        "output_tokens": 3665
+      },
+      "explained": {
+        "input_tokens": 132708,
+        "output_tokens": 3665
+      }
+    },
+    "evidence": {
+      "protocol": "429d54786da408f98d266fed6029315eb7828dcd414a03a7eff1bfdfcfcc387a",
+      "hosted_summary": "e18d86e33367427ae5606b2d2b0115b7b9e71199a319126eb4f2eea317b631e1"
+    }
+  },
+  "selection": "All three arms and historical controls retained without changes."
+}

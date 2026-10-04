@@ -1,0 +1,81 @@
+"""Loopback-only public study app. GET requests never invoke a model."""
+import argparse
+import json
+from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
+from pathlib import Path
+from urllib.parse import urlparse,parse_qs
+from .public_rca_service import PublicRCAStudy
+from .public_format_service import PublicFormatStudy
+from .study_page import DOCUMENTS,render_study
+
+import os
+from .paths import ROOT
+
+def load_env(path):
+    if not path.exists():return
+    for line in path.read_text().splitlines():
+        line=line.strip()
+        if not line or line.startswith('#'):continue
+        key,sep,value=line.partition('=')
+        if not sep or not key.replace('_','').isalnum():raise ValueError('Invalid .env line.')
+        value=value.strip()
+        if len(value)>=2 and value[0]==value[-1] and value[0] in "\"'":value=value[1:-1]
+        os.environ.setdefault(key,value)
+
+def profiles():
+    return {'jev':{'model':os.getenv('JEV_MODEL','jev-1.13.0'),'endpoint':os.getenv('JEV_ENDPOINT','https://api.typesafe.ai/v1/systemone'),
+        'context_tokens':int(os.getenv('JEV_CONTEXT_TOKENS','32768')),'api_key':os.getenv('TYPESAFE_API_KEY',''),'deployment':'Hosted Jev API'}}
+
+class App:
+    def __init__(self,root=ROOT):
+        self.root=Path(root)
+        self.rca=PublicRCAStudy(root);self.presentation=PublicFormatStudy(root)
+
+
+def handler_for(app):
+    assets={name:('text/javascript' if name.endswith('.js') else 'text/css' if name.endswith('.css') else 'text/html; charset=utf-8') for name in (
+        'index.html','public-rca.html','public-format.html','public-rca.js','public-format.js','study.js',
+        'public-rca.css','explorer.css','experiment3.css','report-language.css','study.css')}
+    class Handler(BaseHTTPRequestHandler):
+        def log_message(self,*args):pass
+        def trusted(self):
+            hosts={f'127.0.0.1:{self.server.server_port}',f'localhost:{self.server.server_port}'}
+            return self.headers.get('Host') in hosts and self.headers.get('Origin') in {None,*('http://'+h for h in hosts)}
+        def send(self,status,body,mime='application/json'):
+            raw=body if isinstance(body,bytes) else json.dumps(body).encode()
+            self.send_response(status);self.send_header('Content-Type',mime);self.send_header('Content-Length',str(len(raw)))
+            self.send_header('Cache-Control','no-store');self.send_header('X-Content-Type-Options','nosniff')
+            self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; frame-ancestors 'none'")
+            self.end_headers();self.wfile.write(raw)
+        def do_GET(self):
+            if not self.trusted():return self.send(403,{'error':'Local origin required.'})
+            p=urlparse(self.path);q={k:v[0] for k,v in parse_qs(p.query).items()}
+            try:
+                if p.path=='/api/public-rca':return self.send(200,app.rca.overview())
+                if p.path=='/api/public-format':return self.send(200,app.presentation.overview())
+                if p.path=='/api/public-rca/case':return self.send(200,app.rca.case(q.get('split','development'),q.get('case'),q.get('reference')=='1'))
+                if p.path=='/api/public-format/case':return self.send(200,app.presentation.case(q.get('split','development'),q.get('case'),q.get('arm','compact'),q.get('reference')=='1'))
+                if p.path=='/study':return self.send(200,render_study(app,q),'text/html; charset=utf-8')
+                if p.path=='/study.md':
+                    doc=q.get('doc','public-format')
+                    if doc not in DOCUMENTS:raise ValueError('Unknown study document.')
+                    return self.send(200,(app.root/DOCUMENTS[doc]).read_bytes(),'text/markdown; charset=utf-8')
+                name={'/':'index.html','/public-rca':'public-rca.html','/public-format':'public-format.html'}.get(p.path,p.path.lstrip('/'))
+                if name in assets:return self.send(200,(Path(__file__).parent/'web'/name).read_bytes(),assets[name])
+                return self.send(404,{'error':'Page not found.'})
+            except (ValueError,KeyError,StopIteration):return self.send(400,{'error':'The requested evidence is invalid or unavailable.'})
+            except OSError:return self.send(404,{'error':'The requested local evidence is unavailable.'})
+        def do_POST(self):return self.send(405,{'error':'This inspection app is read-only.'})
+    return Handler
+
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--port',type=int,default=8769);args=parser.parse_args()
+    if not 1<=args.port<=65535:parser.error('Invalid port.')
+    server=ThreadingHTTPServer(('127.0.0.1',args.port),handler_for(App()))
+    print(f'Public operations lab: http://127.0.0.1:{args.port}/',flush=True)
+    try:server.serve_forever()
+    except KeyboardInterrupt:pass
+    finally:server.server_close()
+
+if __name__=='__main__':main()
