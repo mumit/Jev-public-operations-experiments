@@ -1,0 +1,5646 @@
+{
+  "schema": "public-evidence-assessment-results-1",
+  "diagnostic_only": true,
+  "cards": 32,
+  "recordings": 16,
+  "planned_calls": 192,
+  "questions_per_call": 4,
+  "planned_answers": 768,
+  "failed_or_missing_calls": 0,
+  "datasets": {
+    "Online Boutique": {
+      "cards": 12,
+      "recordings": 6,
+      "arms": {
+        "observations": {
+          "per_round": [
+            {
+              "round": 1,
+              "cards": 12,
+              "field_correct": {
+                "metric_change": 11,
+                "trace_change": 12,
+                "trace_coverage": 12,
+                "metric_channel": 12
+              },
+              "all_correct": 11,
+              "composition_correct": 11,
+              "displayed": 8,
+              "withheld": 4,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 2,
+              "reference_support": 5,
+              "failed_or_missing": 0
+            },
+            {
+              "round": 2,
+              "cards": 12,
+              "field_correct": {
+                "metric_change": 10,
+                "trace_change": 12,
+                "trace_coverage": 12,
+                "metric_channel": 11
+              },
+              "all_correct": 9,
+              "composition_correct": 10,
+              "displayed": 8,
+              "withheld": 4,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 2,
+              "reference_support": 5,
+              "failed_or_missing": 0
+            },
+            {
+              "round": 3,
+              "cards": 12,
+              "field_correct": {
+                "metric_change": 11,
+                "trace_change": 12,
+                "trace_coverage": 12,
+                "metric_channel": 11
+              },
+              "all_correct": 10,
+              "composition_correct": 11,
+              "displayed": 9,
+              "withheld": 3,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 3,
+              "reference_support": 5,
+              "failed_or_missing": 0
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "EVA-ddeb6c7e4a06",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-10773bc81355",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4100d11bb82c",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84ccf6ba6272",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f5a35702e2cb",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-44e77f7b27ad",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e5eb9986076e",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "quiet",
+                "trace_coverage": "adequate",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "no_material_change",
+              "reference_composition": "no_material_change",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-5fe6231e1fb9",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-39ff3f617b7a",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "limited",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1cc97284c7cd",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b88d232744fb",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "latency-50"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-12e6912919dd",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": false,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": false,
+              "composition": "change_supported",
+              "reference_composition": "evidence_limited",
+              "composition_correct": false,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ddeb6c7e4a06",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-10773bc81355",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4100d11bb82c",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": false,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": false,
+              "composition": "evidence_limited",
+              "reference_composition": "change_supported",
+              "composition_correct": false,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84ccf6ba6272",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f5a35702e2cb",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-44e77f7b27ad",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e5eb9986076e",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "quiet",
+                "trace_coverage": "adequate",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "no_material_change",
+              "reference_composition": "no_material_change",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-5fe6231e1fb9",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-39ff3f617b7a",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "limited",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": false
+              },
+              "all_correct": false,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1cc97284c7cd",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b88d232744fb",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "latency-50"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-12e6912919dd",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": false,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": false,
+              "composition": "change_supported",
+              "reference_composition": "evidence_limited",
+              "composition_correct": false,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ddeb6c7e4a06",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-10773bc81355",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4100d11bb82c",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84ccf6ba6272",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f5a35702e2cb",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-44e77f7b27ad",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e5eb9986076e",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "quiet",
+                "trace_coverage": "adequate",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "no_material_change",
+              "reference_composition": "no_material_change",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-5fe6231e1fb9",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-39ff3f617b7a",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "limited",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": false
+              },
+              "all_correct": false,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1cc97284c7cd",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b88d232744fb",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "latency-50"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-12e6912919dd",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": false,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": false,
+              "composition": "change_supported",
+              "reference_composition": "evidence_limited",
+              "composition_correct": false,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            }
+          ],
+          "stable_all_correct_cards": [
+            "EVA-ddeb6c7e4a06",
+            "EVA-10773bc81355",
+            "EVA-84ccf6ba6272",
+            "EVA-f5a35702e2cb",
+            "EVA-44e77f7b27ad",
+            "EVA-e5eb9986076e",
+            "EVA-5fe6231e1fb9",
+            "EVA-1cc97284c7cd",
+            "EVA-b88d232744fb"
+          ],
+          "stable_composition_cards": [
+            "EVA-ddeb6c7e4a06",
+            "EVA-10773bc81355",
+            "EVA-84ccf6ba6272",
+            "EVA-f5a35702e2cb",
+            "EVA-44e77f7b27ad",
+            "EVA-e5eb9986076e",
+            "EVA-5fe6231e1fb9",
+            "EVA-39ff3f617b7a",
+            "EVA-1cc97284c7cd",
+            "EVA-b88d232744fb",
+            "EVA-12e6912919dd"
+          ]
+        },
+        "calculated": {
+          "per_round": [
+            {
+              "round": 1,
+              "cards": 12,
+              "field_correct": {
+                "metric_change": 12,
+                "trace_change": 12,
+                "trace_coverage": 12,
+                "metric_channel": 11
+              },
+              "all_correct": 11,
+              "composition_correct": 12,
+              "displayed": 11,
+              "withheld": 1,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 4,
+              "reference_support": 5,
+              "failed_or_missing": 0
+            },
+            {
+              "round": 2,
+              "cards": 12,
+              "field_correct": {
+                "metric_change": 12,
+                "trace_change": 12,
+                "trace_coverage": 12,
+                "metric_channel": 11
+              },
+              "all_correct": 11,
+              "composition_correct": 12,
+              "displayed": 10,
+              "withheld": 2,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 3,
+              "reference_support": 5,
+              "failed_or_missing": 0
+            },
+            {
+              "round": 3,
+              "cards": 12,
+              "field_correct": {
+                "metric_change": 12,
+                "trace_change": 12,
+                "trace_coverage": 12,
+                "metric_channel": 11
+              },
+              "all_correct": 11,
+              "composition_correct": 12,
+              "displayed": 11,
+              "withheld": 1,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 4,
+              "reference_support": 5,
+              "failed_or_missing": 0
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "EVA-ddeb6c7e4a06",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-10773bc81355",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4100d11bb82c",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84ccf6ba6272",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f5a35702e2cb",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-44e77f7b27ad",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e5eb9986076e",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "quiet",
+                "trace_coverage": "adequate",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "no_material_change",
+              "reference_composition": "no_material_change",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-5fe6231e1fb9",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-39ff3f617b7a",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "limited",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": false
+              },
+              "all_correct": false,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1cc97284c7cd",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b88d232744fb",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "latency-50"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-12e6912919dd",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ddeb6c7e4a06",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-10773bc81355",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4100d11bb82c",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84ccf6ba6272",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f5a35702e2cb",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-44e77f7b27ad",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e5eb9986076e",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "quiet",
+                "trace_coverage": "adequate",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "no_material_change",
+              "reference_composition": "no_material_change",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-5fe6231e1fb9",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-39ff3f617b7a",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "limited",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": false
+              },
+              "all_correct": false,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1cc97284c7cd",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b88d232744fb",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "latency-50"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-12e6912919dd",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ddeb6c7e4a06",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-10773bc81355",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4100d11bb82c",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84ccf6ba6272",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f5a35702e2cb",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-44e77f7b27ad",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "workload"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e5eb9986076e",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "quiet",
+                "trace_coverage": "adequate",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "no_material_change",
+              "reference_composition": "no_material_change",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-5fe6231e1fb9",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-39ff3f617b7a",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "limited",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": false
+              },
+              "all_correct": false,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1cc97284c7cd",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b88d232744fb",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "latency-50"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-12e6912919dd",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            }
+          ],
+          "stable_all_correct_cards": [
+            "EVA-ddeb6c7e4a06",
+            "EVA-10773bc81355",
+            "EVA-4100d11bb82c",
+            "EVA-84ccf6ba6272",
+            "EVA-f5a35702e2cb",
+            "EVA-44e77f7b27ad",
+            "EVA-e5eb9986076e",
+            "EVA-5fe6231e1fb9",
+            "EVA-1cc97284c7cd",
+            "EVA-b88d232744fb",
+            "EVA-12e6912919dd"
+          ],
+          "stable_composition_cards": [
+            "EVA-ddeb6c7e4a06",
+            "EVA-10773bc81355",
+            "EVA-4100d11bb82c",
+            "EVA-84ccf6ba6272",
+            "EVA-f5a35702e2cb",
+            "EVA-44e77f7b27ad",
+            "EVA-e5eb9986076e",
+            "EVA-5fe6231e1fb9",
+            "EVA-39ff3f617b7a",
+            "EVA-1cc97284c7cd",
+            "EVA-b88d232744fb",
+            "EVA-12e6912919dd"
+          ]
+        }
+      },
+      "pairs": [
+        {
+          "id": "EVA-ddeb6c7e4a06",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-ddeb6c7e4a06",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-ddeb6c7e4a06",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-10773bc81355",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-10773bc81355",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-10773bc81355",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-4100d11bb82c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-4100d11bb82c",
+          "round": 2,
+          "fix": true,
+          "loss": false
+        },
+        {
+          "id": "EVA-4100d11bb82c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-84ccf6ba6272",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-84ccf6ba6272",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-84ccf6ba6272",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-f5a35702e2cb",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-f5a35702e2cb",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-f5a35702e2cb",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-44e77f7b27ad",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-44e77f7b27ad",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-44e77f7b27ad",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-e5eb9986076e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-e5eb9986076e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-e5eb9986076e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-5fe6231e1fb9",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-5fe6231e1fb9",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-5fe6231e1fb9",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-39ff3f617b7a",
+          "round": 1,
+          "fix": false,
+          "loss": true
+        },
+        {
+          "id": "EVA-39ff3f617b7a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-39ff3f617b7a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-1cc97284c7cd",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-1cc97284c7cd",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-1cc97284c7cd",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-b88d232744fb",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-b88d232744fb",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-b88d232744fb",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-12e6912919dd",
+          "round": 1,
+          "fix": true,
+          "loss": false
+        },
+        {
+          "id": "EVA-12e6912919dd",
+          "round": 2,
+          "fix": true,
+          "loss": false
+        },
+        {
+          "id": "EVA-12e6912919dd",
+          "round": 3,
+          "fix": true,
+          "loss": false
+        }
+      ],
+      "stable_fixes": [
+        "EVA-12e6912919dd"
+      ],
+      "stable_losses": [],
+      "research_gate": true,
+      "reference_counts": {
+        "metric_change": {
+          "material": 4,
+          "quiet": 8
+        },
+        "trace_change": {
+          "material": 1,
+          "quiet": 1,
+          "unknown": 10
+        },
+        "trace_coverage": {
+          "absent": 9,
+          "adequate": 2,
+          "limited": 1
+        },
+        "metric_channel": {
+          "cpu": 2,
+          "latency-50": 1,
+          "mem": 4,
+          "socket": 1,
+          "workload": 4
+        }
+      }
+    },
+    "Train Ticket": {
+      "cards": 20,
+      "recordings": 10,
+      "arms": {
+        "observations": {
+          "per_round": [
+            {
+              "round": 1,
+              "cards": 20,
+              "field_correct": {
+                "metric_change": 20,
+                "trace_change": 20,
+                "trace_coverage": 20,
+                "metric_channel": 20
+              },
+              "all_correct": 20,
+              "composition_correct": 20,
+              "displayed": 20,
+              "withheld": 0,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 10,
+              "reference_support": 10,
+              "failed_or_missing": 0
+            },
+            {
+              "round": 2,
+              "cards": 20,
+              "field_correct": {
+                "metric_change": 20,
+                "trace_change": 20,
+                "trace_coverage": 20,
+                "metric_channel": 20
+              },
+              "all_correct": 20,
+              "composition_correct": 20,
+              "displayed": 20,
+              "withheld": 0,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 10,
+              "reference_support": 10,
+              "failed_or_missing": 0
+            },
+            {
+              "round": 3,
+              "cards": 20,
+              "field_correct": {
+                "metric_change": 20,
+                "trace_change": 20,
+                "trace_coverage": 20,
+                "metric_channel": 20
+              },
+              "all_correct": 20,
+              "composition_correct": 20,
+              "displayed": 20,
+              "withheld": 0,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 10,
+              "reference_support": 10,
+              "failed_or_missing": 0
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "EVA-b3d6e5bd9038",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-00a12078c541",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e15fe4b67bcf",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0b06470a786d",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1ba26b892ff5",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04110c2ce325",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f303ef873fda",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-003d252d504b",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4b122fec2849",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-001c514f8c84",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-37a0d515bf04",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-02d12ad5ae28",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84c46df737e9",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0c0e8f586426",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b650921b13e9",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-087d7649654a",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-8604dd6a161a",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-008108d4c438",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ed1a5fe80a40",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04b46392d136",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b3d6e5bd9038",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-00a12078c541",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e15fe4b67bcf",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0b06470a786d",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1ba26b892ff5",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04110c2ce325",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f303ef873fda",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-003d252d504b",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4b122fec2849",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-001c514f8c84",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-37a0d515bf04",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-02d12ad5ae28",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84c46df737e9",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0c0e8f586426",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b650921b13e9",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-087d7649654a",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-8604dd6a161a",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-008108d4c438",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ed1a5fe80a40",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04b46392d136",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b3d6e5bd9038",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-00a12078c541",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e15fe4b67bcf",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0b06470a786d",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1ba26b892ff5",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04110c2ce325",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f303ef873fda",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-003d252d504b",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4b122fec2849",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-001c514f8c84",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-37a0d515bf04",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-02d12ad5ae28",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84c46df737e9",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0c0e8f586426",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b650921b13e9",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-087d7649654a",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-8604dd6a161a",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-008108d4c438",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ed1a5fe80a40",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04b46392d136",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            }
+          ],
+          "stable_all_correct_cards": [
+            "EVA-b3d6e5bd9038",
+            "EVA-00a12078c541",
+            "EVA-e15fe4b67bcf",
+            "EVA-0b06470a786d",
+            "EVA-1ba26b892ff5",
+            "EVA-04110c2ce325",
+            "EVA-f303ef873fda",
+            "EVA-003d252d504b",
+            "EVA-4b122fec2849",
+            "EVA-001c514f8c84",
+            "EVA-37a0d515bf04",
+            "EVA-02d12ad5ae28",
+            "EVA-84c46df737e9",
+            "EVA-0c0e8f586426",
+            "EVA-b650921b13e9",
+            "EVA-087d7649654a",
+            "EVA-8604dd6a161a",
+            "EVA-008108d4c438",
+            "EVA-ed1a5fe80a40",
+            "EVA-04b46392d136"
+          ],
+          "stable_composition_cards": [
+            "EVA-b3d6e5bd9038",
+            "EVA-00a12078c541",
+            "EVA-e15fe4b67bcf",
+            "EVA-0b06470a786d",
+            "EVA-1ba26b892ff5",
+            "EVA-04110c2ce325",
+            "EVA-f303ef873fda",
+            "EVA-003d252d504b",
+            "EVA-4b122fec2849",
+            "EVA-001c514f8c84",
+            "EVA-37a0d515bf04",
+            "EVA-02d12ad5ae28",
+            "EVA-84c46df737e9",
+            "EVA-0c0e8f586426",
+            "EVA-b650921b13e9",
+            "EVA-087d7649654a",
+            "EVA-8604dd6a161a",
+            "EVA-008108d4c438",
+            "EVA-ed1a5fe80a40",
+            "EVA-04b46392d136"
+          ]
+        },
+        "calculated": {
+          "per_round": [
+            {
+              "round": 1,
+              "cards": 20,
+              "field_correct": {
+                "metric_change": 19,
+                "trace_change": 20,
+                "trace_coverage": 20,
+                "metric_channel": 20
+              },
+              "all_correct": 19,
+              "composition_correct": 19,
+              "displayed": 18,
+              "withheld": 2,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 8,
+              "reference_support": 10,
+              "failed_or_missing": 0
+            },
+            {
+              "round": 2,
+              "cards": 20,
+              "field_correct": {
+                "metric_change": 20,
+                "trace_change": 20,
+                "trace_coverage": 20,
+                "metric_channel": 20
+              },
+              "all_correct": 20,
+              "composition_correct": 20,
+              "displayed": 19,
+              "withheld": 1,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 9,
+              "reference_support": 10,
+              "failed_or_missing": 0
+            },
+            {
+              "round": 3,
+              "cards": 20,
+              "field_correct": {
+                "metric_change": 19,
+                "trace_change": 20,
+                "trace_coverage": 20,
+                "metric_channel": 20
+              },
+              "all_correct": 19,
+              "composition_correct": 19,
+              "displayed": 19,
+              "withheld": 1,
+              "false_displayed_support": 0,
+              "correct_displayed_support": 9,
+              "reference_support": 10,
+              "failed_or_missing": 0
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "EVA-b3d6e5bd9038",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-00a12078c541",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e15fe4b67bcf",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0b06470a786d",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1ba26b892ff5",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04110c2ce325",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f303ef873fda",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-003d252d504b",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4b122fec2849",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": false,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": false,
+              "composition": "evidence_limited",
+              "reference_composition": "change_supported",
+              "composition_correct": false,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-001c514f8c84",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-37a0d515bf04",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-02d12ad5ae28",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84c46df737e9",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0c0e8f586426",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b650921b13e9",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-087d7649654a",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-8604dd6a161a",
+              "round": 1,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-008108d4c438",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ed1a5fe80a40",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04b46392d136",
+              "round": 1,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b3d6e5bd9038",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-00a12078c541",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e15fe4b67bcf",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0b06470a786d",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1ba26b892ff5",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04110c2ce325",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f303ef873fda",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-003d252d504b",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4b122fec2849",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-001c514f8c84",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-37a0d515bf04",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-02d12ad5ae28",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84c46df737e9",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0c0e8f586426",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b650921b13e9",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-087d7649654a",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-8604dd6a161a",
+              "round": 2,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-008108d4c438",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ed1a5fe80a40",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04b46392d136",
+              "round": 2,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b3d6e5bd9038",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-00a12078c541",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-e15fe4b67bcf",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0b06470a786d",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-1ba26b892ff5",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04110c2ce325",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-f303ef873fda",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "error"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-003d252d504b",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-4b122fec2849",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": false,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": false,
+              "composition": "evidence_limited",
+              "reference_composition": "change_supported",
+              "composition_correct": false,
+              "displayed": false,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-001c514f8c84",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-37a0d515bf04",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-02d12ad5ae28",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-84c46df737e9",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-0c0e8f586426",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-b650921b13e9",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-087d7649654a",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-8604dd6a161a",
+              "round": 3,
+              "choices": {
+                "metric_change": "material",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "socket"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-008108d4c438",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-ed1a5fe80a40",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "material",
+                "trace_coverage": "adequate",
+                "metric_channel": "mem"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "change_supported",
+              "reference_composition": "change_supported",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": true,
+              "failed_or_missing": false
+            },
+            {
+              "id": "EVA-04b46392d136",
+              "round": 3,
+              "choices": {
+                "metric_change": "quiet",
+                "trace_change": "unknown",
+                "trace_coverage": "absent",
+                "metric_channel": "cpu"
+              },
+              "field_correct": {
+                "metric_change": true,
+                "trace_change": true,
+                "trace_coverage": true,
+                "metric_channel": true
+              },
+              "all_correct": true,
+              "composition": "evidence_limited",
+              "reference_composition": "evidence_limited",
+              "composition_correct": true,
+              "displayed": true,
+              "false_displayed_support": false,
+              "correct_displayed_support": false,
+              "failed_or_missing": false
+            }
+          ],
+          "stable_all_correct_cards": [
+            "EVA-b3d6e5bd9038",
+            "EVA-00a12078c541",
+            "EVA-e15fe4b67bcf",
+            "EVA-0b06470a786d",
+            "EVA-1ba26b892ff5",
+            "EVA-04110c2ce325",
+            "EVA-f303ef873fda",
+            "EVA-003d252d504b",
+            "EVA-001c514f8c84",
+            "EVA-37a0d515bf04",
+            "EVA-02d12ad5ae28",
+            "EVA-84c46df737e9",
+            "EVA-0c0e8f586426",
+            "EVA-b650921b13e9",
+            "EVA-087d7649654a",
+            "EVA-8604dd6a161a",
+            "EVA-008108d4c438",
+            "EVA-ed1a5fe80a40",
+            "EVA-04b46392d136"
+          ],
+          "stable_composition_cards": [
+            "EVA-b3d6e5bd9038",
+            "EVA-00a12078c541",
+            "EVA-e15fe4b67bcf",
+            "EVA-0b06470a786d",
+            "EVA-1ba26b892ff5",
+            "EVA-04110c2ce325",
+            "EVA-f303ef873fda",
+            "EVA-003d252d504b",
+            "EVA-001c514f8c84",
+            "EVA-37a0d515bf04",
+            "EVA-02d12ad5ae28",
+            "EVA-84c46df737e9",
+            "EVA-0c0e8f586426",
+            "EVA-b650921b13e9",
+            "EVA-087d7649654a",
+            "EVA-8604dd6a161a",
+            "EVA-008108d4c438",
+            "EVA-ed1a5fe80a40",
+            "EVA-04b46392d136"
+          ]
+        }
+      },
+      "pairs": [
+        {
+          "id": "EVA-b3d6e5bd9038",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-b3d6e5bd9038",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-b3d6e5bd9038",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-00a12078c541",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-00a12078c541",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-00a12078c541",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-e15fe4b67bcf",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-e15fe4b67bcf",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-e15fe4b67bcf",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-0b06470a786d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-0b06470a786d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-0b06470a786d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-1ba26b892ff5",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-1ba26b892ff5",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-1ba26b892ff5",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-04110c2ce325",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-04110c2ce325",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-04110c2ce325",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-f303ef873fda",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-f303ef873fda",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-f303ef873fda",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-003d252d504b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-003d252d504b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-003d252d504b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-4b122fec2849",
+          "round": 1,
+          "fix": false,
+          "loss": true
+        },
+        {
+          "id": "EVA-4b122fec2849",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-4b122fec2849",
+          "round": 3,
+          "fix": false,
+          "loss": true
+        },
+        {
+          "id": "EVA-001c514f8c84",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-001c514f8c84",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-001c514f8c84",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-37a0d515bf04",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-37a0d515bf04",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-37a0d515bf04",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-02d12ad5ae28",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-02d12ad5ae28",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-02d12ad5ae28",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-84c46df737e9",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-84c46df737e9",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-84c46df737e9",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-0c0e8f586426",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-0c0e8f586426",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-0c0e8f586426",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-b650921b13e9",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-b650921b13e9",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-b650921b13e9",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-087d7649654a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-087d7649654a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-087d7649654a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-8604dd6a161a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-8604dd6a161a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-8604dd6a161a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-008108d4c438",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-008108d4c438",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-008108d4c438",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-ed1a5fe80a40",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-ed1a5fe80a40",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-ed1a5fe80a40",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-04b46392d136",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-04b46392d136",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "EVA-04b46392d136",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        }
+      ],
+      "stable_fixes": [],
+      "stable_losses": [],
+      "research_gate": false,
+      "reference_counts": {
+        "metric_change": {
+          "material": 9,
+          "quiet": 11
+        },
+        "trace_change": {
+          "material": 5,
+          "unknown": 15
+        },
+        "trace_coverage": {
+          "absent": 15,
+          "adequate": 5
+        },
+        "metric_channel": {
+          "cpu": 4,
+          "error": 4,
+          "mem": 7,
+          "socket": 5
+        }
+      }
+    }
+  },
+  "research_gate": false,
+  "evidence": {
+    "plan_sha256": "49ce6629717e0787f1d7cab1a9b4dec1563558d62aee513c1f1235f5e7fd2cd1",
+    "protocol_sha256": "278c72124e8a2acbea9b33a02c156837cdaa1a28af3083ed34eaa61a22e51479",
+    "summary_sha256": "70e3c59f92555ae9838d402490d3f0bc4615244469c5e111cc427f3c58d949b5"
+  }
+}
