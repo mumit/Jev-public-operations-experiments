@@ -1,0 +1,30 @@
+{
+  "schema": "public-traces-audit-plan-1",
+  "revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "index_sha256": "c49a288920dbba2e8e724679a14636d5c7eb2b45426bba14007ef79a6c0ab1bb",
+  "cases": [
+    "re3ob_adservice_f3_1",
+    "re3ob_adservice_f3_2",
+    "re3ob_adservice_f3_3",
+    "re3tt_ts-auth-service_f1_1",
+    "re3tt_ts-auth-service_f1_2",
+    "re3tt_ts-auth-service_f1_3",
+    "re3tt_ts-auth-service_f1_4"
+  ],
+  "maximum_calls": 0,
+  "decision": "User authorized richer causal evidence for Jev on 2026-10-04.",
+  "purpose": "Audit source trace schema, units, parent links and candidate-name alignment before constructing a separately frozen paired experiment. These seven cases and their whole service/fault groups become development. Leave all other RE3 telemetry and all RE1 reserves unopened.",
+  "maximum_file_bytes": 50000000,
+  "files": [
+    "inject_time.txt",
+    "metrics.parquet",
+    "traces.parquet"
+  ],
+  "source_sha256": {
+    "scripts/audit_public_traces.py": "ee4b721863e8c1283d5346969eeaab697cadc0eaae4b93d209f9d513c9bf9e50",
+    "triage_bench/public_data.py": "f90643117a3a691522c2c273e954bfb57680fb3cc764fae9ef8c1ed732414af0",
+    "triage_bench/public_rca_data.py": "4849978589d8ed5b9a804a9cce585eaa91e2fa7f09e72144b77547e931baf903",
+    "triage_bench/public_rca_stages.py": "d4ce1ebfab517ea72abb9edfe20ba507f38cb1a6fd8f9bab6d508d19d0afe9d2",
+    "uv.lock": "c2279f34fe061961b88c0a44fc7bbf5ca8f72638e1afc2a4b2ef776fde6edce0"
+  }
+}
