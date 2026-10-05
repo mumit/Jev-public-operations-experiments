@@ -1,0 +1,51 @@
+{
+  "schema": "public-sentence-review-evidence-1",
+  "archive": "public-sentence-review-v1.tar.gz",
+  "archive_sha256": "f62cefd07b8f3d17b6205ec1e8d6913733551461ec2fb09b2ece2cfb865fa122",
+  "bytes": 175471,
+  "source_commit": "50a6f33a90270c1388e17ebf15944e050af56f6e",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 108,
+  "files": {
+    "runs/public-sentence-review/extraction-hosted-2026-10-05-v1/requests.json": {
+      "bytes": 1725726,
+      "sha256": "ece874a7a2dd24333f47b2bc4ef215fa0ac11992a88ffaa53fb1a2ba48e9e3c2"
+    },
+    "runs/public-sentence-review/extraction-hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 1286557,
+      "sha256": "743c0935654d4cc8f2cca92c9c2387eb8da309990e89dcb6724eccad80f57e5e"
+    },
+    "runs/public-sentence-review/extraction-hosted-2026-10-05-v1/summary.json": {
+      "bytes": 538,
+      "sha256": "1d643fedf147b3fa142737932bcef9edb56414a019165672b414f1fb0f8a7f81"
+    },
+    "runs/public-sentence-review/verdict-hosted-2026-10-05-v1/requests.json": {
+      "bytes": 1146841,
+      "sha256": "2d875a40b3138d887c533b48fbeacc1b13aeba08687a3287e28b7c713d066f7d"
+    },
+    "runs/public-sentence-review/verdict-hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 154281,
+      "sha256": "29fab7a62ce031625c9d6b375d9a9034b6671c9abf5b7dd83c8b0f411ed53c28"
+    },
+    "runs/public-sentence-review/verdict-hosted-2026-10-05-v1/summary.json": {
+      "bytes": 535,
+      "sha256": "e79cb7d92aee4a38b2099105d24edde33b34fb44da03ba23b6baef7cd7d15dfd"
+    }
+  }
+}

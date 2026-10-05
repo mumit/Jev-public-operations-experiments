@@ -185,3 +185,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_notes
 ```
 
 Restore in order. The latest verifier preserves the response failures and recomputes an extraction-only audit. It checks all historical stages and both original pack validators without inference. There are 1,944 raw extraction answers and 1,800 normalized answers; the two rejected notes remain in every planned scoring denominator. The inspector exposes raw distributions without treating them as accepted replies. Measurements are already inspected, and all protected panels stay unopened. Historical releases remain immutable.
+
+## Sentence-review evidence
+
+The [public-sentence-review-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-sentence-review-v1) adds the separate extraction replay and dependent verdict comparison. Its six files preserve 108 actual responses, 2,312 valid answers, exact requests and once-only execution records. The archive is 175,471 bytes. Restore all fourteen earlier assets first; the unchanged notes and annotations come from the note-extraction asset.
+
+```bash
+gh release download public-sentence-review-v1 --repo mumit/Jev-public-operations-experiments --pattern public-sentence-review-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-sentence-review-v1.tar.gz --manifest evidence/public-sentence-review-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_sentence_review
+```
+
+All fifteen assets preserve 3,409 actual responses in 1,113 files. The new run contains no inconsistent answers; both validators accept the same 152 correct bindings on its replies. All accepted Jev claims receive correct, displayed verdicts, but incomplete-note coverage fails both application checks. The earlier sizing failure and rejected replies remain frozen. No protected telemetry opens, and verification makes no calls.
