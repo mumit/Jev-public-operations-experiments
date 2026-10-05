@@ -75,3 +75,5 @@ It does not establish unrestricted report understanding, fresh-incident generali
 The next useful diagnostic is a short report containing several independently scored claims and more than one service. Keep the numerical ledger and verdict definitions fixed, identify each claim's service explicitly, and distinguish a correct atomic judgment from a correct whole report. Freeze the text, references, display rule and budget before calls. This would test a report-reading task while preserving the numerical findings above.
 
 A later fresh-telemetry confirmation requires its own allocation and frozen evaluation plan. Passing this diagnostic opens none of the protected recordings. Inspect [the wording explorer](http://127.0.0.1:8769/claim-language) to compare actual statements, references and responses.
+
+The short-report diagnostic is now complete. Direct questions retain correct judgments, while numbered report lookup repeats two withheld errors. See [the report-reading study](public-report-reading.md) for the exact input change and the separate claim-binding experiment to try next.

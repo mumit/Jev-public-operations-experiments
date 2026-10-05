@@ -1,0 +1,47 @@
+{
+  "schema": "public-report-reading-evidence-1",
+  "archive": "public-report-reading-v1.tar.gz",
+  "archive_sha256": "e53f4c0b89b9a66e6b112e355d7472daacd011d4ec0242010bdfeccb0b48c6e3",
+  "bytes": 83750,
+  "source_commit": "1e07871b8135f6f7c55259aa2f8ed9d6185f092c",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 96,
+  "files": {
+    "runs/public-report-reading/diagnostic-data-2026-10-05-v1/inputs.json": {
+      "bytes": 572797,
+      "sha256": "23e9e75fca0120d56205f47ee51e8b3d64503da3f449c0848868445581bec159"
+    },
+    "runs/public-report-reading/diagnostic-data-2026-10-05-v1/manifest.json": {
+      "bytes": 437,
+      "sha256": "b1ed2155e2e4a7f32886d26e35341150b16d4708bead37d711401baa35ae75e4"
+    },
+    "runs/public-report-reading/diagnostic-data-2026-10-05-v1/references.json": {
+      "bytes": 47780,
+      "sha256": "6ee0a747743790f9fe0ebd2544dd2848b0767a820dfdf468675084e3a2a7357c"
+    },
+    "runs/public-report-reading/diagnostic-hosted-2026-10-05-v1/requests.json": {
+      "bytes": 1455573,
+      "sha256": "558ac74673aa9365017bde3ce24a5be2be3449e80db95ed157553d399a215f03"
+    },
+    "runs/public-report-reading/diagnostic-hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 219462,
+      "sha256": "0b5421344eaa1062d10df024cb309f43f9f9c405b506ba83444201aa5a4dd5c0"
+    },
+    "runs/public-report-reading/diagnostic-hosted-2026-10-05-v1/summary.json": {
+      "bytes": 457,
+      "sha256": "be9b48d07bfc5b04c4ff6961c519f35ee0e4020bd87d617e8f8d943e3386574c"
+    }
+  }
+}

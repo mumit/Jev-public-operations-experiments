@@ -135,3 +135,16 @@ uv run --locked --extra public-data python -m scripts.verify_public_claim_langua
 ```
 
 Restore assets in order. The latest verifier invokes all ten study verifiers and both original pack validators without inference. Historical assets remain immutable.
+
+
+## Multi-service report-reading supplement
+
+The [public-report-reading-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-report-reading-v1) adds 96 calls with 576 answers. Six claims about two named services form each of 16 reports. Direct questions and numbered report lookup share identical two-service ledgers. The six files contain reports, separate typed references, exact requests and actual responses. The archive is 83,750 bytes and requires all ten earlier assets. All eleven preserve 2,413 actual responses in 1,059 files.
+
+```bash
+gh release download public-report-reading-v1 --repo mumit/Jev-public-operations-experiments --pattern public-report-reading-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-report-reading-v1.tar.gz --manifest evidence/public-report-reading-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_reports
+```
+
+Restore in order. The latest verifier checks all eleven studies and both original pack validators without inference. Direct judgments are correct throughout; report lookup repeats two withheld errors and fails both comparison checks. These authored notes reuse inspected telemetry. Protected recordings stay unopened and historical releases stay unchanged.
