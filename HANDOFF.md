@@ -2,7 +2,7 @@
 
 ## Current state
 
-Evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Written-claim and evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
 Start with README.md, docs/evidence.md and docs/public-claim-assessment.md. Restore all nine versioned evidence bundles, then run scripts.verify_public_claims, which checks the full dependency chain and both original pack validators. The suite has 123 tests. The earlier synthetic studies and their Git history remain in the original repository.
 

@@ -1,13 +1,14 @@
 # Jev public operations experiments
 
-I am testing whether Jev can help identify the originating faulty service from public telemetry, and which input changes improve its recommendations. The app exposes the measurements, exact requests, actual responses, local ML scores and frozen review thresholds.
+I am testing where Jev can help operations analysts: selecting investigation leads, assessing evidence and checking written claims against public telemetry. The app exposes the measurements, exact requests, actual responses, local ML scores and frozen review thresholds.
 
 The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
 ## Completed comparisons
 
-| Study | Held-out evidence | Result |
+| Study | Evidence | Result |
 |---|---|---|
+| Written claim assessment | 96 constructed statements on 32 inspected cards, two inputs, three rounds | Ledger: 60/60 Train Ticket and 36/36 Online Boutique verdicts correct every round; observations: 58/60 and 33/36. Five repeated errors fixed; no losses. Diagnostic passes, with varied wording and fresh generalization still untested. |
 | Evidence assessment | 32 selected service cards from 16 inspected recordings, two inputs, three rounds | Observations gives Train Ticket 20/20 all-four matches each round. Calculated gives 19/20/19; Online Boutique improves from 11/9/10 to 11/11/11 of 12. The calculated candidate fails overall. This is numerical policy agreement, not cause accuracy. |
 | Trace-aware task and arithmetic | 16 fresh RE3 development cases, four inputs, three rounds | No repeated fixes. Train Ticket displays no leads; Online Boutique remains 6/6 correct but loses one displayed lead in two rounds. Evaluation stays sealed. |
 | Trace context | 13 RE3 development cases, two inputs, three rounds | No repeated fixes; evaluation remains sealed. Train Ticket metrics/trace matches 1–0–1 / 1–1–1 of 7; Online Boutique 3–3–4 of 6 in both arms. |
@@ -19,7 +20,7 @@ The current evidence comes from controlled RCAEval Online Boutique, Sock Shop an
 
 The fresh 18-case Train Ticket development comparison gives named/temporal Jev first choices of 16/18 and 15/18 in each of three rounds; frozen ML transfer gives 18/18. Both Jev shortlists include all targets but add 32–36 wrong leads per round. See the [development report](docs/public-temporal-next.md) before treating shortlist inclusion as a useful recommendation.
 
-Named fields are a candidate for further verification. Their gain over compact input is one case; adding explanations loses one named-input success. All recommendations require analyst review.
+Named fields improve one compact-input case, but later confirmation retains a confidently wrong Train Ticket lead. The latest claim diagnostic instead keeps arithmetic in code and tests bounded written judgments. All recommendations require analyst review.
 
 ## Run the app
 
@@ -32,7 +33,7 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all nine [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. The trace release adds 78 development responses, raw traces, the audit and both sizing attempts. The trace-task release adds 192 development responses and the four-step comparison. The evidence-assessment release adds 192 four-question diagnostic responses. The claim-assessment release adds 192 three-question responses on 96 constructed statements. All nine retain measurements, separate references and exact requests, with no synthetic runs or credentials.
+A fresh clone includes source, reports and checkpoints. Restore all nine [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. The trace release adds 78 development responses, raw traces, the audit and both sizing attempts. The trace-task release adds 192 development responses and the four-step comparison. The evidence-assessment release adds 192 four-question diagnostic responses. The claim-assessment release adds 192 three-question responses on 96 constructed statements. All nine retain measurements, separate references and exact requests, with actual provider responses, public source measurements and no credentials. The latest claims use authored templates.
 
 ## Read and inspect
 
