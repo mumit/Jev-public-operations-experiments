@@ -1,0 +1,229 @@
+{
+  "schema": "public-sentence-protocol-1",
+  "phase": "extraction",
+  "plan_sha256": "dde2d2b8a333ce89a7241423e35fcd016521532f6adc2fc73f2f968cccb2bfe4",
+  "manifest_sha256": "213e9f99d21e1a00cd989893fa788c3e20ba71b042b3cd7d15a7d14d333b5d76",
+  "reference_sha256": "63f8463bd967ab305ee16b57c40d893ebc1fd9ede1778ec2e363c1448b2021dd",
+  "planned_jobs": 27,
+  "planned_calls": 27,
+  "planned_answers": 1944,
+  "largest_request_bytes": 70686,
+  "requests": [
+    {
+      "id": "NEX-ca19c97a64d8::extraction::jev::r1",
+      "card_id": "NEX-ca19c97a64d8",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 1,
+      "request_sha256": "0dbe02118e98cf30f92c7160ac31a74a842376d24ae46ccf50cb54a672ee8cfc"
+    },
+    {
+      "id": "NEX-0865282369d5::extraction::jev::r1",
+      "card_id": "NEX-0865282369d5",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 1,
+      "request_sha256": "945d81f84ba5e5c7bf32f95ac9b6524394a8a183b4c25c737225c2d99decfd4c"
+    },
+    {
+      "id": "NEX-f7427d20a27f::extraction::jev::r1",
+      "card_id": "NEX-f7427d20a27f",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 1,
+      "request_sha256": "33b9fc40f7649162af0a27118db2ecd39ccff5b6aa64bfe0910b3b3c94a6d07a"
+    },
+    {
+      "id": "NEX-0aa59e2a4b09::extraction::jev::r1",
+      "card_id": "NEX-0aa59e2a4b09",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 1,
+      "request_sha256": "bfbad1aac4d93b39899c2328f47c351b0c83f13dd50b0b8660c8848e5b955035"
+    },
+    {
+      "id": "NEX-07ced3f518de::extraction::jev::r1",
+      "card_id": "NEX-07ced3f518de",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 1,
+      "request_sha256": "6bd7b8eb5034a8ef05b00e39871fccb88ab72aff1d622630f270a4a459f2b59c"
+    },
+    {
+      "id": "NEX-54a502e07159::extraction::jev::r1",
+      "card_id": "NEX-54a502e07159",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 1,
+      "request_sha256": "de8692654492f05a40cd65878fc596748578322b8609e6fcf87e833f71869537"
+    },
+    {
+      "id": "NEX-96b620a70411::extraction::jev::r1",
+      "card_id": "NEX-96b620a70411",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 1,
+      "request_sha256": "238992335e6779590128d4d8c71951284817160b4c388500cfd0cd9879fa399a"
+    },
+    {
+      "id": "NEX-8a35465e8421::extraction::jev::r1",
+      "card_id": "NEX-8a35465e8421",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 1,
+      "request_sha256": "83d5f8f2e2c6e77ae4fd8999d3ef8fa85d4dec6d0e26f55ad6e8419f5428a7e4"
+    },
+    {
+      "id": "NEX-2642b8b4567e::extraction::jev::r1",
+      "card_id": "NEX-2642b8b4567e",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 1,
+      "request_sha256": "488c7a93e20cbc517d761e553c763a017b69bf3170886657ba500fa54191e370"
+    },
+    {
+      "id": "NEX-0865282369d5::extraction::jev::r2",
+      "card_id": "NEX-0865282369d5",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 2,
+      "request_sha256": "945d81f84ba5e5c7bf32f95ac9b6524394a8a183b4c25c737225c2d99decfd4c"
+    },
+    {
+      "id": "NEX-f7427d20a27f::extraction::jev::r2",
+      "card_id": "NEX-f7427d20a27f",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 2,
+      "request_sha256": "33b9fc40f7649162af0a27118db2ecd39ccff5b6aa64bfe0910b3b3c94a6d07a"
+    },
+    {
+      "id": "NEX-0aa59e2a4b09::extraction::jev::r2",
+      "card_id": "NEX-0aa59e2a4b09",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 2,
+      "request_sha256": "bfbad1aac4d93b39899c2328f47c351b0c83f13dd50b0b8660c8848e5b955035"
+    },
+    {
+      "id": "NEX-07ced3f518de::extraction::jev::r2",
+      "card_id": "NEX-07ced3f518de",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 2,
+      "request_sha256": "6bd7b8eb5034a8ef05b00e39871fccb88ab72aff1d622630f270a4a459f2b59c"
+    },
+    {
+      "id": "NEX-54a502e07159::extraction::jev::r2",
+      "card_id": "NEX-54a502e07159",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 2,
+      "request_sha256": "de8692654492f05a40cd65878fc596748578322b8609e6fcf87e833f71869537"
+    },
+    {
+      "id": "NEX-96b620a70411::extraction::jev::r2",
+      "card_id": "NEX-96b620a70411",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 2,
+      "request_sha256": "238992335e6779590128d4d8c71951284817160b4c388500cfd0cd9879fa399a"
+    },
+    {
+      "id": "NEX-8a35465e8421::extraction::jev::r2",
+      "card_id": "NEX-8a35465e8421",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 2,
+      "request_sha256": "83d5f8f2e2c6e77ae4fd8999d3ef8fa85d4dec6d0e26f55ad6e8419f5428a7e4"
+    },
+    {
+      "id": "NEX-2642b8b4567e::extraction::jev::r2",
+      "card_id": "NEX-2642b8b4567e",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 2,
+      "request_sha256": "488c7a93e20cbc517d761e553c763a017b69bf3170886657ba500fa54191e370"
+    },
+    {
+      "id": "NEX-ca19c97a64d8::extraction::jev::r2",
+      "card_id": "NEX-ca19c97a64d8",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 2,
+      "request_sha256": "0dbe02118e98cf30f92c7160ac31a74a842376d24ae46ccf50cb54a672ee8cfc"
+    },
+    {
+      "id": "NEX-f7427d20a27f::extraction::jev::r3",
+      "card_id": "NEX-f7427d20a27f",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 3,
+      "request_sha256": "33b9fc40f7649162af0a27118db2ecd39ccff5b6aa64bfe0910b3b3c94a6d07a"
+    },
+    {
+      "id": "NEX-0aa59e2a4b09::extraction::jev::r3",
+      "card_id": "NEX-0aa59e2a4b09",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 3,
+      "request_sha256": "bfbad1aac4d93b39899c2328f47c351b0c83f13dd50b0b8660c8848e5b955035"
+    },
+    {
+      "id": "NEX-07ced3f518de::extraction::jev::r3",
+      "card_id": "NEX-07ced3f518de",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 3,
+      "request_sha256": "6bd7b8eb5034a8ef05b00e39871fccb88ab72aff1d622630f270a4a459f2b59c"
+    },
+    {
+      "id": "NEX-54a502e07159::extraction::jev::r3",
+      "card_id": "NEX-54a502e07159",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 3,
+      "request_sha256": "de8692654492f05a40cd65878fc596748578322b8609e6fcf87e833f71869537"
+    },
+    {
+      "id": "NEX-96b620a70411::extraction::jev::r3",
+      "card_id": "NEX-96b620a70411",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 3,
+      "request_sha256": "238992335e6779590128d4d8c71951284817160b4c388500cfd0cd9879fa399a"
+    },
+    {
+      "id": "NEX-8a35465e8421::extraction::jev::r3",
+      "card_id": "NEX-8a35465e8421",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 3,
+      "request_sha256": "83d5f8f2e2c6e77ae4fd8999d3ef8fa85d4dec6d0e26f55ad6e8419f5428a7e4"
+    },
+    {
+      "id": "NEX-2642b8b4567e::extraction::jev::r3",
+      "card_id": "NEX-2642b8b4567e",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 3,
+      "request_sha256": "488c7a93e20cbc517d761e553c763a017b69bf3170886657ba500fa54191e370"
+    },
+    {
+      "id": "NEX-ca19c97a64d8::extraction::jev::r3",
+      "card_id": "NEX-ca19c97a64d8",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 3,
+      "request_sha256": "0dbe02118e98cf30f92c7160ac31a74a842376d24ae46ccf50cb54a672ee8cfc"
+    },
+    {
+      "id": "NEX-0865282369d5::extraction::jev::r3",
+      "card_id": "NEX-0865282369d5",
+      "phase": "extraction",
+      "arm": "jev",
+      "round": 3,
+      "request_sha256": "945d81f84ba5e5c7bf32f95ac9b6524394a8a183b4c25c737225c2d99decfd4c"
+    }
+  ]
+}
