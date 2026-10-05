@@ -80,3 +80,10 @@ All 192 calls succeed with three valid answers each. The new verifier independen
 Browser review checks both application panels, numeric denominators, statement/card/input/round controls, explicit reference reveal, the correct-but-withheld 0.68 answer, absent trace warnings, missing fractions, original measurements and derived eligibility/arithmetic, exact ledger state, formatted results and the return link retaining card, statement, input, round and section. The supplement contains six files in 84,831 bytes.
 
 A fresh local clone restored all nine bundles, 1,047 files, then passed all 123 tests without skips, all eleven browser-script syntax checks and the complete nine-verifier chain, including both original pack validators. The check used pinned dependencies without credentials or original checkout source and reproduced all 1,861 actual responses without inference. Five older assets were downloaded from their existing public releases after a local archive read timeout; committed checksums matched. Historical assets remain unchanged.
+
+
+## Wording diagnostic verification
+
+All 133 tests pass. The ten new checks cover unchanged ledger/instructions/criteria, polarity-specific wording with no health-negation shortcut, missing versus explicit zero counts, selection of eligible actual zeros, per-form failure denominators, wrong contradictions failing the gate even without false support, immutable model-error stopping and redaction, hidden references, separate numeric counts and selected-wording article return context.
+
+All 456 calls succeed and return three valid answers each. The new verifier reconstructs all 152 propositions, their three wordings, shuffled question roles, independent typed references and exact unchanged ledgers. It validates normalized recorded responses, complete planned denominators and every application/form/round assessment. It invokes the nine earlier verifiers and both original pack validators, consuming no fresh telemetry or new calls. The supplement contains six files in 176,200 archive bytes.

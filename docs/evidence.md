@@ -122,3 +122,16 @@ uv run --locked --extra public-data python -m scripts.verify_public_claims
 ```
 
 The latest verifier checks the full nine-stage dependency chain, including both original pack validators, without inference. Restore assets in the documented order. Never replace a published archive or rerun a completed protocol.
+
+
+## Wording diagnostic supplement
+
+The [public-claim-language-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-claim-language-v1) adds 456 calls with 1,368 answers. It records three wordings of 152 propositions on the same 32 inspected service cards. No measurements are altered and no fresh telemetry is downloaded. The six files retain separate references, exact wording/ledger requests and responses. The archive is 176,200 bytes and requires all nine earlier assets. All ten preserve 2,317 actual responses in 1,053 files.
+
+```sh
+gh release download public-claim-language-v1 --repo mumit/Jev-public-operations-experiments --pattern public-claim-language-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-claim-language-v1.tar.gz --manifest evidence/public-claim-language-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_claim_language
+```
+
+Restore assets in order. The latest verifier invokes all ten study verifiers and both original pack validators without inference. Historical assets remain immutable.
