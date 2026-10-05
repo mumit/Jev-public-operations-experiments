@@ -73,3 +73,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_agreement
 ```
 
 All five bundles preserve 1,207 actual hosted responses and 867 files. The fifth verifier reconstructs the schema audit, publisher hashes, grouped evaluation packets, exact requests, normalized responses, fixed ML controls and both applications' paired outcomes without inference. Seventy RE1 cases per application remain unopened; their assignments are metadata only and their telemetry is absent from the archive. Earlier bundle reserve counts describe those historical stages, not the current RE2 state.
+
+## Trace development evidence
+
+The [public-traces-development-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-traces-development-v1) adds 78 paired development responses on 13 RE3 code-fault recordings. Its 112 files preserve the seven-case schema audit, public metrics and traces, both sizing representations, exact requests and local controls. The archive is 136,963,040 bytes. Restore the five earlier bundles first. Evaluation and reserve telemetry are excluded because development failed promotion.
+
+```bash
+gh release download public-traces-development-v1 --repo mumit/Jev-public-operations-experiments --pattern public-traces-development-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-traces-development-v1.tar.gz --manifest evidence/public-traces-development-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_traces
+```
+
+All six bundles preserve 1,285 actual responses across 979 evidence files. Restoring, browsing and verification need no key and make no model calls. Keep the first sizing failure and its compact replacement; neither preflight made a provider call. Never replace an asset with changed evidence.

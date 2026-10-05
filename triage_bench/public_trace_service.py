@@ -51,7 +51,8 @@ class PublicTraceStudy:
                 for row in outcomes[arm]:
                     for key in ('group', 'target', 'fault', 'correct_first', 'cause_included', 'wrong_leads', 'raw_correct_first'):
                         row.pop(key)
-        return {**packet, 'dataset': dataset, 'outcomes': outcomes,
+        return {**packet, 'state': json.loads(packet['requests']['metrics']['state']),
+                'dataset': dataset, 'outcomes': outcomes,
                 'responses': [r for r in rows if r['case_id'] == identifier],
                 'controls': load(output('development') / 'controls.json')[identifier],
                 'reference': {'target': pairs[0]['target'], 'fault': pairs[0]['fault']} if reveal else None}

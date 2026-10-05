@@ -13,12 +13,14 @@ class TraceServiceTests(unittest.TestCase):
         assessment = {'datasets': {'Train Ticket': {'pairs': [reference],
                        'arms': {arm: {'selective': {'outcomes': [outcome]}} for arm in ('metrics', 'traces')}}}}
         service = PublicTraceStudy('.')
-        packet = {'id': 'case', 'state': {}, 'trace_context': {}, 'requests': {}}
+        packet = {'id': 'case', 'state': {'services': {'a': {'cpu': [1, 2]}}},
+                  'trace_context': {}, 'requests': {'metrics': {'state': '{"services":{"a":{"cpu":{"before_median":1,"after_median":2}}}}'}}}
         with patch.object(service, 'verified', return_value=assessment), \
              patch('triage_bench.public_trace_service.load', side_effect=lambda p: [packet] if p.name == 'inputs.json' else {'case': {}}), \
              patch('pathlib.Path.read_text', return_value=''):
             hidden = service.case('Train Ticket', 'case')
             self.assertIsNone(hidden['reference'])
+            self.assertEqual(hidden['state']['services']['a']['cpu']['after_median'], 2)
             for arm in ('metrics', 'traces'):
                 for key in ('target', 'fault', 'group', 'raw_correct_first', 'correct_first'):
                     self.assertNotIn(key, hidden['outcomes'][arm][0])
