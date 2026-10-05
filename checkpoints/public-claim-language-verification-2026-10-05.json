@@ -1,0 +1,33 @@
+{
+  "schema": "public-claim-language-verification-1",
+  "date": "2026-10-05",
+  "source_commit_verified": "ea9779c38644e3f1820808f1761ef53b2b1d600e",
+  "fresh_clone": "Independent local clone, ten checksum-verified assets restored in order using pinned dependencies without credentials or original checkout source.",
+  "evidence_assets": 10,
+  "evidence_files": 1053,
+  "recorded_responses": 2317,
+  "diagnostic_calls": 456,
+  "diagnostic_answers": 1368,
+  "new_hosted_calls_during_verification": 0,
+  "python_tests": 133,
+  "skipped_tests": 0,
+  "browser_scripts": 12,
+  "chained_evidence_verifiers": 10,
+  "original_pack_validators": 2,
+  "all_passed": true,
+  "archive_sha256": "d8300c0b6707288cb28e32be92ee6271f0f945f1652cb6a7878a02ec88dc2396",
+  "diagnostic_only": true,
+  "research_gate": true,
+  "protected_data_unopened": true,
+  "fresh_cases_consumed": 0,
+  "browser_checks": [
+    "both application panels and numeric proposition denominators",
+    "separate original/count/zero strata",
+    "proposition/wording/round controls",
+    "reference hiding and reveal",
+    "correct withheld original versus displayed explicit comparison",
+    "actual measured zero and unknown trace count",
+    "exact unchanged ledger and selected question",
+    "formatted report preserving proposition/wording/round/section return context"
+  ]
+}
