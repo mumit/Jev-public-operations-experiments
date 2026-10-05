@@ -1,0 +1,44 @@
+{
+  "schema": "public-claim-binding-verification-1",
+  "date": "2026-10-05",
+  "source_commit_verified": "495c9cf267d612e3a12bc3e9b2345ca792c43efe",
+  "fresh_clone": "Independent local clone, twelve checksum-verified assets restored in order, pinned dependencies, no credentials or original checkout source.",
+  "evidence_assets": 12,
+  "evidence_files": 1065,
+  "recorded_responses": 3085,
+  "diagnostic_calls": 672,
+  "diagnostic_answers": 1152,
+  "new_hosted_calls_during_verification": 0,
+  "python_tests": 155,
+  "skipped_tests": 0,
+  "browser_scripts": 14,
+  "chained_evidence_verifiers": 12,
+  "original_pack_validators": 2,
+  "all_passed": true,
+  "archive_sha256": "d7e3cabb561691c2bf340d9e743ea85c04fd2f7409a4a6650c483b7dad5ed24b",
+  "diagnostic_only": true,
+  "research_gate": false,
+  "step_gates": {
+    "Train Ticket": {
+      "bound": true,
+      "single": false,
+      "scoped": true
+    },
+    "Online Boutique": {
+      "bound": true,
+      "single": true,
+      "scoped": true
+    }
+  },
+  "protected_data_unopened": true,
+  "fresh_cases_consumed": 0,
+  "browser_checks": [
+    "both application panels and claim/report denominators",
+    "round-specific fixes/losses and separate changed-step gates",
+    "claim/presentation/round controls and explicit reference reveal",
+    "repeated missingness/zero fixes and one-round duration regression",
+    "separate one-claim raw responses, earlier and fresh lookup kept separate",
+    "unchanged exact question in grouping/scoping and full note with one service ledger",
+    "formatted report and selected report/claim/step/round/section return context"
+  ]
+}
