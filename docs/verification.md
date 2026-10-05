@@ -49,3 +49,9 @@ The verifier reconstructs the seven-case audit and both 13-case preparation atte
 A fresh local clone restored all six bundles, 979 files, into an isolated temporary folder and passed all six evidence verifiers, both original pack validators and all 92 tests with pinned dependencies, no key and no original checkout source. Local read timeouts interrupted the first check under Documents. Rebuilding the trace archive in the temporary folder produced the identical committed checksum, then restoration and verification completed. The evidence bytes did not change.
 
 Browser review verified both application panels, paired decisions, round and input switching, hidden/revealed references, actual metric values, absent adservice span warnings, before/after span durations, missing statuses, exact requests and the formatted report's selected-case return link. The public-traces-development-v1 asset contains 112 files and 78 responses in 136,963,040 archive bytes; all six releases preserve 1,285 actual responses. Earlier assets remain unchanged.
+
+## Trace-aware task verification
+
+The suite now passes 100 tests. New checks verify that each input changes only its declared factor, preserve missing/nonpositive denominators, correct unequal trace windows, keep all candidates eligible, retain intact fresh groups, block evaluation before local or network access, reject incomplete paired fixes, hide case references and show actual named metric values. All nine browser scripts pass syntax checks.
+
+All 192 hosted development requests succeeded. The separate verifier reconstructs arithmetic from the same rounded trace observations, checks publisher hashes, exact request bodies, source fingerprints, normalized replies, unchanged controls and the committed assessment. It confirms failed promotion, no evaluation access and nine unopened RE3 reserves. Verification makes no model calls.

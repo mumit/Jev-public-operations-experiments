@@ -85,3 +85,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_traces
 ```
 
 All six bundles preserve 1,285 actual responses across 979 evidence files. Restoring, browsing and verification need no key and make no model calls. Keep the first sizing failure and its compact replacement; neither preflight made a provider call. Never replace an asset with changed evidence.
+
+## Trace-aware task evidence
+
+The [public-trace-task-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-trace-task-v1) adds 192 responses on 16 fresh RE3 development recordings. Its 56 files include publisher-verified metrics and traces, separate references, four exact request forms, arithmetic changes and unchanged controls. The archive is 77,066,595 bytes. Restore the six earlier bundles first.
+
+```bash
+gh release download public-trace-task-v1 --repo mumit/Jev-public-operations-experiments --pattern public-trace-task-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-trace-task-v1.tar.gz --manifest evidence/public-trace-task-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_trace_task
+```
+
+All seven assets preserve 1,477 actual responses in 1,035 files. Both new development gates fail; the 22 evaluation cases and nine remaining RE3 reserves have no telemetry in this supplement. Sixteen cases from the earlier stage's 25 reserves became development for this separately frozen study. All historical assets remain unchanged.

@@ -50,7 +50,7 @@ def verify():
     if any(p.name in sealed for p in data.BASE.rglob('*') if p.is_dir()):
         raise ValueError('Trace reserve entered the experiment.')
     return {'status': 'verified', 'recorded_calls': calls, 'stages': stages,
-            'audit_cases': 7, 'development_cases': 13, 'reserved_re3_cases': 25,
+            'audit_cases': 7, 'development_cases': 13, 'reserved_re3_cases_at_stage_completion': 25,
             'evaluation_sealed': not trial.CANDIDATE.exists(), 'new_hosted_calls': 0}
 
 

@@ -1,0 +1,243 @@
+{
+  "schema": "public-trace-task-evidence-1",
+  "archive": "public-trace-task-v1.tar.gz",
+  "archive_sha256": "42e1b198834f6ac441848e33759f28a5d30432b8ec8df40b0ec6778f389516bf",
+  "bytes": 77066595,
+  "source_commit": "e355d807df81e8f1e330f10e0aff2dcbcd9f751f",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 192,
+  "files": {
+    "runs/public-trace-task/development-data-2026-10-04-v1/inputs.json": {
+      "bytes": 4285552,
+      "sha256": "47d828034f20f7afaed073eb3a2ed72e662e97933a979b3b56dea11e65fb4018"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/manifest.json": {
+      "bytes": 13399,
+      "sha256": "5f23efc3eb697b18694ecb8a18968465afa8451bd5580476ce8b738794af505d"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-0456d60beb95/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a58f1a60fbc969a5f393a416a4c022ab8e80680c8f960b57859857c3fd14fed2"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-0456d60beb95/metrics.parquet": {
+      "bytes": 752008,
+      "sha256": "7f95d531cbe15f4452c18c3df5d2ad6a589c8a257f5f6d8cd4896d203c40d7c3"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-0456d60beb95/traces.parquet": {
+      "bytes": 1172982,
+      "sha256": "13e73ccad602e997574efd18d9d2ea0da523fbd08496c7294688f72bddad33c8"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-2193618470e7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "87eeb5dd93d04217cedf832dcc31b8c03219af10d992585c88cb1f7e333bf7f4"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-2193618470e7/metrics.parquet": {
+      "bytes": 142151,
+      "sha256": "eaab590e8a3716ccf57fa8b34f7e2e9bd25dbff26316e5d287888d8ce5d69cef"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-2193618470e7/traces.parquet": {
+      "bytes": 4496249,
+      "sha256": "e590180f245af1cc1e550f63bd791cb7e1488d77a39837e55a6f015f54a860ac"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-3ca0b978c13a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "45655ef1ce5ff60502a89d8a28b7b159cc800432a84f31127f492041d81aec6c"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-3ca0b978c13a/metrics.parquet": {
+      "bytes": 883847,
+      "sha256": "16005a561a174d89ba61a2387b22ca9fd7c8fade97e0cbdca19f0a964fd3f7e9"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-3ca0b978c13a/traces.parquet": {
+      "bytes": 5147352,
+      "sha256": "e3bcafefdb49c29695897246dd48b49fc2e4026e9a5dbef90b0953df9e67e971"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-4ab015b27175/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "455ce8f03e51fdca12e6edf8270b899e83c35e8af7cdeebb5166a84efbcf9f9f"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-4ab015b27175/metrics.parquet": {
+      "bytes": 143136,
+      "sha256": "e804fc4b5cfe33f5a8c7a79234a8638a5d0ddfd19a1cc77f0eb936162871ac0e"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-4ab015b27175/traces.parquet": {
+      "bytes": 4449239,
+      "sha256": "363b54ec7195562c597c8c4311539417097624456e0d0918abfd4ef255c2d956"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-56248af52c67/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6f10be25270abfcd9262d25b9e86b05ef18296b00be91cacb4d428c70bb1db6a"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-56248af52c67/metrics.parquet": {
+      "bytes": 845591,
+      "sha256": "0532cdefe78c0e292656259d8975201f132bddb5a16c369bc9f2ac5ae56aa7f3"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-56248af52c67/traces.parquet": {
+      "bytes": 2760182,
+      "sha256": "b8fb7a0c926e1365bee01b8973cf2b62b0e82d1ffe5f21ccc869a89b16334585"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-5d6134bfa5dc/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5b344c6e309089bc57fe3cb6e57c5f6dd344e40842ec8b0c86bc63207ba2f225"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-5d6134bfa5dc/metrics.parquet": {
+      "bytes": 840229,
+      "sha256": "326bedd316ebe962428ab27af71b1a9a8240540a91f500a770697429e673cb57"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-5d6134bfa5dc/traces.parquet": {
+      "bytes": 2885164,
+      "sha256": "4f3c9aa136dd45c89ce42053481f1dfec748d1604054adbfb8caf58dffb080e2"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-68f3f6a54d95/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "189a94d4c9ae98bef399ff48c84de78067733572e4200e7b8e7c5292a6974f51"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-68f3f6a54d95/metrics.parquet": {
+      "bytes": 146601,
+      "sha256": "c207e4d6c66ad1ded13a989331a0cb84d52a4fad19e05451fc273e609dd83d9a"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-68f3f6a54d95/traces.parquet": {
+      "bytes": 4423051,
+      "sha256": "0eaf022f2536cfd964c19b47a3dcf4c37a7d4dde0fb8ba9dba3b43e19ccf0b21"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-72213210a9ab/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "b9cbe318eba267533abe6431d857667dfdea38629fa5a15f388778a4cec00fb8"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-72213210a9ab/metrics.parquet": {
+      "bytes": 145063,
+      "sha256": "6e78412645c74fcccb26cec29bc9703eb5955c2e1ae12e706f291d6d713b3298"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-72213210a9ab/traces.parquet": {
+      "bytes": 4435700,
+      "sha256": "1b1ff83c81a540827ae957ed47c0bb980d07c308caa454c239760d41d15bd598"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-7fc054fca691/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6ac6848297d9eea6fd4cde1f5c3194236d780f262830a14cb32c4e1220bf1689"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-7fc054fca691/metrics.parquet": {
+      "bytes": 885796,
+      "sha256": "7a0e327f3a3572ab20dffbbcc74b58b63d86fdb056ef0e52e581153a66266eb0"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-7fc054fca691/traces.parquet": {
+      "bytes": 5497164,
+      "sha256": "1f9c61c8360906275fb6c349816451940f74a25b1f9a1f6b1e762c736133bf1c"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-9517da82cc77/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6f759c1e2db98a2175bfd6627d5310142de0e94637becfa61b08178e0573473c"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-9517da82cc77/metrics.parquet": {
+      "bytes": 873517,
+      "sha256": "17fa03aee6374723777b35e01bf5ad045a6333b97b9e08103617a967c5b104f7"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-9517da82cc77/traces.parquet": {
+      "bytes": 5157532,
+      "sha256": "4b3a16d54d5cb8d2bf15c4a69afcd6ccabe5be6941c49c5b6299a736a64b0fa1"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-9a162bec2320/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fbd47b9d24d5625a50eba1a88c2516ae94028972dd5eab808482408851524227"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-9a162bec2320/metrics.parquet": {
+      "bytes": 886727,
+      "sha256": "5a0ee8a46a185b269c339ef83e33bf5a3c89b53cc3d5527b090ef2384a9da115"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-9a162bec2320/traces.parquet": {
+      "bytes": 5282589,
+      "sha256": "1b1aebe062e77f8d283facd9da52b662a1fa8d39ecc5b4c80f6c4320c4341b26"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-a2d37048d373/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7f346cce86580dd73679fd971df201459a17b65f2c06ebfb0ec6ba598b74828f"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-a2d37048d373/metrics.parquet": {
+      "bytes": 877483,
+      "sha256": "c861716dab059fa233b662efe4da408636daf4fa48614a9c7041b7bb4b790cdc"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-a2d37048d373/traces.parquet": {
+      "bytes": 5692822,
+      "sha256": "956e0d3cec382dcb5c1307b3a55fb7c52a8ef82175381cc8697106d9fa175551"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-c0d121f56224/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e53f8ee52576d2e583d08b29ceb29b57e3c83b6485fa62c7ceb2f1dd8460ebac"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-c0d121f56224/metrics.parquet": {
+      "bytes": 883889,
+      "sha256": "a55b2d0444c00bc05f24cc9d6afc77319f6fc13477c95eddd4fde2c2f9bef726"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-c0d121f56224/traces.parquet": {
+      "bytes": 6354687,
+      "sha256": "b50686437c64a06cc9ffcccf21a0902de8884883915e5dac8213579911960f5c"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-cdcb5a5f1bc8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "12dead4509720e248116d461b8ac1051b9ffd1f253fd0d25b56d4a3dee902d55"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-cdcb5a5f1bc8/metrics.parquet": {
+      "bytes": 148377,
+      "sha256": "59b029e3e9331dd34a2ba5ae8954736284d9ce4505b8f6679a39e75489e18b85"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-cdcb5a5f1bc8/traces.parquet": {
+      "bytes": 4455209,
+      "sha256": "9465849de57ae9c6357e38a4283adf8b766dd4d348f48395ecb917f5b512a8d3"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-d350daa3263d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3995c94415682eb4ac39eaf580852ecb42d4975ac96b77455c7afd93148beb66"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-d350daa3263d/metrics.parquet": {
+      "bytes": 144194,
+      "sha256": "40ca11b0848778cced2893a763f7e9ce22ad96e3f5ae8d5ad47ee8daf4dea615"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-d350daa3263d/traces.parquet": {
+      "bytes": 4463249,
+      "sha256": "5a8a4cdb6b41e039ece63da0fd3641e1150ea868a5d5ca1b38e0be400daa6a86"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-efb271315c37/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "a17e493f5e1d16a50a6dfd47c3bebd26c7207f543541681b0d6737fdbaa0fbe6"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-efb271315c37/metrics.parquet": {
+      "bytes": 839600,
+      "sha256": "2805a6185ac99cb47deabb121d6128e8fdd047d1404ced5d5fc5d77a4d395bc2"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/raw/TQA-efb271315c37/traces.parquet": {
+      "bytes": 2877238,
+      "sha256": "5ae917a608fe6a3ddcf57a9a6d56a7fa4b8f399e262143fb69eabed4eb16ab77"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/references.json": {
+      "bytes": 2073,
+      "sha256": "5cafa956252df3e1c88cba4e28d5027a9461417e2809c85e5c60708c2a8b517c"
+    },
+    "runs/public-trace-task/development-data-2026-10-04-v1/sizing.json": {
+      "bytes": 3485,
+      "sha256": "eeb64735143026a366e7ff5782daf773925dbd4d3bb06a0e522bc0a94f48bce1"
+    },
+    "runs/public-trace-task/development-hosted-2026-10-04-v1/controls.json": {
+      "bytes": 1608653,
+      "sha256": "5fb9d1855654761f89bbf65fcaa20a50a58a0462f275c958847beef53746f0b7"
+    },
+    "runs/public-trace-task/development-hosted-2026-10-04-v1/requests.json": {
+      "bytes": 10037037,
+      "sha256": "59c5ca685a5f0cb8602217e14e44864516ed69dd4b855ffbbcda127993ebdf20"
+    },
+    "runs/public-trace-task/development-hosted-2026-10-04-v1/responses.jsonl": {
+      "bytes": 645795,
+      "sha256": "eaa68ab63bdf58c81ca063b432090ef0af2588f0dd7908f4ce80f1c818ed0039"
+    },
+    "runs/public-trace-task/development-hosted-2026-10-04-v1/summary.json": {
+      "bytes": 570,
+      "sha256": "08620f54b4b6c3354c8110378bbabedba2a16ecd5ab79fcb4a142ee7c985fb91"
+    }
+  }
+}
