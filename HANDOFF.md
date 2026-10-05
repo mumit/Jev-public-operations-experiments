@@ -76,4 +76,10 @@ All 78 calls succeeded. Train Ticket metric-only first choices match 1/0/1 out o
 
 Inspect /traces and docs/public-traces.md. The trace release adds 78 responses and retains the audit, both data representations, source telemetry and controls. All six assets preserve 1,285 actual responses. Verify with scripts.verify_public_traces after restoring the previous five bundles.
 
-The pending choice is a trace-aware full-candidate Jev task with explicit trace deltas, or a stronger ML candidate selector with Jev checking supporting evidence. The first is recommended to resolve the existing metric-focused question before narrowing Jev's role. A fresh protocol must allocate untouched development groups without consuming the protected evaluation as feedback. Inspected development replays are diagnostic only. Never lower the boundary merely to expose withheld choices.
+The user selected the recommended trace-aware full-candidate task with explicit trace changes on 2026-10-04. A fresh protocol must allocate untouched development groups without consuming the protected evaluation as feedback. Inspected development replays are diagnostic only. Never lower the boundary merely to expose withheld choices.
+
+## Selected trace-aware task
+
+The separate public-trace-task protocol compares four fixed development inputs: metrics, original trace input, the same trace input with a revised question, and that revised question with explicit arithmetic changes. The last input is the only candidate eligible for promotion. The comparison separates input additions from task wording; metric candidates, service criteria, model, fitted ML and the 0.70 boundary remain unchanged.
+
+A committed plan will reassign four untouched reserve groups to 16 development cases: ten Train Ticket and six Online Boutique. Earlier trace-development cases stay excluded; the 22-case evaluation panel stays protected. Nine RE3 reserve cases remain unopened. Development permits 192 calls; evaluation permits 132 only after complete development passes the fixed gate and the candidate is committed. Read docs/public-trace-task.md before continuation. Do not edit completed trace producers or replace the candidate with a diagnostic arm after results.
