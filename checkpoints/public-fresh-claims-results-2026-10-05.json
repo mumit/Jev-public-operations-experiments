@@ -1,0 +1,5706 @@
+{
+  "schema": "public-fresh-claims-results-1",
+  "fresh_recordings": 9,
+  "reports": 9,
+  "claims": 54,
+  "recordings": 9,
+  "service_cards": 18,
+  "planned_calls": 189,
+  "planned_answers": 324,
+  "questions_per_call": {
+    "bound": 6,
+    "scoped": 1
+  },
+  "failed_or_missing_calls": 0,
+  "datasets": {
+    "Online Boutique": {
+      "reports": 6,
+      "claims": 36,
+      "arms": {
+        "bound": {
+          "per_round": [
+            {
+              "round": 1,
+              "claims": 36,
+              "reports": 6,
+              "correct": 36,
+              "class_total": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "class_correct": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "displayed": 36,
+              "displayed_correct": 36,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 11,
+              "reference_support": 11,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 6,
+              "complete_display": 6,
+              "complete_correct_display": 6,
+              "confusion": {
+                "supported": {
+                  "supported": 11,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 6,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 19,
+                  "unavailable": 0
+                }
+              }
+            },
+            {
+              "round": 2,
+              "claims": 36,
+              "reports": 6,
+              "correct": 36,
+              "class_total": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "class_correct": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "displayed": 36,
+              "displayed_correct": 36,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 11,
+              "reference_support": 11,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 6,
+              "complete_display": 6,
+              "complete_correct_display": 6,
+              "confusion": {
+                "supported": {
+                  "supported": 11,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 6,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 19,
+                  "unavailable": 0
+                }
+              }
+            },
+            {
+              "round": 3,
+              "claims": 36,
+              "reports": 6,
+              "correct": 36,
+              "class_total": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "class_correct": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "displayed": 36,
+              "displayed_correct": 36,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 11,
+              "reference_support": 11,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 6,
+              "complete_display": 6,
+              "complete_correct_display": 6,
+              "confusion": {
+                "supported": {
+                  "supported": 11,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 6,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 19,
+                  "unavailable": 0
+                }
+              }
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_a",
+              "round": 1,
+              "service": "cartservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_b",
+              "round": 1,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_c",
+              "round": 1,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_d",
+              "round": 1,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_e",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_f",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_a",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_b",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_c",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_d",
+              "round": 1,
+              "service": "adservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_e",
+              "round": 1,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_f",
+              "round": 1,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_a",
+              "round": 1,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_b",
+              "round": 1,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_c",
+              "round": 1,
+              "service": "emailservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_d",
+              "round": 1,
+              "service": "frontend-external",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_e",
+              "round": 1,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_f",
+              "round": 1,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_a",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_b",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_c",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_d",
+              "round": 1,
+              "service": "shippingservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_e",
+              "round": 1,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_f",
+              "round": 1,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_a",
+              "round": 1,
+              "service": "productcatalogservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_b",
+              "round": 1,
+              "service": "productcatalogservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_c",
+              "round": 1,
+              "service": "productcatalogservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_d",
+              "round": 1,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_e",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_f",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_a",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_b",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_c",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_d",
+              "round": 1,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_e",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_f",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_a",
+              "round": 2,
+              "service": "cartservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_b",
+              "round": 2,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_c",
+              "round": 2,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_d",
+              "round": 2,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_e",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_f",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_a",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_b",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_c",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_d",
+              "round": 2,
+              "service": "adservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_e",
+              "round": 2,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_f",
+              "round": 2,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_a",
+              "round": 2,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_b",
+              "round": 2,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_c",
+              "round": 2,
+              "service": "emailservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_d",
+              "round": 2,
+              "service": "frontend-external",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_e",
+              "round": 2,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_f",
+              "round": 2,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_a",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_b",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_c",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_d",
+              "round": 2,
+              "service": "shippingservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_e",
+              "round": 2,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_f",
+              "round": 2,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_a",
+              "round": 2,
+              "service": "productcatalogservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_b",
+              "round": 2,
+              "service": "productcatalogservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_c",
+              "round": 2,
+              "service": "productcatalogservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_d",
+              "round": 2,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_e",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_f",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_a",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_b",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_c",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_d",
+              "round": 2,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_e",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_f",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_a",
+              "round": 3,
+              "service": "cartservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_b",
+              "round": 3,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_c",
+              "round": 3,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_d",
+              "round": 3,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_e",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_f",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_a",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_b",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_c",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_d",
+              "round": 3,
+              "service": "adservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_e",
+              "round": 3,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_f",
+              "round": 3,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_a",
+              "round": 3,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_b",
+              "round": 3,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_c",
+              "round": 3,
+              "service": "emailservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_d",
+              "round": 3,
+              "service": "frontend-external",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_e",
+              "round": 3,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_f",
+              "round": 3,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_a",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_b",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_c",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_d",
+              "round": 3,
+              "service": "shippingservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_e",
+              "round": 3,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_f",
+              "round": 3,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_a",
+              "round": 3,
+              "service": "productcatalogservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_b",
+              "round": 3,
+              "service": "productcatalogservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_c",
+              "round": 3,
+              "service": "productcatalogservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_d",
+              "round": 3,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_e",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_f",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_a",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_b",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_c",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_d",
+              "round": 3,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_e",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_f",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            }
+          ],
+          "research_gate": true,
+          "gate_status": "passed"
+        },
+        "scoped": {
+          "per_round": [
+            {
+              "round": 1,
+              "claims": 36,
+              "reports": 6,
+              "correct": 36,
+              "class_total": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "class_correct": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "displayed": 35,
+              "displayed_correct": 35,
+              "wrong_displayed": 0,
+              "withheld": 1,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 11,
+              "reference_support": 11,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 6,
+              "complete_display": 5,
+              "complete_correct_display": 5,
+              "confusion": {
+                "supported": {
+                  "supported": 11,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 6,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 19,
+                  "unavailable": 0
+                }
+              }
+            },
+            {
+              "round": 2,
+              "claims": 36,
+              "reports": 6,
+              "correct": 36,
+              "class_total": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "class_correct": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "displayed": 36,
+              "displayed_correct": 36,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 11,
+              "reference_support": 11,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 6,
+              "complete_display": 6,
+              "complete_correct_display": 6,
+              "confusion": {
+                "supported": {
+                  "supported": 11,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 6,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 19,
+                  "unavailable": 0
+                }
+              }
+            },
+            {
+              "round": 3,
+              "claims": 36,
+              "reports": 6,
+              "correct": 36,
+              "class_total": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "class_correct": {
+                "supported": 11,
+                "contradicted": 6,
+                "unanswerable": 19
+              },
+              "displayed": 36,
+              "displayed_correct": 36,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 11,
+              "reference_support": 11,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 6,
+              "complete_display": 6,
+              "complete_correct_display": 6,
+              "confusion": {
+                "supported": {
+                  "supported": 11,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 6,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 19,
+                  "unavailable": 0
+                }
+              }
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_a",
+              "round": 1,
+              "service": "cartservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_b",
+              "round": 1,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_c",
+              "round": 1,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_d",
+              "round": 1,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_e",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_f",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_a",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_b",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_c",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_d",
+              "round": 1,
+              "service": "adservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_e",
+              "round": 1,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": false,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_f",
+              "round": 1,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_a",
+              "round": 1,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_b",
+              "round": 1,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_c",
+              "round": 1,
+              "service": "emailservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_d",
+              "round": 1,
+              "service": "frontend-external",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_e",
+              "round": 1,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_f",
+              "round": 1,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_a",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_b",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_c",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_d",
+              "round": 1,
+              "service": "shippingservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_e",
+              "round": 1,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_f",
+              "round": 1,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_a",
+              "round": 1,
+              "service": "productcatalogservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_b",
+              "round": 1,
+              "service": "productcatalogservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_c",
+              "round": 1,
+              "service": "productcatalogservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_d",
+              "round": 1,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_e",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_f",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_a",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_b",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_c",
+              "round": 1,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_d",
+              "round": 1,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_e",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_f",
+              "round": 1,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_a",
+              "round": 2,
+              "service": "cartservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_b",
+              "round": 2,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_c",
+              "round": 2,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_d",
+              "round": 2,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_e",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_f",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_a",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_b",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_c",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_d",
+              "round": 2,
+              "service": "adservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_e",
+              "round": 2,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_f",
+              "round": 2,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_a",
+              "round": 2,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_b",
+              "round": 2,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_c",
+              "round": 2,
+              "service": "emailservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_d",
+              "round": 2,
+              "service": "frontend-external",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_e",
+              "round": 2,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_f",
+              "round": 2,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_a",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_b",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_c",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_d",
+              "round": 2,
+              "service": "shippingservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_e",
+              "round": 2,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_f",
+              "round": 2,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_a",
+              "round": 2,
+              "service": "productcatalogservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_b",
+              "round": 2,
+              "service": "productcatalogservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_c",
+              "round": 2,
+              "service": "productcatalogservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_d",
+              "round": 2,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_e",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_f",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_a",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_b",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_c",
+              "round": 2,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_d",
+              "round": 2,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_e",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_f",
+              "round": 2,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_a",
+              "round": 3,
+              "service": "cartservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_b",
+              "round": 3,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_c",
+              "round": 3,
+              "service": "cartservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_d",
+              "round": 3,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_e",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-a3c3febec5fc",
+              "field": "statement_f",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_a",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_b",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_c",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_d",
+              "round": 3,
+              "service": "adservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_e",
+              "round": 3,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-884b59dfe067",
+              "field": "statement_f",
+              "round": 3,
+              "service": "adservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_a",
+              "round": 3,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_b",
+              "round": 3,
+              "service": "emailservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_c",
+              "round": 3,
+              "service": "emailservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_d",
+              "round": 3,
+              "service": "frontend-external",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_e",
+              "round": 3,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-ac8a25331492",
+              "field": "statement_f",
+              "round": 3,
+              "service": "frontend-external",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_a",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_b",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_c",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_d",
+              "round": 3,
+              "service": "shippingservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_e",
+              "round": 3,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-6f3bfc3d63eb",
+              "field": "statement_f",
+              "round": 3,
+              "service": "shippingservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_a",
+              "round": 3,
+              "service": "productcatalogservice",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_b",
+              "round": 3,
+              "service": "productcatalogservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_c",
+              "round": 3,
+              "service": "productcatalogservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_d",
+              "round": 3,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_e",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-8ab3e4230a99",
+              "field": "statement_f",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_a",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_b",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_c",
+              "round": 3,
+              "service": "recommendationservice",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_d",
+              "round": 3,
+              "service": "redis",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_e",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1efa7c3effcd",
+              "field": "statement_f",
+              "round": 3,
+              "service": "redis",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            }
+          ],
+          "research_gate": true,
+          "gate_status": "passed"
+        }
+      },
+      "pairs": [
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_f",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_f",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_f",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_f",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_f",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_f",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_c",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_f",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_c",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_f",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_c",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_f",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_c",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_f",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_c",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_f",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_c",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_f",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-a3c3febec5fc",
+          "field": "statement_f",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-884b59dfe067",
+          "field": "statement_f",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-ac8a25331492",
+          "field": "statement_f",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-6f3bfc3d63eb",
+          "field": "statement_f",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-8ab3e4230a99",
+          "field": "statement_f",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1efa7c3effcd",
+          "field": "statement_f",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        }
+      ],
+      "steps": {
+        "bound__scoped": {
+          "stable_fixes": [],
+          "stable_losses": [],
+          "no_error_opportunity": true
+        }
+      },
+      "step_gates": {
+        "bound": true,
+        "scoped": true
+      },
+      "research_gate": true,
+      "consistency": {
+        "bound": {
+          "stable_verdict_claims": 36,
+          "stable_display_claims": 36
+        },
+        "scoped": {
+          "stable_verdict_claims": 36,
+          "stable_display_claims": 35
+        }
+      }
+    },
+    "Train Ticket": {
+      "reports": 3,
+      "claims": 18,
+      "arms": {
+        "bound": {
+          "per_round": [
+            {
+              "round": 1,
+              "claims": 18,
+              "reports": 3,
+              "correct": 18,
+              "class_total": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "class_correct": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "displayed": 18,
+              "displayed_correct": 18,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 6,
+              "reference_support": 6,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 3,
+              "complete_display": 3,
+              "complete_correct_display": 3,
+              "confusion": {
+                "supported": {
+                  "supported": 6,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 3,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 9,
+                  "unavailable": 0
+                }
+              }
+            },
+            {
+              "round": 2,
+              "claims": 18,
+              "reports": 3,
+              "correct": 18,
+              "class_total": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "class_correct": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "displayed": 18,
+              "displayed_correct": 18,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 6,
+              "reference_support": 6,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 3,
+              "complete_display": 3,
+              "complete_correct_display": 3,
+              "confusion": {
+                "supported": {
+                  "supported": 6,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 3,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 9,
+                  "unavailable": 0
+                }
+              }
+            },
+            {
+              "round": 3,
+              "claims": 18,
+              "reports": 3,
+              "correct": 18,
+              "class_total": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "class_correct": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "displayed": 18,
+              "displayed_correct": 18,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 6,
+              "reference_support": 6,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 3,
+              "complete_display": 3,
+              "complete_correct_display": 3,
+              "confusion": {
+                "supported": {
+                  "supported": 6,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 3,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 9,
+                  "unavailable": 0
+                }
+              }
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_a",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_b",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_c",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_d",
+              "round": 1,
+              "service": "ts-preserve-other-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_e",
+              "round": 1,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_f",
+              "round": 1,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_a",
+              "round": 1,
+              "service": "ts-admin-travel-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_b",
+              "round": 1,
+              "service": "ts-admin-travel-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_c",
+              "round": 1,
+              "service": "ts-admin-travel-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_d",
+              "round": 1,
+              "service": "ts-ticket-office-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_e",
+              "round": 1,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_f",
+              "round": 1,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_a",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_b",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_c",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_d",
+              "round": 1,
+              "service": "ts-travel-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_e",
+              "round": 1,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_f",
+              "round": 1,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_a",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_b",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_c",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_d",
+              "round": 2,
+              "service": "ts-preserve-other-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_e",
+              "round": 2,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_f",
+              "round": 2,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_a",
+              "round": 2,
+              "service": "ts-admin-travel-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_b",
+              "round": 2,
+              "service": "ts-admin-travel-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_c",
+              "round": 2,
+              "service": "ts-admin-travel-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_d",
+              "round": 2,
+              "service": "ts-ticket-office-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_e",
+              "round": 2,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_f",
+              "round": 2,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_a",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_b",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_c",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_d",
+              "round": 2,
+              "service": "ts-travel-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_e",
+              "round": 2,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_f",
+              "round": 2,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_a",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_b",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_c",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_d",
+              "round": 3,
+              "service": "ts-preserve-other-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_e",
+              "round": 3,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_f",
+              "round": 3,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_a",
+              "round": 3,
+              "service": "ts-admin-travel-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_b",
+              "round": 3,
+              "service": "ts-admin-travel-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_c",
+              "round": 3,
+              "service": "ts-admin-travel-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_d",
+              "round": 3,
+              "service": "ts-ticket-office-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_e",
+              "round": 3,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_f",
+              "round": 3,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_a",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_b",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_c",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_d",
+              "round": 3,
+              "service": "ts-travel-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_e",
+              "round": 3,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_f",
+              "round": 3,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            }
+          ],
+          "research_gate": true,
+          "gate_status": "passed"
+        },
+        "scoped": {
+          "per_round": [
+            {
+              "round": 1,
+              "claims": 18,
+              "reports": 3,
+              "correct": 18,
+              "class_total": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "class_correct": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "displayed": 18,
+              "displayed_correct": 18,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 6,
+              "reference_support": 6,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 3,
+              "complete_display": 3,
+              "complete_correct_display": 3,
+              "confusion": {
+                "supported": {
+                  "supported": 6,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 3,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 9,
+                  "unavailable": 0
+                }
+              }
+            },
+            {
+              "round": 2,
+              "claims": 18,
+              "reports": 3,
+              "correct": 18,
+              "class_total": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "class_correct": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "displayed": 18,
+              "displayed_correct": 18,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 6,
+              "reference_support": 6,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 3,
+              "complete_display": 3,
+              "complete_correct_display": 3,
+              "confusion": {
+                "supported": {
+                  "supported": 6,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 3,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 9,
+                  "unavailable": 0
+                }
+              }
+            },
+            {
+              "round": 3,
+              "claims": 18,
+              "reports": 3,
+              "correct": 18,
+              "class_total": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "class_correct": {
+                "supported": 6,
+                "contradicted": 3,
+                "unanswerable": 9
+              },
+              "displayed": 18,
+              "displayed_correct": 18,
+              "wrong_displayed": 0,
+              "withheld": 0,
+              "failed_or_missing": 0,
+              "correct_displayed_support": 6,
+              "reference_support": 6,
+              "unknown_to_decisive": 0,
+              "all_six_correct": 3,
+              "complete_display": 3,
+              "complete_correct_display": 3,
+              "confusion": {
+                "supported": {
+                  "supported": 6,
+                  "contradicted": 0,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "contradicted": {
+                  "supported": 0,
+                  "contradicted": 3,
+                  "unanswerable": 0,
+                  "unavailable": 0
+                },
+                "unanswerable": {
+                  "supported": 0,
+                  "contradicted": 0,
+                  "unanswerable": 9,
+                  "unavailable": 0
+                }
+              }
+            }
+          ],
+          "outcomes": [
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_a",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_b",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_c",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_d",
+              "round": 1,
+              "service": "ts-preserve-other-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_e",
+              "round": 1,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_f",
+              "round": 1,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_a",
+              "round": 1,
+              "service": "ts-admin-travel-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_b",
+              "round": 1,
+              "service": "ts-admin-travel-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_c",
+              "round": 1,
+              "service": "ts-admin-travel-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_d",
+              "round": 1,
+              "service": "ts-ticket-office-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_e",
+              "round": 1,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_f",
+              "round": 1,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_a",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_b",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_c",
+              "round": 1,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_d",
+              "round": 1,
+              "service": "ts-travel-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_e",
+              "round": 1,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_f",
+              "round": 1,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_a",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_b",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_c",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_d",
+              "round": 2,
+              "service": "ts-preserve-other-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_e",
+              "round": 2,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_f",
+              "round": 2,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_a",
+              "round": 2,
+              "service": "ts-admin-travel-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_b",
+              "round": 2,
+              "service": "ts-admin-travel-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_c",
+              "round": 2,
+              "service": "ts-admin-travel-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_d",
+              "round": 2,
+              "service": "ts-ticket-office-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_e",
+              "round": 2,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_f",
+              "round": 2,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_a",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_b",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_c",
+              "round": 2,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_d",
+              "round": 2,
+              "service": "ts-travel-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_e",
+              "round": 2,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_f",
+              "round": 2,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_a",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_b",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_c",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_d",
+              "round": 3,
+              "service": "ts-preserve-other-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_e",
+              "round": 3,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-1c9017f99b7b",
+              "field": "statement_f",
+              "round": 3,
+              "service": "ts-preserve-other-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_a",
+              "round": 3,
+              "service": "ts-admin-travel-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_b",
+              "round": 3,
+              "service": "ts-admin-travel-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_c",
+              "round": 3,
+              "service": "ts-admin-travel-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_d",
+              "round": 3,
+              "service": "ts-ticket-office-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_e",
+              "round": 3,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-b44e276aa92c",
+              "field": "statement_f",
+              "round": 3,
+              "service": "ts-ticket-office-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_a",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "contradicted",
+              "reference": "contradicted",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_b",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_c",
+              "round": 3,
+              "service": "ts-config-service",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_d",
+              "round": 3,
+              "service": "ts-travel-mongo",
+              "choice": "supported",
+              "reference": "supported",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_e",
+              "round": 3,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            },
+            {
+              "id": "FRC-f86236dce247",
+              "field": "statement_f",
+              "round": 3,
+              "service": "ts-travel-mongo",
+              "choice": "unanswerable",
+              "reference": "unanswerable",
+              "correct": true,
+              "displayed": true,
+              "failed_or_missing": false,
+              "unknown_to_decisive": false
+            }
+          ],
+          "research_gate": true,
+          "gate_status": "passed"
+        }
+      },
+      "pairs": [
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_f",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_f",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_a",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_b",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_c",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_d",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_e",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_f",
+          "round": 1,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_c",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_f",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_c",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_f",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_a",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_b",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_c",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_d",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_e",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_f",
+          "round": 2,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-1c9017f99b7b",
+          "field": "statement_f",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-b44e276aa92c",
+          "field": "statement_f",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_a",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_b",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_c",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_d",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_e",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        },
+        {
+          "id": "FRC-f86236dce247",
+          "field": "statement_f",
+          "round": 3,
+          "fix": false,
+          "loss": false
+        }
+      ],
+      "steps": {
+        "bound__scoped": {
+          "stable_fixes": [],
+          "stable_losses": [],
+          "no_error_opportunity": true
+        }
+      },
+      "step_gates": {
+        "bound": true,
+        "scoped": true
+      },
+      "research_gate": true,
+      "consistency": {
+        "bound": {
+          "stable_verdict_claims": 18,
+          "stable_display_claims": 18
+        },
+        "scoped": {
+          "stable_verdict_claims": 18,
+          "stable_display_claims": 18
+        }
+      }
+    }
+  },
+  "research_gate": true,
+  "extraction": {
+    "claim_extraction": "not_evaluated",
+    "automatic_service_attribution": "not_evaluated",
+    "binding_source": "preparation annotations"
+  },
+  "evidence": {
+    "plan_sha256": "487878fe05e361ad37a4174ae05a35485cb28dc0b4a8ce6ad3827f02ad227147",
+    "protocol_sha256": "f0e9ab671ff103f4f75f1859bcb3015b60ec4b92acad42d06d7b7f2928c0f9e1",
+    "summary_sha256": "e08d877033504340b8ead5ae15428a7e4c6fc778348997daa99d8f8279597347"
+  }
+}
