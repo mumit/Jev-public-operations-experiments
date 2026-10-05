@@ -109,3 +109,16 @@ uv run --locked --extra public-data python -m scripts.verify_public_evidence
 ```
 
 All eight releases preserve 1,669 actual responses in 1,041 files. The new questions use numerical policy references, not injected-service labels. Calculated changes pass Online Boutique's checks but lose Train Ticket accuracy, so the overall diagnostic fails. Restoring and verification make no calls; all protected telemetry remains unopened. Earlier assets remain unchanged.
+
+
+## Written-claim diagnostic supplement
+
+The [public-claim-assessment-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-claim-assessment-v1) adds 192 responses with 576 answers on 96 constructed claims. It reuses the 32 inspected service cards and downloads no fresh telemetry. Its six files retain statements, separate typed references, exact observations/ledger requests and responses. The archive is 84,831 bytes and requires all eight earlier assets. All nine releases preserve 1,861 actual responses in 1,047 files.
+
+```sh
+gh release download public-claim-assessment-v1 --repo mumit/Jev-public-operations-experiments --pattern public-claim-assessment-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-claim-assessment-v1.tar.gz --manifest evidence/public-claim-assessment-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_claims
+```
+
+The latest verifier checks the full nine-stage dependency chain, including both original pack validators, without inference. Restore assets in the documented order. Never replace a published archive or rerun a completed protocol.

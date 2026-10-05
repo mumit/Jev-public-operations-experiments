@@ -69,3 +69,12 @@ All 192 calls succeeded and returned four valid answers, giving 768 recorded ans
 A fresh local clone restored all eight bundles, 1,041 files, then passed the complete 112-test suite without skips and all ten browser script syntax checks. The latest verifier passed its eight-verifier dependency chain, including both original pack validators. The check used pinned dependencies in the temporary environment without credentials or original checkout source. It reproduced all 1,669 recorded responses without repeating inference.
 
 Browser review verified both application panels and numeric denominators, service selection, independent question distributions, round/input/question controls, explicit numerical reference reveal, the wrong strongest-metric answer despite a correct composed indicator, missing fractions, per-window span counts, formatted results and the return link retaining the selected service card, input, question and section. The immutable supplement has six files in 73,359 bytes.
+
+
+## Written-claim diagnostic verification
+
+All 123 tests pass. The eleven new tests cover negative and inclusive boundaries, inadequate duration samples, missing mappings versus recorded zero, unknown health and causality, unchanged observations, reference-free ledger fields, deterministic balanced claims, normalized provider choices, failure-inclusive scoring, false displayed support, once-only model-error stopping and credential redaction, hidden references, numeric counts and report return context.
+
+All 192 calls succeed with three valid answers each. The new verifier independently reconstructs claims and typed references, rebuilds both representations, checks source fingerprints and exact requests, validates recorded provider replies and recomputes every per-class, per-round result. It invokes all eight earlier verifiers and both original pack validators. No fresh telemetry is consumed and verification makes no calls.
+
+Browser review checks both application panels, numeric denominators, statement/card/input/round controls, explicit reference reveal, the correct-but-withheld 0.68 answer, absent trace warnings, missing fractions, original measurements and derived eligibility/arithmetic, exact ledger state, formatted results and the return link retaining card, statement, input, round and section. The supplement contains six files in 84,831 bytes.
