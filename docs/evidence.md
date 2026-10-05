@@ -173,3 +173,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_fresh_claims
 ```
 
 Both candidates judge every claim correctly. Bound displays every answer with one call per report; scoped uses six and withholds one correct answer once. The new wording was fixed before measurement access, but still comes from the experiment author. Automatic extraction and attribution remain untested. Restoring and verifying make no calls; protected cause-evaluation, RE3 Sock Shop and RE1 reserve recordings stay unopened. Historical releases remain immutable.
+
+## Ordinary-note extraction supplement
+
+The [public-note-extraction-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-note-extraction-v1) preserves both note preparations and all 27 extraction responses. The first preparation fails sizing before inference. The separate compact v2 receives 25 valid and two inconsistent replies; the frozen whole-note validator rejects both. No dependent verdict calls occur. Nine files add 277,891 archive bytes and require all thirteen earlier assets. All fourteen preserve 3,301 actual responses in 1,107 files.
+
+```bash
+gh release download public-note-extraction-v1 --repo mumit/Jev-public-operations-experiments --pattern public-note-extraction-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-note-extraction-v1.tar.gz --manifest evidence/public-note-extraction-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_notes
+```
+
+Restore in order. The latest verifier preserves the response failures and recomputes an extraction-only audit. It checks all historical stages and both original pack validators without inference. There are 1,944 raw extraction answers and 1,800 normalized answers; the two rejected notes remain in every planned scoring denominator. The inspector exposes raw distributions without treating them as accepted replies. Measurements are already inspected, and all protected panels stay unopened. Historical releases remain immutable.

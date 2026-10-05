@@ -1,0 +1,62 @@
+{
+  "schema": "public-note-extraction-evidence-1",
+  "archive": "public-note-extraction-v1.tar.gz",
+  "archive_sha256": "45246b759f1ab4f38a4acb8ab301f819c34a006b6d7a471eb24bf46885da165b",
+  "bytes": 277891,
+  "source_commit": "b30ba1d647dd430c624ca98c586041cbc8045115",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 27,
+  "files": {
+    "runs/public-note-extraction/data-2026-10-05-v1/inputs.json": {
+      "bytes": 1474313,
+      "sha256": "41245e6899e2596a83a2d41c60e171460dbe6d885d5033a4be4fb331dd7764d7"
+    },
+    "runs/public-note-extraction/data-2026-10-05-v1/manifest.json": {
+      "bytes": 486,
+      "sha256": "b239ffe7470e983eecf10acc28b49a92c85e88e713001867b7a522d34ed3b0fe"
+    },
+    "runs/public-note-extraction/data-2026-10-05-v1/references.json": {
+      "bytes": 62172,
+      "sha256": "63f8463bd967ab305ee16b57c40d893ebc1fd9ede1778ec2e363c1448b2021dd"
+    },
+    "runs/public-note-extraction/data-2026-10-05-v2/inputs.json": {
+      "bytes": 1173398,
+      "sha256": "d2269fe16d1f67e2cedc83b8b244e9ff9ef378f95948d5ddd7a6ffee091e4a66"
+    },
+    "runs/public-note-extraction/data-2026-10-05-v2/manifest.json": {
+      "bytes": 484,
+      "sha256": "213e9f99d21e1a00cd989893fa788c3e20ba71b042b3cd7d15a7d14d333b5d76"
+    },
+    "runs/public-note-extraction/data-2026-10-05-v2/references.json": {
+      "bytes": 62172,
+      "sha256": "63f8463bd967ab305ee16b57c40d893ebc1fd9ede1778ec2e363c1448b2021dd"
+    },
+    "runs/public-note-extraction/extraction-hosted-2026-10-05-v2/requests.json": {
+      "bytes": 1725726,
+      "sha256": "ece874a7a2dd24333f47b2bc4ef215fa0ac11992a88ffaa53fb1a2ba48e9e3c2"
+    },
+    "runs/public-note-extraction/extraction-hosted-2026-10-05-v2/responses.jsonl": {
+      "bytes": 1232186,
+      "sha256": "e0e1381f38b8888cc3edcf9277ec3ae0dc02a5d1be5aa21e7efe7aadc7be26b2"
+    },
+    "runs/public-note-extraction/extraction-hosted-2026-10-05-v2/summary.json": {
+      "bytes": 545,
+      "sha256": "b6a0159931b7f5884c9e059117a2b6900a5d29d8f62f0366e2162fca666e3a65"
+    }
+  }
+}

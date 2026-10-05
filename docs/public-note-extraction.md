@@ -12,7 +12,7 @@ Each note contains six resolvable claims, one claim with an ambiguous service, a
 
 The six routable claims preserve the earlier typed meanings and cover metric magnitude, duration magnitude, incident cause, metric direction, recorded span counts and service health. New prose replaces some explicit names with “the same service,” “this service,” “its” and “that service.” Complete service blocks swap positions by a fixed identity hash. Neither placement nor wording depends on reference verdicts.
 
-These are ordinary-style controlled notes written by me, with assistant-authored annotations. They are not authentic reports, independent analyst notes or specialist-reviewed references. The recordings are already inspected, so the results cannot establish fresh-data generalization.
+I prepared these ordinary-style controlled notes and annotations with the assistant. They are not authentic reports, independent analyst notes or specialist-reviewed references. The recordings are already inspected, so the results cannot establish fresh-data generalization.
 
 ## Pipeline
 
@@ -55,7 +55,7 @@ All 27 extraction calls returned. Twenty-five replies pass the frozen validator;
 
 Every planned note and claim stays in its denominator. Rejected replies count as unavailable, not repaired predictions. Across the three rounds, Jev accepts 142 correct bindings out of 162 planned routable-claim opportunities, with no wrong accepted binding or accepted review-only sentence. That is extraction routing, not verdict or display safety.
 
-Among the 25 valid replies, all 150 routable service assignments are correct and 149/150 meanings match. The literal parser accepts only the two explicitly named metric claims per note: 6/18 Train Ticket and 12/36 Online Boutique each round. It resolves no pronouns. Jev therefore covers more of these constructed notes than this deliberately conservative parser; added value over a stronger parser or authentic reports remains untested. The supplied-annotation control accepts all six routable claims by construction. No comparator has new verdict results.
+Among the 25 valid replies, all 150 routable service assignments are correct and 149/150 meanings match. The literal parser accepts only the two explicitly named metric claims per note: 6/18 Train Ticket and 12/36 Online Boutique each round. It resolves no pronouns. Its substring matching also confuses overlapping duration-measure names in two Online Boutique notes; that limitation lowers meaning agreement without changing its accepted explicit-name claims. Jev therefore covers more of these constructed notes than this deliberately conservative parser; added value over a stronger parser or authentic reports remains untested. The supplied-annotation control accepts all six routable claims by construction. No comparator has new verdict results.
 
 ### Two response inconsistencies
 
