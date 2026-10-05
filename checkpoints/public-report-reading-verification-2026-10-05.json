@@ -1,0 +1,33 @@
+{
+  "schema": "public-report-reading-verification-1",
+  "date": "2026-10-05",
+  "source_commit_verified": "cb27a8b99d2d22e12f8dc4e9884e5ed5250b7b60",
+  "fresh_clone": "Independent local clone with eleven checksum-verified assets restored in order, pinned dependencies, no credentials or original checkout source.",
+  "evidence_assets": 11,
+  "evidence_files": 1059,
+  "recorded_responses": 2413,
+  "diagnostic_calls": 96,
+  "diagnostic_answers": 576,
+  "new_hosted_calls_during_verification": 0,
+  "python_tests": 143,
+  "skipped_tests": 0,
+  "browser_scripts": 13,
+  "chained_evidence_verifiers": 11,
+  "original_pack_validators": 2,
+  "all_passed": true,
+  "archive_sha256": "e53f4c0b89b9a66e6b112e355d7472daacd011d4ec0242010bdfeccb0b48c6e3",
+  "diagnostic_only": true,
+  "research_gate": false,
+  "protected_data_unopened": true,
+  "fresh_cases_consumed": 0,
+  "browser_checks": [
+    "both application panels and numeric claim/report denominators",
+    "six numbered assertions with two explicitly named services",
+    "claim buttons and claim/presentation/round controls",
+    "hidden/revealed references and all-six correctness",
+    "repeated eligible-zero and ineligible-memory errors, including final-round probability tie",
+    "per-service metrics and absent trace warnings",
+    "exact direct sentence and report lookup instructions",
+    "formatted report and preserved report/claim/presentation/round/section return context"
+  ]
+}

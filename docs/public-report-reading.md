@@ -39,13 +39,13 @@ Both erroneous report verdicts stay below 0.70 in all rounds. No wrong verdict i
 
 ## Inspect the two repeated errors
 
-**An eligible zero becomes a positive-change claim.** RPT-5e9c57b96fdc contains assertions about ts-preserve-other-mongo and ts-route-mongo. Its sixth sentence reads:
+**Report reading falsely supports positive change at an eligible zero.** RPT-5e9c57b96fdc contains assertions about ts-preserve-other-mongo and ts-route-mongo. Its sixth sentence reads:
 
 > For service ts-preserve-other-mongo: The eligible signed change for socket is greater than zero.
 
 The correct service’s ledger records socket medians of two in both windows, zero missingness and a signed change of zero. The verdict is contradicted. Direct questions select contradicted at 0.90 / 0.92 / 0.85. Report questions select supported at 0.64 / 0.63 / 0.46 and withhold it. The last response assigns 0.46 to both supported and contradicted; the recorded selected verdict remains supported.
 
-**A positive number overrides eligibility in the report response.** RPT-ddcba9332c6e contains assertions about adservice and redis. Its fourth sentence reads:
+**Report reading supports an ineligible positive-change claim.** RPT-ddcba9332c6e contains assertions about adservice and redis. Its fourth sentence reads:
 
 > For service adservice: The eligible signed change for mem is greater than zero.
 
