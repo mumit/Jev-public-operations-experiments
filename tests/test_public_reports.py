@@ -58,3 +58,19 @@ class ReportTests(unittest.TestCase):
                 with self.assertRaises(FileExistsError):trial.run(profile)
                 self.assertEqual(opener.open.call_count,1)
 if __name__=='__main__':unittest.main()
+
+class ReportReaderTests(unittest.TestCase):
+    def test_reference_reveal_is_separate(self):
+        from triage_bench.public_report_service import PublicReportStudy
+        packet={'id':'p','dataset':'Sample'};reference={'id':'p','answers':{}};outcome={'id':'p','field':'statement_a','reference':'supported','correct':True,'unknown_to_decisive':False}
+        result={'datasets':{'Sample':{'arms':{'report':{'outcomes':[outcome]}}}}}
+        with tempfile.TemporaryDirectory() as t:
+            path=Path(t);(path/'responses.jsonl').write_text('{"card_id":"p"}\n')
+            with patch.object(PublicReportStudy,'verified',return_value=result),patch('triage_bench.public_report_service.OUTPUT',path),patch('triage_bench.public_report_service.load',side_effect=lambda p:[packet] if p.name=='inputs.json' else [reference]):
+                study=PublicReportStudy(path);hidden=study.card('p');self.assertIsNone(hidden['reference']);self.assertNotIn('correct',hidden['outcomes']['report'][0]);self.assertNotIn('reference',hidden['outcomes']['report'][0]);self.assertEqual(study.card('p',True)['reference'],reference);self.assertIn('correct',outcome)
+    def test_article_preserves_report_claim_arm_and_round(self):
+        from types import SimpleNamespace
+        from triage_bench.study_page import return_path,render_study
+        from triage_bench.paths import ROOT
+        value='/report-reading?dataset=Train+Ticket&card=fixture&field=statement_f&arm=report&round=2#inspect'
+        self.assertEqual(return_path(value),value);page=render_study(SimpleNamespace(root=ROOT),{'doc':'public-reports','return':value}).decode();self.assertIn('field=statement_f&amp;arm=report',page);self.assertIn('round=2#inspect',page)

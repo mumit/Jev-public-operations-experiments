@@ -91,3 +91,10 @@ All 456 calls succeed and return three valid answers each. The new verifier reco
 A fresh local clone restored all ten bundles, 1,053 files, then passed all 133 tests without skips, all twelve browser-script syntax checks and the full ten-verifier chain, including both original pack validators. It reproduced all 2,317 actual responses without inference, credentials or original checkout source.
 
 Browser review verifies both application panels and numeric denominators, separate original/count/zero strata, proposition/wording/round controls, hidden and revealed references, correct withholding versus displayed explicit comparisons, actual metric zeros, unknown trace counts, exact unchanged ledger state and question instructions, and formatted reports with return context preserving proposition, wording, round and section. Higher displayed probabilities are not presented as calibrated reliability.
+
+
+## Multi-service report-reading verification
+
+All 143 tests pass. Ten new checks cover identical paired ledgers, sentence-to-question mapping, service naming and duplicate-service rejection, deterministic reference-independent selection, unchanged observations, all-six correctness, incomplete-call denominators, complete-display requirements, once-only execution and credential redaction, hidden references and selected report/claim/presentation/round return context. All thirteen browser scripts pass syntax checks.
+
+All 96 calls succeed and return six valid answers each. The verifier reconstructs selected propositions, every explicitly scoped sentence, independent service-specific references, paired exact requests, provider normalization and every claim/report assessment. It invokes all ten earlier verifiers and both original pack validators. Verification consumes no fresh telemetry and makes no provider calls. Both report-reading comparison gates fail; historical evidence stays unchanged.

@@ -1,0 +1,5 @@
+#note {padding-left:1.6rem;}
+#note li {padding:.45rem .5rem;margin:.35rem 0;line-height:1.65;border-radius:.5rem;}
+#note button {padding:.25rem .6rem;font-size:.85rem;margin-right:.4rem;}
+#note button.active {background:#245552;color:white;}
+#selected-statement {font-weight:600;}

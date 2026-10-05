@@ -2,9 +2,9 @@
 
 ## Current state
 
-Wording, written-claim and evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Report-reading, wording, written-claim and evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-claim-language.md. Restore all ten versioned evidence bundles, then run scripts.verify_public_claim_language, which checks the full dependency chain and both original pack validators. The suite has 133 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-report-reading.md. Restore all eleven versioned evidence bundles, then run scripts.verify_public_reports, which checks the full dependency chain and both original pack validators. The suite has 143 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -125,3 +125,12 @@ The user authorized the wording diagnostic on 2026-10-05. It reuses the unchange
 All 456 calls succeed, returning 1,368 valid answers. Original, direct and alternative wording each give Train Ticket 93/93 and Online Boutique 59/59 correct verdicts in every round. Both alternative-wording gates pass; no displayed verdict is wrong. Unknown references stay unknown and measured zeros stay numeric. Original wording withholds twelve correct answers across all rounds; direct and alternative wording each withhold three. Some display decisions still vary. Explicit comparisons improve displayed coverage on the adservice memory pair; see docs/public-claim-language.md and /claim-language for exact text and probabilities.
 
 These are authored equivalent templates on inspected controlled faults, not authentic reports or fresh generalization. The next useful task is a short report with multiple independently scored claims and explicitly named services, using a new frozen language protocol before calls. Fresh telemetry still needs a separate allocation and evaluation plan. Preserve the four new wording producer sources, all historical producers and exact completed protocols. The tenth bundle adds six files and 456 responses; all ten preserve 2,317 actual responses in 1,053 evidence files.
+
+
+## Completed report-reading diagnostic
+
+The separately frozen 96-call diagnostic reuses the same 16 inspected recordings and 32 service cards. Six claims form each report, three per explicitly named service. Fixed hashes select propositions independently of their verdicts, and the earlier direct paraphrase supplies text. A fresh atomic control and numbered report lookup share identical two-service ledgers. No new telemetry is opened.
+
+All 96 calls succeed, returning 576 answers. Atomic gives Train Ticket 60/60 and Online Boutique 36/36 correct each round. Report gives 59/60 and 35/36, with nine of ten and five of six whole reports correct. The same two claims regress in all three rounds; neither error is displayed at 0.70. Train Ticket falsely supports a positive socket-change claim when the eligible value is zero; Online Boutique falsely supports positive memory change when missingness makes it ineligible. No evidence shows the model’s internal reason. Both comparison gates fail.
+
+Inspect /report-reading and docs/public-report-reading.md. The next diagnostic should bind exact claim text and service to the question while preserving the report context, then separately scope the service ledger. Freeze a new three-step protocol before calls and keep the current failure/control unchanged. These authored numbered notes are not real reports or held-out generalization. Preserve the four new report producer sources and all earlier producer bytes. The eleventh supplement adds six files and 96 actual responses, bringing the chain to 2,413 responses and 1,059 files.
