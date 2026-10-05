@@ -129,3 +129,39 @@ class FreshClaimTests(unittest.TestCase):
                 with self.assertRaises(FileExistsError):
                     trial.run(profile)
                 self.assertEqual(opener.open.call_count, 1)
+
+
+class FreshClaimReaderTests(unittest.TestCase):
+    def test_reference_reveal_is_explicit_and_does_not_mutate_cached_results(self):
+        from triage_bench.public_fresh_claim_service import PublicFreshClaimStudy
+        packet = {'id': 'p', 'dataset': 'Sample'}
+        outcome = {'id': 'p', 'field': 'statement_a', 'reference': 'supported', 'correct': True, 'unknown_to_decisive': False}
+        result = {'datasets': {'Sample': {'arms': {'bound': {'outcomes': [outcome]}}}}}
+        ref = {'id': 'p', 'answers': {}}
+        with tempfile.TemporaryDirectory() as t:
+            path = Path(t)
+            (path / 'responses.jsonl').write_text('{"card_id":"p","arm":"bound"}\n')
+            def fixture(p):
+                return [packet] if p.name == 'inputs.json' else [ref]
+            with patch.object(PublicFreshClaimStudy, 'verified', return_value=result), patch('triage_bench.public_fresh_claim_service.OUTPUT', path), patch('triage_bench.public_fresh_claim_service.load', side_effect=fixture):
+                study = PublicFreshClaimStudy(path)
+                hidden = study.card('p')
+                self.assertIsNone(hidden['reference'])
+                self.assertNotIn('correct', hidden['outcomes']['bound'][0])
+                self.assertEqual(study.card('p', True)['reference'], ref)
+                self.assertIn('correct', outcome)
+
+    def test_article_return_link_retains_claim_and_candidate(self):
+        from types import SimpleNamespace
+        from triage_bench.paths import ROOT
+        from triage_bench.study_page import render_study, return_path
+        value = '/fresh-claims?dataset=Train+Ticket&card=fixture&field=statement_d&arm=scoped&round=2#input'
+        self.assertEqual(return_path(value), value)
+        page = render_study(SimpleNamespace(root=ROOT), {'doc': 'public-fresh-claims', 'return': value}).decode()
+        self.assertIn('field=statement_d&amp;arm=scoped', page)
+        self.assertIn('round=2#input', page)
+
+    def test_absent_evidence_stays_unavailable(self):
+        from triage_bench.public_fresh_claim_service import PublicFreshClaimStudy
+        with patch.object(PublicFreshClaimStudy, 'verified', side_effect=FileNotFoundError):
+            self.assertFalse(PublicFreshClaimStudy(Path('.')).overview()['available'])

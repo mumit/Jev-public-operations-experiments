@@ -8,6 +8,7 @@ The current evidence comes from controlled RCAEval Online Boutique, Sock Shop an
 
 | Study | Evidence | Result |
 |---|---|---|
+| Fresh claim confirmation | Nine untouched recordings, three fault groups, new controlled wording, three rounds | Both candidates judge all 54 claims correctly throughout. Bound displays all verdicts; scoped withholds one correct verdict once and uses six times as many calls. Both pass bounded-task checks; extraction and attribution remain untested. |
 | Claim wording | 152 propositions with three wordings, 32 inspected cards, three rounds | Every verdict is correct for all wordings and rounds. Explicit comparisons reduce withholding; no displayed errors. Specific authored paraphrases pass, with real reports and fresh incidents still untested. |
 | Explicit claim binding | Same 96 claims and 16 reports, four steps, three rounds | Bound text fixes both repeated errors with no verdict losses. One-claim grouping introduces a one-round Train Ticket regression; scoped facts judge and display all claims correctly. Full sequence fails; step results remain separate. |
 | Multi-service report reading | 16 reports, 96 claims, two presentations, three rounds | Direct: all verdicts correct; report: 59/60 Train Ticket and 35/36 Online Boutique each round. Two repeated errors withheld; both comparison checks fail. |
@@ -36,10 +37,11 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all twelve [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. The trace release adds 78 development responses, raw traces, the audit and both sizing attempts. The trace-task release adds 192 development responses and the four-step comparison. The evidence-assessment release adds 192 four-question diagnostic responses. The claim-assessment release adds 192 three-question responses on 96 constructed statements. The wording release adds 456 calls and 1,368 answers on 152 propositions. The report-reading release adds 96 calls and 576 answers on 16 paired-service reports. The claim-binding release adds 672 calls and 1,152 verdicts across four controlled steps. All twelve retain measurements, separate references and exact requests, with actual provider responses, public source measurements and no credentials. The latest claims use authored templates.
+A fresh clone includes source, reports and checkpoints. Restore all thirteen [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. The trace release adds 78 development responses, raw traces, the audit and both sizing attempts. The trace-task release adds 192 development responses and the four-step comparison. The evidence-assessment release adds 192 four-question diagnostic responses. The claim-assessment release adds 192 three-question responses on 96 constructed statements. The wording release adds 456 calls and 1,368 answers on 152 propositions. The report-reading release adds 96 calls and 576 answers on 16 paired-service reports. The claim-binding release adds 672 calls and 1,152 verdicts across four controlled steps. The fresh-claim release adds 189 calls and 324 verdicts on nine previously untouched recordings. All thirteen retain measurements, separate references and exact requests, with actual provider responses, public source measurements and no credentials. The latest claims use authored templates.
 
 ## Read and inspect
 
+- [Fresh claim confirmation](docs/public-fresh-claims.md): new measurements, controlled notes and candidate call costs.
 - [Claim binding](docs/public-claim-binding.md): explicit text, question grouping and service scope.
 - [Report reading](docs/public-report-reading.md): six claims about two services, with direct and report judgments.
 - [Claim wording](docs/public-claim-language.md): paraphrases, negation and actual missing-versus-zero observations.
@@ -72,6 +74,7 @@ uv run --locked --extra public-data python -m scripts.verify_public_agreement
 uv run --locked --extra public-data python -m scripts.verify_public_traces
 uv run --locked --extra public-data python -m scripts.verify_public_trace_task
 uv run --locked --extra public-data python -m scripts.verify_public_binding
+uv run --locked --extra public-data python -m scripts.verify_public_fresh_claims
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
 node --check triage_bench/web/public-repeat.js
@@ -80,6 +83,7 @@ node --check triage_bench/web/public-selective.js
 node --check triage_bench/web/public-agreement.js
 node --check triage_bench/web/public-evidence.js
 node --check triage_bench/web/public-claims.js
+node --check triage_bench/web/public-fresh-claims.js
 node --check triage_bench/web/public-claim-binding.js
 node --check triage_bench/web/public-report-reading.js
 node --check triage_bench/web/public-claim-language.js

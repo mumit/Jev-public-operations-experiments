@@ -30,12 +30,40 @@ Each candidate must complete all calls in each application and round, reach 90% 
 
 Both candidates receive separate results. Paired fixes, losses, repeated choices, display variability and actual call costs remain visible even if aggregate checks pass. Missing replies retain their planned denominators. A wrong contradiction counts as a displayed error just as a wrong supported claim does.
 
-## Current state
+## Results
 
-Preparation is complete on the nine allocated recordings. The largest request contains 16,521 bytes, below the frozen 24,000-byte cap. Train Ticket supplies six supported, three contradicted and nine unanswerable references; Online Boutique supplies eleven, six and nineteen. Every reference class is present without balancing or case replacement. Exact requests and references are frozen; inference has not started.
+All 189 calls succeed, returning 324 valid verdicts. The largest request contains 16,521 bytes; recorded input usage peaks at 4,371 tokens. Both candidates pass the frozen checks in both applications. Every claim receives the correct verdict in all three rounds.
+
+| Application and candidate | Correct claims, rounds 1 / 2 / 3 | All-six reports correct | Displayed correct | Wrong displayed | Correct displayed support | Complete report display |
+|---|---|---|---|---|---|---|
+| Train Ticket, bound batch | 18 / 18 / 18 of 18 | 3 / 3 / 3 of 3 | 18 / 18 / 18 | 0 / 0 / 0 | 6 / 6 / 6 of 6 | 3 / 3 / 3 of 3 |
+| Train Ticket, scoped | 18 / 18 / 18 of 18 | 3 / 3 / 3 of 3 | 18 / 18 / 18 | 0 / 0 / 0 | 6 / 6 / 6 of 6 | 3 / 3 / 3 of 3 |
+| Online Boutique, bound batch | 36 / 36 / 36 of 36 | 6 / 6 / 6 of 6 | 36 / 36 / 36 | 0 / 0 / 0 | 11 / 11 / 11 of 11 | 6 / 6 / 6 of 6 |
+| Online Boutique, scoped | 36 / 36 / 36 of 36 | 6 / 6 / 6 of 6 | 35 / 36 / 36 | 0 / 0 / 0 | 11 / 11 / 11 of 11 | 5 / 6 / 6 of 6 |
+
+Train Ticket has six supported, three contradicted and nine unanswerable references; Online Boutique has eleven, six and nineteen. Every class is present without balancing or case replacement. No paired accuracy fix or loss occurs because both candidates are already correct throughout.
+
+Bound verdicts and display decisions stay stable for all claims. Scoped verdicts also stay stable, but one Online Boutique display decision changes. In FRC-884b59dfe067, the fifth assertion reads:
+
+> Neither recorded window count for adservice is below five spans.
+
+Adservice has no mapped trace, so both recorded counts are unknown. The reference is unanswerable. Bound selects that verdict at 0.99 in every round; scoped selects it at 0.65 / 0.80 / 0.72. The first scoped answer is correct but withheld at the unchanged 0.70 boundary. Later answers display. Missing observations never become zero counts.
+
+## Call cost and candidate choice
+
+| Candidate | Calls across all rounds | Recorded input tokens | Summed call latency |
+|---|---|---|---|
+| Bound batch | 27 | 111,006 | 5.45 seconds |
+| Scoped facts | 162 | 253,080 | 28.09 seconds |
+
+Scoped requests use six times as many calls and about 2.28 times as many input tokens, without an accuracy gain. Summed latency adds the recorded duration of serial calls; it is not a production throughput estimate or a controlled provider speed benchmark. The study records no billed monetary cost.
+
+Bound batch is the preferred candidate for the next bounded workflow: it displays every correct verdict, uses fewer calls and retains both ledgers for inspection. Scoping remains a preserved comparator. The previous inspected-data scoping success does not establish that it will outperform a bound batch on fresh inputs.
+
+Inspect [the fresh confirmation](http://127.0.0.1:8769/fresh-claims?dataset=Online+Boutique&card=FRC-884b59dfe067&field=statement_e&arm=scoped&round=1#inspect) for the exact note, supplied bindings, missing trace facts and each actual response. Historical comparisons remain separate.
 
 ## Limits and next step
 
-Nine recordings in three fault groups can reveal failures but cannot establish an operational error rate. Typed references are exact for these authored propositions; they are not specialist judgments about unrestricted prose. Success would support bounded claim checking with supplied bindings, not causal diagnosis, automatic report extraction, analyst benefit or telecom readiness.
+Nine recordings in three fault groups can reveal failures but cannot establish an operational error rate. Typed references are exact for these authored propositions; they are not specialist judgments about unrestricted prose. This result supports bounded claim checking with supplied bindings. It does not establish causal diagnosis, automatic report extraction, analyst benefit or telecom readiness.
 
-A later report-extraction experiment needs an independent text/reference collection, a defined extraction task and separate service-attribution scores before any verdict score can describe the end-to-end tool.
+The next useful experiment should remove the supplied claim and service bindings. That requires a defined extraction task and a separately annotated collection of ordinary notes, with extraction completeness, claim meaning and service attribution scored before verdict accuracy. An analyst workflow that accepts explicit claims is the simpler alternative. Neither path opens another protected recording without a new allocation protocol.

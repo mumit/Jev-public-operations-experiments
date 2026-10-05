@@ -2,9 +2,9 @@
 
 ## Current state
 
-Claim-binding, report-reading, wording, written-claim and evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Fresh-measurement claim confirmation, claim-binding, report-reading, wording, written-claim and evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-claim-binding.md. Restore all twelve versioned evidence bundles, then run scripts.verify_public_binding, which checks the full dependency chain and both original pack validators. The suite has 155 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-fresh-claims.md. Restore all thirteen versioned evidence bundles, then run scripts.verify_public_fresh_claims, which checks the full dependency chain and both original pack validators. The suite has 166 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -151,3 +151,13 @@ The next experiment should freeze bound-batch and scoped candidates before a fre
 The user selected controlled notes authored before measurement access, rather than waiting for independent analyst notes. Read docs/public-fresh-claims.md. The new plan allocates only the nine remaining RE3 reserves in three intact fault groups to confirmation. Bound-batch and service-scoped requests reuse the frozen binding/verdict policy, with literal wording and selection rules committed before download. Exact rendered requests and references must commit before the 189 once-only calls.
 
 This is a fresh-measurement and controlled-wording test. Preparation supplies claim spans and service names; automatic extraction and service attribution remain not evaluated. No independent analyst authorship, specialist reference review or authentic-report performance is claimed. Preserve the earlier 22-case cause-evaluation panel, RE3 Sock Shop and all 140 RE1 reserves. Neither successful development nor the user's selection authorizes those protected recordings to open.
+
+## Completed fresh-measurement confirmation
+
+All 189 calls succeed, returning 324 verdicts on 54 claims from nine previously untouched recordings. Bound and scoped each judge Train Ticket 18/18 and Online Boutique 36/36 correctly in every round; both application/candidate checks pass. Bound displays every verdict. Scoped withholds one correct unanswerable adservice span-count assertion in round one, then displays it in rounds two and three. Neither candidate has an accuracy error opportunity relative to the other.
+
+Bound uses 27 calls and 111,006 input tokens; scoped uses 162 calls and 253,080 tokens. Their summed recorded call latencies are 5.45 and 28.09 seconds. Bound is the preferred bounded-workflow candidate because scoping adds no accuracy and loses one displayed answer while consuming more calls. This is not an unrestricted report parser, a causal diagnosis result or an operational reliability estimate.
+
+The controlled wording was committed before fresh measurement access. Preparation supplies spans and service names, which are audited rather than scored as automatic extraction. Both extraction and automatic attribution remain not evaluated. Do not imply independent analyst authorship or specialist-reviewed references. Preserve all three new producer modules, CLI, exact protocol, original measurements and typed references.
+
+The nine RE3 reserves are now inspected; none remain in the current Train Ticket/Online Boutique allocation. Earlier references to nine unopened reserves describe historical stage boundaries. The 22-case cause-evaluation panel, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened. The thirteenth supplement adds 33 files and 189 responses, preserving 3,274 actual responses in 1,098 files across all releases. Use scripts.verify_public_fresh_claims for the full chain. The next task choice is ordinary-note extraction with separate annotations, or an analyst workflow that accepts explicit claims. Both need their own protocol; no protected data opens automatically.
