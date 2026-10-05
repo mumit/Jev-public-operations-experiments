@@ -2,9 +2,9 @@
 
 ## Current state
 
-Report-reading, wording, written-claim and evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Claim-binding, report-reading, wording, written-claim and evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-report-reading.md. Restore all eleven versioned evidence bundles, then run scripts.verify_public_reports, which checks the full dependency chain and both original pack validators. The suite has 143 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-claim-binding.md. Restore all twelve versioned evidence bundles, then run scripts.verify_public_binding, which checks the full dependency chain and both original pack validators. The suite has 155 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -134,3 +134,14 @@ The separately frozen 96-call diagnostic reuses the same 16 inspected recordings
 All 96 calls succeed, returning 576 answers. Atomic gives Train Ticket 60/60 and Online Boutique 36/36 correct each round. Report gives 59/60 and 35/36, with nine of ten and five of six whole reports correct. The same two claims regress in all three rounds; neither error is displayed at 0.70. Train Ticket falsely supports a positive socket-change claim when the eligible value is zero; Online Boutique falsely supports positive memory change when missingness makes it ineligible. No evidence shows the model’s internal reason. Both comparison gates fail.
 
 Inspect /report-reading and docs/public-report-reading.md. The next diagnostic should bind exact claim text and service to the question while preserving the report context, then separately scope the service ledger. Freeze a new three-step protocol before calls and keep the current failure/control unchanged. These authored numbered notes are not real reports or held-out generalization. Preserve the four new report producer sources and all earlier producer bytes. The eleventh supplement adds six files and 96 actual responses, bringing the chain to 2,413 responses and 1,059 files.
+
+
+## Completed explicit binding and scope diagnostic
+
+The separate 672-call study keeps every report, claim and reference unchanged. Four steps isolate numbered lookup, bound ID/text/service, one-question grouping and removal of the other service ledger. Lookup exactly reuses the historical six-question body but records fresh responses. Bound and single retain both ledgers; scoped keeps the full report and only the selected service ledger. Stable bindings come from stored metadata, not evaluated report extraction. No protected telemetry opens.
+
+All 672 calls succeed, returning 1,152 verdicts. Fresh lookup repeats both historical errors: Train Ticket 59/60 and Online Boutique 35/36 each round. Bound judges every claim correctly and fixes both repeated errors with no verdict losses. Single gives Train Ticket 59/60, 60/60, 60/60 and Online Boutique 36/36 throughout. Its first-round duration judgment incorrectly contradicts an unanswerable ts-route-mongo claim. Scoped judges and displays every claim correctly. No step displays an incorrect verdict.
+
+Bound passes both application checks; single fails Train Ticket’s no-lower-accuracy check; scoped passes both. Overall sequence fails. Scoping corrects one observed grouping error, not a repeated three-round accuracy error. Later Online Boutique steps have no error opportunity. Do not erase the single-step regression or call the complete sequence successful. Read docs/public-claim-binding.md and inspect /claim-binding, including earlier versus fresh lookup and per-call raw evidence.
+
+The next experiment should freeze bound-batch and scoped candidates before a fresh public-data comparison with independently authored reports. Text/reference preparation and service-attribution rules must precede evaluation access; extraction and service assignment need separate scores. Current authored numbered reports cannot validate an unrestricted extractor. Preserve all four binding feature/data/trial/CLI producer sources and completed protocols. The twelfth supplement adds six files and 672 responses; all twelve preserve 3,085 actual responses in 1,065 files.

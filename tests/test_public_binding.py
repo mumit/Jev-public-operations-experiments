@@ -65,3 +65,23 @@ class BindingTests(unittest.TestCase):
                 result=trial.run(profile);self.assertEqual(result['stopped_reason'],'checkpoint_mismatch');self.assertNotIn(profile['api_key'],(out/'responses.jsonl').read_text())
                 with self.assertRaises(FileExistsError):trial.run(profile)
                 self.assertEqual(opener.open.call_count,1)
+
+class BindingReaderTests(unittest.TestCase):
+    def test_hidden_historical_reference_does_not_mutate(self):
+        from triage_bench.public_binding_service import PublicBindingStudy
+        packet={'id':'p','dataset':'Sample'};reference={'id':'p','answers':{}};outcome={'id':'p','field':'statement_a','reference':'supported','correct':True,'unknown_to_decisive':False}
+        result={'datasets':{'Sample':{'arms':{'lookup':{'outcomes':[outcome]}}}}};historical={'datasets':{'Sample':{'arms':{'report':{'outcomes':[outcome]}}}}}
+        with tempfile.TemporaryDirectory() as t:
+            path=Path(t);(path/'responses.jsonl').write_text('{"card_id":"p","arm":"report","field":null}\n')
+            def fixture(p):
+                if p.name=='inputs.json':return [packet]
+                if p.name=='references.json':return [reference]
+                return historical
+            with patch.object(PublicBindingStudy,'verified',return_value=result),patch('triage_bench.public_binding_service.OUTPUT',path),patch('triage_bench.public_binding_service.HISTORICAL_OUTPUT',path),patch('triage_bench.public_binding_service.load',side_effect=fixture):
+                study=PublicBindingStudy(path);hidden=study.card('p');self.assertIsNone(hidden['reference']);self.assertNotIn('correct',hidden['outcomes']['lookup'][0]);self.assertNotIn('reference',hidden['historical_outcomes'][0]);self.assertEqual(study.card('p',True)['reference'],reference);self.assertIn('correct',outcome)
+    def test_article_preserves_binding_context(self):
+        from types import SimpleNamespace
+        from triage_bench.study_page import return_path,render_study
+        from triage_bench.paths import ROOT
+        value='/claim-binding?dataset=Train+Ticket&card=fixture&field=statement_c&arm=scoped&round=2#input'
+        self.assertEqual(return_path(value),value);page=render_study(SimpleNamespace(root=ROOT),{'doc':'public-binding','return':value}).decode();self.assertIn('field=statement_c&amp;arm=scoped',page);self.assertIn('round=2#input',page)

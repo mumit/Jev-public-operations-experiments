@@ -102,3 +102,10 @@ All 96 calls succeed and return six valid answers each. The verifier reconstruct
 Browser review verifies both application panels, six claims and their named services, hidden and revealed references, the repeated missingness and measured-zero errors, round and presentation controls, per-service metrics and absent traces, and exact report/atomic requests. The read-only inspector preserves the original report alongside each judgment. The immutable supplement contains six files in 83,750 bytes.
 
 A fresh local clone restored all eleven checksum-verified assets, 1,059 files, then passed all 143 tests without skips, all thirteen browser-script checks and the full eleven-verifier chain, including both original pack validators. It used pinned dependencies without credentials or the original checkout source and reproduced the saved 2,413 responses without inference. The formatted report’s return link preserves report, claim, presentation, round and section.
+
+
+## Explicit binding verification
+
+All 155 tests pass. Twelve new checks cover unchanged lookup bodies, bound-text-only instruction changes, one-question filtering with retained field names, scoped-only ledger removal with preserved report text, invalid binding rejection and source immutability, complete six-claim scoring, no-error opportunities, isolated step failures and incomplete predecessor denominators, actual question-count validation, once-only stopping/redaction, hidden historical references and article return context. All fourteen browser scripts pass syntax checks.
+
+All 672 hosted calls succeed, producing 1,152 valid verdicts. The new verifier reconstructs exact binding/grouping/scope requests from the frozen reports, preserves all references, checks producer hashes and provider normalization, and recomputes every adjacent-step assessment. It verifies 48 calls each for lookup/bound and 288 each for single/scoped. The full twelve-verifier chain includes both original pack validators. No fresh telemetry or verification inference occurs. The single-step Train Ticket regression and failed overall gate remain explicit.
