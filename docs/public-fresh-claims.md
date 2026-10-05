@@ -32,7 +32,7 @@ Both candidates receive separate results. Paired fixes, losses, repeated choices
 
 ## Current state
 
-Preparation and inference have not started. No fresh recording has been opened under this plan.
+Preparation is complete on the nine allocated recordings. The largest request contains 16,521 bytes, below the frozen 24,000-byte cap. Train Ticket supplies six supported, three contradicted and nine unanswerable references; Online Boutique supplies eleven, six and nineteen. Every reference class is present without balancing or case replacement. Exact requests and references are frozen; inference has not started.
 
 ## Limits and next step
 
