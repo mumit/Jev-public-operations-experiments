@@ -1,0 +1,680 @@
+{
+  "schema": "public-report-reading-protocol-1",
+  "maximum_calls": 96,
+  "plan_sha256": "94987338b373e1e1ffdab6946f710d0e66657a0ee0951d17f009e2aa0ad74dc0",
+  "manifest_sha256": "b1ed2155e2e4a7f32886d26e35341150b16d4708bead37d711401baa35ae75e4",
+  "requests": [
+    {
+      "id": "RPT-0f1bef5ef795::atomic::r1",
+      "card_id": "RPT-0f1bef5ef795",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "a8bd2e090683c41c72e2274b811f3c2d61274faf2128e9439ae9f29f84495cc9"
+    },
+    {
+      "id": "RPT-0f1bef5ef795::report::r1",
+      "card_id": "RPT-0f1bef5ef795",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "58f11e3d20f30827100c2753d5c85f8ec257358ba5268328ee21e2e46ca52707"
+    },
+    {
+      "id": "RPT-b2010c6f3c43::report::r1",
+      "card_id": "RPT-b2010c6f3c43",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "97f14980c5cd277424dff6d58d913d91151635169c9b2771f43963fd87fc866a"
+    },
+    {
+      "id": "RPT-b2010c6f3c43::atomic::r1",
+      "card_id": "RPT-b2010c6f3c43",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "89a5e8dfb485721f2a0058ea1a676d32365c496b447808b5ca5f2bb77346b734"
+    },
+    {
+      "id": "RPT-d5099824f078::atomic::r1",
+      "card_id": "RPT-d5099824f078",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "a8e427984e3a5e62ad9d96128fd191d8884997998fa75437419679e03a800e4d"
+    },
+    {
+      "id": "RPT-d5099824f078::report::r1",
+      "card_id": "RPT-d5099824f078",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "505d5fae519a2b2023d382caa37aa7a2046ec535f39fdf9e699e2e202a43e5f6"
+    },
+    {
+      "id": "RPT-14c0949ac4bd::report::r1",
+      "card_id": "RPT-14c0949ac4bd",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "696896b466e094287b5d6efbae4d4bac36277986b9cfa795fba4d19095f2521a"
+    },
+    {
+      "id": "RPT-14c0949ac4bd::atomic::r1",
+      "card_id": "RPT-14c0949ac4bd",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "fc7e4ab4794bc46c302445971b962a2a8c4f61a1397cf8e6d8a23408bc6ef8b8"
+    },
+    {
+      "id": "RPT-1ccf721f39aa::atomic::r1",
+      "card_id": "RPT-1ccf721f39aa",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "05c7e2b187a9ad17052b4a4725d69077fffc8e9245e8ea483ed15e5ad14e8a30"
+    },
+    {
+      "id": "RPT-1ccf721f39aa::report::r1",
+      "card_id": "RPT-1ccf721f39aa",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "ade91ff7149199020874f918ea8497db0edfc4fd7a6ba70592b765725c1b0df5"
+    },
+    {
+      "id": "RPT-449762e3d1e7::report::r1",
+      "card_id": "RPT-449762e3d1e7",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "e61e1a0de05896fd8e41e0f0eb17e2e9a33f2f62525a1dfe05740745399879d7"
+    },
+    {
+      "id": "RPT-449762e3d1e7::atomic::r1",
+      "card_id": "RPT-449762e3d1e7",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "e6d53dd7d8f74e271bf08c43468f85b366fdb67dffd104f5c90e2e613766489e"
+    },
+    {
+      "id": "RPT-381a34e8bf50::atomic::r1",
+      "card_id": "RPT-381a34e8bf50",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "dbfcce6abd6b85e49c87d6d87f5a61860c899508551d023a38d737f56c3ef2c1"
+    },
+    {
+      "id": "RPT-381a34e8bf50::report::r1",
+      "card_id": "RPT-381a34e8bf50",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "536898eada8bc1e8dcdcf56e5b0dc051f0034b4b074f8c2de5cbccea5c691ca2"
+    },
+    {
+      "id": "RPT-6b32d1890e0f::report::r1",
+      "card_id": "RPT-6b32d1890e0f",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "9493894a8da964ddb122a9f3ee4ccc95a48c342a61e6d59d5cc3329275ca102c"
+    },
+    {
+      "id": "RPT-6b32d1890e0f::atomic::r1",
+      "card_id": "RPT-6b32d1890e0f",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "84accf72bfd1078aef2ab64258c777fd36dff1acab462fcfebfac4b82c0f0bd4"
+    },
+    {
+      "id": "RPT-f2f5960ae1be::atomic::r1",
+      "card_id": "RPT-f2f5960ae1be",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "544dfca8b6bfc48197b9077b8b35e45fb9b555cd8e648e5e2b688ef5c18bcc4f"
+    },
+    {
+      "id": "RPT-f2f5960ae1be::report::r1",
+      "card_id": "RPT-f2f5960ae1be",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "8f44051e3535bbda3e908e40f4c5b4aab2546649527fa35103bfc41db7669ee5"
+    },
+    {
+      "id": "RPT-5e9c57b96fdc::report::r1",
+      "card_id": "RPT-5e9c57b96fdc",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "df6c0a0c39ac14c69ef717c2edc973c6821b7fac1dc3c3a9ff169a7249775388"
+    },
+    {
+      "id": "RPT-5e9c57b96fdc::atomic::r1",
+      "card_id": "RPT-5e9c57b96fdc",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "426fc792a93fd7c0be99b9c72b190c39a611c777b51a4f2fb5762c9a2162b140"
+    },
+    {
+      "id": "RPT-bfeb2ae29b3f::atomic::r1",
+      "card_id": "RPT-bfeb2ae29b3f",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "2b975eea8df74a5270d0d317786f32bc1ea4a8faa2248fac85ec7a8b5f387415"
+    },
+    {
+      "id": "RPT-bfeb2ae29b3f::report::r1",
+      "card_id": "RPT-bfeb2ae29b3f",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "980e293e482803f4ef0188904dede4596da3f94607528677999c5f44ccf4e6c7"
+    },
+    {
+      "id": "RPT-c34a48526d0a::report::r1",
+      "card_id": "RPT-c34a48526d0a",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "649a82e4fa5b5e38da5f37430195761b7b785690c81c3dc6b1e182ddbade0108"
+    },
+    {
+      "id": "RPT-c34a48526d0a::atomic::r1",
+      "card_id": "RPT-c34a48526d0a",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "23d835839669f44ee417d7b7969de7b65dd75dee6f635a7d1b14b00b7245ae2b"
+    },
+    {
+      "id": "RPT-59d49bfef0de::atomic::r1",
+      "card_id": "RPT-59d49bfef0de",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "b0b0ad8c845a9f5f30420d5a1610201fee4ab6add3148c402861eeaa26728cb1"
+    },
+    {
+      "id": "RPT-59d49bfef0de::report::r1",
+      "card_id": "RPT-59d49bfef0de",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "ceb29d7ca4f152f6966c040715728bcbf066351ae00d8b2b64ac542469e13850"
+    },
+    {
+      "id": "RPT-d9c876e8abee::report::r1",
+      "card_id": "RPT-d9c876e8abee",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "c43e7668491d39774da09c27e414cf4c00ce5639ef0ac3a0382c55fdad9b46f3"
+    },
+    {
+      "id": "RPT-d9c876e8abee::atomic::r1",
+      "card_id": "RPT-d9c876e8abee",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "0d08e4af48bdec6961bea26f7d0e42bdccb12323194fc420648870c31f527d3a"
+    },
+    {
+      "id": "RPT-ddcba9332c6e::atomic::r1",
+      "card_id": "RPT-ddcba9332c6e",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "87d1f54d669198d33743bad2d4dbb2c5faa67a6d9437a3a07361778d55fe468e"
+    },
+    {
+      "id": "RPT-ddcba9332c6e::report::r1",
+      "card_id": "RPT-ddcba9332c6e",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "c84204719f316a43e457be7e5c4ba80b4fc26168d1897a1137b861386b0e3f37"
+    },
+    {
+      "id": "RPT-8137797ce891::report::r1",
+      "card_id": "RPT-8137797ce891",
+      "arm": "report",
+      "round": 1,
+      "request_sha256": "9d07a9911bb17c1cb5f3770211ecfa427966c7400022b96d0d87f84e9f60894b"
+    },
+    {
+      "id": "RPT-8137797ce891::atomic::r1",
+      "card_id": "RPT-8137797ce891",
+      "arm": "atomic",
+      "round": 1,
+      "request_sha256": "49b050719be978e5d614d7b61f2cb02474584c825f51b50d4b3d7444a63435ee"
+    },
+    {
+      "id": "RPT-b2010c6f3c43::report::r2",
+      "card_id": "RPT-b2010c6f3c43",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "97f14980c5cd277424dff6d58d913d91151635169c9b2771f43963fd87fc866a"
+    },
+    {
+      "id": "RPT-b2010c6f3c43::atomic::r2",
+      "card_id": "RPT-b2010c6f3c43",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "89a5e8dfb485721f2a0058ea1a676d32365c496b447808b5ca5f2bb77346b734"
+    },
+    {
+      "id": "RPT-d5099824f078::atomic::r2",
+      "card_id": "RPT-d5099824f078",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "a8e427984e3a5e62ad9d96128fd191d8884997998fa75437419679e03a800e4d"
+    },
+    {
+      "id": "RPT-d5099824f078::report::r2",
+      "card_id": "RPT-d5099824f078",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "505d5fae519a2b2023d382caa37aa7a2046ec535f39fdf9e699e2e202a43e5f6"
+    },
+    {
+      "id": "RPT-14c0949ac4bd::report::r2",
+      "card_id": "RPT-14c0949ac4bd",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "696896b466e094287b5d6efbae4d4bac36277986b9cfa795fba4d19095f2521a"
+    },
+    {
+      "id": "RPT-14c0949ac4bd::atomic::r2",
+      "card_id": "RPT-14c0949ac4bd",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "fc7e4ab4794bc46c302445971b962a2a8c4f61a1397cf8e6d8a23408bc6ef8b8"
+    },
+    {
+      "id": "RPT-1ccf721f39aa::atomic::r2",
+      "card_id": "RPT-1ccf721f39aa",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "05c7e2b187a9ad17052b4a4725d69077fffc8e9245e8ea483ed15e5ad14e8a30"
+    },
+    {
+      "id": "RPT-1ccf721f39aa::report::r2",
+      "card_id": "RPT-1ccf721f39aa",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "ade91ff7149199020874f918ea8497db0edfc4fd7a6ba70592b765725c1b0df5"
+    },
+    {
+      "id": "RPT-449762e3d1e7::report::r2",
+      "card_id": "RPT-449762e3d1e7",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "e61e1a0de05896fd8e41e0f0eb17e2e9a33f2f62525a1dfe05740745399879d7"
+    },
+    {
+      "id": "RPT-449762e3d1e7::atomic::r2",
+      "card_id": "RPT-449762e3d1e7",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "e6d53dd7d8f74e271bf08c43468f85b366fdb67dffd104f5c90e2e613766489e"
+    },
+    {
+      "id": "RPT-381a34e8bf50::atomic::r2",
+      "card_id": "RPT-381a34e8bf50",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "dbfcce6abd6b85e49c87d6d87f5a61860c899508551d023a38d737f56c3ef2c1"
+    },
+    {
+      "id": "RPT-381a34e8bf50::report::r2",
+      "card_id": "RPT-381a34e8bf50",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "536898eada8bc1e8dcdcf56e5b0dc051f0034b4b074f8c2de5cbccea5c691ca2"
+    },
+    {
+      "id": "RPT-6b32d1890e0f::report::r2",
+      "card_id": "RPT-6b32d1890e0f",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "9493894a8da964ddb122a9f3ee4ccc95a48c342a61e6d59d5cc3329275ca102c"
+    },
+    {
+      "id": "RPT-6b32d1890e0f::atomic::r2",
+      "card_id": "RPT-6b32d1890e0f",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "84accf72bfd1078aef2ab64258c777fd36dff1acab462fcfebfac4b82c0f0bd4"
+    },
+    {
+      "id": "RPT-f2f5960ae1be::atomic::r2",
+      "card_id": "RPT-f2f5960ae1be",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "544dfca8b6bfc48197b9077b8b35e45fb9b555cd8e648e5e2b688ef5c18bcc4f"
+    },
+    {
+      "id": "RPT-f2f5960ae1be::report::r2",
+      "card_id": "RPT-f2f5960ae1be",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "8f44051e3535bbda3e908e40f4c5b4aab2546649527fa35103bfc41db7669ee5"
+    },
+    {
+      "id": "RPT-5e9c57b96fdc::report::r2",
+      "card_id": "RPT-5e9c57b96fdc",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "df6c0a0c39ac14c69ef717c2edc973c6821b7fac1dc3c3a9ff169a7249775388"
+    },
+    {
+      "id": "RPT-5e9c57b96fdc::atomic::r2",
+      "card_id": "RPT-5e9c57b96fdc",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "426fc792a93fd7c0be99b9c72b190c39a611c777b51a4f2fb5762c9a2162b140"
+    },
+    {
+      "id": "RPT-bfeb2ae29b3f::atomic::r2",
+      "card_id": "RPT-bfeb2ae29b3f",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "2b975eea8df74a5270d0d317786f32bc1ea4a8faa2248fac85ec7a8b5f387415"
+    },
+    {
+      "id": "RPT-bfeb2ae29b3f::report::r2",
+      "card_id": "RPT-bfeb2ae29b3f",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "980e293e482803f4ef0188904dede4596da3f94607528677999c5f44ccf4e6c7"
+    },
+    {
+      "id": "RPT-c34a48526d0a::report::r2",
+      "card_id": "RPT-c34a48526d0a",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "649a82e4fa5b5e38da5f37430195761b7b785690c81c3dc6b1e182ddbade0108"
+    },
+    {
+      "id": "RPT-c34a48526d0a::atomic::r2",
+      "card_id": "RPT-c34a48526d0a",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "23d835839669f44ee417d7b7969de7b65dd75dee6f635a7d1b14b00b7245ae2b"
+    },
+    {
+      "id": "RPT-59d49bfef0de::atomic::r2",
+      "card_id": "RPT-59d49bfef0de",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "b0b0ad8c845a9f5f30420d5a1610201fee4ab6add3148c402861eeaa26728cb1"
+    },
+    {
+      "id": "RPT-59d49bfef0de::report::r2",
+      "card_id": "RPT-59d49bfef0de",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "ceb29d7ca4f152f6966c040715728bcbf066351ae00d8b2b64ac542469e13850"
+    },
+    {
+      "id": "RPT-d9c876e8abee::report::r2",
+      "card_id": "RPT-d9c876e8abee",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "c43e7668491d39774da09c27e414cf4c00ce5639ef0ac3a0382c55fdad9b46f3"
+    },
+    {
+      "id": "RPT-d9c876e8abee::atomic::r2",
+      "card_id": "RPT-d9c876e8abee",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "0d08e4af48bdec6961bea26f7d0e42bdccb12323194fc420648870c31f527d3a"
+    },
+    {
+      "id": "RPT-ddcba9332c6e::atomic::r2",
+      "card_id": "RPT-ddcba9332c6e",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "87d1f54d669198d33743bad2d4dbb2c5faa67a6d9437a3a07361778d55fe468e"
+    },
+    {
+      "id": "RPT-ddcba9332c6e::report::r2",
+      "card_id": "RPT-ddcba9332c6e",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "c84204719f316a43e457be7e5c4ba80b4fc26168d1897a1137b861386b0e3f37"
+    },
+    {
+      "id": "RPT-8137797ce891::report::r2",
+      "card_id": "RPT-8137797ce891",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "9d07a9911bb17c1cb5f3770211ecfa427966c7400022b96d0d87f84e9f60894b"
+    },
+    {
+      "id": "RPT-8137797ce891::atomic::r2",
+      "card_id": "RPT-8137797ce891",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "49b050719be978e5d614d7b61f2cb02474584c825f51b50d4b3d7444a63435ee"
+    },
+    {
+      "id": "RPT-0f1bef5ef795::atomic::r2",
+      "card_id": "RPT-0f1bef5ef795",
+      "arm": "atomic",
+      "round": 2,
+      "request_sha256": "a8bd2e090683c41c72e2274b811f3c2d61274faf2128e9439ae9f29f84495cc9"
+    },
+    {
+      "id": "RPT-0f1bef5ef795::report::r2",
+      "card_id": "RPT-0f1bef5ef795",
+      "arm": "report",
+      "round": 2,
+      "request_sha256": "58f11e3d20f30827100c2753d5c85f8ec257358ba5268328ee21e2e46ca52707"
+    },
+    {
+      "id": "RPT-d5099824f078::atomic::r3",
+      "card_id": "RPT-d5099824f078",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "a8e427984e3a5e62ad9d96128fd191d8884997998fa75437419679e03a800e4d"
+    },
+    {
+      "id": "RPT-d5099824f078::report::r3",
+      "card_id": "RPT-d5099824f078",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "505d5fae519a2b2023d382caa37aa7a2046ec535f39fdf9e699e2e202a43e5f6"
+    },
+    {
+      "id": "RPT-14c0949ac4bd::report::r3",
+      "card_id": "RPT-14c0949ac4bd",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "696896b466e094287b5d6efbae4d4bac36277986b9cfa795fba4d19095f2521a"
+    },
+    {
+      "id": "RPT-14c0949ac4bd::atomic::r3",
+      "card_id": "RPT-14c0949ac4bd",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "fc7e4ab4794bc46c302445971b962a2a8c4f61a1397cf8e6d8a23408bc6ef8b8"
+    },
+    {
+      "id": "RPT-1ccf721f39aa::atomic::r3",
+      "card_id": "RPT-1ccf721f39aa",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "05c7e2b187a9ad17052b4a4725d69077fffc8e9245e8ea483ed15e5ad14e8a30"
+    },
+    {
+      "id": "RPT-1ccf721f39aa::report::r3",
+      "card_id": "RPT-1ccf721f39aa",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "ade91ff7149199020874f918ea8497db0edfc4fd7a6ba70592b765725c1b0df5"
+    },
+    {
+      "id": "RPT-449762e3d1e7::report::r3",
+      "card_id": "RPT-449762e3d1e7",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "e61e1a0de05896fd8e41e0f0eb17e2e9a33f2f62525a1dfe05740745399879d7"
+    },
+    {
+      "id": "RPT-449762e3d1e7::atomic::r3",
+      "card_id": "RPT-449762e3d1e7",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "e6d53dd7d8f74e271bf08c43468f85b366fdb67dffd104f5c90e2e613766489e"
+    },
+    {
+      "id": "RPT-381a34e8bf50::atomic::r3",
+      "card_id": "RPT-381a34e8bf50",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "dbfcce6abd6b85e49c87d6d87f5a61860c899508551d023a38d737f56c3ef2c1"
+    },
+    {
+      "id": "RPT-381a34e8bf50::report::r3",
+      "card_id": "RPT-381a34e8bf50",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "536898eada8bc1e8dcdcf56e5b0dc051f0034b4b074f8c2de5cbccea5c691ca2"
+    },
+    {
+      "id": "RPT-6b32d1890e0f::report::r3",
+      "card_id": "RPT-6b32d1890e0f",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "9493894a8da964ddb122a9f3ee4ccc95a48c342a61e6d59d5cc3329275ca102c"
+    },
+    {
+      "id": "RPT-6b32d1890e0f::atomic::r3",
+      "card_id": "RPT-6b32d1890e0f",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "84accf72bfd1078aef2ab64258c777fd36dff1acab462fcfebfac4b82c0f0bd4"
+    },
+    {
+      "id": "RPT-f2f5960ae1be::atomic::r3",
+      "card_id": "RPT-f2f5960ae1be",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "544dfca8b6bfc48197b9077b8b35e45fb9b555cd8e648e5e2b688ef5c18bcc4f"
+    },
+    {
+      "id": "RPT-f2f5960ae1be::report::r3",
+      "card_id": "RPT-f2f5960ae1be",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "8f44051e3535bbda3e908e40f4c5b4aab2546649527fa35103bfc41db7669ee5"
+    },
+    {
+      "id": "RPT-5e9c57b96fdc::report::r3",
+      "card_id": "RPT-5e9c57b96fdc",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "df6c0a0c39ac14c69ef717c2edc973c6821b7fac1dc3c3a9ff169a7249775388"
+    },
+    {
+      "id": "RPT-5e9c57b96fdc::atomic::r3",
+      "card_id": "RPT-5e9c57b96fdc",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "426fc792a93fd7c0be99b9c72b190c39a611c777b51a4f2fb5762c9a2162b140"
+    },
+    {
+      "id": "RPT-bfeb2ae29b3f::atomic::r3",
+      "card_id": "RPT-bfeb2ae29b3f",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "2b975eea8df74a5270d0d317786f32bc1ea4a8faa2248fac85ec7a8b5f387415"
+    },
+    {
+      "id": "RPT-bfeb2ae29b3f::report::r3",
+      "card_id": "RPT-bfeb2ae29b3f",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "980e293e482803f4ef0188904dede4596da3f94607528677999c5f44ccf4e6c7"
+    },
+    {
+      "id": "RPT-c34a48526d0a::report::r3",
+      "card_id": "RPT-c34a48526d0a",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "649a82e4fa5b5e38da5f37430195761b7b785690c81c3dc6b1e182ddbade0108"
+    },
+    {
+      "id": "RPT-c34a48526d0a::atomic::r3",
+      "card_id": "RPT-c34a48526d0a",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "23d835839669f44ee417d7b7969de7b65dd75dee6f635a7d1b14b00b7245ae2b"
+    },
+    {
+      "id": "RPT-59d49bfef0de::atomic::r3",
+      "card_id": "RPT-59d49bfef0de",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "b0b0ad8c845a9f5f30420d5a1610201fee4ab6add3148c402861eeaa26728cb1"
+    },
+    {
+      "id": "RPT-59d49bfef0de::report::r3",
+      "card_id": "RPT-59d49bfef0de",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "ceb29d7ca4f152f6966c040715728bcbf066351ae00d8b2b64ac542469e13850"
+    },
+    {
+      "id": "RPT-d9c876e8abee::report::r3",
+      "card_id": "RPT-d9c876e8abee",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "c43e7668491d39774da09c27e414cf4c00ce5639ef0ac3a0382c55fdad9b46f3"
+    },
+    {
+      "id": "RPT-d9c876e8abee::atomic::r3",
+      "card_id": "RPT-d9c876e8abee",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "0d08e4af48bdec6961bea26f7d0e42bdccb12323194fc420648870c31f527d3a"
+    },
+    {
+      "id": "RPT-ddcba9332c6e::atomic::r3",
+      "card_id": "RPT-ddcba9332c6e",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "87d1f54d669198d33743bad2d4dbb2c5faa67a6d9437a3a07361778d55fe468e"
+    },
+    {
+      "id": "RPT-ddcba9332c6e::report::r3",
+      "card_id": "RPT-ddcba9332c6e",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "c84204719f316a43e457be7e5c4ba80b4fc26168d1897a1137b861386b0e3f37"
+    },
+    {
+      "id": "RPT-8137797ce891::report::r3",
+      "card_id": "RPT-8137797ce891",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "9d07a9911bb17c1cb5f3770211ecfa427966c7400022b96d0d87f84e9f60894b"
+    },
+    {
+      "id": "RPT-8137797ce891::atomic::r3",
+      "card_id": "RPT-8137797ce891",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "49b050719be978e5d614d7b61f2cb02474584c825f51b50d4b3d7444a63435ee"
+    },
+    {
+      "id": "RPT-0f1bef5ef795::atomic::r3",
+      "card_id": "RPT-0f1bef5ef795",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "a8bd2e090683c41c72e2274b811f3c2d61274faf2128e9439ae9f29f84495cc9"
+    },
+    {
+      "id": "RPT-0f1bef5ef795::report::r3",
+      "card_id": "RPT-0f1bef5ef795",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "58f11e3d20f30827100c2753d5c85f8ec257358ba5268328ee21e2e46ca52707"
+    },
+    {
+      "id": "RPT-b2010c6f3c43::report::r3",
+      "card_id": "RPT-b2010c6f3c43",
+      "arm": "report",
+      "round": 3,
+      "request_sha256": "97f14980c5cd277424dff6d58d913d91151635169c9b2771f43963fd87fc866a"
+    },
+    {
+      "id": "RPT-b2010c6f3c43::atomic::r3",
+      "card_id": "RPT-b2010c6f3c43",
+      "arm": "atomic",
+      "round": 3,
+      "request_sha256": "89a5e8dfb485721f2a0058ea1a676d32365c496b447808b5ca5f2bb77346b734"
+    }
+  ]
+}
