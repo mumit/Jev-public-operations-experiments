@@ -91,3 +91,29 @@ class EvidenceTests(unittest.TestCase):
         row['answers']['metric_change']['probabilities']={'material':.6,'quiet':.4}
         a=assess([row],[packet],[ref])['fixture']['arms']['calculated']['per_round'][0]
         self.assertEqual(a['withheld'],1);self.assertEqual(a['false_displayed_support'],0)
+
+    def test_reader_preserves_service_context(self):
+        from triage_bench.study_page import return_path,render_study
+        from triage_bench.paths import ROOT
+        from types import SimpleNamespace
+        value='/evidence-assessment?dataset=Train+Ticket&card=fixture&arm=calculated&round=2&field=trace_change#input'
+        self.assertEqual(return_path(value),value)
+        page=render_study(SimpleNamespace(root=ROOT),{'doc':'public-evidence','return':value}).decode()
+        self.assertIn('card=fixture&amp;arm=calculated',page)
+        self.assertIn('field=trace_change#input',page)
+
+    def test_inspector_hides_numerical_reference_without_mutating_results(self):
+        from triage_bench.public_evidence_service import PublicEvidenceStudy
+        packet={'id':'card','dataset':'fixture','observation':observation()}
+        ref={'id':'card',**reference(packet['observation'])}
+        outcome={'id':'card','round':1,'choices':{},'field_correct':{},'all_correct':True,'reference_composition':'change_supported',
+                 'composition_correct':True,'false_displayed_support':False,'correct_displayed_support':True}
+        result={'datasets':{'fixture':{'arms':{'observations':{'outcomes':[outcome]}}}}}
+        with tempfile.TemporaryDirectory() as temp:
+            dest=Path(temp);(dest/'responses.jsonl').write_text(json.dumps({'card_id':'card'})+'\n')
+            with patch.object(PublicEvidenceStudy,'verified',return_value=result),patch('triage_bench.public_evidence_service.OUTPUT',dest),patch('triage_bench.public_evidence_service.load',side_effect=lambda p:[packet] if p.name=='inputs.json' else [ref]):
+                study=PublicEvidenceStudy(dest);hidden=study.card('card')
+                self.assertIsNone(hidden['reference'])
+                for key in ('field_correct','reference_composition','composition_correct','false_displayed_support'):self.assertNotIn(key,hidden['outcomes']['observations'][0])
+                self.assertEqual(study.card('card',True)['reference'],ref)
+                self.assertIn('reference_composition',outcome)

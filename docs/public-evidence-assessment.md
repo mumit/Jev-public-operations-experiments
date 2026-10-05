@@ -37,7 +37,7 @@ The frozen fitted ML control remains available in the earlier diagnosis inspecto
 
 The plan freezes source bytes and prerequisite evidence before preparation. Exact request fingerprints freeze before hosted calls. Jev 1.13.0, its endpoint and declared 32,768-token context stay fixed. The budget is 192 calls: 32 cards, two inputs, three serial cyclic rounds, without retries or warmup. Every call contains four questions, giving 768 planned answers. HTTP, network, model-version or context errors stop execution; three consecutive malformed replies also stop it.
 
-Results will show each application's per-question accuracy, all-four card accuracy, composed decisions, displayed false support, correct change-support coverage, paired fixes and losses, and repeated choices. Tied maximum metrics have multiple acceptable references. Failed and missing answers remain in the denominators.
+Results show each application's per-question accuracy, all-four card accuracy, composed decisions, displayed false support, correct change-support coverage, paired fixes and losses, and repeated choices. Tied maximum metrics have multiple acceptable references. Failed and missing answers remain in the denominators.
 
 The predeclared calculated-input check requires complete successful execution, at least 90% accuracy for every question in every round in each application, zero false displayed change-support, at least half of reference change-supported cards displayed correctly per round, and no lower all-four accuracy than observations. These are descriptive diagnostic criteria. Passing does not unlock any protected panel.
 
@@ -45,4 +45,48 @@ The predeclared calculated-input check requires complete successful execution, a
 
 This study downloads no new telemetry. The 22 RE3 evaluation cases, nine remaining RE3 reserves, RE3 Sock Shop and all 140 RE1 reserves remain unopened. None becomes a test set for this task automatically.
 
-A successful diagnostic would justify a separate fresh evidence-assessment protocol under the same reference definition. Failure would identify which bounded judgments need attention before another cause-selection experiment. Either result must stay separate from analyst usefulness, root-cause accuracy and operational reliability.
+The calculated-input diagnostic failed overall. The observations-only result is promising, but substituting it after inspection would violate this protocol. Fresh verification of that input requires a separate plan. These results remain separate from analyst usefulness, root-cause accuracy and operational reliability.
+
+## Results
+
+All 192 calls completed successfully, recording 768 answers. The largest request was 6,863 bytes; input tokens peaked at 2,109. Each sequence lists rounds one, two and three. Every question uses the full 20-card Train Ticket or 12-card Online Boutique denominator, including unknown references.
+
+| Application | Input | Metric change | Duration change | Trace coverage | Strongest metric | All four correct |
+| --- | --- | --- | --- | --- | --- | --- |
+| Train Ticket (20 cards) | Observations | 20 / 20 / 20 | 20 / 20 / 20 | 20 / 20 / 20 | 20 / 20 / 20 | 20 / 20 / 20 |
+| Train Ticket | Calculated | 19 / 20 / 19 | 20 / 20 / 20 | 20 / 20 / 20 | 20 / 20 / 20 | 19 / 20 / 19 |
+| Online Boutique (12 cards) | Observations | 11 / 10 / 11 | 12 / 12 / 12 | 12 / 12 / 12 | 12 / 11 / 11 | 11 / 9 / 10 |
+| Online Boutique | Calculated | 12 / 12 / 12 | 12 / 12 / 12 | 12 / 12 / 12 | 11 / 11 / 11 | 11 / 11 / 11 |
+
+| Application | Input | Correct displayed change-support | Reference change-supported cards | False displayed change-support | Withheld indicators |
+| --- | --- | --- | --- | --- | --- |
+| Train Ticket | Observations | 10 / 10 / 10 | 10 | 0 / 0 / 0 | 0 / 0 / 0 |
+| Train Ticket | Calculated | 8 / 9 / 9 | 10 | 0 / 0 / 0 | 2 / 1 / 1 |
+| Online Boutique | Observations | 2 / 2 / 3 | 5 | 0 / 0 / 0 | 4 / 4 / 3 |
+| Online Boutique | Calculated | 4 / 3 / 4 | 5 | 0 / 0 / 0 | 1 / 2 / 1 |
+
+The indicator also displays correctly classified evidence-limited and no-material-change cards. Correct displayed change-support counts only the cards whose reference supports investigating a change; withholding includes all indicator classes.
+
+The calculated input passes Online Boutique's checks and fails Train Ticket's because it lowers all-four accuracy relative to observations in rounds one and three. Both arms classify duration changes and trace coverage correctly on every card in every round. All 32 cards have at least one eligible metric, so metric-unknown has no model test opportunity here. Trace references include six material, one quiet and 25 unknown cards; 24 have absent coverage, one has limited coverage and seven have adequate counts. High trace agreement therefore mostly tests the unknown branch. Online Boutique has one three-round all-four fix and no repeated loss; Train Ticket has neither. The overall check fails, so no fresh panel opens.
+
+## Inspect the remaining disagreements
+
+In [EVA-4b122fec2849](http://127.0.0.1:8769/evidence-assessment?dataset=Train+Ticket&card=EVA-4b122fec2849&arm=calculated&round=1&field=metric_change#inspect), ts-route-mongo has eligible socket scaled change −16.666667, above the absolute 3.0 boundary. Observations returns material in every round. With added trace arithmetic, Jev returns quiet in rounds one and three at 0.63 and 0.53. Neither incorrect indicator is displayed. The request preserves the socket observation and the question explicitly counts negative changes. The result shows a failure to apply that rule; it does not establish why adding trace fields changed the answer.
+
+For [EVA-12e6912919dd](http://127.0.0.1:8769/evidence-assessment?dataset=Online+Boutique&card=EVA-12e6912919dd&arm=observations&round=1&field=metric_change#evidence), redis has eligible magnitudes 0.0368, zero, 1.0 and zero. The reference is quiet. Observations selects material in all three rounds, at 0.62, 0.53 and 0.58; the fixed boundary withholds all three incorrect support indicators. Calculated selects quiet in every round and fixes all four answers for this card. The added arithmetic covers traces, not these metric values, so this is an observed paired fix rather than evidence that a metric transformation caused it.
+
+In [EVA-39ff3f617b7a](http://127.0.0.1:8769/evidence-assessment?dataset=Online+Boutique&card=EVA-39ff3f617b7a&arm=calculated&round=2&field=metric_channel#evidence), emailservice's eligible socket magnitude is 100, versus memory at 85.889116 and workload at 0.555. Its larger latency changes are ineligible because their missing fraction is 85.3%. The strongest eligible channel is socket. Calculated selects memory in every round; observations selects memory in rounds two and three. This error does not change the composed support indicator, but it gives the wrong supporting metric. Numerical comparisons should stay in code.
+
+## What this says about Jev
+
+Jev agrees with these explicit local evidence rules much more often than it matched injected causes in the preceding study. The targets, context and questions changed together, so the scores are not a paired improvement in root-cause diagnosis. The comparison does show that Jev can answer some bounded evidence questions correctly on these selected examples, including absent traces and insufficient samples.
+
+Observations alone is perfect on these Train Ticket cards, while calculated changes help Online Boutique's material-change classification and displayed support. Arithmetic is not a uniform improvement. The strongest-channel error also survives the added calculations. Treat these as concrete task boundaries, not evidence that probabilities are calibrated or that a model adds value over deterministic rules.
+
+My recommendation is to keep numerical eligibility, change thresholds and strongest-channel selection in code. Jev's next useful test should involve a judgment those rules cannot answer. Alternatively, a new protocol can verify the observations-only diagnostic on fresh public cases under the same numerical policy. That would test generalization, but still would not demonstrate analyst benefit or better fault diagnosis. This choice precedes any new telemetry access.
+
+## Inspect and reproduce
+
+The [evidence-assessment inspector](http://127.0.0.1:8769/evidence-assessment) exposes each question's distribution, all three repeated indicators, hidden/revealed numerical references, eligibility calculations, source observations, added arithmetic and exact requests. Browsing makes no calls.
+
+Restore the eight [public evidence bundles](evidence.md), then run `python -m scripts.verify_public_evidence` with pinned dependencies. The supplement contains only the 32-card preparation and new hosted records. It requires the seven earlier assets; raw telemetry stays in those immutable releases. Verification reconstructs every card, question, numerical reference and outcome without inference. All 22 evaluation cases, nine RE3 reserves, RE3 Sock Shop and 140 RE1 reserves remain unopened.

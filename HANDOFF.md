@@ -2,9 +2,9 @@
 
 ## Current state
 
-Trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-trace-task.md. Restore all seven versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective, scripts.verify_public_confirmation, scripts.verify_public_agreement scripts.verify_public_traces and scripts.verify_public_trace_task. The suite has 100 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-evidence-assessment.md. Restore all eight versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective, scripts.verify_public_confirmation, scripts.verify_public_agreement scripts.verify_public_traces scripts.verify_public_trace_task and scripts.verify_public_evidence. The suite has 110 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -97,3 +97,11 @@ The public-trace-task-v1 bundle adds 192 responses and 56 files after the six hi
 The user chose evidence assessment rather than an ML candidate shortlist. Read docs/public-evidence-assessment.md. The new study selects 32 service cards from the 16 inspected trace-task development recordings, compares observations with calculated trace changes and asks four independent bounded questions. References come from explicit numerical eligibility/change rules, not injected causes. Code composes investigation support. The inherited 0.70 probability boundary is diagnostic only, not calibrated for this new target.
 
 The 192-call protocol consumes no new cases, trains no ML and opens no protected telemetry. Its results must remain diagnostic even if the research checks pass. Freeze source/data provenance before preparation and exact request fingerprints before execution; keep all historical producers unchanged.
+
+## Completed evidence assessment
+
+All 192 calls succeeded, giving 768 answers on 32 selected service cards from 16 inspected recordings. No fresh data was downloaded. Observations gives Train Ticket 20/20 all-four agreement in every round; calculated gives 19/20/19. Online Boutique observations gives 11/9/10 out of twelve; calculated gives 11/11/11. Both arms classify duration changes and trace coverage correctly throughout. Calculated improves Online Boutique but fails Train Ticket's no-lower-accuracy criterion, so the overall diagnostic fails.
+
+No false change-support indicator is displayed at the inherited 0.70 boundary. Correct support is 10/10/10 versus 8/9/9 of ten Train Ticket reference-support cards, and 2/2/3 versus 4/3/4 of five Online Boutique cards. The redis quiet/material error is fixed in all three calculated rounds. The emailservice strongest-metric error survives; Train Ticket socket-change classification loses two rounds. See docs/public-evidence-assessment.md and /evidence-assessment for exact values and requests.
+
+Keep numerical rules and rankings in code. The next choice is a Jev judgment beyond those rules or fresh verification of the observations-only task under a new protocol. Do not substitute observations as this study's candidate after seeing results. Neither choice opens protected telemetry automatically. All completed evidence features, references, data, runner and CLI bytes are frozen. The eighth supplement adds six files and 192 responses; all eight assets preserve 1,669 actual responses in 1,041 files.

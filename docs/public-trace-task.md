@@ -79,3 +79,7 @@ The alternative is a separate ML candidate-selection study with Jev assessing ev
 Open the [four-step inspector](http://127.0.0.1:8769/trace-task). It shows all three recorded responses, hidden/revealed references, local rankings, original metrics, span coverage, calculated changes, exact questions and full request JSON. Browsing makes no model calls.
 
 The largest frozen request was 78,476 bytes, below the unchanged 79,840-byte cap. Recorded input tokens peaked at 28,224. The development plan and exact protocol were committed before execution. The separate source modules, data, requests and assessment are frozen. Restore the seven versioned bundles described in [evidence](evidence.md), then run `python -m scripts.verify_public_trace_task` with the pinned environment. Verification reconstructs the inputs and results without inference.
+
+## Later evidence-assessment diagnostic
+
+The user selected the narrower task. The [evidence-assessment study](public-evidence-assessment.md) reuses these 16 inspected recordings and asks independent numerical change, coverage and strongest-channel questions. It does not reinterpret their injected labels as evidence references. Agreement is much higher, but calculated changes help one application and lose accuracy in the other. Its overall check fails and all protected telemetry remains unopened. The earlier cause-selection result stays unchanged.

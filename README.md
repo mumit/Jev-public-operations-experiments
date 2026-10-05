@@ -8,6 +8,7 @@ The current evidence comes from controlled RCAEval Online Boutique, Sock Shop an
 
 | Study | Held-out evidence | Result |
 |---|---|---|
+| Evidence assessment | 32 selected service cards from 16 inspected recordings, two inputs, three rounds | Observations gives Train Ticket 20/20 all-four matches each round. Calculated gives 19/20/19; Online Boutique improves from 11/9/10 to 11/11/11 of 12. The calculated candidate fails overall. This is numerical policy agreement, not cause accuracy. |
 | Trace-aware task and arithmetic | 16 fresh RE3 development cases, four inputs, three rounds | No repeated fixes. Train Ticket displays no leads; Online Boutique remains 6/6 correct but loses one displayed lead in two rounds. Evaluation stays sealed. |
 | Trace context | 13 RE3 development cases, two inputs, three rounds | No repeated fixes; evaluation remains sealed. Train Ticket metrics/trace matches 1–0–1 / 1–1–1 of 7; Online Boutique 3–3–4 of 6 in both arms. |
 | Disagreement review trigger | 50 RE1 Train Ticket and 50 Sock Shop cases, three rounds | No wrong leads caught. Only correct Jev leads sent to review; Jev and ML agree on the one eligible Sock Shop error. |
@@ -31,10 +32,11 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all seven [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. The trace release adds 78 development responses, raw traces, the audit and both sizing attempts. The trace-task release adds 192 development responses and the four-step comparison. All seven retain measurements, separate references and exact requests, with no synthetic runs or credentials.
+A fresh clone includes source, reports and checkpoints. Restore all eight [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. The trace release adds 78 development responses, raw traces, the audit and both sizing attempts. The trace-task release adds 192 development responses and the four-step comparison. The evidence-assessment release adds 192 four-question diagnostic responses. All eight retain measurements, separate references and exact requests, with no synthetic runs or credentials.
 
 ## Read and inspect
 
+- [Evidence assessment](docs/public-evidence-assessment.md): local changes, missing evidence and the metric that supports investigation.
 - [Trace-aware task](docs/public-trace-task.md): separate task wording and arithmetic, with case-level failures.
 - [Trace study](docs/public-traces.md): dependencies, timing, missing instrumentation and paired development failures.
 - [Disagreement study](docs/public-agreement.md): errors caught, correct guidance lost and shared mistakes on fresh recordings.
@@ -61,12 +63,14 @@ uv run --locked --extra public-data python -m scripts.verify_public_confirmation
 uv run --locked --extra public-data python -m scripts.verify_public_agreement
 uv run --locked --extra public-data python -m scripts.verify_public_traces
 uv run --locked --extra public-data python -m scripts.verify_public_trace_task
+uv run --locked --extra public-data python -m scripts.verify_public_evidence
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
 node --check triage_bench/web/public-repeat.js
 node --check triage_bench/web/public-temporal.js
 node --check triage_bench/web/public-selective.js
 node --check triage_bench/web/public-agreement.js
+node --check triage_bench/web/public-evidence.js
 node --check triage_bench/web/public-trace-task.js
 node --check triage_bench/web/public-traces.js
 node --check triage_bench/web/study.js
@@ -78,6 +82,6 @@ The evidence verifier reconstructs ML from training-only inputs, rebuilds every 
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Inspect the latest [trace-aware comparison](http://127.0.0.1:8769/trace-task). Its development gate failed; 22 RE3 evaluation cases, nine RE3 reserves, RE3 Sock Shop and 140 RE1 reserves remain unopened. All earlier RE2 reserves have completed confirmation. The next decision is a narrower evidence-assessment task or a separate ML candidate-selection study. ML keeps its Online Boutique training recipe; on other applications it is a transfer control, not an optimal or locally retrained model.
+Inspect the latest [evidence-assessment diagnostic](http://127.0.0.1:8769/evidence-assessment). It reuses inspected recordings and opens no protected panels. The calculated input improves Online Boutique but loses Train Ticket accuracy, so its overall check fails. The next choice is a judgment beyond numerical rules or a separately frozen fresh verification of observations-only evidence assessment. All 22 RE3 evaluation cases, nine RE3 reserves, RE3 Sock Shop and 140 RE1 reserves remain unopened. Earlier fitted ML and all cause-selection studies remain preserved.
 
 The repository starts with a fresh Git history. Its public studies retain source provenance from [the earlier repository](https://github.com/mumit/Jev-incident-triage-experiments), without requiring that checkout or its synthetic experiments.
