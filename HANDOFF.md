@@ -2,9 +2,9 @@
 
 ## Current state
 
-Paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-traces.md. Restore all six versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective, scripts.verify_public_confirmation, scripts.verify_public_agreement and scripts.verify_public_traces. The trace additions bring the suite to 92 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-trace-task.md. Restore all seven versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective, scripts.verify_public_confirmation, scripts.verify_public_agreement scripts.verify_public_traces and scripts.verify_public_trace_task. The suite has 100 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -55,7 +55,7 @@ The user selected Jev/ML disagreement as the next review trigger. A separate RE1
 
 The committed public-agreement plan selects 50 fresh RE1 cases per application, in ten intact service/fault groups with five repetitions. It reserves 70 per application. All input construction, Jev questions, candidates, the fitted Online Boutique ML and the 0.70 boundary remain unchanged. An eligible Jev lead becomes review-required when ML disagrees; ML never substitutes its answer. The 300-call budget is three serial rounds with no retries or warmup. Source and request fingerprints freeze before execution. Do not tune or replace cases after inspection.
 
-The new /agreement inspector will expose the paired decisions, both choices, retained wrong agreements, lost correct leads, exact input and actual provider response. References require reveal. Completed historical inference sources remain unchanged.
+The /agreement inspector exposes the paired decisions, both choices, retained wrong agreements, lost correct leads, exact input and actual provider response. References require reveal. Completed historical inference sources remain unchanged.
 
 
 ## Completed disagreement results
@@ -82,4 +82,12 @@ The user selected the recommended trace-aware full-candidate task with explicit 
 
 The separate public-trace-task protocol compares four fixed development inputs: metrics, original trace input, the same trace input with a revised question, and that revised question with explicit arithmetic changes. The last input is the only candidate eligible for promotion. The comparison separates input additions from task wording; metric candidates, service criteria, model, fitted ML and the 0.70 boundary remain unchanged.
 
-A committed plan will reassign four untouched reserve groups to 16 development cases: ten Train Ticket and six Online Boutique. Earlier trace-development cases stay excluded; the 22-case evaluation panel stays protected. Nine RE3 reserve cases remain unopened. Development permits 192 calls; evaluation permits 132 only after complete development passes the fixed gate and the candidate is committed. Read docs/public-trace-task.md before continuation. Do not edit completed trace producers or replace the candidate with a diagnostic arm after results.
+The committed plan reassigned four untouched reserve groups to 16 development cases: ten Train Ticket and six Online Boutique. Earlier trace-development cases stay excluded; the 22-case evaluation panel stays protected. Nine RE3 reserve cases remain unopened. Development permits 192 calls; evaluation permits 132 only after complete development passes the fixed gate and the candidate is committed. Read docs/public-trace-task.md before continuation. Do not edit completed trace producers or replace the candidate with a diagnostic arm after results.
+
+## Completed trace-aware development
+
+All 192 calls completed successfully. Train Ticket metrics/original traces match 1/0/0 of ten; the revised question matches 0/1/0 and arithmetic matches 1/1/1. Every input withholds all ten leads. Online Boutique matches all six targets in every arm and round. Arithmetic displays only 5/5/6 correct leads, versus six in each original control; two different adservice cases cross below 0.70. No comparison has a three-round fix or loss of a first-choice match. Both promotion gates fail. Do not create a candidate or open evaluation under this protocol.
+
+The new /trace-task inspector exposes the four input steps, question wording, explicit duration/rate changes, actual responses and controls. Read docs/public-trace-task.md for the concrete route/adservice examples. The next choice is a narrower evidence-assessment task (recommended) or a separate ML candidate-selection study. The narrower task needs evidence-based references distinct from published injected-service labels. Do not relabel inspected development as held-out data or tune the boundary to display these choices.
+
+The public-trace-task-v1 bundle adds 192 responses and 56 files after the six historical assets. All seven preserve 1,477 actual responses in 1,035 evidence files. The 22 evaluation cases, nine remaining RE3 reserves, RE3 Sock Shop and 140 RE1 reserves stay unopened. Earlier 25-case reserve counts describe completion of the first trace experiment; 16 of those cases became fresh development for this separate protocol. Preserve all completed task sources and exact request fingerprints.

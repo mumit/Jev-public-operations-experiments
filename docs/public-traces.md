@@ -121,3 +121,7 @@ The evaluation gate failed, so the planned 132 evaluation calls did not run. All
 I recommend a focused trace-aware question and explicit before/after trace deltas before another full-candidate comparison. The question should address all supplied telemetry and allow code faults without a large resource change. A new protocol would use untouched groups for development and preserve a separate evaluation panel. Replaying the inspected 13 cases could diagnose wording effects, but could not validate a gain.
 
 An alternative is to strengthen the ML comparator and test Jev as an evidence check on a short candidate list. That changes Jev's task from finding a cause among every service to assessing a supplied lead, so it needs a separate comparison that measures shared errors and lost correct leads. The human decision is whether to continue Jev's full-candidate diagnosis or move to that narrower supporting role.
+
+## Later continuation
+
+The user selected a separate trace-aware question and arithmetic study. Its fresh protocol reassigned 16 of this stage's 25 unopened reserves to development; nine remain unopened. All 192 calls completed and both new gates failed. The 22 evaluation cases remain sealed. See [the trace-aware comparison](public-trace-task.md). This continuation preserves the earlier failed result and does not promote the original trace input.

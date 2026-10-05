@@ -94,3 +94,40 @@ class TraceTaskTests(unittest.TestCase):
         result = trial.paired(rows, refs, 'traces', 'trace_deltas')
         self.assertEqual(result['stable_fixes'], [])
         self.assertFalse(any(r['fix'] for r in result['pairs']))
+
+    def test_inspector_hides_reference_and_expands_named_metrics(self):
+        from triage_bench.public_trace_task_service import PublicTraceTaskStudy
+        packet = {'id': 'case', 'state': {'services': {'a': {'cpu': [1, 2]}}},
+                  'requests': {'metrics': {'state': json.dumps({'services': {'a': {'cpu': {'before_median': 1, 'after_median': 2}}}})}, 'traces': {}}}
+        outcome = {'id': 'case', 'round': 1, 'choice': 'a', 'group': 'answer group', 'target': 'a', 'fault': 'f',
+                   'correct_first': True, 'raw_correct_first': True, 'cause_included': True, 'wrong_leads': 0}
+        assessment = {'datasets': {'fixture': {'comparisons': {'traces__trace_deltas': {'pairs': [{'id': 'case', 'target': 'a', 'fault': 'f'}]}},
+                                              'arms': {'metrics': {'selective': {'outcomes': [outcome]}}}}}}
+        from tempfile import TemporaryDirectory
+        from pathlib import Path
+        with TemporaryDirectory() as temporary:
+            path = Path(temporary);(path/'responses.jsonl').write_text('{}\n')
+            (path/'responses.jsonl').write_text(json.dumps({'case_id': 'case'})+'\n')
+            def fixture_load(file):
+                return [packet] if file.name == 'inputs.json' else {'case': {}}
+            with patch.object(PublicTraceTaskStudy, 'verified', return_value=assessment), \
+                 patch('triage_bench.public_trace_task_service.load', side_effect=fixture_load), \
+                 patch('triage_bench.public_trace_task_service.output', return_value=path):
+                study=PublicTraceTaskStudy(path);hidden=study.case('development','fixture','case')
+                self.assertIsNone(hidden['reference'])
+                for field in ('target','fault','group','correct_first','raw_correct_first'):
+                    self.assertNotIn(field,hidden['outcomes']['metrics'][0])
+                self.assertEqual(hidden['state']['services']['a']['cpu']['after_median'],2)
+                self.assertEqual(study.case('development','fixture','case',True)['reference']['target'],'a')
+                self.assertIn('target',outcome)
+
+    def test_article_keeps_task_case_context_and_blocks_external_return(self):
+        from triage_bench.study_page import return_path,render_study
+        from triage_bench.paths import ROOT
+        from types import SimpleNamespace
+        value='/trace-task?split=development&dataset=Train+Ticket&case=fixture&arm=trace_deltas#input'
+        self.assertEqual(return_path(value),value)
+        self.assertEqual(return_path('https://example.com/trace-task'),'/public-format')
+        page=render_study(SimpleNamespace(root=ROOT),{'doc':'public-trace-task','return':value}).decode()
+        self.assertIn('case=fixture&amp;arm=trace_deltas#input',page)
+        self.assertNotIn('href="https://example.com',page)

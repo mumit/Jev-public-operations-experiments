@@ -12,6 +12,7 @@ from .public_temporal_service import PublicTemporalStudy
 from .public_selective_service import PublicSelectiveStudy
 from .public_agreement_service import PublicAgreementStudy
 from .public_trace_service import PublicTraceStudy
+from .public_trace_task_service import PublicTraceTaskStudy
 
 import os
 from .paths import ROOT
@@ -34,12 +35,12 @@ def profiles():
 class App:
     def __init__(self,root=ROOT):
         self.root=Path(root)
-        self.rca=PublicRCAStudy(root);self.presentation=PublicFormatStudy(root);self.replay=PublicRepeatStudy(root);self.temporal=PublicTemporalStudy(root);self.selective=PublicSelectiveStudy(root);self.agreement=PublicAgreementStudy(root);self.traces=PublicTraceStudy(root)
+        self.rca=PublicRCAStudy(root);self.presentation=PublicFormatStudy(root);self.replay=PublicRepeatStudy(root);self.temporal=PublicTemporalStudy(root);self.selective=PublicSelectiveStudy(root);self.agreement=PublicAgreementStudy(root);self.traces=PublicTraceStudy(root);self.trace_task=PublicTraceTaskStudy(root)
 
 
 def handler_for(app):
     assets={name:('text/javascript' if name.endswith('.js') else 'text/css' if name.endswith('.css') else 'text/html; charset=utf-8') for name in (
-        'public-traces.html','public-traces.js','public-agreement.html','public-agreement.js','index.html','public-rca.html','public-format.html','public-rca.js','public-format.js','study.js',
+        'public-trace-task.html','public-trace-task.js','public-traces.html','public-traces.js','public-agreement.html','public-agreement.js','index.html','public-rca.html','public-format.html','public-rca.js','public-format.js','study.js',
         'public-selective.html','public-selective.js','public-temporal.html','public-temporal.js','public-repeat.html','public-repeat.js','public-repeat.css','public-rca.css','explorer.css','experiment3.css','report-language.css','study.css')}
     class Handler(BaseHTTPRequestHandler):
         def log_message(self,*args):pass
@@ -56,6 +57,8 @@ def handler_for(app):
             if not self.trusted():return self.send(403,{'error':'Local origin required.'})
             p=urlparse(self.path);q={k:v[0] for k,v in parse_qs(p.query).items()}
             try:
+                if p.path=='/api/public-trace-task':return self.send(200,app.trace_task.overview())
+                if p.path=='/api/public-trace-task/case':return self.send(200,app.trace_task.case(q.get('split','development'),q.get('dataset','Train Ticket'),q.get('case'),q.get('reference')=='1'))
                 if p.path=='/api/public-traces':return self.send(200,app.traces.overview())
                 if p.path=='/api/public-traces/case':return self.send(200,app.traces.case(q.get('dataset','Train Ticket'),q.get('case'),q.get('reference')=='1'))
                 if p.path=='/api/public-agreement':return self.send(200,app.agreement.overview())
@@ -75,7 +78,7 @@ def handler_for(app):
                     doc=q.get('doc','public-format')
                     if doc not in DOCUMENTS:raise ValueError('Unknown study document.')
                     return self.send(200,(app.root/DOCUMENTS[doc]).read_bytes(),'text/markdown; charset=utf-8')
-                name={'/':'index.html','/public-rca':'public-rca.html','/public-format':'public-format.html','/repeatability':'public-repeat.html','/temporal':'public-temporal.html','/selective':'public-selective.html','/agreement':'public-agreement.html','/traces':'public-traces.html'}.get(p.path,p.path.lstrip('/'))
+                name={'/':'index.html','/public-rca':'public-rca.html','/public-format':'public-format.html','/repeatability':'public-repeat.html','/temporal':'public-temporal.html','/selective':'public-selective.html','/agreement':'public-agreement.html','/traces':'public-traces.html','/trace-task':'public-trace-task.html'}.get(p.path,p.path.lstrip('/'))
                 if name in assets:return self.send(200,(Path(__file__).parent/'web'/name).read_bytes(),assets[name])
                 return self.send(404,{'error':'Page not found.'})
             except (ValueError,KeyError,StopIteration):return self.send(400,{'error':'The requested evidence is invalid or unavailable.'})
