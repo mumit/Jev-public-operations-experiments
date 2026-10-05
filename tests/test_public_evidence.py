@@ -117,3 +117,33 @@ class EvidenceTests(unittest.TestCase):
                 for key in ('field_correct','reference_composition','composition_correct','false_displayed_support'):self.assertNotIn(key,hidden['outcomes']['observations'][0])
                 self.assertEqual(study.card('card',True)['reference'],ref)
                 self.assertIn('reference_composition',outcome)
+
+    def test_model_mismatch_stops_and_redacts_provider_echo(self):
+        from triage_bench import public_evidence_trial as trial
+        from triage_bench.app import profiles
+        profile=profiles()['jev'];profile['api_key']='test-key-private-evidence'
+        body=request(observation(),'observations')
+        planned=[{'id':'card::observations::r1','card_id':'card','arm':'observations','round':1,'request_sha256':'fixture','body':body}]
+        plan={k:profile[k] for k in ('model','endpoint','context_tokens')}
+        raw={'model':'wrong','echo':profile['api_key']}
+        response=MagicMock();response.__enter__.return_value.read.return_value=json.dumps(raw).encode()
+        opener=MagicMock();opener.open.return_value=response
+        with tempfile.TemporaryDirectory() as temp:
+            path=Path(temp)/'hosted';protocol=Path(temp)/'protocol.json';protocol.write_text('{}')
+            with patch.object(trial,'check',return_value=(plan,planned)),patch.object(trial,'OUTPUT',path),patch.object(trial,'PROTOCOL',protocol),patch('urllib.request.build_opener',return_value=opener):
+                result=trial.run(profile)
+                self.assertEqual(result['stopped_reason'],'checkpoint_mismatch')
+                self.assertEqual(result['failed'],1)
+                self.assertNotIn(profile['api_key'],(path/'responses.jsonl').read_text())
+                with self.assertRaises(FileExistsError):trial.run(profile)
+                self.assertEqual(opener.open.call_count,1)
+
+    def test_overview_keeps_numeric_card_count_separate_from_choices(self):
+        from triage_bench.public_evidence_service import PublicEvidenceStudy
+        packet={'id':'card','dataset':'fixture','case_id':'source','selection':'fixture','observation':observation()}
+        result={'datasets':{'fixture':{'cards':1,'pairs':[{'id':'card'}],'stable_fixes':[],'stable_losses':[],
+                                      'arms':{'observations':{'outcomes':[]}}}}}
+        with patch.object(PublicEvidenceStudy,'verified',return_value=result),patch('triage_bench.public_evidence_service.load',return_value=[packet]):
+            panel=PublicEvidenceStudy('.').overview()['datasets']['fixture']
+            self.assertEqual(panel['cards'],1)
+            self.assertEqual(panel['card_choices'][0]['id'],'card')

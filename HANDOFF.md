@@ -4,7 +4,7 @@
 
 Evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-evidence-assessment.md. Restore all eight versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective, scripts.verify_public_confirmation, scripts.verify_public_agreement scripts.verify_public_traces scripts.verify_public_trace_task and scripts.verify_public_evidence. The suite has 110 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-evidence-assessment.md. Restore all eight versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective, scripts.verify_public_confirmation, scripts.verify_public_agreement scripts.verify_public_traces scripts.verify_public_trace_task and scripts.verify_public_evidence. The suite has 112 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 

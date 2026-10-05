@@ -97,3 +97,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_trace_task
 ```
 
 All seven assets preserve 1,477 actual responses in 1,035 files. Both new development gates fail; the 22 evaluation cases and nine remaining RE3 reserves have no telemetry in this supplement. Sixteen cases from the earlier stage's 25 reserves became development for this separately frozen study. All historical assets remain unchanged.
+
+## Evidence-assessment diagnostic
+
+The [public-evidence-assessment-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-evidence-assessment-v1) adds 192 responses containing 768 answers on 32 service cards from 16 already inspected recordings. Its six files preserve the selected observations, separate numerical references, two exact request forms and execution records. It downloads no fresh telemetry. The archive is 73,359 bytes and requires all seven earlier assets.
+
+```bash
+gh release download public-evidence-assessment-v1 --repo mumit/Jev-public-operations-experiments --pattern public-evidence-assessment-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-evidence-assessment-v1.tar.gz --manifest evidence/public-evidence-assessment-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_evidence
+```
+
+All eight releases preserve 1,669 actual responses in 1,041 files. The new questions use numerical policy references, not injected-service labels. Calculated changes pass Online Boutique's checks but lose Train Ticket accuracy, so the overall diagnostic fails. Restoring and verification make no calls; all protected telemetry remains unopened. Earlier assets remain unchanged.

@@ -17,7 +17,7 @@ class PublicEvidenceStudy:
         except (OSError,ValueError,KeyError):return {'available':False,'notes':['Verified evidence-assessment results are unavailable.']}
         result=copy.deepcopy(assessment);packets=load(DATA/'inputs.json')
         for name,panel in result['datasets'].items():
-            panel['cards']=[{'id':p['id'],'service':p['observation']['service'],'case_id':p['case_id'],'selection':p['selection']} for p in packets if p['dataset']==name]
+            panel['card_choices']=[{'id':p['id'],'service':p['observation']['service'],'case_id':p['case_id'],'selection':p['selection']} for p in packets if p['dataset']==name]
             panel['card_ids']=list(dict.fromkeys(r['id'] for r in panel.pop('pairs')))
             panel['stable_fix_count']=len(panel.pop('stable_fixes'));panel['stable_loss_count']=len(panel.pop('stable_losses'))
             for arm in panel['arms'].values():arm.pop('outcomes')
