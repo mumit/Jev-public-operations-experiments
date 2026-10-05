@@ -2,9 +2,9 @@
 
 ## Current state
 
-Two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-confirmation.md. Restore all five versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective scripts.verify_public_confirmation and scripts.verify_public_agreement. The suite passes 81 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-traces.md. Restore all six versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective scripts.verify_public_confirmation, scripts.verify_public_agreement and scripts.verify_public_traces. The trace additions bring the suite to 92 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -64,4 +64,16 @@ All 300 calls succeeded on the fixed 100-case RE1 panel. Disagreement catches no
 
 The descriptive gate is not established. Its frozen no_error_opportunity label refers to the requirement for eligible errors in every round, not absence of all Sock Shop errors. The report and inspector show the actual retained error explicitly. All five bundles preserve 1,207 actual responses. The separate public-agreement-v1 supplement also preserves ten schema-audit cases; prior releases remain unchanged.
 
-Seventy RE1 cases per application remain unopened. Current RE1 evaluation and audit groups are inspected and cannot validate later changes. The pending human choice is causal evidence for Jev, a stronger ML comparator, or unchanged-policy reserve confirmation. Causal evidence is recommended because both models share the fresh error. Do not open reserves or change inference before that choice and a new frozen protocol.
+Seventy RE1 cases per application remain unopened. Current RE1 evaluation and audit groups are inspected and cannot validate later changes. The user subsequently selected richer causal evidence. The paired trace experiment below preserves this disagreement study unchanged.
+
+## Completed trace development
+
+The user selected richer causal evidence. A seven-case RE3 trace audit precedes paired development on seven Train Ticket and six Online Boutique code-fault recordings. All groups stay intact. Evaluation has 22 unopened cases and reserve has 25; the 140 RE1 reserves and RE3 Sock Shop remain unopened. These are application faults, not telecom validation.
+
+The first named trace representation exceeded the empirical byte cap: 83,517 versus 79,840. It made no model calls. Preserve its original plan, source and 13-case preparation. The separate v2 protocol encodes per-service trace rows using declared columns, with exact lossless expansion and every metric/question unchanged. Its largest request is 73,628 bytes; recorded tokens peak at 26,228. Preserve all fingerprinted producers after this run.
+
+All 78 calls succeeded. Train Ticket metric-only first choices match 1/0/1 out of seven; traces match 1/1/1. The 0.70 boundary withholds every lead. Online Boutique matches 3/3/4 out of six in both arms, displays three correct leads per round and withholds three. Neither application has a repeated fix. Frozen ML matches 6/7 and 3/6; trace-duration ranking matches 2/7 and 0/6. The promotion gate fails. Do not create a candidate, download evaluation or spend its 132 calls.
+
+Inspect /traces and docs/public-traces.md. The trace release adds 78 responses and retains the audit, both data representations, source telemetry and controls. All six assets preserve 1,285 actual responses. Verify with scripts.verify_public_traces after restoring the previous five bundles.
+
+The pending choice is a trace-aware full-candidate Jev task with explicit trace deltas, or a stronger ML candidate selector with Jev checking supporting evidence. The first is recommended to resolve the existing metric-focused question before narrowing Jev's role. A fresh protocol must allocate untouched development groups without consuming the protected evaluation as feedback. Inspected development replays are diagnostic only. Never lower the boundary merely to expose withheld choices.
