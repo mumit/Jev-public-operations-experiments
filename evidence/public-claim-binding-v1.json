@@ -1,0 +1,48 @@
+{
+  "schema": "public-claim-binding-evidence-1",
+  "archive": "public-claim-binding-v1.tar.gz",
+  "archive_sha256": "d7e3cabb561691c2bf340d9e743ea85c04fd2f7409a4a6650c483b7dad5ed24b",
+  "bytes": 216247,
+  "source_commit": "abf294329d4d9e63b4ef95836f070abcbf377a06",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 672,
+  "files": {
+    "runs/public-claim-binding/diagnostic-data-2026-10-05-v1/inputs.json": {
+      "bytes": 1844348,
+      "sha256": "e665897ac9e84a2d0b3f67870c8e1460e5201bb8b2512bd6a522ef900b92004a"
+    },
+    "runs/public-claim-binding/diagnostic-data-2026-10-05-v1/manifest.json": {
+      "bytes": 436,
+      "sha256": "b19e6b73da43baa3d8a1dbe7342165a616206c4a9e6384bf18df2e92fe2a84ba"
+    },
+    "runs/public-claim-binding/diagnostic-data-2026-10-05-v1/references.json": {
+      "bytes": 47780,
+      "sha256": "6ee0a747743790f9fe0ebd2544dd2848b0767a820dfdf468675084e3a2a7357c"
+    },
+    "runs/public-claim-binding/diagnostic-hosted-2026-10-05-v1/requests.json": {
+      "bytes": 5372130,
+      "sha256": "057aba20d3278f564675540a528df1117a049657a9d5a8f707e61d7345300978"
+    },
+    "runs/public-claim-binding/diagnostic-hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 657370,
+      "sha256": "5ecd0cc4b6c661a13b3b4d37ab4d6136b349f4259c4cbceb4db8687b6158027d"
+    },
+    "runs/public-claim-binding/diagnostic-hosted-2026-10-05-v1/summary.json": {
+      "bytes": 458,
+      "sha256": "62dacfc90acd214954849c9c69237dd1a8b63c2991c2462405325e724172d2ce"
+    }
+  }
+}

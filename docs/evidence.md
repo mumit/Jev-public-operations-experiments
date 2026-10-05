@@ -148,3 +148,16 @@ uv run --locked --extra public-data python -m scripts.verify_public_reports
 ```
 
 Restore in order. The latest verifier checks all eleven studies and both original pack validators without inference. Direct judgments are correct throughout; report lookup repeats two withheld errors and fails both comparison checks. These authored notes reuse inspected telemetry. Protected recordings stay unopened and historical releases stay unchanged.
+
+
+## Explicit binding and scope supplement
+
+The [public-claim-binding-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-claim-binding-v1) adds 672 calls and 1,152 verdicts on the same 16 reports. It retains four controlled steps: numbered lookup, bound text, one-claim grouping and scoped service facts. Six files preserve unchanged reports/references, exact requests and individual provider responses. The archive is 216,247 bytes and requires all eleven earlier assets. All twelve preserve 3,085 actual responses in 1,065 files.
+
+```bash
+gh release download public-claim-binding-v1 --repo mumit/Jev-public-operations-experiments --pattern public-claim-binding-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-claim-binding-v1.tar.gz --manifest evidence/public-claim-binding-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_binding
+```
+
+Restore assets in order. The latest verifier checks all twelve studies and both original pack validators without inference. Explicit binding fixes both repeated lookup errors; one-claim grouping introduces a one-round regression; scoped facts judge and display every claim correctly. The full sequence fails, while binding and scope pass their separate checks. All protected recordings remain unopened and historical releases stay immutable.
