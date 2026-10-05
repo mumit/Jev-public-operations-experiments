@@ -1,0 +1,30 @@
+{
+  "schema": "public-trace-task-verification-1",
+  "date": "2026-10-04",
+  "source_commit_verified": "05189ecd98bca8e94f18eee350e94da3d3bdbe00",
+  "fresh_clone": "independent local clone with restored public assets",
+  "evidence_assets": 7,
+  "evidence_files": 1035,
+  "recorded_responses": 1477,
+  "new_hosted_calls_during_verification": 0,
+  "python_tests": 100,
+  "browser_scripts": 9,
+  "evidence_verifiers": 7,
+  "original_pack_validators": 2,
+  "all_passed": true,
+  "archive_sha256": "42e1b198834f6ac441848e33759f28a5d30432b8ec8df40b0ec6778f389516bf",
+  "development_gate": false,
+  "evaluation_sealed": true,
+  "remaining_re3_reserves": 9,
+  "browser_checks": [
+    "application panels",
+    "adjacent comparisons",
+    "input and round selection",
+    "reference reveal",
+    "missing adservice coverage",
+    "lost correct display",
+    "duration and span-rate calculations",
+    "exact question and request",
+    "formatted article and case return context"
+  ]
+}

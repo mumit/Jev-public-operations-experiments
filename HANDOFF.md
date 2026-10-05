@@ -68,7 +68,7 @@ Seventy RE1 cases per application remain unopened. Current RE1 evaluation and au
 
 ## Completed trace development
 
-The user selected richer causal evidence. A seven-case RE3 trace audit precedes paired development on seven Train Ticket and six Online Boutique code-fault recordings. All groups stay intact. Evaluation has 22 unopened cases and reserve has 25; the 140 RE1 reserves and RE3 Sock Shop remain unopened. These are application faults, not telecom validation.
+The user selected richer causal evidence. A seven-case RE3 trace audit precedes paired development on seven Train Ticket and six Online Boutique code-fault recordings. All groups stay intact. At this stage, evaluation had 22 unopened cases and reserve had 25; the 140 RE1 reserves and RE3 Sock Shop remain unopened. These are application faults, not telecom validation.
 
 The first named trace representation exceeded the empirical byte cap: 83,517 versus 79,840. It made no model calls. Preserve its original plan, source and 13-case preparation. The separate v2 protocol encodes per-service trace rows using declared columns, with exact lossless expansion and every metric/question unchanged. Its largest request is 73,628 bytes; recorded tokens peak at 26,228. Preserve all fingerprinted producers after this run.
 
