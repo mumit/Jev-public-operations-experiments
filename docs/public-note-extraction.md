@@ -26,6 +26,8 @@ The parser recognizes literal phrases and explicit service names. It has no fitt
 
 ## Frozen setup
 
+The first builder produced a 113,081-byte request, exceeding the frozen 79,840-byte cap before any call. Its plan, data and sizing failure remain preserved. A separate v2 builder puts each unchanged task definition once in the state and references it from focused questions. It shortens option descriptions while retaining every service name, sentence and option key. Its largest request is 70,686 bytes.
+
 The plan and producers commit before preparation. The rendered notes, annotations and exact extraction requests commit before 27 calls. Actual extraction responses determine the dependent requests, which receive a separate committed protocol before at most 81 verdict calls. Three rounds measure variation on the same nine notes. Calls run once, without retries, text repair, threshold search or post-result substitution.
 
 The maximum budget is 108 calls and 2,916 answers; acceptance can reduce the verdict budget. No accepted candidates means an explicit application skip, with no invented provider reply. The earlier 22 cause-evaluation recordings, 30 RE3 Sock Shop cases and 140 RE1 reserves remain protected.

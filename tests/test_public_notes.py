@@ -150,3 +150,61 @@ class NoteTests(unittest.TestCase):
                 self.assertEqual(result['status'], 'completed')
                 self.assertNotIn('raw_response', row)
                 self.assertFalse(opener.open.called)
+
+
+class CompactNoteTests(unittest.TestCase):
+    def test_compact_questions_preserve_note_inventory_spans_and_option_keys(self):
+        from triage_bench.public_note_v2_features import extraction_request
+        p, r = NoteTests().fixture()
+        original = p['extraction_request']; compact = extraction_request(p)
+        a, b = json.loads(original['state']), json.loads(compact['state'])
+        definitions = b.pop('extraction_definitions')
+        self.assertEqual(a, b)
+        self.assertEqual(set(definitions), set(DIMENSIONS))
+        for field, question in compact['questions'].items():
+            dimension = field.split('_', 1)[1]
+            self.assertEqual(set(question['criteria']), set(original['questions'][field]['criteria']))
+            self.assertIn('extraction_definitions.' + dimension, question['instructions'])
+            self.assertIn('Resolve pronouns only from a unique antecedent', definitions['service'])
+        self.assertIn('Two or more independently checkable assertions', definitions['role'])
+        self.assertIn('other thresholds', definitions['kind'])
+        self.assertIn('zero or negative', definitions['polarity'])
+
+    def test_compact_composition_and_verdict_helpers_are_original_frozen_functions(self):
+        from triage_bench import public_note_features as original, public_note_v2_features as compact
+        for name in ('extraction', 'parser', 'annotated', 'semantics', 'verdict_request'):
+            self.assertIs(getattr(compact, name), getattr(original, name))
+
+
+class NoteReaderTests(unittest.TestCase):
+    def test_reader_preserves_selected_note_method_dimension_and_section(self):
+        from types import SimpleNamespace
+        from triage_bench.paths import ROOT
+        from triage_bench.study_page import render_study, return_path
+        value = '/note-extraction?dataset=Online+Boutique&card=sample&arm=parser&sentence=s06&round=2&dimension=service#input'
+        self.assertEqual(return_path(value), value)
+        page = render_study(SimpleNamespace(root=ROOT), {'doc':'public-note-extraction','return':value}).decode()
+        self.assertIn('arm=parser&amp;sentence=s06', page)
+        self.assertIn('dimension=service#input', page)
+
+    def test_missing_evidence_does_not_become_empty_success(self):
+        from triage_bench.public_note_service import PublicNoteStudy
+        with patch.object(PublicNoteStudy, 'verified', side_effect=FileNotFoundError):
+            self.assertFalse(PublicNoteStudy(Path('.')).overview()['available'])
+
+    def test_reveal_hides_gold_and_does_not_mutate_cached_results(self):
+        from triage_bench import public_note_service as service
+        packet = {'id':'p','dataset':'Sample'}
+        o = {'id':'p','sentence':'s01','gold_role':'assertion','reference':'supported','end_to_end_correct':True,'unsafe_displayed':False}
+        result = {'datasets':{'Sample':{'arms':{'jev':{'outcomes':[o]}}}}}
+        with tempfile.TemporaryDirectory() as t:
+            path=Path(t);(path/'responses.jsonl').write_text('{"card_id":"p"}\n')
+            def fixture(p):
+                return [packet] if p.name=='inputs.json' else [{'id':'p','annotations':[]}] if p.name=='references.json' else {'bindings':[]} if 'protocol' in p.name else []
+            with patch.object(service.PublicNoteStudy,'verified',return_value=result),patch.object(service,'load',side_effect=fixture),patch.object(service,'output',return_value=path):
+                study=service.PublicNoteStudy(path);hidden=study.card('p')
+                self.assertIsNone(hidden['reference'])
+                self.assertNotIn('end_to_end_correct',hidden['outcomes']['jev'][0])
+                self.assertNotIn('reference',hidden['outcomes']['jev'][0])
+                self.assertIn('reference',o)
+                self.assertIsNotNone(study.card('p',True)['reference'])

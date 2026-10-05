@@ -1,0 +1,11 @@
+{
+  "schema": "public-note-sizing-1",
+  "status": "pre_inference_wire_cap",
+  "plan_sha256": "26e39464b411c42a9b9cea301183525a54c1e0c40999bd9aa7cfce23f5ae32fb",
+  "manifest_sha256": "b239ffe7470e983eecf10acc28b49a92c85e88e713001867b7a522d34ed3b0fe",
+  "largest_request_bytes": 113081,
+  "maximum_request_bytes": 79840,
+  "actual_calls": 0,
+  "protocol_created": false,
+  "reason": "The frozen request planner rejected the over-cap body before creating an executable protocol."
+}
