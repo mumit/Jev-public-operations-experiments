@@ -8,6 +8,7 @@ The current evidence comes from controlled RCAEval Online Boutique, Sock Shop an
 
 | Study | Evidence | Result |
 |---|---|---|
+| Claim wording | 152 propositions with three wordings, 32 inspected cards, three rounds | Every verdict is correct for all wordings and rounds. Explicit comparisons reduce withholding; no displayed errors. Specific authored paraphrases pass, with real reports and fresh incidents still untested. |
 | Written claim assessment | 96 constructed statements on 32 inspected cards, two inputs, three rounds | Ledger: 60/60 Train Ticket and 36/36 Online Boutique verdicts correct every round; observations: 58/60 and 33/36. Five repeated errors fixed; no losses. Diagnostic passes, with varied wording and fresh generalization still untested. |
 | Evidence assessment | 32 selected service cards from 16 inspected recordings, two inputs, three rounds | Observations gives Train Ticket 20/20 all-four matches each round. Calculated gives 19/20/19; Online Boutique improves from 11/9/10 to 11/11/11 of 12. The calculated candidate fails overall. This is numerical policy agreement, not cause accuracy. |
 | Trace-aware task and arithmetic | 16 fresh RE3 development cases, four inputs, three rounds | No repeated fixes. Train Ticket displays no leads; Online Boutique remains 6/6 correct but loses one displayed lead in two rounds. Evaluation stays sealed. |
@@ -33,10 +34,11 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all nine [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. The trace release adds 78 development responses, raw traces, the audit and both sizing attempts. The trace-task release adds 192 development responses and the four-step comparison. The evidence-assessment release adds 192 four-question diagnostic responses. The claim-assessment release adds 192 three-question responses on 96 constructed statements. All nine retain measurements, separate references and exact requests, with actual provider responses, public source measurements and no credentials. The latest claims use authored templates.
+A fresh clone includes source, reports and checkpoints. Restore all ten [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. The trace release adds 78 development responses, raw traces, the audit and both sizing attempts. The trace-task release adds 192 development responses and the four-step comparison. The evidence-assessment release adds 192 four-question diagnostic responses. The claim-assessment release adds 192 three-question responses on 96 constructed statements. The wording release adds 456 calls and 1,368 answers on 152 propositions. All ten retain measurements, separate references and exact requests, with actual provider responses, public source measurements and no credentials. The latest claims use authored templates.
 
 ## Read and inspect
 
+- [Claim wording](docs/public-claim-language.md): paraphrases, negation and actual missing-versus-zero observations.
 - [Written claim assessment](docs/public-claim-assessment.md): compare observations with an explicit fact ledger.
 - [Evidence assessment](docs/public-evidence-assessment.md): local changes, missing evidence and the metric that supports investigation.
 - [Trace-aware task](docs/public-trace-task.md): separate task wording and arithmetic, with case-level failures.
@@ -65,7 +67,7 @@ uv run --locked --extra public-data python -m scripts.verify_public_confirmation
 uv run --locked --extra public-data python -m scripts.verify_public_agreement
 uv run --locked --extra public-data python -m scripts.verify_public_traces
 uv run --locked --extra public-data python -m scripts.verify_public_trace_task
-uv run --locked --extra public-data python -m scripts.verify_public_claims
+uv run --locked --extra public-data python -m scripts.verify_public_claim_language
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
 node --check triage_bench/web/public-repeat.js
@@ -74,6 +76,7 @@ node --check triage_bench/web/public-selective.js
 node --check triage_bench/web/public-agreement.js
 node --check triage_bench/web/public-evidence.js
 node --check triage_bench/web/public-claims.js
+node --check triage_bench/web/public-claim-language.js
 node --check triage_bench/web/public-trace-task.js
 node --check triage_bench/web/public-traces.js
 node --check triage_bench/web/study.js
@@ -85,4 +88,4 @@ The evidence verifier reconstructs ML from training-only inputs, rebuilds every 
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Inspect the latest [written-claim diagnostic](http://127.0.0.1:8769/claim-assessment). The fact ledger answers all 96 constructed statements correctly in all three rounds and fixes five repeated errors. This passes the frozen diagnostic checks on inspected data. Next, test varied wording and missing-versus-zero distinctions before fresh-telemetry confirmation. All 22 RE3 evaluation cases, nine RE3 reserves, RE3 Sock Shop and 140 RE1 reserves remain unopened. Earlier fitted ML and all completed studies remain preserved.
+Inspect the latest [wording diagnostic](http://127.0.0.1:8769/claim-language). All three wordings of 152 propositions receive correct verdicts in every round. Explicit comparisons display more correct verdicts without observed errors, but these are authored templates on inspected data. Next, test short reports containing independently scored claims and multiple services. All 22 RE3 evaluation cases, nine RE3 reserves, RE3 Sock Shop and 140 RE1 reserves remain unopened. Earlier fitted ML and all completed studies remain preserved.

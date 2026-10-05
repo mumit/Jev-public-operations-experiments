@@ -66,4 +66,29 @@ class LanguageTests(unittest.TestCase):
                 self.assertNotIn(profile['api_key'],(path/'responses.jsonl').read_text())
                 with self.assertRaises(FileExistsError):trial.run(profile)
                 self.assertEqual(opener.open.call_count,1)
+    def test_hidden_reference_fields_do_not_mutate_source(self):
+        from triage_bench.public_claim_language_service import PublicClaimLanguageStudy
+        packet={'id':'one','dataset':'Sample','observation':observation()};reference={'id':'one','answer':'supported'}
+        outcome={'id':'one','round':1,'reference':'supported','correct':True,'false_displayed_support':False,'false_displayed_contradiction':False,'unknown_to_decisive':False,'correct_displayed_support':True}
+        result={'datasets':{'Sample':{'forms':{'plain':{'outcomes':[outcome]}}}}}
+        with tempfile.TemporaryDirectory() as temp:
+            path=Path(temp);(path/'responses.jsonl').write_text(json.dumps({'card_id':'one'})+'\n')
+            with patch.object(PublicClaimLanguageStudy,'verified',return_value=result),patch('triage_bench.public_claim_language_service.OUTPUT',path),patch('triage_bench.public_claim_language_service.load',side_effect=lambda p:[packet] if p.name=='inputs.json' else [reference]):
+                study=PublicClaimLanguageStudy(path);hidden=study.card('one');self.assertIsNone(hidden['reference'])
+                for key in ('reference','correct','false_displayed_support','false_displayed_contradiction','unknown_to_decisive','correct_displayed_support'):self.assertNotIn(key,hidden['outcomes']['plain'][0])
+                self.assertEqual(study.card('one',True)['reference'],reference);self.assertIn('reference',outcome)
+    def test_overview_preserves_counts_and_separate_choices(self):
+        from triage_bench.public_claim_language_service import PublicClaimLanguageStudy
+        packet={'id':'one','dataset':'Sample','selection':'measured_zero','observation':observation(),'statements':{'statement_a':'Claim.'},'form_fields':{'canonical':'statement_a'}}
+        result={'datasets':{'Sample':{'propositions':1,'service_cards':1,'pairs':[],'stable_fixes':[],'stable_losses':[],'forms':{'plain':{'outcomes':[],'stable_correct_ids':[]}}}}}
+        with patch.object(PublicClaimLanguageStudy,'verified',return_value=result),patch('triage_bench.public_claim_language_service.load',return_value=[packet]):
+            panel=PublicClaimLanguageStudy('.').overview()['datasets']['Sample'];self.assertEqual(panel['propositions'],1);self.assertEqual(panel['service_cards'],1);self.assertEqual(panel['proposition_choices'][0]['id'],'one')
+    def test_reader_return_preserves_selected_wording(self):
+        from types import SimpleNamespace
+        from triage_bench.study_page import return_path,render_study
+        from triage_bench.paths import ROOT
+        value='/claim-language?dataset=Train+Ticket&card=fixture&form=rephrased&round=2#input'
+        self.assertEqual(return_path(value),value)
+        page=render_study(SimpleNamespace(root=ROOT),{'doc':'public-claim-language','return':value}).decode()
+        self.assertIn('card=fixture&amp;form=rephrased',page);self.assertIn('round=2#input',page)
 if __name__=='__main__':unittest.main()

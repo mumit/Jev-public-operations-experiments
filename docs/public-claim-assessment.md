@@ -64,3 +64,8 @@ The result does not establish added value over a parser that recognizes these fi
 The next diagnostic will test meaning-preserving paraphrases and difficult distinctions on these same facts before spending untouched telemetry. Keep the ledger and verdict policy fixed. Independently write and review alternative claims, include negation and absent-versus-zero observations, and remove the one-of-each-class balance from the card construction. Preserve references at the proposition level, so wording changes cannot silently change the answer.
 
 That diagnostic needs a separately committed language protocol and call budget. Any later fresh-telemetry confirmation needs a new allocation and frozen evaluation plan. Protected recordings remain unopened. Inspect this study at [the claim explorer](http://127.0.0.1:8769/claim-assessment); browsing uses recorded responses only.
+
+
+## Subsequent wording diagnostic
+
+The separately frozen [wording study](public-claim-language.md) now tests three equivalent forms of 152 propositions, including recorded-count and actual-zero claims. Every verdict is correct in every round. Explicit comparisons display more correct answers than the new original-wording control, with no displayed errors. These results consume no fresh telemetry and do not replace the frozen comparison above.

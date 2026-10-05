@@ -2,9 +2,9 @@
 
 ## Current state
 
-Written-claim and evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
+Wording, written-claim and evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-claim-assessment.md. Restore all nine versioned evidence bundles, then run scripts.verify_public_claims, which checks the full dependency chain and both original pack validators. The suite has 123 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-claim-language.md. Restore all ten versioned evidence bundles, then run scripts.verify_public_claim_language, which checks the full dependency chain and both original pack validators. The suite has 133 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -116,3 +116,12 @@ All 192 calls succeed, returning 576 answers. The predeclared fact-ledger candid
 The /claim-assessment inspector shows each statement, exact requests, arithmetic, probabilities, repeated responses and explicit reference reveal. docs/public-claim-assessment.md explains the −23.93% and −31.13% duration examples and the scaled memory change. This result supports bounded claim checking with code-calculated facts. It does not establish unrestricted report parsing, causal diagnosis, added value over a template parser or held-out generalization.
 
 The next diagnostic should keep the ledger and verdict policy fixed while testing independently written paraphrases, negation and absent-versus-zero distinctions on inspected facts. Remove balanced card construction to reduce artifacts. Freeze a new language protocol and budget before calls; a later fresh-telemetry test needs its own allocation and frozen evaluation plan. No protected panel opens automatically. All five claim producer sources and both committed request/data checkpoints are frozen. The ninth bundle adds six files and 192 responses, preserving 1,861 actual responses in 1,047 files across all releases.
+
+
+## Completed wording diagnostic
+
+The user authorized the wording diagnostic on 2026-10-05. It reuses the unchanged ledger and typed verdict policy, asks three wordings of one proposition per request, shuffles their field positions and removes the one-of-each-class request pattern. The 152 propositions comprise all 96 earlier propositions, 32 recorded-count claims and 24 actual eligible-zero direction claims. No measurements are altered; no new telemetry is opened.
+
+All 456 calls succeed, returning 1,368 valid answers. Original, direct and alternative wording each give Train Ticket 93/93 and Online Boutique 59/59 correct verdicts in every round. Both alternative-wording gates pass; no displayed verdict is wrong. Unknown references stay unknown and measured zeros stay numeric. Original wording withholds twelve correct answers across all rounds; direct and alternative wording each withhold three. Some display decisions still vary. Explicit comparisons improve displayed coverage on the adservice memory pair; see docs/public-claim-language.md and /claim-language for exact text and probabilities.
+
+These are authored equivalent templates on inspected controlled faults, not authentic reports or fresh generalization. The next useful task is a short report with multiple independently scored claims and explicitly named services, using a new frozen language protocol before calls. Fresh telemetry still needs a separate allocation and evaluation plan. Preserve the four new wording producer sources, all historical producers and exact completed protocols. The tenth bundle adds six files and 456 responses; all ten preserve 2,317 actual responses in 1,053 evidence files.
