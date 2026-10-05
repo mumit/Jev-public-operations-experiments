@@ -1,0 +1,33 @@
+{
+  "schema": "public-evidence-assessment-verification-1",
+  "date": "2026-10-04",
+  "source_commit_verified": "32d193ee5711800e70b2d548c83cd54604c56310",
+  "fresh_clone": "Independent local clone, public assets restored",
+  "evidence_assets": 8,
+  "evidence_files": 1041,
+  "recorded_responses": 1669,
+  "diagnostic_calls": 192,
+  "diagnostic_answers": 768,
+  "new_hosted_calls_during_verification": 0,
+  "python_tests": 112,
+  "skipped_tests": 0,
+  "browser_scripts": 10,
+  "chained_evidence_verifiers": 8,
+  "original_pack_validators": 2,
+  "all_passed": true,
+  "archive_sha256": "485b3b4d779c8ab48b40e6b47d849c1598764a66d160f0bbb0d657df175a4ddc",
+  "diagnostic_only": true,
+  "research_gate": false,
+  "protected_data_unopened": true,
+  "fresh_cases_consumed": 0,
+  "browser_checks": [
+    "both application panels",
+    "numeric denominators",
+    "service card selection",
+    "question/input/round controls",
+    "reference hiding and reveal",
+    "composed indicator distinct from strongest metric",
+    "source measurements and coverage",
+    "formatted report with service return context"
+  ]
+}
