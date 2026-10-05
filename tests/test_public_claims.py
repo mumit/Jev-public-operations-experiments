@@ -60,4 +60,55 @@ class ClaimTests(unittest.TestCase):
         with self.assertRaises(ValueError):answers(raw,body)
         raw['answers']['extra']={}
         with self.assertRaises(ValueError):answers(raw,body)
+    def test_reference_reveal_does_not_mutate_results(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+        from triage_bench.public_claim_service import PublicClaimStudy
+        packet={'id':'card','dataset':'Sample','observation':observation()}
+        ref={'id':'card','answers':{}}
+        outcome={'id':'card','field':'statement_a','round':1,'reference':'supported','correct':True,'false_displayed_support':False,'correct_displayed_support':True}
+        result={'datasets':{'Sample':{'arms':{'ledger':{'outcomes':[outcome]}}}}}
+        with tempfile.TemporaryDirectory() as temp:
+            path=Path(temp);(path/'responses.jsonl').write_text(json.dumps({'card_id':'card'})+'\n')
+            with patch.object(PublicClaimStudy,'verified',return_value=result),patch('triage_bench.public_claim_service.OUTPUT',path),patch('triage_bench.public_claim_service.load',side_effect=lambda p:[packet] if p.name=='inputs.json' else [ref]):
+                study=PublicClaimStudy(path);hidden=study.card('card')
+                self.assertIsNone(hidden['reference'])
+                for key in ('reference','correct','false_displayed_support','correct_displayed_support'):self.assertNotIn(key,hidden['outcomes']['ledger'][0])
+                self.assertEqual(study.card('card',True)['reference'],ref)
+                self.assertIn('reference',outcome)
+    def test_overview_keeps_numeric_counts(self):
+        from unittest.mock import patch
+        from triage_bench.public_claim_service import PublicClaimStudy
+        packet={'id':'card','dataset':'Sample','case_id':'source','observation':observation()}
+        result={'datasets':{'Sample':{'cards':1,'claims':3,'pairs':[],'stable_fixes':[],'stable_losses':[],'arms':{'ledger':{'outcomes':[],'stable_correct_claims':[]}}}}}
+        with patch.object(PublicClaimStudy,'verified',return_value=result),patch('triage_bench.public_claim_service.load',return_value=[packet]):
+            panel=PublicClaimStudy('.').overview()['datasets']['Sample']
+            self.assertEqual(panel['cards'],1);self.assertEqual(panel['claims'],3);self.assertEqual(panel['card_choices'][0]['id'],'card')
+    def test_article_return_preserves_claim(self):
+        from triage_bench.study_page import return_path,render_study
+        from triage_bench.paths import ROOT
+        from types import SimpleNamespace
+        value='/claim-assessment?dataset=Train+Ticket&card=fixture&arm=ledger&round=2&field=statement_c#input'
+        self.assertEqual(return_path(value),value)
+        page=render_study(SimpleNamespace(root=ROOT),{'doc':'public-claims','return':value}).decode()
+        self.assertIn('card=fixture&amp;arm=ledger',page);self.assertIn('field=statement_c#input',page)
+    def test_once_only_model_error_redacts_echo(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch,MagicMock
+        from triage_bench import public_claim_trial as trial
+        from triage_bench.app import profiles
+        profile=profiles()['jev'];profile['api_key']='private-fixture-key'
+        body=request(observation(),{f:'Claim.' for f in FIELDS},'ledger')
+        planned=[{'id':'one','card_id':'card','arm':'ledger','round':1,'request_sha256':'fixture','body':body}]
+        plan={k:profile[k] for k in ('model','endpoint','context_tokens')}
+        raw={'model':'wrong','echo':profile['api_key']};response=MagicMock();response.__enter__.return_value.read.return_value=json.dumps(raw).encode();opener=MagicMock();opener.open.return_value=response
+        with tempfile.TemporaryDirectory() as temp:
+            path=Path(temp)/'hosted';protocol=Path(temp)/'protocol.json';protocol.write_text('{}')
+            with patch.object(trial,'check',return_value=(plan,planned)),patch.object(trial,'OUTPUT',path),patch.object(trial,'PROTOCOL',protocol),patch('urllib.request.build_opener',return_value=opener):
+                result=trial.run(profile);self.assertEqual(result['stopped_reason'],'checkpoint_mismatch');self.assertEqual(result['failed'],1)
+                self.assertNotIn(profile['api_key'],(path/'responses.jsonl').read_text())
+                with self.assertRaises(FileExistsError):trial.run(profile)
+                self.assertEqual(opener.open.call_count,1)
 if __name__=='__main__':unittest.main()

@@ -4,7 +4,7 @@
 
 Evidence-assessment diagnostics, trace-aware task/arithmetic development, paired trace development, two public comparisons, an exact-request replay, a fresh temporal development comparison, selective calibration/evaluation, reserve confirmation and fresh disagreement evaluation are complete and preserved. The standalone app exposes their saved inputs, actual responses, fitted ML controls and references. It remains read-only on loopback port 8769. Browsing and verification make no provider calls and need no API key.
 
-Start with README.md, docs/evidence.md and docs/public-evidence-assessment.md. Restore all eight versioned evidence bundles, then run scripts.verify_evidence, scripts.verify_public_diagnostics, scripts.verify_public_selective, scripts.verify_public_confirmation, scripts.verify_public_agreement scripts.verify_public_traces scripts.verify_public_trace_task and scripts.verify_public_evidence. The suite has 112 tests. The earlier synthetic studies and their Git history remain in the original repository.
+Start with README.md, docs/evidence.md and docs/public-claim-assessment.md. Restore all nine versioned evidence bundles, then run scripts.verify_public_claims, which checks the full dependency chain and both original pack validators. The suite has 123 tests. The earlier synthetic studies and their Git history remain in the original repository.
 
 ## Recorded findings
 
@@ -105,3 +105,14 @@ All 192 calls succeeded, giving 768 answers on 32 selected service cards from 16
 No false change-support indicator is displayed at the inherited 0.70 boundary. Correct support is 10/10/10 versus 8/9/9 of ten Train Ticket reference-support cards, and 2/2/3 versus 4/3/4 of five Online Boutique cards. The redis quiet/material error is fixed in all three calculated rounds. The emailservice strongest-metric error survives; Train Ticket socket-change classification loses two rounds. See docs/public-evidence-assessment.md and /evidence-assessment for exact values and requests.
 
 Keep numerical rules and rankings in code. The next choice is a Jev judgment beyond those rules or fresh verification of the observations-only task under a new protocol. Do not substitute observations as this study's candidate after seeing results. Neither choice opens protected telemetry automatically. All completed evidence features, references, data, runner and CLI bytes are frozen. The eighth supplement adds six files and 192 responses; all eight assets preserve 1,669 actual responses in 1,041 files.
+
+
+## Completed written-claim diagnostic
+
+The user selected a written-claim task beyond numerical classification. The separately frozen study reuses all 32 inspected service cards and constructs 96 fixed-template statements, balanced across supported, contradicted and unanswerable references. References remain in a separate typed-proposition evaluator. Questions receive neither the class balance nor proposition metadata. No fresh telemetry is downloaded.
+
+All 192 calls succeed, returning 576 answers. The predeclared fact-ledger candidate gives Train Ticket 60/60 and Online Boutique 36/36 correct verdicts in every round, versus observations-only 58/60 and 33/36. The same five statements improve in all three rounds with no losses. Both application gates pass. The ledger displays no wrong verdict; some correct verdicts remain withheld at the inherited, uncalibrated 0.70 boundary. Observations displays one false supported Train Ticket claim per round and additional false contradictions.
+
+The /claim-assessment inspector shows each statement, exact requests, arithmetic, probabilities, repeated responses and explicit reference reveal. docs/public-claim-assessment.md explains the −23.93% and −31.13% duration examples and the scaled memory change. This result supports bounded claim checking with code-calculated facts. It does not establish unrestricted report parsing, causal diagnosis, added value over a template parser or held-out generalization.
+
+The next diagnostic should keep the ledger and verdict policy fixed while testing independently written paraphrases, negation and absent-versus-zero distinctions on inspected facts. Remove balanced card construction to reduce artifacts. Freeze a new language protocol and budget before calls; a later fresh-telemetry test needs its own allocation and frozen evaluation plan. No protected panel opens automatically. All five claim producer sources and both committed request/data checkpoints are frozen. The ninth bundle adds six files and 192 responses, preserving 1,861 actual responses in 1,047 files across all releases.

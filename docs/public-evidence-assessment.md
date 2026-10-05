@@ -90,3 +90,8 @@ My recommendation is to keep numerical eligibility, change thresholds and strong
 The [evidence-assessment inspector](http://127.0.0.1:8769/evidence-assessment) exposes each question's distribution, all three repeated indicators, hidden/revealed numerical references, eligibility calculations, source observations, added arithmetic and exact requests. Browsing makes no calls.
 
 Restore the eight [public evidence bundles](evidence.md), then run `python -m scripts.verify_public_evidence` with pinned dependencies. The supplement contains only the 32-card preparation and new hosted records. It requires the seven earlier assets; raw telemetry stays in those immutable releases. Verification reconstructs every card, question, numerical reference and outcome without inference. All 22 evaluation cases, nine RE3 reserves, RE3 Sock Shop and 140 RE1 reserves remain unopened.
+
+
+## Subsequent claim diagnostic
+
+The next study now tests written statements against the same inspected observations. Its fact ledger fixes five repeated claim errors and passes the diagnostic checks, without opening fresh telemetry. See [written claim assessment](public-claim-assessment.md) for the separate protocol, exact transformations and limits. The evidence-assessment results above remain frozen.
