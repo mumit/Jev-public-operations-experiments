@@ -1,0 +1,552 @@
+{
+  "schema": "public-traces-plan-1",
+  "decision": "User authorized richer causal evidence for Jev on 2026-10-04. Compare observed trace context with metric-only on the same RE3 code faults.",
+  "revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "index_sha256": "c49a288920dbba2e8e724679a14636d5c7eb2b45426bba14007ef79a6c0ab1bb",
+  "assignments": [
+    {
+      "id": "TRC-b9676e5609cc",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f1",
+      "split": "development",
+      "source_case": "re3tt_ts-auth-service_f1_1"
+    },
+    {
+      "id": "TRC-62dc836e52ba",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f1",
+      "split": "development",
+      "source_case": "re3tt_ts-auth-service_f1_2"
+    },
+    {
+      "id": "TRC-e39f0f5e65cc",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f1",
+      "split": "development",
+      "source_case": "re3tt_ts-auth-service_f1_3"
+    },
+    {
+      "id": "TRC-88e79b2affcd",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f1",
+      "split": "development",
+      "source_case": "re3tt_ts-auth-service_f1_4"
+    },
+    {
+      "id": "TRC-1419d5d3c6d1",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f2",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-auth-service_f2_1"
+    },
+    {
+      "id": "TRC-596eb4871284",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f2",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-auth-service_f2_2"
+    },
+    {
+      "id": "TRC-8f5d30c11494",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f2",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-auth-service_f2_3"
+    },
+    {
+      "id": "TRC-89ebc7d96676",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f2",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-auth-service_f2_4"
+    },
+    {
+      "id": "TRC-56248af52c67",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-auth-service_f3_1"
+    },
+    {
+      "id": "TRC-5d6134bfa5dc",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-auth-service_f3_2"
+    },
+    {
+      "id": "TRC-efb271315c37",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-auth-service_f3_3"
+    },
+    {
+      "id": "TRC-0456d60beb95",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-auth-service_f3_4"
+    },
+    {
+      "id": "TRC-4928ee4aaebf",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f4",
+      "split": "reserve",
+      "source_case": "re3tt_ts-auth-service_f4_1"
+    },
+    {
+      "id": "TRC-2a74cf6ba6ce",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f4",
+      "split": "reserve",
+      "source_case": "re3tt_ts-auth-service_f4_2"
+    },
+    {
+      "id": "TRC-4440b77b693d",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-auth-service/f4",
+      "split": "reserve",
+      "source_case": "re3tt_ts-auth-service_f4_3"
+    },
+    {
+      "id": "TRC-7fe9db91a4c8",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f1",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-route-service_f1_1"
+    },
+    {
+      "id": "TRC-ab1bef79b41a",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f1",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-route-service_f1_2"
+    },
+    {
+      "id": "TRC-b5e1dc7d83a5",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f1",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-route-service_f1_3"
+    },
+    {
+      "id": "TRC-7baa98644e69",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f2",
+      "split": "development",
+      "source_case": "re3tt_ts-route-service_f2_1"
+    },
+    {
+      "id": "TRC-cef51ba9360c",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f2",
+      "split": "development",
+      "source_case": "re3tt_ts-route-service_f2_2"
+    },
+    {
+      "id": "TRC-0f0dd8cb82a5",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f2",
+      "split": "development",
+      "source_case": "re3tt_ts-route-service_f2_3"
+    },
+    {
+      "id": "TRC-9a162bec2320",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-route-service_f3_1"
+    },
+    {
+      "id": "TRC-9517da82cc77",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-route-service_f3_2"
+    },
+    {
+      "id": "TRC-7fc054fca691",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-route-service_f3_3"
+    },
+    {
+      "id": "TRC-3ca0b978c13a",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-route-service_f3_4"
+    },
+    {
+      "id": "TRC-a2d37048d373",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-route-service_f3_5"
+    },
+    {
+      "id": "TRC-c0d121f56224",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f3",
+      "split": "reserve",
+      "source_case": "re3tt_ts-route-service_f3_6"
+    },
+    {
+      "id": "TRC-8f3153dd7f6f",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f4",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-route-service_f4_1"
+    },
+    {
+      "id": "TRC-a4ae14d40535",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f4",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-route-service_f4_2"
+    },
+    {
+      "id": "TRC-09cb4e45b027",
+      "suite": "RE3-TT",
+      "dataset": "Train Ticket",
+      "group": "RE3-TT/ts-route-service/f4",
+      "split": "evaluation",
+      "source_case": "re3tt_ts-route-service_f4_3"
+    },
+    {
+      "id": "TRC-ad96869e2815",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/adservice/f3",
+      "split": "development",
+      "source_case": "re3ob_adservice_f3_1"
+    },
+    {
+      "id": "TRC-9f3df0dd7d1b",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/adservice/f3",
+      "split": "development",
+      "source_case": "re3ob_adservice_f3_2"
+    },
+    {
+      "id": "TRC-ca36c873ae96",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/adservice/f3",
+      "split": "development",
+      "source_case": "re3ob_adservice_f3_3"
+    },
+    {
+      "id": "TRC-149c53d5ed27",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/adservice/f4",
+      "split": "evaluation",
+      "source_case": "re3ob_adservice_f4_1"
+    },
+    {
+      "id": "TRC-469747aaedcd",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/adservice/f4",
+      "split": "evaluation",
+      "source_case": "re3ob_adservice_f4_2"
+    },
+    {
+      "id": "TRC-b752dd315d14",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/adservice/f4",
+      "split": "evaluation",
+      "source_case": "re3ob_adservice_f4_3"
+    },
+    {
+      "id": "TRC-72213210a9ab",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/adservice/f5",
+      "split": "reserve",
+      "source_case": "re3ob_adservice_f5_1"
+    },
+    {
+      "id": "TRC-d350daa3263d",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/adservice/f5",
+      "split": "reserve",
+      "source_case": "re3ob_adservice_f5_2"
+    },
+    {
+      "id": "TRC-cdcb5a5f1bc8",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/adservice/f5",
+      "split": "reserve",
+      "source_case": "re3ob_adservice_f5_3"
+    },
+    {
+      "id": "TRC-b159d2c78b38",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/cartservice/f1",
+      "split": "evaluation",
+      "source_case": "re3ob_cartservice_f1_1"
+    },
+    {
+      "id": "TRC-76a3d52b0456",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/cartservice/f1",
+      "split": "evaluation",
+      "source_case": "re3ob_cartservice_f1_2"
+    },
+    {
+      "id": "TRC-a334ddf21733",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/cartservice/f1",
+      "split": "evaluation",
+      "source_case": "re3ob_cartservice_f1_3"
+    },
+    {
+      "id": "TRC-4e216978291e",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/currencyservice/f1",
+      "split": "evaluation",
+      "source_case": "re3ob_currencyservice_f1_1"
+    },
+    {
+      "id": "TRC-c469dacf3c16",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/currencyservice/f1",
+      "split": "evaluation",
+      "source_case": "re3ob_currencyservice_f1_2"
+    },
+    {
+      "id": "TRC-c58c9aa7bd09",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/currencyservice/f1",
+      "split": "evaluation",
+      "source_case": "re3ob_currencyservice_f1_3"
+    },
+    {
+      "id": "TRC-2193618470e7",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f1",
+      "split": "reserve",
+      "source_case": "re3ob_emailservice_f1_1"
+    },
+    {
+      "id": "TRC-4ab015b27175",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f1",
+      "split": "reserve",
+      "source_case": "re3ob_emailservice_f1_2"
+    },
+    {
+      "id": "TRC-68f3f6a54d95",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f1",
+      "split": "reserve",
+      "source_case": "re3ob_emailservice_f1_3"
+    },
+    {
+      "id": "TRC-f1ffcc091b56",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f2",
+      "split": "development",
+      "source_case": "re3ob_emailservice_f2_1"
+    },
+    {
+      "id": "TRC-004dd6ea8acb",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f2",
+      "split": "development",
+      "source_case": "re3ob_emailservice_f2_2"
+    },
+    {
+      "id": "TRC-fc40bccd2697",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f2",
+      "split": "development",
+      "source_case": "re3ob_emailservice_f2_3"
+    },
+    {
+      "id": "TRC-456b07c2f2a5",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f3",
+      "split": "evaluation",
+      "source_case": "re3ob_emailservice_f3_1"
+    },
+    {
+      "id": "TRC-2d255b08ce33",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f3",
+      "split": "evaluation",
+      "source_case": "re3ob_emailservice_f3_2"
+    },
+    {
+      "id": "TRC-1a610fe9a5a7",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f3",
+      "split": "evaluation",
+      "source_case": "re3ob_emailservice_f3_3"
+    },
+    {
+      "id": "TRC-b4070bae343e",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f4",
+      "split": "reserve",
+      "source_case": "re3ob_emailservice_f4_1"
+    },
+    {
+      "id": "TRC-2168eae89589",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f4",
+      "split": "reserve",
+      "source_case": "re3ob_emailservice_f4_2"
+    },
+    {
+      "id": "TRC-1be5de484464",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f4",
+      "split": "reserve",
+      "source_case": "re3ob_emailservice_f4_3"
+    },
+    {
+      "id": "TRC-588f5902fbe2",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f5",
+      "split": "reserve",
+      "source_case": "re3ob_emailservice_f5_1"
+    },
+    {
+      "id": "TRC-098980dae304",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f5",
+      "split": "reserve",
+      "source_case": "re3ob_emailservice_f5_2"
+    },
+    {
+      "id": "TRC-185902f5e9e0",
+      "suite": "RE3-OB",
+      "dataset": "Online Boutique",
+      "group": "RE3-OB/emailservice/f5",
+      "split": "reserve",
+      "source_case": "re3ob_emailservice_f5_3"
+    }
+  ],
+  "counts": {
+    "development": 13,
+    "evaluation": 22
+  },
+  "arms": [
+    "metrics",
+    "traces"
+  ],
+  "rounds": 3,
+  "maximum_calls": 210,
+  "stage_calls": {
+    "development": 78,
+    "evaluation": 132
+  },
+  "model": "jev-1.13.0",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "context_tokens": 32768,
+  "maximum_request_bytes": 79840,
+  "policy": {
+    "threshold": 0.7,
+    "margin": 0.0,
+    "maximum_leads": 1
+  },
+  "inputs": "Preserve named metric summaries, all observed candidates and questions. Trace arm adds exact-matched per-service before/after rows with declared column names, retaining all recorded span counts, inclusive and observed-child-uncovered median/p90 durations in microseconds, raw source status-code counts/missing fractions, observed cross-service parent/child link counts and coverage diagnostics. No source IDs, operation text, fault labels, case paths or reference answers enter requests.",
+  "trace_limits": "Parent links are possible dependencies, not proven causes. Uncovered duration includes unobserved work and is not CPU time. Window by span start within metric interval; crossing-window counts remain visible. Missing parent links, status codes and service spans remain unavailable. Exact names only; no answer-based mapping or candidate repair.",
+  "controls": "Unchanged fitted Online Boutique metric ML and change/resource rankings. A separately labeled trace-duration ranking uses positive relative growth of median uncovered duration, at least five spans each window, numerical floor one microsecond. It is not fitted ML and has different information from metric-only controls.",
+  "promotion": "Before opening any evaluation telemetry, each application must have no first-choice correctness regression in any development round, no increase in wrong displayed leads, no loss of correct displayed coverage, nonempty displayed correct guidance, at least one distinct reference match fixed by traces in all three rounds, and no distinct metric success lost in all three rounds. Otherwise leave evaluation sealed and request the next research decision. This descriptive gate is not an operational error budget.",
+  "execution": "Balanced cyclic arm order across cases/rounds, serial, three rounds, no retries or warmup. Commit exact requests before calls. Stop on HTTP/version/network/context errors or three consecutive malformed responses. Missing/failed predictions keep denominators. No prompt/threshold search or ML refitting.",
+  "allocation": "Intact source service/fault groups. Development has 7 Train Ticket and 6 Online Boutique cases; evaluation 10/12; reserve 13/12. All RE1 reserves and RE3 Sock Shop remain unopened. Evaluation is not available as development feedback.",
+  "limits": "RE3 code faults in familiar applications, supplied boundaries and published injected-service references. Paired input comparison, not an RE1-to-RE3 accuracy gain. Public pretraining exposure unknown; no measured analyst benefit, automatic routing or telecom readiness.",
+  "source_sha256": {
+    "triage_bench/public_data.py": "f90643117a3a691522c2c273e954bfb57680fb3cc764fae9ef8c1ed732414af0",
+    "triage_bench/public_rca_data.py": "4849978589d8ed5b9a804a9cce585eaa91e2fa7f09e72144b77547e931baf903",
+    "triage_bench/public_rca_models.py": "a9ce947562c60a9856f2c9344932d093965942d99fb444e9f26e1f463d892a5d",
+    "triage_bench/public_rca_trial.py": "9a66e6f376dc9741c0b725f07c987df9d8505fafe72083154e64e866f5cf535f",
+    "triage_bench/public_rca_stages.py": "d4ce1ebfab517ea72abb9edfe20ba507f38cb1a6fd8f9bab6d508d19d0afe9d2",
+    "scripts/run_public_rca.py": "dc073508634b9398f220ce8b8993961c7cacd6b49b746b96c89714b7393e46da",
+    "triage_bench/runner.py": "831c155f0a5fd291da6f13d0d337b6fd73722126d87f8e5423ddcb974d7b152c",
+    "triage_bench/hosted.py": "7e4a8ed9f019aedd1b72cbb6eb7e58c69290da23f19c1285f256fb670de915b8",
+    "triage_bench/profile.py": "4b8ea3f947f1af6797e1f9a1ba67fa0dbd0d150cbc2545cdd388a580a31ae8a7",
+    "triage_bench/provenance.py": "ec81ffb0eef9274f4fd48db57a3f8f856cc0a39b81b6d4cebb1e69e9f00a9b0d",
+    "provenance/migration.json": "f0eaf598d9cac6746990d693e8ba1f17432a25db808cef36f9f496043209d44a",
+    "scripts/audit_public_traces.py": "ee4b721863e8c1283d5346969eeaab697cadc0eaae4b93d209f9d513c9bf9e50",
+    "triage_bench/public_trace_wire.py": "5f5005f6674776c55c38fa1b4edad95f9651d683f2b4de6c8044c83696a33907",
+    "triage_bench/public_trace_data.py": "7b20669be1bbbffe0a7166db2c96f2e4564a166d378a7815980a19d11539e92a",
+    "triage_bench/public_trace_trial.py": "72d61512a856f5ccafd4960b12b29bd1100e672061903a5990469ec33b887da4",
+    "scripts/run_public_traces.py": "19feb55b21754d2450b4602e4be861bd38a2d4a0724df196970174daca23074b",
+    "triage_bench/public_trace_features.py": "99fe1c973497b915ca6bfdbb2bee87f6b7f3de71fc770b7e7db6c859da0c5ae1",
+    "triage_bench/public_trace_data_v2.py": "ff6fa82781878fcb7aa9e5a0d50bbbf66786c223042e880c0e19e37aed9812d5",
+    "triage_bench/public_trace_trial_v2.py": "35156ad5c09fc9684ee4eaa45d78c49da29b56e5f15fc8b0e2a82917a81b0a09",
+    "scripts/run_public_traces_v2.py": "76647841632fcb87d564e07d64062662beeab3cc44e0b02d99cf9ac86e9a6177",
+    "triage_bench/public_selective_policy.py": "93e20cad93fd65eda9b11151a7978317d36d169aa2b06f4cd3c363abcec0c24d",
+    "triage_bench/public_format_data.py": "41fd1a689c193b71533df54adad546a3afdc374c58b5aef0f36b4435672b4858",
+    "triage_bench/public_format_trial.py": "0470eb551f30dda1c9c89a1ca64774b419817ffd6aec63f77321a2da27c761a6",
+    "uv.lock": "c2279f34fe061961b88c0a44fc7bbf5ca8f72638e1afc2a4b2ef776fde6edce0"
+  },
+  "evidence_sha256": {
+    "checkpoints/public-traces-plan-2026-10-04.json": "e2b97c18b4d5758add7283443ef0068cbd5260789aa9ddc7572235362cc70466",
+    "checkpoints/public-traces-sizing-2026-10-04.json": "6f353473cfb8fb461458858d571d0c89cad80922deabdc2ee99dc2f25b328d1e",
+    "checkpoints/public-traces-audit-plan-2026-10-04.json": "6b20b29a4e0acb552188cdbef36bfcc00c6ac6315d3d43ef8bec2eb6f95715bf",
+    "checkpoints/public-traces-audit-results-2026-10-04.json": "f9b190a16345f68bb7a2939679f6f8bbe92eec867b6e5b45b070bf62619e8efd",
+    "checkpoints/public-agreement-results-2026-10-04.json": "8fed1cec97de3fda5ebdffcbc3d0fb0ba38c54476aa8fb30086445b0528a18ff",
+    "checkpoints/public-format-protocol-2026-10-03.json": "429d54786da408f98d266fed6029315eb7828dcd414a03a7eff1bfdfcfcc387a"
+  }
+}

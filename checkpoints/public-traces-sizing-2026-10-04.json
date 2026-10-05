@@ -1,0 +1,428 @@
+{
+  "schema": "public-traces-sizing-1",
+  "status": "blocked_before_inference",
+  "new_hosted_calls": 0,
+  "maximum_request_bytes": 79840,
+  "manifest": {
+    "schema": "public-traces-pack-1",
+    "split": "development",
+    "cases": 13,
+    "revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+    "plan_sha256": "e2b97c18b4d5758add7283443ef0068cbd5260789aa9ddc7572235362cc70466",
+    "files": {
+      "inputs.json": "71e08b4c0edf3e3a33697ad8a9b06a70fe232fdf1b70f7c481509fd14d64eeb6",
+      "references.json": "30853b7c582682d80882207f93bd0b2e846b359e129ead25410157cdc2f6747b",
+      "sizing.json": "09fdb4aa4e77f6bcc37829e54c7ae15867600c2479393f688496d763ccb97af4"
+    },
+    "downloads": [
+      {
+        "id": "TRC-b9676e5609cc",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "ab6f5cef15bc3b8468c961f6ab6d467731fd71fa05d928cc7f3579b02157e179",
+        "publisher_hash": "355cc97503d8fd96707e06d2cbfc0a54040855d5"
+      },
+      {
+        "id": "TRC-b9676e5609cc",
+        "name": "metrics.parquet",
+        "bytes": 820880,
+        "sha256": "af69748890750682c0c65117d83baa6229f30988ae4c52074d89ecde6a4ee220",
+        "publisher_hash": "af69748890750682c0c65117d83baa6229f30988ae4c52074d89ecde6a4ee220"
+      },
+      {
+        "id": "TRC-b9676e5609cc",
+        "name": "traces.parquet",
+        "bytes": 2676070,
+        "sha256": "6b1588cac9ec8e92fc3d0c0b3292d9fc1d3ec654d411dbd794f3f9fbdb363cee",
+        "publisher_hash": "6b1588cac9ec8e92fc3d0c0b3292d9fc1d3ec654d411dbd794f3f9fbdb363cee"
+      },
+      {
+        "id": "TRC-62dc836e52ba",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "ed99b57aeb2ae9281253154eb4255dacbc20ca231a045730f269f923ff1ddf58",
+        "publisher_hash": "3c55b3b59d4f2dd7485cc335edcd04acec9af095"
+      },
+      {
+        "id": "TRC-62dc836e52ba",
+        "name": "metrics.parquet",
+        "bytes": 832861,
+        "sha256": "eeef2256aa0aa9cf426473c8d7f568c03f48f4520e086ade96f5043d0ae756be",
+        "publisher_hash": "eeef2256aa0aa9cf426473c8d7f568c03f48f4520e086ade96f5043d0ae756be"
+      },
+      {
+        "id": "TRC-62dc836e52ba",
+        "name": "traces.parquet",
+        "bytes": 2639590,
+        "sha256": "fb08b024f4c132ccece3c556801246d5ca4360ce763846b7e9f67574e808198a",
+        "publisher_hash": "fb08b024f4c132ccece3c556801246d5ca4360ce763846b7e9f67574e808198a"
+      },
+      {
+        "id": "TRC-e39f0f5e65cc",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "b29b4d907ef5938ac853cf1720c1aa48b7685e6d7139592a8b46da3c6a318111",
+        "publisher_hash": "6647d9ff4a4f1bbb71bed140072bfb2908c479a2"
+      },
+      {
+        "id": "TRC-e39f0f5e65cc",
+        "name": "metrics.parquet",
+        "bytes": 812419,
+        "sha256": "ac80eb295b91ffbbb080d171f3193216939673c9a07bcefb146e8264676ed79f",
+        "publisher_hash": "ac80eb295b91ffbbb080d171f3193216939673c9a07bcefb146e8264676ed79f"
+      },
+      {
+        "id": "TRC-e39f0f5e65cc",
+        "name": "traces.parquet",
+        "bytes": 2794628,
+        "sha256": "fe62d42192175c1f84404d99c1a27dc2746b7bc1b24dec2e0259538d81b8ced4",
+        "publisher_hash": "fe62d42192175c1f84404d99c1a27dc2746b7bc1b24dec2e0259538d81b8ced4"
+      },
+      {
+        "id": "TRC-88e79b2affcd",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "9173147f5bee7abe72629ef10cbf600c750af19a32ed6dbfd12c527ab3de847b",
+        "publisher_hash": "e41111952dbbec1b51c7c7b8f0f1c70c14e6d69e"
+      },
+      {
+        "id": "TRC-88e79b2affcd",
+        "name": "metrics.parquet",
+        "bytes": 754292,
+        "sha256": "411b52734800e1f9ab930d509dee6f04cce8797e2b0c168466676c83833ec9c8",
+        "publisher_hash": "411b52734800e1f9ab930d509dee6f04cce8797e2b0c168466676c83833ec9c8"
+      },
+      {
+        "id": "TRC-88e79b2affcd",
+        "name": "traces.parquet",
+        "bytes": 1173621,
+        "sha256": "56e5e078f41c2b04df17b503d5ba9ad3e33321e7b486d784117f871a90aa14f9",
+        "publisher_hash": "56e5e078f41c2b04df17b503d5ba9ad3e33321e7b486d784117f871a90aa14f9"
+      },
+      {
+        "id": "TRC-7baa98644e69",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "fd441db6e6ad1c7933e39035e187685aef14e2872b7fd5d333ee324862512ca9",
+        "publisher_hash": "effc30c0504cce3295aa4035e68bae29a44c1328"
+      },
+      {
+        "id": "TRC-7baa98644e69",
+        "name": "metrics.parquet",
+        "bytes": 880108,
+        "sha256": "8fe8833ff936578fa19e589ec68cd42e64a99754cc442db1454026377889a561",
+        "publisher_hash": "8fe8833ff936578fa19e589ec68cd42e64a99754cc442db1454026377889a561"
+      },
+      {
+        "id": "TRC-7baa98644e69",
+        "name": "traces.parquet",
+        "bytes": 5154778,
+        "sha256": "c1418912e5e4f48b928cf6c344e30c5a157857c2ab5eda272b93cd4d5eb68984",
+        "publisher_hash": "c1418912e5e4f48b928cf6c344e30c5a157857c2ab5eda272b93cd4d5eb68984"
+      },
+      {
+        "id": "TRC-cef51ba9360c",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "6c791f0b5703b1d1ca5659e5b623a4914ee9c51cba657e948127018c2af001d9",
+        "publisher_hash": "4133d33321dd54c507d1738dde1e0bb3d4e5f1ee"
+      },
+      {
+        "id": "TRC-cef51ba9360c",
+        "name": "metrics.parquet",
+        "bytes": 878035,
+        "sha256": "97ca1828682c5b5395a519c863b460d758e64fb230b1e76ef62c313bca0226db",
+        "publisher_hash": "97ca1828682c5b5395a519c863b460d758e64fb230b1e76ef62c313bca0226db"
+      },
+      {
+        "id": "TRC-cef51ba9360c",
+        "name": "traces.parquet",
+        "bytes": 5142484,
+        "sha256": "29cef3038c92abf5078dd4b9f58c29dff34a539afbb676d0e2b58c6c4e4240a3",
+        "publisher_hash": "29cef3038c92abf5078dd4b9f58c29dff34a539afbb676d0e2b58c6c4e4240a3"
+      },
+      {
+        "id": "TRC-0f0dd8cb82a5",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "dd5424d1f957f65c88002f99e67274d68fec6d6a839c3a6a9f4d752caec1b2bb",
+        "publisher_hash": "1bc6cf3b2d01c2b26b984c5841754ef6dea6f51b"
+      },
+      {
+        "id": "TRC-0f0dd8cb82a5",
+        "name": "metrics.parquet",
+        "bytes": 885223,
+        "sha256": "590b62f3e9405f309f2b1a5324a3d617db80fe8e9340947b19e0393dba1e5937",
+        "publisher_hash": "590b62f3e9405f309f2b1a5324a3d617db80fe8e9340947b19e0393dba1e5937"
+      },
+      {
+        "id": "TRC-0f0dd8cb82a5",
+        "name": "traces.parquet",
+        "bytes": 5217851,
+        "sha256": "d0c6561c7ea0b456bb86d231afdadf58dcc744de8378b114e876b0ebc3281244",
+        "publisher_hash": "d0c6561c7ea0b456bb86d231afdadf58dcc744de8378b114e876b0ebc3281244"
+      },
+      {
+        "id": "TRC-ad96869e2815",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "cbe30ff13bb6f3da75dcc04cf201c3a5bef0a9cda7cd18ebd0f028d170487716",
+        "publisher_hash": "723618fc1a86bdb68af99a624f6ebb5687ed6fed"
+      },
+      {
+        "id": "TRC-ad96869e2815",
+        "name": "metrics.parquet",
+        "bytes": 149939,
+        "sha256": "79548b07b082297d85b061ff8a9269e85f7522bd721c167274eb748b36d4b084",
+        "publisher_hash": "79548b07b082297d85b061ff8a9269e85f7522bd721c167274eb748b36d4b084"
+      },
+      {
+        "id": "TRC-ad96869e2815",
+        "name": "traces.parquet",
+        "bytes": 4516189,
+        "sha256": "6ec516a79bbd427766b02d0d87f06ea9ec15d0b990f4d65f74283e341e70eda7",
+        "publisher_hash": "6ec516a79bbd427766b02d0d87f06ea9ec15d0b990f4d65f74283e341e70eda7"
+      },
+      {
+        "id": "TRC-9f3df0dd7d1b",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "8d6ea2e704d046650c16c261b66cf7bb39a065dc9c6faee89fa7cdbcfebca739",
+        "publisher_hash": "eb0f6136db89265fa6f23ef352102a068a16b70f"
+      },
+      {
+        "id": "TRC-9f3df0dd7d1b",
+        "name": "metrics.parquet",
+        "bytes": 177256,
+        "sha256": "e4eccd584a58ebf0e43bbe9d7f07b679d06ed8f40e968037495cdee821e055c9",
+        "publisher_hash": "e4eccd584a58ebf0e43bbe9d7f07b679d06ed8f40e968037495cdee821e055c9"
+      },
+      {
+        "id": "TRC-9f3df0dd7d1b",
+        "name": "traces.parquet",
+        "bytes": 4414814,
+        "sha256": "eaa4f7755ed7b48deb16e88d6295f0fd7447a2a4a3794ae08d1ed976f7cd9b9a",
+        "publisher_hash": "eaa4f7755ed7b48deb16e88d6295f0fd7447a2a4a3794ae08d1ed976f7cd9b9a"
+      },
+      {
+        "id": "TRC-ca36c873ae96",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "8514ff390a737e18e9fc90ee938841a4fb0ec38fae806550027031dc6b849257",
+        "publisher_hash": "e5f1602d59e7e2a83922260269ee70557f0a89ce"
+      },
+      {
+        "id": "TRC-ca36c873ae96",
+        "name": "metrics.parquet",
+        "bytes": 178767,
+        "sha256": "0e3bbbc4558840da7f26aea223f6266ab4d50f9f6916af62b96ba01150515f75",
+        "publisher_hash": "0e3bbbc4558840da7f26aea223f6266ab4d50f9f6916af62b96ba01150515f75"
+      },
+      {
+        "id": "TRC-ca36c873ae96",
+        "name": "traces.parquet",
+        "bytes": 4456477,
+        "sha256": "d762991a703bec639616bb5c46ab9822a5be3444b425cba2456f06d6970ac1d9",
+        "publisher_hash": "d762991a703bec639616bb5c46ab9822a5be3444b425cba2456f06d6970ac1d9"
+      },
+      {
+        "id": "TRC-f1ffcc091b56",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "ec8e32bad6160a3698afc72c77b01f2cf70d78c568edc339b15863869e3be855",
+        "publisher_hash": "26c328c036217327213e55a14cf413fcc3a3bdc5"
+      },
+      {
+        "id": "TRC-f1ffcc091b56",
+        "name": "metrics.parquet",
+        "bytes": 143009,
+        "sha256": "6a7f8b6e407552a15040a046118ea32acdc0e077837092b8e8bf2b530a4b7fdd",
+        "publisher_hash": "6a7f8b6e407552a15040a046118ea32acdc0e077837092b8e8bf2b530a4b7fdd"
+      },
+      {
+        "id": "TRC-f1ffcc091b56",
+        "name": "traces.parquet",
+        "bytes": 4515053,
+        "sha256": "1299b20b28f154a3a9029c350a410cc53302b87d0ffe1540e2b68533bc4bd4a0",
+        "publisher_hash": "1299b20b28f154a3a9029c350a410cc53302b87d0ffe1540e2b68533bc4bd4a0"
+      },
+      {
+        "id": "TRC-004dd6ea8acb",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "49363c35de3a048c703e0f5bfa0e8c8214261b1742b52358db635ea15d1a7ee7",
+        "publisher_hash": "11bc0991902f03b4757ce963418397ac7adb87dc"
+      },
+      {
+        "id": "TRC-004dd6ea8acb",
+        "name": "metrics.parquet",
+        "bytes": 141403,
+        "sha256": "49180d613c8d8f884dc3f04dd1346fb57fc23b9e257bc63d653768ddf896f826",
+        "publisher_hash": "49180d613c8d8f884dc3f04dd1346fb57fc23b9e257bc63d653768ddf896f826"
+      },
+      {
+        "id": "TRC-004dd6ea8acb",
+        "name": "traces.parquet",
+        "bytes": 4472488,
+        "sha256": "0af1e357c64f1dd0d850d3f3d516e10b98bc7c106d320cd9c66f2cd030941f53",
+        "publisher_hash": "0af1e357c64f1dd0d850d3f3d516e10b98bc7c106d320cd9c66f2cd030941f53"
+      },
+      {
+        "id": "TRC-fc40bccd2697",
+        "name": "inject_time.txt",
+        "bytes": 10,
+        "sha256": "1b4f74660d7df6d9d192a614ad9649e0658b5bded4c18c32e5fd8d39f59739b8",
+        "publisher_hash": "5d2df3d2539b952405248306e51f830c0e8a4f21"
+      },
+      {
+        "id": "TRC-fc40bccd2697",
+        "name": "metrics.parquet",
+        "bytes": 143759,
+        "sha256": "052609f352dd8844f79a9e29d9257d793a8163410ce5da949ffef055724d7294",
+        "publisher_hash": "052609f352dd8844f79a9e29d9257d793a8163410ce5da949ffef055724d7294"
+      },
+      {
+        "id": "TRC-fc40bccd2697",
+        "name": "traces.parquet",
+        "bytes": 4447941,
+        "sha256": "3e1089657f70fe17c3265d3a4494d667ec2367a44a80c685811da021536ded81",
+        "publisher_hash": "3e1089657f70fe17c3265d3a4494d667ec2367a44a80c685811da021536ded81"
+      }
+    ],
+    "largest_request_bytes": 83517,
+    "fits_empirical_wire_cap": false
+  },
+  "sizing": [
+    {
+      "id": "TRC-b9676e5609cc",
+      "candidates": 68,
+      "trace_services": 27,
+      "edges": 55,
+      "request_bytes": {
+        "metrics": 63043,
+        "traces": 82821
+      }
+    },
+    {
+      "id": "TRC-62dc836e52ba",
+      "candidates": 68,
+      "trace_services": 27,
+      "edges": 55,
+      "request_bytes": {
+        "metrics": 63380,
+        "traces": 83161
+      }
+    },
+    {
+      "id": "TRC-e39f0f5e65cc",
+      "candidates": 69,
+      "trace_services": 27,
+      "edges": 55,
+      "request_bytes": {
+        "metrics": 63757,
+        "traces": 83517
+      }
+    },
+    {
+      "id": "TRC-88e79b2affcd",
+      "candidates": 68,
+      "trace_services": 21,
+      "edges": 21,
+      "request_bytes": {
+        "metrics": 60425,
+        "traces": 75424
+      }
+    },
+    {
+      "id": "TRC-7baa98644e69",
+      "candidates": 68,
+      "trace_services": 27,
+      "edges": 55,
+      "request_bytes": {
+        "metrics": 63157,
+        "traces": 83061
+      }
+    },
+    {
+      "id": "TRC-cef51ba9360c",
+      "candidates": 68,
+      "trace_services": 27,
+      "edges": 55,
+      "request_bytes": {
+        "metrics": 63296,
+        "traces": 83193
+      }
+    },
+    {
+      "id": "TRC-0f0dd8cb82a5",
+      "candidates": 68,
+      "trace_services": 27,
+      "edges": 55,
+      "request_bytes": {
+        "metrics": 63403,
+        "traces": 83310
+      }
+    },
+    {
+      "id": "TRC-ad96869e2815",
+      "candidates": 12,
+      "trace_services": 7,
+      "edges": 9,
+      "request_bytes": {
+        "metrics": 13964,
+        "traces": 20250
+      }
+    },
+    {
+      "id": "TRC-9f3df0dd7d1b",
+      "candidates": 28,
+      "trace_services": 7,
+      "edges": 9,
+      "request_bytes": {
+        "metrics": 21126,
+        "traces": 27707
+      }
+    },
+    {
+      "id": "TRC-ca36c873ae96",
+      "candidates": 28,
+      "trace_services": 7,
+      "edges": 9,
+      "request_bytes": {
+        "metrics": 21333,
+        "traces": 27875
+      }
+    },
+    {
+      "id": "TRC-f1ffcc091b56",
+      "candidates": 12,
+      "trace_services": 7,
+      "edges": 9,
+      "request_bytes": {
+        "metrics": 13880,
+        "traces": 20214
+      }
+    },
+    {
+      "id": "TRC-004dd6ea8acb",
+      "candidates": 12,
+      "trace_services": 7,
+      "edges": 9,
+      "request_bytes": {
+        "metrics": 13837,
+        "traces": 20136
+      }
+    },
+    {
+      "id": "TRC-fc40bccd2697",
+      "candidates": 12,
+      "trace_services": 7,
+      "edges": 9,
+      "request_bytes": {
+        "metrics": 13889,
+        "traces": 20151
+      }
+    }
+  ],
+  "next": "Preserve all trace values and definitions; use declared columns for per-service before/after rows in a separately frozen v2 protocol."
+}
