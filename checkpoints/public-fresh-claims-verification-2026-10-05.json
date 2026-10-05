@@ -1,0 +1,46 @@
+{
+  "schema": "public-fresh-claims-verification-1",
+  "date": "2026-10-05",
+  "status": "verified",
+  "fresh_clone_source_commit": "ad269b83ea1face46e142eb1ffde97e0dd2b2a51",
+  "evidence": {
+    "status": "verified",
+    "recorded_calls": 189,
+    "recorded_answers": 324,
+    "reports": 9,
+    "claims": 54,
+    "fresh_cases_consumed": 9,
+    "remaining_re3_reserves": 0,
+    "protected_unopened": {
+      "cause_evaluation_cases": 22,
+      "re1_reserve_cases": 140,
+      "re3_sock_shop_cases": 30
+    },
+    "automatic_extraction": "not_evaluated",
+    "new_hosted_calls": 0
+  },
+  "unit_tests": {
+    "passed": 166,
+    "skipped": 0
+  },
+  "browser_scripts_checked": 15,
+  "restored_release_assets": 13,
+  "restored_evidence_files": 1098,
+  "new_hosted_calls_during_verification": 0,
+  "original_checkout_code_required": false,
+  "credentials_required_for_restoration_or_verification": false,
+  "publication_content_scan": "passed",
+  "archive_sha256": "4a5adde6d27b506e7b0cc99b949d2ef7ca4a07506786240bb4074ea7dc828c4f",
+  "results_sha256": "ea543123bc9b77812dabe101e4f97e70a00bf50e79e4290e816cd33228ac6026",
+  "browser_review": [
+    "Both applications and per-class numeric denominators",
+    "Bound/scoped candidate and round controls",
+    "Exact authored note and supplied claim/service spans",
+    "Correct-but-withheld 0.65 scoped count claim and 0.99 bound judgment",
+    "Unknown counts preserved rather than zero",
+    "Two-ledger bound state versus one-ledger scoped state",
+    "Separate actual provider replies and call costs",
+    "Explicit reference reveal and non-mutating cached results",
+    "Formatted article and return preserving dataset/card/claim/candidate/round/section"
+  ]
+}
