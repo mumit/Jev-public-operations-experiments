@@ -42,8 +42,46 @@ The frozen Jev check requires at least 90% role, service, meaning, accepted-bind
 
 ## Results
 
-Pending execution of the frozen two-stage protocol.
+All 27 extraction calls returned. Twenty-five replies pass the frozen validator; two fail because a selected option has lower reported probability than another option. The frozen runner rejects the whole note response when any answer is invalid. The dependent verdict protocol requires complete valid extraction, so it was not created and no verdict calls were made.
+
+| Application | Round | Valid replies | Role agreement | Correct service | Correct meaning | Accepted correct bindings |
+|---|---|---|---|---|---|---|
+| Train Ticket | 1 | 3/3 | 36/36 | 18/18 | 17/18 | 15/18 |
+| Train Ticket | 2 | 3/3 | 36/36 | 18/18 | 18/18 | 18/18 |
+| Train Ticket | 3 | 2/3 | 24/36 | 12/18 | 12/18 | 10/18 |
+| Online Boutique | 1 | 5/6 | 60/72 | 30/36 | 30/36 | 29/36 |
+| Online Boutique | 2 | 6/6 | 71/72 | 36/36 | 36/36 | 35/36 |
+| Online Boutique | 3 | 6/6 | 71/72 | 36/36 | 36/36 | 35/36 |
+
+Every planned note and claim stays in its denominator. Rejected replies count as unavailable, not repaired predictions. Across the three rounds, Jev accepts 142 correct bindings out of 162 planned routable-claim opportunities, with no wrong accepted binding or accepted review-only sentence. That is extraction routing, not verdict or display safety.
+
+Among the 25 valid replies, all 150 routable service assignments are correct and 149/150 meanings match. The literal parser accepts only the two explicitly named metric claims per note: 6/18 Train Ticket and 12/36 Online Boutique each round. It resolves no pronouns. Jev therefore covers more of these constructed notes than this deliberately conservative parser; added value over a stronger parser or authentic reports remains untested. The supplied-annotation control accepts all six routable claims by construction. No comparator has new verdict results.
+
+### Two response inconsistencies
+
+The [Choice documentation](https://docs.typesafe.ai/primitives/choice) defines the selected choice as the highest-probability option. These two raw answers violate that check:
+
+| Note and round | Question | Selected option | Selected probability | Highest option and probability |
+|---|---|---|---|---|
+| NEX-8a35465e8421, round 1 | s11_kind, compound assertion | health | 0.34 | unmapped, 0.35 |
+| NEX-ca19c97a64d8, round 3 | s05_service, requested check | none | 0.49 | ts-preserve-other-mongo, 0.50 |
+
+Both sentences were intended for review or exclusion, but the frozen whole-response validator also removes their six routable sibling claims. I retain that outcome rather than selecting a new maximum, relaxing validation or salvaging individual fields after inspection. The gaps are 0.01; the recorded evidence does not establish why the API returned them.
+
+### Mapping errors and correct claims withheld
+
+One valid Train Ticket reply classifies “Its recorded span count reaches five in both windows” as health instead of span adequacy. Its minimum relevant probability is 0.60, so the candidate stays in review. Another round maps it correctly but withholds it at 0.68. The subject service is correct in both.
+
+The Online Boutique claim “adservice has an eligible signed latency-90 change that is greater than zero” maps correctly in all rounds, but its minimum relevant probabilities are 0.64, 0.67 and 0.63. It stays withheld throughout. Two compound-role errors also remain in review because their service subject is ambiguous. None of these outcomes justifies lowering the boundary on the inspected notes.
+
+The 27 calls consume 472,881 input tokens; the largest reports 25,570, within the 32,768 context limit. Summed recorded call latency is 8.52 seconds. There are 1,944 raw answers, of which 1,800 belong to fully valid replies. The two rejected raw replies remain available. No new recording opens.
+
+## Interpretation
+
+Jev handles local pronouns and bounded meanings well in the valid replies, while the literal parser loses those claims. The complete experiment is blocked by response validation and has no end-to-end verdict result. The evidence supports further work on bounded note interpretation, with explicit review routing. It does not establish a reliable report-processing workflow.
 
 ## Next steps
 
-The measured failure stage will determine the next change. Wrong role labels call for better speech-act wording; wrong subjects call for explicit service confirmation or stronger reference resolution; correct bindings with wrong verdicts call for a separate verdict transformation. Any revised candidate needs new frozen requests. Authentic report performance and analyst benefit remain separate validation tasks.
+The next protocol needs a failure-handling choice. I recommend validating each sentence independently: an inconsistent answer sends that sentence to review, while validated sibling sentences may proceed. The alternative retains whole-note review whenever any answer is inconsistent. Both approaches must preserve the raw reply, retain all scoring denominators and avoid replacing the provider's choice with a computed maximum.
+
+That change belongs in a separate frozen protocol. The completed extraction calls will stay unchanged; a new replay on these inspected notes would measure revised integration behavior and variability, not fresh generalization. Keep the 0.70 acceptance boundary fixed and measure the span-adequacy mapping and compound-role errors separately. Verdict comparison can resume only after the new failure policy and exact dependent requests are frozen.

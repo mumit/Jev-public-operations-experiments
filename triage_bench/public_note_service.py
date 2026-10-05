@@ -4,7 +4,8 @@ import json
 from pathlib import Path
 from .public_rca_stages import committed, load
 from .public_note_v2_data import DATA, PLAN, INDEX, PREVIOUS_DATA
-from .public_note_v2_trial import RESULT, SOURCES, protocol_path, output, score
+from .public_note_v2_trial import SOURCES, protocol_path, output
+from .public_note_audit import RESULT, audit as score
 
 
 class PublicNoteStudy:
@@ -12,9 +13,9 @@ class PublicNoteStudy:
         self.root = Path(root); self._signature = None; self._result = None
 
     def verified(self):
-        paths = [PLAN, RESULT, INDEX, protocol_path('extraction'), protocol_path('verdict'),
+        paths = [PLAN, RESULT, INDEX, protocol_path('extraction'), self.root / 'triage_bench/public_note_audit.py',
             *(self.root / n for n in SOURCES), *(self.root / n for n in load(PLAN)['evidence_sha256']),
-            *DATA.rglob('*'), *PREVIOUS_DATA.rglob('*'), *output('extraction').rglob('*'), *output('verdict').rglob('*')]
+            *DATA.rglob('*'), *PREVIOUS_DATA.rglob('*'), *output('extraction').rglob('*')]
         signature = tuple((str(p), p.stat().st_size, p.stat().st_mtime_ns) for p in paths if p.is_file())
         if signature != self._signature:
             committed(RESULT); result = score()
@@ -27,14 +28,12 @@ class PublicNoteStudy:
         try:
             result = copy.deepcopy(self.verified())
         except (OSError, ValueError, KeyError):
-            return {'available': False, 'notes': ['Verified note extraction evidence is unavailable. Restore the fourteen public assets.']}
+            return {'available': False, 'notes': ['Verified note extraction evidence is unavailable. Restore the fourteen public assets, including the blocked extraction diagnostic.']}
         packets = load(DATA / 'inputs.json')
         for dataset, panel in result['datasets'].items():
             panel['report_choices'] = [{'id': p['id']} for p in packets if p['dataset'] == dataset]
             for value in panel['arms'].values(): value.pop('outcomes')
-            panel['paired_losses'] = [{'round': n, 'losses_from_annotated': sum(p['loss_from_control'] for p in panel['pairs'] if p['round'] == n),
-                'fixes_over_annotated': sum(p['fix_over_control'] for p in panel['pairs'] if p['round'] == n)} for n in (1, 2, 3)]
-            panel.pop('pairs')
+        result.pop('bindings')
         return {'available': True, **result}
 
     def card(self, identifier, reveal=False):
@@ -48,11 +47,11 @@ class PublicNoteStudy:
                     for key in ('category', 'actionable', 'gold_role', 'assertion_gold', 'gold_service', 'role_correct', 'service_correct',
                                 'meaning_correct', 'binding_correct', 'reference', 'verdict_correct', 'end_to_end_correct', 'unsafe_displayed'):
                         o.pop(key, None)
-        verdict_protocol = load(protocol_path('verdict'))
+        assigned = result['bindings']
         responses, jobs = [], []
-        for phase in ('extraction', 'verdict'):
+        for phase in ('extraction',):
             responses += [json.loads(line) for line in (output(phase) / 'responses.jsonl').read_text().splitlines() if json.loads(line)['card_id'] == identifier]
             jobs += [r for r in load(output(phase) / 'requests.json') if r['card_id'] == identifier]
-        return {**packet, 'bindings': [b for b in verdict_protocol['bindings'] if b['card_id'] == identifier],
+        return {**packet, 'bindings': [b for b in assigned if b['card_id'] == identifier],
             'outcomes': outcomes, 'responses': responses, 'jobs': jobs,
             'reference': next(r for r in load(DATA / 'references.json') if r['id'] == identifier) if reveal else None}

@@ -196,7 +196,7 @@ class NoteReaderTests(unittest.TestCase):
         from triage_bench import public_note_service as service
         packet = {'id':'p','dataset':'Sample'}
         o = {'id':'p','sentence':'s01','gold_role':'assertion','reference':'supported','end_to_end_correct':True,'unsafe_displayed':False}
-        result = {'datasets':{'Sample':{'arms':{'jev':{'outcomes':[o]}}}}}
+        result = {'datasets':{'Sample':{'arms':{'jev':{'outcomes':[o]}}}},'bindings':[]}
         with tempfile.TemporaryDirectory() as t:
             path=Path(t);(path/'responses.jsonl').write_text('{"card_id":"p"}\n')
             def fixture(p):
@@ -208,3 +208,37 @@ class NoteReaderTests(unittest.TestCase):
                 self.assertNotIn('reference',hidden['outcomes']['jev'][0])
                 self.assertIn('reference',o)
                 self.assertIsNotNone(study.card('p',True)['reference'])
+
+
+class RejectedNoteTests(unittest.TestCase):
+    def test_inconsistent_unused_field_quarantines_whole_frozen_response(self):
+        from triage_bench import public_note_v2_trial as trial
+        from triage_bench.app import profiles
+        from triage_bench.profile import MODEL
+        p,r=NoteTests().fixture();profile=profiles()['jev'];profile['api_key']='private-quarantine-fixture'
+        body=p['extraction_request'];gold=NoteTests().answers(r)
+        raw={'model':MODEL,'answers':{},'usage':{'input_tokens':123}}
+        for field,q in body['questions'].items():
+            choice=gold[field]['choice']
+            raw['answers'][field]={'type':'choice','choice':choice,'probabilities':{k:float(k==choice) for k in q['criteria']},'confidence':1.}
+        raw['answers']['s01_service'].update(choice='none',probabilities={'none':.49,'alpha':.50,'beta':.01,'ambiguous':0})
+        req={'id':'one','card_id':p['id'],'arm':'jev','round':1,'phase':'extraction','body':body}
+        response=MagicMock();response.__enter__.return_value.read.return_value=json.dumps(raw).encode()
+        opener=MagicMock();opener.open.return_value=response
+        with tempfile.TemporaryDirectory() as t:
+            path=Path(t);protocol=path/'protocol.json';protocol.write_text('{}')
+            frozen={k:profile[k] for k in ('model','endpoint','context_tokens')}
+            with patch.object(trial,'check',return_value=(frozen,[req])),patch.object(trial,'protocol_path',return_value=protocol),patch.object(trial,'output',return_value=path/'hosted'),patch('urllib.request.build_opener',return_value=opener):
+                summary=trial.run('extraction',profile)
+                saved=json.loads((path/'hosted/responses.jsonl').read_text())
+                self.assertEqual(summary['failed'],1)
+                self.assertEqual(summary['status'],'incomplete_or_failed')
+                self.assertNotIn('answers',saved)
+                self.assertEqual(len(saved['raw_response']['answers']),72)
+                self.assertEqual(opener.open.call_count,1)
+
+    def test_complete_extraction_is_required_before_any_dependent_binding(self):
+        from triage_bench import public_note_v2_trial as trial
+        with patch.object(trial,'verified_rows',side_effect=ValueError('Complete note evidence required.')) as reader:
+            with self.assertRaises(ValueError):trial.bindings()
+            reader.assert_called_once_with('extraction',complete=True)
