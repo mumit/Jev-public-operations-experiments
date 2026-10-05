@@ -91,3 +91,9 @@ All 192 calls completed successfully. Train Ticket metrics/original traces match
 The new /trace-task inspector exposes the four input steps, question wording, explicit duration/rate changes, actual responses and controls. Read docs/public-trace-task.md for the concrete route/adservice examples. The next choice is a narrower evidence-assessment task (recommended) or a separate ML candidate-selection study. The narrower task needs evidence-based references distinct from published injected-service labels. Do not relabel inspected development as held-out data or tune the boundary to display these choices.
 
 The public-trace-task-v1 bundle adds 192 responses and 56 files after the six historical assets. All seven preserve 1,477 actual responses in 1,035 evidence files. The 22 evaluation cases, nine remaining RE3 reserves, RE3 Sock Shop and 140 RE1 reserves stay unopened. Earlier 25-case reserve counts describe completion of the first trace experiment; 16 of those cases became fresh development for this separate protocol. Preserve all completed task sources and exact request fingerprints.
+
+## Selected evidence-assessment diagnostic
+
+The user chose evidence assessment rather than an ML candidate shortlist. Read docs/public-evidence-assessment.md. The new study selects 32 service cards from the 16 inspected trace-task development recordings, compares observations with calculated trace changes and asks four independent bounded questions. References come from explicit numerical eligibility/change rules, not injected causes. Code composes investigation support. The inherited 0.70 probability boundary is diagnostic only, not calibrated for this new target.
+
+The 192-call protocol consumes no new cases, trains no ML and opens no protected telemetry. Its results must remain diagnostic even if the research checks pass. Freeze source/data provenance before preparation and exact request fingerprints before execution; keep all historical producers unchanged.
