@@ -161,3 +161,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_binding
 ```
 
 Restore assets in order. The latest verifier checks all twelve studies and both original pack validators without inference. Explicit binding fixes both repeated lookup errors; one-claim grouping introduces a one-round regression; scoped facts judge and display every claim correctly. The full sequence fails, while binding and scope pass their separate checks. All protected recordings remain unopened and historical releases stay immutable.
+
+## Fresh-measurement claim confirmation supplement
+
+The [public-fresh-claims-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-fresh-claims-v1) adds 189 actual responses containing 324 verdicts. It opens only nine separately allocated RE3 reserves, retaining their source metrics, traces, injection boundaries, new controlled notes, separate typed references and exact bound/scoped requests. The 33 files require all twelve earlier assets. The archive is 37,408,282 bytes. All thirteen preserve 3,274 responses in 1,098 files.
+
+```bash
+gh release download public-fresh-claims-v1 --repo mumit/Jev-public-operations-experiments --pattern public-fresh-claims-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-fresh-claims-v1.tar.gz --manifest evidence/public-fresh-claims-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_fresh_claims
+```
+
+Both candidates judge every claim correctly. Bound displays every answer with one call per report; scoped uses six and withholds one correct answer once. The new wording was fixed before measurement access, but still comes from the experiment author. Automatic extraction and attribution remain untested. Restoring and verifying make no calls; protected cause-evaluation, RE3 Sock Shop and RE1 reserve recordings stay unopened. Historical releases remain immutable.

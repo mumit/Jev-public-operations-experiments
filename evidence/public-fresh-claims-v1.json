@@ -1,0 +1,157 @@
+{
+  "schema": "public-fresh-claims-evidence-1",
+  "archive": "public-fresh-claims-v1.tar.gz",
+  "archive_sha256": "4a5adde6d27b506e7b0cc99b949d2ef7ca4a07506786240bb4074ea7dc828c4f",
+  "bytes": 37408282,
+  "source_commit": "713e533b9875f3f4bae69a761a1219fecbec755f",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 189,
+  "files": {
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/inputs.json": {
+      "bytes": 491291,
+      "sha256": "11ae0901434270830b6aba2fc275baf6b019132bda68f1c7dd0a1d1005810d9e"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/manifest.json": {
+      "bytes": 7764,
+      "sha256": "c1546197fd2387a0c2c86838e537f306c06550a3db80b8ae380554c6ff804cd5"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-098980dae304/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e23f99a8ca23375f462a14668b3d77d648e6e1b22caa1e37d63a891e29fbf58d"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-098980dae304/metrics.parquet": {
+      "bytes": 140753,
+      "sha256": "0fae45e1011f729e370587fc0689602a6741cbb7d228162402a0117f34790bee"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-098980dae304/traces.parquet": {
+      "bytes": 4496171,
+      "sha256": "428bc64f361615887894d126ffd4c28d3c65b40eba808174127b5afc12d88339"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-185902f5e9e0/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8d42b68c2c6ba3894439f05c0b29401d90c462e3a9aa35b141c0cbeb90879b6e"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-185902f5e9e0/metrics.parquet": {
+      "bytes": 143760,
+      "sha256": "76efe8bbcc75c88e2cfdc1da0bb0908ceb41c390db77ef1755f0d309aa108a04"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-185902f5e9e0/traces.parquet": {
+      "bytes": 4464092,
+      "sha256": "a6fe866978b552ccf47daf6da83e1d07ab8df48a8a75a6247ceec76474306aaf"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-1be5de484464/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f042aff946139584d2b5ed941d35bcaf4e5f4840e435d5f4002b4e74d2116083"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-1be5de484464/metrics.parquet": {
+      "bytes": 145711,
+      "sha256": "0839d34e3c4f86862997fa3f7516998e45167641c62069fc3e1ae0648438ee1e"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-1be5de484464/traces.parquet": {
+      "bytes": 4441717,
+      "sha256": "5b24a0f8fa127a1852fe6b9ff2a91cf579c2e010d577079fd879867ed4492099"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-2168eae89589/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f976296c886beeaae6839c4c9d7342d12f379b5cd49a7fe867f676de103f4a78"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-2168eae89589/metrics.parquet": {
+      "bytes": 143375,
+      "sha256": "c2e614a55502f6c181941e2df334b5c22fc52a9cd76ecd4905c0ec2586a33ca8"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-2168eae89589/traces.parquet": {
+      "bytes": 4520351,
+      "sha256": "f1039325ede28a05c002fe05812ab2170b6b9e590d89239d7582392f76a197f2"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-2a74cf6ba6ce/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "3d1df30ba04c02da16cd5e7ba831e7c9c5ae95987cef48fc7df06a2085dbdfb7"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-2a74cf6ba6ce/metrics.parquet": {
+      "bytes": 809873,
+      "sha256": "0555a81157eb648f4aa6e727a77716e05a818db0a61a60b58a2f3fd00c4c75ae"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-2a74cf6ba6ce/traces.parquet": {
+      "bytes": 2986899,
+      "sha256": "de090dc2f8967a2b3927659cae7ea914d4cf3864ea1eb177607048cf0d560923"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-4440b77b693d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2841dd2864b951efe957253b05c45eb72a1f50683cfb1b56147722b20a07386a"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-4440b77b693d/metrics.parquet": {
+      "bytes": 801606,
+      "sha256": "351b50165d0f91aebc4b9f134c3d0aec809b9e0549878b6f567baf578049b692"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-4440b77b693d/traces.parquet": {
+      "bytes": 3007993,
+      "sha256": "2df38d7c075a9b0fa2d5ea53b97f7098953a3d78b63cd0a46850db64036b1129"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-4928ee4aaebf/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "66b591530d0fdfec7f154cd07cb4972219462a5ac0f4752d318f0be56f069019"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-4928ee4aaebf/metrics.parquet": {
+      "bytes": 811386,
+      "sha256": "b4f43f37d06edd58130175a8bad767713f12e8ecf4817bc1a60a43ba4287487c"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-4928ee4aaebf/traces.parquet": {
+      "bytes": 2844637,
+      "sha256": "2e6344da6b5d3ba58e2dd7363c8493a8eeb17b76fafcac5fa2b9fa4757009aab"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-588f5902fbe2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "604d5727ac3acadeb232c166837f07c7e4fb08f013cee57a4e23c1b0076a0204"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-588f5902fbe2/metrics.parquet": {
+      "bytes": 143458,
+      "sha256": "ff395160e766f1b9b1154135803f82f961c31fb2c4b8b7a7f17ac6f20a98d65f"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-588f5902fbe2/traces.parquet": {
+      "bytes": 4459257,
+      "sha256": "8ca73585fb58aeb1936ebae4c2f2f5fb77c30a3eb802cf02b0f3f56570e97ab3"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-b4070bae343e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "085252e21202afa4d91b452bec5bcfd631a4d20d6759f473ae88e309ead90e7f"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-b4070bae343e/metrics.parquet": {
+      "bytes": 145336,
+      "sha256": "dcaf9818cfd4c74973dbaede2a635754db70008139a8b560727ec66dabf6ff5a"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/raw/FMC-b4070bae343e/traces.parquet": {
+      "bytes": 4495674,
+      "sha256": "3d1470087ec2d35b205158caadccbabfc110b2b4565e683225701f5f00d73b13"
+    },
+    "runs/public-fresh-claims/confirmation-data-2026-10-05-v1/references.json": {
+      "bytes": 24909,
+      "sha256": "27a92c0de20bc334cadbd7a9d5c0a7f59e8abd8a9dc12cf93f97f531d3c8facf"
+    },
+    "runs/public-fresh-claims/confirmation-hosted-2026-10-05-v1/requests.json": {
+      "bytes": 1327428,
+      "sha256": "44d8676c6617ca93489cb6f8b821983aaf3b2aeef43c624cef7b57e92436182c"
+    },
+    "runs/public-fresh-claims/confirmation-hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 184602,
+      "sha256": "0869d6569c7a92e336be3962b5b6efbb32399eaa3e998844a1dfd1ecf6ee1c70"
+    },
+    "runs/public-fresh-claims/confirmation-hosted-2026-10-05-v1/summary.json": {
+      "bytes": 457,
+      "sha256": "e08d877033504340b8ead5ae15428a7e4c6fc778348997daa99d8f8279597347"
+    }
+  }
+}
