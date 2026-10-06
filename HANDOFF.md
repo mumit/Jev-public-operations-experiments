@@ -12,6 +12,8 @@ Read docs/explicit-claims.md and docs/operations-fit.md. Inspect /explicit-claim
 
 Use scripts.verify_explicit_preparations for all twenty-eight executed studies, three preserved preparation failures and both original pack validators without inference. The new assets are explicit-claims-v1, explicit-format-v1 and explicit-preparation-failures-v1; restore their predecessors first. All twenty-nine assets preserve 12,484 actual provider responses in 1,257 files. The third supplement has zero hosted responses and ninety public source files. Publication and clean-checkout verification are recorded in docs/evidence.md and docs/verification.md.
 
+The clean checkout at 9c00f01 passes the complete replay, all 347 tests and thirty browser-script syntax checks without credentials or inference. All three new public archive sizes and digests match their manifests. The remaining blocker is the data-policy choice above, not publication or reproducibility.
+
 ## Historical checkpoints
 
 The sections below record earlier states and then-planned follow-ups. The current-state section above governs continuation.

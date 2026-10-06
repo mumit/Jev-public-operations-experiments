@@ -277,3 +277,15 @@ Three fresh preparations download fifteen recordings each and stop before claim 
 The local suite passes 347 tests. New checks cover strict field entry and numeric validity, both assertion polarities, hand-specified inclusive boundaries, independent policy agreement, exact contemporary controls, assertion-independent preprocessing, complete budgets and missing-call denominators, wrong displays and quarantine, global stopping without retries, read-only drafts, reference hiding, native names and unchanged arithmetic, grouped allocations, raw failure checksums and prevention of failed-pack promotion.
 
 All three bundle builders pass their complete verification chains and scan public bytes for credentials and the excluded identity, including compressed string columns. The recorded local evaluator timing is a single pass through 250 entries; replay timing is excluded from immutable score comparison. Provider latency, preparation and human time have different measurement boundaries. Zero human entries, reviews or independent reviews were recorded.
+
+A separate clean checkout at 9c00f01 restores all twenty-nine checksum-verified assets and 1,257 files into its locked Python 3.14.3 environment. With API-key variables removed and no local `.env`, it passes all 347 tests, thirty browser-script syntax checks and the complete twenty-eight-study replay, three preparation-failure audits and both original pack validators. Replay makes zero inference calls and confirms every protected allocation remains unopened. The assets preserve 12,484 actual provider responses; the failed preparations contain ninety source files and zero responses.
+
+GitHub reports all three published archive sizes and SHA-256 digests exactly as recorded in their manifests:
+
+| Asset | Bytes | SHA-256 |
+| --- | --- | --- |
+| explicit-claims-v1 | 132,499 | `e2e05232175f17816bc1cf25dd13411b20c444ab86b89d86ca1e19d869c07120` |
+| explicit-format-v1 | 374,704 | `7c04f436ba5e91c29742c648ad3fe16ac23627a49d5988181f025c9a0dacee0a` |
+| explicit-preparation-failures-v1 | 9,860,249 | `f6811d76dfde050207fdc1185e9efd77d276389c1f24fd0dd62d8cc1b4d2c42a` |
+
+Browser review checks the typed and transformed requests, original replies, separate reference reveal, calculation boundaries, assertion changes and deterministic draft export. The below-threshold duration fixture exposes the calculated contradiction and its negated draft preview. Draft edits trigger no model calls; the page identifies the confirmation blocker and has no horizontal overflow. These checks establish reproducibility and inspector behavior, not performance on genuine analyst entries or operational readiness.
