@@ -1,0 +1,193 @@
+{
+  "schema": "explicit-preparation-failure-1",
+  "plan_sha256": "39b255c6eb86851e8861c7e701325631e2f1af74bd0cb663fdfa8204b6210ba2",
+  "recordings_downloaded": 15,
+  "hosted_calls": 0,
+  "inputs_prepared": 0,
+  "references_prepared": 0,
+  "status": "failed_before_protocol_or_inference",
+  "reason": "First native adapter rejects workload in later groups. The v2 adapter retains the original known-channel allowlist plus native load and latency, without aliases.",
+  "publisher_verification": "Rechecked pinned publisher metadata after the preparation exception; not an original execution journal.",
+  "files": [
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-7c72a71684f8/metrics.parquet",
+      "bytes": 368024,
+      "sha256": "464dcc215afe145d37f8b107ea291df7ffc0691756d375c54ddc1c09d0a2ac74",
+      "publisher_hash": "464dcc215afe145d37f8b107ea291df7ffc0691756d375c54ddc1c09d0a2ac74"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-7c72a71684f8/inject_time.txt",
+      "bytes": 10,
+      "sha256": "392017698b9b1df43c5b9a5e96dfb9c19676348d67d2ee6a4ad2061abe729112",
+      "publisher_hash": "6a57189142bd8e3a693bc7972bd8cb104ef1830e"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-522c2d3c367e/metrics.parquet",
+      "bytes": 385594,
+      "sha256": "efc09980ca1386b6ace770364272201ef8eb055444f804cca9f0be8c15199483",
+      "publisher_hash": "efc09980ca1386b6ace770364272201ef8eb055444f804cca9f0be8c15199483"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-522c2d3c367e/inject_time.txt",
+      "bytes": 10,
+      "sha256": "d6819c7dc9a5eef5aa2c0ee4ae2494c29ad5c68e2be6bfff450e1e3999c9529b",
+      "publisher_hash": "109af811648247f3c7bb9eeded79e787cb7dcd73"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-f2f02e16d910/metrics.parquet",
+      "bytes": 338746,
+      "sha256": "5dad8369e838c7fdce505f443f1dd61fbe679748efa4be625dbeed6b8189feb5",
+      "publisher_hash": "5dad8369e838c7fdce505f443f1dd61fbe679748efa4be625dbeed6b8189feb5"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-f2f02e16d910/inject_time.txt",
+      "bytes": 10,
+      "sha256": "e0f19a38dc3ed54b4e6ed544117b91d996c0a2098634070cd5937ef430a3e36d",
+      "publisher_hash": "906397e8fcacadc306ae87ef0d64f65289854a9a"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-199d6f9b9b29/metrics.parquet",
+      "bytes": 396235,
+      "sha256": "ff0563caad1bcb902a1f68bef4b9ca4134aa031e526c57045b222e9c255e337c",
+      "publisher_hash": "ff0563caad1bcb902a1f68bef4b9ca4134aa031e526c57045b222e9c255e337c"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-199d6f9b9b29/inject_time.txt",
+      "bytes": 10,
+      "sha256": "ee5d379440507cd245c81e08929295d9af1441c4d14541a116b95fb353e72337",
+      "publisher_hash": "7dc037f7cf755dcc22a7f9b4d6c88b9da5650393"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-486b08362103/metrics.parquet",
+      "bytes": 386392,
+      "sha256": "3239c865f33c82fd6fa5a051b41a0e9e3cfd94a2b26ec65ed92f455be58ee43c",
+      "publisher_hash": "3239c865f33c82fd6fa5a051b41a0e9e3cfd94a2b26ec65ed92f455be58ee43c"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-486b08362103/inject_time.txt",
+      "bytes": 10,
+      "sha256": "4762d68f3b71195c32898e42aea31a6b69e0a21fa4fcaf9ae58aa30d445ef658",
+      "publisher_hash": "678bdf415c5676938c700a7d5b04da4e6f46293b"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-d81d348cc9f1/metrics.parquet",
+      "bytes": 154777,
+      "sha256": "3d088f01dddf26ef0890c53237f9ded4cf122ef43d9d34f046fc56665c790e50",
+      "publisher_hash": "3d088f01dddf26ef0890c53237f9ded4cf122ef43d9d34f046fc56665c790e50"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-d81d348cc9f1/inject_time.txt",
+      "bytes": 10,
+      "sha256": "18ab5493f5c5684338bbe734e55fb0c9038e75df5c59a07d3c17611daca59fe5",
+      "publisher_hash": "70bef2924f162ad4a934b814fc54752048b1a405"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-53f46291797e/metrics.parquet",
+      "bytes": 133672,
+      "sha256": "6bf618231f849e6aa5fb112c5822e46767e51ea1f9aa1c92c5d6a894dd7f7175",
+      "publisher_hash": "6bf618231f849e6aa5fb112c5822e46767e51ea1f9aa1c92c5d6a894dd7f7175"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-53f46291797e/inject_time.txt",
+      "bytes": 10,
+      "sha256": "c492e0445f3fc3d348efe56dbcefd65469e05528afb1085a62fc5beedfc61c6a",
+      "publisher_hash": "c6286bff109f4280480552adedcbcb272a593573"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-b01ad2b22d36/metrics.parquet",
+      "bytes": 138416,
+      "sha256": "532523470c984978dd446bb302aaecf87c4e372ebff4f946c018efbfeed6c20c",
+      "publisher_hash": "532523470c984978dd446bb302aaecf87c4e372ebff4f946c018efbfeed6c20c"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-b01ad2b22d36/inject_time.txt",
+      "bytes": 10,
+      "sha256": "0d084ac4f56dc69c35837ec1d8aca2bae5e27355e5b3b27dbb917006ea190a3b",
+      "publisher_hash": "3767edd48957928d47891a89a0f707e42ca7d473"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-0f47e41b7e7e/metrics.parquet",
+      "bytes": 131823,
+      "sha256": "8a021be0c6eacbeae92554be1a9f593d9beb1e178193a65b8e0cf08911e0f4b1",
+      "publisher_hash": "8a021be0c6eacbeae92554be1a9f593d9beb1e178193a65b8e0cf08911e0f4b1"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-0f47e41b7e7e/inject_time.txt",
+      "bytes": 10,
+      "sha256": "5e0749fb3a0d04ede3584c115b2fd42c0616042e03172fcbc34fa5e341a38d69",
+      "publisher_hash": "59e39c2bcc26796389442d9b84036d0a93e4125d"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-ff4ebe5dc0f4/metrics.parquet",
+      "bytes": 124817,
+      "sha256": "26f24940da755b40cd9ef623b04d5bd37476f765a39be1ac6ce7125a97379534",
+      "publisher_hash": "26f24940da755b40cd9ef623b04d5bd37476f765a39be1ac6ce7125a97379534"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-ff4ebe5dc0f4/inject_time.txt",
+      "bytes": 10,
+      "sha256": "535c0d9a71287daf0ba4707e7f80b0a74b39a7096703a3aaa4e822a324e3c11c",
+      "publisher_hash": "db1dd02209a5f411839d11efebf50617a7cdcd4e"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-315e24b9921b/metrics.parquet",
+      "bytes": 164258,
+      "sha256": "53475c09707471cf8f977f0dd7affb81322de115d7a087f197d8b7f63a87e585",
+      "publisher_hash": "53475c09707471cf8f977f0dd7affb81322de115d7a087f197d8b7f63a87e585"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-315e24b9921b/inject_time.txt",
+      "bytes": 8,
+      "sha256": "0633bdefab3ef8557d6ebc41e4773a59efc5215a589269c63d3c57bf2ab9b5e9",
+      "publisher_hash": "4cae8ebb8abe8303327606fa600fbafacacfe0fe"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-30edbb8f3dc8/metrics.parquet",
+      "bytes": 147993,
+      "sha256": "78f860399e949f9d6f8055d85d9a43e706f29247f64d7019623a978f3b037d37",
+      "publisher_hash": "78f860399e949f9d6f8055d85d9a43e706f29247f64d7019623a978f3b037d37"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-30edbb8f3dc8/inject_time.txt",
+      "bytes": 10,
+      "sha256": "e784fffdb08733398f029485f2988788c4660b49aabf823ee06971b3b60b7387",
+      "publisher_hash": "bdc315dae53632eabdcb88c14ab8cd70c4b05208"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-1616ca66c23b/metrics.parquet",
+      "bytes": 152636,
+      "sha256": "4aa63d42cb3158df67e70b7d1e1d7dcec7fd3b20cf5c13123a8b439a82dcbeaa",
+      "publisher_hash": "4aa63d42cb3158df67e70b7d1e1d7dcec7fd3b20cf5c13123a8b439a82dcbeaa"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-1616ca66c23b/inject_time.txt",
+      "bytes": 10,
+      "sha256": "f6ce5c8393643ff553e1972e57a247329334a8a6678f2388769eeb8a70e424b1",
+      "publisher_hash": "8ce73a465c31c651891a96aea4f57a788f0210f6"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-f0d64e2abbbc/metrics.parquet",
+      "bytes": 146454,
+      "sha256": "7ca79cde22061035f96decaebf2150992a5da9fb8d506e6e199b928f662b0939",
+      "publisher_hash": "7ca79cde22061035f96decaebf2150992a5da9fb8d506e6e199b928f662b0939"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-f0d64e2abbbc/inject_time.txt",
+      "bytes": 10,
+      "sha256": "d413b5255b75a416e0c8056460a4d2ce382b87d3fd8d641865c8de52bec13f5f",
+      "publisher_hash": "e9677eb011adfd95005103cc0ff36eba2eb786e5"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-d1f2870b9e5e/metrics.parquet",
+      "bytes": 142728,
+      "sha256": "7be584abd3ae42993e24272cefb2efef697095f5407152d354413803d1cb87e1",
+      "publisher_hash": "7be584abd3ae42993e24272cefb2efef697095f5407152d354413803d1cb87e1"
+    },
+    {
+      "path": "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-d1f2870b9e5e/inject_time.txt",
+      "bytes": 10,
+      "sha256": "8e4f584d3700d0e65bd840540f2748c8b3d9f8101465804771dc7156db5b1a9b",
+      "publisher_hash": "d47109c4e83ea12c26db82c7c4e3039b0a15c56a"
+    }
+  ]
+}
