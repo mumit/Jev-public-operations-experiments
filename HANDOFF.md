@@ -2,7 +2,7 @@
 
 ## Current state
 
-The optional clarification work is complete. Direct selection performs worse than the six-field control (149 versus 187 correct displays/276). A separate same-reply display-policy comparison gives 251 correct displays under first-question dependencies versus 188 under all-fields, with 63 gains and no losses. No wrong display occurs, but sixteen needed clarifications are withheld and nine of 24 frozen panels fail. Read docs/optional-clarification.md and inspect /optional-clarification. Stop tuning on inspected text; the next choice is a participant-led convenience evaluation despite misses, or required entry alone. No human benefit or readiness claim is established.
+The optional clarification work is complete. Direct selection performs worse than the six-field control (149 versus 187 correct displays/276). A separate same-reply display-policy comparison gives 251 correct displays under first-question dependencies versus 188 under all-fields, with 63 gains and no losses. No wrong display occurs, but sixteen needed clarifications are withheld and nine of 24 frozen panels fail. Read docs/optional-clarification.md and inspect /optional-clarification. The unexecuted proposal is in docs/optional-entry-evaluation.md. Stop tuning on inspected text; the next choice is a participant-led convenience evaluation despite misses, or required entry alone. No human benefit or readiness claim is established.
 
 The optional comparison has completed: direct 149 correct displays, checklist 187 across 276 opportunities each. Direct fails and adds five unnecessary health-request questions. Read docs/optional-clarification.md for the separate, prospective display-policy diagnosis. Neither method is promoted.
 
