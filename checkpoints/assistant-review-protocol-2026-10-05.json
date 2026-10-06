@@ -1,0 +1,1489 @@
+{
+  "schema": "assistant-review-protocol-1",
+  "plan_sha256": "868b34d93815bf6cae5e25fa44a00877819b6755e67f11c1390f383138b472de",
+  "reference_sha256": "eb019e05fba94b3ee5920872943140c42a2b3970ac1ca0996846910e51130ad7",
+  "review_sha256": "1dc97e3b2971139e4755a401df83e9479fb778a549bdd6a74b184bb08707a0c9",
+  "audit": {
+    "reviewer": "assistant, same author",
+    "human_reviews": 0,
+    "independent_reviews": 0,
+    "notes": [
+      {
+        "note_id": "NWL-6a1a2c127a1d",
+        "dataset": "Train Ticket",
+        "wording": "plain",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-41460bbdf301",
+        "dataset": "Train Ticket",
+        "wording": "negated",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-a059c4e9b227",
+        "dataset": "Train Ticket",
+        "wording": "boundary",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-ebebeada049f",
+        "dataset": "Train Ticket",
+        "wording": "plain",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-7432a7ac9d8b",
+        "dataset": "Train Ticket",
+        "wording": "negated",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 1,
+        "changed_relevant_bindings": [
+          "s08"
+        ],
+        "previously_withheld_confirmed": [
+          "s04",
+          "s08"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-9a3498667b9c",
+        "dataset": "Train Ticket",
+        "wording": "boundary",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-db3d395ffc58",
+        "dataset": "Train Ticket",
+        "wording": "plain",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-82c22b90a8fb",
+        "dataset": "Train Ticket",
+        "wording": "negated",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-c8311dd5cb61",
+        "dataset": "Train Ticket",
+        "wording": "boundary",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [
+          "s06"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-a87649ebaa1a",
+        "dataset": "Online Boutique",
+        "wording": "plain",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-fe6c9911a37a",
+        "dataset": "Online Boutique",
+        "wording": "negated",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 2,
+        "changed_relevant_bindings": [
+          "s03"
+        ],
+        "previously_withheld_confirmed": [
+          "s03",
+          "s04",
+          "s08"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-eafa3a940729",
+        "dataset": "Online Boutique",
+        "wording": "boundary",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [
+          "s04"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-039d6ebdd81f",
+        "dataset": "Online Boutique",
+        "wording": "plain",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-f49033838aa3",
+        "dataset": "Online Boutique",
+        "wording": "negated",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-0f527b766ed7",
+        "dataset": "Online Boutique",
+        "wording": "boundary",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [
+          "s06"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-b3fb5e096258",
+        "dataset": "Online Boutique",
+        "wording": "plain",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 1,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-aa6833fe95e5",
+        "dataset": "Online Boutique",
+        "wording": "negated",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [
+          "s06",
+          "s07"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-b71d39d22677",
+        "dataset": "Online Boutique",
+        "wording": "boundary",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 2,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-7e13ecc55427",
+        "dataset": "Online Boutique",
+        "wording": "plain",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 1,
+        "changed_relevant_bindings": [
+          "s07"
+        ],
+        "previously_withheld_confirmed": [
+          "s07"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-212a9d0deac9",
+        "dataset": "Online Boutique",
+        "wording": "negated",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 1,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [
+          "s03"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-ee7105dd992e",
+        "dataset": "Online Boutique",
+        "wording": "boundary",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-1aaf4aca9f84",
+        "dataset": "Online Boutique",
+        "wording": "plain",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 1,
+        "changed_relevant_bindings": [
+          "s07"
+        ],
+        "previously_withheld_confirmed": [
+          "s07"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-4f51f156ed8b",
+        "dataset": "Online Boutique",
+        "wording": "negated",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 1,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [
+          "s03"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-9dc6904d0134",
+        "dataset": "Online Boutique",
+        "wording": "boundary",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [
+          "s04"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-85a3178b8cec",
+        "dataset": "Online Boutique",
+        "wording": "plain",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-42acf5afe858",
+        "dataset": "Online Boutique",
+        "wording": "negated",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [
+          "s06",
+          "s07"
+        ],
+        "reference_mismatches": []
+      },
+      {
+        "note_id": "NWL-59bca7262cdd",
+        "dataset": "Online Boutique",
+        "wording": "boundary",
+        "confirmed": 6,
+        "withheld": 6,
+        "changed_field_sentences": 0,
+        "changed_relevant_bindings": [],
+        "previously_withheld_confirmed": [
+          "s06"
+        ],
+        "reference_mismatches": []
+      }
+    ],
+    "reference_agreement": true
+  },
+  "planned_calls": 162,
+  "planned_answers": 972,
+  "largest_request_bytes": 18251,
+  "requests": [
+    {
+      "id": "NWL-6a1a2c127a1d::assistant-review::bound_text::r1",
+      "card_id": "NWL-6a1a2c127a1d",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "123be0bf4aa13151ddfdc6f4e5e5e9e429e5f7a7621b03e401a66f221c94c191"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-6a1a2c127a1d",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "29847fc17ce70d12876a99bd888946e37e100661423f850db0be241c977b1124"
+    },
+    {
+      "id": "NWL-41460bbdf301::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-41460bbdf301",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "149110c4cf89501e7bd8817d4a401885892b137d83993052d0751384dc690e99"
+    },
+    {
+      "id": "NWL-41460bbdf301::assistant-review::bound_text::r1",
+      "card_id": "NWL-41460bbdf301",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "fbf6d75a1ca02b20af1f8856c4089e4bbc311e00d07f46f2f2ceb67216204dca"
+    },
+    {
+      "id": "NWL-a059c4e9b227::assistant-review::bound_text::r1",
+      "card_id": "NWL-a059c4e9b227",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "9dc46f3b2d505693ef003892b3460b576bffe15810f079b74717856a097f1016"
+    },
+    {
+      "id": "NWL-a059c4e9b227::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-a059c4e9b227",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "5d1729a9f018b3dcbd7d272067cb62a9702aa79215367c2b28f9da4505efc63b"
+    },
+    {
+      "id": "NWL-ebebeada049f::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-ebebeada049f",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "b2c46d3c428bc9c4e04a1ea1ab65da6ee122333d2e004642a4ae31ec5a3ca37f"
+    },
+    {
+      "id": "NWL-ebebeada049f::assistant-review::bound_text::r1",
+      "card_id": "NWL-ebebeada049f",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "dc3c6b5593daac9f44f972d09b93a788b7ae616204758c0eec0e1fac666ffa3a"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::assistant-review::bound_text::r1",
+      "card_id": "NWL-7432a7ac9d8b",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "3a489640db102d84faab7431847bc85ac3d317d82b27e168e7e6b7418bf18492"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-7432a7ac9d8b",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "db77b1a2cd5b37fffd33062853a6a4a15f5f8035913d29d29718f8d0bf24eb51"
+    },
+    {
+      "id": "NWL-9a3498667b9c::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-9a3498667b9c",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "2f6162ec2d51c3f3c18e935bcc1b9983610de2180786fbf6445fb8076b14d556"
+    },
+    {
+      "id": "NWL-9a3498667b9c::assistant-review::bound_text::r1",
+      "card_id": "NWL-9a3498667b9c",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "a4d316057da9fe17417bcfca176e755233b14acfbcb2da36d4b81e6f9b327c70"
+    },
+    {
+      "id": "NWL-db3d395ffc58::assistant-review::bound_text::r1",
+      "card_id": "NWL-db3d395ffc58",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "b1ae0f4620dd4c8b86436d808199cff58155bf203340506a29a36b570556face"
+    },
+    {
+      "id": "NWL-db3d395ffc58::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-db3d395ffc58",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "0804eae5f1351e42210bea0faa7075aea3b86499f115b59caf1bca61a0a5eb11"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-82c22b90a8fb",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "7983e28d82c49c1cdfcd5441f9f82a0f75c09f7ed96d94816b293b222190dcd4"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::assistant-review::bound_text::r1",
+      "card_id": "NWL-82c22b90a8fb",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "a61d22da73e437d8b3bfb420961fc7b6ed6f13aa8be1582148fcf538c5ec5644"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::assistant-review::bound_text::r1",
+      "card_id": "NWL-c8311dd5cb61",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "dfb29d04a1ce9a63eb5e337cc16fc9cf8c05ffa0ea62e95ee3e3a455360b4851"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-c8311dd5cb61",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "df9af09656f1da1a4d33fbefa6dcd215c94d39babd70759da00554e69a3f169f"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-a87649ebaa1a",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "fcd8d9f7416164a7dbad1ad9c46ff65bbb7ddad6f3552d6095367b0d1a0a1213"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::assistant-review::bound_text::r1",
+      "card_id": "NWL-a87649ebaa1a",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "7f352e17a21dc7d6928c9278cba2cb39d45af4f8b91bedd4127d5de6aeb64035"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::assistant-review::bound_text::r1",
+      "card_id": "NWL-fe6c9911a37a",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "f5c75f1da3d9122a0f79ec9174acc9554bc0387cc34c2741c0bbbff0e45bdb0d"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-fe6c9911a37a",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "03354403167690a3cc82685ef4b2029883930e84131f7812aad222a079562eda"
+    },
+    {
+      "id": "NWL-eafa3a940729::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-eafa3a940729",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "a372d79120b09c2002161fb46010077495904f6921c7dec0f142ac1b1ecd595b"
+    },
+    {
+      "id": "NWL-eafa3a940729::assistant-review::bound_text::r1",
+      "card_id": "NWL-eafa3a940729",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "071000631aab5c5f479fd046d371b59195f860ca0835189dca48d159d876b3d4"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::assistant-review::bound_text::r1",
+      "card_id": "NWL-039d6ebdd81f",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "810ff36626d54893749defce6bbd831602cfc562631a3bf056decd2621a6ebb3"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-039d6ebdd81f",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "4e4b2b91fa04f41f1ffbe12a5b6f259d071b909fb8c92bbaa07d830f58c206b2"
+    },
+    {
+      "id": "NWL-f49033838aa3::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-f49033838aa3",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "1017983d40056b92c8e4d2a669980082aa719c80face3ca2bc5031fde4830d05"
+    },
+    {
+      "id": "NWL-f49033838aa3::assistant-review::bound_text::r1",
+      "card_id": "NWL-f49033838aa3",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "c26b84eb611c12cab1f33968ed4a7b232b833cbc9e0bf8148292a4b4729cccdc"
+    },
+    {
+      "id": "NWL-0f527b766ed7::assistant-review::bound_text::r1",
+      "card_id": "NWL-0f527b766ed7",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "bfa59386b24e6e4ccaecd8db6091d4d21ff0f7ce64f83e283c892b5514ea8b89"
+    },
+    {
+      "id": "NWL-0f527b766ed7::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-0f527b766ed7",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "f4caf70e884f9ce9f37c6a8de81460d274997b25e8fcef6d6df822c2bd79fc05"
+    },
+    {
+      "id": "NWL-b3fb5e096258::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-b3fb5e096258",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "d600a857b1d48ccbfbc92dfb6ec784f82ba1212964d33dd24c5ec0c324489df5"
+    },
+    {
+      "id": "NWL-b3fb5e096258::assistant-review::bound_text::r1",
+      "card_id": "NWL-b3fb5e096258",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "8f04d0324ae25510cd459440bc1413efcf39ce3530ff76e3f4efa1858927ec2c"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::assistant-review::bound_text::r1",
+      "card_id": "NWL-aa6833fe95e5",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "170180ad723de420f07aa2ef119b9cd654c27dc25d536df46ed37f0cc32b5ebe"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-aa6833fe95e5",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "761f0b494b63ed9f2f2616a49348eaee55660c6a3cd379082cca21de36e9bcb6"
+    },
+    {
+      "id": "NWL-b71d39d22677::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-b71d39d22677",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "3caabf8201f84fc935661bbbb99071785a5f35cea3f049b9eac80e17d9354d1b"
+    },
+    {
+      "id": "NWL-b71d39d22677::assistant-review::bound_text::r1",
+      "card_id": "NWL-b71d39d22677",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "c5fceb12fef721e6d212068c697c689122ea91c6f793ea079760aaac7b3f102c"
+    },
+    {
+      "id": "NWL-7e13ecc55427::assistant-review::bound_text::r1",
+      "card_id": "NWL-7e13ecc55427",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "dda74efc1593a1ed0214357d437f2377010b8d2b97ce91dad5fd8dc2a39bed3a"
+    },
+    {
+      "id": "NWL-7e13ecc55427::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-7e13ecc55427",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "7e299465d0fb6766de7c42ab721b05e29212855e3db4498f7579c0b6230a6444"
+    },
+    {
+      "id": "NWL-212a9d0deac9::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-212a9d0deac9",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "01a439776c4f38a313db2c632590505e453aabd39dc128ca4f396b23de5cd919"
+    },
+    {
+      "id": "NWL-212a9d0deac9::assistant-review::bound_text::r1",
+      "card_id": "NWL-212a9d0deac9",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "e59c291ab9832b72a825fbc9495ce3f270f04bb2a702dceb35b3941e23d22d91"
+    },
+    {
+      "id": "NWL-ee7105dd992e::assistant-review::bound_text::r1",
+      "card_id": "NWL-ee7105dd992e",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "2b244d879f9b26cba8314cce2d020f80ac6696be9ff91db0a9b3893417601920"
+    },
+    {
+      "id": "NWL-ee7105dd992e::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-ee7105dd992e",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "397e5a24149ea00ac52d9c802a4ae80f86a17c4167f5a42ee86e61cd7bfc3a64"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-1aaf4aca9f84",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "5f69dbf0cadaa0313bfd9a0298586c338dd7954aeae5efef31526c19e54f807f"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::assistant-review::bound_text::r1",
+      "card_id": "NWL-1aaf4aca9f84",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "3a9c0cc27b1dbd16b139c532ee27eadb23038b900b723f982027aa47f89731d5"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::assistant-review::bound_text::r1",
+      "card_id": "NWL-4f51f156ed8b",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "579124a1ae0a317d18e7f5bcac28c42cf60c6ba9b291baca866d1b48185a6575"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-4f51f156ed8b",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "f91bba5b9ef5f5634a7ad79a469fb4319202bf22beafa19aea8b31c7207f344e"
+    },
+    {
+      "id": "NWL-9dc6904d0134::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-9dc6904d0134",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "34a44fb73e0c55ac7c46f5dac02047d8db81cddcb764c634b7c0e949943347f5"
+    },
+    {
+      "id": "NWL-9dc6904d0134::assistant-review::bound_text::r1",
+      "card_id": "NWL-9dc6904d0134",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "342c16e06aba3b71c0af38b1d2b9b78f0d7accf9736d9c2c2f132343009ecae7"
+    },
+    {
+      "id": "NWL-85a3178b8cec::assistant-review::bound_text::r1",
+      "card_id": "NWL-85a3178b8cec",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "3b7bdcab513b7eced493c0385208992add5dcb51cef56b489b285c0806620e1a"
+    },
+    {
+      "id": "NWL-85a3178b8cec::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-85a3178b8cec",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "59f172ce0b5affd58ae8ed68b0edaa8fd9c9220acb4f8d94d5d5b255f5934c5d"
+    },
+    {
+      "id": "NWL-42acf5afe858::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-42acf5afe858",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "eb015fe174336653342a7716985dad773d6f9fc314d662ba430bc35f0135f2ce"
+    },
+    {
+      "id": "NWL-42acf5afe858::assistant-review::bound_text::r1",
+      "card_id": "NWL-42acf5afe858",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "a69025a024d85b52b935766e5cae21f29f602be55cb7b9074106778ed21c9bbf"
+    },
+    {
+      "id": "NWL-59bca7262cdd::assistant-review::bound_text::r1",
+      "card_id": "NWL-59bca7262cdd",
+      "arm": "bound_text",
+      "round": 1,
+      "request_sha256": "87e3e3dcdf7ac9e8ee01e4929e8a5af9ed30a1d45761f5561af815197e4ca405"
+    },
+    {
+      "id": "NWL-59bca7262cdd::assistant-review::explicit_meaning::r1",
+      "card_id": "NWL-59bca7262cdd",
+      "arm": "explicit_meaning",
+      "round": 1,
+      "request_sha256": "6e3820f38aeeaf30277a5104f3a880e0ac76c700d56c80617039d22b31e0d28d"
+    },
+    {
+      "id": "NWL-41460bbdf301::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-41460bbdf301",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "149110c4cf89501e7bd8817d4a401885892b137d83993052d0751384dc690e99"
+    },
+    {
+      "id": "NWL-41460bbdf301::assistant-review::bound_text::r2",
+      "card_id": "NWL-41460bbdf301",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "fbf6d75a1ca02b20af1f8856c4089e4bbc311e00d07f46f2f2ceb67216204dca"
+    },
+    {
+      "id": "NWL-a059c4e9b227::assistant-review::bound_text::r2",
+      "card_id": "NWL-a059c4e9b227",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "9dc46f3b2d505693ef003892b3460b576bffe15810f079b74717856a097f1016"
+    },
+    {
+      "id": "NWL-a059c4e9b227::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-a059c4e9b227",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "5d1729a9f018b3dcbd7d272067cb62a9702aa79215367c2b28f9da4505efc63b"
+    },
+    {
+      "id": "NWL-ebebeada049f::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-ebebeada049f",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "b2c46d3c428bc9c4e04a1ea1ab65da6ee122333d2e004642a4ae31ec5a3ca37f"
+    },
+    {
+      "id": "NWL-ebebeada049f::assistant-review::bound_text::r2",
+      "card_id": "NWL-ebebeada049f",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "dc3c6b5593daac9f44f972d09b93a788b7ae616204758c0eec0e1fac666ffa3a"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::assistant-review::bound_text::r2",
+      "card_id": "NWL-7432a7ac9d8b",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "3a489640db102d84faab7431847bc85ac3d317d82b27e168e7e6b7418bf18492"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-7432a7ac9d8b",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "db77b1a2cd5b37fffd33062853a6a4a15f5f8035913d29d29718f8d0bf24eb51"
+    },
+    {
+      "id": "NWL-9a3498667b9c::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-9a3498667b9c",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "2f6162ec2d51c3f3c18e935bcc1b9983610de2180786fbf6445fb8076b14d556"
+    },
+    {
+      "id": "NWL-9a3498667b9c::assistant-review::bound_text::r2",
+      "card_id": "NWL-9a3498667b9c",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "a4d316057da9fe17417bcfca176e755233b14acfbcb2da36d4b81e6f9b327c70"
+    },
+    {
+      "id": "NWL-db3d395ffc58::assistant-review::bound_text::r2",
+      "card_id": "NWL-db3d395ffc58",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "b1ae0f4620dd4c8b86436d808199cff58155bf203340506a29a36b570556face"
+    },
+    {
+      "id": "NWL-db3d395ffc58::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-db3d395ffc58",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "0804eae5f1351e42210bea0faa7075aea3b86499f115b59caf1bca61a0a5eb11"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-82c22b90a8fb",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "7983e28d82c49c1cdfcd5441f9f82a0f75c09f7ed96d94816b293b222190dcd4"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::assistant-review::bound_text::r2",
+      "card_id": "NWL-82c22b90a8fb",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "a61d22da73e437d8b3bfb420961fc7b6ed6f13aa8be1582148fcf538c5ec5644"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::assistant-review::bound_text::r2",
+      "card_id": "NWL-c8311dd5cb61",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "dfb29d04a1ce9a63eb5e337cc16fc9cf8c05ffa0ea62e95ee3e3a455360b4851"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-c8311dd5cb61",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "df9af09656f1da1a4d33fbefa6dcd215c94d39babd70759da00554e69a3f169f"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-a87649ebaa1a",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "fcd8d9f7416164a7dbad1ad9c46ff65bbb7ddad6f3552d6095367b0d1a0a1213"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::assistant-review::bound_text::r2",
+      "card_id": "NWL-a87649ebaa1a",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "7f352e17a21dc7d6928c9278cba2cb39d45af4f8b91bedd4127d5de6aeb64035"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::assistant-review::bound_text::r2",
+      "card_id": "NWL-fe6c9911a37a",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "f5c75f1da3d9122a0f79ec9174acc9554bc0387cc34c2741c0bbbff0e45bdb0d"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-fe6c9911a37a",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "03354403167690a3cc82685ef4b2029883930e84131f7812aad222a079562eda"
+    },
+    {
+      "id": "NWL-eafa3a940729::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-eafa3a940729",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "a372d79120b09c2002161fb46010077495904f6921c7dec0f142ac1b1ecd595b"
+    },
+    {
+      "id": "NWL-eafa3a940729::assistant-review::bound_text::r2",
+      "card_id": "NWL-eafa3a940729",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "071000631aab5c5f479fd046d371b59195f860ca0835189dca48d159d876b3d4"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::assistant-review::bound_text::r2",
+      "card_id": "NWL-039d6ebdd81f",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "810ff36626d54893749defce6bbd831602cfc562631a3bf056decd2621a6ebb3"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-039d6ebdd81f",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "4e4b2b91fa04f41f1ffbe12a5b6f259d071b909fb8c92bbaa07d830f58c206b2"
+    },
+    {
+      "id": "NWL-f49033838aa3::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-f49033838aa3",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "1017983d40056b92c8e4d2a669980082aa719c80face3ca2bc5031fde4830d05"
+    },
+    {
+      "id": "NWL-f49033838aa3::assistant-review::bound_text::r2",
+      "card_id": "NWL-f49033838aa3",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "c26b84eb611c12cab1f33968ed4a7b232b833cbc9e0bf8148292a4b4729cccdc"
+    },
+    {
+      "id": "NWL-0f527b766ed7::assistant-review::bound_text::r2",
+      "card_id": "NWL-0f527b766ed7",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "bfa59386b24e6e4ccaecd8db6091d4d21ff0f7ce64f83e283c892b5514ea8b89"
+    },
+    {
+      "id": "NWL-0f527b766ed7::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-0f527b766ed7",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "f4caf70e884f9ce9f37c6a8de81460d274997b25e8fcef6d6df822c2bd79fc05"
+    },
+    {
+      "id": "NWL-b3fb5e096258::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-b3fb5e096258",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "d600a857b1d48ccbfbc92dfb6ec784f82ba1212964d33dd24c5ec0c324489df5"
+    },
+    {
+      "id": "NWL-b3fb5e096258::assistant-review::bound_text::r2",
+      "card_id": "NWL-b3fb5e096258",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "8f04d0324ae25510cd459440bc1413efcf39ce3530ff76e3f4efa1858927ec2c"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::assistant-review::bound_text::r2",
+      "card_id": "NWL-aa6833fe95e5",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "170180ad723de420f07aa2ef119b9cd654c27dc25d536df46ed37f0cc32b5ebe"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-aa6833fe95e5",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "761f0b494b63ed9f2f2616a49348eaee55660c6a3cd379082cca21de36e9bcb6"
+    },
+    {
+      "id": "NWL-b71d39d22677::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-b71d39d22677",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "3caabf8201f84fc935661bbbb99071785a5f35cea3f049b9eac80e17d9354d1b"
+    },
+    {
+      "id": "NWL-b71d39d22677::assistant-review::bound_text::r2",
+      "card_id": "NWL-b71d39d22677",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "c5fceb12fef721e6d212068c697c689122ea91c6f793ea079760aaac7b3f102c"
+    },
+    {
+      "id": "NWL-7e13ecc55427::assistant-review::bound_text::r2",
+      "card_id": "NWL-7e13ecc55427",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "dda74efc1593a1ed0214357d437f2377010b8d2b97ce91dad5fd8dc2a39bed3a"
+    },
+    {
+      "id": "NWL-7e13ecc55427::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-7e13ecc55427",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "7e299465d0fb6766de7c42ab721b05e29212855e3db4498f7579c0b6230a6444"
+    },
+    {
+      "id": "NWL-212a9d0deac9::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-212a9d0deac9",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "01a439776c4f38a313db2c632590505e453aabd39dc128ca4f396b23de5cd919"
+    },
+    {
+      "id": "NWL-212a9d0deac9::assistant-review::bound_text::r2",
+      "card_id": "NWL-212a9d0deac9",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "e59c291ab9832b72a825fbc9495ce3f270f04bb2a702dceb35b3941e23d22d91"
+    },
+    {
+      "id": "NWL-ee7105dd992e::assistant-review::bound_text::r2",
+      "card_id": "NWL-ee7105dd992e",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "2b244d879f9b26cba8314cce2d020f80ac6696be9ff91db0a9b3893417601920"
+    },
+    {
+      "id": "NWL-ee7105dd992e::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-ee7105dd992e",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "397e5a24149ea00ac52d9c802a4ae80f86a17c4167f5a42ee86e61cd7bfc3a64"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-1aaf4aca9f84",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "5f69dbf0cadaa0313bfd9a0298586c338dd7954aeae5efef31526c19e54f807f"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::assistant-review::bound_text::r2",
+      "card_id": "NWL-1aaf4aca9f84",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "3a9c0cc27b1dbd16b139c532ee27eadb23038b900b723f982027aa47f89731d5"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::assistant-review::bound_text::r2",
+      "card_id": "NWL-4f51f156ed8b",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "579124a1ae0a317d18e7f5bcac28c42cf60c6ba9b291baca866d1b48185a6575"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-4f51f156ed8b",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "f91bba5b9ef5f5634a7ad79a469fb4319202bf22beafa19aea8b31c7207f344e"
+    },
+    {
+      "id": "NWL-9dc6904d0134::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-9dc6904d0134",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "34a44fb73e0c55ac7c46f5dac02047d8db81cddcb764c634b7c0e949943347f5"
+    },
+    {
+      "id": "NWL-9dc6904d0134::assistant-review::bound_text::r2",
+      "card_id": "NWL-9dc6904d0134",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "342c16e06aba3b71c0af38b1d2b9b78f0d7accf9736d9c2c2f132343009ecae7"
+    },
+    {
+      "id": "NWL-85a3178b8cec::assistant-review::bound_text::r2",
+      "card_id": "NWL-85a3178b8cec",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "3b7bdcab513b7eced493c0385208992add5dcb51cef56b489b285c0806620e1a"
+    },
+    {
+      "id": "NWL-85a3178b8cec::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-85a3178b8cec",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "59f172ce0b5affd58ae8ed68b0edaa8fd9c9220acb4f8d94d5d5b255f5934c5d"
+    },
+    {
+      "id": "NWL-42acf5afe858::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-42acf5afe858",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "eb015fe174336653342a7716985dad773d6f9fc314d662ba430bc35f0135f2ce"
+    },
+    {
+      "id": "NWL-42acf5afe858::assistant-review::bound_text::r2",
+      "card_id": "NWL-42acf5afe858",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "a69025a024d85b52b935766e5cae21f29f602be55cb7b9074106778ed21c9bbf"
+    },
+    {
+      "id": "NWL-59bca7262cdd::assistant-review::bound_text::r2",
+      "card_id": "NWL-59bca7262cdd",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "87e3e3dcdf7ac9e8ee01e4929e8a5af9ed30a1d45761f5561af815197e4ca405"
+    },
+    {
+      "id": "NWL-59bca7262cdd::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-59bca7262cdd",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "6e3820f38aeeaf30277a5104f3a880e0ac76c700d56c80617039d22b31e0d28d"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::assistant-review::explicit_meaning::r2",
+      "card_id": "NWL-6a1a2c127a1d",
+      "arm": "explicit_meaning",
+      "round": 2,
+      "request_sha256": "29847fc17ce70d12876a99bd888946e37e100661423f850db0be241c977b1124"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::assistant-review::bound_text::r2",
+      "card_id": "NWL-6a1a2c127a1d",
+      "arm": "bound_text",
+      "round": 2,
+      "request_sha256": "123be0bf4aa13151ddfdc6f4e5e5e9e429e5f7a7621b03e401a66f221c94c191"
+    },
+    {
+      "id": "NWL-a059c4e9b227::assistant-review::bound_text::r3",
+      "card_id": "NWL-a059c4e9b227",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "9dc46f3b2d505693ef003892b3460b576bffe15810f079b74717856a097f1016"
+    },
+    {
+      "id": "NWL-a059c4e9b227::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-a059c4e9b227",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "5d1729a9f018b3dcbd7d272067cb62a9702aa79215367c2b28f9da4505efc63b"
+    },
+    {
+      "id": "NWL-ebebeada049f::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-ebebeada049f",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "b2c46d3c428bc9c4e04a1ea1ab65da6ee122333d2e004642a4ae31ec5a3ca37f"
+    },
+    {
+      "id": "NWL-ebebeada049f::assistant-review::bound_text::r3",
+      "card_id": "NWL-ebebeada049f",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "dc3c6b5593daac9f44f972d09b93a788b7ae616204758c0eec0e1fac666ffa3a"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::assistant-review::bound_text::r3",
+      "card_id": "NWL-7432a7ac9d8b",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "3a489640db102d84faab7431847bc85ac3d317d82b27e168e7e6b7418bf18492"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-7432a7ac9d8b",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "db77b1a2cd5b37fffd33062853a6a4a15f5f8035913d29d29718f8d0bf24eb51"
+    },
+    {
+      "id": "NWL-9a3498667b9c::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-9a3498667b9c",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "2f6162ec2d51c3f3c18e935bcc1b9983610de2180786fbf6445fb8076b14d556"
+    },
+    {
+      "id": "NWL-9a3498667b9c::assistant-review::bound_text::r3",
+      "card_id": "NWL-9a3498667b9c",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "a4d316057da9fe17417bcfca176e755233b14acfbcb2da36d4b81e6f9b327c70"
+    },
+    {
+      "id": "NWL-db3d395ffc58::assistant-review::bound_text::r3",
+      "card_id": "NWL-db3d395ffc58",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "b1ae0f4620dd4c8b86436d808199cff58155bf203340506a29a36b570556face"
+    },
+    {
+      "id": "NWL-db3d395ffc58::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-db3d395ffc58",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "0804eae5f1351e42210bea0faa7075aea3b86499f115b59caf1bca61a0a5eb11"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-82c22b90a8fb",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "7983e28d82c49c1cdfcd5441f9f82a0f75c09f7ed96d94816b293b222190dcd4"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::assistant-review::bound_text::r3",
+      "card_id": "NWL-82c22b90a8fb",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "a61d22da73e437d8b3bfb420961fc7b6ed6f13aa8be1582148fcf538c5ec5644"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::assistant-review::bound_text::r3",
+      "card_id": "NWL-c8311dd5cb61",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "dfb29d04a1ce9a63eb5e337cc16fc9cf8c05ffa0ea62e95ee3e3a455360b4851"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-c8311dd5cb61",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "df9af09656f1da1a4d33fbefa6dcd215c94d39babd70759da00554e69a3f169f"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-a87649ebaa1a",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "fcd8d9f7416164a7dbad1ad9c46ff65bbb7ddad6f3552d6095367b0d1a0a1213"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::assistant-review::bound_text::r3",
+      "card_id": "NWL-a87649ebaa1a",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "7f352e17a21dc7d6928c9278cba2cb39d45af4f8b91bedd4127d5de6aeb64035"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::assistant-review::bound_text::r3",
+      "card_id": "NWL-fe6c9911a37a",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "f5c75f1da3d9122a0f79ec9174acc9554bc0387cc34c2741c0bbbff0e45bdb0d"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-fe6c9911a37a",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "03354403167690a3cc82685ef4b2029883930e84131f7812aad222a079562eda"
+    },
+    {
+      "id": "NWL-eafa3a940729::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-eafa3a940729",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "a372d79120b09c2002161fb46010077495904f6921c7dec0f142ac1b1ecd595b"
+    },
+    {
+      "id": "NWL-eafa3a940729::assistant-review::bound_text::r3",
+      "card_id": "NWL-eafa3a940729",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "071000631aab5c5f479fd046d371b59195f860ca0835189dca48d159d876b3d4"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::assistant-review::bound_text::r3",
+      "card_id": "NWL-039d6ebdd81f",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "810ff36626d54893749defce6bbd831602cfc562631a3bf056decd2621a6ebb3"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-039d6ebdd81f",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "4e4b2b91fa04f41f1ffbe12a5b6f259d071b909fb8c92bbaa07d830f58c206b2"
+    },
+    {
+      "id": "NWL-f49033838aa3::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-f49033838aa3",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "1017983d40056b92c8e4d2a669980082aa719c80face3ca2bc5031fde4830d05"
+    },
+    {
+      "id": "NWL-f49033838aa3::assistant-review::bound_text::r3",
+      "card_id": "NWL-f49033838aa3",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "c26b84eb611c12cab1f33968ed4a7b232b833cbc9e0bf8148292a4b4729cccdc"
+    },
+    {
+      "id": "NWL-0f527b766ed7::assistant-review::bound_text::r3",
+      "card_id": "NWL-0f527b766ed7",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "bfa59386b24e6e4ccaecd8db6091d4d21ff0f7ce64f83e283c892b5514ea8b89"
+    },
+    {
+      "id": "NWL-0f527b766ed7::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-0f527b766ed7",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "f4caf70e884f9ce9f37c6a8de81460d274997b25e8fcef6d6df822c2bd79fc05"
+    },
+    {
+      "id": "NWL-b3fb5e096258::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-b3fb5e096258",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "d600a857b1d48ccbfbc92dfb6ec784f82ba1212964d33dd24c5ec0c324489df5"
+    },
+    {
+      "id": "NWL-b3fb5e096258::assistant-review::bound_text::r3",
+      "card_id": "NWL-b3fb5e096258",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "8f04d0324ae25510cd459440bc1413efcf39ce3530ff76e3f4efa1858927ec2c"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::assistant-review::bound_text::r3",
+      "card_id": "NWL-aa6833fe95e5",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "170180ad723de420f07aa2ef119b9cd654c27dc25d536df46ed37f0cc32b5ebe"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-aa6833fe95e5",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "761f0b494b63ed9f2f2616a49348eaee55660c6a3cd379082cca21de36e9bcb6"
+    },
+    {
+      "id": "NWL-b71d39d22677::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-b71d39d22677",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "3caabf8201f84fc935661bbbb99071785a5f35cea3f049b9eac80e17d9354d1b"
+    },
+    {
+      "id": "NWL-b71d39d22677::assistant-review::bound_text::r3",
+      "card_id": "NWL-b71d39d22677",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "c5fceb12fef721e6d212068c697c689122ea91c6f793ea079760aaac7b3f102c"
+    },
+    {
+      "id": "NWL-7e13ecc55427::assistant-review::bound_text::r3",
+      "card_id": "NWL-7e13ecc55427",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "dda74efc1593a1ed0214357d437f2377010b8d2b97ce91dad5fd8dc2a39bed3a"
+    },
+    {
+      "id": "NWL-7e13ecc55427::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-7e13ecc55427",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "7e299465d0fb6766de7c42ab721b05e29212855e3db4498f7579c0b6230a6444"
+    },
+    {
+      "id": "NWL-212a9d0deac9::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-212a9d0deac9",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "01a439776c4f38a313db2c632590505e453aabd39dc128ca4f396b23de5cd919"
+    },
+    {
+      "id": "NWL-212a9d0deac9::assistant-review::bound_text::r3",
+      "card_id": "NWL-212a9d0deac9",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "e59c291ab9832b72a825fbc9495ce3f270f04bb2a702dceb35b3941e23d22d91"
+    },
+    {
+      "id": "NWL-ee7105dd992e::assistant-review::bound_text::r3",
+      "card_id": "NWL-ee7105dd992e",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "2b244d879f9b26cba8314cce2d020f80ac6696be9ff91db0a9b3893417601920"
+    },
+    {
+      "id": "NWL-ee7105dd992e::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-ee7105dd992e",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "397e5a24149ea00ac52d9c802a4ae80f86a17c4167f5a42ee86e61cd7bfc3a64"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-1aaf4aca9f84",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "5f69dbf0cadaa0313bfd9a0298586c338dd7954aeae5efef31526c19e54f807f"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::assistant-review::bound_text::r3",
+      "card_id": "NWL-1aaf4aca9f84",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "3a9c0cc27b1dbd16b139c532ee27eadb23038b900b723f982027aa47f89731d5"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::assistant-review::bound_text::r3",
+      "card_id": "NWL-4f51f156ed8b",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "579124a1ae0a317d18e7f5bcac28c42cf60c6ba9b291baca866d1b48185a6575"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-4f51f156ed8b",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "f91bba5b9ef5f5634a7ad79a469fb4319202bf22beafa19aea8b31c7207f344e"
+    },
+    {
+      "id": "NWL-9dc6904d0134::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-9dc6904d0134",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "34a44fb73e0c55ac7c46f5dac02047d8db81cddcb764c634b7c0e949943347f5"
+    },
+    {
+      "id": "NWL-9dc6904d0134::assistant-review::bound_text::r3",
+      "card_id": "NWL-9dc6904d0134",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "342c16e06aba3b71c0af38b1d2b9b78f0d7accf9736d9c2c2f132343009ecae7"
+    },
+    {
+      "id": "NWL-85a3178b8cec::assistant-review::bound_text::r3",
+      "card_id": "NWL-85a3178b8cec",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "3b7bdcab513b7eced493c0385208992add5dcb51cef56b489b285c0806620e1a"
+    },
+    {
+      "id": "NWL-85a3178b8cec::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-85a3178b8cec",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "59f172ce0b5affd58ae8ed68b0edaa8fd9c9220acb4f8d94d5d5b255f5934c5d"
+    },
+    {
+      "id": "NWL-42acf5afe858::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-42acf5afe858",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "eb015fe174336653342a7716985dad773d6f9fc314d662ba430bc35f0135f2ce"
+    },
+    {
+      "id": "NWL-42acf5afe858::assistant-review::bound_text::r3",
+      "card_id": "NWL-42acf5afe858",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "a69025a024d85b52b935766e5cae21f29f602be55cb7b9074106778ed21c9bbf"
+    },
+    {
+      "id": "NWL-59bca7262cdd::assistant-review::bound_text::r3",
+      "card_id": "NWL-59bca7262cdd",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "87e3e3dcdf7ac9e8ee01e4929e8a5af9ed30a1d45761f5561af815197e4ca405"
+    },
+    {
+      "id": "NWL-59bca7262cdd::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-59bca7262cdd",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "6e3820f38aeeaf30277a5104f3a880e0ac76c700d56c80617039d22b31e0d28d"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-6a1a2c127a1d",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "29847fc17ce70d12876a99bd888946e37e100661423f850db0be241c977b1124"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::assistant-review::bound_text::r3",
+      "card_id": "NWL-6a1a2c127a1d",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "123be0bf4aa13151ddfdc6f4e5e5e9e429e5f7a7621b03e401a66f221c94c191"
+    },
+    {
+      "id": "NWL-41460bbdf301::assistant-review::bound_text::r3",
+      "card_id": "NWL-41460bbdf301",
+      "arm": "bound_text",
+      "round": 3,
+      "request_sha256": "fbf6d75a1ca02b20af1f8856c4089e4bbc311e00d07f46f2f2ceb67216204dca"
+    },
+    {
+      "id": "NWL-41460bbdf301::assistant-review::explicit_meaning::r3",
+      "card_id": "NWL-41460bbdf301",
+      "arm": "explicit_meaning",
+      "round": 3,
+      "request_sha256": "149110c4cf89501e7bd8817d4a401885892b137d83993052d0751384dc690e99"
+    }
+  ]
+}
