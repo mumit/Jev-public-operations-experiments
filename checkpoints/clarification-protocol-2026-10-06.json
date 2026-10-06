@@ -1,0 +1,1609 @@
+{
+  "schema": "clarification-protocol-1",
+  "plan_sha256": "fa75a5f969d41b6ec3632b1e43d846f5948655870ff13b0b078781ef638993c6",
+  "calls": 228,
+  "largest_request_bytes": 14014,
+  "data_sha256": {
+    "inputs.json": "4400d4dc8470f73b07ddde115f78de354bcbf5a4ff70642e27ebf2930ada31c8",
+    "references.json": "711b1ba3b850f1cfca38dc60de7eb2a71797b96f7e60087e4f72ada8e83cf9c2",
+    "manifest.json": "9a4314170f271c921fcd23d89b822adff407d34e21c5061c3c309a1d5afc8beb"
+  },
+  "requests": [
+    {
+      "id": "CLR-7c0a91779b76::r1",
+      "card_id": "CLR-7c0a91779b76",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "0422ffe305c9c3e83ac65cdabfc04b72a3e039e517bc7289776121b7e196360f"
+    },
+    {
+      "id": "CLR-a1aaab7cf0fe::r1",
+      "card_id": "CLR-a1aaab7cf0fe",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "97677c177b380e23f4458216a9924b98aa98ecb2d46910ffe0daeedac478bd18"
+    },
+    {
+      "id": "CLR-a2d5a779fb32::r1",
+      "card_id": "CLR-a2d5a779fb32",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "219af2d4a2980f6d623294356a9ad20f2891208ae8740275d2c1c7813d85a408"
+    },
+    {
+      "id": "CLR-d1383d97fbcd::r1",
+      "card_id": "CLR-d1383d97fbcd",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "5282b3a98d9923becd5d17088f440b3ebb99c227fe527bd7c30f22df182cf59c"
+    },
+    {
+      "id": "CLR-bff2a3c4bfab::r1",
+      "card_id": "CLR-bff2a3c4bfab",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "f46ab220634d438b555b61ead68d2f6395ccb9a0d2717b9caeb701e0c38686fa"
+    },
+    {
+      "id": "CLR-426b3a319147::r1",
+      "card_id": "CLR-426b3a319147",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "2b08a0b943fede22a4fb13a38d6a4066a2f068be4a0b83e724660a8a9b08f5e8"
+    },
+    {
+      "id": "CLR-d315c8f4aaf5::r1",
+      "card_id": "CLR-d315c8f4aaf5",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "8d66e78a599bd3147e97efe9cc84b3aa7b8036a9c2997992f3749e4bdd5b3c74"
+    },
+    {
+      "id": "CLR-48c2e36b32d4::r1",
+      "card_id": "CLR-48c2e36b32d4",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "8f1dcd5f19679a1284538c900e119c297e0bc43f1717dd816811e11842a964c3"
+    },
+    {
+      "id": "CLR-963fc2161770::r1",
+      "card_id": "CLR-963fc2161770",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "6764854bad6d4b700742267120af6a22ba2e1a0d649f22607ed8960d9f9ffaed"
+    },
+    {
+      "id": "CLR-d2fea4ed9dc3::r1",
+      "card_id": "CLR-d2fea4ed9dc3",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "2da85532aa91e834979eaf78205decad813443fae71cf811587918e500a035ce"
+    },
+    {
+      "id": "CLR-04d4a0c87c00::r1",
+      "card_id": "CLR-04d4a0c87c00",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "7ea396f2afacff09376328c82419ff767e9818995728ae35ce794dc838bec937"
+    },
+    {
+      "id": "CLR-40c98066da96::r1",
+      "card_id": "CLR-40c98066da96",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "82aa427bb5d4b16bcd72ea79ef1122bc6058f50d6c8d9a45504dc3177b0e12fc"
+    },
+    {
+      "id": "CLR-40ccfa8dacc5::r1",
+      "card_id": "CLR-40ccfa8dacc5",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "a4a9cf239943140418e3ce1a16574273321824ac2cdaeec27152d21190dbc762"
+    },
+    {
+      "id": "CLR-6b96d1ebd91b::r1",
+      "card_id": "CLR-6b96d1ebd91b",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "fdf347272a50a8d165ad66ca69297b835fc9c05df74d604f9c0ac83aa3b920e5"
+    },
+    {
+      "id": "CLR-22f9b9cabe62::r1",
+      "card_id": "CLR-22f9b9cabe62",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "9b65764bf62d540a99ec964b77a857c4eea97a01730585bee5de8f118ca565cf"
+    },
+    {
+      "id": "CLR-2a185ac4bb78::r1",
+      "card_id": "CLR-2a185ac4bb78",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "c813e52456074f71f464c27b6dace45f744a2718f64cf35dbf0e8b26b586d874"
+    },
+    {
+      "id": "CLR-a9329968fff6::r1",
+      "card_id": "CLR-a9329968fff6",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "c602d9420f2c595846ae9678395b6d899239c35765a3626cc1d5948749323af7"
+    },
+    {
+      "id": "CLR-c054063a546a::r1",
+      "card_id": "CLR-c054063a546a",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "c3cfe8f839f8df582bf5b0e97689b7b5419277e206843427f4a6e6070912abbe"
+    },
+    {
+      "id": "CLR-89c4c22bd8f9::r1",
+      "card_id": "CLR-89c4c22bd8f9",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "c861f725e4bff4ce8ad533d406ac7768de7cdcbdbbd171ed29038e2c01751127"
+    },
+    {
+      "id": "CLR-155f5319a435::r1",
+      "card_id": "CLR-155f5319a435",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "255215990ef6f53e8f97605e30b0be44876c04c4e6852c0602258fc2eb69db3e"
+    },
+    {
+      "id": "CLR-22b7cad10811::r1",
+      "card_id": "CLR-22b7cad10811",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "06f4eba1b5ea48db5c8de08ae8dfbf6541ee580d8d6f6e72d95e81e70f1d0b1a"
+    },
+    {
+      "id": "CLR-f6580114ab29::r1",
+      "card_id": "CLR-f6580114ab29",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "e045e60dbdfb3ed3ae471847ca2309e63b32e4ed4ab148ed45dabd6210877a6a"
+    },
+    {
+      "id": "CLR-c77e6ffd61aa::r1",
+      "card_id": "CLR-c77e6ffd61aa",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "c2eb0571e897e76940d2cb0ecfaf33a8966acd0e4f1540ddc4b7965e2df8c826"
+    },
+    {
+      "id": "CLR-7f041c65d5cc::r1",
+      "card_id": "CLR-7f041c65d5cc",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "82d7eeeb1eb7464225fe3bb31790005e5cf7694b8465e7e4e7c6b4ee72c67d7f"
+    },
+    {
+      "id": "CLR-c4603ef83c26::r1",
+      "card_id": "CLR-c4603ef83c26",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "efe803d26572753f3b5dfb51433542a4cc0881a890a688fc0e647017ec374587"
+    },
+    {
+      "id": "CLR-19fd32b0b410::r1",
+      "card_id": "CLR-19fd32b0b410",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "88a68d6149277fdde6cb1d26d48f29092015028b51b18048cae586348aa17e65"
+    },
+    {
+      "id": "CLR-eceed5820e35::r1",
+      "card_id": "CLR-eceed5820e35",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "18d7963608d59f6505a66de63242fefc08ab8cced64db632f3151830563fdc8e"
+    },
+    {
+      "id": "CLR-71d47dd8978d::r1",
+      "card_id": "CLR-71d47dd8978d",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "f02398c6812fbbd6180666671c6dc8d8575f7ba68976d717bfd13cb2bb157620"
+    },
+    {
+      "id": "CLR-b0e9b0271fbb::r1",
+      "card_id": "CLR-b0e9b0271fbb",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "e30d9e31eb97f86951c8d9f7427215e00bdd819ab6d08940467750d12a50fdde"
+    },
+    {
+      "id": "CLR-95d1366158ca::r1",
+      "card_id": "CLR-95d1366158ca",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "37065968309f1f640b5794f036dbafa68d8610ef61f480ed16cd122cdf0c818e"
+    },
+    {
+      "id": "CLR-7ada47b039c7::r1",
+      "card_id": "CLR-7ada47b039c7",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "c7350136b79c72b1fb120b11501470c03a6349df2e22d5f52aa5edd789f78ab1"
+    },
+    {
+      "id": "CLR-5e229f7115bd::r1",
+      "card_id": "CLR-5e229f7115bd",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "26885458473947cdb101e600bfb3bf9eeadb6c6bb10a1c60e4f50d0691e4b387"
+    },
+    {
+      "id": "CLR-5d627c25df4c::r1",
+      "card_id": "CLR-5d627c25df4c",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "0a90c56805b95d9fc958739cdaccc15111459cf66b028cfd9f0b6197f72d847b"
+    },
+    {
+      "id": "CLR-e7c62091480c::r1",
+      "card_id": "CLR-e7c62091480c",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "4b47e87bbd496650093d189377c3acd5c8e4fa3797f9243a3257830726b4b4e0"
+    },
+    {
+      "id": "CLR-065d135d7556::r1",
+      "card_id": "CLR-065d135d7556",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "99baf1f532a4ba241b2604e4706188dad3bfc976d86cc8a90f6fd1c0af6756b7"
+    },
+    {
+      "id": "CLR-79697e3ac4e0::r1",
+      "card_id": "CLR-79697e3ac4e0",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "f8bd948d39d4a72a8a26d4fba5b510c4634eb19b7db1ca2f9d3ad039ecc24355"
+    },
+    {
+      "id": "CLR-4a6a2fe579a4::r1",
+      "card_id": "CLR-4a6a2fe579a4",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "9b972469ef2b2a11be44e66fd34d53c41b21bc869cefc09e10fd2edef2707e2b"
+    },
+    {
+      "id": "CLR-dc40fe0da7ed::r1",
+      "card_id": "CLR-dc40fe0da7ed",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "885357e4221ad4c010f7e0a028abe074a85a73b8deaa246187aa532e9b706f95"
+    },
+    {
+      "id": "CLR-223afb56acd5::r1",
+      "card_id": "CLR-223afb56acd5",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "ed28cbf59f0622b7892edcce867d0c181017a1b27f91056fbdc9b2546dc496d5"
+    },
+    {
+      "id": "CLR-11b2877071ff::r1",
+      "card_id": "CLR-11b2877071ff",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "5f2e769e86792f188e84c3d7746f62a091e3d578d0693c130f60447b0f117b67"
+    },
+    {
+      "id": "CLR-c89abfb6ef25::r1",
+      "card_id": "CLR-c89abfb6ef25",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "521afe6733ed49fd54a80d60e9dbbf47eaf74440de566e2b9964419cd42fd599"
+    },
+    {
+      "id": "CLR-a4b4b34e4c1a::r1",
+      "card_id": "CLR-a4b4b34e4c1a",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "55f20bf60bbfdf93d2adc206791af0bf89b9cb0699f1c54bdfb7aa015136d556"
+    },
+    {
+      "id": "CLR-c3e53f1db073::r1",
+      "card_id": "CLR-c3e53f1db073",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "80c73830fb55537c92431d01802a7f4ec82036abf3a433d397bb0354ef22b7cd"
+    },
+    {
+      "id": "CLR-a7a25775436d::r1",
+      "card_id": "CLR-a7a25775436d",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "244a4a256adb94ec7179f397a650db32fc41a6ca2e5472c44089e53532761b04"
+    },
+    {
+      "id": "CLR-385bd62b278e::r1",
+      "card_id": "CLR-385bd62b278e",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "3ea84137e0d7ba7f39efb4955cf30d0b000b58c9ed9c3cd3a4399dc11f965eef"
+    },
+    {
+      "id": "CLR-3d76ce2797de::r1",
+      "card_id": "CLR-3d76ce2797de",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "b70070b09f55a5df58f38579837ea363f6d81cbbe19285bd65b1dd49830b2c0e"
+    },
+    {
+      "id": "CLR-8fd488ac9b9a::r1",
+      "card_id": "CLR-8fd488ac9b9a",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "431bb45395a2d3c024ed9954466732e6d8ff32689795bc71d2633e79e7b1170a"
+    },
+    {
+      "id": "CLR-e0b7b23887c7::r1",
+      "card_id": "CLR-e0b7b23887c7",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "29de3457449bcf6164ba219c42c4e0009f968022e33d2345c9b44d237fa6ea79"
+    },
+    {
+      "id": "CLR-c5eab63aa125::r1",
+      "card_id": "CLR-c5eab63aa125",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "9828961ec8795e6f311c1a602490a88059262afb9ac607643b689c75ee69103a"
+    },
+    {
+      "id": "CLR-5a02bc22f0d1::r1",
+      "card_id": "CLR-5a02bc22f0d1",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "a957933ca429d1b75165b81a800c37b4b9d17275b03a17e472ba26445d7a396e"
+    },
+    {
+      "id": "CLR-9c6ab0930632::r1",
+      "card_id": "CLR-9c6ab0930632",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "cad5c159afcfac7fd33afa6ba6a6c1eb0d8b960c9e5630b0846effc3d1c2cf2f"
+    },
+    {
+      "id": "CLR-467859684e8e::r1",
+      "card_id": "CLR-467859684e8e",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "7b3881af36b7db05e61721d1cf77f69236e7500713f3983d0e4a8c2cdac88db0"
+    },
+    {
+      "id": "CLR-635c1ef83ee8::r1",
+      "card_id": "CLR-635c1ef83ee8",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "f3cf75a577fe3b5408d1256faecc0420ac95e0907df0ee1e3ff9c06cdc54b416"
+    },
+    {
+      "id": "CLR-91603312d71f::r1",
+      "card_id": "CLR-91603312d71f",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "01f0f3487778a542006022a136b825483f9e838691197e34d351d81fd07c818c"
+    },
+    {
+      "id": "CLR-c4d37a02c746::r1",
+      "card_id": "CLR-c4d37a02c746",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "a5f8dddc0abf61d027676e2a6d542086e5c6ae5b4229246d96b13d83ea2cccb7"
+    },
+    {
+      "id": "CLR-75687ec0480c::r1",
+      "card_id": "CLR-75687ec0480c",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "8bd7b63c20601baae75f21ab2517dbfd53b008506636a2b5c8641bf3dbac126a"
+    },
+    {
+      "id": "CLR-9ba02e46d09c::r1",
+      "card_id": "CLR-9ba02e46d09c",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "46ec8278c9833acbccd992521a9570989d22548b7687bb0c2d15f5412523fb37"
+    },
+    {
+      "id": "CLR-8784aa4b27c0::r1",
+      "card_id": "CLR-8784aa4b27c0",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "5b4ebd932d2dad2670fb80ebada4adcbdd807a6756ed42c76958a0ae46103ba8"
+    },
+    {
+      "id": "CLR-25f1c6c42d4a::r1",
+      "card_id": "CLR-25f1c6c42d4a",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "2658fecc33c02cc64c6ed4b93c333d9f7ce1963b3997a2c51573abc6ffa86f92"
+    },
+    {
+      "id": "CLR-47d673dbe9d6::r1",
+      "card_id": "CLR-47d673dbe9d6",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "32833aaa7386604c05aa122cc37533165670c1c81b9c94251a040162e96660c3"
+    },
+    {
+      "id": "CLR-03b6e44db148::r1",
+      "card_id": "CLR-03b6e44db148",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "8540c0ee964bd012a1f93d258fff8914cdfc35945c5633ad2c252a0718324cbf"
+    },
+    {
+      "id": "CLR-dcfebf9a2483::r1",
+      "card_id": "CLR-dcfebf9a2483",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "eac44780f7d4d083b63dfd2a748c0ad1f78bb0714e7fac51ce65cc2545a063a5"
+    },
+    {
+      "id": "CLR-65ef0689f41a::r1",
+      "card_id": "CLR-65ef0689f41a",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "5c897db7a90389c88446320e08e219bcad597993e6eb7774bd1c8ddc0076b1d5"
+    },
+    {
+      "id": "CLR-ab79557d3361::r1",
+      "card_id": "CLR-ab79557d3361",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "ee5af288a1469598a19b5488101e47a2c2a143324dd2238c3145207cbdb49287"
+    },
+    {
+      "id": "CLR-7d94ca0cc5e8::r1",
+      "card_id": "CLR-7d94ca0cc5e8",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "510cc7807174fcc82f0c3c8702728485986cd1e67b54d8a98474a4c16ebaba00"
+    },
+    {
+      "id": "CLR-0be11a262508::r1",
+      "card_id": "CLR-0be11a262508",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "acdde61e960d0e0c3d8816905559bba9e5ba8ced1f52baa36ac608c8edb06a67"
+    },
+    {
+      "id": "CLR-16673fc8095f::r1",
+      "card_id": "CLR-16673fc8095f",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "979bf986465a14731bd0138583e0b2862db7c28c4d09f1d306e9011014200fa9"
+    },
+    {
+      "id": "CLR-802b22271083::r1",
+      "card_id": "CLR-802b22271083",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "59aa5211cb0ee51de92d4d524b397136eb800b9c6628c3305312167be7f5563c"
+    },
+    {
+      "id": "CLR-bdc1e50f5c1c::r1",
+      "card_id": "CLR-bdc1e50f5c1c",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "9145715feac574c667128e6f3d17a7393d7cac353ec1e6c7e6625145c43aae5b"
+    },
+    {
+      "id": "CLR-f442828527f3::r1",
+      "card_id": "CLR-f442828527f3",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "e1aafb3430c60197e67be132150bda79d6ea2a3a4c2e6e8fd4adc82f5bf7c14f"
+    },
+    {
+      "id": "CLR-e79deba325ee::r1",
+      "card_id": "CLR-e79deba325ee",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "fe90e133b648cbfa2c5e1a1ad9e591681e52012ab9e1a7baf2c58fb886a5d26a"
+    },
+    {
+      "id": "CLR-3d63fe513b83::r1",
+      "card_id": "CLR-3d63fe513b83",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "53a287235cf33dcd8038f7caa8bcbc130ba4d43d228d03b92e48a23fda5666b1"
+    },
+    {
+      "id": "CLR-14c9f33ce603::r1",
+      "card_id": "CLR-14c9f33ce603",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "7ac1c2c82f782d4f43dfc4b78b6913b8b85b2785aaf38edce3f743ffa302a83d"
+    },
+    {
+      "id": "CLR-d13a7d76b7a0::r1",
+      "card_id": "CLR-d13a7d76b7a0",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "0c55b30fc79b2e81440aa2abcb26f74df7a1c32551bcc28db0faa7bc4c49d228"
+    },
+    {
+      "id": "CLR-f84ce8761689::r1",
+      "card_id": "CLR-f84ce8761689",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "f69e64c5fa3b3869e543bf30a50e7d4f4623ed5a9bc2563806b0aadbfd71ad34"
+    },
+    {
+      "id": "CLR-9ca8ac8d0f1b::r1",
+      "card_id": "CLR-9ca8ac8d0f1b",
+      "phase": "development",
+      "round": 1,
+      "request_sha256": "5c60f8c123e1938b86b36fc23304c61e3727e8d363379947b40a4eb574630ef7"
+    },
+    {
+      "id": "CLR-a1aaab7cf0fe::r2",
+      "card_id": "CLR-a1aaab7cf0fe",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "97677c177b380e23f4458216a9924b98aa98ecb2d46910ffe0daeedac478bd18"
+    },
+    {
+      "id": "CLR-a2d5a779fb32::r2",
+      "card_id": "CLR-a2d5a779fb32",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "219af2d4a2980f6d623294356a9ad20f2891208ae8740275d2c1c7813d85a408"
+    },
+    {
+      "id": "CLR-d1383d97fbcd::r2",
+      "card_id": "CLR-d1383d97fbcd",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "5282b3a98d9923becd5d17088f440b3ebb99c227fe527bd7c30f22df182cf59c"
+    },
+    {
+      "id": "CLR-bff2a3c4bfab::r2",
+      "card_id": "CLR-bff2a3c4bfab",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "f46ab220634d438b555b61ead68d2f6395ccb9a0d2717b9caeb701e0c38686fa"
+    },
+    {
+      "id": "CLR-426b3a319147::r2",
+      "card_id": "CLR-426b3a319147",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "2b08a0b943fede22a4fb13a38d6a4066a2f068be4a0b83e724660a8a9b08f5e8"
+    },
+    {
+      "id": "CLR-d315c8f4aaf5::r2",
+      "card_id": "CLR-d315c8f4aaf5",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "8d66e78a599bd3147e97efe9cc84b3aa7b8036a9c2997992f3749e4bdd5b3c74"
+    },
+    {
+      "id": "CLR-48c2e36b32d4::r2",
+      "card_id": "CLR-48c2e36b32d4",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "8f1dcd5f19679a1284538c900e119c297e0bc43f1717dd816811e11842a964c3"
+    },
+    {
+      "id": "CLR-963fc2161770::r2",
+      "card_id": "CLR-963fc2161770",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "6764854bad6d4b700742267120af6a22ba2e1a0d649f22607ed8960d9f9ffaed"
+    },
+    {
+      "id": "CLR-d2fea4ed9dc3::r2",
+      "card_id": "CLR-d2fea4ed9dc3",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "2da85532aa91e834979eaf78205decad813443fae71cf811587918e500a035ce"
+    },
+    {
+      "id": "CLR-04d4a0c87c00::r2",
+      "card_id": "CLR-04d4a0c87c00",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "7ea396f2afacff09376328c82419ff767e9818995728ae35ce794dc838bec937"
+    },
+    {
+      "id": "CLR-40c98066da96::r2",
+      "card_id": "CLR-40c98066da96",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "82aa427bb5d4b16bcd72ea79ef1122bc6058f50d6c8d9a45504dc3177b0e12fc"
+    },
+    {
+      "id": "CLR-40ccfa8dacc5::r2",
+      "card_id": "CLR-40ccfa8dacc5",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "a4a9cf239943140418e3ce1a16574273321824ac2cdaeec27152d21190dbc762"
+    },
+    {
+      "id": "CLR-6b96d1ebd91b::r2",
+      "card_id": "CLR-6b96d1ebd91b",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "fdf347272a50a8d165ad66ca69297b835fc9c05df74d604f9c0ac83aa3b920e5"
+    },
+    {
+      "id": "CLR-22f9b9cabe62::r2",
+      "card_id": "CLR-22f9b9cabe62",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "9b65764bf62d540a99ec964b77a857c4eea97a01730585bee5de8f118ca565cf"
+    },
+    {
+      "id": "CLR-2a185ac4bb78::r2",
+      "card_id": "CLR-2a185ac4bb78",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "c813e52456074f71f464c27b6dace45f744a2718f64cf35dbf0e8b26b586d874"
+    },
+    {
+      "id": "CLR-a9329968fff6::r2",
+      "card_id": "CLR-a9329968fff6",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "c602d9420f2c595846ae9678395b6d899239c35765a3626cc1d5948749323af7"
+    },
+    {
+      "id": "CLR-c054063a546a::r2",
+      "card_id": "CLR-c054063a546a",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "c3cfe8f839f8df582bf5b0e97689b7b5419277e206843427f4a6e6070912abbe"
+    },
+    {
+      "id": "CLR-89c4c22bd8f9::r2",
+      "card_id": "CLR-89c4c22bd8f9",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "c861f725e4bff4ce8ad533d406ac7768de7cdcbdbbd171ed29038e2c01751127"
+    },
+    {
+      "id": "CLR-155f5319a435::r2",
+      "card_id": "CLR-155f5319a435",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "255215990ef6f53e8f97605e30b0be44876c04c4e6852c0602258fc2eb69db3e"
+    },
+    {
+      "id": "CLR-22b7cad10811::r2",
+      "card_id": "CLR-22b7cad10811",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "06f4eba1b5ea48db5c8de08ae8dfbf6541ee580d8d6f6e72d95e81e70f1d0b1a"
+    },
+    {
+      "id": "CLR-f6580114ab29::r2",
+      "card_id": "CLR-f6580114ab29",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "e045e60dbdfb3ed3ae471847ca2309e63b32e4ed4ab148ed45dabd6210877a6a"
+    },
+    {
+      "id": "CLR-c77e6ffd61aa::r2",
+      "card_id": "CLR-c77e6ffd61aa",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "c2eb0571e897e76940d2cb0ecfaf33a8966acd0e4f1540ddc4b7965e2df8c826"
+    },
+    {
+      "id": "CLR-7f041c65d5cc::r2",
+      "card_id": "CLR-7f041c65d5cc",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "82d7eeeb1eb7464225fe3bb31790005e5cf7694b8465e7e4e7c6b4ee72c67d7f"
+    },
+    {
+      "id": "CLR-c4603ef83c26::r2",
+      "card_id": "CLR-c4603ef83c26",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "efe803d26572753f3b5dfb51433542a4cc0881a890a688fc0e647017ec374587"
+    },
+    {
+      "id": "CLR-19fd32b0b410::r2",
+      "card_id": "CLR-19fd32b0b410",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "88a68d6149277fdde6cb1d26d48f29092015028b51b18048cae586348aa17e65"
+    },
+    {
+      "id": "CLR-eceed5820e35::r2",
+      "card_id": "CLR-eceed5820e35",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "18d7963608d59f6505a66de63242fefc08ab8cced64db632f3151830563fdc8e"
+    },
+    {
+      "id": "CLR-71d47dd8978d::r2",
+      "card_id": "CLR-71d47dd8978d",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "f02398c6812fbbd6180666671c6dc8d8575f7ba68976d717bfd13cb2bb157620"
+    },
+    {
+      "id": "CLR-b0e9b0271fbb::r2",
+      "card_id": "CLR-b0e9b0271fbb",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "e30d9e31eb97f86951c8d9f7427215e00bdd819ab6d08940467750d12a50fdde"
+    },
+    {
+      "id": "CLR-95d1366158ca::r2",
+      "card_id": "CLR-95d1366158ca",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "37065968309f1f640b5794f036dbafa68d8610ef61f480ed16cd122cdf0c818e"
+    },
+    {
+      "id": "CLR-7ada47b039c7::r2",
+      "card_id": "CLR-7ada47b039c7",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "c7350136b79c72b1fb120b11501470c03a6349df2e22d5f52aa5edd789f78ab1"
+    },
+    {
+      "id": "CLR-5e229f7115bd::r2",
+      "card_id": "CLR-5e229f7115bd",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "26885458473947cdb101e600bfb3bf9eeadb6c6bb10a1c60e4f50d0691e4b387"
+    },
+    {
+      "id": "CLR-5d627c25df4c::r2",
+      "card_id": "CLR-5d627c25df4c",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "0a90c56805b95d9fc958739cdaccc15111459cf66b028cfd9f0b6197f72d847b"
+    },
+    {
+      "id": "CLR-e7c62091480c::r2",
+      "card_id": "CLR-e7c62091480c",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "4b47e87bbd496650093d189377c3acd5c8e4fa3797f9243a3257830726b4b4e0"
+    },
+    {
+      "id": "CLR-065d135d7556::r2",
+      "card_id": "CLR-065d135d7556",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "99baf1f532a4ba241b2604e4706188dad3bfc976d86cc8a90f6fd1c0af6756b7"
+    },
+    {
+      "id": "CLR-79697e3ac4e0::r2",
+      "card_id": "CLR-79697e3ac4e0",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "f8bd948d39d4a72a8a26d4fba5b510c4634eb19b7db1ca2f9d3ad039ecc24355"
+    },
+    {
+      "id": "CLR-4a6a2fe579a4::r2",
+      "card_id": "CLR-4a6a2fe579a4",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "9b972469ef2b2a11be44e66fd34d53c41b21bc869cefc09e10fd2edef2707e2b"
+    },
+    {
+      "id": "CLR-dc40fe0da7ed::r2",
+      "card_id": "CLR-dc40fe0da7ed",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "885357e4221ad4c010f7e0a028abe074a85a73b8deaa246187aa532e9b706f95"
+    },
+    {
+      "id": "CLR-223afb56acd5::r2",
+      "card_id": "CLR-223afb56acd5",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "ed28cbf59f0622b7892edcce867d0c181017a1b27f91056fbdc9b2546dc496d5"
+    },
+    {
+      "id": "CLR-11b2877071ff::r2",
+      "card_id": "CLR-11b2877071ff",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "5f2e769e86792f188e84c3d7746f62a091e3d578d0693c130f60447b0f117b67"
+    },
+    {
+      "id": "CLR-c89abfb6ef25::r2",
+      "card_id": "CLR-c89abfb6ef25",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "521afe6733ed49fd54a80d60e9dbbf47eaf74440de566e2b9964419cd42fd599"
+    },
+    {
+      "id": "CLR-a4b4b34e4c1a::r2",
+      "card_id": "CLR-a4b4b34e4c1a",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "55f20bf60bbfdf93d2adc206791af0bf89b9cb0699f1c54bdfb7aa015136d556"
+    },
+    {
+      "id": "CLR-c3e53f1db073::r2",
+      "card_id": "CLR-c3e53f1db073",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "80c73830fb55537c92431d01802a7f4ec82036abf3a433d397bb0354ef22b7cd"
+    },
+    {
+      "id": "CLR-a7a25775436d::r2",
+      "card_id": "CLR-a7a25775436d",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "244a4a256adb94ec7179f397a650db32fc41a6ca2e5472c44089e53532761b04"
+    },
+    {
+      "id": "CLR-385bd62b278e::r2",
+      "card_id": "CLR-385bd62b278e",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "3ea84137e0d7ba7f39efb4955cf30d0b000b58c9ed9c3cd3a4399dc11f965eef"
+    },
+    {
+      "id": "CLR-3d76ce2797de::r2",
+      "card_id": "CLR-3d76ce2797de",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "b70070b09f55a5df58f38579837ea363f6d81cbbe19285bd65b1dd49830b2c0e"
+    },
+    {
+      "id": "CLR-8fd488ac9b9a::r2",
+      "card_id": "CLR-8fd488ac9b9a",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "431bb45395a2d3c024ed9954466732e6d8ff32689795bc71d2633e79e7b1170a"
+    },
+    {
+      "id": "CLR-e0b7b23887c7::r2",
+      "card_id": "CLR-e0b7b23887c7",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "29de3457449bcf6164ba219c42c4e0009f968022e33d2345c9b44d237fa6ea79"
+    },
+    {
+      "id": "CLR-c5eab63aa125::r2",
+      "card_id": "CLR-c5eab63aa125",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "9828961ec8795e6f311c1a602490a88059262afb9ac607643b689c75ee69103a"
+    },
+    {
+      "id": "CLR-5a02bc22f0d1::r2",
+      "card_id": "CLR-5a02bc22f0d1",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "a957933ca429d1b75165b81a800c37b4b9d17275b03a17e472ba26445d7a396e"
+    },
+    {
+      "id": "CLR-9c6ab0930632::r2",
+      "card_id": "CLR-9c6ab0930632",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "cad5c159afcfac7fd33afa6ba6a6c1eb0d8b960c9e5630b0846effc3d1c2cf2f"
+    },
+    {
+      "id": "CLR-467859684e8e::r2",
+      "card_id": "CLR-467859684e8e",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "7b3881af36b7db05e61721d1cf77f69236e7500713f3983d0e4a8c2cdac88db0"
+    },
+    {
+      "id": "CLR-635c1ef83ee8::r2",
+      "card_id": "CLR-635c1ef83ee8",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "f3cf75a577fe3b5408d1256faecc0420ac95e0907df0ee1e3ff9c06cdc54b416"
+    },
+    {
+      "id": "CLR-91603312d71f::r2",
+      "card_id": "CLR-91603312d71f",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "01f0f3487778a542006022a136b825483f9e838691197e34d351d81fd07c818c"
+    },
+    {
+      "id": "CLR-c4d37a02c746::r2",
+      "card_id": "CLR-c4d37a02c746",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "a5f8dddc0abf61d027676e2a6d542086e5c6ae5b4229246d96b13d83ea2cccb7"
+    },
+    {
+      "id": "CLR-75687ec0480c::r2",
+      "card_id": "CLR-75687ec0480c",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "8bd7b63c20601baae75f21ab2517dbfd53b008506636a2b5c8641bf3dbac126a"
+    },
+    {
+      "id": "CLR-9ba02e46d09c::r2",
+      "card_id": "CLR-9ba02e46d09c",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "46ec8278c9833acbccd992521a9570989d22548b7687bb0c2d15f5412523fb37"
+    },
+    {
+      "id": "CLR-8784aa4b27c0::r2",
+      "card_id": "CLR-8784aa4b27c0",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "5b4ebd932d2dad2670fb80ebada4adcbdd807a6756ed42c76958a0ae46103ba8"
+    },
+    {
+      "id": "CLR-25f1c6c42d4a::r2",
+      "card_id": "CLR-25f1c6c42d4a",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "2658fecc33c02cc64c6ed4b93c333d9f7ce1963b3997a2c51573abc6ffa86f92"
+    },
+    {
+      "id": "CLR-47d673dbe9d6::r2",
+      "card_id": "CLR-47d673dbe9d6",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "32833aaa7386604c05aa122cc37533165670c1c81b9c94251a040162e96660c3"
+    },
+    {
+      "id": "CLR-03b6e44db148::r2",
+      "card_id": "CLR-03b6e44db148",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "8540c0ee964bd012a1f93d258fff8914cdfc35945c5633ad2c252a0718324cbf"
+    },
+    {
+      "id": "CLR-dcfebf9a2483::r2",
+      "card_id": "CLR-dcfebf9a2483",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "eac44780f7d4d083b63dfd2a748c0ad1f78bb0714e7fac51ce65cc2545a063a5"
+    },
+    {
+      "id": "CLR-65ef0689f41a::r2",
+      "card_id": "CLR-65ef0689f41a",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "5c897db7a90389c88446320e08e219bcad597993e6eb7774bd1c8ddc0076b1d5"
+    },
+    {
+      "id": "CLR-ab79557d3361::r2",
+      "card_id": "CLR-ab79557d3361",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "ee5af288a1469598a19b5488101e47a2c2a143324dd2238c3145207cbdb49287"
+    },
+    {
+      "id": "CLR-7d94ca0cc5e8::r2",
+      "card_id": "CLR-7d94ca0cc5e8",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "510cc7807174fcc82f0c3c8702728485986cd1e67b54d8a98474a4c16ebaba00"
+    },
+    {
+      "id": "CLR-0be11a262508::r2",
+      "card_id": "CLR-0be11a262508",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "acdde61e960d0e0c3d8816905559bba9e5ba8ced1f52baa36ac608c8edb06a67"
+    },
+    {
+      "id": "CLR-16673fc8095f::r2",
+      "card_id": "CLR-16673fc8095f",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "979bf986465a14731bd0138583e0b2862db7c28c4d09f1d306e9011014200fa9"
+    },
+    {
+      "id": "CLR-802b22271083::r2",
+      "card_id": "CLR-802b22271083",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "59aa5211cb0ee51de92d4d524b397136eb800b9c6628c3305312167be7f5563c"
+    },
+    {
+      "id": "CLR-bdc1e50f5c1c::r2",
+      "card_id": "CLR-bdc1e50f5c1c",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "9145715feac574c667128e6f3d17a7393d7cac353ec1e6c7e6625145c43aae5b"
+    },
+    {
+      "id": "CLR-f442828527f3::r2",
+      "card_id": "CLR-f442828527f3",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "e1aafb3430c60197e67be132150bda79d6ea2a3a4c2e6e8fd4adc82f5bf7c14f"
+    },
+    {
+      "id": "CLR-e79deba325ee::r2",
+      "card_id": "CLR-e79deba325ee",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "fe90e133b648cbfa2c5e1a1ad9e591681e52012ab9e1a7baf2c58fb886a5d26a"
+    },
+    {
+      "id": "CLR-3d63fe513b83::r2",
+      "card_id": "CLR-3d63fe513b83",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "53a287235cf33dcd8038f7caa8bcbc130ba4d43d228d03b92e48a23fda5666b1"
+    },
+    {
+      "id": "CLR-14c9f33ce603::r2",
+      "card_id": "CLR-14c9f33ce603",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "7ac1c2c82f782d4f43dfc4b78b6913b8b85b2785aaf38edce3f743ffa302a83d"
+    },
+    {
+      "id": "CLR-d13a7d76b7a0::r2",
+      "card_id": "CLR-d13a7d76b7a0",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "0c55b30fc79b2e81440aa2abcb26f74df7a1c32551bcc28db0faa7bc4c49d228"
+    },
+    {
+      "id": "CLR-f84ce8761689::r2",
+      "card_id": "CLR-f84ce8761689",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "f69e64c5fa3b3869e543bf30a50e7d4f4623ed5a9bc2563806b0aadbfd71ad34"
+    },
+    {
+      "id": "CLR-9ca8ac8d0f1b::r2",
+      "card_id": "CLR-9ca8ac8d0f1b",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "5c60f8c123e1938b86b36fc23304c61e3727e8d363379947b40a4eb574630ef7"
+    },
+    {
+      "id": "CLR-7c0a91779b76::r2",
+      "card_id": "CLR-7c0a91779b76",
+      "phase": "development",
+      "round": 2,
+      "request_sha256": "0422ffe305c9c3e83ac65cdabfc04b72a3e039e517bc7289776121b7e196360f"
+    },
+    {
+      "id": "CLR-a2d5a779fb32::r3",
+      "card_id": "CLR-a2d5a779fb32",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "219af2d4a2980f6d623294356a9ad20f2891208ae8740275d2c1c7813d85a408"
+    },
+    {
+      "id": "CLR-d1383d97fbcd::r3",
+      "card_id": "CLR-d1383d97fbcd",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "5282b3a98d9923becd5d17088f440b3ebb99c227fe527bd7c30f22df182cf59c"
+    },
+    {
+      "id": "CLR-bff2a3c4bfab::r3",
+      "card_id": "CLR-bff2a3c4bfab",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "f46ab220634d438b555b61ead68d2f6395ccb9a0d2717b9caeb701e0c38686fa"
+    },
+    {
+      "id": "CLR-426b3a319147::r3",
+      "card_id": "CLR-426b3a319147",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "2b08a0b943fede22a4fb13a38d6a4066a2f068be4a0b83e724660a8a9b08f5e8"
+    },
+    {
+      "id": "CLR-d315c8f4aaf5::r3",
+      "card_id": "CLR-d315c8f4aaf5",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "8d66e78a599bd3147e97efe9cc84b3aa7b8036a9c2997992f3749e4bdd5b3c74"
+    },
+    {
+      "id": "CLR-48c2e36b32d4::r3",
+      "card_id": "CLR-48c2e36b32d4",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "8f1dcd5f19679a1284538c900e119c297e0bc43f1717dd816811e11842a964c3"
+    },
+    {
+      "id": "CLR-963fc2161770::r3",
+      "card_id": "CLR-963fc2161770",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "6764854bad6d4b700742267120af6a22ba2e1a0d649f22607ed8960d9f9ffaed"
+    },
+    {
+      "id": "CLR-d2fea4ed9dc3::r3",
+      "card_id": "CLR-d2fea4ed9dc3",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "2da85532aa91e834979eaf78205decad813443fae71cf811587918e500a035ce"
+    },
+    {
+      "id": "CLR-04d4a0c87c00::r3",
+      "card_id": "CLR-04d4a0c87c00",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "7ea396f2afacff09376328c82419ff767e9818995728ae35ce794dc838bec937"
+    },
+    {
+      "id": "CLR-40c98066da96::r3",
+      "card_id": "CLR-40c98066da96",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "82aa427bb5d4b16bcd72ea79ef1122bc6058f50d6c8d9a45504dc3177b0e12fc"
+    },
+    {
+      "id": "CLR-40ccfa8dacc5::r3",
+      "card_id": "CLR-40ccfa8dacc5",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "a4a9cf239943140418e3ce1a16574273321824ac2cdaeec27152d21190dbc762"
+    },
+    {
+      "id": "CLR-6b96d1ebd91b::r3",
+      "card_id": "CLR-6b96d1ebd91b",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "fdf347272a50a8d165ad66ca69297b835fc9c05df74d604f9c0ac83aa3b920e5"
+    },
+    {
+      "id": "CLR-22f9b9cabe62::r3",
+      "card_id": "CLR-22f9b9cabe62",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "9b65764bf62d540a99ec964b77a857c4eea97a01730585bee5de8f118ca565cf"
+    },
+    {
+      "id": "CLR-2a185ac4bb78::r3",
+      "card_id": "CLR-2a185ac4bb78",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "c813e52456074f71f464c27b6dace45f744a2718f64cf35dbf0e8b26b586d874"
+    },
+    {
+      "id": "CLR-a9329968fff6::r3",
+      "card_id": "CLR-a9329968fff6",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "c602d9420f2c595846ae9678395b6d899239c35765a3626cc1d5948749323af7"
+    },
+    {
+      "id": "CLR-c054063a546a::r3",
+      "card_id": "CLR-c054063a546a",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "c3cfe8f839f8df582bf5b0e97689b7b5419277e206843427f4a6e6070912abbe"
+    },
+    {
+      "id": "CLR-89c4c22bd8f9::r3",
+      "card_id": "CLR-89c4c22bd8f9",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "c861f725e4bff4ce8ad533d406ac7768de7cdcbdbbd171ed29038e2c01751127"
+    },
+    {
+      "id": "CLR-155f5319a435::r3",
+      "card_id": "CLR-155f5319a435",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "255215990ef6f53e8f97605e30b0be44876c04c4e6852c0602258fc2eb69db3e"
+    },
+    {
+      "id": "CLR-22b7cad10811::r3",
+      "card_id": "CLR-22b7cad10811",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "06f4eba1b5ea48db5c8de08ae8dfbf6541ee580d8d6f6e72d95e81e70f1d0b1a"
+    },
+    {
+      "id": "CLR-f6580114ab29::r3",
+      "card_id": "CLR-f6580114ab29",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "e045e60dbdfb3ed3ae471847ca2309e63b32e4ed4ab148ed45dabd6210877a6a"
+    },
+    {
+      "id": "CLR-c77e6ffd61aa::r3",
+      "card_id": "CLR-c77e6ffd61aa",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "c2eb0571e897e76940d2cb0ecfaf33a8966acd0e4f1540ddc4b7965e2df8c826"
+    },
+    {
+      "id": "CLR-7f041c65d5cc::r3",
+      "card_id": "CLR-7f041c65d5cc",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "82d7eeeb1eb7464225fe3bb31790005e5cf7694b8465e7e4e7c6b4ee72c67d7f"
+    },
+    {
+      "id": "CLR-c4603ef83c26::r3",
+      "card_id": "CLR-c4603ef83c26",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "efe803d26572753f3b5dfb51433542a4cc0881a890a688fc0e647017ec374587"
+    },
+    {
+      "id": "CLR-19fd32b0b410::r3",
+      "card_id": "CLR-19fd32b0b410",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "88a68d6149277fdde6cb1d26d48f29092015028b51b18048cae586348aa17e65"
+    },
+    {
+      "id": "CLR-eceed5820e35::r3",
+      "card_id": "CLR-eceed5820e35",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "18d7963608d59f6505a66de63242fefc08ab8cced64db632f3151830563fdc8e"
+    },
+    {
+      "id": "CLR-71d47dd8978d::r3",
+      "card_id": "CLR-71d47dd8978d",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "f02398c6812fbbd6180666671c6dc8d8575f7ba68976d717bfd13cb2bb157620"
+    },
+    {
+      "id": "CLR-b0e9b0271fbb::r3",
+      "card_id": "CLR-b0e9b0271fbb",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "e30d9e31eb97f86951c8d9f7427215e00bdd819ab6d08940467750d12a50fdde"
+    },
+    {
+      "id": "CLR-95d1366158ca::r3",
+      "card_id": "CLR-95d1366158ca",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "37065968309f1f640b5794f036dbafa68d8610ef61f480ed16cd122cdf0c818e"
+    },
+    {
+      "id": "CLR-7ada47b039c7::r3",
+      "card_id": "CLR-7ada47b039c7",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "c7350136b79c72b1fb120b11501470c03a6349df2e22d5f52aa5edd789f78ab1"
+    },
+    {
+      "id": "CLR-5e229f7115bd::r3",
+      "card_id": "CLR-5e229f7115bd",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "26885458473947cdb101e600bfb3bf9eeadb6c6bb10a1c60e4f50d0691e4b387"
+    },
+    {
+      "id": "CLR-5d627c25df4c::r3",
+      "card_id": "CLR-5d627c25df4c",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "0a90c56805b95d9fc958739cdaccc15111459cf66b028cfd9f0b6197f72d847b"
+    },
+    {
+      "id": "CLR-e7c62091480c::r3",
+      "card_id": "CLR-e7c62091480c",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "4b47e87bbd496650093d189377c3acd5c8e4fa3797f9243a3257830726b4b4e0"
+    },
+    {
+      "id": "CLR-065d135d7556::r3",
+      "card_id": "CLR-065d135d7556",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "99baf1f532a4ba241b2604e4706188dad3bfc976d86cc8a90f6fd1c0af6756b7"
+    },
+    {
+      "id": "CLR-79697e3ac4e0::r3",
+      "card_id": "CLR-79697e3ac4e0",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "f8bd948d39d4a72a8a26d4fba5b510c4634eb19b7db1ca2f9d3ad039ecc24355"
+    },
+    {
+      "id": "CLR-4a6a2fe579a4::r3",
+      "card_id": "CLR-4a6a2fe579a4",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "9b972469ef2b2a11be44e66fd34d53c41b21bc869cefc09e10fd2edef2707e2b"
+    },
+    {
+      "id": "CLR-dc40fe0da7ed::r3",
+      "card_id": "CLR-dc40fe0da7ed",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "885357e4221ad4c010f7e0a028abe074a85a73b8deaa246187aa532e9b706f95"
+    },
+    {
+      "id": "CLR-223afb56acd5::r3",
+      "card_id": "CLR-223afb56acd5",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "ed28cbf59f0622b7892edcce867d0c181017a1b27f91056fbdc9b2546dc496d5"
+    },
+    {
+      "id": "CLR-11b2877071ff::r3",
+      "card_id": "CLR-11b2877071ff",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "5f2e769e86792f188e84c3d7746f62a091e3d578d0693c130f60447b0f117b67"
+    },
+    {
+      "id": "CLR-c89abfb6ef25::r3",
+      "card_id": "CLR-c89abfb6ef25",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "521afe6733ed49fd54a80d60e9dbbf47eaf74440de566e2b9964419cd42fd599"
+    },
+    {
+      "id": "CLR-a4b4b34e4c1a::r3",
+      "card_id": "CLR-a4b4b34e4c1a",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "55f20bf60bbfdf93d2adc206791af0bf89b9cb0699f1c54bdfb7aa015136d556"
+    },
+    {
+      "id": "CLR-c3e53f1db073::r3",
+      "card_id": "CLR-c3e53f1db073",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "80c73830fb55537c92431d01802a7f4ec82036abf3a433d397bb0354ef22b7cd"
+    },
+    {
+      "id": "CLR-a7a25775436d::r3",
+      "card_id": "CLR-a7a25775436d",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "244a4a256adb94ec7179f397a650db32fc41a6ca2e5472c44089e53532761b04"
+    },
+    {
+      "id": "CLR-385bd62b278e::r3",
+      "card_id": "CLR-385bd62b278e",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "3ea84137e0d7ba7f39efb4955cf30d0b000b58c9ed9c3cd3a4399dc11f965eef"
+    },
+    {
+      "id": "CLR-3d76ce2797de::r3",
+      "card_id": "CLR-3d76ce2797de",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "b70070b09f55a5df58f38579837ea363f6d81cbbe19285bd65b1dd49830b2c0e"
+    },
+    {
+      "id": "CLR-8fd488ac9b9a::r3",
+      "card_id": "CLR-8fd488ac9b9a",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "431bb45395a2d3c024ed9954466732e6d8ff32689795bc71d2633e79e7b1170a"
+    },
+    {
+      "id": "CLR-e0b7b23887c7::r3",
+      "card_id": "CLR-e0b7b23887c7",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "29de3457449bcf6164ba219c42c4e0009f968022e33d2345c9b44d237fa6ea79"
+    },
+    {
+      "id": "CLR-c5eab63aa125::r3",
+      "card_id": "CLR-c5eab63aa125",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "9828961ec8795e6f311c1a602490a88059262afb9ac607643b689c75ee69103a"
+    },
+    {
+      "id": "CLR-5a02bc22f0d1::r3",
+      "card_id": "CLR-5a02bc22f0d1",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "a957933ca429d1b75165b81a800c37b4b9d17275b03a17e472ba26445d7a396e"
+    },
+    {
+      "id": "CLR-9c6ab0930632::r3",
+      "card_id": "CLR-9c6ab0930632",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "cad5c159afcfac7fd33afa6ba6a6c1eb0d8b960c9e5630b0846effc3d1c2cf2f"
+    },
+    {
+      "id": "CLR-467859684e8e::r3",
+      "card_id": "CLR-467859684e8e",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "7b3881af36b7db05e61721d1cf77f69236e7500713f3983d0e4a8c2cdac88db0"
+    },
+    {
+      "id": "CLR-635c1ef83ee8::r3",
+      "card_id": "CLR-635c1ef83ee8",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "f3cf75a577fe3b5408d1256faecc0420ac95e0907df0ee1e3ff9c06cdc54b416"
+    },
+    {
+      "id": "CLR-91603312d71f::r3",
+      "card_id": "CLR-91603312d71f",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "01f0f3487778a542006022a136b825483f9e838691197e34d351d81fd07c818c"
+    },
+    {
+      "id": "CLR-c4d37a02c746::r3",
+      "card_id": "CLR-c4d37a02c746",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "a5f8dddc0abf61d027676e2a6d542086e5c6ae5b4229246d96b13d83ea2cccb7"
+    },
+    {
+      "id": "CLR-75687ec0480c::r3",
+      "card_id": "CLR-75687ec0480c",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "8bd7b63c20601baae75f21ab2517dbfd53b008506636a2b5c8641bf3dbac126a"
+    },
+    {
+      "id": "CLR-9ba02e46d09c::r3",
+      "card_id": "CLR-9ba02e46d09c",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "46ec8278c9833acbccd992521a9570989d22548b7687bb0c2d15f5412523fb37"
+    },
+    {
+      "id": "CLR-8784aa4b27c0::r3",
+      "card_id": "CLR-8784aa4b27c0",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "5b4ebd932d2dad2670fb80ebada4adcbdd807a6756ed42c76958a0ae46103ba8"
+    },
+    {
+      "id": "CLR-25f1c6c42d4a::r3",
+      "card_id": "CLR-25f1c6c42d4a",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "2658fecc33c02cc64c6ed4b93c333d9f7ce1963b3997a2c51573abc6ffa86f92"
+    },
+    {
+      "id": "CLR-47d673dbe9d6::r3",
+      "card_id": "CLR-47d673dbe9d6",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "32833aaa7386604c05aa122cc37533165670c1c81b9c94251a040162e96660c3"
+    },
+    {
+      "id": "CLR-03b6e44db148::r3",
+      "card_id": "CLR-03b6e44db148",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "8540c0ee964bd012a1f93d258fff8914cdfc35945c5633ad2c252a0718324cbf"
+    },
+    {
+      "id": "CLR-dcfebf9a2483::r3",
+      "card_id": "CLR-dcfebf9a2483",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "eac44780f7d4d083b63dfd2a748c0ad1f78bb0714e7fac51ce65cc2545a063a5"
+    },
+    {
+      "id": "CLR-65ef0689f41a::r3",
+      "card_id": "CLR-65ef0689f41a",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "5c897db7a90389c88446320e08e219bcad597993e6eb7774bd1c8ddc0076b1d5"
+    },
+    {
+      "id": "CLR-ab79557d3361::r3",
+      "card_id": "CLR-ab79557d3361",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "ee5af288a1469598a19b5488101e47a2c2a143324dd2238c3145207cbdb49287"
+    },
+    {
+      "id": "CLR-7d94ca0cc5e8::r3",
+      "card_id": "CLR-7d94ca0cc5e8",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "510cc7807174fcc82f0c3c8702728485986cd1e67b54d8a98474a4c16ebaba00"
+    },
+    {
+      "id": "CLR-0be11a262508::r3",
+      "card_id": "CLR-0be11a262508",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "acdde61e960d0e0c3d8816905559bba9e5ba8ced1f52baa36ac608c8edb06a67"
+    },
+    {
+      "id": "CLR-16673fc8095f::r3",
+      "card_id": "CLR-16673fc8095f",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "979bf986465a14731bd0138583e0b2862db7c28c4d09f1d306e9011014200fa9"
+    },
+    {
+      "id": "CLR-802b22271083::r3",
+      "card_id": "CLR-802b22271083",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "59aa5211cb0ee51de92d4d524b397136eb800b9c6628c3305312167be7f5563c"
+    },
+    {
+      "id": "CLR-bdc1e50f5c1c::r3",
+      "card_id": "CLR-bdc1e50f5c1c",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "9145715feac574c667128e6f3d17a7393d7cac353ec1e6c7e6625145c43aae5b"
+    },
+    {
+      "id": "CLR-f442828527f3::r3",
+      "card_id": "CLR-f442828527f3",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "e1aafb3430c60197e67be132150bda79d6ea2a3a4c2e6e8fd4adc82f5bf7c14f"
+    },
+    {
+      "id": "CLR-e79deba325ee::r3",
+      "card_id": "CLR-e79deba325ee",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "fe90e133b648cbfa2c5e1a1ad9e591681e52012ab9e1a7baf2c58fb886a5d26a"
+    },
+    {
+      "id": "CLR-3d63fe513b83::r3",
+      "card_id": "CLR-3d63fe513b83",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "53a287235cf33dcd8038f7caa8bcbc130ba4d43d228d03b92e48a23fda5666b1"
+    },
+    {
+      "id": "CLR-14c9f33ce603::r3",
+      "card_id": "CLR-14c9f33ce603",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "7ac1c2c82f782d4f43dfc4b78b6913b8b85b2785aaf38edce3f743ffa302a83d"
+    },
+    {
+      "id": "CLR-d13a7d76b7a0::r3",
+      "card_id": "CLR-d13a7d76b7a0",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "0c55b30fc79b2e81440aa2abcb26f74df7a1c32551bcc28db0faa7bc4c49d228"
+    },
+    {
+      "id": "CLR-f84ce8761689::r3",
+      "card_id": "CLR-f84ce8761689",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "f69e64c5fa3b3869e543bf30a50e7d4f4623ed5a9bc2563806b0aadbfd71ad34"
+    },
+    {
+      "id": "CLR-9ca8ac8d0f1b::r3",
+      "card_id": "CLR-9ca8ac8d0f1b",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "5c60f8c123e1938b86b36fc23304c61e3727e8d363379947b40a4eb574630ef7"
+    },
+    {
+      "id": "CLR-7c0a91779b76::r3",
+      "card_id": "CLR-7c0a91779b76",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "0422ffe305c9c3e83ac65cdabfc04b72a3e039e517bc7289776121b7e196360f"
+    },
+    {
+      "id": "CLR-a1aaab7cf0fe::r3",
+      "card_id": "CLR-a1aaab7cf0fe",
+      "phase": "development",
+      "round": 3,
+      "request_sha256": "97677c177b380e23f4458216a9924b98aa98ecb2d46910ffe0daeedac478bd18"
+    }
+  ]
+}
