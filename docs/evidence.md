@@ -381,3 +381,17 @@ uv run --locked --extra public-data python -m scripts.verify_clarification_focus
 ```
 
 Both declared candidates fail. Field-specific instructions improve correct displayed actions but introduce three premature ready decisions on one ambiguous pronoun statement. The bundle preserves both quarantined replies and complete denominators. Replay makes no inference call and does not establish authentic analyst usefulness or operational readiness.
+
+## Optional clarification and display dependencies
+
+[optional-clarification-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/optional-clarification-v1) adds nine files and 828 actual provider responses: 552 direct/checklist calls and 276 shared six-question calls scored under two display policies. Restore all thirty-one predecessors first. The pack includes 92 controlled statements, separate manual references and a manifest, plus both studies' exact requests, original replies and execution summaries. Plans, protocols and results remain in Git.
+
+The archive contains 249,941 bytes with SHA-256 `568b81b2f1e74e56fe81273aa572861da7c5752dcc6a41689e4acfe41d81d38f`. All thirty-two assets preserve 16,156 actual provider responses in 1,282 files. Both candidates fail their frozen requirements. Neither study opens a new recording or protected allocation, records human entry/review, or establishes analyst benefit.
+
+```bash
+gh release download optional-clarification-v1 --repo mumit/Jev-public-operations-experiments --pattern optional-clarification-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/optional-clarification-v1.tar.gz --manifest evidence/optional-clarification-v1.json
+uv run --locked --extra public-data python -m scripts.verify_optional_question
+```
+
+Both display policies use the same 276 replies; costs count once. First-question dependencies give 251 correct displays versus 188 with all-fields, with no wrong displayed action, but sixteen withheld needed clarifications. The bundle retains every miss and failed panel. The full replay includes thirty-three executed studies, all three preparation failures and both original pack validators, with no inference.
