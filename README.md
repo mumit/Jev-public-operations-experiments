@@ -4,12 +4,16 @@ I am testing where Jev can help operations analysts: selecting investigation lea
 
 The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
+The latest optional clarification diagnostic improves correct displays from 188 to 251 out of 276 by gating only the fields needed for the first question on identical replies. It displays no wrong action but misses sixteen needed clarifications and fails its frozen coverage requirements. [Read both optional comparisons](docs/optional-clarification.md) and inspect [the required-entry prototype](http://127.0.0.1:8769/optional-clarification). Human benefit remains unmeasured.
+
 The missing-window confirmation gives focused and calculated Jev inputs 1,080/1,080 correct displayed answers each. The exact evaluator matches every policy reference without hosted calls. Calculated facts add no benefit on this panel, while the earlier boundary-fixture advantage remains recorded. All fifteen previously downloaded recordings remain included, including one with no after-window evidence. Inspect [the explicit-claim workflow](http://127.0.0.1:8769/explicit-claims?phase=fresh) and read [the task-fit assessment](docs/operations-fit.md). Correct entry is supplied by assistant fixtures; human effort and added utility remain unmeasured.
 
 ## Completed comparisons
 
 | Study | Evidence | Result |
 |---|---|---|
+| Optional display dependencies | 92 inspected statements, three rounds, two policies on 276 shared replies | First-question gives 251 correct displays versus 188; zero wrong displays, sixteen missed clarifications; coverage gates fail. |
+| Optional question selection | 92 new controlled statements, direct/checklist inputs, 552 calls | Direct displays 149 correct actions versus 187 for checklist and adds five unnecessary questions on health requests; candidate fails. |
 | Prefix context | 27 inspected notes, one subject per call, paired full/prefix inputs, three rounds | Train Ticket passes. Online Boutique displays 102/103/102 versus full-note 99/99/99; prefix has zero unsafe swapped displays, full-note has one. Subject errors and a quarantined reply remain; candidate fails. |
 | Direct subject extraction | 27 inspected controlled notes, complete service inventories, fresh proposal checks, three rounds | Train Ticket passes. Online Boutique displays 97/101/99 versus proposal checks 90/90/92, but retains subject errors and fails overall. No swapped display survives. |
 | Separate subject and verdict calls | 27 inspected controlled notes, fresh baselines and joint controls, three rounds | Train Ticket passes; Online Boutique gains eight clean displays per round over joint, but still loses 16–17 versus baseline. No swapped display survives; subject errors remain and the overall candidate fails. |
@@ -108,4 +112,3 @@ Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only 
 
 Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). The numerical comparison is complete. Fixed numerical checks belong in code. The readiness comparison and both optional clarification studies are complete; none passes its frozen candidate requirements. The next choice is a participant-led convenience comparison despite missed questions, or explicit entry alone. Read [the optional results](docs/optional-clarification.md); historical readiness scores remain unchanged. The missing-window confirmation reuses fifteen already downloaded recordings with 2,160 valid calls and no case replacement. All three failed preparations remain preserved. Original explicit ranks 1-3, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves stay unopened.
 
-The latest optional clarification diagnostic improves correct displays from 188 to 251 out of 276 by gating only the fields needed for the first question on identical replies. It displays no wrong action but misses sixteen needed clarifications and fails its frozen coverage requirements. [Read both optional comparisons](docs/optional-clarification.md) and inspect `/optional-clarification`. All required fields remain manual; the app records no human benefit study.
