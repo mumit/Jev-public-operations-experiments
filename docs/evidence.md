@@ -366,3 +366,18 @@ uv run --locked --extra public-data python -m scripts.verify_explicit_missing
 ```
 
 Both Jev arms match every numerical reference and pass each complete-evidence and missing-evidence gate. This reuses fifteen recordings after schema/window inspection; it is not a wholly untouched panel or a measurement of human effort. The original protected allocations remain unopened. Further inference awaits a new task choice and separately frozen protocol.
+
+
+## Clarification language studies
+
+[clarification-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/clarification-v1) adds nine files and 684 actual provider responses: 228 from the first clarification diagnostic and 456 from the paired instruction-only comparison. Restore all thirty predecessors first. This supplement contains the shared controlled statements, separate manual masks, manifest and both stages' exact requests, original replies and execution summaries. Plans, protocols and scored results remain in Git.
+
+The archive contains 372,719 bytes with SHA-256 `55b49ad7da468838677c06e5d85c87ece3afdb295cda9437a4532ed7349d8e1b`. All thirty-one assets preserve 15,328 actual provider responses in 1,273 files. No new recording, protected allocation, human review or independent reference enters these language studies.
+
+```bash
+gh release download clarification-v1 --repo mumit/Jev-public-operations-experiments --pattern clarification-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/clarification-v1.tar.gz --manifest evidence/clarification-v1.json
+uv run --locked --extra public-data python -m scripts.verify_clarification_focus
+```
+
+Both declared candidates fail. Field-specific instructions improve correct displayed actions but introduce three premature ready decisions on one ambiguous pronoun statement. The bundle preserves both quarantined replies and complete denominators. Replay makes no inference call and does not establish authentic analyst usefulness or operational readiness.
