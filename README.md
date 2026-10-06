@@ -48,10 +48,12 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all thirty [public evidence bundles](docs/evidence.md) in order to inspect 14,644 recorded provider responses in 1,264 files. The newest supplement adds 2,160 replies and seven files; its source recordings remain in the earlier preparation-failure bundle. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
+A fresh clone includes source, reports and checkpoints. Restore all thirty-two [public evidence bundles](docs/evidence.md) in order to inspect 16,156 recorded provider responses in 1,282 files. The newest supplement adds 828 replies and nine files from two optional clarification studies. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
 
 ## Read and inspect
 
+- [Optional clarification](docs/optional-clarification.md): direct selection, same-reply display dependencies, missed questions and a blank required-entry prototype.
+- [Clarification readiness](docs/clarification.md): instruction changes, improved coverage and repeated ambiguity errors.
 - [Explicit claims](docs/explicit-claims.md): compare general typed, focused and calculated inputs with exact policy computation; inspect the completed missing-window confirmation.
 - [Complete workflow](docs/full-workflow.md): all twelve candidates, actual accepted fields, unsafe displays, parser and trusted-field control.
 - [Context challenges](docs/subject-robustness.md): quotations, interruptions, ambiguity and source versus supplied-context references.
@@ -94,16 +96,16 @@ The clarification comparison improves correct displayed actions from 77 to 112 o
 
 ```bash
 uv run --locked --extra public-data python -m unittest discover -s tests -v
-uv run --locked --extra public-data python -m scripts.verify_clarification_focus
+uv run --locked --extra public-data python -m scripts.verify_optional_question
 for file in triage_bench/web/*.js; do node --check "$file" || exit 1; done
 ```
 
-The latest verifier invokes thirty-one executed studies, three preparation failures and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
+The latest verifier invokes thirty-three executed studies, three preparation failures and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
 
 ## Continue the research
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). The numerical comparison is complete. Fixed numerical checks belong in code; The language comparison is complete and fails its readiness gate. The user selected optional clarification suggestions alongside required entry. The new [question-selection protocol](docs/optional-clarification.md) freezes different wording and counts silent misses separately; it changes no historical readiness score. The missing-window confirmation reuses fifteen already downloaded recordings with 2,160 valid calls and no case replacement. All three failed preparations remain preserved. Original explicit ranks 1-3, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves stay unopened.
+Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). The numerical comparison is complete. Fixed numerical checks belong in code. The readiness comparison and both optional clarification studies are complete; none passes its frozen candidate requirements. The next choice is a participant-led convenience comparison despite missed questions, or explicit entry alone. Read [the optional results](docs/optional-clarification.md); historical readiness scores remain unchanged. The missing-window confirmation reuses fifteen already downloaded recordings with 2,160 valid calls and no case replacement. All three failed preparations remain preserved. Original explicit ranks 1-3, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves stay unopened.
 
 The latest optional clarification diagnostic improves correct displays from 188 to 251 out of 276 by gating only the fields needed for the first question on identical replies. It displays no wrong action but misses sixteen needed clarifications and fails its frozen coverage requirements. [Read both optional comparisons](docs/optional-clarification.md) and inspect `/optional-clarification`. All required fields remain manual; the app records no human benefit study.
