@@ -51,3 +51,21 @@ class BindingCorruptionTests(unittest.TestCase):
         row={'card_id':p['id'],'arm':'service_meaning','round':1,'status':'ok','latency_ms':1,'answers':{sid+'_verdict':{'choice':'unanswerable','probabilities':{'supported':.01,'contradicted':.01,'unanswerable':.98}}}}
         m=t.assess([p],refs,[row])['panels'][p['dataset']]['all']['service_meaning'][0]['strata']
         self.assertEqual(m['all']['correct'],1);self.assertEqual(m['divergent']['denominator'],0);self.assertEqual(m['invariant']['denominator'],1)
+
+    def test_prepared_reference_preserves_original_and_absent_channel(self):
+        refs=t.references()
+        for p in self.packets:
+            for sid,ref in refs[p['id']]['clean_bound'].items():
+                self.assertEqual(ref['original'],ref['altered']);self.assertFalse(ref['divergent'])
+                self.assertEqual(ref['original'],refs[p['id']]['service_meaning'][sid]['original'])
+        self.assertEqual(sum(v['divergent'] for rr in refs.values() for v in rr['service_bound'].values()),72)
+        self.assertEqual(sum(v['divergent'] for rr in refs.values() for v in rr['polarity_meaning'].values()),78)
+        absent=[v for rr in refs.values() for v in rr['service_bound'].values() if v['diagnostic']['facts'].get('absent_channel')]
+        self.assertTrue(absent);self.assertTrue(all(v['altered']=='unanswerable' for v in absent))
+
+    def test_paired_loss_and_display_boundary(self):
+        p=self.packets[0];sid='s03';refs={p['id']:{a:{sid:{'original':'supported','altered':'contradicted','divergent':True,'subject_form':'pronoun'}} for a in t.ARMS}}
+        rows=[{'card_id':p['id'],'arm':a,'round':1,'status':'ok','latency_ms':1,'answers':{sid+'_verdict':{'choice':c,'probabilities':{'supported':.69 if c=='supported' else .01,'contradicted':.98 if c=='contradicted' else .30,'unanswerable':.01}}}} for a,c in [('clean_bound','supported'),('service_bound','contradicted')]]
+        metrics=t.assess([p],refs,rows)['panels'][p['dataset']]['all']['service_bound'][0]['strata']['all']
+        self.assertEqual(metrics['losses'],1);self.assertEqual(metrics['gains'],0);self.assertEqual(metrics['wrong_displayed'],1)
+        self.assertEqual(metrics['display_losses'],0)

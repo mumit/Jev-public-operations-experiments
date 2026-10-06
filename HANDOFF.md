@@ -2,11 +2,11 @@
 
 ## Current state
 
-The assistant-reviewed verdict comparison is complete. Both inputs judge and display 162/162 reviewed claims correctly in every round on 27 controlled notes. Explicit meaning adds no observed benefit and uses 8.1% more input tokens. Review admits eighteen first-round withheld claims and corrects four relevant bindings. Zero human or independent reviews occurred; the same assistant authored the notes and annotations. Read docs/assistant-review.md and inspect /assistant-review.
+The controlled binding-corruption diagnostic is complete: 405 calls, 2,430 raw answers and 2,428 valid verdicts. Both clean controls remain perfect. Wrong-service inputs give confidently wrong verdicts for every divergent pronoun claim: 18 Train Ticket and 30 Online Boutique claims per round, under both question formats. Sentence input preserves divergent direct-name verdicts; explicit meaning loses most of them. Reversed polarity preserves every original verdict, with some Online Boutique withholding. Read docs/binding-corruption.md and inspect /binding-corruption.
 
-The user authorized proceeding without human decisions on 2026-10-05. The separate protocol supersedes the human-export prerequisite for this same-assistant diagnostic only. Original review sources, note-language failures and historical protocols stay frozen. The human workflow remains available at /claim-review; its browser drafts and fingerprint are unchanged.
+Zero human or independent reviews occurred. The same assistant authored these notes and their annotations. The user authorized automatic continuation; the separate assistant-review decisions remain frozen. The human workflow and drafts stay available at /claim-review.
 
-Restore all eighteen bundles, then run scripts.verify_assistant_review for the full chain and both original pack validators. The suite has 231 tests and twenty-one browser scripts. All assets preserve 4,111 actual responses in 1,131 files. Earlier synthetic work stays in the original repository. No protected recording opened. A controlled binding-corruption diagnostic is the next recommended automatic test and needs a new protocol; independent analyst usefulness remains unmeasured.
+Restore all nineteen bundles and run scripts.verify_binding_corruption for the complete chain and both original pack validators. The assets preserve 4,516 actual responses in 1,134 files. Protected recordings remain unopened. The recommended next diagnostic checks subject/binding conflict before issuing a verdict, under a new protocol; there is no promoted candidate or operational reliability claim.
 
 ## Recorded findings
 
