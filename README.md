@@ -46,10 +46,14 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all twenty [public evidence bundles](docs/evidence.md) to inspect recorded predictions. Missing local evidence stays explicitly unavailable. The original bundle supplies 294 saved calls across two comparisons; the supplement adds 289 responses for replay, context sizing and fresh development. The selective-policy release adds 162 calibration/evaluation responses. The confirmation release adds the final 162 RE2 reserve responses. The disagreement release adds 300 responses on fresh RE1 recordings and a ten-case schema audit. The trace release adds 78 development responses, raw traces, the audit and both sizing attempts. The trace-task release adds 192 development responses and the four-step comparison. The evidence-assessment release adds 192 four-question diagnostic responses. The claim-assessment release adds 192 three-question responses on 96 constructed statements. The wording release adds 456 calls and 1,368 answers on 152 propositions. The report-reading release adds 96 calls and 576 answers on 16 paired-service reports. The claim-binding release adds 672 calls and 1,152 verdicts across four controlled steps. The fresh-claim release adds 189 calls and 324 verdicts on nine previously untouched recordings. All thirteen retain measurements, separate references and exact requests, with actual provider responses, public source measurements and no credentials. The note-extraction supplement adds 27 actual responses, including two rejected replies, with new controlled notes and separate annotations. It makes no verdict calls and opens no recording. Those fourteen preserve 3,301 responses in 1,107 files. The separate sentence-review supplement adds 108 calls and six files, bringing all fifteen to 3,409 responses in 1,113 files. Extraction contrasts add 216 calls and six files; all sixteen preserve 3,625 responses in 1,119 files. The new-note wording supplement adds 324 responses and nine files, bringing seventeen assets to 3,949 responses in 1,128 files. The assistant-review supplement adds 162 calls and three files; all eighteen preserve 4,111 responses in 1,131 files. Binding corruption adds 405 calls and three files; nineteen assets preserve 4,516 responses in 1,134 files. Subject checking adds 324 calls and three files; twenty assets preserve 4,840 responses in 1,137 files.
+A fresh clone includes source, reports and checkpoints. Restore all twenty-one [public evidence bundles](docs/evidence.md) in order to inspect 5,326 recorded provider responses in 1,140 files. The newest supplement adds 486 replies and three files. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
 
 ## Read and inspect
 
+- [Separate calls](docs/separate-subject.md): text-only subject attribution, independent verdict requests, coverage gains and remaining errors.
+- [Joint subject checks](docs/subject-check.md): original-sentence assessment, wrong proposals and the surviving unsafe result.
+- [Binding corruption](docs/binding-corruption.md): service and polarity sensitivity.
+- [Assistant review](docs/assistant-review.md): explicitly labeled same-author decisions, without human or independent review.
 - [New-note wording](docs/public-note-language.md): check whether family-only extraction transfers across plain, negated and boundary phrasing.
 - [Extraction definitions](docs/public-extraction-contrast.md): compare isolated wording changes, paired gains and losses, and actual acceptance probabilities.
 - [Sentence review](docs/public-sentence-review.md): preserve valid siblings and inspect the complete extraction-to-verdict pipeline.
@@ -79,42 +83,14 @@ A fresh clone includes source, reports and checkpoints. Restore all twenty [publ
 
 ```bash
 uv run --locked --extra public-data python -m unittest discover -s tests -v
-uv run --locked --extra public-data python -m scripts.verify_evidence
-uv run --locked --extra public-data python -m scripts.verify_public_diagnostics
-uv run --locked --extra public-data python -m scripts.verify_public_selective
-uv run --locked --extra public-data python -m scripts.verify_public_confirmation
-uv run --locked --extra public-data python -m scripts.verify_public_agreement
-uv run --locked --extra public-data python -m scripts.verify_public_traces
-uv run --locked --extra public-data python -m scripts.verify_public_trace_task
-uv run --locked --extra public-data python -m scripts.verify_public_binding
-uv run --locked --extra public-data python -m scripts.verify_public_fresh_claims
-uv run --locked --extra public-data python -m scripts.verify_public_note_language
-node --check triage_bench/web/assistant-review.js
-node --check triage_bench/web/binding-corruption.js
-node --check triage_bench/web/subject-check.js
-node --check triage_bench/web/claim-review.js
-node --check triage_bench/web/public-rca.js
-node --check triage_bench/web/public-format.js
-node --check triage_bench/web/public-repeat.js
-node --check triage_bench/web/public-temporal.js
-node --check triage_bench/web/public-selective.js
-node --check triage_bench/web/public-agreement.js
-node --check triage_bench/web/public-evidence.js
-node --check triage_bench/web/public-claims.js
-node --check triage_bench/web/public-note-extraction.js
-node --check triage_bench/web/public-fresh-claims.js
-node --check triage_bench/web/public-claim-binding.js
-node --check triage_bench/web/public-report-reading.js
-node --check triage_bench/web/public-claim-language.js
-node --check triage_bench/web/public-trace-task.js
-node --check triage_bench/web/public-traces.js
-node --check triage_bench/web/study.js
+uv run --locked --extra public-data python -m scripts.verify_separate_subject
+for file in triage_bench/web/*.js; do node --check "$file" || exit 1; done
 ```
 
-The evidence verifier reconstructs ML from training-only inputs, rebuilds every recorded Jev request and recomputes the historical assessments and blocked extraction audit and the frozen thresholds. It makes no hosted calls. Unit tests run without the bundle; full evidence verification requires restoration.
+The latest verifier invokes all twenty-one stages and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
 
 ## Continue the research
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Read [the subject-check report](docs/subject-check.md). Next, separate text-only subject attribution from numerical evidence assessment under a new protocol and budget. Human review remains necessary to measure actual analyst behavior. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
+Read [the separate-call report](docs/separate-subject.md). Next, identify the actual subject without a proposed binding and compare in code under a new protocol and budget. Human review remains necessary to measure actual analyst behavior. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.

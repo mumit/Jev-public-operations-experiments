@@ -12,7 +12,7 @@ The explicit subject-check comparison is complete: 324 calls and 2,916 valid ans
 
 Zero human or independent reviews occurred. The same assistant authored and previously inspected these notes and annotations. Earlier request producers and the human review workflow remain frozen; browser drafts are unchanged.
 
-Restore all twenty bundles and run scripts.verify_subject_check for the full chain and both original pack validators. The suite has 250 tests and twenty-three browser scripts. Assets preserve 4,840 actual responses in 1,137 files. Protected recordings remain unopened. The next recommended diagnostic separates a text-only subject check from numerical verdict assessment under a new protocol; it does not reopen protected data or establish operational reliability.
+At completion, twenty assets preserved 4,840 responses in 1,137 files, with 250 tests and twenty-three browser scripts. The separate-call follow-up above adds new evidence without changing this stage.
 
 ## Recorded findings
 
@@ -186,7 +186,7 @@ On all planned claim opportunities, Jev accepts 142 correct bindings out of 162;
 
 The post-execution audit preserves full failed-note denominators and all raw evidence. Total cost: 472,881 input tokens, maximum 25,570 per call, 8.52 seconds summed recorded latency. There are 1,944 raw answers, 1,800 normalized answers and zero new recordings. The next user decision is whether an inconsistent answer reviews only its sentence (recommended) or the whole note. A separate frozen protocol must implement that choice before any new calls; it cannot repair or replay this completed protocol. Keep all protected panels unopened.
 
-The fourteenth supplement adds nine files and 27 actual responses, bringing the chain to 3,301 responses in 1,107 files. It includes both the pre-inference sizing failure and blocked v2 extraction. The latest verifier checks every historical stage and the blocked audit without inference.
+The fourteenth supplement adds nine files and 27 actual responses, bringing the chain to 3,301 responses in 1,107 files. It includes both the pre-inference sizing failure and blocked v2 extraction. The verifier for that stage checks its historical dependencies and blocked audit without inference.
 
 ## Selected sentence-level review
 

@@ -121,7 +121,7 @@ uv run --locked --extra public-data python -m scripts.restore_evidence runs/down
 uv run --locked --extra public-data python -m scripts.verify_public_claims
 ```
 
-The latest verifier checks the full nine-stage dependency chain, including both original pack validators, without inference. Restore assets in the documented order. Never replace a published archive or rerun a completed protocol.
+The verifier for this stage checks the full nine-stage dependency chain, including both original pack validators, without inference. Restore assets in the documented order. Never replace a published archive or rerun a completed protocol.
 
 
 ## Wording diagnostic supplement
@@ -134,7 +134,7 @@ uv run --locked --extra public-data python -m scripts.restore_evidence runs/down
 uv run --locked --extra public-data python -m scripts.verify_public_claim_language
 ```
 
-Restore assets in order. The latest verifier invokes all ten study verifiers and both original pack validators without inference. Historical assets remain immutable.
+Restore assets in order. The verifier for this stage invokes all ten study verifiers and both original pack validators without inference. Historical assets remain immutable.
 
 
 ## Multi-service report-reading supplement
@@ -147,7 +147,7 @@ uv run --locked --extra public-data python -m scripts.restore_evidence runs/down
 uv run --locked --extra public-data python -m scripts.verify_public_reports
 ```
 
-Restore in order. The latest verifier checks all eleven studies and both original pack validators without inference. Direct judgments are correct throughout; report lookup repeats two withheld errors and fails both comparison checks. These authored notes reuse inspected telemetry. Protected recordings stay unopened and historical releases stay unchanged.
+Restore in order. The verifier for this stage checks all eleven studies and both original pack validators without inference. Direct judgments are correct throughout; report lookup repeats two withheld errors and fails both comparison checks. These authored notes reuse inspected telemetry. Protected recordings stay unopened and historical releases stay unchanged.
 
 
 ## Explicit binding and scope supplement
@@ -160,7 +160,7 @@ uv run --locked --extra public-data python -m scripts.restore_evidence runs/down
 uv run --locked --extra public-data python -m scripts.verify_public_binding
 ```
 
-Restore assets in order. The latest verifier checks all twelve studies and both original pack validators without inference. Explicit binding fixes both repeated lookup errors; one-claim grouping introduces a one-round regression; scoped facts judge and display every claim correctly. The full sequence fails, while binding and scope pass their separate checks. All protected recordings remain unopened and historical releases stay immutable.
+Restore assets in order. The verifier for this stage checks all twelve studies and both original pack validators without inference. Explicit binding fixes both repeated lookup errors; one-claim grouping introduces a one-round regression; scoped facts judge and display every claim correctly. The full sequence fails, while binding and scope pass their separate checks. All protected recordings remain unopened and historical releases stay immutable.
 
 ## Fresh-measurement claim confirmation supplement
 
@@ -184,7 +184,7 @@ uv run --locked --extra public-data python -m scripts.restore_evidence runs/down
 uv run --locked --extra public-data python -m scripts.verify_public_notes
 ```
 
-Restore in order. The latest verifier preserves the response failures and recomputes an extraction-only audit. It checks all historical stages and both original pack validators without inference. There are 1,944 raw extraction answers and 1,800 normalized answers; the two rejected notes remain in every planned scoring denominator. The inspector exposes raw distributions without treating them as accepted replies. Measurements are already inspected, and all protected panels stay unopened. Historical releases remain immutable.
+Restore in order. The verifier for this stage preserves the response failures and recomputes an extraction-only audit. It checks all historical stages and both original pack validators without inference. There are 1,944 raw extraction answers and 1,800 normalized answers; the two rejected notes remain in every planned scoring denominator. The inspector exposes raw distributions without treating them as accepted replies. Measurements are already inspected, and all protected panels stay unopened. Historical releases remain immutable.
 
 ## Sentence-review evidence
 
@@ -257,3 +257,16 @@ uv run --locked --extra public-data python -m scripts.verify_subject_check
 ```
 
 The plan, exact protocol, separate references and assessment are committed. The overall candidate fails: Online Boutique loses clean displays and still displays one corrupted-subject error. Train Ticket passes without a clean-display loss. No protected recording or human review enters the diagnostic. The twenty assets preserve 4,840 actual replies in 1,137 files; verification makes no calls.
+
+
+## Separate subject-call evidence
+
+The [separate-subject-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/separate-subject-v1) adds 486 actual replies: fresh joint checks, text-only subject calls and unchanged numerical verdict baselines. All 3,888 answers validate. Three files preserve exact bodies, raw responses and once-only execution records in a 333,805-byte archive. Restore all twenty preceding assets first.
+
+```bash
+gh release download separate-subject-v1 --repo mumit/Jev-public-operations-experiments --pattern separate-subject-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/separate-subject-v1.tar.gz --manifest evidence/separate-subject-v1.json
+uv run --locked --extra public-data python -m scripts.verify_separate_subject
+```
+
+The plan, both exact phase protocols, original references and assessment are committed. Train Ticket passes; Online Boutique retains 16–17 clean display losses per round and fails overall, despite gaining eight displays over fresh joint checks. Both workflows withhold every swapped display here, but subject errors remain. No protected recording, human review or independent review enters the diagnostic. All twenty-one assets preserve 5,326 provider responses in 1,140 files; verification makes no calls.
