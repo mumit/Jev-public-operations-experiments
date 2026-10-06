@@ -4,7 +4,7 @@ I am testing where Jev can help operations analysts: selecting investigation lea
 
 The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
-The latest explicit-claim comparison gives Jev 750/750 correct displayed answers with calculated facts, while the exact evaluator matches the same policy without hosted calls. Focused wording alone retains three wrong displays. The selected missing-window protocol retains the incomplete recording and reuses fifteen previously downloaded recordings; all three failed preparations are preserved. Inspect [the explicit-claim workflow](http://127.0.0.1:8769/explicit-claims?phase=format) and read [the task-fit assessment](docs/operations-fit.md). Correct entry is supplied by assistant fixtures; human effort and added utility remain unmeasured.
+The missing-window confirmation gives focused and calculated Jev inputs 1,080/1,080 correct displayed answers each. The exact evaluator matches every policy reference without hosted calls. Calculated facts add no benefit on this panel, while the earlier boundary-fixture advantage remains recorded. All fifteen previously downloaded recordings remain included, including one with no after-window evidence. Inspect [the explicit-claim workflow](http://127.0.0.1:8769/explicit-claims?phase=fresh) and read [the task-fit assessment](docs/operations-fit.md). Correct entry is supplied by assistant fixtures; human effort and added utility remain unmeasured.
 
 ## Completed comparisons
 
@@ -52,7 +52,7 @@ A fresh clone includes source, reports and checkpoints. Restore all twenty-nine 
 
 ## Read and inspect
 
-- [Explicit claims](docs/explicit-claims.md): compare general typed, focused and calculated inputs with exact policy computation; inspect the selected missing-window treatment.
+- [Explicit claims](docs/explicit-claims.md): compare general typed, focused and calculated inputs with exact policy computation; inspect the completed missing-window confirmation.
 - [Complete workflow](docs/full-workflow.md): all twelve candidates, actual accepted fields, unsafe displays, parser and trusted-field control.
 - [Context challenges](docs/subject-robustness.md): quotations, interruptions, ambiguity and source versus supplied-context references.
 - [Literal service excerpt](docs/excerpt-subject.md): gains, regressions and exact source slices.
@@ -102,4 +102,4 @@ The latest verifier invokes twenty-eight executed studies and three preparation 
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). The user selected retention of the recording with no post-incident window. The new frozen protocol leaves its absent aggregates unknown and reuses the fifteen native-v2 recordings without further downloads. All three failed preparations remain preserved with zero hosted calls. The original fifteen-case explicit allocation, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
+Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). The numerical comparison is complete. Fixed numerical checks belong in code; further Jev work awaits a choice between a new clarification-needs task and measuring real analyst entry effort. The missing-window confirmation reuses fifteen already downloaded recordings with 2,160 valid calls and no case replacement. All three failed preparations remain preserved. Original explicit ranks 1-3, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves stay unopened.

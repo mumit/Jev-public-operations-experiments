@@ -74,3 +74,23 @@ The selected treatment retains the incomplete recording. A new frozen protocol r
 The focused and calculated requests, numerical policy, independent reference implementation and 0.70 display boundary stay unchanged. Three rounds across 360 claims require 2,160 calls. Separate gates cover all claims, complete windows, the missing window, complete-window metric comparisons and complete-window other kinds. Every gate requires complete valid replies, at least 95% accuracy, at least 90% correct displays and zero wrong displays. Exact computation must agree with all references.
 
 Schema and window coverage were inspected during failed preparation. This is post-preparation confirmation on previously downloaded recordings, not wholly untouched validation. The historical failures remain preserved; the original fifteen-case allocation and all earlier protected panels stay unopened.
+
+## Confirmation result
+
+All 2,160 calls returned valid answers. Focused and calculated inputs each answered and displayed all 1,080 verdicts correctly, with no wrong display. Both passed every gate in all three rounds. The exact evaluator matched every reference without a hosted call.
+
+| Panel, per arm and round | Correct answers and displays | Wrong displays |
+| --- | ---: | ---: |
+| All claims | 360/360 | 0 |
+| Complete windows | 336/336 | 0 |
+| Metric comparisons on complete windows | 112/112 | 0 |
+| Other claim kinds on complete windows | 224/224 | 0 |
+| Missing-window recording | 24/24 | 0 |
+
+These panels overlap. The incomplete recording contributes 24 distinct claims and 72 answers per arm across three rounds; both polarities remain unanswerable. All fourteen complete recordings retain exactly the earlier adapter's aggregate values. No onset, row or channel was repaired.
+
+Of the 360 distinct claims, 56 are supported, 56 contradicted and 248 unanswerable. The missing eight metric comparisons and all 240 duration, span, health and causality claims are unanswerable under the supplied evidence. There are no traces in this panel. Its many evidence-limit answers do not establish duration arithmetic or incident-cause understanding; the separate 112-claim complete-metric gate also passes.
+
+Calculated input gained and lost zero displays against focused input. Each arm made 1,080 calls; focused consumed 569,472 input tokens and calculated 625,320, about 9.8% more. Summed call latency was 176.68 and 176.08 seconds respectively, excluding preparation and human time. The earlier boundary-fixture advantage remains recorded, but it did not recur on these measurements.
+
+The experiment confirms consistent application of this bounded policy, including missing evidence, after schema and window inspection. It does not show additional utility over exact computation. I will keep numerical checks in code. Further Jev work needs a language task with a separately frozen reference policy, or a participant to measure actual claim-entry effort. The recommended next language task is identifying what needs clarification before an ambiguous analyst statement becomes an explicit entry. That task has not been selected or tested.

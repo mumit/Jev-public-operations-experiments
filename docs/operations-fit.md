@@ -24,15 +24,18 @@ The practical transformation is to generate a direct comparison from the selecte
 
 Three separately frozen preparations each downloaded fifteen new RE1 Online Boutique recordings and failed before claim inputs, references or inference. Two failures exposed inconsistent channel naming; the adapter now retains all known names without aliases. The third found a recording that ends before its declared incident time. It supplies no post-incident rows.
 
-All forty-five downloaded recordings are now opened and preserved. None has a Jev confirmation result. The original failed experiment's separate fifteen-recording allocation, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
+All forty-five downloaded recordings are opened and preserved. The new protocol reuses fifteen; the other thirty have only preparation-failure evidence. The original failed experiment's separate fifteen-recording allocation, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
 
 The selected treatment retains the incomplete recording. A separately frozen protocol leaves its after-window unknown and tests both assertion polarities. It reuses the fifteen native-v2 recordings, without new source access or case replacement. Historical results, failed producers and the 0.70 display boundary stay frozen. Separate complete-window and missing-window gates prevent the many unanswerable claims from concealing comparison errors.
 
-## What remains
+## Confirmation and the next decision
 
-1. Complete the frozen missing-window confirmation against focused raw-fact controls and the exact evaluator. These recordings were inspected for schema and window coverage before this protocol; they are not a wholly untouched panel. They provide no traces for duration transfer.
-2. Measure actual field-entry errors, preparation time and usefulness with someone using the form. Assistant fixtures cannot establish human effort or independently authored report performance.
-3. Give Jev a separately defined task where interpretation may add value, such as identifying an assertion that needs clarification. Preserve deterministic numerical checks and measure the whole workflow, including wrong subjects and meanings.
-4. Before any telecom pilot, obtain representative telemetry, operational policies and independently reviewed references. Public application faults do not establish RAN, field-service or NOC reliability.
+Both focused and calculated inputs answer and display all 1,080 verdicts correctly, with zero wrong displays, across 360 entries and three rounds. Every separate gate passes, including 112 complete-window metric comparisons and 24 missing-window claims per round. Exact code matches all references. Calculated facts add 9.8% input tokens and no observed accuracy or display gain over focused input on this panel.
+
+The panel contains 248 unanswerable claims out of 360, mainly because it supplies no traces and cannot establish health or causality. Separate metric scoring prevents those answers from masking comparison errors. The result supports bounded policy checking after schema/window inspection; it does not establish additional value over code, analyst effectiveness or wholly untouched generalization.
+
+I will keep fixed numerical checks in code. The next useful Jev experiment should test a language contribution: identifying what needs clarification before an ambiguous statement becomes a typed claim. It needs a new frozen task, text, reference definition and budget. That change of task awaits the user's choice. The alternative is measuring actual field-entry errors, preparation time and usefulness with a participant, which assistant fixtures cannot establish.
+
+Before any telecom pilot, representative telemetry, operational policies and independently reviewed references are still needed. Public application faults do not establish RAN, field-service or NOC reliability.
 
 The earlier [complete-workflow study](full-workflow.md) remains relevant: correctly accepted claims receive correct numerical verdicts, while automatic extraction creates five unsafe displays. A verdict cannot validate a sentence whose subject or meaning was interpreted incorrectly. That is why numerical checking and report interpretation need separate evidence.
