@@ -16,6 +16,8 @@ The numerical comparison is complete; exact computation is the recommended imple
 
 Use scripts.verify_explicit_missing for all twenty-nine executed studies, three preserved failures and both original pack validators without inference. The new explicit-missing-v1 supplement requires all twenty-nine predecessors. All thirty assets preserve 14,644 actual provider responses in 1,264 files. Publication and clean-checkout verification are recorded in docs/evidence.md and docs/verification.md.
 
+The separate clean checkout at aa32dfd passes all 355 tests, thirty browser-script checks and the full replay without credentials or inference. GitHub's new archive size and digest match the committed manifest. The walkthrough exposes actual row coverage and unknown values, preserves the original answer and returns from the formatted report to the selected claim. No publication or reproduction work remains; the next-task choice above is pending.
+
 ## Historical checkpoints
 
 The sections below record earlier states and then-planned follow-ups. The current-state section above governs continuation.
