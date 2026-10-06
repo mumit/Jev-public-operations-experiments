@@ -4,12 +4,14 @@ I am testing where Jev can help operations analysts: selecting investigation lea
 
 The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
-The latest [subject-check comparison](http://127.0.0.1:8769/subject-check) catches many wrong service bindings, but fails overall: Online Boutique loses clean coverage and still displays one error. Train Ticket retains all clean displays and catches every wrong binding. These are same-author controlled notes, with zero human or independent reviews. The [human review workflow](http://127.0.0.1:8769/claim-review) remains available.
+The latest [separate-call comparison](http://127.0.0.1:8769/separate-subject) improves Online Boutique clean displays to 92/91/91 versus fresh joint 84/83/83, but still withholds 16–17 correct claims per round and fails overall. Train Ticket passes. Both workflows withhold every deliberately swapped display in this run; some subject classifications remain wrong. These are same-author controlled notes, with zero human or independent reviews. The [human review workflow](http://127.0.0.1:8769/claim-review) remains available.
 
 ## Completed comparisons
 
 | Study | Evidence | Result |
 |---|---|---|
+| Separate subject and verdict calls | 27 inspected controlled notes, fresh baselines and joint controls, three rounds | Train Ticket passes; Online Boutique gains eight clean displays per round over joint, but still loses 16–17 versus baseline. No swapped display survives; subject errors remain and the overall candidate fails. |
+| Joint subject checks | Same controlled notes, four inputs, three rounds | Train Ticket passes; Online Boutique loses 25–27 clean displays and retains one wrong-service, wrong-verdict display. Candidate fails. |
 | Assistant-reviewed verdicts | 27 controlled notes, two inputs, three rounds; no human reviews | Both inputs judge and display 162/162 claims correctly each round. Explicit meaning adds no observed benefit and uses 8.1% more input tokens. Same-author review; no independent validation. |
 | New-note wording | Three styles on nine inspected recordings, two inputs, three rounds | Family-only gives 430/486 correct end-to-end judgments versus baseline 447/486. It displays no wrong binding; baseline displays two. Both application checks fail; no promotion. |
 | Extraction definitions | Same nine notes, four inputs, three rounds | Assertion-family-only recovers seven claims: 160/162 versus baseline 153/162. Combined loses eleven overall and fails both checks. No accepted wrong binding or unsafe verdict; no candidate promotion. |

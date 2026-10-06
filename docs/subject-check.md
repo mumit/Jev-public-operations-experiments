@@ -63,6 +63,6 @@ The result supports testing explicit subject verification, but this particular c
 
 ## Next experiment
 
-Next, I will test a subject check that reads only the note and proposed binding, without numerical ledgers in that call. The evidence verdict can retain the earlier sentence/service request. This would separate text attribution from numerical assessment and test whether the same false conflict and false match recur. A new protocol must specify exact inputs, references, call budget and clean-case coverage before inference. It would still use inspected controlled notes unless a separate data allocation changes that boundary.
+The [separate-call diagnostic](separate-subject.md) now tests this follow-up with fresh joint and verdict controls. It improves Online Boutique clean displays but retains subject errors and fails overall. The full comparison preserves this joint run unchanged.
 
 [Inspect the subject checks, verdicts and display decisions](http://127.0.0.1:8769/subject-check).

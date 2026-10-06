@@ -92,3 +92,49 @@ class SeparateSubjectTests(unittest.TestCase):
         self.assertEqual(r['workflow_costs']['clean_checked']['calls'],162)
         self.assertEqual(r['workflow_costs']['clean_joint']['calls'],81)
         self.assertEqual(r['workflow_costs']['clean_checked']['input_tokens'],1620)
+
+    def test_phase_budgets_and_verdict_requests_are_unconditional(self):
+        jobs=t.requests();self.assertEqual(len(jobs),486)
+        self.assertEqual({j['phase'] for j in jobs[:324]},{'text'})
+        self.assertEqual({j['phase'] for j in jobs[324:]},{'verdict'})
+        self.assertEqual(sum(len(j['body']['questions']) for j in jobs),3888)
+        for phase,calls,answers in (('text',324,2916),('verdict',162,972)):
+            p=t.phase_protocol(phase);self.assertEqual((p['planned_calls'],p['planned_answers']),(calls,answers))
+        baseline=[j for j in jobs if j['phase']=='verdict']
+        self.assertEqual(len({(j['card_id'],j['arm'],j['round']) for j in baseline}),162)
+
+    def test_global_failure_stops_before_verdict_phase_and_disallows_rerun(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch,Mock
+        profile={'model':t.MODEL,'endpoint':'https://api.typesafe.ai/v1/systemone','context_tokens':32768,'api_key':'test-placeholder-key'}
+        plan={k:v for k,v in profile.items() if k!='api_key'}
+        jobs=[{'id':'first','card_id':'n','arm':'clean_checked','phase':'text','round':1,'body':{'model':t.MODEL,'state':'{}','questions':{}},'request_sha256':'a'},
+              {'id':'later','card_id':'n','arm':'clean_baseline','phase':'verdict','round':1,'body':{'model':t.MODEL,'state':'{}','questions':{}},'request_sha256':'b'}]
+        opener=Mock();opener.open.side_effect=OSError('test transport failure')
+        with tempfile.TemporaryDirectory() as folder:
+            out=Path(folder)/'run';protocol=Path(folder)/'protocol';protocol.write_text('{}')
+            with patch.object(t,'OUT',out),patch.object(t,'PROTOCOL',protocol),patch.object(t,'check',return_value=(plan,jobs)),patch('triage_bench.separate_subject_trial.urllib.request.build_opener',return_value=opener):
+                result=t.run(profile);self.assertEqual(result['attempted_calls'],1);self.assertEqual(result['unattempted_calls'],1)
+                self.assertEqual(opener.open.call_count,1);self.assertNotIn(profile['api_key'],(out/'responses.jsonl').read_text())
+                with self.assertRaises(FileExistsError):t.run(profile)
+
+    def test_inspector_composition_contains_no_reference_truth_and_preserves_sources(self):
+        from unittest.mock import patch
+        from triage_bench.paths import ROOT
+        from triage_bench.separate_subject_service import SeparateSubjectStudy
+        study=SeparateSubjectStudy(ROOT);saved=t.load(t.RESULT);snapshot=copy.deepcopy(saved)
+        with patch.object(study,'verified',return_value=saved):
+            hidden=study.card(self.packets[0]['id']);shown=study.card(self.packets[0]['id'],True)
+            self.assertIsNone(hidden['reference']);self.assertTrue(shown['reference']);self.assertNotIn('outcomes',study.overview());self.assertEqual(saved,snapshot)
+            for row in hidden['composition']:
+                self.assertEqual(len(row['source_call_ids']),2 if row['arm'].endswith('checked') else 1)
+                for value in row['sentences'].values():self.assertNotIn('reference',value);self.assertNotIn('safe',value)
+
+    def test_report_return_preserves_two_call_selection(self):
+        from types import SimpleNamespace
+        from triage_bench.paths import ROOT
+        from triage_bench.study_page import render_study
+        target='/separate-subject?dataset=Online+Boutique&wording=boundary&arm=wrong_checked&round=1&sentence=s07'
+        html=render_study(SimpleNamespace(root=ROOT),{'doc':'separate-subject','return':target}).decode()
+        self.assertIn('Identify the subject before reading measurements',html);self.assertIn('wrong_checked',html);self.assertIn('/separate-subject?',html)

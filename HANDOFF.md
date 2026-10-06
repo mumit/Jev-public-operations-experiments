@@ -2,9 +2,11 @@
 
 ## Current state
 
-The separate-subject diagnostic is planned, not run. It freezes a text-only subject candidate, exact fresh joint comparators and exact fresh verdict baselines on the same 27 inspected controlled notes. The budget is 486 calls and 3,888 answers in separately fingerprinted text/joint and verdict phases. All verdicts run regardless of subject results. Read docs/separate-subject.md. Commit the plan before exact preparation, then both phase protocols before inference. No protected telemetry opens.
+The separate-subject diagnostic is complete: 486 calls, 3,888 valid answers and no quarantines. Train Ticket passes throughout. Online Boutique displays 92/91/91 correct clean claims versus fresh joint 84/83/83 and baseline 108 each round. Every swapped display is withheld, but 4/5/5 wrong subject checks and 7/6/8 clean subject errors remain. Plain wording passes; negated and boundary wording fail, so the overall candidate fails. Read docs/separate-subject.md and inspect /separate-subject.
 
-### Last completed diagnostic
+All twenty-one evidence assets preserve 5,326 actual responses in 1,140 files. Use scripts.verify_separate_subject for the full chain and both original pack validators. Zero human/independent reviews and new recordings; protected panels remain unopened. The next diagnostic should extract the actual subject without seeing the proposed binding, then compare in code under a new protocol. Neither a new provider nor service repair is authorized by these results.
+
+### Earlier joint diagnostic
 
 The explicit subject-check comparison is complete: 324 calls and 2,916 valid answers. Train Ticket passes every panel, retains all 54 clean displays per round and detects every corrupted subject. Online Boutique fails every panel: clean displays fall from 108 to 81/82/83, with 2/2/3 clean verdict errors. A wrong subject and wrong verdict still display once in round one. The overall candidate fails; no promotion occurs. Read docs/subject-check.md and inspect /subject-check.
 
