@@ -1,0 +1,62 @@
+{
+  "schema": "full-workflow-evidence-1",
+  "archive": "full-workflow-v1.tar.gz",
+  "archive_sha256": "f517f6dff50a7e0143b772bb1b95e52fdbef1ee52cddd0f4940e077884961e71",
+  "bytes": 621718,
+  "source_commit": "e40aee577bd7a3f70f4e38e46cf706d3413948fb",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1",
+    "public-extraction-contrast-v1",
+    "public-note-language-v1",
+    "assistant-review-v1",
+    "binding-corruption-v1",
+    "subject-check-v1",
+    "separate-subject-v1",
+    "direct-subject-v1",
+    "prefix-subject-v1",
+    "excerpt-subject-v1",
+    "subject-robustness-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 270,
+  "files": {
+    "runs/full-workflow/initial-hosted-2026-10-06-v1/requests.json": {
+      "bytes": 6585324,
+      "sha256": "6ee4b483a6c03b597b1e439d466c789cd19a9bc1a5dbb0045370c19744a3c6c2"
+    },
+    "runs/full-workflow/initial-hosted-2026-10-06-v1/responses.jsonl": {
+      "bytes": 4051601,
+      "sha256": "b9bc0424eebd871add3ddbd74c0dcdc7c9ae9dfffa17c51b2464f0d85d5dca1f"
+    },
+    "runs/full-workflow/initial-hosted-2026-10-06-v1/summary.json": {
+      "bytes": 537,
+      "sha256": "5f9ea81f68da3e56f80e82e81464136d5b0e5daad7837321b5916ed8dc410fd5"
+    },
+    "runs/full-workflow/verdict-hosted-2026-10-06-v1/requests.json": {
+      "bytes": 1553031,
+      "sha256": "00849d4c11b01b88e722717452ee9c13c241a960bc2136943137f353ff538823"
+    },
+    "runs/full-workflow/verdict-hosted-2026-10-06-v1/responses.jsonl": {
+      "bytes": 221335,
+      "sha256": "c472f3cece3229931601bb400e91ddcceeebdbe8f8fb925751f4f1ab62c0a48b"
+    },
+    "runs/full-workflow/verdict-hosted-2026-10-06-v1/summary.json": {
+      "bytes": 537,
+      "sha256": "486cbfebb83a8e8fcd0d40051399f1aeabe2cbcb4e4cff9103f7e00d94c7d6a8"
+    }
+  }
+}

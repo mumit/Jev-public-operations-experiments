@@ -1,11 +1,12 @@
 """Read-only complete workflow, actual bindings and fresh provider calls."""
 import copy,json
 from . import full_workflow_trial as t
+from .claim_review import SPEC
 
 class FullWorkflowStudy:
     def __init__(self,root):self.root=root;self._signature=None;self._result=None
     def verified(self):
-        paths=[t.PLAN,t.RESULT,*(t.protocol_path(p) for p in ('initial','verdict')),*t.DATA.rglob('*'),*t.BASE.rglob('*'),*(self.root/n for n in t.SOURCES)]
+        paths=[SPEC,*(self.root/n for n in t.load(SPEC)['sha256']),*(self.root/n for n in t.load(t.PLAN)['evidence_sha256']),t.PLAN,t.RESULT,*(t.protocol_path(p) for p in ('initial','verdict')),*t.DATA.rglob('*'),*t.BASE.rglob('*'),*(self.root/n for n in t.SOURCES)]
         signature=tuple((str(p),p.stat().st_size,p.stat().st_mtime_ns) for p in paths if p.is_file())
         if signature!=self._signature:
             t.committed(t.RESULT);result=t.score()

@@ -295,3 +295,36 @@ uv run --locked --extra public-data python -m scripts.verify_prefix_subject
 ```
 
 Of 1,944 raw answers, 1,943 validate. One inconsistent subject reply remains quarantined without repair or retry. Prefix context displays 102/103/102 correct Online Boutique claims versus 99/99/99 with full-note context and blocks the full-note input's one unsafe swapped display. Subject errors, withholding and paired regressions remain; the candidate fails overall. Train Ticket passes. Zero human or independent reviews and all protected recording boundaries remain unchanged. All twenty-three assets preserve 6,865 actual replies in 1,146 files; verification makes no inference calls.
+
+## Literal excerpts, context challenges and complete workflows
+
+Three supplements extend the earlier evidence without altering historical inputs or results. Restore them after all twenty-three preceding assets, in this order. Each archive contains exact requests, untouched raw replies and execution summaries; references and frozen protocols remain in Git.
+
+### Literal service excerpt
+
+The [excerpt-subject-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/excerpt-subject-v1) adds 1,134 actual calls and 1,944 valid answers. Three files preserve fresh prefix/excerpt subject comparisons and unchanged numerical controls. The overall excerpt candidate fails. The archive has 347,645 bytes and SHA-256 `5e327461c603e376527b00b45199fb6d1f82e79bb008864890c0571b90ec3d51`.
+
+```bash
+gh release download excerpt-subject-v1 --repo mumit/Jev-public-operations-experiments --pattern excerpt-subject-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/excerpt-subject-v1.tar.gz --manifest evidence/excerpt-subject-v1.json
+```
+
+### Subject-context challenges
+
+The [subject-robustness-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/subject-robustness-v1) adds 1,215 actual calls and 1,214 valid answers. Three files preserve subject-only responses on fifteen controlled patterns. One inconsistent choice remains quarantined; no numerical verdict or analyst recommendation exists. The archive has 257,268 bytes and SHA-256 `9e1cad4d2e82652236b999f0eb37d18cae78e5326f6d24270e799610019dda6c`.
+
+```bash
+gh release download subject-robustness-v1 --repo mumit/Jev-public-operations-experiments --pattern subject-robustness-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/subject-robustness-v1.tar.gz --manifest evidence/subject-robustness-v1.json
+```
+
+### Complete report workflow
+
+The [full-workflow-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/full-workflow-v1) adds 270 actual calls and 6,812 valid answers. Six files preserve full-note extraction, correct supplied-field controls and numerical requests generated from actual automatic/parser bindings. Fifty-four empty parser jobs are skips, not provider calls. The automatic candidate fails. The archive has 621,718 bytes and SHA-256 `f517f6dff50a7e0143b772bb1b95e52fdbef1ee52cddd0f4940e077884961e71`.
+
+```bash
+gh release download full-workflow-v1 --repo mumit/Jev-public-operations-experiments --pattern full-workflow-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/full-workflow-v1.tar.gz --manifest evidence/full-workflow-v1.json
+```
+
+All twenty-six assets preserve 9,484 actual provider responses in 1,158 files. The three supplements add 2,619 calls on familiar recordings, with zero human or independent reviews. All protected panels remain unopened. Run `scripts.verify_full_workflow` to replay the complete chain without credentials or inference.
