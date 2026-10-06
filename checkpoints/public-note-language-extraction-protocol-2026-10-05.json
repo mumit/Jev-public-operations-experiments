@@ -1,0 +1,1309 @@
+{
+  "schema": "public-note-language-protocol-1",
+  "phase": "extraction",
+  "plan_sha256": "999d318f197101c2fac2da6eea14675de8330649065e09407c4680096bb6be3a",
+  "manifest_sha256": "6c06ce2c037e68701d40dbf3b514357601e2c9d3f3a4034774f56de0e64eaa96",
+  "reference_sha256": "eb019e05fba94b3ee5920872943140c42a2b3970ac1ca0996846910e51130ad7",
+  "planned_jobs": 162,
+  "planned_calls": 162,
+  "planned_answers": 11664,
+  "largest_request_bytes": 71485,
+  "requests": [
+    {
+      "id": "NWL-6a1a2c127a1d::wording::extraction::baseline::r1",
+      "card_id": "NWL-6a1a2c127a1d",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "a3e438f327922efc68efd0a24a22ff18ed25a36d8222dd02bac9f75ff2425ecb"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::wording::extraction::meaning::r1",
+      "card_id": "NWL-6a1a2c127a1d",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "b4cc5ef4105d74d2e6949c58de2af21b48ef4e3bdf6562588fdba35a5e08a4a8"
+    },
+    {
+      "id": "NWL-41460bbdf301::wording::extraction::meaning::r1",
+      "card_id": "NWL-41460bbdf301",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "6c602b77940c473c27515bbc7e4d13d1bb535bcbf6a4f05e78d89e9214143aec"
+    },
+    {
+      "id": "NWL-41460bbdf301::wording::extraction::baseline::r1",
+      "card_id": "NWL-41460bbdf301",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "64bb986bea43d3f168900f44179303a982a770c68bd32c7cec681d30e5c1e46b"
+    },
+    {
+      "id": "NWL-a059c4e9b227::wording::extraction::baseline::r1",
+      "card_id": "NWL-a059c4e9b227",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "08d244eb60f9bd7e715eec3deaae5f0bb65b11051374d84c21e727b922d7a8c5"
+    },
+    {
+      "id": "NWL-a059c4e9b227::wording::extraction::meaning::r1",
+      "card_id": "NWL-a059c4e9b227",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "6a4c939cf56638813af681da0a2cfece2848cee423f22e071b602e5c2527df2d"
+    },
+    {
+      "id": "NWL-ebebeada049f::wording::extraction::meaning::r1",
+      "card_id": "NWL-ebebeada049f",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "7af7d22c979b28a9a40d78d0dd011ee26055d97552e335415de0a7eec56f709d"
+    },
+    {
+      "id": "NWL-ebebeada049f::wording::extraction::baseline::r1",
+      "card_id": "NWL-ebebeada049f",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "4c2f0ca396a8307c434fb80361eb4a6a10751d3fe2c5290eb07750af8c486cf2"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::wording::extraction::baseline::r1",
+      "card_id": "NWL-7432a7ac9d8b",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "8d70c6f469441f03fd399d0eebf948214a32b55db425c9aefdfb6fbdf8b8678c"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::wording::extraction::meaning::r1",
+      "card_id": "NWL-7432a7ac9d8b",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "008c4d188fe9c09bd0efc45df54c713e1243ee687258f3f35be0a2a7a9cef2e7"
+    },
+    {
+      "id": "NWL-9a3498667b9c::wording::extraction::meaning::r1",
+      "card_id": "NWL-9a3498667b9c",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "344743985dc200b5f5a034cca0bc79c11370a8bd56681036ffddbbd4e0aedd99"
+    },
+    {
+      "id": "NWL-9a3498667b9c::wording::extraction::baseline::r1",
+      "card_id": "NWL-9a3498667b9c",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "7d55f676a8dcb94fcbba386185df35956d4295161213adba67f20f77609b9b82"
+    },
+    {
+      "id": "NWL-db3d395ffc58::wording::extraction::baseline::r1",
+      "card_id": "NWL-db3d395ffc58",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "bef903fb2f323b4611f79d12e16437f2487d2df05de7b57eb9b60908de6c1aa8"
+    },
+    {
+      "id": "NWL-db3d395ffc58::wording::extraction::meaning::r1",
+      "card_id": "NWL-db3d395ffc58",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "571e8d7d019ae8b70f7f769b06dcadeb9d2f805a7a6f0cf630f65a1ca5337ffc"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::wording::extraction::meaning::r1",
+      "card_id": "NWL-82c22b90a8fb",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "3b4f8b3105f8561be858f831c3b8816cde713e5d13141f495209b3b9db8c0a5c"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::wording::extraction::baseline::r1",
+      "card_id": "NWL-82c22b90a8fb",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "5eedfefdcefc0473f9bc029b4be45ec58aba329d5715d4b0b40cf5465bdb0182"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::wording::extraction::baseline::r1",
+      "card_id": "NWL-c8311dd5cb61",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "230c48c2e25b63d52000e1b9a342908a8a132536ddcaf71181c6eda026660205"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::wording::extraction::meaning::r1",
+      "card_id": "NWL-c8311dd5cb61",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "f31f6c42f93244659d2bb68b71ae1aba2fc68499a86a88b8075062204a58efd3"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::wording::extraction::meaning::r1",
+      "card_id": "NWL-a87649ebaa1a",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "ca94c4f71ff8010b953a4b065efb27c752adafdbf32192200505435c68fdfc3b"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::wording::extraction::baseline::r1",
+      "card_id": "NWL-a87649ebaa1a",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "d8ff47548751f6e9dfb3addfab79b951207fdff6a0b1389c0db6ee2a4c400369"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::wording::extraction::baseline::r1",
+      "card_id": "NWL-fe6c9911a37a",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "626037595fb1618e7b1c1779ba4f0e75c5629cfd6bb0f67dd811caa720524eb1"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::wording::extraction::meaning::r1",
+      "card_id": "NWL-fe6c9911a37a",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "120fa041c5f88a11dc4cf65eb09512fe73478c5d7c790f159bfb5d29e689d4ea"
+    },
+    {
+      "id": "NWL-eafa3a940729::wording::extraction::meaning::r1",
+      "card_id": "NWL-eafa3a940729",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "dd56b405439919baa8e18cd35477496d49b1c72b5640e3d48cf3b8d6e8e22878"
+    },
+    {
+      "id": "NWL-eafa3a940729::wording::extraction::baseline::r1",
+      "card_id": "NWL-eafa3a940729",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "b284e0d6ba2e86a3eecb3f50c7e69f0621659e816cea7e66f6bdcdfc98920b8d"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::wording::extraction::baseline::r1",
+      "card_id": "NWL-039d6ebdd81f",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "0cf7ae8159526c302c5454a8f3f35f016a7b94207deb34a2f323ba47e91e6262"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::wording::extraction::meaning::r1",
+      "card_id": "NWL-039d6ebdd81f",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "21367b169e98edf9416ae1983de89a74c548afa7da4465e891f4c25ea608d28e"
+    },
+    {
+      "id": "NWL-f49033838aa3::wording::extraction::meaning::r1",
+      "card_id": "NWL-f49033838aa3",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "33f614b3d015bb81c407603fd165dee882f527b29bfd999e5af471686b737fd1"
+    },
+    {
+      "id": "NWL-f49033838aa3::wording::extraction::baseline::r1",
+      "card_id": "NWL-f49033838aa3",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "5818772bb15fa8ab782ca4feaa2554edd46a82f914238ba31386c690b8657e75"
+    },
+    {
+      "id": "NWL-0f527b766ed7::wording::extraction::baseline::r1",
+      "card_id": "NWL-0f527b766ed7",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "26950a36bf372f2712293f00acd20b2829e208978f1a612d5313d15231f38153"
+    },
+    {
+      "id": "NWL-0f527b766ed7::wording::extraction::meaning::r1",
+      "card_id": "NWL-0f527b766ed7",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "ad4d78c55fa563f2104c0079e743c3aca3521f0e83f54c727853bc7923370fa7"
+    },
+    {
+      "id": "NWL-b3fb5e096258::wording::extraction::meaning::r1",
+      "card_id": "NWL-b3fb5e096258",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "25c48cfee3c4ddd88f6d3dbf120cb527f84894c49094db2a2f5d9dbebbe0a40b"
+    },
+    {
+      "id": "NWL-b3fb5e096258::wording::extraction::baseline::r1",
+      "card_id": "NWL-b3fb5e096258",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "997ded68451903868fb0b463425e8ac4bd18fb4f927cf7abfd5dd8827c6a5227"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::wording::extraction::baseline::r1",
+      "card_id": "NWL-aa6833fe95e5",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "72a04825dc472784be3bfe35fd77b817c7169f155a070385b582961dc51b574b"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::wording::extraction::meaning::r1",
+      "card_id": "NWL-aa6833fe95e5",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "1af93e4f1009bd63abffb4dcda7b82fdcdfbf69fa8dd5426b0464c0e2101a2c2"
+    },
+    {
+      "id": "NWL-b71d39d22677::wording::extraction::meaning::r1",
+      "card_id": "NWL-b71d39d22677",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "40db15d29f99e336d81cab04d57f971ff55f3cd67c1c9960e061d463a0289559"
+    },
+    {
+      "id": "NWL-b71d39d22677::wording::extraction::baseline::r1",
+      "card_id": "NWL-b71d39d22677",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "0854df6a9401fe6779261e461c95bb5e63199c26f038ee129b9316380a3dd76f"
+    },
+    {
+      "id": "NWL-7e13ecc55427::wording::extraction::baseline::r1",
+      "card_id": "NWL-7e13ecc55427",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "86e5ba6cccf3295fa2d166cb07cacb6393a2390db6e68cd058dca95dd9ec7bc8"
+    },
+    {
+      "id": "NWL-7e13ecc55427::wording::extraction::meaning::r1",
+      "card_id": "NWL-7e13ecc55427",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "9b844c6d113a3505dfd59ceddc45bd8b3b60f489039c4f5ed3e013f4ddc4fbdc"
+    },
+    {
+      "id": "NWL-212a9d0deac9::wording::extraction::meaning::r1",
+      "card_id": "NWL-212a9d0deac9",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "fb575f6bb1d1ac3f4bb184bdb3b1bce183e97f0e4aea30701d24baf4a23f2532"
+    },
+    {
+      "id": "NWL-212a9d0deac9::wording::extraction::baseline::r1",
+      "card_id": "NWL-212a9d0deac9",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "0ad8a43369ef48b4aaccda220a0cdaeb2224bae6d0e2c92d30a60cf4baaea766"
+    },
+    {
+      "id": "NWL-ee7105dd992e::wording::extraction::baseline::r1",
+      "card_id": "NWL-ee7105dd992e",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "df9f6899988092c627464f173d9779e2b65d94fb8ae6aebcb6d7452d688abf02"
+    },
+    {
+      "id": "NWL-ee7105dd992e::wording::extraction::meaning::r1",
+      "card_id": "NWL-ee7105dd992e",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "f6c1013737a47503a9a2b786bc5ecad5294eb26f734dbf3bf49b7db39a4a24ca"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::wording::extraction::meaning::r1",
+      "card_id": "NWL-1aaf4aca9f84",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "48b04e1180146b7842657b52a31216bcbfec8b7cda0e7f2f46b8a7e2b7ce60b2"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::wording::extraction::baseline::r1",
+      "card_id": "NWL-1aaf4aca9f84",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "0611b9146b3c7a1220496c0d2f294f4adaf9cb2f179c3b5952b53fea98284351"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::wording::extraction::baseline::r1",
+      "card_id": "NWL-4f51f156ed8b",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "e44f0b7bea78228e9b67f75106c8bb6e24a539adabf875a80a96883d1aff64a9"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::wording::extraction::meaning::r1",
+      "card_id": "NWL-4f51f156ed8b",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "1691635708062f43ee528abc6d9fd17312a8513b06e9e5e07a94356419f2e80b"
+    },
+    {
+      "id": "NWL-9dc6904d0134::wording::extraction::meaning::r1",
+      "card_id": "NWL-9dc6904d0134",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "a0cd561729b1274c85b0779566ff3fc29e26404129271e94e693987d1817c0fd"
+    },
+    {
+      "id": "NWL-9dc6904d0134::wording::extraction::baseline::r1",
+      "card_id": "NWL-9dc6904d0134",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "967a302381b48b3ab078b8b3a3f7df3b8a8271f05065fc0ed6eda55a6770bb4e"
+    },
+    {
+      "id": "NWL-85a3178b8cec::wording::extraction::baseline::r1",
+      "card_id": "NWL-85a3178b8cec",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "f5cbd80a5fdc9e9a13b73eb4f75a97e5d32738faceef1f770b3a7d19699ce991"
+    },
+    {
+      "id": "NWL-85a3178b8cec::wording::extraction::meaning::r1",
+      "card_id": "NWL-85a3178b8cec",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "28904f861e69f51ca9b939c096757b5553693e8439d231cacb3b34aa0e9cf226"
+    },
+    {
+      "id": "NWL-42acf5afe858::wording::extraction::meaning::r1",
+      "card_id": "NWL-42acf5afe858",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "ea886d453b14bac46a5c393f9fcd49d067d8b2ab6a723836c2c593cab7ad6845"
+    },
+    {
+      "id": "NWL-42acf5afe858::wording::extraction::baseline::r1",
+      "card_id": "NWL-42acf5afe858",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "1e75ca1fe6a3b6618f0ee36df7200ffa8e5bf5fa00f326f719381a85c12c509a"
+    },
+    {
+      "id": "NWL-59bca7262cdd::wording::extraction::baseline::r1",
+      "card_id": "NWL-59bca7262cdd",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 1,
+      "request_sha256": "0fee67ea3a01ae0d3f3c1498c004e9f2f9152c0f5ed3cc5eb5054363cf05462e"
+    },
+    {
+      "id": "NWL-59bca7262cdd::wording::extraction::meaning::r1",
+      "card_id": "NWL-59bca7262cdd",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 1,
+      "request_sha256": "f2844dced37de13a4d3cffe00a091ab321b0f8572567c5097334e90efb14671a"
+    },
+    {
+      "id": "NWL-41460bbdf301::wording::extraction::meaning::r2",
+      "card_id": "NWL-41460bbdf301",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "6c602b77940c473c27515bbc7e4d13d1bb535bcbf6a4f05e78d89e9214143aec"
+    },
+    {
+      "id": "NWL-41460bbdf301::wording::extraction::baseline::r2",
+      "card_id": "NWL-41460bbdf301",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "64bb986bea43d3f168900f44179303a982a770c68bd32c7cec681d30e5c1e46b"
+    },
+    {
+      "id": "NWL-a059c4e9b227::wording::extraction::baseline::r2",
+      "card_id": "NWL-a059c4e9b227",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "08d244eb60f9bd7e715eec3deaae5f0bb65b11051374d84c21e727b922d7a8c5"
+    },
+    {
+      "id": "NWL-a059c4e9b227::wording::extraction::meaning::r2",
+      "card_id": "NWL-a059c4e9b227",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "6a4c939cf56638813af681da0a2cfece2848cee423f22e071b602e5c2527df2d"
+    },
+    {
+      "id": "NWL-ebebeada049f::wording::extraction::meaning::r2",
+      "card_id": "NWL-ebebeada049f",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "7af7d22c979b28a9a40d78d0dd011ee26055d97552e335415de0a7eec56f709d"
+    },
+    {
+      "id": "NWL-ebebeada049f::wording::extraction::baseline::r2",
+      "card_id": "NWL-ebebeada049f",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "4c2f0ca396a8307c434fb80361eb4a6a10751d3fe2c5290eb07750af8c486cf2"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::wording::extraction::baseline::r2",
+      "card_id": "NWL-7432a7ac9d8b",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "8d70c6f469441f03fd399d0eebf948214a32b55db425c9aefdfb6fbdf8b8678c"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::wording::extraction::meaning::r2",
+      "card_id": "NWL-7432a7ac9d8b",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "008c4d188fe9c09bd0efc45df54c713e1243ee687258f3f35be0a2a7a9cef2e7"
+    },
+    {
+      "id": "NWL-9a3498667b9c::wording::extraction::meaning::r2",
+      "card_id": "NWL-9a3498667b9c",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "344743985dc200b5f5a034cca0bc79c11370a8bd56681036ffddbbd4e0aedd99"
+    },
+    {
+      "id": "NWL-9a3498667b9c::wording::extraction::baseline::r2",
+      "card_id": "NWL-9a3498667b9c",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "7d55f676a8dcb94fcbba386185df35956d4295161213adba67f20f77609b9b82"
+    },
+    {
+      "id": "NWL-db3d395ffc58::wording::extraction::baseline::r2",
+      "card_id": "NWL-db3d395ffc58",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "bef903fb2f323b4611f79d12e16437f2487d2df05de7b57eb9b60908de6c1aa8"
+    },
+    {
+      "id": "NWL-db3d395ffc58::wording::extraction::meaning::r2",
+      "card_id": "NWL-db3d395ffc58",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "571e8d7d019ae8b70f7f769b06dcadeb9d2f805a7a6f0cf630f65a1ca5337ffc"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::wording::extraction::meaning::r2",
+      "card_id": "NWL-82c22b90a8fb",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "3b4f8b3105f8561be858f831c3b8816cde713e5d13141f495209b3b9db8c0a5c"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::wording::extraction::baseline::r2",
+      "card_id": "NWL-82c22b90a8fb",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "5eedfefdcefc0473f9bc029b4be45ec58aba329d5715d4b0b40cf5465bdb0182"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::wording::extraction::baseline::r2",
+      "card_id": "NWL-c8311dd5cb61",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "230c48c2e25b63d52000e1b9a342908a8a132536ddcaf71181c6eda026660205"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::wording::extraction::meaning::r2",
+      "card_id": "NWL-c8311dd5cb61",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "f31f6c42f93244659d2bb68b71ae1aba2fc68499a86a88b8075062204a58efd3"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::wording::extraction::meaning::r2",
+      "card_id": "NWL-a87649ebaa1a",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "ca94c4f71ff8010b953a4b065efb27c752adafdbf32192200505435c68fdfc3b"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::wording::extraction::baseline::r2",
+      "card_id": "NWL-a87649ebaa1a",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "d8ff47548751f6e9dfb3addfab79b951207fdff6a0b1389c0db6ee2a4c400369"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::wording::extraction::baseline::r2",
+      "card_id": "NWL-fe6c9911a37a",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "626037595fb1618e7b1c1779ba4f0e75c5629cfd6bb0f67dd811caa720524eb1"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::wording::extraction::meaning::r2",
+      "card_id": "NWL-fe6c9911a37a",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "120fa041c5f88a11dc4cf65eb09512fe73478c5d7c790f159bfb5d29e689d4ea"
+    },
+    {
+      "id": "NWL-eafa3a940729::wording::extraction::meaning::r2",
+      "card_id": "NWL-eafa3a940729",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "dd56b405439919baa8e18cd35477496d49b1c72b5640e3d48cf3b8d6e8e22878"
+    },
+    {
+      "id": "NWL-eafa3a940729::wording::extraction::baseline::r2",
+      "card_id": "NWL-eafa3a940729",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "b284e0d6ba2e86a3eecb3f50c7e69f0621659e816cea7e66f6bdcdfc98920b8d"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::wording::extraction::baseline::r2",
+      "card_id": "NWL-039d6ebdd81f",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "0cf7ae8159526c302c5454a8f3f35f016a7b94207deb34a2f323ba47e91e6262"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::wording::extraction::meaning::r2",
+      "card_id": "NWL-039d6ebdd81f",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "21367b169e98edf9416ae1983de89a74c548afa7da4465e891f4c25ea608d28e"
+    },
+    {
+      "id": "NWL-f49033838aa3::wording::extraction::meaning::r2",
+      "card_id": "NWL-f49033838aa3",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "33f614b3d015bb81c407603fd165dee882f527b29bfd999e5af471686b737fd1"
+    },
+    {
+      "id": "NWL-f49033838aa3::wording::extraction::baseline::r2",
+      "card_id": "NWL-f49033838aa3",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "5818772bb15fa8ab782ca4feaa2554edd46a82f914238ba31386c690b8657e75"
+    },
+    {
+      "id": "NWL-0f527b766ed7::wording::extraction::baseline::r2",
+      "card_id": "NWL-0f527b766ed7",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "26950a36bf372f2712293f00acd20b2829e208978f1a612d5313d15231f38153"
+    },
+    {
+      "id": "NWL-0f527b766ed7::wording::extraction::meaning::r2",
+      "card_id": "NWL-0f527b766ed7",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "ad4d78c55fa563f2104c0079e743c3aca3521f0e83f54c727853bc7923370fa7"
+    },
+    {
+      "id": "NWL-b3fb5e096258::wording::extraction::meaning::r2",
+      "card_id": "NWL-b3fb5e096258",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "25c48cfee3c4ddd88f6d3dbf120cb527f84894c49094db2a2f5d9dbebbe0a40b"
+    },
+    {
+      "id": "NWL-b3fb5e096258::wording::extraction::baseline::r2",
+      "card_id": "NWL-b3fb5e096258",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "997ded68451903868fb0b463425e8ac4bd18fb4f927cf7abfd5dd8827c6a5227"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::wording::extraction::baseline::r2",
+      "card_id": "NWL-aa6833fe95e5",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "72a04825dc472784be3bfe35fd77b817c7169f155a070385b582961dc51b574b"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::wording::extraction::meaning::r2",
+      "card_id": "NWL-aa6833fe95e5",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "1af93e4f1009bd63abffb4dcda7b82fdcdfbf69fa8dd5426b0464c0e2101a2c2"
+    },
+    {
+      "id": "NWL-b71d39d22677::wording::extraction::meaning::r2",
+      "card_id": "NWL-b71d39d22677",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "40db15d29f99e336d81cab04d57f971ff55f3cd67c1c9960e061d463a0289559"
+    },
+    {
+      "id": "NWL-b71d39d22677::wording::extraction::baseline::r2",
+      "card_id": "NWL-b71d39d22677",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "0854df6a9401fe6779261e461c95bb5e63199c26f038ee129b9316380a3dd76f"
+    },
+    {
+      "id": "NWL-7e13ecc55427::wording::extraction::baseline::r2",
+      "card_id": "NWL-7e13ecc55427",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "86e5ba6cccf3295fa2d166cb07cacb6393a2390db6e68cd058dca95dd9ec7bc8"
+    },
+    {
+      "id": "NWL-7e13ecc55427::wording::extraction::meaning::r2",
+      "card_id": "NWL-7e13ecc55427",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "9b844c6d113a3505dfd59ceddc45bd8b3b60f489039c4f5ed3e013f4ddc4fbdc"
+    },
+    {
+      "id": "NWL-212a9d0deac9::wording::extraction::meaning::r2",
+      "card_id": "NWL-212a9d0deac9",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "fb575f6bb1d1ac3f4bb184bdb3b1bce183e97f0e4aea30701d24baf4a23f2532"
+    },
+    {
+      "id": "NWL-212a9d0deac9::wording::extraction::baseline::r2",
+      "card_id": "NWL-212a9d0deac9",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "0ad8a43369ef48b4aaccda220a0cdaeb2224bae6d0e2c92d30a60cf4baaea766"
+    },
+    {
+      "id": "NWL-ee7105dd992e::wording::extraction::baseline::r2",
+      "card_id": "NWL-ee7105dd992e",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "df9f6899988092c627464f173d9779e2b65d94fb8ae6aebcb6d7452d688abf02"
+    },
+    {
+      "id": "NWL-ee7105dd992e::wording::extraction::meaning::r2",
+      "card_id": "NWL-ee7105dd992e",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "f6c1013737a47503a9a2b786bc5ecad5294eb26f734dbf3bf49b7db39a4a24ca"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::wording::extraction::meaning::r2",
+      "card_id": "NWL-1aaf4aca9f84",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "48b04e1180146b7842657b52a31216bcbfec8b7cda0e7f2f46b8a7e2b7ce60b2"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::wording::extraction::baseline::r2",
+      "card_id": "NWL-1aaf4aca9f84",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "0611b9146b3c7a1220496c0d2f294f4adaf9cb2f179c3b5952b53fea98284351"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::wording::extraction::baseline::r2",
+      "card_id": "NWL-4f51f156ed8b",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "e44f0b7bea78228e9b67f75106c8bb6e24a539adabf875a80a96883d1aff64a9"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::wording::extraction::meaning::r2",
+      "card_id": "NWL-4f51f156ed8b",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "1691635708062f43ee528abc6d9fd17312a8513b06e9e5e07a94356419f2e80b"
+    },
+    {
+      "id": "NWL-9dc6904d0134::wording::extraction::meaning::r2",
+      "card_id": "NWL-9dc6904d0134",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "a0cd561729b1274c85b0779566ff3fc29e26404129271e94e693987d1817c0fd"
+    },
+    {
+      "id": "NWL-9dc6904d0134::wording::extraction::baseline::r2",
+      "card_id": "NWL-9dc6904d0134",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "967a302381b48b3ab078b8b3a3f7df3b8a8271f05065fc0ed6eda55a6770bb4e"
+    },
+    {
+      "id": "NWL-85a3178b8cec::wording::extraction::baseline::r2",
+      "card_id": "NWL-85a3178b8cec",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "f5cbd80a5fdc9e9a13b73eb4f75a97e5d32738faceef1f770b3a7d19699ce991"
+    },
+    {
+      "id": "NWL-85a3178b8cec::wording::extraction::meaning::r2",
+      "card_id": "NWL-85a3178b8cec",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "28904f861e69f51ca9b939c096757b5553693e8439d231cacb3b34aa0e9cf226"
+    },
+    {
+      "id": "NWL-42acf5afe858::wording::extraction::meaning::r2",
+      "card_id": "NWL-42acf5afe858",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "ea886d453b14bac46a5c393f9fcd49d067d8b2ab6a723836c2c593cab7ad6845"
+    },
+    {
+      "id": "NWL-42acf5afe858::wording::extraction::baseline::r2",
+      "card_id": "NWL-42acf5afe858",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "1e75ca1fe6a3b6618f0ee36df7200ffa8e5bf5fa00f326f719381a85c12c509a"
+    },
+    {
+      "id": "NWL-59bca7262cdd::wording::extraction::baseline::r2",
+      "card_id": "NWL-59bca7262cdd",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "0fee67ea3a01ae0d3f3c1498c004e9f2f9152c0f5ed3cc5eb5054363cf05462e"
+    },
+    {
+      "id": "NWL-59bca7262cdd::wording::extraction::meaning::r2",
+      "card_id": "NWL-59bca7262cdd",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "f2844dced37de13a4d3cffe00a091ab321b0f8572567c5097334e90efb14671a"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::wording::extraction::meaning::r2",
+      "card_id": "NWL-6a1a2c127a1d",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 2,
+      "request_sha256": "b4cc5ef4105d74d2e6949c58de2af21b48ef4e3bdf6562588fdba35a5e08a4a8"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::wording::extraction::baseline::r2",
+      "card_id": "NWL-6a1a2c127a1d",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 2,
+      "request_sha256": "a3e438f327922efc68efd0a24a22ff18ed25a36d8222dd02bac9f75ff2425ecb"
+    },
+    {
+      "id": "NWL-a059c4e9b227::wording::extraction::baseline::r3",
+      "card_id": "NWL-a059c4e9b227",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "08d244eb60f9bd7e715eec3deaae5f0bb65b11051374d84c21e727b922d7a8c5"
+    },
+    {
+      "id": "NWL-a059c4e9b227::wording::extraction::meaning::r3",
+      "card_id": "NWL-a059c4e9b227",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "6a4c939cf56638813af681da0a2cfece2848cee423f22e071b602e5c2527df2d"
+    },
+    {
+      "id": "NWL-ebebeada049f::wording::extraction::meaning::r3",
+      "card_id": "NWL-ebebeada049f",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "7af7d22c979b28a9a40d78d0dd011ee26055d97552e335415de0a7eec56f709d"
+    },
+    {
+      "id": "NWL-ebebeada049f::wording::extraction::baseline::r3",
+      "card_id": "NWL-ebebeada049f",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "4c2f0ca396a8307c434fb80361eb4a6a10751d3fe2c5290eb07750af8c486cf2"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::wording::extraction::baseline::r3",
+      "card_id": "NWL-7432a7ac9d8b",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "8d70c6f469441f03fd399d0eebf948214a32b55db425c9aefdfb6fbdf8b8678c"
+    },
+    {
+      "id": "NWL-7432a7ac9d8b::wording::extraction::meaning::r3",
+      "card_id": "NWL-7432a7ac9d8b",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "008c4d188fe9c09bd0efc45df54c713e1243ee687258f3f35be0a2a7a9cef2e7"
+    },
+    {
+      "id": "NWL-9a3498667b9c::wording::extraction::meaning::r3",
+      "card_id": "NWL-9a3498667b9c",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "344743985dc200b5f5a034cca0bc79c11370a8bd56681036ffddbbd4e0aedd99"
+    },
+    {
+      "id": "NWL-9a3498667b9c::wording::extraction::baseline::r3",
+      "card_id": "NWL-9a3498667b9c",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "7d55f676a8dcb94fcbba386185df35956d4295161213adba67f20f77609b9b82"
+    },
+    {
+      "id": "NWL-db3d395ffc58::wording::extraction::baseline::r3",
+      "card_id": "NWL-db3d395ffc58",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "bef903fb2f323b4611f79d12e16437f2487d2df05de7b57eb9b60908de6c1aa8"
+    },
+    {
+      "id": "NWL-db3d395ffc58::wording::extraction::meaning::r3",
+      "card_id": "NWL-db3d395ffc58",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "571e8d7d019ae8b70f7f769b06dcadeb9d2f805a7a6f0cf630f65a1ca5337ffc"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::wording::extraction::meaning::r3",
+      "card_id": "NWL-82c22b90a8fb",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "3b4f8b3105f8561be858f831c3b8816cde713e5d13141f495209b3b9db8c0a5c"
+    },
+    {
+      "id": "NWL-82c22b90a8fb::wording::extraction::baseline::r3",
+      "card_id": "NWL-82c22b90a8fb",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "5eedfefdcefc0473f9bc029b4be45ec58aba329d5715d4b0b40cf5465bdb0182"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::wording::extraction::baseline::r3",
+      "card_id": "NWL-c8311dd5cb61",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "230c48c2e25b63d52000e1b9a342908a8a132536ddcaf71181c6eda026660205"
+    },
+    {
+      "id": "NWL-c8311dd5cb61::wording::extraction::meaning::r3",
+      "card_id": "NWL-c8311dd5cb61",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "f31f6c42f93244659d2bb68b71ae1aba2fc68499a86a88b8075062204a58efd3"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::wording::extraction::meaning::r3",
+      "card_id": "NWL-a87649ebaa1a",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "ca94c4f71ff8010b953a4b065efb27c752adafdbf32192200505435c68fdfc3b"
+    },
+    {
+      "id": "NWL-a87649ebaa1a::wording::extraction::baseline::r3",
+      "card_id": "NWL-a87649ebaa1a",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "d8ff47548751f6e9dfb3addfab79b951207fdff6a0b1389c0db6ee2a4c400369"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::wording::extraction::baseline::r3",
+      "card_id": "NWL-fe6c9911a37a",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "626037595fb1618e7b1c1779ba4f0e75c5629cfd6bb0f67dd811caa720524eb1"
+    },
+    {
+      "id": "NWL-fe6c9911a37a::wording::extraction::meaning::r3",
+      "card_id": "NWL-fe6c9911a37a",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "120fa041c5f88a11dc4cf65eb09512fe73478c5d7c790f159bfb5d29e689d4ea"
+    },
+    {
+      "id": "NWL-eafa3a940729::wording::extraction::meaning::r3",
+      "card_id": "NWL-eafa3a940729",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "dd56b405439919baa8e18cd35477496d49b1c72b5640e3d48cf3b8d6e8e22878"
+    },
+    {
+      "id": "NWL-eafa3a940729::wording::extraction::baseline::r3",
+      "card_id": "NWL-eafa3a940729",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "b284e0d6ba2e86a3eecb3f50c7e69f0621659e816cea7e66f6bdcdfc98920b8d"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::wording::extraction::baseline::r3",
+      "card_id": "NWL-039d6ebdd81f",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "0cf7ae8159526c302c5454a8f3f35f016a7b94207deb34a2f323ba47e91e6262"
+    },
+    {
+      "id": "NWL-039d6ebdd81f::wording::extraction::meaning::r3",
+      "card_id": "NWL-039d6ebdd81f",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "21367b169e98edf9416ae1983de89a74c548afa7da4465e891f4c25ea608d28e"
+    },
+    {
+      "id": "NWL-f49033838aa3::wording::extraction::meaning::r3",
+      "card_id": "NWL-f49033838aa3",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "33f614b3d015bb81c407603fd165dee882f527b29bfd999e5af471686b737fd1"
+    },
+    {
+      "id": "NWL-f49033838aa3::wording::extraction::baseline::r3",
+      "card_id": "NWL-f49033838aa3",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "5818772bb15fa8ab782ca4feaa2554edd46a82f914238ba31386c690b8657e75"
+    },
+    {
+      "id": "NWL-0f527b766ed7::wording::extraction::baseline::r3",
+      "card_id": "NWL-0f527b766ed7",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "26950a36bf372f2712293f00acd20b2829e208978f1a612d5313d15231f38153"
+    },
+    {
+      "id": "NWL-0f527b766ed7::wording::extraction::meaning::r3",
+      "card_id": "NWL-0f527b766ed7",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "ad4d78c55fa563f2104c0079e743c3aca3521f0e83f54c727853bc7923370fa7"
+    },
+    {
+      "id": "NWL-b3fb5e096258::wording::extraction::meaning::r3",
+      "card_id": "NWL-b3fb5e096258",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "25c48cfee3c4ddd88f6d3dbf120cb527f84894c49094db2a2f5d9dbebbe0a40b"
+    },
+    {
+      "id": "NWL-b3fb5e096258::wording::extraction::baseline::r3",
+      "card_id": "NWL-b3fb5e096258",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "997ded68451903868fb0b463425e8ac4bd18fb4f927cf7abfd5dd8827c6a5227"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::wording::extraction::baseline::r3",
+      "card_id": "NWL-aa6833fe95e5",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "72a04825dc472784be3bfe35fd77b817c7169f155a070385b582961dc51b574b"
+    },
+    {
+      "id": "NWL-aa6833fe95e5::wording::extraction::meaning::r3",
+      "card_id": "NWL-aa6833fe95e5",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "1af93e4f1009bd63abffb4dcda7b82fdcdfbf69fa8dd5426b0464c0e2101a2c2"
+    },
+    {
+      "id": "NWL-b71d39d22677::wording::extraction::meaning::r3",
+      "card_id": "NWL-b71d39d22677",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "40db15d29f99e336d81cab04d57f971ff55f3cd67c1c9960e061d463a0289559"
+    },
+    {
+      "id": "NWL-b71d39d22677::wording::extraction::baseline::r3",
+      "card_id": "NWL-b71d39d22677",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "0854df6a9401fe6779261e461c95bb5e63199c26f038ee129b9316380a3dd76f"
+    },
+    {
+      "id": "NWL-7e13ecc55427::wording::extraction::baseline::r3",
+      "card_id": "NWL-7e13ecc55427",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "86e5ba6cccf3295fa2d166cb07cacb6393a2390db6e68cd058dca95dd9ec7bc8"
+    },
+    {
+      "id": "NWL-7e13ecc55427::wording::extraction::meaning::r3",
+      "card_id": "NWL-7e13ecc55427",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "9b844c6d113a3505dfd59ceddc45bd8b3b60f489039c4f5ed3e013f4ddc4fbdc"
+    },
+    {
+      "id": "NWL-212a9d0deac9::wording::extraction::meaning::r3",
+      "card_id": "NWL-212a9d0deac9",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "fb575f6bb1d1ac3f4bb184bdb3b1bce183e97f0e4aea30701d24baf4a23f2532"
+    },
+    {
+      "id": "NWL-212a9d0deac9::wording::extraction::baseline::r3",
+      "card_id": "NWL-212a9d0deac9",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "0ad8a43369ef48b4aaccda220a0cdaeb2224bae6d0e2c92d30a60cf4baaea766"
+    },
+    {
+      "id": "NWL-ee7105dd992e::wording::extraction::baseline::r3",
+      "card_id": "NWL-ee7105dd992e",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "df9f6899988092c627464f173d9779e2b65d94fb8ae6aebcb6d7452d688abf02"
+    },
+    {
+      "id": "NWL-ee7105dd992e::wording::extraction::meaning::r3",
+      "card_id": "NWL-ee7105dd992e",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "f6c1013737a47503a9a2b786bc5ecad5294eb26f734dbf3bf49b7db39a4a24ca"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::wording::extraction::meaning::r3",
+      "card_id": "NWL-1aaf4aca9f84",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "48b04e1180146b7842657b52a31216bcbfec8b7cda0e7f2f46b8a7e2b7ce60b2"
+    },
+    {
+      "id": "NWL-1aaf4aca9f84::wording::extraction::baseline::r3",
+      "card_id": "NWL-1aaf4aca9f84",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "0611b9146b3c7a1220496c0d2f294f4adaf9cb2f179c3b5952b53fea98284351"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::wording::extraction::baseline::r3",
+      "card_id": "NWL-4f51f156ed8b",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "e44f0b7bea78228e9b67f75106c8bb6e24a539adabf875a80a96883d1aff64a9"
+    },
+    {
+      "id": "NWL-4f51f156ed8b::wording::extraction::meaning::r3",
+      "card_id": "NWL-4f51f156ed8b",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "1691635708062f43ee528abc6d9fd17312a8513b06e9e5e07a94356419f2e80b"
+    },
+    {
+      "id": "NWL-9dc6904d0134::wording::extraction::meaning::r3",
+      "card_id": "NWL-9dc6904d0134",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "a0cd561729b1274c85b0779566ff3fc29e26404129271e94e693987d1817c0fd"
+    },
+    {
+      "id": "NWL-9dc6904d0134::wording::extraction::baseline::r3",
+      "card_id": "NWL-9dc6904d0134",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "967a302381b48b3ab078b8b3a3f7df3b8a8271f05065fc0ed6eda55a6770bb4e"
+    },
+    {
+      "id": "NWL-85a3178b8cec::wording::extraction::baseline::r3",
+      "card_id": "NWL-85a3178b8cec",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "f5cbd80a5fdc9e9a13b73eb4f75a97e5d32738faceef1f770b3a7d19699ce991"
+    },
+    {
+      "id": "NWL-85a3178b8cec::wording::extraction::meaning::r3",
+      "card_id": "NWL-85a3178b8cec",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "28904f861e69f51ca9b939c096757b5553693e8439d231cacb3b34aa0e9cf226"
+    },
+    {
+      "id": "NWL-42acf5afe858::wording::extraction::meaning::r3",
+      "card_id": "NWL-42acf5afe858",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "ea886d453b14bac46a5c393f9fcd49d067d8b2ab6a723836c2c593cab7ad6845"
+    },
+    {
+      "id": "NWL-42acf5afe858::wording::extraction::baseline::r3",
+      "card_id": "NWL-42acf5afe858",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "1e75ca1fe6a3b6618f0ee36df7200ffa8e5bf5fa00f326f719381a85c12c509a"
+    },
+    {
+      "id": "NWL-59bca7262cdd::wording::extraction::baseline::r3",
+      "card_id": "NWL-59bca7262cdd",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "0fee67ea3a01ae0d3f3c1498c004e9f2f9152c0f5ed3cc5eb5054363cf05462e"
+    },
+    {
+      "id": "NWL-59bca7262cdd::wording::extraction::meaning::r3",
+      "card_id": "NWL-59bca7262cdd",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "f2844dced37de13a4d3cffe00a091ab321b0f8572567c5097334e90efb14671a"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::wording::extraction::meaning::r3",
+      "card_id": "NWL-6a1a2c127a1d",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "b4cc5ef4105d74d2e6949c58de2af21b48ef4e3bdf6562588fdba35a5e08a4a8"
+    },
+    {
+      "id": "NWL-6a1a2c127a1d::wording::extraction::baseline::r3",
+      "card_id": "NWL-6a1a2c127a1d",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "a3e438f327922efc68efd0a24a22ff18ed25a36d8222dd02bac9f75ff2425ecb"
+    },
+    {
+      "id": "NWL-41460bbdf301::wording::extraction::baseline::r3",
+      "card_id": "NWL-41460bbdf301",
+      "phase": "extraction",
+      "arm": "baseline",
+      "round": 3,
+      "request_sha256": "64bb986bea43d3f168900f44179303a982a770c68bd32c7cec681d30e5c1e46b"
+    },
+    {
+      "id": "NWL-41460bbdf301::wording::extraction::meaning::r3",
+      "card_id": "NWL-41460bbdf301",
+      "phase": "extraction",
+      "arm": "meaning",
+      "round": 3,
+      "request_sha256": "6c602b77940c473c27515bbc7e4d13d1bb535bcbf6a4f05e78d89e9214143aec"
+    }
+  ]
+}
