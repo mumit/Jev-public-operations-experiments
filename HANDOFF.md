@@ -201,3 +201,7 @@ The user authorized the next diagnostic after sentence review. Read docs/public-
 ## Completed extraction-definition contrasts
 
 Both once-only phases completed: 108 extraction and 108 verdict calls, with 8,385 valid answers and no quarantined sentence. Sources, unchanged notes, references, exact phase bodies and actual bindings remain fingerprinted. Combined is the sole declared candidate and failed; meaning-only is a diagnostic lead, not a substituted candidate. Keep the 0.70 gates unchanged and preserve all recorded regressions. Use scripts.verify_public_extraction_contrast for all sixteen assets, 3,625 responses and 1,119 files. No new recording opened. A new task/text/reference/budget protocol must precede any further inference; the protected panels remain sealed.
+
+## Selected wording transfer
+
+The next protocol selects family-only as the prospective candidate on 27 new controlled notes: three wording styles for each of nine inspected recordings. Read docs/public-note-language.md. It preserves numerical policy, references, facts, inventories and 0.70 boundaries. Commit source/text/plan before preparation, exact extraction hashes before 162 calls, then actual bindings and dependent hashes before at most 162 verdict calls. New text is assistant-authored development, not fresh-incident or independent report performance. No protected recording opens.
