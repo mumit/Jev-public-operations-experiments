@@ -2,6 +2,10 @@
 
 ## Current state
 
+The separate-subject diagnostic is planned, not run. It freezes a text-only subject candidate, exact fresh joint comparators and exact fresh verdict baselines on the same 27 inspected controlled notes. The budget is 486 calls and 3,888 answers in separately fingerprinted text/joint and verdict phases. All verdicts run regardless of subject results. Read docs/separate-subject.md. Commit the plan before exact preparation, then both phase protocols before inference. No protected telemetry opens.
+
+### Last completed diagnostic
+
 The explicit subject-check comparison is complete: 324 calls and 2,916 valid answers. Train Ticket passes every panel, retains all 54 clean displays per round and detects every corrupted subject. Online Boutique fails every panel: clean displays fall from 108 to 81/82/83, with 2/2/3 clean verdict errors. A wrong subject and wrong verdict still display once in round one. The overall candidate fails; no promotion occurs. Read docs/subject-check.md and inspect /subject-check.
 
 Zero human or independent reviews occurred. The same assistant authored and previously inspected these notes and annotations. Earlier request producers and the human review workflow remain frozen; browser drafts are unchanged.
