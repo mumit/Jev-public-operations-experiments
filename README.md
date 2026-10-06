@@ -88,18 +88,20 @@ A fresh clone includes source, reports and checkpoints. Restore all thirty [publ
 - [HANDOFF](HANDOFF.md): current state and next experiment.
 - [Verification](docs/verification.md): standalone tests and fresh-clone evidence replay.
 
+The clarification comparison improves correct displayed actions from 77 to 112 out of 228 with field-specific instructions, but introduces three premature ready decisions on one ambiguous pronoun statement. Every gate fails. Inspect [the language comparison](http://127.0.0.1:8769/clarification) and [its report](docs/clarification.md). Jev's readiness judgment remains a research task.
+
 ## Checks
 
 ```bash
 uv run --locked --extra public-data python -m unittest discover -s tests -v
-uv run --locked --extra public-data python -m scripts.verify_explicit_missing
+uv run --locked --extra public-data python -m scripts.verify_clarification_focus
 for file in triage_bench/web/*.js; do node --check "$file" || exit 1; done
 ```
 
-The latest verifier invokes twenty-eight executed studies and three preparation failures and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
+The latest verifier invokes thirty-one executed studies, three preparation failures and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
 
 ## Continue the research
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). The numerical comparison is complete. Fixed numerical checks belong in code; further Jev work awaits a choice between a new clarification-needs task and measuring real analyst entry effort. The missing-window confirmation reuses fifteen already downloaded recordings with 2,160 valid calls and no case replacement. All three failed preparations remain preserved. Original explicit ranks 1-3, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves stay unopened.
+Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). The numerical comparison is complete. Fixed numerical checks belong in code; The language comparison is complete and fails its readiness gate. Further Jev work awaits a choice between continuing that checklist and testing optional clarification suggestions alongside explicit entry. The missing-window confirmation reuses fifteen already downloaded recordings with 2,160 valid calls and no case replacement. All three failed preparations remain preserved. Original explicit ranks 1-3, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves stay unopened.

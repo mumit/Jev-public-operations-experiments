@@ -48,4 +48,38 @@ The literal parser matched 192 complete masks and displayed 204 correct workflow
 
 Jev's largest error concentration is comparison meaning: 57 wrong field answers. A conflicting assertion still names one material-magnitude comparison, but Jev repeatedly asks which comparison to use instead of asking about the assertion. A statement selecting last month's window still clearly identifies material magnitude; Jev sometimes asks about the comparison rather than the window. Outside-task scope is always classified correctly, yet separate fields often contradict that scope instead of becoming not applicable. High field accuracy therefore conceals incomplete masks, inconsistent fields and lost workflow coverage.
 
-The next diagnostic keeps the texts, manual references, parser, question options, state and 0.70 boundaries fixed. Fresh unchanged controls will run alongside shorter field-specific instructions. The treatment emphasizes that each field's clarity is independent of missing or conflicting information in other fields, except for the existing outside-task rule. It changes instructions only and remains development on inspected text.
+The paired diagnostic kept the texts, manual references, parser, question options, state and 0.70 boundaries fixed. Fresh unchanged controls ran alongside shorter field-specific instructions. The treatment emphasized that each field's clarity is independent of missing or conflicting information in other fields, except for the existing outside-task rule. It changed instructions only and remains development on inspected text.
+
+## What changed in the Jev input?
+
+The first input repeats the full workflow policy in each of six questions. The treatment keeps the statement, catalog, channel aliases, available comparison, question keys and answer options byte-identical. Only the instruction strings change. Each question receives a shorter definition for its own field and the existing rule that outside-task requests make every entry field not applicable.
+
+For the comparison field, the new instruction explicitly says: “Conflicting positive/negative assertions of the SAME comparison leave this field clear: that conflict belongs to polarity.” It also separates an unspecified or different time window from an explicit comparison meaning. The assertion question describes contradictions and final corrections; the service question distinguishes one pronoun antecedent from competing names. These are request transformations, not examples containing case answers or additional measurements.
+
+Take “For ts-config-service, CPU both has and does not have a material scaled change between the before and after incident windows.” The comparison is material magnitude; the assertion conflicts. Fresh controls ask which comparison to use in all three rounds. Focused classifies the comparison as clear and the assertion as needing clarification in all three, although its full six-field score gate still determines display. The inspector exposes each instruction, answer and score rather than inferring an internal model explanation.
+
+## Paired result
+
+The 456 once-only calls compare fresh unchanged controls with focused instructions, three rounds per arm. Both receive 228 statement opportunities. One response per arm contains a selected option below its reported probability maximum. The frozen validator preserves those responses and quarantines their whole statements; 2,734 of 2,736 raw field answers validate. No retry or repair occurs.
+
+| Method | Exact masks | Correct workflow actions | Correct displays | Withheld | Premature ready | Unnecessary question |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Fresh unchanged Jev | 136/228 | 153/228 | 77/228 | 133 | 0 | 18 |
+| Field-specific Jev | 184/228 | 200/228 | 112/228 | 113 | 3 | 0 |
+| Literal parser | 192/228 | 204/228 | 204/228 | 0 | 6 | 18 |
+
+Focused produces 53 correct display gains and eighteen losses against the fresh control, a net gain of 35. Train Ticket gains 25; Online Boutique gains ten. Every application/round/statement-type gate still fails. Correctly classifying most individual fields does not establish a reliable next action.
+
+The new error is concrete: “recommendationservice called redis. Its CPU has a material scaled change between the before and after incident windows.” The declared contract requires clarification because two service names precede “its.” Focused marks the statement ready in every round, with minimum selected scores of 0.80, 0.77 and 0.72. Its explicit pronoun instruction does not prevent this repeated error. The unchanged control withholds the statement in every round.
+
+Focused uses 467,274 input tokens against the control's 679,770, a 31.3% reduction. Summed call latencies are 39.05 and 40.45 seconds; these totals exclude preparation, replay and analyst time. The parser has no hosted calls. Neither method passes the declared workflow contract.
+
+## What this means for the next step
+
+Jev can respond to concrete instruction changes: this treatment separates comparison meaning from assertion conflicts and removes the observed unnecessary questions. It still loses coverage at the fixed six-field boundary and prematurely clears ambiguous wording. The current evidence supports further language research, not a dependable readiness decision or added analyst value.
+
+The next workflow choice is whether to keep pursuing a complete readiness checklist or test an optional clarification assistant beside explicit field entry. I recommend the latter: keep required selections and numerical evaluation in code, let Jev suggest a question, and give the analyst control over whether to use it. This changes the product task and success criteria, so it needs a separately selected contract before further calls. Suggestions still need evaluation for missed ambiguity, unnecessary questions and effort; removing the ready action must not hide those failures.
+
+A new test should freeze unfamiliar wording and references before inference, with a fresh unchanged comparator and a fixed budget. Controlled text can test transfer across wording, but authentic analyst usefulness and independent interpretation still require different evidence. The same assistant cannot supply independent human judgment by producing more fixtures. No protected recording needs to open for this language task.
+
+Inspect [the clarification comparison](http://127.0.0.1:8769/clarification). The page switches between the first diagnostic and paired instructions, shows classifications and withholding, and reveals references only on request. It makes no new model call or server write.

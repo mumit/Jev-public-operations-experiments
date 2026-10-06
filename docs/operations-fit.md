@@ -34,7 +34,9 @@ Both focused and calculated inputs answer and display all 1,080 verdicts correct
 
 The panel contains 248 unanswerable claims out of 360, mainly because it supplies no traces and cannot establish health or causality. Separate metric scoring prevents those answers from masking comparison errors. The result supports bounded policy checking after schema/window inspection; it does not establish additional value over code, analyst effectiveness or wholly untouched generalization.
 
-I will keep fixed numerical checks in code. The next useful Jev experiment should test a language contribution: identifying what needs clarification before an ambiguous statement becomes a typed claim. It needs a new frozen task, text, reference definition and budget. That change of task awaits the user's choice. The alternative is measuring actual field-entry errors, preparation time and usefulness with a participant, which assistant fixtures cannot establish.
+Fixed numerical checks remain in code. The selected language experiment now tests clarification needs on 76 controlled statements. Field-specific instructions improve correct displays from 77 to 112 across 228 repeated opportunities, but prematurely clear one ambiguous pronoun statement in every round. Every gate fails; neither Jev nor the literal parser meets the readiness contract. Read [the comparison](clarification.md) for exact input changes and regressions.
+
+I recommend an optional clarification assistant alongside explicit entry as the next product task. Required selections and numerical evaluation would remain in code; the analyst would decide whether a suggested question helps. That change needs a selected task and separately frozen success criteria. A complete readiness checklist remains an alternative research direction. Actual entry errors, preparation time and usefulness require a participant, which assistant fixtures cannot establish.
 
 Before any telecom pilot, representative telemetry, operational policies and independently reviewed references are still needed. Public application faults do not establish RAN, field-service or NOC reliability.
 
