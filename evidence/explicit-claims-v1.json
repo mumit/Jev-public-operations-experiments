@@ -1,0 +1,63 @@
+{
+  "schema": "explicit-claims-evidence-1",
+  "archive": "explicit-claims-v1.tar.gz",
+  "archive_sha256": "e2e05232175f17816bc1cf25dd13411b20c444ab86b89d86ca1e19d869c07120",
+  "bytes": 132499,
+  "source_commit": "88f720963ea0235bab79e823fd4719352140faff",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1",
+    "public-extraction-contrast-v1",
+    "public-note-language-v1",
+    "assistant-review-v1",
+    "binding-corruption-v1",
+    "subject-check-v1",
+    "separate-subject-v1",
+    "direct-subject-v1",
+    "prefix-subject-v1",
+    "excerpt-subject-v1",
+    "subject-robustness-v1",
+    "full-workflow-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 750,
+  "files": {
+    "runs/explicit-claims/development-data-2026-10-06-v1/inputs.json": {
+      "bytes": 533372,
+      "sha256": "b977c3093d488c5db947820b733e0251a9143e7bf57143e42e4faba4ab684211"
+    },
+    "runs/explicit-claims/development-data-2026-10-06-v1/manifest.json": {
+      "bytes": 382,
+      "sha256": "37d5e4eb5bc6fb00cdb9b4b84ed5dfa3b581c83c8ba41a7d1671559e88b399ab"
+    },
+    "runs/explicit-claims/development-data-2026-10-06-v1/references.json": {
+      "bytes": 95339,
+      "sha256": "0b26d802316c6c4d249a331efff1c67275cb890b52a1c9c71eb474d763fdb3e0"
+    },
+    "runs/explicit-claims/development-hosted-2026-10-06-v1/requests.json": {
+      "bytes": 1869999,
+      "sha256": "09c86502c27a3d8513c5b14dddaf9fa651b35a194feb335a44b7a524b8be09cb"
+    },
+    "runs/explicit-claims/development-hosted-2026-10-06-v1/responses.jsonl": {
+      "bytes": 608512,
+      "sha256": "38c9d365563e237015de151611092ea7ff9ee682a703cff938f8b694e57f4479"
+    },
+    "runs/explicit-claims/development-hosted-2026-10-06-v1/summary.json": {
+      "bytes": 542,
+      "sha256": "f016f580dcba8ce8d473e494687aa7870f8aac722c51902735c9750a0c4eab25"
+    }
+  }
+}
