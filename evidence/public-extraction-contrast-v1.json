@@ -1,0 +1,52 @@
+{
+  "schema": "public-extraction-contrast-evidence-1",
+  "archive": "public-extraction-contrast-v1.tar.gz",
+  "archive_sha256": "6b9f45ffd9f80af9bc291113fc341597c24a91c0e2e9affcc4c47bb76dc5ed71",
+  "bytes": 604485,
+  "source_commit": "7ae6ba5634343d205ddd3c019664908de773a768",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 216,
+  "files": {
+    "runs/public-extraction-contrast/extraction-hosted-2026-10-05-v1/requests.json": {
+      "bytes": 7005171,
+      "sha256": "085de3f7d7c2cb08573c6ccd9f9a4288b2658b0cf7b0d84034c92a743ed10595"
+    },
+    "runs/public-extraction-contrast/extraction-hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 5147099,
+      "sha256": "e2978a7e475405df1f7585eb180760b8bc61e91c59818dc197063464b75f89de"
+    },
+    "runs/public-extraction-contrast/extraction-hosted-2026-10-05-v1/summary.json": {
+      "bytes": 553,
+      "sha256": "313a9aa41a8bc42824ce7cbd0cbf9e7e8193d7b64c632df36634220c8d97241c"
+    },
+    "runs/public-extraction-contrast/verdict-hosted-2026-10-05-v1/requests.json": {
+      "bytes": 1728498,
+      "sha256": "eef7295fb16d655a7ccbe496590cc75cb9ac3e54e0b4d39394e87d5c1f7c8ced"
+    },
+    "runs/public-extraction-contrast/verdict-hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 243934,
+      "sha256": "1b1db150be4cd852b29d63b54b6ceb7b569fadbccc451a785b9cafcfe5ce3e3e"
+    },
+    "runs/public-extraction-contrast/verdict-hosted-2026-10-05-v1/summary.json": {
+      "bytes": 550,
+      "sha256": "cfd0027bbf00fe23c5f22eb3e00a6c8774852f08362019068a2180c81d229d79"
+    }
+  }
+}

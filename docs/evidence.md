@@ -197,3 +197,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_sentence_rev
 ```
 
 All fifteen assets preserve 3,409 actual responses in 1,113 files. The new run contains no inconsistent answers; both validators accept the same 152 correct bindings on its replies. All accepted Jev claims receive correct, displayed verdicts, but incomplete-note coverage fails both application checks. The earlier sizing failure and rejected replies remain frozen. No protected telemetry opens, and verification makes no calls.
+
+## Extraction-definition contrasts
+
+The [public-extraction-contrast-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-extraction-contrast-v1) adds four paired inputs on the same nine inspected notes. Its six files preserve 216 actual calls and 8,385 valid answers, with exact extraction and dependent verdict requests, raw replies and execution records. The archive is 604,485 bytes. Restore the fifteen earlier assets first; the notes, measurements and references remain in their unchanged earlier bundles.
+
+```bash
+gh release download public-extraction-contrast-v1 --repo mumit/Jev-public-operations-experiments --pattern public-extraction-contrast-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-extraction-contrast-v1.tar.gz --manifest evidence/public-extraction-contrast-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_extraction_contrast
+```
+
+All sixteen assets preserve 3,625 actual responses in 1,119 files. Assertion-family-only recovers seven correct bindings against fresh baseline without losses; the declared combined candidate loses eleven overall and fails both application checks. All accepted bindings and verdicts are correct. No input is promoted, no protected recording opens, and verification makes no calls.

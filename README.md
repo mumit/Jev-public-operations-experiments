@@ -81,7 +81,7 @@ uv run --locked --extra public-data python -m scripts.verify_public_traces
 uv run --locked --extra public-data python -m scripts.verify_public_trace_task
 uv run --locked --extra public-data python -m scripts.verify_public_binding
 uv run --locked --extra public-data python -m scripts.verify_public_fresh_claims
-uv run --locked --extra public-data python -m scripts.verify_public_sentence_review
+uv run --locked --extra public-data python -m scripts.verify_public_extraction_contrast
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
 node --check triage_bench/web/public-repeat.js
