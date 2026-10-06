@@ -57,3 +57,5 @@ The study changes the entire set of six bindings per note, rather than introduci
 The next comparison should make the conflict explicit: ask Jev to check the supplied subject against the full note before judging the claim, with a separate unresolved/conflict outcome. It should include matched clean controls, wrong-service inputs, direct names and pronouns. A separate protocol must freeze the wording, references and budget before calls. Success would require fewer wrong displayed verdicts without silently replacing the supplied subject or losing clean-case coverage. This would remain a diagnostic on inspected notes; fresh or independently written reports would still be needed to assess transfer.
 
 [Inspect the recorded requests and answers](http://127.0.0.1:8769/binding-corruption).
+
+The subsequent [subject-check comparison](subject-check.md) catches most wrong-subject displays, but fails overall because Online Boutique loses clean coverage and still displays one corrupted-subject error. The earlier corruption results remain frozen.
