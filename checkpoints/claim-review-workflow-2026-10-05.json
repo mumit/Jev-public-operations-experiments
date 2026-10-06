@@ -1,0 +1,24 @@
+{
+  "schema": "claim-review-workflow-1",
+  "date": "2026-10-05",
+  "scope": "Review practice on 27 controlled notes from nine inspected recordings. No model execution or new telemetry.",
+  "proposal_arm": "meaning",
+  "proposal_round": 1,
+  "maximum_provider_calls": 0,
+  "reference_access": "No reference answers in review packets. Earlier inspectors remain available; not blinded.",
+  "confirmation": "Explicit final reviewer decisions only. No gold corrections, compound splitting, source-text rewriting, fabricated probabilities or timing claims.",
+  "next_gate": "Actual human review export, strict validation and a new committed exact protocol/budget before verdict inference.",
+  "sha256": {
+    "triage_bench/claim_review.py": "0eb944d8625c36bbf61559b058ff5477a824a74d725cb5ea92efd490f5f5f9d7",
+    "triage_bench/claim_review_service.py": "b1b4f9c35032d0aaf3c2bb4dbbc92003ca9c373e00b5d2ffbd21f82ee3fc1f9b",
+    "scripts/validate_claim_review.py": "b5f281aa9b8098e7aebd66c8df124b752004487388c9616e3940398dfc1092de",
+    "triage_bench/web/claim-review.js": "4138ee7cc6a6681eea72bb046f2507cfed497ec09bb4376f15e507e1e0967a35",
+    "triage_bench/web/claim-review.html": "c5b5ec54c27ddd018fe8063930751c26ef2e83e8fc4cf5ab1a2f9b6f446d2b9b",
+    "checkpoints/public-note-language-results-2026-10-05.json": "ae5923f146eaa1ab81fcb10a55772ee9e0fd84955741634b5e64ba08dd1d5dfe",
+    "checkpoints/public-note-language-extraction-protocol-2026-10-05.json": "081f060b5bcda8ed45caf1300ee6cccda8f8a9390a5953679b4dfaada9d233c3",
+    "runs/public-note-language/data-2026-10-05-v1/inputs.json": "82e15269ea2e9163c6a2809f25bd268a6277da5965ffb32e5f0a4e2a453f9757",
+    "runs/public-note-language/extraction-hosted-2026-10-05-v1/responses.jsonl": "5f94c38f53a5d976b4e1da4cc1d59c0207cb1fb0f94c5b08fffba34f51644f4c",
+    "triage_bench/public_note_features.py": "b81dc3ac59bab5682ff29b39629cdbe2311bd04a61a377075a5cf30d992283ca",
+    "triage_bench/public_claim_features.py": "aad5e9ea1f101cfe889a905a626471cc31095042b4e84bbf88b238228cf15f64"
+  }
+}

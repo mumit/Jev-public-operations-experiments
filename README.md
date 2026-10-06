@@ -4,6 +4,8 @@ I am testing where Jev can help operations analysts: selecting investigation lea
 
 The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
+The new [claim review workflow](http://127.0.0.1:8769/claim-review) lets an analyst confirm Jev's extracted service and meaning before a verdict request. This stage has no new model results; it awaits actual reviews.
+
 ## Completed comparisons
 
 | Study | Evidence | Result |
@@ -84,6 +86,7 @@ uv run --locked --extra public-data python -m scripts.verify_public_trace_task
 uv run --locked --extra public-data python -m scripts.verify_public_binding
 uv run --locked --extra public-data python -m scripts.verify_public_fresh_claims
 uv run --locked --extra public-data python -m scripts.verify_public_note_language
+node --check triage_bench/web/claim-review.js
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
 node --check triage_bench/web/public-repeat.js
@@ -108,4 +111,4 @@ The evidence verifier reconstructs ML from training-only inputs, rebuilds every 
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Inspect the latest [claim-binding diagnostic](http://127.0.0.1:8769/claim-binding). Explicit claim text and service fix both repeated lookup errors in every round. One-claim requests introduce a one-round regression; service-scoped requests judge and display every claim correctly. The full sequence fails, while binding and scoping pass their separate checks. Next, freeze candidates and independently authored reports before a fresh public-data comparison. All 22 RE3 evaluation cases, nine RE3 reserves, RE3 Sock Shop and 140 RE1 reserves remain unopened. Earlier fitted ML and all completed studies remain preserved.
+Complete one note in the claim review workflow, download its JSON and run the local validator described in [the guide](docs/claim-review.md). Actual human reviews are pending. A new exact protocol and budget must precede any verdict calls. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.

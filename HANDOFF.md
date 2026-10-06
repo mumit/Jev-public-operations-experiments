@@ -4,9 +4,9 @@
 
 The new-note wording diagnostic is complete. Family-only gives 430/486 correct end-to-end judgments versus baseline 447/486, with ten gains and twenty-seven losses. It displays no wrong binding; baseline displays two. Both application checks fail. Only Train Ticket's plain-paraphrase panel passes. Every correctly bound accepted claim gets a correct displayed verdict. Five malformed sentence fields quarantine requests, unendorsed allegations or a compound without repairing answers. No input is promoted.
 
-Read docs/public-note-language.md before choosing analyst confirmation of extracted subjects/properties or another free-text extraction study. Earlier supplied-binding studies support testing confirmation, but interactive usefulness remains unmeasured. All producers and historical protocols stay frozen. The read-only app on port 8769 exposes actual requests, replies and explicitly revealed references without inference.
+The next step is analyst confirmation of extracted subjects and meanings. Read docs/claim-review.md and use /claim-review. The workflow is ready, but actual human review exports are pending; interactive usefulness remains unmeasured. All producers and historical protocols stay frozen. The read-only app on port 8769 exposes actual requests, replies and explicitly revealed references without inference.
 
-Restore all seventeen bundles, then run scripts.verify_public_note_language for the full chain and both original pack validators. The suite has 215 tests and nineteen browser scripts. Earlier synthetic work stays in the original repository.
+Restore all seventeen bundles, then run scripts.verify_public_note_language for the full chain and both original pack validators. The suite has 224 tests and twenty browser scripts. Earlier synthetic work stays in the original repository.
 
 ## Recorded findings
 
@@ -211,3 +211,9 @@ The next protocol selects family-only as the prospective candidate on 27 new con
 ## Completed new-note wording
 
 All 324 once-only calls complete, preserving 12,543 raw and 12,538 validated answers. The notes contain three controlled styles on nine inspected recordings; they are not independent reports or untouched incidents. Family-only accepts 430 correct bindings and no wrong binding; baseline accepts 447 correct and two wrong bindings. Preserve new feature/data/trial/CLI sources and exact phases. No retries, source changes, threshold fitting or promotion. All seventeen assets preserve 3,949 responses in 1,128 files. The 22 cause-evaluation, 30 RE3 Sock Shop and 140 RE1 reserve cases remain protected. A new task/protocol must precede further calls.
+
+## Analyst confirmation workflow ready for review
+
+Read docs/claim-review.md. The new /claim-review page uses all 27 wording-study notes and the fixed family-definition arm, round one. It shows no answer keys or recorded verdicts. Reviewers explicitly confirm/correct a single service and bounded meaning, or withhold each sentence. Drafts stay in browser storage; JSON exports preserve original proposals and final decisions. The new verdict preview passes the reviewed meaning explicitly alongside the exact source text and service ledgers. Numerical policy stays fixed; this new treatment has not run.
+
+The workflow checkpoint fingerprints source, note bytes and recorded proposals. scripts.validate_claim_review requires a complete compatible export, verifies all seventeen historical assets and reconstructs corrections and the exact preview without provider access. Actual human reviews are the blocker. Browser QA and fixture decisions cannot substitute for analyst work. Do not measure elapsed effort from these exports, which record no time or intermediate edits. Freeze a new comparison, exact requests and budget after genuine reviews and before hosted calls. No protected recordings open, and the 3,949 historical responses stay unchanged.
