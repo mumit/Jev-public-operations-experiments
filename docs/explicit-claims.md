@@ -66,3 +66,11 @@ The forty-five downloaded recordings are now opened, even though no Jev confirma
 The next decision is whether to retain the incomplete recording as missing evidence or replace its entire service/fault group. Retaining it requires a new contract that keeps the absent after-window unknown and makes both assertion polarities unanswerable. Replacing the group requires a new grouped allocation. Either choice needs a frozen protocol before further inference; the completed results and failed producers remain unchanged.
 
 My recommendation is to retain missing evidence. That tests a condition an operations workflow must handle without inventing measurements. It will still be a controlled public-data experiment. Actual analyst accuracy, preparation time and usefulness require someone using the form; the current fixtures cannot measure them.
+
+## Selected missing-window confirmation
+
+The selected treatment retains the incomplete recording. A new frozen protocol reuses the fifteen already downloaded native-v2 recordings, without opening more data. Absent windows have unknown duration, medians, missing fraction and change. Their actual row count remains zero; that count does not establish a measured metric or a recorded span count. Both assertion polarities remain unanswerable when evidence is ineligible.
+
+The focused and calculated requests, numerical policy, independent reference implementation and 0.70 display boundary stay unchanged. Three rounds across 360 claims require 2,160 calls. Separate gates cover all claims, complete windows, the missing window, complete-window metric comparisons and complete-window other kinds. Every gate requires complete valid replies, at least 95% accuracy, at least 90% correct displays and zero wrong displays. Exact computation must agree with all references.
+
+Schema and window coverage were inspected during failed preparation. This is post-preparation confirmation on previously downloaded recordings, not wholly untouched validation. The historical failures remain preserved; the original fifteen-case allocation and all earlier protected panels stay unopened.
