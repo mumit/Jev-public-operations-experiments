@@ -1,0 +1,49 @@
+{
+  "schema": "subject-robustness-evidence-1",
+  "archive": "subject-robustness-v1.tar.gz",
+  "archive_sha256": "9e1cad4d2e82652236b999f0eb37d18cae78e5326f6d24270e799610019dda6c",
+  "bytes": 257268,
+  "source_commit": "272b05c802e8abb11f7955cb5d0c0c89b20d94cf",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1",
+    "public-extraction-contrast-v1",
+    "public-note-language-v1",
+    "assistant-review-v1",
+    "binding-corruption-v1",
+    "subject-check-v1",
+    "separate-subject-v1",
+    "direct-subject-v1",
+    "prefix-subject-v1",
+    "excerpt-subject-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 1215,
+  "files": {
+    "runs/subject-robustness/hosted-2026-10-06-v1/requests.json": {
+      "bytes": 6088746,
+      "sha256": "40276ff0951ab6c77118517540057d902ff786b3095731b96e9cffcd7bd18a29"
+    },
+    "runs/subject-robustness/hosted-2026-10-06-v1/responses.jsonl": {
+      "bytes": 2855312,
+      "sha256": "3c1764d80b4d00ccf8ac67f94c9a6a0ce6508329647f6e6ae1c00ba2817ae1f7"
+    },
+    "runs/subject-robustness/hosted-2026-10-06-v1/summary.json": {
+      "bytes": 476,
+      "sha256": "497418dc9d4e3dae7f79ef69f2bc9c4e72438fa13d3f4b93f6149838bd3edf4e"
+    }
+  }
+}
