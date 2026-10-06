@@ -2,9 +2,11 @@
 
 ## Current state
 
-The extraction-definition diagnostic is complete. Assertion-family-only accepts and correctly judges 160/162 claims versus the fresh baseline's 153/162, with seven paired gains and no losses. The declared combined candidate gives 142/162, with three gains and fourteen losses, and fails both application checks. Every accepted binding and verdict is correct; no candidate has been promoted. Read docs/public-extraction-contrast.md before choosing a new controlled-language diagnostic or independently authored reports. All historical protocols remain frozen. The read-only app at port 8769 exposes exact requests, actual replies and explicitly revealed references without provider calls.
+The new-note wording diagnostic is complete. Family-only gives 430/486 correct end-to-end judgments versus baseline 447/486, with ten gains and twenty-seven losses. It displays no wrong binding; baseline displays two. Both application checks fail. Only Train Ticket's plain-paraphrase panel passes. Every correctly bound accepted claim gets a correct displayed verdict. Five malformed sentence fields quarantine requests, unendorsed allegations or a compound without repairing answers. No input is promoted.
 
-Start with README.md, docs/evidence.md and the latest report. Restore all sixteen versioned bundles, then run scripts.verify_public_extraction_contrast for the full chain and both original pack validators. The suite has 205 tests and eighteen browser scripts. Earlier synthetic work stays in the original repository.
+Read docs/public-note-language.md before choosing analyst confirmation of extracted subjects/properties or another free-text extraction study. Earlier supplied-binding studies support testing confirmation, but interactive usefulness remains unmeasured. All producers and historical protocols stay frozen. The read-only app on port 8769 exposes actual requests, replies and explicitly revealed references without inference.
+
+Restore all seventeen bundles, then run scripts.verify_public_note_language for the full chain and both original pack validators. The suite has 215 tests and nineteen browser scripts. Earlier synthetic work stays in the original repository.
 
 ## Recorded findings
 
@@ -205,3 +207,7 @@ Both once-only phases completed: 108 extraction and 108 verdict calls, with 8,38
 ## Selected wording transfer
 
 The next protocol selects family-only as the prospective candidate on 27 new controlled notes: three wording styles for each of nine inspected recordings. Read docs/public-note-language.md. It preserves numerical policy, references, facts, inventories and 0.70 boundaries. Commit source/text/plan before preparation, exact extraction hashes before 162 calls, then actual bindings and dependent hashes before at most 162 verdict calls. New text is assistant-authored development, not fresh-incident or independent report performance. No protected recording opens.
+
+## Completed new-note wording
+
+All 324 once-only calls complete, preserving 12,543 raw and 12,538 validated answers. The notes contain three controlled styles on nine inspected recordings; they are not independent reports or untouched incidents. Family-only accepts 430 correct bindings and no wrong binding; baseline accepts 447 correct and two wrong bindings. Preserve new feature/data/trial/CLI sources and exact phases. No retries, source changes, threshold fitting or promotion. All seventeen assets preserve 3,949 responses in 1,128 files. The 22 cause-evaluation, 30 RE3 Sock Shop and 140 RE1 reserve cases remain protected. A new task/protocol must precede further calls.

@@ -96,3 +96,23 @@ class NoteLanguageTests(unittest.TestCase):
         bound['service']='beta' if bound['service']=='alpha' else 'alpha'
         row=assess([p],[r],a,v,e)[p['dataset']]['arms']['meaning']['per_round'][0]
         self.assertEqual((row['accepted_wrong_bindings'],row['unsafe_displayed'],row['end_to_end_correct']),(1,1,5))
+
+    def test_reader_keeps_references_hidden_without_mutating_cached_results(self):
+        from unittest.mock import patch
+        from triage_bench.public_note_language_service import PublicNoteLanguageStudy
+        p,r,a,v,e=self.panel(); result={'bindings':a,'datasets':assess([p],[r],a,v,e)}; before=copy.deepcopy(result)
+        study=PublicNoteLanguageStudy('.')
+        def loaded(path):
+            return [p] if path.name=='inputs.json' else [r] if path.name=='references.json' else []
+        with patch.object(study,'verified',return_value=result), patch('triage_bench.public_note_language_service.load',side_effect=loaded),patch('pathlib.Path.read_text',return_value=''):
+            self.assertIsNone(study.card(p['id'])['reference'])
+            self.assertNotIn('end_to_end_correct',study.card(p['id'])['outcomes']['meaning'][0])
+            self.assertEqual(study.card(p['id'],True)['reference'],r)
+            self.assertEqual(result,before)
+
+    def test_formatted_report_retains_wording_and_selected_input(self):
+        from triage_bench.study_page import render_study
+        from triage_bench.paths import ROOT
+        from types import SimpleNamespace
+        page=render_study(SimpleNamespace(root=ROOT),{'doc':'public-note-language','return':'/note-language?wording=negated&arm=meaning&sentence=s07&round=2#input'}).decode()
+        self.assertIn('/note-language?wording=negated&amp;arm=meaning&amp;sentence=s07&amp;round=2#input',page)
