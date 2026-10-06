@@ -8,7 +8,7 @@ Read docs/operations-fit.md, docs/full-workflow.md and docs/subject-robustness.m
 
 Next decision: explicit analyst claim entry (recommended) versus continued ordinary report interpretation. The failed automatic candidate cannot advance to fresh validation, and the trusted-field control cannot silently replace it. Freeze a new task/protocol after that choice. Same-assistant work is authorized, but cannot establish independently authored report performance or actual analyst effort. Do not create more wording tweaks merely to chase a passing result.
 
-Use scripts.verify_full_workflow for all twenty-six studies and both original pack validators without inference. The new release assets are excerpt-subject-v1, subject-robustness-v1 and full-workflow-v1; restore their predecessors first. Publication and fresh-clone verification are recorded in docs/evidence.md and docs/verification.md.
+Use scripts.verify_full_workflow for all twenty-six studies and both original pack validators without inference. The new release assets are excerpt-subject-v1, subject-robustness-v1 and full-workflow-v1; restore their predecessors first. All twenty-six published assets preserve 9,484 actual responses in 1,158 files. A separate clean checkout passes all 311 tests and the complete replay without credentials or inference; all twenty-nine browser scripts pass syntax checks. Published sizes/checksums match their manifests. Publication and verification are recorded in docs/evidence.md and docs/verification.md.
 
 ## Historical checkpoints
 

@@ -249,3 +249,21 @@ The paired round-one clean loss is visible: NWL-aa6833fe95e5, negated s07, recei
 A fresh local clone at ad6cda0 restores all twenty-three checksum-verified assets and 1,146 files in its own locked Python 3.14.3 environment. With API-key variables removed and no local .env, it passes all 285 tests, twenty-six browser-script syntax checks and the full twenty-three-stage verifier, including both original pack validators. Verification makes zero inference calls and confirms every protected panel remains unopened. GitHub reports prefix-subject-v1 as 357,786 bytes with SHA-256 f32ac103fa2dc75f98ed761d35f33418936ddee9c39374919d5e069a80f8b63f, matching the committed manifest.
 
 Final visual inspection identifies and corrects blocked inline styles: the prefix marker rules now load from a served stylesheet under the existing security policy. After reload, five sentences following s07 appear dashed and faded, while the selected literal claim, redis reply and withheld display remain visible. All seventeen targeted prefix and HTTP-service tests pass after this presentation fix. Disk exhaustion during the first restoration attempt is resolved by clearing reproducible ignored run copies from an earlier disposable verification clone; the complete restoration and checks above then pass.
+
+## Excerpt, context challenges and complete workflow, 2026-10-06
+
+All three new studies complete their separately committed protocols without retries, repairs, threshold changes or new recording access. The exact phase requests, original raw replies, dependent bindings, full denominators and quarantines replay to the committed results. The twenty-six-stage verifier also runs both original pack validators and confirms the 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
+
+The local suite passes 311 tests. A separate clean checkout updated to c4d1cf2 restores all twenty-six checksum-verified assets and 1,158 files in its own locked Python 3.14.3 environment, with API-key variables removed and no local `.env`. It passes the same 311 tests and complete replay with zero inference calls. Updating that checkout to 3c2283e checks all twenty-nine browser scripts after the final navigation refinements; the Python implementation is unchanged between those commits.
+
+Browser review covers literal context boundaries, clean/swapped composition, full/prefix/excerpt controls, application and pattern filters, aggregate panels, quotation failures, inconsistent raw replies, automatic/parser/trusted-field selection, empty parser skips, separate reference reveal and formatted report return links. Trusted fields remain explicitly supplied by construction, and a wrong interpretation remains unsafe even when its numerical verdict coincides. The final cache signature includes review-policy and source-evidence dependencies.
+
+GitHub reports each published asset's size and SHA-256 matching its manifest:
+
+| Asset | Bytes | SHA-256 |
+| --- | --- | --- |
+| excerpt-subject-v1 | 347,645 | `5e327461c603e376527b00b45199fb6d1f82e79bb008864890c0571b90ec3d51` |
+| subject-robustness-v1 | 257,268 | `9e1cad4d2e82652236b999f0eb37d18cae78e5326f6d24270e799610019dda6c` |
+| full-workflow-v1 | 621,718 | `f517f6dff50a7e0143b772bb1b95e52fdbef1ee52cddd0f4940e077884961e71` |
+
+The assets preserve 2,619 new actual calls on familiar recordings, bringing the cumulative total to 9,484. These checks verify reproducibility and failure accounting, not operational readiness. The same assistant authored the controlled notes and references; human and independent review counts remain zero. The automatic candidate fails, so fresh validation awaits a separately defined workflow contract.
