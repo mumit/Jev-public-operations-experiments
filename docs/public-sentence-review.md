@@ -82,3 +82,5 @@ The next useful diagnostic is a paired change to the speech-act and assertion-fa
 Keep the notes, references, service inventories, verdict policy and 0.70 boundaries fixed. Freeze the new definitions and budget before calls, then report wrong bindings, lost correct claims and complete-note coverage alongside gains. That comparison would be development on inspected notes. Fresh or independently authored notes would still be needed to test generalization.
 
 Sentence-level review is now implemented and tested. The remaining question is whether clearer extraction definitions improve useful coverage without admitting wrong bindings. Lowering the threshold on these inspected failures would answer a different question.
+
+The separate [extraction-definition diagnostic](public-extraction-contrast.md) now tests those isolated changes. Assertion-family-only recovers seven claims against its fresh baseline; the declared combined candidate regresses and fails. These new replies do not change the results or validation comparison above.

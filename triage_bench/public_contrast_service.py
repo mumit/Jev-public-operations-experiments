@@ -20,7 +20,7 @@ class PublicContrastStudy:
         if signature != self._signature:
             committed(RESULT); result = score()
             if result != load(RESULT):
-                raise ValueError('Sentence-review results changed.')
+                raise ValueError('Extraction-contrast results changed.')
             self._signature, self._result = signature, result
         return self._result
 
