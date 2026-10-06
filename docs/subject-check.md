@@ -28,7 +28,7 @@ The assistant authored and previously inspected these notes and annotations. Zer
 
 ## Results
 
-All 324 calls completed with 2,916 valid answers. No fields needed quarantine. Train Ticket passes every application, wording and round check; Online Boutique fails all of them. The candidate fails overall and receives no promotion.
+All 324 calls completed with 2,916 valid answers. No fields needed quarantine. Train Ticket passes every wording and round check; Online Boutique fails each panel. The candidate fails overall and receives no promotion.
 
 | Application / input | Correct verdicts, rounds 1–3 | Correct subject checks | Safe displayed | Unsafe displayed |
 | --- | --- | --- | --- | --- |

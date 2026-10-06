@@ -245,3 +245,15 @@ uv run --locked --extra public-data python -m scripts.verify_binding_corruption
 ```
 
 The original-sentence and altered-proposition references, plan, exact protocol and assessment are committed separately from inputs. Two inconsistent fields remain quarantined: 2,428 of 2,430 raw verdicts validate. No protected recording or human review enters this diagnostic. The nineteen assets preserve 4,516 actual replies in 1,134 files; verification makes no calls.
+
+## Explicit subject-check evidence
+
+The [subject-check-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/subject-check-v1) adds 324 actual replies on 27 inspected controlled notes. Two exact sentence baselines compare with two inputs that ask for both a subject check and an original-sentence verdict. Its three files preserve exact requests, all 2,916 valid raw answers and once-only execution records. The archive is 230,327 bytes. Restore all nineteen preceding assets first.
+
+```bash
+gh release download subject-check-v1 --repo mumit/Jev-public-operations-experiments --pattern subject-check-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/subject-check-v1.tar.gz --manifest evidence/subject-check-v1.json
+uv run --locked --extra public-data python -m scripts.verify_subject_check
+```
+
+The plan, exact protocol, separate references and assessment are committed. The overall candidate fails: Online Boutique loses clean displays and still displays one corrupted-subject error. Train Ticket passes without a clean-display loss. No protected recording or human review enters the diagnostic. The twenty assets preserve 4,840 actual replies in 1,137 files; verification makes no calls.
