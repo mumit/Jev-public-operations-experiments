@@ -52,3 +52,17 @@ The calculated input gains 298 correct displays against contemporary typed contr
 The useful transformation is concrete: generate a direct comparison from the selected fields, include only its relevant policy, preserve missingness, and compute eligibility and arithmetic in code. The focused step changes wording, state and policy scope together, so this study cannot attribute its gain to one change. The calculated step adds only derived facts and their explanation to the focused request. Its success demonstrates assisted policy checking. The exact evaluator already supplies the verdict without a model call, so this does not establish extra value from Jev for numerical policy execution.
 
 A new confirmation protocol will use another three unallocated RE1-OB groups. The first experiment's fifteen-recording allocation stays unopened. Fresh metrics can test transfer of the frozen calculated input, while actual analyst entry errors, effort and usefulness require a person using the workflow.
+
+## Fresh confirmation is paused
+
+Three separately frozen preparations downloaded fifteen recordings each, then stopped before producing claim inputs, references, a request protocol or hosted calls. All source bytes and failure audits remain preserved.
+
+1. The older adapter rejected native `load` and `latency` names.
+2. The first native adapter rejected `workload` in later groups. The next version retains the original known-channel allowlist plus `load` and `latency`, with no aliases.
+3. The complete allowlist reached a recording with 63 timestamps, all before the declared injection time. Its last timestamp is 1685371799; the injection time is 1685373255. There are no post-incident rows to compare.
+
+The forty-five downloaded recordings are now opened, even though no Jev confirmation ran. None can be relabeled untouched. The first experiment's separate fifteen-recording allocation and all earlier protected panels remain unopened.
+
+The next decision is whether to retain the incomplete recording as missing evidence or replace its entire service/fault group. Retaining it requires a new contract that keeps the absent after-window unknown and makes both assertion polarities unanswerable. Replacing the group requires a new grouped allocation. Either choice needs a frozen protocol before further inference; the completed results and failed producers remain unchanged.
+
+My recommendation is to retain missing evidence. That tests a condition an operations workflow must handle without inventing measurements. It will still be a controlled public-data experiment. Actual analyst accuracy, preparation time and usefulness require someone using the form; the current fixtures cannot measure them.

@@ -1,0 +1,204 @@
+{
+  "schema": "explicit-preparation-failure-1",
+  "plan_sha256": "5e70f38e5dbb42a127a8456939c56d5f3d8d27a68b3ba16d422f69f7ffaa2591",
+  "recordings_downloaded": 15,
+  "hosted_calls": 0,
+  "inputs_prepared": 0,
+  "references_prepared": 0,
+  "status": "failed_before_protocol_or_inference",
+  "reason": "A recording ends before its declared injection time, outside the frozen two-window input contract. No rows, onset, source groups or references were repaired.",
+  "decision_required": "Retain missing post-incident evidence under a new contract or replace the entire group under a new allocation.",
+  "publisher_verification": "Rechecked pinned metadata after the exception, not an original execution journal.",
+  "outside_declared_window": [
+    {
+      "recording": "ECV-b8561bee2131",
+      "time_start": 1685371737,
+      "time_end": 1685371799,
+      "declared_incident_time": 1685373255,
+      "before_rows": 63,
+      "after_rows": 0
+    }
+  ],
+  "files": [
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-fb727aea066d/metrics.parquet",
+      "bytes": 397123,
+      "sha256": "6a301f24faf9144dec6df0a9530a14ecc15814851d6463955050c70628c34a60",
+      "publisher_hash": "6a301f24faf9144dec6df0a9530a14ecc15814851d6463955050c70628c34a60"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-fb727aea066d/inject_time.txt",
+      "bytes": 10,
+      "sha256": "2b7dfa4193e63e2a5abe88cc7435c0d0591ebbf703c9e1e7c7c77beefc7ca8e3",
+      "publisher_hash": "e9b4dfcc4afcf93b60d0e4ed226cec2e910467d6"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-2e0c162228d7/metrics.parquet",
+      "bytes": 423000,
+      "sha256": "2d66b27ca40e6c32c1b8debdde04ab58283ef43b173ae5c304180f1de6e14e92",
+      "publisher_hash": "2d66b27ca40e6c32c1b8debdde04ab58283ef43b173ae5c304180f1de6e14e92"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-2e0c162228d7/inject_time.txt",
+      "bytes": 10,
+      "sha256": "c074aaa7ccf687af8e4fbf01e9137ee91fd987835e4df97d94c20ac5208a0063",
+      "publisher_hash": "b4ad5a9f53544f44c83b9545679820da10af39ac"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-180f7b2586b1/metrics.parquet",
+      "bytes": 402967,
+      "sha256": "14733813d79c891dc45749dfa151c133a4e281c10d6d1b67eb7e77255c1b1606",
+      "publisher_hash": "14733813d79c891dc45749dfa151c133a4e281c10d6d1b67eb7e77255c1b1606"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-180f7b2586b1/inject_time.txt",
+      "bytes": 10,
+      "sha256": "ada64b370897057044cfa9d049e4305175e7bcd68c9c4358b05cb8f211a14e6c",
+      "publisher_hash": "92d0291ffad81592c6a76f92eef86a3be3f3ea18"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-1b5f93e2e99c/metrics.parquet",
+      "bytes": 402081,
+      "sha256": "33a89afd0b213e14530bb423304ada0f7b5e08d302da0f349ba70566026a5e3f",
+      "publisher_hash": "33a89afd0b213e14530bb423304ada0f7b5e08d302da0f349ba70566026a5e3f"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-1b5f93e2e99c/inject_time.txt",
+      "bytes": 10,
+      "sha256": "131661c4bdd74fde762fb08c5ea48dc470cc64d416187f7cbc27ca365cce8552",
+      "publisher_hash": "ec61f800a293cd8e2406d113a76f394710aeea96"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-56a46cd0e1cd/metrics.parquet",
+      "bytes": 395846,
+      "sha256": "a74214aee3bce46e1e3621a2cbaf6a8ba90f1e89936d4e26cc12b25e8c4d8e9b",
+      "publisher_hash": "a74214aee3bce46e1e3621a2cbaf6a8ba90f1e89936d4e26cc12b25e8c4d8e9b"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-56a46cd0e1cd/inject_time.txt",
+      "bytes": 10,
+      "sha256": "57cf986d37ffd18f7126ff9f0ad9fb9d680543c3b3b2e37b6f9804c4b3c41a4d",
+      "publisher_hash": "4e7d8074dd134f5ff7562eec1d9aacfdb18c92d0"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-bd9a8953a122/metrics.parquet",
+      "bytes": 150061,
+      "sha256": "0e3b5611a589a6d321852a6f5f7bb7e55f5318a9b52f203d1d26948f90590559",
+      "publisher_hash": "0e3b5611a589a6d321852a6f5f7bb7e55f5318a9b52f203d1d26948f90590559"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-bd9a8953a122/inject_time.txt",
+      "bytes": 10,
+      "sha256": "1c8e3882d9d45e0d78a84bccd7e4931d0c9f351f834051411609828564bca1d3",
+      "publisher_hash": "d057f7546e2d2a2813dc95722f8679374b82ac8e"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-5e7ba697f272/metrics.parquet",
+      "bytes": 144725,
+      "sha256": "c9004d22be63d0ab8beefed33fc6a682a86818c5afae429d7769176c3c6da5c4",
+      "publisher_hash": "c9004d22be63d0ab8beefed33fc6a682a86818c5afae429d7769176c3c6da5c4"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-5e7ba697f272/inject_time.txt",
+      "bytes": 10,
+      "sha256": "1c185af3565849a34efd4b65b259fbba1c073ea2066f54f65c904ac981af562c",
+      "publisher_hash": "8cac2586ff67e86232aaf8c4963abb3f0ce0f5cd"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-b1ebbe46cf1d/metrics.parquet",
+      "bytes": 145325,
+      "sha256": "a685b9d747869623caf3f5419e5fbe56c05f44f09a2cca3411cc6d9bda8658ff",
+      "publisher_hash": "a685b9d747869623caf3f5419e5fbe56c05f44f09a2cca3411cc6d9bda8658ff"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-b1ebbe46cf1d/inject_time.txt",
+      "bytes": 10,
+      "sha256": "be7f2828af1fbee0ec2cb7fcb7e20a51944ff5468efdc2cf831bd0915a69f83f",
+      "publisher_hash": "106ee385b224893e27d36d2f93456ba221cbed5a"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-6eaa1d568762/metrics.parquet",
+      "bytes": 141834,
+      "sha256": "c1af3c207e5164de117241b66eca4aa62c939edc1cef30573fd29454e2c5db83",
+      "publisher_hash": "c1af3c207e5164de117241b66eca4aa62c939edc1cef30573fd29454e2c5db83"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-6eaa1d568762/inject_time.txt",
+      "bytes": 10,
+      "sha256": "fdcb5b4f62a08e46862924e918a1b31bc6aeb4c09470ae460e01da46a1d23bf0",
+      "publisher_hash": "df31fdd5d0afc108d0116fc7813c2d12399481dd"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-eb93a9f512da/metrics.parquet",
+      "bytes": 137566,
+      "sha256": "e9698994042bb54ed6eed0d83edddd96411203be8e61bc13b61f7eee8eb3be05",
+      "publisher_hash": "e9698994042bb54ed6eed0d83edddd96411203be8e61bc13b61f7eee8eb3be05"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-eb93a9f512da/inject_time.txt",
+      "bytes": 10,
+      "sha256": "171b5ef1ee2e32cd541a4865ecad6383bfc09e397322c92ea3ed1ca399aa3051",
+      "publisher_hash": "637b1ca0c99f1cf858a86e53a0f431c5abe5be4e"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-d251d408ebe7/metrics.parquet",
+      "bytes": 359575,
+      "sha256": "ed6d4733ce0cce697b747316cf01448ca78f62c152f469f6c580b907b39eca84",
+      "publisher_hash": "ed6d4733ce0cce697b747316cf01448ca78f62c152f469f6c580b907b39eca84"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-d251d408ebe7/inject_time.txt",
+      "bytes": 10,
+      "sha256": "7d6322b6de321ced64d5af25f12084ecb96d90a28e59620247158f51b3a72618",
+      "publisher_hash": "22195a8a8596ceb37b9875a1490452e8e003a104"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-5b702556ff3c/metrics.parquet",
+      "bytes": 368440,
+      "sha256": "920ddec1219d9bf714d9e11f6f91b21c20086badfba1ff4a419abe2deff5ed90",
+      "publisher_hash": "920ddec1219d9bf714d9e11f6f91b21c20086badfba1ff4a419abe2deff5ed90"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-5b702556ff3c/inject_time.txt",
+      "bytes": 10,
+      "sha256": "894e9b338721dd92fd7061676231d1355bb5f903cee0efeac9914b880f0c6f90",
+      "publisher_hash": "7e04b0816751e8677b429b0339d120c8585245de"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-b8561bee2131/metrics.parquet",
+      "bytes": 45244,
+      "sha256": "b05a5a4d5e05ba6ba77836f242e0f5f794048e346c9bd4a69b9e716fef2423aa",
+      "publisher_hash": "b05a5a4d5e05ba6ba77836f242e0f5f794048e346c9bd4a69b9e716fef2423aa"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-b8561bee2131/inject_time.txt",
+      "bytes": 10,
+      "sha256": "fb8cb94e0ab1a8ee4ac4ae1c4ec0f315094a5bda808ed9e3626eaf116299d028",
+      "publisher_hash": "40976b5ec8e5ded0d7aa3080ade9a19074c39ffa"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-615b2440f56f/metrics.parquet",
+      "bytes": 556381,
+      "sha256": "06cfd022a225cc5aeab386aa20e515ca53cf3660bef857418748088ce0dc73eb",
+      "publisher_hash": "06cfd022a225cc5aeab386aa20e515ca53cf3660bef857418748088ce0dc73eb"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-615b2440f56f/inject_time.txt",
+      "bytes": 10,
+      "sha256": "1ebdcf7f2a78859e806600237a71391d0abbfaeab21bfbf995f877767211666d",
+      "publisher_hash": "1b4010b7f655d7b6b94ccd6973e0feadd8b8080a"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-77c09be94139/metrics.parquet",
+      "bytes": 540346,
+      "sha256": "8a3d170d74790b39c6852303404efc94e1fa9a8ca544d1ffc2881998c0e978c2",
+      "publisher_hash": "8a3d170d74790b39c6852303404efc94e1fa9a8ca544d1ffc2881998c0e978c2"
+    },
+    {
+      "path": "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-77c09be94139/inject_time.txt",
+      "bytes": 10,
+      "sha256": "bbe1a8d6c8136bf6140d970bd1dc1fef06f21ebc558fd15bffc5c3f6867929d9",
+      "publisher_hash": "a7e8c959c1fb6a7ad68b9f3d1b4cf4cb0a6869dc"
+    }
+  ]
+}
