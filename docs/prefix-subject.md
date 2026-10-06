@@ -63,7 +63,7 @@ Against the clean numerical baseline, the prefix still withholds 6/5/6 correct c
 
 For NWL-59bca7262cdd, s07, full-note calls select recommendationservice at 0.70/0.52/0.50. Prefix calls select the correct redis at 0.51/0.47/0.45. The prefix fixes this repeated subject assignment but still withholds the clean verdict in every round.
 
-In round one, the full-note subject clears the gate under the swapped recommendationservice proposal. The numerical verdict is supported at 1.00, while the original redis claim is unanswerable at 0.97 because trace coverage is missing. The app displays unsafe guidance. Prefix context instead identifies redis and blocks the swapped proposal.
+In round one, the full-note subject clears the gate under the swapped recommendationservice proposal. The swapped numerical call returns supported at 1.00; the clean baseline returns unanswerable at 0.97, consistent with missing redis trace coverage. The app displays unsafe guidance. Prefix context instead identifies redis and blocks the swapped proposal.
 
 Prefix produces no unsafe display in this run; full-note context produces one. That observed difference does not establish an operational error rate or consistent safety advantage. The neighboring health sentence, s08, still receives a wrong prefix subject in round two.
 
@@ -87,7 +87,7 @@ Clean and swapped workflows share their subject replies and reuse their respecti
 
 ## Limits and next experiment
 
-The same assistant wrote and inspected these notes and references. Human and independent reviews remain zero. Every tested claim has a uniquely resolvable earlier subject; future-dependent and genuinely unresolved reports remain untested. Repeated calls are not independent incidents. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
+The same assistant wrote and inspected these notes and references. Human and independent reviews remain zero. Each pronoun claim has a uniquely resolvable earlier subject; future-dependent and genuinely unresolved reports remain untested. Repeated calls are not independent incidents. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
 
 I will next test a shorter excerpt starting at the last sentence that explicitly names one observed service and ending at the queried claim. Code will select literal text using the observed inventory, without reference subjects or rewritten pronouns. If the latest named sentence mentions multiple services, the full prefix will remain. Fresh prefix controls, unchanged verdict calls and a new frozen protocol will test gains and regressions. This rule is a diagnostic for the inspected notes, not a general report-reading policy.
 

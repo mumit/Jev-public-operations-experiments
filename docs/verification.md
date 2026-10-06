@@ -241,3 +241,11 @@ All 285 tests and twenty-six browser-script syntax checks pass. Twelve prefix ch
 
 
 Browser review covers both applications, all six workflows, plain/negated/boundary wording, repeated rounds, nonclaims without subject questions and reference reveal/reset. The recurring redis example exposes the full-note unsafe display and prefix withholding. The raw inconsistent selection, complete distribution and validation error remain visible without repair; a valid numerical verdict still displays for inspection while its sentence is quarantined. Exact requests identify one subject question, ledger-free state and the unchanged six-question verdict source. Costs disclose shared replies; the formatted report returns to the selected workflow, round and sentence. Browsing triggers no inference or human review.
+
+
+The paired round-one clean loss is visible: NWL-aa6833fe95e5, negated s07, receives the correct frontend-external subject at 0.67 under prefix context and is withheld. Its fresh full-note control selects the same service at 0.81 and displays the correct verdict. This is a probability-boundary loss, not a subject-assignment regression.
+
+
+A fresh local clone at ad6cda0 restores all twenty-three checksum-verified assets and 1,146 files in its own locked Python 3.14.3 environment. With API-key variables removed and no local .env, it passes all 285 tests, twenty-six browser-script syntax checks and the full twenty-three-stage verifier, including both original pack validators. Verification makes zero inference calls and confirms every protected panel remains unopened. GitHub reports prefix-subject-v1 as 357,786 bytes with SHA-256 f32ac103fa2dc75f98ed761d35f33418936ddee9c39374919d5e069a80f8b63f, matching the committed manifest.
+
+Final visual inspection identifies and corrects blocked inline styles: the prefix marker rules now load from a served stylesheet under the existing security policy. After reload, five sentences following s07 appear dashed and faded, while the selected literal claim, redis reply and withheld display remain visible. All seventeen targeted prefix and HTTP-service tests pass after this presentation fix. Disk exhaustion during the first restoration attempt is resolved by clearing reproducible ignored run copies from an earlier disposable verification clone; the complete restoration and checks above then pass.
