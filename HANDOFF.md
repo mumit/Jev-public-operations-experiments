@@ -2,11 +2,11 @@
 
 ## Current state
 
-The controlled binding-corruption diagnostic is complete: 405 calls, 2,430 raw answers and 2,428 valid verdicts. Both clean controls remain perfect. Wrong-service inputs give confidently wrong verdicts for every divergent pronoun claim: 18 Train Ticket and 30 Online Boutique claims per round, under both question formats. Sentence input preserves divergent direct-name verdicts; explicit meaning loses most of them. Reversed polarity preserves every original verdict, with some Online Boutique withholding. Read docs/binding-corruption.md and inspect /binding-corruption.
+The explicit subject-check comparison is complete: 324 calls and 2,916 valid answers. Train Ticket passes every panel, retains all 54 clean displays per round and detects every corrupted subject. Online Boutique fails every panel: clean displays fall from 108 to 81/82/83, with 2/2/3 clean verdict errors. A wrong subject and wrong verdict still display once in round one. The overall candidate fails; no promotion occurs. Read docs/subject-check.md and inspect /subject-check.
 
-Zero human or independent reviews occurred. The same assistant authored these notes and their annotations. The user authorized automatic continuation; the separate assistant-review decisions remain frozen. The human workflow and drafts stay available at /claim-review.
+Zero human or independent reviews occurred. The same assistant authored and previously inspected these notes and annotations. Earlier request producers and the human review workflow remain frozen; browser drafts are unchanged.
 
-Restore all nineteen bundles and run scripts.verify_binding_corruption for the complete chain and both original pack validators. The suite has 240 tests and twenty-two browser scripts. The assets preserve 4,516 actual responses in 1,134 files. Protected recordings remain unopened. The recommended next diagnostic checks subject/binding conflict before issuing a verdict, under a new protocol; there is no promoted candidate or operational reliability claim.
+Restore all twenty bundles and run scripts.verify_subject_check for the full chain and both original pack validators. The suite has 250 tests and twenty-three browser scripts. Assets preserve 4,840 actual responses in 1,137 files. Protected recordings remain unopened. The next recommended diagnostic separates a text-only subject check from numerical verdict assessment under a new protocol; it does not reopen protected data or establish operational reliability.
 
 ## Recorded findings
 

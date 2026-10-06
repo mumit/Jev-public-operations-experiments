@@ -93,3 +93,23 @@ class SubjectCheckTests(unittest.TestCase):
         refs,rows=self.fixture();rows=[r for r in rows if not(r['card_id']==self.packets[0]['id'] and r['arm']=='clean_checked' and r['round']==1)]
         r=t.assess(self.packets,refs,rows);m=r['panels']['Train Ticket']['all']['arms']['clean_checked'][0]['strata']['all']
         self.assertEqual(m['denominator'],54);self.assertEqual(m['correct'],48);self.assertEqual(m['subject_correct'],48);self.assertFalse(m['complete']);self.assertFalse(r['candidate_passes'])
+
+    def test_inspector_hides_references_and_composes_only_actual_answers(self):
+        from unittest.mock import patch
+        from triage_bench.subject_check_service import SubjectCheckStudy
+        from triage_bench.paths import ROOT
+        study=SubjectCheckStudy(ROOT);saved=t.load(t.RESULT);snapshot=copy.deepcopy(saved)
+        with patch.object(study,'verified',return_value=saved):
+            hidden=study.card(self.packets[0]['id']);shown=study.card(self.packets[0]['id'],True)
+            self.assertIsNone(hidden['reference']);self.assertTrue(shown['reference'])
+            self.assertNotIn('outcomes',study.overview());self.assertEqual(saved,snapshot)
+            for row in hidden['composition']:
+                for value in row['sentences'].values():self.assertNotIn('reference',value);self.assertNotIn('safe',value)
+
+    def test_report_keeps_selected_case_return(self):
+        from types import SimpleNamespace
+        from triage_bench.paths import ROOT
+        from triage_bench.study_page import render_study
+        target='/subject-check?dataset=Online+Boutique&wording=boundary&arm=wrong_checked&round=1&sentence=s07'
+        html=render_study(SimpleNamespace(root=ROOT),{'doc':'subject-check','return':target}).decode()
+        self.assertIn('Check the subject before displaying a verdict',html);self.assertIn('wrong_checked',html)
