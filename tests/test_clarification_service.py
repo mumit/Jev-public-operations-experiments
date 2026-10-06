@@ -1,7 +1,7 @@
 import unittest,json
 from types import SimpleNamespace
 from unittest.mock import patch
-from triage_bench.clarification_service import ClarificationStudy
+from triage_bench.clarification_service import ClarificationStudy,snapshot
 from triage_bench.clarification_features import FIELDS,compose
 from triage_bench.study_page import return_path,render_study
 from triage_bench.paths import ROOT
@@ -25,6 +25,16 @@ class InspectorTests(unittest.TestCase):
         with self.assertRaises(ValueError):s.trial('other')
         with patch.object(s,'verified',return_value={'outcomes':[]}),patch.object(focused,'load',return_value=[]):
             with self.assertRaises(ValueError):s.card('unknown')
+    def test_saved_snapshots_preserve_rejected_replies_and_detect_byte_drift(self):
+        for t in (original,focused):
+            r=snapshot(t);self.assertEqual(r,t.load(t.result_path()))
+        self.assertFalse(r['candidate_passes']);self.assertEqual(r['valid_fields'],2734)
+        from pathlib import Path
+        real=Path.read_bytes
+        def drift(path):
+            return real(path)+b' ' if path==focused.output()/'responses.jsonl' else real(path)
+        with patch.object(Path,'read_bytes',drift):
+            with self.assertRaises(ValueError):snapshot(focused)
     def test_reader_preserves_stage_arm_and_selection(self):
         path='/clarification?phase=focused&method=control&card=fixture&round=3#wire'
         self.assertEqual(return_path(path),path)

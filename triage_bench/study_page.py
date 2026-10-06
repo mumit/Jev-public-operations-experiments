@@ -33,7 +33,7 @@ def render_study(study,params):
             for key,path in DOCUMENTS.items():
                 if p.path in {path,Path(path).name,'../'+path,'../'+Path(path).name}:
                     return '/study?'+urlencode({'doc':key,'return':back})+('#section-'+p.fragment if p.fragment else '')
-        if p.hostname in {'localhost','127.0.0.1'} and p.path in {'/','/public-rca','/public-format','/repeatability','/temporal','/selective','/agreement','/traces','/trace-task','/evidence-assessment','/claim-assessment','/claim-language','/report-reading','/explicit-claims','/subject-robustness','/full-workflow','/excerpt-subject','/prefix-subject','/direct-subject','/separate-subject','/subject-check','/binding-corruption','/assistant-review','/claim-review','/note-language','/extraction-contrast','/sentence-review','/note-extraction','/fresh-claims','/claim-binding','/study'}:
+        if p.hostname in {'localhost','127.0.0.1'} and p.path in {'/','/public-rca','/public-format','/repeatability','/temporal','/selective','/agreement','/traces','/trace-task','/evidence-assessment','/claim-assessment','/claim-language','/report-reading','/clarification','/explicit-claims','/subject-robustness','/full-workflow','/excerpt-subject','/prefix-subject','/direct-subject','/separate-subject','/subject-check','/binding-corruption','/assistant-review','/claim-review','/note-language','/extraction-contrast','/sentence-review','/note-extraction','/fresh-claims','/claim-binding','/study'}:
             return p.path+('?' +p.query if p.query else '')+('#'+p.fragment if p.fragment else '')
         return href
     md = MarkdownIt('js-default')
