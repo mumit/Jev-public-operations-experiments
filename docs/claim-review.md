@@ -58,3 +58,7 @@ The first blocker is an actual human review. Complete one whole note and supply 
 Then freeze the review set, final decisions, comparison, exact requests and call budget before any once-only verdict run. Compare automatic proposals with human-confirmed bindings, reporting corrected fields, withheld sentences, new mistakes and verdict coverage separately. A pilot can report the number of final corrections; these exports do not measure elapsed review time, intermediate edits or the time saved against unaided reading. Measuring those needs a separate prospective protocol and genuine human sessions.
 
 No protected recordings open in this stage. The previous model results, frozen sources and seventeen public evidence assets remain unchanged.
+
+## Continuing without human decisions
+
+The user later selected a separate [assistant-reviewed diagnostic](assistant-review.md). That experiment is complete and explicitly records zero human reviews. It leaves this human workflow and its frozen fingerprint intact. Human participation remains necessary to measure actual analyst behavior, but it is not a prerequisite for further clearly labeled assistant-only controlled experiments.

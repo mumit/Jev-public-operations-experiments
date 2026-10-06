@@ -4,12 +4,13 @@ I am testing where Jev can help operations analysts: selecting investigation lea
 
 The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
-The new [claim review workflow](http://127.0.0.1:8769/claim-review) lets an analyst confirm Jev's extracted service and meaning before a verdict request. This stage has no new model results; it awaits actual reviews.
+The latest [assistant-reviewed comparison](http://127.0.0.1:8769/assistant-review) judges and displays every reviewed claim correctly with both sentence/service and explicit-meaning inputs. These are same-author decisions on controlled notes, with zero human or independent reviews. The [human review workflow](http://127.0.0.1:8769/claim-review) remains available.
 
 ## Completed comparisons
 
 | Study | Evidence | Result |
 |---|---|---|
+| Assistant-reviewed verdicts | 27 controlled notes, two inputs, three rounds; no human reviews | Both inputs judge and display 162/162 claims correctly each round. Explicit meaning adds no observed benefit and uses 8.1% more input tokens. Same-author review; no independent validation. |
 | New-note wording | Three styles on nine inspected recordings, two inputs, three rounds | Family-only gives 430/486 correct end-to-end judgments versus baseline 447/486. It displays no wrong binding; baseline displays two. Both application checks fail; no promotion. |
 | Extraction definitions | Same nine notes, four inputs, three rounds | Assertion-family-only recovers seven claims: 160/162 versus baseline 153/162. Combined loses eleven overall and fails both checks. No accepted wrong binding or unsafe verdict; no candidate promotion. |
 | Sentence review | Same nine inspected notes and exact extraction bodies, three new rounds | Jev accepts 152/162 correct bindings, then judges and displays all 152 correctly. Both full-note coverage checks fail. No inconsistent replies recur, so both validators give the same new bindings. |
@@ -86,6 +87,7 @@ uv run --locked --extra public-data python -m scripts.verify_public_trace_task
 uv run --locked --extra public-data python -m scripts.verify_public_binding
 uv run --locked --extra public-data python -m scripts.verify_public_fresh_claims
 uv run --locked --extra public-data python -m scripts.verify_public_note_language
+node --check triage_bench/web/assistant-review.js
 node --check triage_bench/web/claim-review.js
 node --check triage_bench/web/public-rca.js
 node --check triage_bench/web/public-format.js
@@ -111,4 +113,4 @@ The evidence verifier reconstructs ML from training-only inputs, rebuilds every 
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Complete one note in the claim review workflow, download its JSON and run the local validator described in [the guide](docs/claim-review.md). Actual human reviews are pending. A new exact protocol and budget must precede any verdict calls. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
+Read [the assistant-review report](docs/assistant-review.md). Further controlled tests can proceed without human decisions; the next candidate is sensitivity to corrupted subject or meaning fields. A new exact protocol and budget must precede any calls. Human reviews are still needed to measure actual analyst behavior. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.

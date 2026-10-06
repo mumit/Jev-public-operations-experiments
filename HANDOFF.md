@@ -2,11 +2,11 @@
 
 ## Current state
 
-The new-note wording diagnostic is complete. Family-only gives 430/486 correct end-to-end judgments versus baseline 447/486, with ten gains and twenty-seven losses. It displays no wrong binding; baseline displays two. Both application checks fail. Only Train Ticket's plain-paraphrase panel passes. Every correctly bound accepted claim gets a correct displayed verdict. Five malformed sentence fields quarantine requests, unendorsed allegations or a compound without repairing answers. No input is promoted.
+The assistant-reviewed verdict comparison is complete. Both inputs judge and display 162/162 reviewed claims correctly in every round on 27 controlled notes. Explicit meaning adds no observed benefit and uses 8.1% more input tokens. Review admits eighteen first-round withheld claims and corrects four relevant bindings. Zero human or independent reviews occurred; the same assistant authored the notes and annotations. Read docs/assistant-review.md and inspect /assistant-review.
 
-The next step is analyst confirmation of extracted subjects and meanings. Read docs/claim-review.md and use /claim-review. The workflow is ready, but actual human review exports are pending; interactive usefulness remains unmeasured. All producers and historical protocols stay frozen. The read-only app on port 8769 exposes actual requests, replies and explicitly revealed references without inference.
+The user authorized proceeding without human decisions on 2026-10-05. The separate protocol supersedes the human-export prerequisite for this same-assistant diagnostic only. Original review sources, note-language failures and historical protocols stay frozen. The human workflow remains available at /claim-review; its browser drafts and fingerprint are unchanged.
 
-Restore all seventeen bundles, then run scripts.verify_public_note_language for the full chain and both original pack validators. The suite has 224 tests and twenty browser scripts. Earlier synthetic work stays in the original repository.
+Restore all eighteen bundles, then run scripts.verify_assistant_review for the full chain and both original pack validators. The suite has 230 tests and twenty-one browser scripts. All assets preserve 4,111 actual responses in 1,131 files. Earlier synthetic work stays in the original repository. No protected recording opened. A controlled binding-corruption diagnostic is the next recommended automatic test and needs a new protocol; independent analyst usefulness remains unmeasured.
 
 ## Recorded findings
 
@@ -217,3 +217,9 @@ All 324 once-only calls complete, preserving 12,543 raw and 12,538 validated ans
 Read docs/claim-review.md. The new /claim-review page uses all 27 wording-study notes and the fixed family-definition arm, round one. It shows no answer keys or recorded verdicts. Reviewers explicitly confirm/correct a single service and bounded meaning, or withhold each sentence. Drafts stay in browser storage; JSON exports preserve original proposals and final decisions. The new verdict preview passes the reviewed meaning explicitly alongside the exact source text and service ledgers. Numerical policy stays fixed; this new treatment has not run.
 
 The workflow checkpoint fingerprints source, note bytes and recorded proposals. scripts.validate_claim_review requires a complete compatible export, verifies all seventeen historical assets and reconstructs corrections and the exact preview without provider access. Actual human reviews are the blocker. Browser QA and fixture decisions cannot substitute for analyst work. Do not measure elapsed effort from these exports, which record no time or intermediate edits. Freeze a new comparison, exact requests and budget after genuine reviews and before hosted calls. No protected recordings open, and the 3,949 historical responses stay unchanged.
+
+## Completed same-assistant review
+
+All 324 explicit sentence decisions were committed before reopening stored references in this continuation. The audit finds agreement for all 162 routable claims, without post-reference repairs. Earlier authorship and reference exposure mean the review is not blinded or independent. The fixed first-round family-definition proposals withheld eighteen now-confirmed claims; four relevant bindings and six irrelevant-field-only cases change.
+
+The separate once-only protocol made 162 calls and received 972 valid verdicts. Both sentence/service and explicit-meaning inputs judge and display all claims correctly in every application, wording and round. Explicit meaning passes its frozen comparison but adds no observed benefit; prefer simpler bound text for this bounded evidence. Preserve all new producers, assistant review artifact, plan and exact protocol. No human effort or general extraction improvement is claimed. A new corruption-sensitivity protocol must precede further inference; all protected recordings stay unopened.
