@@ -62,3 +62,22 @@ class FullWorkflowTests(unittest.TestCase):
                 r=t.run('initial',profile);self.assertEqual(r['attempted_calls'],1);self.assertEqual(opener.open.call_count,1)
                 self.assertNotIn(profile['api_key'],(dest/'responses.jsonl').read_text())
                 with self.assertRaises(FileExistsError):t.run('initial',profile)
+
+class FullWorkflowConsumerTests(unittest.TestCase):
+    def test_actual_bindings_are_not_repaired_and_references_are_hidden(self):
+        from triage_bench.full_workflow_service import FullWorkflowStudy
+        from triage_bench.paths import ROOT
+        study=FullWorkflowStudy(ROOT)
+        with patch.object(study,'verified',return_value=t.load(t.RESULT)):
+            hidden=study.card('NWL-fe6c9911a37a');shown=study.card('NWL-fe6c9911a37a',True)
+            b=next(b['bindings']['s03'] for b in hidden['bindings'] if b['arm']=='automatic' and b['round']==1)
+            self.assertEqual(b['polarity'],'negative');self.assertTrue(b['accepted'])
+            self.assertEqual(next(a['polarity'] for a in shown['reference']['annotations'] if a['id']=='s03'),'positive')
+            self.assertIsNone(hidden['reference']);self.assertIsNone(hidden['outcomes'])
+            self.assertEqual(len(hidden['candidates']),12);self.assertNotIn('outcomes',study.overview())
+    def test_reader_keeps_workflow_and_sentence(self):
+        from types import SimpleNamespace
+        from triage_bench.study_page import render_study
+        from triage_bench.paths import ROOT
+        html=render_study(SimpleNamespace(root=ROOT),{'doc':'full-workflow','return':'/full-workflow?arm=parser&sentence=s10#inspect'}).decode()
+        self.assertIn('Compare the complete note workflow',html);self.assertIn('arm=parser',html);self.assertIn('sentence=s10',html)

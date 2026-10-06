@@ -85,3 +85,19 @@ class ExcerptSubjectTests(unittest.TestCase):
         a=t.composed_row(index,p['id'],'clean_excerpt',1,r,'s03');b=t.composed_row(index,p['id'],'wrong_excerpt',1,r,'s03')
         self.assertEqual(a['source_call_ids'][0],b['source_call_ids'][0]);self.assertFalse(t.decision(a,'s03',True)['displayed'])
         self.assertTrue(t.decision(t.composed_row(index,p['id'],'clean_excerpt',1,r,'s04'),'s04',True)['displayed'])
+
+    def test_inspector_context_is_source_derived_and_references_are_hidden(self):
+        from triage_bench.paths import ROOT
+        from triage_bench.excerpt_subject_service import ExcerptSubjectStudy
+        study=ExcerptSubjectStudy(ROOT);saved=t.load(t.RESULT)
+        with patch.object(study,'verified',return_value=saved):
+            hidden=study.card(self.packets[0]['id']);shown=study.card(self.packets[0]['id'],True)
+            self.assertIsNone(hidden['reference']);self.assertTrue(shown['reference'])
+            self.assertEqual(hidden['contexts']['s03'],t.excerpt_context(self.packets[0],'s03'))
+            self.assertNotIn('outcomes',study.overview())
+    def test_report_preserves_selected_workflow_and_sentence(self):
+        from types import SimpleNamespace
+        from triage_bench.paths import ROOT
+        from triage_bench.study_page import render_study
+        html=render_study(SimpleNamespace(root=ROOT),{'doc':'excerpt-subject','return':'/excerpt-subject?arm=clean_excerpt&round=2&sentence=s07'}).decode()
+        self.assertIn('latest explicit service context',html);self.assertIn('clean_excerpt',html);self.assertIn('sentence=s07',html)

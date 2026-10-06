@@ -2,9 +2,17 @@
 
 ## Current state
 
-The excerpt comparison completes 1,134 calls and 1,944 valid answers. Online Boutique displays 103/104/104 versus fresh prefix 102/103/103, but gains four and loses three per round, retains subject errors and fails overall. Train Ticket and Online Boutique boundary wording pass; negated wording fails. Both workflows display zero swapped guidance. Read docs/excerpt-subject.md and inspect /excerpt-subject. No threshold or historical source changes occurred.
+Three new diagnostics are complete and frozen. Excerpt subject: 1,134 calls and 1,944 valid answers, small net coverage gains with losses, overall failure. Subject robustness: 1,215 calls, 1,214 valid answers, information-removal losses and confident quoted-target errors. Complete workflow: 270 calls, 6,813 raw answers and 6,812 valid answers. Automatic reading gives 436 correct claims across 486 repeated opportunities but displays four wrong bindings and one nonclaim. Trusted fields give all 486 correct displayed verdicts; extraction is supplied by construction. The parser yields no correct complete-workflow claims. Both automatic application gates fail.
 
-The separately frozen subject-robustness challenge is running: 135 constructed cards, fifteen families, full/prefix/excerpt contexts and three rounds, for 1,215 calls. Text and separate source/visible references were committed before excerpt outcomes were inspected. This is subject-only eligibility, not numerical verdicts or recommendations. Zero human/independent reviews or new recordings; protected panels remain unopened. Finish this diagnostic before designing the complete workflow. Do not treat a lucky reference match without supplied-context support as safe.
+Read docs/operations-fit.md, docs/full-workflow.md and docs/subject-robustness.md. Inspect /full-workflow, /subject-robustness and /excerpt-subject. All requests and actual dependent bindings are preserved; zero human/independent reviews or new recordings. Protected panels stay closed, and historical producers/results/thresholds remain unchanged.
+
+Next decision: explicit analyst claim entry (recommended) versus continued ordinary report interpretation. The failed automatic candidate cannot advance to fresh validation, and the trusted-field control cannot silently replace it. Freeze a new task/protocol after that choice. Same-assistant work is authorized, but cannot establish independently authored report performance or actual analyst effort. Do not create more wording tweaks merely to chase a passing result.
+
+Use scripts.verify_full_workflow for all twenty-six studies and both original pack validators without inference. The new release assets are excerpt-subject-v1, subject-robustness-v1 and full-workflow-v1; restore their predecessors first. Publication and fresh-clone verification are recorded in docs/evidence.md and docs/verification.md.
+
+## Historical checkpoints
+
+The sections below record earlier states and then-planned follow-ups. The current-state section above governs continuation.
 
 ## Earlier prefix state
 

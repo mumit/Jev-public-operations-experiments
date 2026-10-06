@@ -53,3 +53,21 @@ class SubjectRobustnessTests(unittest.TestCase):
         result=t.assess(self.cards,self.refs,rows)
         self.assertEqual(len(result['outcomes']),1215);self.assertEqual(sum(o['quarantined'] for o in result['outcomes']),1)
         self.assertTrue(any(not o['complete'] for o in result['outcomes']));self.assertFalse(result['candidate_passes'])
+
+class RobustnessConsumerTests(unittest.TestCase):
+    def test_inspector_preserves_actual_context_and_hides_judgments(self):
+        from triage_bench.subject_robustness_service import SubjectRobustnessStudy
+        from triage_bench.paths import ROOT
+        study=SubjectRobustnessStudy(ROOT);identifier='RSC-9780eea6c8b1'
+        with patch.object(study,'verified',return_value=t.load(t.RESULT)):
+            hidden=study.card(identifier);shown=study.card(identifier,True)
+            self.assertIsNone(hidden['reference']);self.assertIsNone(hidden['outcomes'])
+            self.assertEqual(shown['reference']['visible_subjects']['excerpt'],'unresolved')
+            self.assertEqual(hidden['contexts']['excerpt'],'Is shippingservice healthy?\nThe service in my current assessment has enough recorded spans.')
+            self.assertNotIn('outcomes',study.overview())
+    def test_reader_keeps_context_and_challenge(self):
+        from types import SimpleNamespace
+        from triage_bench.study_page import render_study
+        from triage_bench.paths import ROOT
+        html=render_study(SimpleNamespace(root=ROOT),{'doc':'subject-robustness','return':'/subject-robustness?arm=excerpt&card=RSC-9780eea6c8b1#inspect'}).decode()
+        self.assertIn('Check what context selection removes',html);self.assertIn('RSC-9780eea6c8b1',html);self.assertIn('#inspect',html)
