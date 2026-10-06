@@ -26,6 +26,10 @@ def snapshot():
 def verify():
     import pyarrow.parquet as pq
     previous=failed.verify_failure();earlier=failed.failed.verify_failure();committed(AUDIT);audit=load(AUDIT);committed(failed.PLAN)
+    for plan_path in (failed.PLAN,failed.failed.PLAN,failed.failed.failed.PLAN):
+        committed(plan_path);plan=load(plan_path)
+        for name,digest in {**plan['source_sha256'],**plan['evidence_sha256']}.items():
+            if sha((ROOT/name).read_bytes())!=digest:raise ValueError('Failed preparation source/evidence changed: '+name)
     if audit['schema']!='explicit-preparation-failure-1' or audit['plan_sha256']!=sha(failed.PLAN.read_bytes()) or audit['hosted_calls']!=0 or len(audit['files'])!=30:raise ValueError('Third failure audit changed.')
     for a in audit['files']:
         raw=(ROOT/a['path']).read_bytes();actual=sha(raw) if len(a['publisher_hash'])==64 else hashlib.sha1(f'blob {len(raw)}\0'.encode()+raw).hexdigest()
