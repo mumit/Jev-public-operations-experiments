@@ -270,3 +270,15 @@ uv run --locked --extra public-data python -m scripts.verify_separate_subject
 ```
 
 The plan, both exact phase protocols, original references and assessment are committed. Train Ticket passes; Online Boutique retains 16–17 clean display losses per round and fails overall, despite gaining eight displays over fresh joint checks. Both workflows withhold every swapped display here, but subject errors remain. No protected recording, human review or independent review enters the diagnostic. All twenty-one assets preserve 5,326 provider responses in 1,140 files; verification makes no calls.
+
+## Direct subject supplement
+
+The [direct-subject-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/direct-subject-v1) adds 405 actual replies: direct service extraction without a proposal, fresh proposal checks and unchanged numerical verdict baselines. All 2,430 answers validate. Three files preserve exact requests, raw replies and execution records in a 260,893-byte archive. Restore all twenty-one preceding assets first.
+
+```bash
+gh release download direct-subject-v1 --repo mumit/Jev-public-operations-experiments --pattern direct-subject-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/direct-subject-v1.tar.gz --manifest evidence/direct-subject-v1.json
+uv run --locked --extra public-data python -m scripts.verify_direct_subject
+```
+
+All twenty-two assets preserve 5,731 actual responses in 1,143 files. The verifier for this stage reproduces unique service accuracy, both proposal compositions, shared-call costs, paired display gains and losses, every historical assessment and both original packs without inference. Same-author and zero-human/independent-review labels remain explicit; every protected recording stays unopened.
