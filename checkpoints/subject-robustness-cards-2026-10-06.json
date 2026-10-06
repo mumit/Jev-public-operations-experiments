@@ -1,0 +1,6950 @@
+[
+  {
+    "id": "RSC-7cb10d8e54f5",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "explicit_name",
+    "note": "ts-admin-basic-info-service has rising errors.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service has rising errors."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-9f69c34df825",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "local_pronoun",
+    "note": "ts-voucher-service has rising errors.\nThis service has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-f2d0e6c0efc7",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "request_anchor",
+    "note": "Investigate ts-voucher-service next.\nThis service has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Investigate ts-voucher-service next."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-3a629e10231e",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "negated_anchor",
+    "note": "ts-voucher-service does not show rising errors.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service does not show rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-5bbaa70ef40b",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "explicit_switch",
+    "note": "ts-admin-basic-info-service has rising errors.\nts-voucher-service has rising latency.\nThis service has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "ts-voucher-service has rising latency."
+      },
+      {
+        "id": "s03",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-5ae06d640c1d",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "quoted_interruption",
+    "note": "My current assessment concerns ts-voucher-service.\nThe archived note says: \"ts-admin-basic-info-service is unhealthy.\"\nThe service in my current assessment is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns ts-voucher-service."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"ts-admin-basic-info-service is unhealthy.\""
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-a7a847d18e18",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "request_interruption",
+    "note": "My current assessment concerns ts-admin-basic-info-service.\nPlease check ts-voucher-service later.\nThe service in my current assessment is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns ts-admin-basic-info-service."
+      },
+      {
+        "id": "s02",
+        "text": "Please check ts-voucher-service later."
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-0d18e82bc44b",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "question_interruption",
+    "note": "My current assessment concerns ts-voucher-service.\nIs ts-admin-basic-info-service healthy?\nThe service in my current assessment has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns ts-voucher-service."
+      },
+      {
+        "id": "s02",
+        "text": "Is ts-admin-basic-info-service healthy?"
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-7248a9a3743e",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "ambiguous_pair",
+    "note": "Either ts-admin-basic-info-service or ts-voucher-service is unhealthy.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Either ts-admin-basic-info-service or ts-voucher-service is unhealthy."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-50ff20be9060",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "missing_anchor",
+    "note": "An incident is under investigation.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "An incident is under investigation."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-b8575d496396",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "later_clarification",
+    "note": "This service is healthy.\nThe subject of the preceding assertion is ts-admin-basic-info-service.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s02",
+        "text": "The subject of the preceding assertion is ts-admin-basic-info-service."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-a006aa14436d",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "outside_inventory",
+    "note": "external-node is under review.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "external-node is under review."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-a7b0165d0e85",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "quoted_target",
+    "note": "ts-admin-basic-info-service is under review.\nThe archived note says: \"ts-voucher-service is healthy.\"",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service is under review."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"ts-voucher-service is healthy.\""
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-3cf5263b8daa",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "compound_target",
+    "note": "ts-voucher-service has errors and ts-admin-basic-info-service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service has errors and ts-admin-basic-info-service is healthy."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-0c5c41371cd0",
+    "source_note": "NWL-6a1a2c127a1d",
+    "dataset": "Train Ticket",
+    "family": "later_distractor",
+    "note": "ts-admin-basic-info-service has rising errors.\nThis service is healthy.\nA separate later check concerns ts-voucher-service.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s03",
+        "text": "A separate later check concerns ts-voucher-service."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-ae1ba82fc48a",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "explicit_name",
+    "note": "ts-voucher-service has rising errors.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service has rising errors."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-fac6b557f818",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "local_pronoun",
+    "note": "ts-admin-basic-info-service has rising errors.\nThis service has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-381e4d522ca3",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "request_anchor",
+    "note": "Investigate ts-admin-basic-info-service next.\nThis service has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Investigate ts-admin-basic-info-service next."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-dc8f71b4f177",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "negated_anchor",
+    "note": "ts-admin-basic-info-service does not show rising errors.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service does not show rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-4a73ce6be4f9",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "explicit_switch",
+    "note": "ts-voucher-service has rising errors.\nts-admin-basic-info-service has rising latency.\nThis service has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "ts-admin-basic-info-service has rising latency."
+      },
+      {
+        "id": "s03",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-ec64a8aa1b08",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "quoted_interruption",
+    "note": "My current assessment concerns ts-admin-basic-info-service.\nThe archived note says: \"ts-voucher-service is unhealthy.\"\nThe service in my current assessment is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns ts-admin-basic-info-service."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"ts-voucher-service is unhealthy.\""
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-0926ca850d27",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "request_interruption",
+    "note": "My current assessment concerns ts-voucher-service.\nPlease check ts-admin-basic-info-service later.\nThe service in my current assessment is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns ts-voucher-service."
+      },
+      {
+        "id": "s02",
+        "text": "Please check ts-admin-basic-info-service later."
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-525cc3631eec",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "question_interruption",
+    "note": "My current assessment concerns ts-admin-basic-info-service.\nIs ts-voucher-service healthy?\nThe service in my current assessment has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns ts-admin-basic-info-service."
+      },
+      {
+        "id": "s02",
+        "text": "Is ts-voucher-service healthy?"
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-5ff9954753e3",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "ambiguous_pair",
+    "note": "Either ts-voucher-service or ts-admin-basic-info-service is unhealthy.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Either ts-voucher-service or ts-admin-basic-info-service is unhealthy."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-b1dadc8be9dd",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "missing_anchor",
+    "note": "An incident is under investigation.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "An incident is under investigation."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-83c6f9bbebb0",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "later_clarification",
+    "note": "This service is healthy.\nThe subject of the preceding assertion is ts-voucher-service.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s02",
+        "text": "The subject of the preceding assertion is ts-voucher-service."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-0f95dddc7cd2",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "outside_inventory",
+    "note": "external-node is under review.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "external-node is under review."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-3fca76502e58",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "quoted_target",
+    "note": "ts-voucher-service is under review.\nThe archived note says: \"ts-admin-basic-info-service is healthy.\"",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service is under review."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"ts-admin-basic-info-service is healthy.\""
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-76e15666c237",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "compound_target",
+    "note": "ts-admin-basic-info-service has errors and ts-voucher-service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service has errors and ts-voucher-service is healthy."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-ecb1fb91117d",
+    "source_note": "NWL-ebebeada049f",
+    "dataset": "Train Ticket",
+    "family": "later_distractor",
+    "note": "ts-voucher-service has rising errors.\nThis service is healthy.\nA separate later check concerns ts-admin-basic-info-service.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s03",
+        "text": "A separate later check concerns ts-admin-basic-info-service."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-2607f67c75a2",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "explicit_name",
+    "note": "ts-admin-basic-info-service has rising errors.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service has rising errors."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-88d2d31168e0",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "local_pronoun",
+    "note": "ts-voucher-service has rising errors.\nThis service has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-14617cb777f7",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "request_anchor",
+    "note": "Investigate ts-voucher-service next.\nThis service has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Investigate ts-voucher-service next."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-d982a43e9fd6",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "negated_anchor",
+    "note": "ts-voucher-service does not show rising errors.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service does not show rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-2fa079a988f1",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "explicit_switch",
+    "note": "ts-admin-basic-info-service has rising errors.\nts-voucher-service has rising latency.\nThis service has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "ts-voucher-service has rising latency."
+      },
+      {
+        "id": "s03",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-33441b9e16e9",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "quoted_interruption",
+    "note": "My current assessment concerns ts-voucher-service.\nThe archived note says: \"ts-admin-basic-info-service is unhealthy.\"\nThe service in my current assessment is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns ts-voucher-service."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"ts-admin-basic-info-service is unhealthy.\""
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-4444849efc82",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "request_interruption",
+    "note": "My current assessment concerns ts-admin-basic-info-service.\nPlease check ts-voucher-service later.\nThe service in my current assessment is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns ts-admin-basic-info-service."
+      },
+      {
+        "id": "s02",
+        "text": "Please check ts-voucher-service later."
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-b672f9bee887",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "question_interruption",
+    "note": "My current assessment concerns ts-voucher-service.\nIs ts-admin-basic-info-service healthy?\nThe service in my current assessment has enough recorded spans.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns ts-voucher-service."
+      },
+      {
+        "id": "s02",
+        "text": "Is ts-admin-basic-info-service healthy?"
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-eceb420e1894",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "ambiguous_pair",
+    "note": "Either ts-admin-basic-info-service or ts-voucher-service is unhealthy.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Either ts-admin-basic-info-service or ts-voucher-service is unhealthy."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-e8946b62f730",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "missing_anchor",
+    "note": "An incident is under investigation.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "An incident is under investigation."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-3cdf975d1d1b",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "later_clarification",
+    "note": "This service is healthy.\nThe subject of the preceding assertion is ts-admin-basic-info-service.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s02",
+        "text": "The subject of the preceding assertion is ts-admin-basic-info-service."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-752f6282eb96",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "outside_inventory",
+    "note": "external-node is under review.\nThis service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "external-node is under review."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-b0821b74bc87",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "quoted_target",
+    "note": "ts-admin-basic-info-service is under review.\nThe archived note says: \"ts-voucher-service is healthy.\"",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service is under review."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"ts-voucher-service is healthy.\""
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-6e9d4ccaefe8",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "compound_target",
+    "note": "ts-voucher-service has errors and ts-admin-basic-info-service is healthy.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-voucher-service has errors and ts-admin-basic-info-service is healthy."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-10e9f08269dc",
+    "source_note": "NWL-db3d395ffc58",
+    "dataset": "Train Ticket",
+    "family": "later_distractor",
+    "note": "ts-admin-basic-info-service has rising errors.\nThis service is healthy.\nA separate later check concerns ts-voucher-service.",
+    "services": [
+      "ts-admin-basic-info-service",
+      "ts-admin-order-service",
+      "ts-admin-route-service",
+      "ts-admin-travel-service",
+      "ts-admin-user-service",
+      "ts-assurance-mongo",
+      "ts-assurance-service",
+      "ts-auth-mongo",
+      "ts-auth-service",
+      "ts-avatar-service",
+      "ts-basic-service",
+      "ts-cancel-service",
+      "ts-config-mongo",
+      "ts-config-service",
+      "ts-consign-mongo",
+      "ts-consign-price-mongo",
+      "ts-consign-price-service",
+      "ts-consign-service",
+      "ts-contacts-mongo",
+      "ts-contacts-service",
+      "ts-execute-service",
+      "ts-food-map-mongo",
+      "ts-food-map-service",
+      "ts-food-mongo",
+      "ts-food-mysql",
+      "ts-food-service",
+      "ts-inside-payment-mongo",
+      "ts-inside-payment-service",
+      "ts-news-service",
+      "ts-notification-mongo",
+      "ts-notification-service",
+      "ts-order-mongo",
+      "ts-order-other-mongo",
+      "ts-order-other-service",
+      "ts-order-service",
+      "ts-payment-mongo",
+      "ts-payment-service",
+      "ts-preserve-mongo",
+      "ts-preserve-other-mongo",
+      "ts-preserve-other-service",
+      "ts-preserve-service",
+      "ts-price-mongo",
+      "ts-price-service",
+      "ts-rebook-service",
+      "ts-route-mongo",
+      "ts-route-plan-service",
+      "ts-route-service",
+      "ts-seat-service",
+      "ts-security-mongo",
+      "ts-security-service",
+      "ts-station-mongo",
+      "ts-station-service",
+      "ts-ticket-office-mongo",
+      "ts-ticket-office-service",
+      "ts-ticketinfo-service",
+      "ts-train-mongo",
+      "ts-train-service",
+      "ts-travel-mongo",
+      "ts-travel-plan-service",
+      "ts-travel-service",
+      "ts-travel2-mongo",
+      "ts-travel2-service",
+      "ts-ui-dashboard",
+      "ts-user-mongo",
+      "ts-user-service",
+      "ts-verification-code-service",
+      "ts-voucher-mysql",
+      "ts-voucher-service"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "ts-admin-basic-info-service has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s03",
+        "text": "A separate later check concerns ts-voucher-service."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-284d6de87720",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "explicit_name",
+    "note": "shippingservice has rising errors.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-e34f5c431cbf",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "local_pronoun",
+    "note": "adservice has rising errors.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-11f085b1ca07",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "request_anchor",
+    "note": "Investigate adservice next.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Investigate adservice next."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-4608ddbe2751",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "negated_anchor",
+    "note": "adservice does not show rising errors.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice does not show rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-3ad8ffa2aa11",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "explicit_switch",
+    "note": "shippingservice has rising errors.\nadservice has rising latency.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "adservice has rising latency."
+      },
+      {
+        "id": "s03",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-69806a912a78",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "quoted_interruption",
+    "note": "My current assessment concerns adservice.\nThe archived note says: \"shippingservice is unhealthy.\"\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns adservice."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"shippingservice is unhealthy.\""
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-60b42f41a337",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "request_interruption",
+    "note": "My current assessment concerns shippingservice.\nPlease check adservice later.\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns shippingservice."
+      },
+      {
+        "id": "s02",
+        "text": "Please check adservice later."
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-9780eea6c8b1",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "question_interruption",
+    "note": "My current assessment concerns adservice.\nIs shippingservice healthy?\nThe service in my current assessment has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns adservice."
+      },
+      {
+        "id": "s02",
+        "text": "Is shippingservice healthy?"
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-44c11947145e",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "ambiguous_pair",
+    "note": "Either shippingservice or adservice is unhealthy.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Either shippingservice or adservice is unhealthy."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-4e62164b1113",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "missing_anchor",
+    "note": "An incident is under investigation.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "An incident is under investigation."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-eb6d45a27ee7",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "later_clarification",
+    "note": "This service is healthy.\nThe subject of the preceding assertion is shippingservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s02",
+        "text": "The subject of the preceding assertion is shippingservice."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-893ae2811333",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "outside_inventory",
+    "note": "external-node is under review.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "external-node is under review."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-ccfb4d456b22",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "quoted_target",
+    "note": "shippingservice is under review.\nThe archived note says: \"adservice is healthy.\"",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice is under review."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"adservice is healthy.\""
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-888a388d0a61",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "compound_target",
+    "note": "adservice has errors and shippingservice is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has errors and shippingservice is healthy."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-49b18ccf773e",
+    "source_note": "NWL-a87649ebaa1a",
+    "dataset": "Online Boutique",
+    "family": "later_distractor",
+    "note": "shippingservice has rising errors.\nThis service is healthy.\nA separate later check concerns adservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s03",
+        "text": "A separate later check concerns adservice."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-525046649a5f",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "explicit_name",
+    "note": "adservice has rising errors.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-1d99e69dc17a",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "local_pronoun",
+    "note": "shippingservice has rising errors.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-832e81131f08",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "request_anchor",
+    "note": "Investigate shippingservice next.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Investigate shippingservice next."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-8ab4d39aace6",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "negated_anchor",
+    "note": "shippingservice does not show rising errors.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice does not show rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-66e403799a7e",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "explicit_switch",
+    "note": "adservice has rising errors.\nshippingservice has rising latency.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "shippingservice has rising latency."
+      },
+      {
+        "id": "s03",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-a0fdb430a416",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "quoted_interruption",
+    "note": "My current assessment concerns shippingservice.\nThe archived note says: \"adservice is unhealthy.\"\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns shippingservice."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"adservice is unhealthy.\""
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-bc2cb182b8bc",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "request_interruption",
+    "note": "My current assessment concerns adservice.\nPlease check shippingservice later.\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns adservice."
+      },
+      {
+        "id": "s02",
+        "text": "Please check shippingservice later."
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-4bfd2ebcd311",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "question_interruption",
+    "note": "My current assessment concerns shippingservice.\nIs adservice healthy?\nThe service in my current assessment has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns shippingservice."
+      },
+      {
+        "id": "s02",
+        "text": "Is adservice healthy?"
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-0e06c9a9397c",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "ambiguous_pair",
+    "note": "Either adservice or shippingservice is unhealthy.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Either adservice or shippingservice is unhealthy."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-3ab2d5a26f1f",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "missing_anchor",
+    "note": "An incident is under investigation.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "An incident is under investigation."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-1ffd67096979",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "later_clarification",
+    "note": "This service is healthy.\nThe subject of the preceding assertion is adservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s02",
+        "text": "The subject of the preceding assertion is adservice."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-30de8d4d4e9a",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "outside_inventory",
+    "note": "external-node is under review.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "external-node is under review."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-9599ea327a0e",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "quoted_target",
+    "note": "adservice is under review.\nThe archived note says: \"shippingservice is healthy.\"",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice is under review."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"shippingservice is healthy.\""
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-3991ceabcb7d",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "compound_target",
+    "note": "shippingservice has errors and adservice is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has errors and adservice is healthy."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-c39a7296dce1",
+    "source_note": "NWL-039d6ebdd81f",
+    "dataset": "Online Boutique",
+    "family": "later_distractor",
+    "note": "adservice has rising errors.\nThis service is healthy.\nA separate later check concerns shippingservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s03",
+        "text": "A separate later check concerns shippingservice."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-f9a3091bd5c6",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "explicit_name",
+    "note": "shippingservice has rising errors.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-a854e0128654",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "local_pronoun",
+    "note": "adservice has rising errors.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-892c6c56ce8d",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "request_anchor",
+    "note": "Investigate adservice next.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Investigate adservice next."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-ccd57a46dbf5",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "negated_anchor",
+    "note": "adservice does not show rising errors.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice does not show rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-1fe243fd27ee",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "explicit_switch",
+    "note": "shippingservice has rising errors.\nadservice has rising latency.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "adservice has rising latency."
+      },
+      {
+        "id": "s03",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-58937b23a77e",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "quoted_interruption",
+    "note": "My current assessment concerns adservice.\nThe archived note says: \"shippingservice is unhealthy.\"\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns adservice."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"shippingservice is unhealthy.\""
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-76d8b92ed072",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "request_interruption",
+    "note": "My current assessment concerns shippingservice.\nPlease check adservice later.\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns shippingservice."
+      },
+      {
+        "id": "s02",
+        "text": "Please check adservice later."
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-c5909e7feda5",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "question_interruption",
+    "note": "My current assessment concerns adservice.\nIs shippingservice healthy?\nThe service in my current assessment has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns adservice."
+      },
+      {
+        "id": "s02",
+        "text": "Is shippingservice healthy?"
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-5aee1650d9c9",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "ambiguous_pair",
+    "note": "Either shippingservice or adservice is unhealthy.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Either shippingservice or adservice is unhealthy."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-9c8154ba5066",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "missing_anchor",
+    "note": "An incident is under investigation.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "An incident is under investigation."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-02a5d7c207aa",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "later_clarification",
+    "note": "This service is healthy.\nThe subject of the preceding assertion is shippingservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s02",
+        "text": "The subject of the preceding assertion is shippingservice."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-822b0bc52f40",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "outside_inventory",
+    "note": "external-node is under review.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "external-node is under review."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-3bc705fb2046",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "quoted_target",
+    "note": "shippingservice is under review.\nThe archived note says: \"adservice is healthy.\"",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice is under review."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"adservice is healthy.\""
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-d3fc3c1e7f9c",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "compound_target",
+    "note": "adservice has errors and shippingservice is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has errors and shippingservice is healthy."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-a3608c835ae1",
+    "source_note": "NWL-b3fb5e096258",
+    "dataset": "Online Boutique",
+    "family": "later_distractor",
+    "note": "shippingservice has rising errors.\nThis service is healthy.\nA separate later check concerns adservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s03",
+        "text": "A separate later check concerns adservice."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-0269c42ef2e9",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "explicit_name",
+    "note": "adservice has rising errors.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-b5b335377a95",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "local_pronoun",
+    "note": "shippingservice has rising errors.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-fb6e551e2196",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "request_anchor",
+    "note": "Investigate shippingservice next.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Investigate shippingservice next."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-e63832f1e9e3",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "negated_anchor",
+    "note": "shippingservice does not show rising errors.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice does not show rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-fca40fa91d44",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "explicit_switch",
+    "note": "adservice has rising errors.\nshippingservice has rising latency.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "shippingservice has rising latency."
+      },
+      {
+        "id": "s03",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-c2b61864385e",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "quoted_interruption",
+    "note": "My current assessment concerns shippingservice.\nThe archived note says: \"adservice is unhealthy.\"\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns shippingservice."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"adservice is unhealthy.\""
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-c82059f4a28e",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "request_interruption",
+    "note": "My current assessment concerns adservice.\nPlease check shippingservice later.\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns adservice."
+      },
+      {
+        "id": "s02",
+        "text": "Please check shippingservice later."
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-5fbf841b31d8",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "question_interruption",
+    "note": "My current assessment concerns shippingservice.\nIs adservice healthy?\nThe service in my current assessment has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns shippingservice."
+      },
+      {
+        "id": "s02",
+        "text": "Is adservice healthy?"
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-fb98b0f0e6f3",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "ambiguous_pair",
+    "note": "Either adservice or shippingservice is unhealthy.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Either adservice or shippingservice is unhealthy."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-550ddd5fee4c",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "missing_anchor",
+    "note": "An incident is under investigation.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "An incident is under investigation."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-976aa782c481",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "later_clarification",
+    "note": "This service is healthy.\nThe subject of the preceding assertion is adservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s02",
+        "text": "The subject of the preceding assertion is adservice."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-f4a28f62c413",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "outside_inventory",
+    "note": "external-node is under review.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "external-node is under review."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-5fbf7622533f",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "quoted_target",
+    "note": "adservice is under review.\nThe archived note says: \"shippingservice is healthy.\"",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice is under review."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"shippingservice is healthy.\""
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-4bfbf7af197a",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "compound_target",
+    "note": "shippingservice has errors and adservice is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has errors and adservice is healthy."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-b8179c63f991",
+    "source_note": "NWL-7e13ecc55427",
+    "dataset": "Online Boutique",
+    "family": "later_distractor",
+    "note": "adservice has rising errors.\nThis service is healthy.\nA separate later check concerns shippingservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s03",
+        "text": "A separate later check concerns shippingservice."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-98bbf778feb8",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "explicit_name",
+    "note": "shippingservice has rising errors.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-6628525844aa",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "local_pronoun",
+    "note": "adservice has rising errors.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-1732d3737272",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "request_anchor",
+    "note": "Investigate adservice next.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Investigate adservice next."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-5ca555bb9327",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "negated_anchor",
+    "note": "adservice does not show rising errors.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice does not show rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-aa18b42e4a44",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "explicit_switch",
+    "note": "shippingservice has rising errors.\nadservice has rising latency.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "adservice has rising latency."
+      },
+      {
+        "id": "s03",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-005b643011e0",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "quoted_interruption",
+    "note": "My current assessment concerns adservice.\nThe archived note says: \"shippingservice is unhealthy.\"\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns adservice."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"shippingservice is unhealthy.\""
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-2bc7bb258f37",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "request_interruption",
+    "note": "My current assessment concerns shippingservice.\nPlease check adservice later.\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns shippingservice."
+      },
+      {
+        "id": "s02",
+        "text": "Please check adservice later."
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-7a230de73a96",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "question_interruption",
+    "note": "My current assessment concerns adservice.\nIs shippingservice healthy?\nThe service in my current assessment has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns adservice."
+      },
+      {
+        "id": "s02",
+        "text": "Is shippingservice healthy?"
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-6d4fdf705f2f",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "ambiguous_pair",
+    "note": "Either shippingservice or adservice is unhealthy.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Either shippingservice or adservice is unhealthy."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-601b0336ba55",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "missing_anchor",
+    "note": "An incident is under investigation.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "An incident is under investigation."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-ec0194a7f579",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "later_clarification",
+    "note": "This service is healthy.\nThe subject of the preceding assertion is shippingservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s02",
+        "text": "The subject of the preceding assertion is shippingservice."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-c076b718df02",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "outside_inventory",
+    "note": "external-node is under review.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "external-node is under review."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-6e777955200d",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "quoted_target",
+    "note": "shippingservice is under review.\nThe archived note says: \"adservice is healthy.\"",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice is under review."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"adservice is healthy.\""
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-3b7248c8b6a1",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "compound_target",
+    "note": "adservice has errors and shippingservice is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has errors and shippingservice is healthy."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-1832ddab4d8a",
+    "source_note": "NWL-1aaf4aca9f84",
+    "dataset": "Online Boutique",
+    "family": "later_distractor",
+    "note": "shippingservice has rising errors.\nThis service is healthy.\nA separate later check concerns adservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s03",
+        "text": "A separate later check concerns adservice."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-98907b6880dc",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "explicit_name",
+    "note": "adservice has rising errors.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-5ffb908f988b",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "local_pronoun",
+    "note": "shippingservice has rising errors.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-d7bcdd1a792e",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "request_anchor",
+    "note": "Investigate shippingservice next.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Investigate shippingservice next."
+      },
+      {
+        "id": "s02",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-46f3e37052f5",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "negated_anchor",
+    "note": "shippingservice does not show rising errors.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice does not show rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-171475dfb804",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "explicit_switch",
+    "note": "adservice has rising errors.\nshippingservice has rising latency.\nThis service has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "shippingservice has rising latency."
+      },
+      {
+        "id": "s03",
+        "text": "This service has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-da725d27d349",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "quoted_interruption",
+    "note": "My current assessment concerns shippingservice.\nThe archived note says: \"adservice is unhealthy.\"\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns shippingservice."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"adservice is unhealthy.\""
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-ffb92f00ef4c",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "request_interruption",
+    "note": "My current assessment concerns adservice.\nPlease check shippingservice later.\nThe service in my current assessment is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns adservice."
+      },
+      {
+        "id": "s02",
+        "text": "Please check shippingservice later."
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment is healthy."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-77304336bfe7",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "question_interruption",
+    "note": "My current assessment concerns shippingservice.\nIs adservice healthy?\nThe service in my current assessment has enough recorded spans.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "My current assessment concerns shippingservice."
+      },
+      {
+        "id": "s02",
+        "text": "Is adservice healthy?"
+      },
+      {
+        "id": "s03",
+        "text": "The service in my current assessment has enough recorded spans."
+      }
+    ],
+    "sentence": "s03"
+  },
+  {
+    "id": "RSC-142f7ce19375",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "ambiguous_pair",
+    "note": "Either adservice or shippingservice is unhealthy.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "Either adservice or shippingservice is unhealthy."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-caddbac99880",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "missing_anchor",
+    "note": "An incident is under investigation.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "An incident is under investigation."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-f1b0fd552817",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "later_clarification",
+    "note": "This service is healthy.\nThe subject of the preceding assertion is adservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s02",
+        "text": "The subject of the preceding assertion is adservice."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-5ef200ec7d51",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "outside_inventory",
+    "note": "external-node is under review.\nThis service is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "external-node is under review."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-38fa03588aa5",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "quoted_target",
+    "note": "adservice is under review.\nThe archived note says: \"shippingservice is healthy.\"",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice is under review."
+      },
+      {
+        "id": "s02",
+        "text": "The archived note says: \"shippingservice is healthy.\""
+      }
+    ],
+    "sentence": "s02"
+  },
+  {
+    "id": "RSC-0086ea32825f",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "compound_target",
+    "note": "shippingservice has errors and adservice is healthy.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "shippingservice has errors and adservice is healthy."
+      }
+    ],
+    "sentence": "s01"
+  },
+  {
+    "id": "RSC-6506a1211863",
+    "source_note": "NWL-85a3178b8cec",
+    "dataset": "Online Boutique",
+    "family": "later_distractor",
+    "note": "adservice has rising errors.\nThis service is healthy.\nA separate later check concerns shippingservice.",
+    "services": [
+      "adservice",
+      "cartservice",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "frontend",
+      "frontend-external",
+      "paymentservice",
+      "productcatalogservice",
+      "recommendationservice",
+      "redis",
+      "shippingservice"
+    ],
+    "candidates": [
+      {
+        "id": "s01",
+        "text": "adservice has rising errors."
+      },
+      {
+        "id": "s02",
+        "text": "This service is healthy."
+      },
+      {
+        "id": "s03",
+        "text": "A separate later check concerns shippingservice."
+      }
+    ],
+    "sentence": "s02"
+  }
+]

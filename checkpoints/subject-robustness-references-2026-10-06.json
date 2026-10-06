@@ -1,0 +1,1217 @@
+{
+  "RSC-7cb10d8e54f5": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "ts-admin-basic-info-service"
+    },
+    "reason": "The target explicitly names one observed service."
+  },
+  "RSC-9f69c34df825": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "The preceding explicit assertion supplies the subject."
+  },
+  "RSC-f2d0e6c0efc7": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "A direct request introduces its unique service under the fixed task definition."
+  },
+  "RSC-3a629e10231e": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "Negation changes the claim, not its named subject."
+  },
+  "RSC-5bbaa70ef40b": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "The latest endorsed service assertion supplies the subject."
+  },
+  "RSC-5ae06d640c1d": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "unresolved"
+    },
+    "reason": "The current assessment explicitly names the first service; the quotation does not replace it. The excerpt removes that current-assessment anchor."
+  },
+  "RSC-a7a847d18e18": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "unresolved"
+    },
+    "reason": "The qualified current-assessment subject differs from a later requested check. The excerpt lacks that qualification anchor."
+  },
+  "RSC-0d18e82bc44b": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "unresolved"
+    },
+    "reason": "The question does not name the explicitly qualified current-assessment service; truncation removes it."
+  },
+  "RSC-7248a9a3743e": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The text does not select one of its two candidates."
+  },
+  "RSC-50ff20be9060": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "No service is identified."
+  },
+  "RSC-b8575d496396": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "Only the full note contains the explicit later clarification."
+  },
+  "RSC-a006aa14436d": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The named subject is outside the complete observed inventory."
+  },
+  "RSC-a7b0165d0e85": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence attributes a quotation rather than endorsing that service-health assertion."
+  },
+  "RSC-3cf5263b8daa": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence contains two service assertions, outside the single endorsed assertion task."
+  },
+  "RSC-0c5c41371cd0": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "ts-admin-basic-info-service"
+    },
+    "reason": "The later separate check does not change the earlier pronoun subject."
+  },
+  "RSC-ae1ba82fc48a": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "The target explicitly names one observed service."
+  },
+  "RSC-fac6b557f818": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "ts-admin-basic-info-service"
+    },
+    "reason": "The preceding explicit assertion supplies the subject."
+  },
+  "RSC-381e4d522ca3": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "ts-admin-basic-info-service"
+    },
+    "reason": "A direct request introduces its unique service under the fixed task definition."
+  },
+  "RSC-dc8f71b4f177": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "ts-admin-basic-info-service"
+    },
+    "reason": "Negation changes the claim, not its named subject."
+  },
+  "RSC-4a73ce6be4f9": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "ts-admin-basic-info-service"
+    },
+    "reason": "The latest endorsed service assertion supplies the subject."
+  },
+  "RSC-ec64a8aa1b08": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "unresolved"
+    },
+    "reason": "The current assessment explicitly names the first service; the quotation does not replace it. The excerpt removes that current-assessment anchor."
+  },
+  "RSC-0926ca850d27": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "unresolved"
+    },
+    "reason": "The qualified current-assessment subject differs from a later requested check. The excerpt lacks that qualification anchor."
+  },
+  "RSC-525cc3631eec": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "unresolved"
+    },
+    "reason": "The question does not name the explicitly qualified current-assessment service; truncation removes it."
+  },
+  "RSC-5ff9954753e3": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The text does not select one of its two candidates."
+  },
+  "RSC-b1dadc8be9dd": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "No service is identified."
+  },
+  "RSC-83c6f9bbebb0": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "Only the full note contains the explicit later clarification."
+  },
+  "RSC-0f95dddc7cd2": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The named subject is outside the complete observed inventory."
+  },
+  "RSC-3fca76502e58": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence attributes a quotation rather than endorsing that service-health assertion."
+  },
+  "RSC-76e15666c237": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence contains two service assertions, outside the single endorsed assertion task."
+  },
+  "RSC-ecb1fb91117d": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "The later separate check does not change the earlier pronoun subject."
+  },
+  "RSC-2607f67c75a2": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "ts-admin-basic-info-service"
+    },
+    "reason": "The target explicitly names one observed service."
+  },
+  "RSC-88d2d31168e0": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "The preceding explicit assertion supplies the subject."
+  },
+  "RSC-14617cb777f7": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "A direct request introduces its unique service under the fixed task definition."
+  },
+  "RSC-d982a43e9fd6": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "Negation changes the claim, not its named subject."
+  },
+  "RSC-2fa079a988f1": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "ts-voucher-service"
+    },
+    "reason": "The latest endorsed service assertion supplies the subject."
+  },
+  "RSC-33441b9e16e9": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "unresolved"
+    },
+    "reason": "The current assessment explicitly names the first service; the quotation does not replace it. The excerpt removes that current-assessment anchor."
+  },
+  "RSC-4444849efc82": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "unresolved"
+    },
+    "reason": "The qualified current-assessment subject differs from a later requested check. The excerpt lacks that qualification anchor."
+  },
+  "RSC-b672f9bee887": {
+    "source_subject": "ts-voucher-service",
+    "visible_subjects": {
+      "full": "ts-voucher-service",
+      "prefix": "ts-voucher-service",
+      "excerpt": "unresolved"
+    },
+    "reason": "The question does not name the explicitly qualified current-assessment service; truncation removes it."
+  },
+  "RSC-eceb420e1894": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The text does not select one of its two candidates."
+  },
+  "RSC-e8946b62f730": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "No service is identified."
+  },
+  "RSC-3cdf975d1d1b": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "Only the full note contains the explicit later clarification."
+  },
+  "RSC-752f6282eb96": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The named subject is outside the complete observed inventory."
+  },
+  "RSC-b0821b74bc87": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence attributes a quotation rather than endorsing that service-health assertion."
+  },
+  "RSC-6e9d4ccaefe8": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence contains two service assertions, outside the single endorsed assertion task."
+  },
+  "RSC-10e9f08269dc": {
+    "source_subject": "ts-admin-basic-info-service",
+    "visible_subjects": {
+      "full": "ts-admin-basic-info-service",
+      "prefix": "ts-admin-basic-info-service",
+      "excerpt": "ts-admin-basic-info-service"
+    },
+    "reason": "The later separate check does not change the earlier pronoun subject."
+  },
+  "RSC-284d6de87720": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The target explicitly names one observed service."
+  },
+  "RSC-e34f5c431cbf": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The preceding explicit assertion supplies the subject."
+  },
+  "RSC-11f085b1ca07": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "A direct request introduces its unique service under the fixed task definition."
+  },
+  "RSC-4608ddbe2751": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "Negation changes the claim, not its named subject."
+  },
+  "RSC-3ad8ffa2aa11": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The latest endorsed service assertion supplies the subject."
+  },
+  "RSC-69806a912a78": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The current assessment explicitly names the first service; the quotation does not replace it. The excerpt removes that current-assessment anchor."
+  },
+  "RSC-60b42f41a337": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The qualified current-assessment subject differs from a later requested check. The excerpt lacks that qualification anchor."
+  },
+  "RSC-9780eea6c8b1": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The question does not name the explicitly qualified current-assessment service; truncation removes it."
+  },
+  "RSC-44c11947145e": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The text does not select one of its two candidates."
+  },
+  "RSC-4e62164b1113": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "No service is identified."
+  },
+  "RSC-eb6d45a27ee7": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "Only the full note contains the explicit later clarification."
+  },
+  "RSC-893ae2811333": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The named subject is outside the complete observed inventory."
+  },
+  "RSC-ccfb4d456b22": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence attributes a quotation rather than endorsing that service-health assertion."
+  },
+  "RSC-888a388d0a61": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence contains two service assertions, outside the single endorsed assertion task."
+  },
+  "RSC-49b18ccf773e": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The later separate check does not change the earlier pronoun subject."
+  },
+  "RSC-525046649a5f": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The target explicitly names one observed service."
+  },
+  "RSC-1d99e69dc17a": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The preceding explicit assertion supplies the subject."
+  },
+  "RSC-832e81131f08": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "A direct request introduces its unique service under the fixed task definition."
+  },
+  "RSC-8ab4d39aace6": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "Negation changes the claim, not its named subject."
+  },
+  "RSC-66e403799a7e": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The latest endorsed service assertion supplies the subject."
+  },
+  "RSC-a0fdb430a416": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The current assessment explicitly names the first service; the quotation does not replace it. The excerpt removes that current-assessment anchor."
+  },
+  "RSC-bc2cb182b8bc": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The qualified current-assessment subject differs from a later requested check. The excerpt lacks that qualification anchor."
+  },
+  "RSC-4bfd2ebcd311": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The question does not name the explicitly qualified current-assessment service; truncation removes it."
+  },
+  "RSC-0e06c9a9397c": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The text does not select one of its two candidates."
+  },
+  "RSC-3ab2d5a26f1f": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "No service is identified."
+  },
+  "RSC-1ffd67096979": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "Only the full note contains the explicit later clarification."
+  },
+  "RSC-30de8d4d4e9a": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The named subject is outside the complete observed inventory."
+  },
+  "RSC-9599ea327a0e": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence attributes a quotation rather than endorsing that service-health assertion."
+  },
+  "RSC-3991ceabcb7d": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence contains two service assertions, outside the single endorsed assertion task."
+  },
+  "RSC-c39a7296dce1": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The later separate check does not change the earlier pronoun subject."
+  },
+  "RSC-f9a3091bd5c6": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The target explicitly names one observed service."
+  },
+  "RSC-a854e0128654": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The preceding explicit assertion supplies the subject."
+  },
+  "RSC-892c6c56ce8d": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "A direct request introduces its unique service under the fixed task definition."
+  },
+  "RSC-ccd57a46dbf5": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "Negation changes the claim, not its named subject."
+  },
+  "RSC-1fe243fd27ee": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The latest endorsed service assertion supplies the subject."
+  },
+  "RSC-58937b23a77e": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The current assessment explicitly names the first service; the quotation does not replace it. The excerpt removes that current-assessment anchor."
+  },
+  "RSC-76d8b92ed072": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The qualified current-assessment subject differs from a later requested check. The excerpt lacks that qualification anchor."
+  },
+  "RSC-c5909e7feda5": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The question does not name the explicitly qualified current-assessment service; truncation removes it."
+  },
+  "RSC-5aee1650d9c9": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The text does not select one of its two candidates."
+  },
+  "RSC-9c8154ba5066": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "No service is identified."
+  },
+  "RSC-02a5d7c207aa": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "Only the full note contains the explicit later clarification."
+  },
+  "RSC-822b0bc52f40": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The named subject is outside the complete observed inventory."
+  },
+  "RSC-3bc705fb2046": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence attributes a quotation rather than endorsing that service-health assertion."
+  },
+  "RSC-d3fc3c1e7f9c": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence contains two service assertions, outside the single endorsed assertion task."
+  },
+  "RSC-a3608c835ae1": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The later separate check does not change the earlier pronoun subject."
+  },
+  "RSC-0269c42ef2e9": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The target explicitly names one observed service."
+  },
+  "RSC-b5b335377a95": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The preceding explicit assertion supplies the subject."
+  },
+  "RSC-fb6e551e2196": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "A direct request introduces its unique service under the fixed task definition."
+  },
+  "RSC-e63832f1e9e3": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "Negation changes the claim, not its named subject."
+  },
+  "RSC-fca40fa91d44": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The latest endorsed service assertion supplies the subject."
+  },
+  "RSC-c2b61864385e": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The current assessment explicitly names the first service; the quotation does not replace it. The excerpt removes that current-assessment anchor."
+  },
+  "RSC-c82059f4a28e": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The qualified current-assessment subject differs from a later requested check. The excerpt lacks that qualification anchor."
+  },
+  "RSC-5fbf841b31d8": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The question does not name the explicitly qualified current-assessment service; truncation removes it."
+  },
+  "RSC-fb98b0f0e6f3": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The text does not select one of its two candidates."
+  },
+  "RSC-550ddd5fee4c": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "No service is identified."
+  },
+  "RSC-976aa782c481": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "Only the full note contains the explicit later clarification."
+  },
+  "RSC-f4a28f62c413": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The named subject is outside the complete observed inventory."
+  },
+  "RSC-5fbf7622533f": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence attributes a quotation rather than endorsing that service-health assertion."
+  },
+  "RSC-4bfbf7af197a": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence contains two service assertions, outside the single endorsed assertion task."
+  },
+  "RSC-b8179c63f991": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The later separate check does not change the earlier pronoun subject."
+  },
+  "RSC-98bbf778feb8": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The target explicitly names one observed service."
+  },
+  "RSC-6628525844aa": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The preceding explicit assertion supplies the subject."
+  },
+  "RSC-1732d3737272": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "A direct request introduces its unique service under the fixed task definition."
+  },
+  "RSC-5ca555bb9327": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "Negation changes the claim, not its named subject."
+  },
+  "RSC-aa18b42e4a44": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The latest endorsed service assertion supplies the subject."
+  },
+  "RSC-005b643011e0": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The current assessment explicitly names the first service; the quotation does not replace it. The excerpt removes that current-assessment anchor."
+  },
+  "RSC-2bc7bb258f37": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The qualified current-assessment subject differs from a later requested check. The excerpt lacks that qualification anchor."
+  },
+  "RSC-7a230de73a96": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The question does not name the explicitly qualified current-assessment service; truncation removes it."
+  },
+  "RSC-6d4fdf705f2f": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The text does not select one of its two candidates."
+  },
+  "RSC-601b0336ba55": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "No service is identified."
+  },
+  "RSC-ec0194a7f579": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "Only the full note contains the explicit later clarification."
+  },
+  "RSC-c076b718df02": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The named subject is outside the complete observed inventory."
+  },
+  "RSC-6e777955200d": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence attributes a quotation rather than endorsing that service-health assertion."
+  },
+  "RSC-3b7248c8b6a1": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence contains two service assertions, outside the single endorsed assertion task."
+  },
+  "RSC-1832ddab4d8a": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The later separate check does not change the earlier pronoun subject."
+  },
+  "RSC-98907b6880dc": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The target explicitly names one observed service."
+  },
+  "RSC-5ffb908f988b": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The preceding explicit assertion supplies the subject."
+  },
+  "RSC-d7bcdd1a792e": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "A direct request introduces its unique service under the fixed task definition."
+  },
+  "RSC-46f3e37052f5": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "Negation changes the claim, not its named subject."
+  },
+  "RSC-171475dfb804": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "shippingservice"
+    },
+    "reason": "The latest endorsed service assertion supplies the subject."
+  },
+  "RSC-da725d27d349": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The current assessment explicitly names the first service; the quotation does not replace it. The excerpt removes that current-assessment anchor."
+  },
+  "RSC-ffb92f00ef4c": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The qualified current-assessment subject differs from a later requested check. The excerpt lacks that qualification anchor."
+  },
+  "RSC-77304336bfe7": {
+    "source_subject": "shippingservice",
+    "visible_subjects": {
+      "full": "shippingservice",
+      "prefix": "shippingservice",
+      "excerpt": "unresolved"
+    },
+    "reason": "The question does not name the explicitly qualified current-assessment service; truncation removes it."
+  },
+  "RSC-142f7ce19375": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The text does not select one of its two candidates."
+  },
+  "RSC-caddbac99880": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "No service is identified."
+  },
+  "RSC-f1b0fd552817": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "Only the full note contains the explicit later clarification."
+  },
+  "RSC-5ef200ec7d51": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The named subject is outside the complete observed inventory."
+  },
+  "RSC-38fa03588aa5": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence attributes a quotation rather than endorsing that service-health assertion."
+  },
+  "RSC-0086ea32825f": {
+    "source_subject": "unresolved",
+    "visible_subjects": {
+      "full": "unresolved",
+      "prefix": "unresolved",
+      "excerpt": "unresolved"
+    },
+    "reason": "The selected sentence contains two service assertions, outside the single endorsed assertion task."
+  },
+  "RSC-6506a1211863": {
+    "source_subject": "adservice",
+    "visible_subjects": {
+      "full": "adservice",
+      "prefix": "adservice",
+      "excerpt": "adservice"
+    },
+    "reason": "The later separate check does not change the earlier pronoun subject."
+  }
+}
