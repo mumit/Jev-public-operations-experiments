@@ -42,4 +42,18 @@ The assessment also retains necessary questions, correct first questions, questi
 
 A passing result would support this declared question-selection task on controlled wording. It would not establish useful advice, less analyst effort, correct entries, independent interpretation or telecom readiness. New wording written by the same assistant cannot supply independent human evidence.
 
-The next step depends on the result. A stable controlled candidate needs separately frozen wording transfer and then a participant comparison against explicit entry alone. A failed candidate needs a specific diagnosis before another request transformation. Keep required entry and numerical evaluation in code, and retain all missed-ambiguity counts when assessing the assistant's contribution.
+## First result
+
+All 552 calls completed, yielding 1,932 valid answers without retries or quarantine. Across 276 opportunities per method, the direct selector gives 217 correct actions and 149 correct displays. The checklist gives 263 and 187. Both withhold useful questions frequently: direct displays a necessary question on 105 of 168 ambiguity opportunities, checklist on 108. Direct misses 63 needed clarifications; checklist misses 60. All these misses are withheld suggestions, rather than displayed no-question answers.
+
+Direct also displays five unnecessary metric questions on health requests. Those same five events count as wrong scope, not ten distinct errors. Checklist displays no unnecessary question or wrong scope action. Direct loses 87 correct displays and gains 49 against checklist, a net loss of 38. Its 52.5% lower input-token count does not offset the poorer observed behavior. The direct candidate fails its gates; neither method is selected for deployment.
+
+The parser displays 180 correct actions, with 72 unnecessary questions, 24 silent misses and six wrong scope actions across the repeated opportunities. Its deterministic outputs do not establish a successful alternative.
+
+## A specific display-policy diagnosis
+
+Inspection suggests a narrower application question: must a first clarification depend on scores for fields that come later in the declared order? On the already inspected checklist replies, using only scope and the fields up to the first requested clarification would give 252 correct displays, versus 187 when all six scores gate every action. This retrospective count motivates a new frozen comparison; it is not confirmation.
+
+The new comparison will collect fresh replies to the unchanged six-question request and apply both policies to each reply. A service question will require scope and service; a metric question will also require channel. No suggestion will still require all six scores. An outside-task explanation will depend on scope alone. Every answer must remain structurally valid: a malformed unused answer still quarantines the whole statement. The policy retains every label and score for inspection, without filling fields or declaring readiness.
+
+The threshold stays at 0.70. Only the display dependencies change. This remains development on inspected wording and a declared priority policy, not independent validation or a measured reduction in analyst effort.

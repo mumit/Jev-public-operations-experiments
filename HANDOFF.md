@@ -2,6 +2,8 @@
 
 ## Current state
 
+The optional comparison has completed: direct 149 correct displays, checklist 187 across 276 opportunities each. Direct fails and adds five unnecessary health-request questions. Read docs/optional-clarification.md for the separate, prospective display-policy diagnosis. Neither method is promoted.
+
 The user selected explicit analyst-entered claims on 2026-10-06. The first frozen typed comparison gives 629 correct/450 correct displayed/nine wrong displayed answers across 750 calls. A separately frozen three-arm replay gives typed 626/452/nine, focused 733/701/three and calculated 750/750/zero. The calculated candidate passes every development panel. The exact evaluator matches all policy references without hosted calls. These entries are assistant fixtures, zero human entries/reviews/independent reviews; arithmetic and validity are delegated to code in the calculated input.
 
 The missing-window confirmation is complete. The user selected retention on 2026-10-06; a separate protocol reused exactly the fifteen already opened native-v2 recordings. All 2,160 calls returned valid answers without retries or repairs. Focused and calculated each give 1,080 correct displayed verdicts and zero wrong displays. Every overall, complete-window, missing-window, complete-metric and other-kind gate passes in every round. Exact computation matches every reference. The 24 incomplete-recording claims are unanswerable in both polarities; all fourteen complete recordings retain the previous adapter's exact aggregates. Preserve the new missing features/data/trial/CLI, plan, pack and exact protocol after execution.
