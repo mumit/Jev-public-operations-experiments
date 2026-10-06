@@ -2,6 +2,12 @@
 
 ## Current state
 
+The excerpt comparison completes 1,134 calls and 1,944 valid answers. Online Boutique displays 103/104/104 versus fresh prefix 102/103/103, but gains four and loses three per round, retains subject errors and fails overall. Train Ticket and Online Boutique boundary wording pass; negated wording fails. Both workflows display zero swapped guidance. Read docs/excerpt-subject.md and inspect /excerpt-subject. No threshold or historical source changes occurred.
+
+The separately frozen subject-robustness challenge is running: 135 constructed cards, fifteen families, full/prefix/excerpt contexts and three rounds, for 1,215 calls. Text and separate source/visible references were committed before excerpt outcomes were inspected. This is subject-only eligibility, not numerical verdicts or recommendations. Zero human/independent reviews or new recordings; protected panels remain unopened. Finish this diagnostic before designing the complete workflow. Do not treat a lucky reference match without supplied-context support as safe.
+
+## Earlier prefix state
+
 The prefix-context diagnostic is complete: 1134 calls, 1944 raw answers and 1943 valid answers. Train Ticket passes every panel and round. Online Boutique displays 102/103/102 clean claims versus fresh full-note controls 99/99/99, but retains subject errors and fails overall. Plain wording passes; negated and boundary wording fail. Prefix displays no unsafe swapped guidance; the full-note control displays one in round one. Read docs/prefix-subject.md and inspect /prefix-subject.
 
 Only state.note differs between contemporary one-question subject inputs. Prefix preserves all earlier characters and ends at the queried sentence. It fixes the recurring redis assignment but keeps its probability below 0.70. One round-two prefix reply selects an option below its distribution maximum and remains quarantined; no answer repair or retry occurred. Clean numerical verdicts remain correct throughout; composed clean availability falls to 107 in that round because of subject quarantine.
