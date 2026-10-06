@@ -209,3 +209,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_extraction_c
 ```
 
 All sixteen assets preserve 3,625 actual responses in 1,119 files. Assertion-family-only recovers seven correct bindings against fresh baseline without losses; the declared combined candidate loses eleven overall and fails both application checks. All accepted bindings and verdicts are correct. No input is promoted, no protected recording opens, and verification makes no calls.
+
+## New-note wording
+
+The [public-note-language-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/public-note-language-v1) adds three controlled wording styles per inspected recording. Its nine files preserve 27 notes with separate references, exact extraction and dependent verdict requests, 324 actual calls, 12,543 raw answers, 12,538 validated answers and five quarantined sentence fields. The archive is 1,103,081 bytes. Restore all sixteen earlier assets first; the source measurements remain in their unchanged bundles.
+
+```bash
+gh release download public-note-language-v1 --repo mumit/Jev-public-operations-experiments --pattern public-note-language-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/public-note-language-v1.tar.gz --manifest evidence/public-note-language-v1.json
+uv run --locked --extra public-data python -m scripts.verify_public_note_language
+```
+
+All seventeen assets preserve 3,949 actual responses in 1,128 files. Family-only gives 430/486 correct end-to-end judgments versus baseline 447/486, with ten gains and twenty-seven losses. It displays no wrong binding; baseline displays two. Both application checks fail, and no candidate is promoted. Verification makes no model calls; protected recordings remain unopened.

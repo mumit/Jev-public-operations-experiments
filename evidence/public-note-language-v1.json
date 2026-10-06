@@ -1,0 +1,65 @@
+{
+  "schema": "public-note-language-evidence-1",
+  "archive": "public-note-language-v1.tar.gz",
+  "archive_sha256": "6d672380b717568f31532da87bd79b2b10333252a6d3ec664259ee7b2f7f19ca",
+  "bytes": 1103081,
+  "source_commit": "64a4699b3aa16f23b9df13fb3af2287d5430123b",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1",
+    "public-extraction-contrast-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 324,
+  "files": {
+    "runs/public-note-language/data-2026-10-05-v1/inputs.json": {
+      "bytes": 3521295,
+      "sha256": "82e15269ea2e9163c6a2809f25bd268a6277da5965ffb32e5f0a4e2a453f9757"
+    },
+    "runs/public-note-language/data-2026-10-05-v1/manifest.json": {
+      "bytes": 613,
+      "sha256": "6c06ce2c037e68701d40dbf3b514357601e2c9d3f3a4034774f56de0e64eaa96"
+    },
+    "runs/public-note-language/data-2026-10-05-v1/references.json": {
+      "bytes": 186361,
+      "sha256": "eb019e05fba94b3ee5920872943140c42a2b3970ac1ca0996846910e51130ad7"
+    },
+    "runs/public-note-language/extraction-hosted-2026-10-05-v1/requests.json": {
+      "bytes": 10417116,
+      "sha256": "9a2246112f0e92090e796ee47182ed11bb112c7ab9e2f13d1f7ce90c18886a1f"
+    },
+    "runs/public-note-language/extraction-hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 7716164,
+      "sha256": "5f94c38f53a5d976b4e1da4cc1d59c0207cb1fb0f94c5b08fffba34f51644f4c"
+    },
+    "runs/public-note-language/extraction-hosted-2026-10-05-v1/summary.json": {
+      "bytes": 547,
+      "sha256": "f971822241c07e6bc006a94cee4a43fbf9f221ff5fdaf484485fe52d69e06c5b"
+    },
+    "runs/public-note-language/verdict-hosted-2026-10-05-v1/requests.json": {
+      "bytes": 2534537,
+      "sha256": "c8a18ef0286ea1c9fcc634b07c34893165bd3b9a706b9a621a67510c34365c92"
+    },
+    "runs/public-note-language/verdict-hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 355320,
+      "sha256": "4a007a35eaa295abd2f1a7ca382bc27cbafe394a61dcd5a12672ac9878a192c2"
+    },
+    "runs/public-note-language/verdict-hosted-2026-10-05-v1/summary.json": {
+      "bytes": 544,
+      "sha256": "58f03bccf8d34829fbf92837972d4e3b8345eff0371301711492487e79d36dee"
+    }
+  }
+}
