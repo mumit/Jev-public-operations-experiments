@@ -221,3 +221,15 @@ uv run --locked --extra public-data python -m scripts.verify_public_note_languag
 ```
 
 All seventeen assets preserve 3,949 actual responses in 1,128 files. Family-only gives 430/486 correct end-to-end judgments versus baseline 447/486, with ten gains and twenty-seven losses. It displays no wrong binding; baseline displays two. Both application checks fail, and no candidate is promoted. Verification makes no model calls; protected recordings remain unopened.
+
+## Assistant-reviewed verdict comparison
+
+The [assistant-review-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/assistant-review-v1) adds 162 actual replies on 27 same-assistant-reviewed controlled notes. Its three files preserve exact requests, raw replies and once-only execution records, with 972 valid verdicts. The committed review decisions, plan, exact protocol and assessment are in the repository. Restore all seventeen earlier assets first. The archive is 102,453 bytes.
+
+```bash
+gh release download assistant-review-v1 --repo mumit/Jev-public-operations-experiments --pattern assistant-review-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/assistant-review-v1.tar.gz --manifest evidence/assistant-review-v1.json
+uv run --locked --extra public-data python -m scripts.verify_assistant_review
+```
+
+All eighteen assets preserve 4,111 actual responses in 1,131 files. Both bound-text and explicit-meaning inputs judge and display every reviewed claim correctly throughout. Explicit meaning adds no observed benefit and consumes 8.1% more input tokens. The same assistant authored notes, annotations and review decisions; there were zero human or independent reviews. No protected recording opens and verification makes no inference calls.

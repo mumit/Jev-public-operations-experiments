@@ -6,7 +6,7 @@ The assistant-reviewed verdict comparison is complete. Both inputs judge and dis
 
 The user authorized proceeding without human decisions on 2026-10-05. The separate protocol supersedes the human-export prerequisite for this same-assistant diagnostic only. Original review sources, note-language failures and historical protocols stay frozen. The human workflow remains available at /claim-review; its browser drafts and fingerprint are unchanged.
 
-Restore all eighteen bundles, then run scripts.verify_assistant_review for the full chain and both original pack validators. The suite has 230 tests and twenty-one browser scripts. All assets preserve 4,111 actual responses in 1,131 files. Earlier synthetic work stays in the original repository. No protected recording opened. A controlled binding-corruption diagnostic is the next recommended automatic test and needs a new protocol; independent analyst usefulness remains unmeasured.
+Restore all eighteen bundles, then run scripts.verify_assistant_review for the full chain and both original pack validators. The suite has 231 tests and twenty-one browser scripts. All assets preserve 4,111 actual responses in 1,131 files. Earlier synthetic work stays in the original repository. No protected recording opened. A controlled binding-corruption diagnostic is the next recommended automatic test and needs a new protocol; independent analyst usefulness remains unmeasured.
 
 ## Recorded findings
 
@@ -216,7 +216,7 @@ All 324 once-only calls complete, preserving 12,543 raw and 12,538 validated ans
 
 Read docs/claim-review.md. The new /claim-review page uses all 27 wording-study notes and the fixed family-definition arm, round one. It shows no answer keys or recorded verdicts. Reviewers explicitly confirm/correct a single service and bounded meaning, or withhold each sentence. Drafts stay in browser storage; JSON exports preserve original proposals and final decisions. The new verdict preview passes the reviewed meaning explicitly alongside the exact source text and service ledgers. Numerical policy stays fixed; this new treatment has not run.
 
-The workflow checkpoint fingerprints source, note bytes and recorded proposals. scripts.validate_claim_review requires a complete compatible export, verifies all seventeen historical assets and reconstructs corrections and the exact preview without provider access. Actual human reviews are the blocker. Browser QA and fixture decisions cannot substitute for analyst work. Do not measure elapsed effort from these exports, which record no time or intermediate edits. Freeze a new comparison, exact requests and budget after genuine reviews and before hosted calls. No protected recordings open, and the 3,949 historical responses stay unchanged.
+The workflow checkpoint fingerprints source, note bytes and recorded proposals. scripts.validate_claim_review requires a complete compatible export, verifies all seventeen historical assets and reconstructs corrections and the exact preview without provider access. At that stage, actual human reviews were the blocker for measuring analyst behavior. The later assistant-only diagnostic changes that research question without substituting assistant or browser-QA decisions for human work. Do not measure elapsed effort from these exports, which record no time or intermediate edits. Freeze a new comparison, exact requests and budget after genuine reviews and before hosted calls. No protected recordings open, and the 3,949 historical responses stay unchanged.
 
 ## Completed same-assistant review
 

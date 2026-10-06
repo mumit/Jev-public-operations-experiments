@@ -60,3 +60,25 @@ class AssistantReviewTests(unittest.TestCase):
     def test_review_provenance_cannot_be_relabelled_human(self):
         with patch.object(trial,'committed'),patch.object(trial,'load',return_value={'schema':'assistant-review-decisions-1','human_review':True,'independent_review':False,'blinded':False}):
             with self.assertRaises(ValueError):trial.check_reviews()
+
+    def test_inspector_hides_reference_fields_until_explicit_reveal(self):
+        import json
+        import tempfile
+        from pathlib import Path
+        from triage_bench import assistant_review_service as service
+        p,ref,record=self.fixture();record.update(note_id=p['id'],dataset=p['dataset'])
+        result={'panels':{'all':{p['dataset']:{'arms':{a:[{'round':1,'outcomes':[{'note_id':p['id'],'sentence':'s02','reference':'supported','choice':'supported','correct':True,'wrong_displayed':False}]}] for a in trial.ARMS}}}}}
+        with tempfile.TemporaryDirectory() as tmp:
+            directory=Path(tmp);(directory/'responses.jsonl').write_text(json.dumps({'card_id':p['id']})+'\n')
+            def fake_load(path):
+                if path==service.REVIEWS:return {'records':[record]}
+                if path.name=='requests.json':return []
+                if path.name=='references.json':return [{'id':p['id'],**ref}]
+                raise AssertionError(path)
+            study=service.AssistantReviewStudy(Path('.'));study.verified=lambda:result
+            with patch.object(service,'OUT',directory),patch.object(service,'load',side_effect=fake_load):
+                hidden=study.card(p['id']);shown=study.card(p['id'],True)
+            self.assertIsNone(hidden['reference']);self.assertIsNotNone(shown['reference'])
+            for group in hidden['outcomes'].values():
+                for o in group:self.assertFalse({'reference','correct','wrong_displayed'} & set(o))
+            self.assertIn('reference',shown['outcomes']['bound_text'][0])

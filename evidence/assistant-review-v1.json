@@ -1,0 +1,42 @@
+{
+  "schema": "assistant-review-evidence-1",
+  "archive": "assistant-review-v1.tar.gz",
+  "archive_sha256": "146a83aa08e111f0c74cfecb6b7078e9ae81dd461dd41f6c5abcee42364d3257",
+  "bytes": 102453,
+  "source_commit": "85677c8d70d02182f23ca6a4dc85673aa4de0879",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1",
+    "public-extraction-contrast-v1",
+    "public-note-language-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 162,
+  "files": {
+    "runs/assistant-review/hosted-2026-10-05-v1/requests.json": {
+      "bytes": 2832894,
+      "sha256": "a124a88e080409c0361894e127421ebda73a487a32b310afbaae50f45bc98ba2"
+    },
+    "runs/assistant-review/hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 382935,
+      "sha256": "0b8b495af761cbac87c87880089fc91a5f1504931853b2f37c5bbe2a94aa0b91"
+    },
+    "runs/assistant-review/hosted-2026-10-05-v1/summary.json": {
+      "bytes": 472,
+      "sha256": "37ef596c87e57c446937944b536d133effceb4718c64a9c4868dddda48afdae4"
+    }
+  }
+}
