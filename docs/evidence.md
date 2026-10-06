@@ -233,3 +233,15 @@ uv run --locked --extra public-data python -m scripts.verify_assistant_review
 ```
 
 All eighteen assets preserve 4,111 actual responses in 1,131 files. Both bound-text and explicit-meaning inputs judge and display every reviewed claim correctly throughout. Explicit meaning adds no observed benefit and consumes 8.1% more input tokens. The same assistant authored notes, annotations and review decisions; there were zero human or independent reviews. No protected recording opens and verification makes no inference calls.
+
+## Controlled binding-corruption evidence
+
+The [binding-corruption-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/binding-corruption-v1) adds 405 actual replies on the same 27 controlled notes, comparing two clean controls, two wrong-service inputs and reversed explicit polarity. Its three files preserve exact requests, raw replies and once-only records. The archive is 201,056 bytes. Restore all eighteen preceding assets first.
+
+```bash
+gh release download binding-corruption-v1 --repo mumit/Jev-public-operations-experiments --pattern binding-corruption-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/binding-corruption-v1.tar.gz --manifest evidence/binding-corruption-v1.json
+uv run --locked --extra public-data python -m scripts.verify_binding_corruption
+```
+
+The original-sentence and altered-proposition references, plan, exact protocol and assessment are committed separately from inputs. Two inconsistent fields remain quarantined: 2,428 of 2,430 raw verdicts validate. No protected recording or human review enters this diagnostic. The nineteen assets preserve 4,516 actual replies in 1,134 files; verification makes no calls.

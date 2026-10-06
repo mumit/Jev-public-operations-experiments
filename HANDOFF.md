@@ -6,7 +6,7 @@ The controlled binding-corruption diagnostic is complete: 405 calls, 2,430 raw a
 
 Zero human or independent reviews occurred. The same assistant authored these notes and their annotations. The user authorized automatic continuation; the separate assistant-review decisions remain frozen. The human workflow and drafts stay available at /claim-review.
 
-Restore all nineteen bundles and run scripts.verify_binding_corruption for the complete chain and both original pack validators. The assets preserve 4,516 actual responses in 1,134 files. Protected recordings remain unopened. The recommended next diagnostic checks subject/binding conflict before issuing a verdict, under a new protocol; there is no promoted candidate or operational reliability claim.
+Restore all nineteen bundles and run scripts.verify_binding_corruption for the complete chain and both original pack validators. The suite has 240 tests and twenty-two browser scripts. The assets preserve 4,516 actual responses in 1,134 files. Protected recordings remain unopened. The recommended next diagnostic checks subject/binding conflict before issuing a verdict, under a new protocol; there is no promoted candidate or operational reliability claim.
 
 ## Recorded findings
 

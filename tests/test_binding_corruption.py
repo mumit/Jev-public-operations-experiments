@@ -69,3 +69,23 @@ class BindingCorruptionTests(unittest.TestCase):
         metrics=t.assess([p],refs,rows)['panels'][p['dataset']]['all']['service_bound'][0]['strata']['all']
         self.assertEqual(metrics['losses'],1);self.assertEqual(metrics['gains'],0);self.assertEqual(metrics['wrong_displayed'],1)
         self.assertEqual(metrics['display_losses'],0)
+
+    def test_inspector_hides_references_without_mutating_saved_result(self):
+        from unittest.mock import patch
+        from triage_bench.binding_corruption_service import BindingCorruptionStudy
+        from triage_bench.paths import ROOT
+        study=BindingCorruptionStudy(ROOT);saved=t.load(t.RESULT);before=copy.deepcopy(saved)
+        with patch.object(study,'verified',return_value=saved):
+            hidden=study.card(self.packets[0]['id']);shown=study.card(self.packets[0]['id'],True)
+            self.assertIsNone(hidden['reference']);self.assertTrue(shown['reference']['service_bound'])
+            overview=study.overview();self.assertNotIn('outcomes',overview)
+            self.assertEqual(saved,before)
+
+    def test_formatted_report_keeps_case_return(self):
+        from triage_bench.study_page import render_study
+        from types import SimpleNamespace
+        from triage_bench.paths import ROOT
+        target='/binding-corruption?dataset=Train+Ticket&wording=plain&arm=service_bound&round=2&sentence=s04'
+        html=render_study(SimpleNamespace(root=ROOT),{'doc':'binding-corruption','return':target}).decode()
+        self.assertIn('When bindings conflict',html)
+        self.assertIn('service_bound',html)

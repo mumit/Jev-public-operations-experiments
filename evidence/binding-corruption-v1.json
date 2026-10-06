@@ -1,0 +1,43 @@
+{
+  "schema": "binding-corruption-evidence-1",
+  "archive": "binding-corruption-v1.tar.gz",
+  "archive_sha256": "e28999396e22620ebebc914f77b6021d9c59d144aa02988c9278da2801cc0937",
+  "bytes": 201056,
+  "source_commit": "db5f9ce8cff89645afb78218daa2c820ef4c7603",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1",
+    "public-extraction-contrast-v1",
+    "public-note-language-v1",
+    "assistant-review-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 405,
+  "files": {
+    "runs/binding-corruption/hosted-2026-10-05-v1/requests.json": {
+      "bytes": 7156620,
+      "sha256": "7f55913d2e11bbbf23e3270e971f6e3521fcdbc579fb8fc52a2717dfd1d3bf69"
+    },
+    "runs/binding-corruption/hosted-2026-10-05-v1/responses.jsonl": {
+      "bytes": 961230,
+      "sha256": "72ead3e66f450025b1eabbbac1893e3602c3edc3cfd5128f8aec4170fb13d7c5"
+    },
+    "runs/binding-corruption/hosted-2026-10-05-v1/summary.json": {
+      "bytes": 474,
+      "sha256": "de3e75a5c2dd5803b86deabc3f22126419d6a55a7e2c35d297785d18c7e7b769"
+    }
+  }
+}

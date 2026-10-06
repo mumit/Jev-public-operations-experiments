@@ -186,6 +186,10 @@ A fresh local clone at commit 599ee10 restored all eighteen immutable assets, 1,
 
 ## Controlled binding-corruption verification
 
-All 238 tests pass; twenty-two browser scripts pass syntax checks. Seven new tests preserve the exact clean controls, identical state bytes across every input, literal sentences, bijective service swaps, isolated polarity changes and untouched reviews. They also check divergent versus invariant references, absent channels as unknown, full missing-answer denominators, paired losses and the fixed display threshold.
+All 240 tests pass; twenty-two browser scripts pass syntax checks. Nine new tests preserve the exact clean controls, identical state bytes across every input, literal sentences, bijective service swaps, isolated polarity changes and untouched reviews. They also check divergent versus invariant references, absent channels as unknown, full missing-answer denominators, paired losses and the fixed display threshold.
 
 The nineteen-stage verifier reconstructs all requests, diagnostic references, producer hashes and assessments, verifies both original packs and confirms protected absence. All 405 calls complete with 2,430 raw answers; two inconsistent fields remain quarantined, leaving 2,428 valid verdicts. The original-sentence reference remains primary. No new data or human review entered the study.
+
+The inspector checks also cover explicit reference hiding, cache immutability and report return context. Browser review covers both applications, wording selection, all five inputs, repeated rounds, service and polarity changes, reveal/reset, exact questions and the formatted report. The saved example shows a missing-trace claim changing from unanswerable at 99% to supported at 99% when the supplied subject changes. These are read-only inspection checks, not human reviews.
+
+The nineteenth supplement contains three files and 201,056 archive bytes. All nineteen assets preserve 4,516 recorded responses in 1,134 files. Publication scans exclude credentials and the prohibited operator identity.
