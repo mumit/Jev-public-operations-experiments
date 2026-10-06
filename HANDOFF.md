@@ -2,6 +2,14 @@
 
 ## Current state
 
+The prefix-context diagnostic is complete: 1134 calls, 1944 raw answers and 1943 valid answers. Train Ticket passes every panel and round. Online Boutique displays 102/103/102 clean claims versus fresh full-note controls 99/99/99, but retains subject errors and fails overall. Plain wording passes; negated and boundary wording fail. Prefix displays no unsafe swapped guidance; the full-note control displays one in round one. Read docs/prefix-subject.md and inspect /prefix-subject.
+
+Only state.note differs between contemporary one-question subject inputs. Prefix preserves all earlier characters and ends at the queried sentence. It fixes the recurring redis assignment but keeps its probability below 0.70. One round-two prefix reply selects an option below its distribution maximum and remains quarantined; no answer repair or retry occurred. Original numerical verdicts remain correct throughout; composed clean availability falls to 107 in that round because of subject quarantine.
+
+Twenty-three evidence assets preserve 6865 actual responses in 1146 files. Use scripts.verify_prefix_subject for the complete chain and both original pack validators. Zero human/independent reviews and new recordings; all protected panels remain unopened. Next, freeze literal excerpts from the latest sentence naming one observed service through the queried claim, using fresh prefix controls. Keep the full prefix when the latest named sentence mentions multiple services. Match complete names, preserve source text, never insert reference subjects or repair supplied verdict bindings.
+
+## Earlier direct-subject state
+
 Direct subject extraction is complete: 405 once-only calls, 2,430 valid answers and no quarantines. Train Ticket passes every panel and round. Online Boutique gains clean displays to 97/101/99 versus fresh proposal checks 90/90/92, but retains 3/1/3 subject errors and withholds 11/7/9 correct baseline verdicts. Plain wording passes; negated and boundary wording fail. Both checked workflows display zero unsafe swapped guidance. The candidate fails overall. Read docs/direct-subject.md and inspect /direct-subject.
 
 One direct reply supplies both clean and swapped comparisons; unique subject accuracy and actual call costs count it once. Numerical verdicts remain unchanged and shared. Every supplied binding stays intact. The recurring redis pronoun error persists without a proposal; low probability blocks the resulting swapped match. This is a coverage improvement, not demonstrated superior safety or proof of anchoring.

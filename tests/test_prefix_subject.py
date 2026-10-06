@@ -114,3 +114,26 @@ class PrefixSubjectTests(unittest.TestCase):
                 result=t.run(profile);self.assertEqual(result['attempted_calls'],1);self.assertEqual(opener.open.call_count,1)
                 self.assertNotIn(profile['api_key'],(out/'responses.jsonl').read_text())
                 with self.assertRaises(FileExistsError):t.run(profile)
+
+    def test_inspector_hides_references_and_names_each_selected_source_call(self):
+        from triage_bench.paths import ROOT
+        from triage_bench.prefix_subject_service import PrefixSubjectStudy
+        study=PrefixSubjectStudy(ROOT);saved=t.load(t.RESULT);snapshot=copy.deepcopy(saved)
+        with patch.object(study,'verified',return_value=saved):
+            hidden=study.card(self.packets[0]['id']);shown=study.card(self.packets[0]['id'],True)
+            self.assertIsNone(hidden['reference']);self.assertTrue(shown['reference']);self.assertNotIn('outcomes',study.overview());self.assertEqual(saved,snapshot)
+            for row in hidden['composition']:
+                for sid,value in row['sentences'].items():
+                    self.assertNotIn('reference',value);self.assertNotIn('safe',value)
+                    self.assertEqual(len(value['source_call_ids']),1 if row['arm'].endswith('baseline') else 2)
+                    if not row['arm'].endswith('baseline'):self.assertIn('::'+sid+'::',value['source_call_ids'][0])
+            pair=[r for r in hidden['composition'] if r['arm'].endswith('prefix') and r['round']==1]
+            self.assertEqual(pair[0]['sentences']['s03']['source_call_ids'][0],pair[1]['sentences']['s03']['source_call_ids'][0])
+
+    def test_formatted_report_preserves_sentence_context_and_workflow(self):
+        from types import SimpleNamespace
+        from triage_bench.paths import ROOT
+        from triage_bench.study_page import render_study
+        target='/prefix-subject?dataset=Online+Boutique&wording=boundary&arm=wrong_prefix&round=1&sentence=s07'
+        html=render_study(SimpleNamespace(root=ROOT),{'doc':'prefix-subject','return':target}).decode()
+        self.assertIn('Resolve a subject before reading later text',html);self.assertIn('wrong_prefix',html);self.assertIn('/prefix-subject?',html)
