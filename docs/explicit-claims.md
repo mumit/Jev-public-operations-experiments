@@ -33,3 +33,22 @@ All 750 calls returned valid answers. Jev answered 629 correctly (83.9%), displa
 The new typed format and general policy instructions performed worse than the earlier correctly supplied bound-text control. That comparison changes the claim set, grouping and input representation; it does not show that explicit entry itself causes the loss. The current entries include both polarities and additional boundary cases.
 
 The next diagnostic will keep the fields, observations, references and 0.70 display rule fixed. A narrower request will state the selected assertion directly and include only its relevant policy rules, against fresh unchanged typed-format controls. This tests a request transformation on inspected data, without advancing the failed format to fresh confirmation.
+
+## Request transformation result
+
+Fresh unchanged typed controls repeated the weakness: 626 of 750 answers were correct, with nine wrong displays. The focused request gave 733 correct answers and 701 correct displays, but still displayed three wrong answers. Calculated facts gave 750 correct answers and correct displays, with no wrong displays. Every calculated-input panel passed.
+
+| Input | Correct answers | Correct displays | Wrong displays |
+| --- | ---: | ---: | ---: |
+| Fresh general typed control | 626/750 | 452/750 | 9 |
+| Focused statement and relevant policy | 733/750 | 701/750 | 3 |
+| Focused statement plus calculated facts | 750/750 | 750/750 | 0 |
+| Exact evaluator, same unchanged claims | 750/750 | 750/750 | 0 |
+
+For the below-threshold duration fixture, the raw values are 100 and 124.999 microseconds. The focused statement says that the absolute relative change is at least 0.25. Calculated input adds `observations_eligible: true`, `relative_change: 0.24998999999999996` and its absolute value. It does not add the reference answer or the truth of the selected assertion. Jev then judges the comparison correctly.
+
+The calculated input gains 298 correct displays against contemporary typed controls and 49 against focused inputs, with no losses on this development set. Each arm makes 750 calls. Input-token totals are 544,800, 397,842 and 438,672 respectively; summed provider latency is about 109 seconds per arm. These are repeated calls on 250 claims from nine inspected recordings and constructed fixtures, not independent incidents.
+
+The useful transformation is concrete: generate a direct comparison from the selected fields, include only its relevant policy, preserve missingness, and compute eligibility and arithmetic in code. The focused step changes wording, state and policy scope together, so this study cannot attribute its gain to one change. The calculated step adds only derived facts and their explanation to the focused request. Its success demonstrates assisted policy checking. The exact evaluator already supplies the verdict without a model call, so this does not establish extra value from Jev for numerical policy execution.
+
+A new confirmation protocol will use another three unallocated RE1-OB groups. The first experiment's fifteen-recording allocation stays unopened. Fresh metrics can test transfer of the frozen calculated input, while actual analyst entry errors, effort and usefulness require a person using the workflow.
