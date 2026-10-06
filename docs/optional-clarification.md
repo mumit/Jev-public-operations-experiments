@@ -54,6 +54,29 @@ The parser displays 180 correct actions, with 72 unnecessary questions, 24 silen
 
 Inspection suggests a narrower application question: must a first clarification depend on scores for fields that come later in the declared order? On the already inspected checklist replies, using only scope and the fields up to the first requested clarification would give 252 correct displays, versus 187 when all six scores gate every action. This retrospective count motivates a new frozen comparison; it is not confirmation.
 
-The new comparison will collect fresh replies to the unchanged six-question request and apply both policies to each reply. A service question will require scope and service; a metric question will also require channel. No suggestion will still require all six scores. An outside-task explanation will depend on scope alone. Every answer must remain structurally valid: a malformed unused answer still quarantines the whole statement. The policy retains every label and score for inspection, without filling fields or declaring readiness.
+The frozen comparison collects fresh replies to the unchanged six-question request and apply both policies to each reply. A service question requires scope and service; a metric question will also require channel. No suggestion still requires all six scores. An outside-task explanation depends on scope alone. Every answer must remain structurally valid: a malformed unused answer still quarantines the whole statement. The policy retains every label and score for inspection, without filling fields or declaring readiness.
 
 The threshold stays at 0.70. Only the display dependencies change. This remains development on inspected wording and a declared priority policy, not independent validation or a measured reduction in analyst effort.
+
+## Fresh-reply policy result
+
+All 276 shared calls completed with 1,656 valid field answers, zero quarantine and no retries. Both policies use these same replies, so their comparison isolates application logic rather than different model responses.
+
+| Policy | Correct canonical actions /276 | Correct displays /276 | Necessary questions /168 needed | Missed clarifications | Withheld actions |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| All six fields gate each action | 262 | 188 | 110 | 58 | 88 |
+| Scope and fields through the first question | 271 | 251 | 152 | 16 | 25 |
+
+The first-question policy gains 63 correct displays and loses none against all-fields. Both display zero unnecessary questions, wrong scope decisions or silent ambiguity misses. The candidate passes four of six overall application/round panels but fails nine of 24 overall/type panels. Complete-statement and needs-question coverage remain below their frozen requirements in several rounds; an aggregate improvement cannot override those failures.
+
+The five incorrect raw choices all concern vague comparisons. Jev treats them as complete wording; their low scores withhold every one, leaving the needed comparison question undisplayed. Other needed questions are also withheld. Counting those cases retains all sixteen missed clarifications.
+
+This result supports a concrete improvement: make display dependencies match the action. It does not make Jev a reliable readiness checker or establish useful advice. No fields are filled, no claim is cleared and no numerical verdict is generated. All required selections remain manual. The 276 calls and 566,394 input tokens count once, not once per policy.
+
+## What remains
+
+The numerical workflow already has an exact-code baseline. For language assistance, the better display policy remains a development candidate that failed its selected coverage requirements. Further tuning on these statements would add little evidence about authentic reports or analyst benefit.
+
+The next decision is whether to evaluate optional suggestions as a convenience despite missed questions, or use required entry alone. A convenience evaluation needs a separately frozen participant comparison measuring entry errors, completed tasks, time and usefulness against explicit entry without Jev. Assistant-written fixtures can test software behavior, but cannot establish those human outcomes. Neither direction needs another round on these inspected statements or access to protected recordings.
+
+The app's [optional clarification inspector](http://127.0.0.1:8769/optional-clarification) shows both experiments, exact requests, all scores, action dependencies, hidden-until-revealed references and a blank required-entry prototype. Local selections make no provider calls or server writes and record no human review. The prototype has no measurements; it does not test entry accuracy or compute a numerical verdict.
