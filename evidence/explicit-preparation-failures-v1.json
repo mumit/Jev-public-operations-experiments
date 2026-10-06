@@ -1,0 +1,401 @@
+{
+  "schema": "explicit-preparation-failures-evidence-1",
+  "archive": "explicit-preparation-failures-v1.tar.gz",
+  "archive_sha256": "f6811d76dfde050207fdc1185e9efd77d276389c1f24fd0dd62d8cc1b4d2c42a",
+  "bytes": 9860249,
+  "source_commit": "78fc4d4a64ac895cfe0027e33697a109611cd38e",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1",
+    "public-extraction-contrast-v1",
+    "public-note-language-v1",
+    "assistant-review-v1",
+    "binding-corruption-v1",
+    "subject-check-v1",
+    "separate-subject-v1",
+    "direct-subject-v1",
+    "prefix-subject-v1",
+    "excerpt-subject-v1",
+    "subject-robustness-v1",
+    "full-workflow-v1",
+    "explicit-claims-v1",
+    "explicit-format-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 0,
+  "files": {
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-0bc131d0c7fe/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d3bf80e4406851b9dc090d0ffd2b68700ce909f968bf5869adf92d7490722d21"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-0bc131d0c7fe/metrics.parquet": {
+      "bytes": 351463,
+      "sha256": "479b808f8941c3f4871b759fb93c7f89397b089de52852e96bae5246d40f1fa7"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-2522b546353a/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7bf702cce2d56b999fca7784db904ec8bc1ae4ab8eab0c5a366950196ed3d181"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-2522b546353a/metrics.parquet": {
+      "bytes": 352344,
+      "sha256": "a7b1a6648eed92934cc9e3dd266c4c5866027dcb654c573786d9fac5a69a418f"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-3c264ac858d4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "6d348f0680bf4c5f971ea53bdb0755197a6aae949e5a7e2f367a61cfbdf42f7a"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-3c264ac858d4/metrics.parquet": {
+      "bytes": 138154,
+      "sha256": "d5bc6e2d75b0b1207808079a2eae21f6549f791d66cc3cd8e7fba7b2e6f87d62"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-45a896f95329/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1e681c9337fa1b86eaefed0b66438abc35b7166179e7e432c2fd35924ff2368f"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-45a896f95329/metrics.parquet": {
+      "bytes": 144834,
+      "sha256": "e4e3ed01541519948b7d573519c029a8ecd93df65a8d59d36cd756411fc6a915"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-47ff6550725d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "172facccf0ef02690c48942ed14f1cad5854324fa0b2f5fbce96b5d816c9f2e0"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-47ff6550725d/metrics.parquet": {
+      "bytes": 150104,
+      "sha256": "74ac11b7929d5787a75c77b44943b97b7c72486a2faaad9a5e8f346092bb220b"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-716f4171085e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1431f681e03a5b9f91c9814d688e0192f92cee11a08beed8493d0910de3eaebb"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-716f4171085e/metrics.parquet": {
+      "bytes": 529219,
+      "sha256": "0a12cabef973e94dffd49db7c2c0b69e048566d0ee7dbd82fe54b25ea2f8dd9a"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-820797597cca/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ad166a1b84a89404204f1f044c04a6a958dcd80bb108dd0735f67e8778fedc50"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-820797597cca/metrics.parquet": {
+      "bytes": 136982,
+      "sha256": "9b7ec68509171e914417748fb1adea118233867c3bf8d7ee3716df3e85417dc9"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-95d20237fb0b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "83e835b4d39d0e666c79335520a3c23a543685a1b26b42d7a5ccdd6ebfedc259"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-95d20237fb0b/metrics.parquet": {
+      "bytes": 371676,
+      "sha256": "362d2363706a63b15f573d258c5a7187ec3cec9aa389d859e85e9aa4697b79b6"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-c17c2868f4f2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4fcd3bb2f5495558f44fe5fcb3f88de578d9744de157566de18397a5f40406b5"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-c17c2868f4f2/metrics.parquet": {
+      "bytes": 144457,
+      "sha256": "1680bb0531139aeb4b46de3c7dd7e832bc05f092bb5f4dc4e96dcd55772354be"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-c221be8cad49/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c987520633b34e174053b3239f731be8f29250939042601d9f117ed07511a3d6"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-c221be8cad49/metrics.parquet": {
+      "bytes": 147122,
+      "sha256": "4db9b62a7112215b238f1447f6ad84a16134cc9c66643505d54fdff039c35b3d"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-c337f56469d7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "51731af7bb2ae45814048a15d504672740bbf369ee6a47c28d5db86f2916cb70"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-c337f56469d7/metrics.parquet": {
+      "bytes": 539951,
+      "sha256": "d8d2668ea0584e4957c3167888084dd811a8492b6ac2d1990066db8caaef0af8"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-d6d4768fd7a2/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d84e4c362a60c615a87c0cf75437503c9ab4ed0ce2df88fff4de3493ea0044c1"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-d6d4768fd7a2/metrics.parquet": {
+      "bytes": 136785,
+      "sha256": "9c0ff87ccb446145ab51d412f6c2f13a0b1c138dd5a3d2ffc8c30009ef34bd17"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-e9a0a93e2778/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c358c0b5687a7e28205ffc9605a875520611bee194383b8da42299006ce88dd4"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-e9a0a93e2778/metrics.parquet": {
+      "bytes": 154862,
+      "sha256": "54ef9d93e5572122254bd8e6aa402e0abdf7ad0193d41b834d98e33d554b6721"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-ec253b2eb018/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "30aa2090ce0aa53bfaccb737d1dfd2f2fbc68e1c21f3f42b833aaacdbd71a836"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-ec253b2eb018/metrics.parquet": {
+      "bytes": 143900,
+      "sha256": "503ab2682c963d72b28ec91d0cd1d4beea3d7482c2db653c148fdacd5f957e54"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-f1e4c62e0b8d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4b72f279cc8113033ed627927055f794df493257ca95a30731d82973211f9346"
+    },
+    "runs/explicit-confirmation/confirmation-data-2026-10-06-v1/raw/ECC-f1e4c62e0b8d/metrics.parquet": {
+      "bytes": 136423,
+      "sha256": "7e910560b619e8aa087c4c0ec8a94ceb51206c3a3d6ed4c76e2ca9a70a49b1f6"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-0f47e41b7e7e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "5e0749fb3a0d04ede3584c115b2fd42c0616042e03172fcbc34fa5e341a38d69"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-0f47e41b7e7e/metrics.parquet": {
+      "bytes": 131823,
+      "sha256": "8a021be0c6eacbeae92554be1a9f593d9beb1e178193a65b8e0cf08911e0f4b1"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-1616ca66c23b/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "f6ce5c8393643ff553e1972e57a247329334a8a6678f2388769eeb8a70e424b1"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-1616ca66c23b/metrics.parquet": {
+      "bytes": 152636,
+      "sha256": "4aa63d42cb3158df67e70b7d1e1d7dcec7fd3b20cf5c13123a8b439a82dcbeaa"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-199d6f9b9b29/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ee5d379440507cd245c81e08929295d9af1441c4d14541a116b95fb353e72337"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-199d6f9b9b29/metrics.parquet": {
+      "bytes": 396235,
+      "sha256": "ff0563caad1bcb902a1f68bef4b9ca4134aa031e526c57045b222e9c255e337c"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-30edbb8f3dc8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e784fffdb08733398f029485f2988788c4660b49aabf823ee06971b3b60b7387"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-30edbb8f3dc8/metrics.parquet": {
+      "bytes": 147993,
+      "sha256": "78f860399e949f9d6f8055d85d9a43e706f29247f64d7019623a978f3b037d37"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-315e24b9921b/inject_time.txt": {
+      "bytes": 8,
+      "sha256": "0633bdefab3ef8557d6ebc41e4773a59efc5215a589269c63d3c57bf2ab9b5e9"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-315e24b9921b/metrics.parquet": {
+      "bytes": 164258,
+      "sha256": "53475c09707471cf8f977f0dd7affb81322de115d7a087f197d8b7f63a87e585"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-486b08362103/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "4762d68f3b71195c32898e42aea31a6b69e0a21fa4fcaf9ae58aa30d445ef658"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-486b08362103/metrics.parquet": {
+      "bytes": 386392,
+      "sha256": "3239c865f33c82fd6fa5a051b41a0e9e3cfd94a2b26ec65ed92f455be58ee43c"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-522c2d3c367e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d6819c7dc9a5eef5aa2c0ee4ae2494c29ad5c68e2be6bfff450e1e3999c9529b"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-522c2d3c367e/metrics.parquet": {
+      "bytes": 385594,
+      "sha256": "efc09980ca1386b6ace770364272201ef8eb055444f804cca9f0be8c15199483"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-53f46291797e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c492e0445f3fc3d348efe56dbcefd65469e05528afb1085a62fc5beedfc61c6a"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-53f46291797e/metrics.parquet": {
+      "bytes": 133672,
+      "sha256": "6bf618231f849e6aa5fb112c5822e46767e51ea1f9aa1c92c5d6a894dd7f7175"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-7c72a71684f8/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "392017698b9b1df43c5b9a5e96dfb9c19676348d67d2ee6a4ad2061abe729112"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-7c72a71684f8/metrics.parquet": {
+      "bytes": 368024,
+      "sha256": "464dcc215afe145d37f8b107ea291df7ffc0691756d375c54ddc1c09d0a2ac74"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-b01ad2b22d36/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "0d084ac4f56dc69c35837ec1d8aca2bae5e27355e5b3b27dbb917006ea190a3b"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-b01ad2b22d36/metrics.parquet": {
+      "bytes": 138416,
+      "sha256": "532523470c984978dd446bb302aaecf87c4e372ebff4f946c018efbfeed6c20c"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-d1f2870b9e5e/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "8e4f584d3700d0e65bd840540f2748c8b3d9f8101465804771dc7156db5b1a9b"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-d1f2870b9e5e/metrics.parquet": {
+      "bytes": 142728,
+      "sha256": "7be584abd3ae42993e24272cefb2efef697095f5407152d354413803d1cb87e1"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-d81d348cc9f1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "18ab5493f5c5684338bbe734e55fb0c9038e75df5c59a07d3c17611daca59fe5"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-d81d348cc9f1/metrics.parquet": {
+      "bytes": 154777,
+      "sha256": "3d088f01dddf26ef0890c53237f9ded4cf122ef43d9d34f046fc56665c790e50"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-f0d64e2abbbc/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "d413b5255b75a416e0c8056460a4d2ce382b87d3fd8d641865c8de52bec13f5f"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-f0d64e2abbbc/metrics.parquet": {
+      "bytes": 146454,
+      "sha256": "7ca79cde22061035f96decaebf2150992a5da9fb8d506e6e199b928f662b0939"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-f2f02e16d910/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "e0f19a38dc3ed54b4e6ed544117b91d996c0a2098634070cd5937ef430a3e36d"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-f2f02e16d910/metrics.parquet": {
+      "bytes": 338746,
+      "sha256": "5dad8369e838c7fdce505f443f1dd61fbe679748efa4be625dbeed6b8189feb5"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-ff4ebe5dc0f4/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "535c0d9a71287daf0ba4707e7f80b0a74b39a7096703a3aaa4e822a324e3c11c"
+    },
+    "runs/explicit-native/confirmation-data-2026-10-06-v1/raw/ECN-ff4ebe5dc0f4/metrics.parquet": {
+      "bytes": 124817,
+      "sha256": "26f24940da755b40cd9ef623b04d5bd37476f765a39be1ac6ce7125a97379534"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-180f7b2586b1/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "ada64b370897057044cfa9d049e4305175e7bcd68c9c4358b05cb8f211a14e6c"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-180f7b2586b1/metrics.parquet": {
+      "bytes": 402967,
+      "sha256": "14733813d79c891dc45749dfa151c133a4e281c10d6d1b67eb7e77255c1b1606"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-1b5f93e2e99c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "131661c4bdd74fde762fb08c5ea48dc470cc64d416187f7cbc27ca365cce8552"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-1b5f93e2e99c/metrics.parquet": {
+      "bytes": 402081,
+      "sha256": "33a89afd0b213e14530bb423304ada0f7b5e08d302da0f349ba70566026a5e3f"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-2e0c162228d7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "c074aaa7ccf687af8e4fbf01e9137ee91fd987835e4df97d94c20ac5208a0063"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-2e0c162228d7/metrics.parquet": {
+      "bytes": 423000,
+      "sha256": "2d66b27ca40e6c32c1b8debdde04ab58283ef43b173ae5c304180f1de6e14e92"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-56a46cd0e1cd/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "57cf986d37ffd18f7126ff9f0ad9fb9d680543c3b3b2e37b6f9804c4b3c41a4d"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-56a46cd0e1cd/metrics.parquet": {
+      "bytes": 395846,
+      "sha256": "a74214aee3bce46e1e3621a2cbaf6a8ba90f1e89936d4e26cc12b25e8c4d8e9b"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-5b702556ff3c/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "894e9b338721dd92fd7061676231d1355bb5f903cee0efeac9914b880f0c6f90"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-5b702556ff3c/metrics.parquet": {
+      "bytes": 368440,
+      "sha256": "920ddec1219d9bf714d9e11f6f91b21c20086badfba1ff4a419abe2deff5ed90"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-5e7ba697f272/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1c185af3565849a34efd4b65b259fbba1c073ea2066f54f65c904ac981af562c"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-5e7ba697f272/metrics.parquet": {
+      "bytes": 144725,
+      "sha256": "c9004d22be63d0ab8beefed33fc6a682a86818c5afae429d7769176c3c6da5c4"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-615b2440f56f/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1ebdcf7f2a78859e806600237a71391d0abbfaeab21bfbf995f877767211666d"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-615b2440f56f/metrics.parquet": {
+      "bytes": 556381,
+      "sha256": "06cfd022a225cc5aeab386aa20e515ca53cf3660bef857418748088ce0dc73eb"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-6eaa1d568762/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fdcb5b4f62a08e46862924e918a1b31bc6aeb4c09470ae460e01da46a1d23bf0"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-6eaa1d568762/metrics.parquet": {
+      "bytes": 141834,
+      "sha256": "c1af3c207e5164de117241b66eca4aa62c939edc1cef30573fd29454e2c5db83"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-77c09be94139/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "bbe1a8d6c8136bf6140d970bd1dc1fef06f21ebc558fd15bffc5c3f6867929d9"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-77c09be94139/metrics.parquet": {
+      "bytes": 540346,
+      "sha256": "8a3d170d74790b39c6852303404efc94e1fa9a8ca544d1ffc2881998c0e978c2"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-b1ebbe46cf1d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "be7f2828af1fbee0ec2cb7fcb7e20a51944ff5468efdc2cf831bd0915a69f83f"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-b1ebbe46cf1d/metrics.parquet": {
+      "bytes": 145325,
+      "sha256": "a685b9d747869623caf3f5419e5fbe56c05f44f09a2cca3411cc6d9bda8658ff"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-b8561bee2131/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "fb8cb94e0ab1a8ee4ac4ae1c4ec0f315094a5bda808ed9e3626eaf116299d028"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-b8561bee2131/metrics.parquet": {
+      "bytes": 45244,
+      "sha256": "b05a5a4d5e05ba6ba77836f242e0f5f794048e346c9bd4a69b9e716fef2423aa"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-bd9a8953a122/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "1c8e3882d9d45e0d78a84bccd7e4931d0c9f351f834051411609828564bca1d3"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-bd9a8953a122/metrics.parquet": {
+      "bytes": 150061,
+      "sha256": "0e3b5611a589a6d321852a6f5f7bb7e55f5318a9b52f203d1d26948f90590559"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-d251d408ebe7/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "7d6322b6de321ced64d5af25f12084ecb96d90a28e59620247158f51b3a72618"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-d251d408ebe7/metrics.parquet": {
+      "bytes": 359575,
+      "sha256": "ed6d4733ce0cce697b747316cf01448ca78f62c152f469f6c580b907b39eca84"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-eb93a9f512da/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "171b5ef1ee2e32cd541a4865ecad6383bfc09e397322c92ea3ed1ca399aa3051"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-eb93a9f512da/metrics.parquet": {
+      "bytes": 137566,
+      "sha256": "e9698994042bb54ed6eed0d83edddd96411203be8e61bc13b61f7eee8eb3be05"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-fb727aea066d/inject_time.txt": {
+      "bytes": 10,
+      "sha256": "2b7dfa4193e63e2a5abe88cc7435c0d0591ebbf703c9e1e7c7c77beefc7ca8e3"
+    },
+    "runs/explicit-native-v2/confirmation-data-2026-10-06-v1/raw/ECV-fb727aea066d/metrics.parquet": {
+      "bytes": 397123,
+      "sha256": "6a301f24faf9144dec6df0a9530a14ecc15814851d6463955050c70628c34a60"
+    }
+  }
+}

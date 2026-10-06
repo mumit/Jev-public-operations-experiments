@@ -267,3 +267,13 @@ GitHub reports each published asset's size and SHA-256 matching its manifest:
 | full-workflow-v1 | 621,718 | `f517f6dff50a7e0143b772bb1b95e52fdbef1ee52cddd0f4940e077884961e71` |
 
 The assets preserve 2,619 new actual calls on familiar recordings, bringing the cumulative total to 9,484. These checks verify reproducibility and failure accounting, not operational readiness. The same assistant authored the controlled notes and references; human and independent review counts remain zero. The automatic candidate fails, so fresh validation awaits a separately defined workflow contract.
+
+## Explicit entries and numerical policy, 2026-10-06
+
+The frozen typed study records 750 valid replies, 629 correct answers and nine wrong displays. The separate format diagnostic records 2,250 valid replies; calculated facts give 750 correct displayed answers with no wrong display and pass every development panel. Fresh typed and focused controls retain nine and three wrong displays. Exact computation agrees with every policy reference; no source builder, choice or threshold was repaired after inference.
+
+Three fresh preparations download fifteen recordings each and stop before claim inputs, references, exact protocols or model calls. The first two expose channel-name differences; native v2 retains the original known allowlist plus load/latency without aliases. The third encounters a recording ending before its declared injection time. All ninety source files, forty-five opened recordings, original failed producers and three publisher-rechecked audits remain preserved. The separate original fifteen-case allocation and all earlier protected panels remain unopened.
+
+The local suite passes 347 tests. New checks cover strict field entry and numeric validity, both assertion polarities, hand-specified inclusive boundaries, independent policy agreement, exact contemporary controls, assertion-independent preprocessing, complete budgets and missing-call denominators, wrong displays and quarantine, global stopping without retries, read-only drafts, reference hiding, native names and unchanged arithmetic, grouped allocations, raw failure checksums and prevention of failed-pack promotion.
+
+All three bundle builders pass their complete verification chains and scan public bytes for credentials and the excluded identity, including compressed string columns. The recorded local evaluator timing is a single pass through 250 entries; replay timing is excluded from immutable score comparison. Provider latency, preparation and human time have different measurement boundaries. Zero human entries, reviews or independent reviews were recorded.

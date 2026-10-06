@@ -4,7 +4,7 @@ I am testing where Jev can help operations analysts: selecting investigation lea
 
 The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
-The latest [complete-workflow comparison](http://127.0.0.1:8769/full-workflow) produces five unsafe automatic displays across three rounds. Correct supplied fields let Jev check and display all 486 repeated claim opportunities correctly, while automatic interpretation loses claims and the frozen literal parser performs worse. The [context challenges](http://127.0.0.1:8769/subject-robustness) also expose information-removal and quoted-assertion failures. These are same-author controlled notes on inspected public recordings, with zero human or independent reviews. Read [the task-fit assessment](docs/operations-fit.md) for the remaining decision.
+The latest explicit-claim comparison gives Jev 750/750 correct displayed answers with calculated facts, while the exact evaluator matches the same policy without hosted calls. Focused wording alone retains three wrong displays. Fresh confirmation is paused at a recording with no post-incident observations; all three failed preparations are preserved. Inspect [the explicit-claim workflow](http://127.0.0.1:8769/explicit-claims?phase=format) and read [the task-fit assessment](docs/operations-fit.md). Correct entry is supplied by assistant fixtures; human effort and added utility remain unmeasured.
 
 ## Completed comparisons
 
@@ -48,10 +48,11 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all twenty-six [public evidence bundles](docs/evidence.md) in order to inspect 9,484 recorded provider responses in 1,158 files. The three newest supplements add 2,619 replies and twelve files. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
+A fresh clone includes source, reports and checkpoints. Restore all twenty-nine [public evidence bundles](docs/evidence.md) in order to inspect 12,484 recorded provider responses in 1,257 files. The three newest supplements add 3,000 replies and 99 files; one preserves failed preparations with zero inference. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
 
 ## Read and inspect
 
+- [Explicit claims](docs/explicit-claims.md): compare general typed, focused and calculated inputs with exact policy computation; inspect the pending missing-window decision.
 - [Complete workflow](docs/full-workflow.md): all twelve candidates, actual accepted fields, unsafe displays, parser and trusted-field control.
 - [Context challenges](docs/subject-robustness.md): quotations, interruptions, ambiguity and source versus supplied-context references.
 - [Literal service excerpt](docs/excerpt-subject.md): gains, regressions and exact source slices.
@@ -91,14 +92,14 @@ A fresh clone includes source, reports and checkpoints. Restore all twenty-six [
 
 ```bash
 uv run --locked --extra public-data python -m unittest discover -s tests -v
-uv run --locked --extra public-data python -m scripts.verify_full_workflow
+uv run --locked --extra public-data python -m scripts.verify_explicit_preparations
 for file in triage_bench/web/*.js; do node --check "$file" || exit 1; done
 ```
 
-The latest verifier invokes all twenty-six stages and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
+The latest verifier invokes twenty-eight executed studies and three preparation failures and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
 
 ## Continue the research
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Read [the complete-workflow report](docs/full-workflow.md) and [the remaining plan](docs/operations-fit.md). Choose explicit analyst claim entry or continued ordinary report interpretation before freezing a new candidate and fresh-data protocol. The failed automatic candidate does not advance. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
+Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). Fresh confirmation awaits a decision about a recording with no post-incident window: retain it as missing evidence under a new contract, or replace its entire group under a new allocation. All three failed preparations remain preserved with zero hosted calls. The original fifteen-case explicit allocation, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.

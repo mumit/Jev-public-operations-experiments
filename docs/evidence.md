@@ -328,3 +328,27 @@ uv run --locked --extra public-data python -m scripts.restore_evidence runs/down
 ```
 
 All twenty-six assets preserve 9,484 actual provider responses in 1,158 files. The three supplements add 2,619 calls on familiar recordings, with zero human or independent reviews. All protected panels remain unopened. Run `scripts.verify_full_workflow` to replay the complete chain without credentials or inference.
+
+## Explicit claims and preparation failures
+
+Three new immutable supplements preserve the explicit-entry work. Restore all twenty-six predecessors first, then these supplements in order. Exact plans, protocols, assessments and failure audits remain in Git.
+
+| Release | Files | Actual provider calls | Archive bytes | SHA-256 |
+| --- | ---: | ---: | ---: | --- |
+| [explicit-claims-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/explicit-claims-v1) | 6 | 750 | 132,499 | `e2e05232175f17816bc1cf25dd13411b20c444ab86b89d86ca1e19d869c07120` |
+| [explicit-format-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/explicit-format-v1) | 3 | 2,250 | 374,704 | `7c04f436ba5e91c29742c648ad3fe16ac23627a49d5988181f025c9a0dacee0a` |
+| [explicit-preparation-failures-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/explicit-preparation-failures-v1) | 90 | 0 | 9,860,249 | `f6811d76dfde050207fdc1185e9efd77d276389c1f24fd0dd62d8cc1b4d2c42a` |
+
+The first supplement includes 250 controlled entries, separate references and 750 typed-input calls. The second preserves 2,250 fresh typed, focused and calculated-fact calls on those same entries. The third contains ninety publisher-verified public source files from three failed preparations, with zero hosted responses and no prepared claims. Forty-five recordings were downloaded and are now opened; the first experiment's separate fifteen-recording allocation and all earlier protected panels stay unopened.
+
+```bash
+gh release download explicit-claims-v1 --repo mumit/Jev-public-operations-experiments --pattern explicit-claims-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/explicit-claims-v1.tar.gz --manifest evidence/explicit-claims-v1.json
+gh release download explicit-format-v1 --repo mumit/Jev-public-operations-experiments --pattern explicit-format-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/explicit-format-v1.tar.gz --manifest evidence/explicit-format-v1.json
+gh release download explicit-preparation-failures-v1 --repo mumit/Jev-public-operations-experiments --pattern explicit-preparation-failures-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/explicit-preparation-failures-v1.tar.gz --manifest evidence/explicit-preparation-failures-v1.json
+uv run --locked --extra public-data python -m scripts.verify_explicit_preparations
+```
+
+All twenty-nine assets preserve 12,484 actual provider responses in 1,257 files. The latest verifier replays twenty-eight executed studies, all failed preparations and both original pack validators without credentials or inference. It verifies the missing post-incident window instead of inventing or repairing measurements. The next data-policy choice is recorded in [HANDOFF](../HANDOFF.md).

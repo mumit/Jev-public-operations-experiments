@@ -1,35 +1,38 @@
 # Where Jev fits, and what remains
 
-The current evidence supports Jev most clearly as a checker of a precisely identified claim against supplied observations. It does not establish reliable automatic reading of ordinary operational reports. Earlier cause-ranking studies also show that transparent metric rankings and fitted ML remain essential comparators; adding traces or model explanations did not produce a repeatable improvement.
+Explicit claim entry removes automatic report interpretation from this task. Jev checks every development claim correctly after code supplies eligibility and arithmetic. The exact evaluator produces the same verdicts without a model call. The current evidence therefore favors the exact evaluator for this fixed numerical policy. Jev's additional value to an analyst remains unmeasured.
 
-## What the completed steps establish
+Earlier report-reading studies expose subject and meaning errors. Cause-ranking studies also show that transparent metric rankings and fitted ML remain essential comparators; added traces or explanations did not produce a repeatable improvement.
 
-| Step | Finding | Consequence |
-| --- | --- | --- |
-| Literal service excerpt | Small net display gains on familiar notes, with regressions and remaining subject errors | Keep it as a diagnostic, not a general context policy |
-| Context challenges | Removing qualifiers loses the intended subject; quoted claims fail in every context | Shorter text cannot replace discourse interpretation |
-| Complete report workflow | Every correctly accepted claim receives a correct verdict, but automatic extraction creates five unsafe displays | Measure selection, subject and meaning separately from numerical accuracy |
-| Correct supplied fields | Every intended verdict is correct and displayed across three rounds | A bounded claim-checking workflow merits further testing, conditional on correct preparation |
-| Frozen literal parser | No correct complete-workflow claims on this wording set | Do not reuse this narrow matcher as an automatic report reader |
+## What the explicit-claim experiments establish
 
-The [excerpt](excerpt-subject.md), [context challenges](subject-robustness.md) and [complete-workflow](full-workflow.md) inspectors expose the actual inputs, raw replies and failure handling. No historical producers, thresholds or results were retuned. The new work adds 2,619 calls on familiar recordings, not 2,619 independent incidents.
+| Input or method | Correct answers | Correct displays | Wrong displays |
+| --- | ---: | ---: | ---: |
+| First general typed request | 629/750 | 450/750 | 9 |
+| Fresh unchanged typed control | 626/750 | 452/750 | 9 |
+| Focused statement and relevant policy | 733/750 | 701/750 | 3 |
+| Focused statement plus calculated facts | 750/750 | 750/750 | 0 |
+| Exact evaluator on the same unchanged claims | 750/750 | 750/750 | 0 |
 
-“Unsafe display” includes a wrong accepted subject or meaning even if the numerical answer happens to coincide with the original claim. A supported/contradicted/unanswerable verdict cannot validate an incorrectly interpreted sentence. Explicit missingness and eligibility rules also differ from evidence of a network root cause.
+The two experiments add 3,000 provider calls on 250 controlled development claims. They reuse eighteen service observations from nine inspected recordings and 34 constructed boundary fixtures. All six claim types appear in both polarities. The entries are supplied by the same assistant, with zero human or independent reviews. Correct field entry is an assumption shared by both methods.
 
-## Decision before fresh validation
+The [explicit-claim inspector](http://127.0.0.1:8769/explicit-claims?phase=format) shows the fields, selected measurements, exact calculation, raw Jev answers and all three representations. Editing a draft makes no hosted call. Read [the experiment](explicit-claims.md) for the transformations, paired gains and losses, gates and costs.
 
-The original plan called for freezing an approach and testing fresh material. The declared automatic candidate fails, so it cannot advance under its existing protocol. The trusted-field control cannot silently become the candidate: it assumes away the extraction problem and measures a different workflow. The next experiment needs a choice about what the analyst supplies.
+The practical transformation is to generate a direct comparison from the selected fields, include its relevant policy, retain missingness and compute eligibility and arithmetic in code. Calculated facts add no reference answer or selected-assertion truth. Their success demonstrates assisted checking, rather than better unaided model arithmetic. Focused wording still produces three wrong displays, including errors near a numerical boundary.
 
-The recommended direction is **explicit claim entry**. The analyst selects the service and observation window, chooses the claim type and its fields, and inspects the observations and result. Jev can check that bounded input alongside an exact policy evaluator. This tests whether Jev adds useful handling or presentation beyond rules, rather than relying on it to infer the intended claim from prose.
+## Why confirmation is paused
 
-Continuing **ordinary report reading** keeps interpretation as the main task. It needs a new input/reference contract and fresh wording challenges, including quotations, ambiguous subjects, double negation and multiple assertions. More same-assistant examples can find additional failures, but they cannot establish independently authored report performance. An external author or authentic report source is necessary for that stronger claim; specialist review remains necessary for operational policy validity.
+Three separately frozen preparations each downloaded fifteen new RE1 Online Boutique recordings and failed before claim inputs, references or inference. Two failures exposed inconsistent channel naming; the adapter now retains all known names without aliases. The third found a recording that ends before its declared incident time. It supplies no post-incident rows.
 
-## Plan after that choice
+All forty-five downloaded recordings are now opened and preserved. None has a Jev confirmation result. The original failed experiment's separate fifteen-recording allocation, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
 
-1. Define the analyst input and output, including when to withhold or ask for clarification. For explicit entry, retain literal claim text alongside the selected fields and expose discrepancies for review.
-2. Freeze the producer, references, exact requests, comparators, display rules, success criteria and budget before testing. An exact policy evaluator supplies a deterministic comparison; trained ML is appropriate for prediction or ranking tasks, not a substitute for the claim policy.
-3. Allocate new material under a separate protocol. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened. A failed candidate or changed task does not unlock them automatically.
-4. Measure complete-workflow errors and coverage, repeatability, preparation effort, total latency and cost. If correct fields are supplied, label that assumption and measure the effort needed to obtain them.
-5. Compare usefulness with analyst practice before proposing automation. Real telecom testing needs representative telemetry, operational policies and independently reviewed references. Public application faults can teach preparation and evaluation methods, but cannot establish RAN, field-service or NOC reliability.
+The pending choice is to retain the incomplete recording as missing evidence or replace its entire service/fault group. Retaining it requires a new contract that leaves the after-window unknown and makes both assertion polarities unanswerable. Replacing it requires a new grouped allocation. Historical results, failed producers and the 0.70 display boundary stay frozen.
 
-No new experiment or external review has started beyond the three completed diagnostics. All new notes and references are assistant-authored, with zero human or independent reviews. The next decision concerns the workflow contract, not another probability threshold.
+## What remains after that choice
+
+1. Freeze the revised data contract or allocation, then confirm the calculated input against focused raw-fact controls and the exact evaluator. Report fresh metric performance separately from duration checks on inspected traces.
+2. Measure actual field-entry errors, preparation time and usefulness with someone using the form. Assistant fixtures cannot establish human effort or independently authored report performance.
+3. Give Jev a separately defined task where interpretation may add value, such as identifying an assertion that needs clarification. Preserve deterministic numerical checks and measure the whole workflow, including wrong subjects and meanings.
+4. Before any telecom pilot, obtain representative telemetry, operational policies and independently reviewed references. Public application faults do not establish RAN, field-service or NOC reliability.
+
+The earlier [complete-workflow study](full-workflow.md) remains relevant: correctly accepted claims receive correct numerical verdicts, while automatic extraction creates five unsafe displays. A verdict cannot validate a sentence whose subject or meaning was interpreted incorrectly. That is why numerical checking and report interpretation need separate evidence.
