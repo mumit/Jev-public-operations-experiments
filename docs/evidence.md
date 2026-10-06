@@ -282,3 +282,16 @@ uv run --locked --extra public-data python -m scripts.verify_direct_subject
 ```
 
 All twenty-two assets preserve 5,731 actual responses in 1,143 files. The verifier for this stage reproduces unique service accuracy, both proposal compositions, shared-call costs, paired display gains and losses, every historical assessment and both original packs without inference. Same-author and zero-human/independent-review labels remain explicit; every protected recording stays unopened.
+
+
+## Prefix subject-context evidence
+
+The [prefix-subject-v1 release](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/prefix-subject-v1) adds 1,134 actual replies: paired one-question subject calls with full-note and literal prefix context, plus unchanged clean and swapped numerical verdict batches. Three files preserve exact requests, raw responses and once-only execution records in a 357,786-byte archive. Restore all twenty-two preceding assets first.
+
+```bash
+gh release download prefix-subject-v1 --repo mumit/Jev-public-operations-experiments --pattern prefix-subject-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/prefix-subject-v1.tar.gz --manifest evidence/prefix-subject-v1.json
+uv run --locked --extra public-data python -m scripts.verify_prefix_subject
+```
+
+Of 1,944 raw answers, 1,943 validate. One inconsistent subject reply remains quarantined without repair or retry. Prefix context displays 102/103/102 correct Online Boutique claims versus 99/99/99 with full-note context and blocks the full-note input's one unsafe swapped display. Subject errors, withholding and paired regressions remain; the candidate fails overall. Train Ticket passes. Zero human or independent reviews and all protected recording boundaries remain unchanged. All twenty-three assets preserve 6,865 actual replies in 1,146 files; verification makes no inference calls.

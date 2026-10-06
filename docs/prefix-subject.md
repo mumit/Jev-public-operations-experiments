@@ -63,7 +63,7 @@ Against the clean numerical baseline, the prefix still withholds 6/5/6 correct c
 
 For NWL-59bca7262cdd, s07, full-note calls select recommendationservice at 0.70/0.52/0.50. Prefix calls select the correct redis at 0.51/0.47/0.45. The prefix fixes this repeated subject assignment but still withholds the clean verdict in every round.
 
-In round one, the full-note subject clears the gate under the swapped recommendationservice proposal. The numerical verdict is supported at 1.00, while the original redis claim is unanswerable at 0.98 because trace coverage is missing. The app displays unsafe guidance. Prefix context instead identifies redis and blocks the swapped proposal.
+In round one, the full-note subject clears the gate under the swapped recommendationservice proposal. The numerical verdict is supported at 1.00, while the original redis claim is unanswerable at 0.97 because trace coverage is missing. The app displays unsafe guidance. Prefix context instead identifies redis and blocks the swapped proposal.
 
 Prefix produces no unsafe display in this run; full-note context produces one. That observed difference does not establish an operational error rate or consistent safety advantage. The neighboring health sentence, s08, still receives a wrong prefix subject in round two.
 
