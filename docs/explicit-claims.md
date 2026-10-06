@@ -53,7 +53,7 @@ The useful transformation is concrete: generate a direct comparison from the sel
 
 A new confirmation protocol will use another three unallocated RE1-OB groups. The first experiment's fifteen-recording allocation stays unopened. Fresh metrics can test transfer of the frozen calculated input, while actual analyst entry errors, effort and usefulness require a person using the workflow.
 
-## Fresh confirmation is paused
+## Preserved preparation failures
 
 Three separately frozen preparations downloaded fifteen recordings each, then stopped before producing claim inputs, references, a request protocol or hosted calls. All source bytes and failure audits remain preserved.
 
@@ -63,9 +63,9 @@ Three separately frozen preparations downloaded fifteen recordings each, then st
 
 The forty-five downloaded recordings are now opened, even though no Jev confirmation ran. None can be relabeled untouched. The first experiment's separate fifteen-recording allocation and all earlier protected panels remain unopened.
 
-The next decision is whether to retain the incomplete recording as missing evidence or replace its entire service/fault group. Retaining it requires a new contract that keeps the absent after-window unknown and makes both assertion polarities unanswerable. Replacing the group requires a new grouped allocation. Either choice needs a frozen protocol before further inference; the completed results and failed producers remain unchanged.
+The preparation failure required a choice between retaining the incomplete recording as missing evidence and replacing its entire service/fault group. The user selected retention. The new contract below leaves the absent after-window unknown and makes both assertion polarities unanswerable; completed results and failed producers remain unchanged.
 
-My recommendation is to retain missing evidence. That tests a condition an operations workflow must handle without inventing measurements. It will still be a controlled public-data experiment. Actual analyst accuracy, preparation time and usefulness require someone using the form; the current fixtures cannot measure them.
+Retaining missing evidence tests a condition an operations workflow must handle without inventing measurements. This remains a controlled public-data experiment. Actual analyst accuracy, preparation time and usefulness require someone using the form; the current fixtures cannot measure them.
 
 ## Selected missing-window confirmation
 

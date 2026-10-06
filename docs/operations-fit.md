@@ -20,17 +20,17 @@ The [explicit-claim inspector](http://127.0.0.1:8769/explicit-claims?phase=forma
 
 The practical transformation is to generate a direct comparison from the selected fields, include its relevant policy, retain missingness and compute eligibility and arithmetic in code. Calculated facts add no reference answer or selected-assertion truth. Their success demonstrates assisted checking, rather than better unaided model arithmetic. Focused wording still produces three wrong displays, including errors near a numerical boundary.
 
-## Why confirmation is paused
+## Missing evidence in confirmation
 
 Three separately frozen preparations each downloaded fifteen new RE1 Online Boutique recordings and failed before claim inputs, references or inference. Two failures exposed inconsistent channel naming; the adapter now retains all known names without aliases. The third found a recording that ends before its declared incident time. It supplies no post-incident rows.
 
 All forty-five downloaded recordings are now opened and preserved. None has a Jev confirmation result. The original failed experiment's separate fifteen-recording allocation, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
 
-The pending choice is to retain the incomplete recording as missing evidence or replace its entire service/fault group. Retaining it requires a new contract that leaves the after-window unknown and makes both assertion polarities unanswerable. Replacing it requires a new grouped allocation. Historical results, failed producers and the 0.70 display boundary stay frozen.
+The selected treatment retains the incomplete recording. A separately frozen protocol leaves its after-window unknown and tests both assertion polarities. It reuses the fifteen native-v2 recordings, without new source access or case replacement. Historical results, failed producers and the 0.70 display boundary stay frozen. Separate complete-window and missing-window gates prevent the many unanswerable claims from concealing comparison errors.
 
-## What remains after that choice
+## What remains
 
-1. Freeze the revised data contract or allocation, then confirm the calculated input against focused raw-fact controls and the exact evaluator. Report fresh metric performance separately from duration checks on inspected traces.
+1. Complete the frozen missing-window confirmation against focused raw-fact controls and the exact evaluator. These recordings were inspected for schema and window coverage before this protocol; they are not a wholly untouched panel. They provide no traces for duration transfer.
 2. Measure actual field-entry errors, preparation time and usefulness with someone using the form. Assistant fixtures cannot establish human effort or independently authored report performance.
 3. Give Jev a separately defined task where interpretation may add value, such as identifying an assertion that needs clarification. Preserve deterministic numerical checks and measure the whole workflow, including wrong subjects and meanings.
 4. Before any telecom pilot, obtain representative telemetry, operational policies and independently reviewed references. Public application faults do not establish RAN, field-service or NOC reliability.

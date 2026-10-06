@@ -1,6 +1,6 @@
 """Read-only claim entry preview and verified experiment inspection."""
 import copy,json
-from . import explicit_claim_trial as t,explicit_format_trial as formats,explicit_native_v2_trial as fresh
+from . import explicit_claim_trial as t,explicit_format_trial as formats,explicit_missing_trial as fresh
 from .explicit_claim_features import validate,canonical,evaluate,request
 from .explicit_format_features import request as format_request,statement
 
@@ -13,7 +13,7 @@ class ExplicitClaimStudy:
     def verified(self,phase):
         source=self.data_phase(phase);trial=fresh if phase=='fresh' else formats if phase=='format' else t
         result_path=fresh.result_path() if phase=='fresh' else formats.result_path() if phase=='format' else t.result_path(phase)
-        paths=[trial.PLAN,result_path,trial.protocol_path(source),t.PLAN,*(self.root/n for n in trial.SOURCES),*(self.root/n for n in t.load(trial.PLAN)['evidence_sha256']),*self.directory(phase).rglob('*'),*trial.output(source).rglob('*')]
+        paths=[trial.PLAN,result_path,trial.protocol_path(source),t.PLAN,*(self.root/n for n in trial.SOURCES),*(self.root/n for n in t.load(trial.PLAN)['evidence_sha256']),*self.directory(phase).rglob('*'),*(fresh.data.previous.DATA.rglob('*') if phase=='fresh' else []),*trial.output(source).rglob('*')]
         sig=tuple((str(p),p.stat().st_size,p.stat().st_mtime_ns) for p in paths if p.is_file())
         if phase not in self._cache or self._cache[phase][0]!=sig:self._cache[phase]=(sig,fresh.verify() if phase=='fresh' else formats.verify() if phase=='format' else t.verify(phase))
         return self._cache[phase][1]
@@ -22,12 +22,12 @@ class ExplicitClaimStudy:
         except (OSError,ValueError,KeyError):return {'available':False,'error':'This phase needs its recorded evidence and committed assessment.'}
         r.pop('outcomes');source=self.data_phase(phase)
         if phase in ('format','fresh'):
-            selected=[p for p in r['panels'] if p['arm']=='calculated']
+            selected=[p for p in r['panels'] if p['arm']=='calculated' and p.get('scope','overall')=='overall']
             for panel in r['panels']:panel.setdefault('rule_correct',panel['claims'])
             r.update(phase=phase,passes=r['candidate_passes'],opportunities=sum(p['claims'] for p in selected),correct_answers=sum(p['correct'] for p in selected),correct_displays=sum(p['correct_display'] for p in selected),wrong_displays=sum(p['wrong_display'] for p in selected),rule_correct=sum(p['rule_correct'] for p in selected))
         cards=[{'id':p['id'],'dataset':p['dataset'],'category':p['category'],'kind':p['claim']['kind'],'service':p['claim']['service'],'asserted':p['claim']['asserted'],'recording':p['recording']} for p in t.load(self.directory(phase)/'inputs.json')]
         phases=['development']+(['format'] if formats.result_path().exists() else [])+(['fresh'] if fresh.result_path().exists() else [])
-        return {'available':True,'cards':cards,'phases':phases,'confirmation_status':'Paused: one allocated recording has no post-incident window. Three failed preparations preserve 45 downloaded recordings and zero hosted calls. A new data contract or group allocation is required.',**r}
+        return {'available':True,'cards':cards,'phases':phases,'confirmation_status':('Missing-window confirmation is complete. It retains all fifteen previously downloaded recordings, including the incomplete one. No additional recordings opened; prior failed preparations remain preserved.' if fresh.result_path().exists() else 'The selected protocol retains missing evidence on fifteen previously downloaded recordings. Confirmation is in progress; prior failed preparations remain preserved.'),**r}
     def packet(self,phase,identifier):
         source=self.data_phase(phase)
         if phase=='fresh':fresh.data.validate(fresh.check_plan)
@@ -36,7 +36,7 @@ class ExplicitClaimStudy:
         except StopIteration as e:raise ValueError('Unknown explicit claim.') from e
     def card(self,phase,identifier,reveal=False):
         result=self.verified(phase);p=self.packet(phase,identifier);source=self.data_phase(phase);trial=fresh if phase=='fresh' else formats if phase=='format' else t
-        return {**p,'canonical':canonical(p['claim']),
+        return {**p,'coverage':next(r for r in t.load(fresh.data.DATA/'coverage.json') if r['recording']==p['recording']) if phase=='fresh' else None,'canonical':canonical(p['claim']),
           'jobs':[j for j in t.load(trial.output(source)/'requests.json') if j['card_id']==identifier],
           'responses':[r for r in map(json.loads,(trial.output(source)/'responses.jsonl').read_text().splitlines()) if r['card_id']==identifier],
           'reference':next(r for r in t.load(self.directory(phase)/'references.json') if r['id']==identifier) if reveal else None,
