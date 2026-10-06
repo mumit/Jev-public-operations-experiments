@@ -53,3 +53,5 @@ It does not establish that the assistant matches an independent operations analy
 The next useful automatic test is sensitivity to incorrect bindings: hold the exact sentence and facts fixed, introduce controlled errors in subject or meaning, and measure whether Jev follows those errors or retains the source sentence's meaning. That would clarify the value and risk of passing normalized fields. A separate frozen protocol must preserve the clean controls, mark corrupted inputs explicitly and score verdict changes against the original claims. It needs no human decisions or protected recordings.
 
 Independent analyst review remains useful later for authentic language, unfamiliar network conventions and disagreement about policy. That is a different validation task from this controlled diagnostic.
+
+The subsequent [binding-corruption diagnostic](binding-corruption.md) tests that dependency with deliberately incorrect subject and polarity fields. Its clean controls remain correct, while wrong-subject pronoun claims produce confident errors. The evidence supports explicit subject checking as the next comparison.

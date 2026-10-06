@@ -183,3 +183,9 @@ The suite passes 231 tests. Seven new checks preserve the exact bound-text contr
 Browser review verifies the original extraction versus final assistant decision, both verdict inputs, rounds, withheld requests, reference reveal and reset, application/wording selection, actual response distributions, exact questions and service ledgers, raw replies and the formatted report's selected-case return link. These are inspection checks; no browser decisions count as human reviews. The new public supplement contains three files, 162 actual calls and 972 valid verdicts.
 
 A fresh local clone at commit 599ee10 restored all eighteen immutable assets, 1,131 files, into its own environment with pinned dependencies and Python 3.14.3. It passed the full eighteen-stage verifier, both original pack validators and all 231 tests without a key, a local .env or new inference. The published assistant-review-v1 asset has the committed 102,453-byte size and SHA-256 digest. A final browser clarification labels the selected application/wording panel beneath the all-notes result; it changes no evidence or request producer.
+
+## Controlled binding-corruption verification
+
+All 238 tests pass; twenty-two browser scripts pass syntax checks. Seven new tests preserve the exact clean controls, identical state bytes across every input, literal sentences, bijective service swaps, isolated polarity changes and untouched reviews. They also check divergent versus invariant references, absent channels as unknown, full missing-answer denominators, paired losses and the fixed display threshold.
+
+The nineteen-stage verifier reconstructs all requests, diagnostic references, producer hashes and assessments, verifies both original packs and confirms protected absence. All 405 calls complete with 2,430 raw answers; two inconsistent fields remain quarantined, leaving 2,428 valid verdicts. The original-sentence reference remains primary. No new data or human review entered the study.
