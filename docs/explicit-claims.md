@@ -25,3 +25,11 @@ Earlier reference code implements the measurement policy separately from the new
 A metric or duration claim requires four field choices; another claim requires three, in addition to selecting the source window. These counts describe the form, not elapsed analyst effort. The experiment has zero human entries or independent reviews. Correct field entry is a supplied assumption shared by both arms.
 
 The earlier protected panels stay unopened. This study does not establish automatic report understanding, anomaly detection, root-cause ranking or production readiness. Results will determine whether Jev adds value to this narrow numerical task and which evidence is still missing.
+
+## First result
+
+All 750 calls returned valid answers. Jev answered 629 correctly (83.9%), displayed 450 correct answers and displayed nine wrong answers. The exact evaluator matched all 750 policy references. Every application and boundary-fixture gate failed. Confirmation therefore stays unopened.
+
+The new typed format and general policy instructions performed worse than the earlier correctly supplied bound-text control. That comparison changes the claim set, grouping and input representation; it does not show that explicit entry itself causes the loss. The current entries include both polarities and additional boundary cases.
+
+The next diagnostic will keep the fields, observations, references and 0.70 display rule fixed. A narrower request will state the selected assertion directly and include only its relevant policy rules, against fresh unchanged typed-format controls. This tests a request transformation on inspected data, without advancing the failed format to fresh confirmation.
