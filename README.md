@@ -47,7 +47,7 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all twenty-two [public evidence bundles](docs/evidence.md) in order to inspect 5,731 recorded provider responses in 1,143 files. The newest supplement adds 486 replies and three files. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
+A fresh clone includes source, reports and checkpoints. Restore all twenty-two [public evidence bundles](docs/evidence.md) in order to inspect 5,731 recorded provider responses in 1,143 files. The newest supplement adds 405 replies and three files. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
 
 ## Read and inspect
 
