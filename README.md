@@ -4,12 +4,13 @@ I am testing where Jev can help operations analysts: selecting investigation lea
 
 The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
-The latest [separate-call comparison](http://127.0.0.1:8769/separate-subject) improves Online Boutique clean displays to 92/91/91 versus fresh joint 84/83/83, but still withholds 16–17 correct claims per round and fails overall. Train Ticket passes. Both workflows withhold every deliberately swapped display in this run; some subject classifications remain wrong. These are same-author controlled notes, with zero human or independent reviews. The [human review workflow](http://127.0.0.1:8769/claim-review) remains available.
+The latest [direct-subject comparison](http://127.0.0.1:8769/direct-subject) improves Online Boutique clean displays to 97/101/99 versus fresh proposal checks 90/90/92, but still withholds 7–11 correct claims per round and fails overall. Train Ticket passes. Both checked workflows withhold every deliberately swapped display; some subject errors remain. These are same-author controlled notes, with zero human or independent reviews. The [human review workflow](http://127.0.0.1:8769/claim-review) remains available.
 
 ## Completed comparisons
 
 | Study | Evidence | Result |
 |---|---|---|
+| Direct subject extraction | 27 inspected controlled notes, complete service inventories, fresh proposal checks, three rounds | Train Ticket passes. Online Boutique displays 97/101/99 versus proposal checks 90/90/92, but retains subject errors and fails overall. No swapped display survives. |
 | Separate subject and verdict calls | 27 inspected controlled notes, fresh baselines and joint controls, three rounds | Train Ticket passes; Online Boutique gains eight clean displays per round over joint, but still loses 16–17 versus baseline. No swapped display survives; subject errors remain and the overall candidate fails. |
 | Joint subject checks | Same controlled notes, four inputs, three rounds | Train Ticket passes; Online Boutique loses 25–27 clean displays and retains one wrong-service, wrong-verdict display. Candidate fails. |
 | Assistant-reviewed verdicts | 27 controlled notes, two inputs, three rounds; no human reviews | Both inputs judge and display 162/162 claims correctly each round. Explicit meaning adds no observed benefit and uses 8.1% more input tokens. Same-author review; no independent validation. |
@@ -46,10 +47,11 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all twenty-one [public evidence bundles](docs/evidence.md) in order to inspect 5,326 recorded provider responses in 1,140 files. The newest supplement adds 486 replies and three files. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
+A fresh clone includes source, reports and checkpoints. Restore all twenty-two [public evidence bundles](docs/evidence.md) in order to inspect 5,731 recorded provider responses in 1,143 files. The newest supplement adds 486 replies and three files. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
 
 ## Read and inspect
 
+- [Direct subjects](docs/direct-subject.md): service extraction without a proposal, shared-reply comparisons and remaining pronoun failures.
 - [Separate calls](docs/separate-subject.md): text-only subject attribution, independent verdict requests, coverage gains and remaining errors.
 - [Joint subject checks](docs/subject-check.md): original-sentence assessment, wrong proposals and the surviving unsafe result.
 - [Binding corruption](docs/binding-corruption.md): service and polarity sensitivity.
@@ -83,14 +85,14 @@ A fresh clone includes source, reports and checkpoints. Restore all twenty-one [
 
 ```bash
 uv run --locked --extra public-data python -m unittest discover -s tests -v
-uv run --locked --extra public-data python -m scripts.verify_separate_subject
+uv run --locked --extra public-data python -m scripts.verify_direct_subject
 for file in triage_bench/web/*.js; do node --check "$file" || exit 1; done
 ```
 
-The latest verifier invokes all twenty-one stages and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
+The latest verifier invokes all twenty-two stages and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
 
 ## Continue the research
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Read [the separate-call report](docs/separate-subject.md). Next, identify the actual subject without a proposed binding and compare in code under a new protocol and budget. Human review remains necessary to measure actual analyst behavior. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.
+Read [the direct-subject report](docs/direct-subject.md). Next, compare full notes with unchanged prefixes ending at each queried sentence under a new protocol and budget. Human review remains necessary to measure actual analyst behavior. The 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves remain unopened.

@@ -2,6 +2,14 @@
 
 ## Current state
 
+Direct subject extraction is complete: 405 once-only calls, 2,430 valid answers and no quarantines. Train Ticket passes every panel and round. Online Boutique gains clean displays to 97/101/99 versus fresh proposal checks 90/90/92, but retains 3/1/3 subject errors and withholds 11/7/9 correct baseline verdicts. Plain wording passes; negated and boundary wording fail. Both checked workflows display zero unsafe swapped guidance. The candidate fails overall. Read docs/direct-subject.md and inspect /direct-subject.
+
+One direct reply supplies both clean and swapped comparisons; unique subject accuracy and actual call costs count it once. Numerical verdicts remain unchanged and shared. Every supplied binding stays intact. The recurring redis pronoun error persists without a proposal; low probability blocks the resulting swapped match. This is a coverage improvement, not demonstrated superior safety or proof of anchoring.
+
+Twenty-two evidence assets preserve 5,731 actual responses in 1,143 files. Use scripts.verify_direct_subject for the complete chain and both original pack validators. Zero human/independent reviews and new recordings; protected panels remain unopened. Next, freeze a prefix-context diagnostic that removes only text after each queried sentence, with a fresh full-note direct control and unchanged numerical verdict calls. Retain all earlier antecedents and observed service names; never insert a reviewed subject or repair a proposal.
+
+## Earlier separate-call state
+
 The separate-subject diagnostic is complete: 486 calls, 3,888 valid answers and no quarantines. Train Ticket passes throughout. Online Boutique displays 92/91/91 correct clean claims versus fresh joint 84/83/83 and baseline 108 each round. Every swapped display is withheld, but 4/5/5 wrong subject checks and 7/6/8 clean subject errors remain. Plain wording passes; negated and boundary wording fail, so the overall candidate fails. Read docs/separate-subject.md and inspect /separate-subject.
 
 All twenty-one evidence assets preserve 5,326 actual responses in 1,140 files. Use scripts.verify_separate_subject for the full chain and both original pack validators. Zero human/independent reviews and new recordings; protected panels remain unopened. The next diagnostic should extract the actual subject without seeing the proposed binding, then compare in code under a new protocol. Neither a new provider nor service repair is authorized by these results.

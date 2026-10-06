@@ -103,3 +103,24 @@ class DirectSubjectTests(unittest.TestCase):
                 result=t.run(profile);self.assertEqual(result['attempted_calls'],1);self.assertEqual(opener.open.call_count,1)
                 self.assertNotIn(profile['api_key'],(out/'responses.jsonl').read_text())
                 with self.assertRaises(FileExistsError):t.run(profile)
+
+    def test_inspector_hides_reference_and_composes_shared_call_sources(self):
+        from triage_bench.paths import ROOT
+        from triage_bench.direct_subject_service import DirectSubjectStudy
+        study=DirectSubjectStudy(ROOT);saved=t.load(t.RESULT);snapshot=copy.deepcopy(saved)
+        with patch.object(study,'verified',return_value=saved):
+            hidden=study.card(self.packets[0]['id']);shown=study.card(self.packets[0]['id'],True)
+            self.assertIsNone(hidden['reference']);self.assertTrue(shown['reference']);self.assertNotIn('outcomes',study.overview());self.assertEqual(saved,snapshot)
+            for row in hidden['composition']:
+                self.assertEqual(len(row['source_call_ids']),1 if row['arm'].endswith('baseline') else 2)
+                for value in row['sentences'].values():self.assertNotIn('reference',value);self.assertNotIn('safe',value)
+            direct=[r for r in hidden['composition'] if r['arm'].endswith('direct') and r['round']==1]
+            self.assertEqual(direct[0]['source_call_ids'][0],direct[1]['source_call_ids'][0])
+
+    def test_report_return_preserves_direct_selection(self):
+        from types import SimpleNamespace
+        from triage_bench.paths import ROOT
+        from triage_bench.study_page import render_study
+        target='/direct-subject?dataset=Online+Boutique&wording=boundary&arm=wrong_direct&round=1&sentence=s07'
+        html=render_study(SimpleNamespace(root=ROOT),{'doc':'direct-subject','return':target}).decode()
+        self.assertIn('Identify the subject without a proposed binding',html);self.assertIn('wrong_direct',html);self.assertIn('/direct-subject?',html)

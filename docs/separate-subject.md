@@ -80,3 +80,5 @@ The split improves useful coverage on these inspected notes, preserves numerical
 Next, I will ask Jev to identify the actual subject from the note without seeing a proposed binding. Code can then compare that answer with the proposal. This removes the proposed service as a possible anchor while keeping numerical assessment separate. The comparison needs fresh controls, the same clean-coverage checks and a new frozen protocol; current notes remain inspected development evidence.
 
 [Inspect separate calls, fresh joint controls and display decisions](http://127.0.0.1:8769/separate-subject).
+
+The [direct-subject follow-up](direct-subject.md) is now complete. It improves Online Boutique coverage further but retains pronoun errors and fails overall. Its fresh proposal checks provide the contemporary comparison; these earlier replies remain historical evidence.
