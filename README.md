@@ -48,7 +48,7 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all twenty-nine [public evidence bundles](docs/evidence.md) in order to inspect 12,484 recorded provider responses in 1,257 files. The three newest supplements add 3,000 replies and 99 files; one preserves failed preparations with zero inference. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
+A fresh clone includes source, reports and checkpoints. Restore all thirty [public evidence bundles](docs/evidence.md) in order to inspect 14,644 recorded provider responses in 1,264 files. The newest supplement adds 2,160 replies and seven files; its source recordings remain in the earlier preparation-failure bundle. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
 
 ## Read and inspect
 
@@ -92,7 +92,7 @@ A fresh clone includes source, reports and checkpoints. Restore all twenty-nine 
 
 ```bash
 uv run --locked --extra public-data python -m unittest discover -s tests -v
-uv run --locked --extra public-data python -m scripts.verify_explicit_preparations
+uv run --locked --extra public-data python -m scripts.verify_explicit_missing
 for file in triage_bench/web/*.js; do node --check "$file" || exit 1; done
 ```
 

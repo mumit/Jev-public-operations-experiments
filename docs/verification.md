@@ -289,3 +289,11 @@ GitHub reports all three published archive sizes and SHA-256 digests exactly as 
 | explicit-preparation-failures-v1 | 9,860,249 | `f6811d76dfde050207fdc1185e9efd77d276389c1f24fd0dd62d8cc1b4d2c42a` |
 
 Browser review checks the typed and transformed requests, original replies, separate reference reveal, calculation boundaries, assertion changes and deterministic draft export. The below-threshold duration fixture exposes the calculated contradiction and its negated draft preview. Draft edits trigger no model calls; the page identifies the confirmation blocker and has no horizontal overflow. These checks establish reproducibility and inspector behavior, not performance on genuine analyst entries or operational readiness.
+
+## Missing-window confirmation, 2026-10-06
+
+The new contract and plan were committed as cc69cf4, followed by exact request/pack fingerprints at 72b3f7d before inference. All 2,160 once-only calls complete with valid answers, zero retries, repairs or quarantines. Both arms judge and display all 1,080 verdicts correctly. All five declared scopes pass separately in every round; the exact evaluator agrees with every reference. The result was committed as 1e7ec3f before bundling.
+
+The suite passes 355 tests. Eight new checks cover unchanged complete-window aggregates, absent before/after windows, null aggregates and missing fractions, both assertion polarities, malformed timelines, metadata rejection, unchanged request functions, missing-call denominators, scoped gates, no-call draft preview and nonduplicated summary totals. A separate check confirms all fourteen actual complete recordings retain every earlier aggregate. Thirty browser scripts pass syntax checks.
+
+The bundle builder passes the full twenty-nine-study chain, all three preserved failure audits and both original pack validators, with zero inference. It scans publication contents and preserves seven files in 352,426 archive bytes. The archive reuses source measurements from its predecessors. No new recording opened; all original protected allocations remain unopened. Reproduction does not establish authentic analyst performance or operational readiness.

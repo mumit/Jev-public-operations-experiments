@@ -351,4 +351,18 @@ uv run --locked --extra public-data python -m scripts.restore_evidence runs/down
 uv run --locked --extra public-data python -m scripts.verify_explicit_preparations
 ```
 
-All twenty-nine assets preserve 12,484 actual provider responses in 1,257 files. The latest verifier replays twenty-eight executed studies, all failed preparations and both original pack validators without credentials or inference. It verifies the missing post-incident window instead of inventing or repairing measurements. The next data-policy choice is recorded in [HANDOFF](../HANDOFF.md).
+All twenty-nine assets preserve 12,484 actual provider responses in 1,257 files. The latest verifier replays twenty-eight executed studies, all failed preparations and both original pack validators without credentials or inference. It verifies the missing post-incident window instead of inventing or repairing measurements. The preparation stage ended at a data-policy choice; the missing-window supplement below records the selected treatment.
+
+## Missing-window confirmation
+
+[explicit-missing-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/explicit-missing-v1) adds seven files and 2,160 actual provider responses. Restore all twenty-nine predecessors first. Source measurements remain in explicit-preparation-failures-v1; this supplement contains the new entries, separate references, row-coverage record, manifest, exact requests, original responses and execution summary. No source recording was downloaded again or added.
+
+The archive contains 352,426 bytes with SHA-256 `0459f0b3e0619bfb446097405a4ff505c485e834679a150607c7c84733f0fe0c`. The plan, exact protocol and results remain in Git. All thirty assets preserve 14,644 actual provider responses in 1,264 files.
+
+```bash
+gh release download explicit-missing-v1 --repo mumit/Jev-public-operations-experiments --pattern explicit-missing-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/explicit-missing-v1.tar.gz --manifest evidence/explicit-missing-v1.json
+uv run --locked --extra public-data python -m scripts.verify_explicit_missing
+```
+
+Both Jev arms match every numerical reference and pass each complete-evidence and missing-evidence gate. This reuses fifteen recordings after schema/window inspection; it is not a wholly untouched panel or a measurement of human effort. The original protected allocations remain unopened. Further inference awaits a new task choice and separately frozen protocol.

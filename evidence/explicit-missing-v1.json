@@ -1,0 +1,70 @@
+{
+  "schema": "explicit-missing-evidence-1",
+  "archive": "explicit-missing-v1.tar.gz",
+  "archive_sha256": "0459f0b3e0619bfb446097405a4ff505c485e834679a150607c7c84733f0fe0c",
+  "bytes": 352426,
+  "source_commit": "1e7ec3fa76c3dd1142747233c88aaca2042b551a",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1",
+    "public-extraction-contrast-v1",
+    "public-note-language-v1",
+    "assistant-review-v1",
+    "binding-corruption-v1",
+    "subject-check-v1",
+    "separate-subject-v1",
+    "direct-subject-v1",
+    "prefix-subject-v1",
+    "excerpt-subject-v1",
+    "subject-robustness-v1",
+    "full-workflow-v1",
+    "explicit-claims-v1",
+    "explicit-format-v1",
+    "explicit-preparation-failures-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 2160,
+  "files": {
+    "runs/explicit-missing/confirmation-data-2026-10-06-v1/coverage.json": {
+      "bytes": 3230,
+      "sha256": "4c2c3aea9754ad5796edc3a308f4b7e9f789d4397c6742e03689b5df5d5bcc64"
+    },
+    "runs/explicit-missing/confirmation-data-2026-10-06-v1/inputs.json": {
+      "bytes": 479929,
+      "sha256": "b77c9c44ab6c79d37b116bd85dcbf8dd55ebe996c438bce29f13775f46fd4f82"
+    },
+    "runs/explicit-missing/confirmation-data-2026-10-06-v1/manifest.json": {
+      "bytes": 654,
+      "sha256": "0e307f980aafe851709874bafc5edb9ff439777bb605bfeec0c6a07e59af4dc2"
+    },
+    "runs/explicit-missing/confirmation-data-2026-10-06-v1/references.json": {
+      "bytes": 133621,
+      "sha256": "4b54556062792d54a40c41dd0e702785f8aaa02789d4a312e9c4d0cdb20992e1"
+    },
+    "runs/explicit-missing/confirmation-hosted-2026-10-06-v1/requests.json": {
+      "bytes": 3907131,
+      "sha256": "d053b37ee1c05544fb56e3a8a1b35c6febf8be6441d9c1298bb201b482c86ffc"
+    },
+    "runs/explicit-missing/confirmation-hosted-2026-10-06-v1/responses.jsonl": {
+      "bytes": 1836439,
+      "sha256": "57ee7c55e79c66902e31ae2545b1d005b1fc7e627572a030aff48c4b7b6544cf"
+    },
+    "runs/explicit-missing/confirmation-hosted-2026-10-06-v1/summary.json": {
+      "bytes": 549,
+      "sha256": "56b2553d64b5d7939e55994633ff66fe8a6e9698af48e2f460fcd8fffae3e17f"
+    }
+  }
+}

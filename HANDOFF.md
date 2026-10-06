@@ -14,7 +14,7 @@ Read docs/explicit-claims.md and docs/operations-fit.md. Inspect /explicit-claim
 
 The numerical comparison is complete; exact computation is the recommended implementation for fixed policy. A pending task-choice question offers testing Jev's identification of clarification needs in ambiguous analyst claims (recommended), or measuring actual entry errors/effort with a participant. Wait for that choice before defining new references or making further calls. Existing same-assistant authorization does not establish human effort or independent report performance.
 
-Use scripts.verify_explicit_missing for all twenty-nine executed studies, three preserved failures and both original pack validators without inference. The new explicit-missing-v1 supplement requires all twenty-nine predecessors. Publication and clean-checkout verification are recorded in docs/evidence.md and docs/verification.md.
+Use scripts.verify_explicit_missing for all twenty-nine executed studies, three preserved failures and both original pack validators without inference. The new explicit-missing-v1 supplement requires all twenty-nine predecessors. All thirty assets preserve 14,644 actual provider responses in 1,264 files. Publication and clean-checkout verification are recorded in docs/evidence.md and docs/verification.md.
 
 ## Historical checkpoints
 
