@@ -1,0 +1,33 @@
+{
+  "schema": "publisher-report-publication-verification-1",
+  "verified_date": "2026-10-07",
+  "verified_checkout_commit": "bb166fac1b0e0fba1b4135721e69b4f24f778b10",
+  "release": "https://github.com/mumit/Jev-public-operations-experiments/releases/tag/publisher-reports-v1",
+  "archive_bytes": 13602,
+  "archive_sha256": "f4f9b98ea94278121189537632f30698a1b585e66f40f8fd201d8b37d8c9f5a8",
+  "github_asset_digest_matches": true,
+  "separate_public_download_matches": true,
+  "restored_assets": 34,
+  "verified_restored_file_hashes": 1292,
+  "cumulative_actual_provider_responses": 16444,
+  "local_tests_passed": 441,
+  "credential_free_checkout_tests_passed": 441,
+  "browser_script_checks_passed": 37,
+  "local_source_snapshot_replay": true,
+  "clean_checkout_public_projection_replay": true,
+  "clean_checkout_has_publisher_source_cache": false,
+  "clean_checkout_has_full_text_requests": false,
+  "clean_checkout_has_dotenv": false,
+  "new_inference_calls_during_verification": 0,
+  "protected_allocations_unchanged": true,
+  "browser_checks": [
+    "phase/report/claim/round selection",
+    "explicit reference reveal and reset",
+    "probabilities and raw replies",
+    "exact local request",
+    "unscored incident section preview",
+    "formatted report return context"
+  ],
+  "browser_errors": 0,
+  "next_workflow_choice": "pending: explicit analyst incident selection or deterministic date matching"
+}
