@@ -1,0 +1,597 @@
+{
+  "schema": "entry-walkthrough-pack-1",
+  "tasks": [
+    {
+      "id": "ENT-01",
+      "source_card": "OPT-8ac147fb0341",
+      "dataset": "Train Ticket",
+      "text": "The CPU comparison for ts-config-service covers the incident windows, before versus after. I assert that the absolute scaled difference reaches 3.0 or more.",
+      "inventory": {
+        "ts-config-service": [
+          "cpu",
+          "latency-50",
+          "latency-90",
+          "mem",
+          "socket",
+          "workload"
+        ],
+        "ts-preserve-other-mongo": [
+          "cpu",
+          "diskio",
+          "mem",
+          "socket"
+        ]
+      },
+      "condition": "entry",
+      "source_replies": {
+        "service": "This claim concerns ts-config-service.",
+        "channel": "Use the cpu metric channel.",
+        "kind": "Use material absolute scaled magnitude of at least 3.0.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": null,
+      "recorded_reply": {
+        "job_id": "OPT-8ac147fb0341::shared::r1",
+        "request_sha256": "6800057428761998e9c074a5fd766d3ccc50489db63d06a26e9f2a7c268c6a44",
+        "response_sha256": "7995608610ef3b3dc2857d4c2468833e6181fe366b00cb676ce7abf7d4fb4176",
+        "round": 1
+      },
+      "family": "explicit_magnitude"
+    },
+    {
+      "id": "ENT-02",
+      "source_card": "OPT-ea62d80e1b7e",
+      "dataset": "Online Boutique",
+      "text": "Check whether processor utilization has positive signed scaled change across the before/after incident windows. I have not named a service.",
+      "inventory": {
+        "recommendationservice": [
+          "cpu",
+          "latency-50",
+          "latency-90",
+          "mem",
+          "socket",
+          "workload"
+        ],
+        "redis": [
+          "cpu",
+          "diskio",
+          "mem",
+          "socket"
+        ]
+      },
+      "condition": "assisted",
+      "source_replies": {
+        "service": "This claim concerns recommendationservice.",
+        "channel": "Use the cpu metric channel.",
+        "kind": "Use positive signed scaled change greater than zero.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": {
+        "valid": true,
+        "choice": "service",
+        "displayed": true,
+        "minimum_score": 0.97,
+        "labels": {
+          "scope": "metric_check",
+          "service": "clarify",
+          "kind": "clear",
+          "channel": "clear",
+          "polarity": "clear",
+          "window": "clear"
+        },
+        "required_score_fields": [
+          "scope",
+          "service"
+        ],
+        "ignored_fields": [
+          "kind",
+          "channel",
+          "polarity",
+          "window"
+        ],
+        "action": "ask",
+        "next_field": "service",
+        "question": "Which observed service does the claim concern?"
+      },
+      "recorded_reply": {
+        "job_id": "OPT-ea62d80e1b7e::shared::r1",
+        "request_sha256": "79c9726d31b2f09d29d3f3d2b9043df8b3795434b6b1652dcee83bd8d233a575",
+        "response_sha256": "475b1a46d1d7f5d3b5139e8830f7f8a15ea77eec43aeede16c2b0036d903f8a0",
+        "round": 1
+      },
+      "family": "omitted_service"
+    },
+    {
+      "id": "ENT-03",
+      "source_card": "OPT-9a61ed1001c9",
+      "dataset": "Train Ticket",
+      "text": "I assert material scaled change for ts-config-service between the before/after incident windows, but have not selected a metric channel.",
+      "inventory": {
+        "ts-config-service": [
+          "cpu",
+          "latency-50",
+          "latency-90",
+          "mem",
+          "socket",
+          "workload"
+        ],
+        "ts-preserve-other-mongo": [
+          "cpu",
+          "diskio",
+          "mem",
+          "socket"
+        ]
+      },
+      "condition": "assisted",
+      "source_replies": {
+        "service": "This claim concerns ts-config-service.",
+        "channel": "Use the cpu metric channel.",
+        "kind": "Use material absolute scaled magnitude of at least 3.0.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": {
+        "valid": true,
+        "choice": "channel",
+        "displayed": true,
+        "minimum_score": 1.0,
+        "labels": {
+          "scope": "metric_check",
+          "service": "clear",
+          "kind": "clear",
+          "channel": "clarify",
+          "polarity": "clear",
+          "window": "clarify"
+        },
+        "required_score_fields": [
+          "scope",
+          "service",
+          "channel"
+        ],
+        "ignored_fields": [
+          "kind",
+          "polarity",
+          "window"
+        ],
+        "action": "ask",
+        "next_field": "channel",
+        "question": "Which one metric channel should this claim check?"
+      },
+      "recorded_reply": {
+        "job_id": "OPT-9a61ed1001c9::shared::r1",
+        "request_sha256": "68d641ce11baea789ef3b6e2e20aff0de734bae1c6783898050bc295efe7a729",
+        "response_sha256": "0ef884ff9de82cd677559ba4ff8c39883a0216d38ac7c191860710ea9a8830d4",
+        "round": 1
+      },
+      "family": "omitted_channel"
+    },
+    {
+      "id": "ENT-04",
+      "source_card": "OPT-d3d6a729e283",
+      "dataset": "Online Boutique",
+      "text": "Across the supplied before/after incident comparison, processor utilization for recommendationservice looks worse.",
+      "inventory": {
+        "recommendationservice": [
+          "cpu",
+          "latency-50",
+          "latency-90",
+          "mem",
+          "socket",
+          "workload"
+        ],
+        "redis": [
+          "cpu",
+          "diskio",
+          "mem",
+          "socket"
+        ]
+      },
+      "condition": "entry",
+      "source_replies": {
+        "service": "This claim concerns recommendationservice.",
+        "channel": "Use the cpu metric channel.",
+        "kind": "Use material absolute scaled magnitude of at least 3.0.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": null,
+      "recorded_reply": {
+        "job_id": "OPT-d3d6a729e283::shared::r1",
+        "request_sha256": "7d5dbb2e2fb5dc30e6da8260a03c860f176ced202e7926b0329554ca73cd0944",
+        "response_sha256": "d77bfc8a44fb10347beadff6c4a6a5a4a1308c9787283af0b287d23c4b81c2f9",
+        "round": 1
+      },
+      "family": "vague_comparison"
+    },
+    {
+      "id": "ENT-05",
+      "source_card": "OPT-e84ae3d80567",
+      "dataset": "Online Boutique",
+      "text": "Using the before-incident and after-incident windows, does recommendationservice have material scaled processor-utilization change?",
+      "inventory": {
+        "recommendationservice": [
+          "cpu",
+          "latency-50",
+          "latency-90",
+          "mem",
+          "socket",
+          "workload"
+        ],
+        "redis": [
+          "cpu",
+          "diskio",
+          "mem",
+          "socket"
+        ]
+      },
+      "condition": "assisted",
+      "source_replies": {
+        "service": "This claim concerns recommendationservice.",
+        "channel": "Use the cpu metric channel.",
+        "kind": "Use material absolute scaled magnitude of at least 3.0.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": {
+        "valid": true,
+        "choice": "no_question",
+        "displayed": false,
+        "minimum_score": 0.67,
+        "labels": {
+          "scope": "metric_check",
+          "service": "clear",
+          "kind": "clear",
+          "channel": "clear",
+          "polarity": "clear",
+          "window": "clear"
+        },
+        "required_score_fields": [
+          "scope",
+          "service",
+          "channel",
+          "kind",
+          "polarity",
+          "window"
+        ],
+        "ignored_fields": [],
+        "action": "review",
+        "next_field": null,
+        "question": "Review the original classification. Required fields remain for the analyst to enter."
+      },
+      "recorded_reply": {
+        "job_id": "OPT-e84ae3d80567::shared::r1",
+        "request_sha256": "80bb5d8b2edb1d3a5e7d860aaab9bbff2570c57e8afb3e585dac14cd8065ffd1",
+        "response_sha256": "19c8fae5aaf883d93639f34b2ccf12048954449a041beccc817f9cb70d40511e",
+        "round": 1
+      },
+      "family": "explicit_magnitude"
+    },
+    {
+      "id": "ENT-06",
+      "source_card": "OPT-6068a8ad1f26",
+      "dataset": "Train Ticket",
+      "text": "The before-incident versus after-incident CPU comparison shows an absolute scaled difference of at least 3.0.",
+      "inventory": {
+        "ts-config-service": [
+          "cpu",
+          "latency-50",
+          "latency-90",
+          "mem",
+          "socket",
+          "workload"
+        ],
+        "ts-preserve-other-mongo": [
+          "cpu",
+          "diskio",
+          "mem",
+          "socket"
+        ]
+      },
+      "condition": "entry",
+      "source_replies": {
+        "service": "This claim concerns ts-config-service.",
+        "channel": "Use the cpu metric channel.",
+        "kind": "Use material absolute scaled magnitude of at least 3.0.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": null,
+      "recorded_reply": {
+        "job_id": "OPT-6068a8ad1f26::shared::r1",
+        "request_sha256": "6850e4ee73a6e19526303901263f080b564112d5ec0eb3ea1e8bf02706da63f7",
+        "response_sha256": "3d4e1d8a208d2c38f0e206e54dc49a7c1901d29b259dfa82ad37ce4865cbb61b",
+        "round": 1
+      },
+      "family": "omitted_service"
+    },
+    {
+      "id": "ENT-07",
+      "source_card": "OPT-ca6768759eb2",
+      "dataset": "Online Boutique",
+      "text": "For recommendationservice, does the signed scaled difference exceed zero from before this incident to after it? The metric name is omitted.",
+      "inventory": {
+        "recommendationservice": [
+          "cpu",
+          "latency-50",
+          "latency-90",
+          "mem",
+          "socket",
+          "workload"
+        ],
+        "redis": [
+          "cpu",
+          "diskio",
+          "mem",
+          "socket"
+        ]
+      },
+      "condition": "entry",
+      "source_replies": {
+        "service": "This claim concerns recommendationservice.",
+        "channel": "Use the cpu metric channel.",
+        "kind": "Use positive signed scaled change greater than zero.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": null,
+      "recorded_reply": {
+        "job_id": "OPT-ca6768759eb2::shared::r1",
+        "request_sha256": "4bc38acd88dcb1eb30acab6a243566aefae12d30024bef0e7eef595d93e97f19",
+        "response_sha256": "d153c9be90e70486138772a32294874de5e07caacaa2912d54d7eb1908bde66a",
+        "round": 1
+      },
+      "family": "omitted_channel"
+    },
+    {
+      "id": "ENT-08",
+      "source_card": "OPT-38aac3cfe856",
+      "dataset": "Train Ticket",
+      "text": "CPU for ts-config-service deteriorated from the before-incident window to the after-incident window.",
+      "inventory": {
+        "ts-config-service": [
+          "cpu",
+          "latency-50",
+          "latency-90",
+          "mem",
+          "socket",
+          "workload"
+        ],
+        "ts-preserve-other-mongo": [
+          "cpu",
+          "diskio",
+          "mem",
+          "socket"
+        ]
+      },
+      "condition": "assisted",
+      "source_replies": {
+        "service": "This claim concerns ts-config-service.",
+        "channel": "Use the cpu metric channel.",
+        "kind": "Use material absolute scaled magnitude of at least 3.0.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": {
+        "valid": true,
+        "choice": "kind",
+        "displayed": false,
+        "minimum_score": 0.5,
+        "labels": {
+          "scope": "metric_check",
+          "service": "clear",
+          "kind": "clarify",
+          "channel": "clear",
+          "polarity": "clear",
+          "window": "clear"
+        },
+        "required_score_fields": [
+          "scope",
+          "service",
+          "channel",
+          "kind"
+        ],
+        "ignored_fields": [
+          "polarity",
+          "window"
+        ],
+        "action": "review",
+        "next_field": null,
+        "question": "Review the original classification. Required fields remain for the analyst to enter."
+      },
+      "recorded_reply": {
+        "job_id": "OPT-38aac3cfe856::shared::r1",
+        "request_sha256": "0ae2bd27c2a9130bbb737ee19ec0dcfba06424e8183f56b2b6e105c3b043e773",
+        "response_sha256": "cd110d98d1a63136ec0a4cdb4d7ada26dd61aa15e5e2f8a86c0fc776af94dc3d",
+        "round": 1
+      },
+      "family": "vague_comparison"
+    }
+  ],
+  "references": [
+    {
+      "id": "ENT-01",
+      "fields": {
+        "service": "ts-config-service",
+        "channel": "cpu",
+        "kind": "magnitude",
+        "polarity": "assert",
+        "window": "before_incident_vs_after_incident"
+      },
+      "needed": [],
+      "origin": "Assistant-authored full entry and scripted clarification under the declared task; not independent review."
+    },
+    {
+      "id": "ENT-02",
+      "fields": {
+        "service": "recommendationservice",
+        "channel": "cpu",
+        "kind": "direction",
+        "polarity": "assert",
+        "window": "before_incident_vs_after_incident"
+      },
+      "needed": [
+        "service"
+      ],
+      "origin": "Assistant-authored full entry and scripted clarification under the declared task; not independent review."
+    },
+    {
+      "id": "ENT-03",
+      "fields": {
+        "service": "ts-config-service",
+        "channel": "cpu",
+        "kind": "magnitude",
+        "polarity": "assert",
+        "window": "before_incident_vs_after_incident"
+      },
+      "needed": [
+        "channel"
+      ],
+      "origin": "Assistant-authored full entry and scripted clarification under the declared task; not independent review."
+    },
+    {
+      "id": "ENT-04",
+      "fields": {
+        "service": "recommendationservice",
+        "channel": "cpu",
+        "kind": "magnitude",
+        "polarity": "assert",
+        "window": "before_incident_vs_after_incident"
+      },
+      "needed": [
+        "kind"
+      ],
+      "origin": "Assistant-authored full entry and scripted clarification under the declared task; not independent review."
+    },
+    {
+      "id": "ENT-05",
+      "fields": {
+        "service": "recommendationservice",
+        "channel": "cpu",
+        "kind": "magnitude",
+        "polarity": "assert",
+        "window": "before_incident_vs_after_incident"
+      },
+      "needed": [],
+      "origin": "Assistant-authored full entry and scripted clarification under the declared task; not independent review."
+    },
+    {
+      "id": "ENT-06",
+      "fields": {
+        "service": "ts-config-service",
+        "channel": "cpu",
+        "kind": "magnitude",
+        "polarity": "assert",
+        "window": "before_incident_vs_after_incident"
+      },
+      "needed": [
+        "service"
+      ],
+      "origin": "Assistant-authored full entry and scripted clarification under the declared task; not independent review."
+    },
+    {
+      "id": "ENT-07",
+      "fields": {
+        "service": "recommendationservice",
+        "channel": "cpu",
+        "kind": "direction",
+        "polarity": "assert",
+        "window": "before_incident_vs_after_incident"
+      },
+      "needed": [
+        "channel"
+      ],
+      "origin": "Assistant-authored full entry and scripted clarification under the declared task; not independent review."
+    },
+    {
+      "id": "ENT-08",
+      "fields": {
+        "service": "ts-config-service",
+        "channel": "cpu",
+        "kind": "magnitude",
+        "polarity": "assert",
+        "window": "before_incident_vs_after_incident"
+      },
+      "needed": [
+        "kind"
+      ],
+      "origin": "Assistant-authored full entry and scripted clarification under the declared task; not independent review."
+    }
+  ],
+  "practice": [
+    {
+      "id": "PRACTICE-1",
+      "dataset": "Northstar Telecom practice",
+      "text": "For northstar-radio-service, memory has material scaled change between the before-incident and after-incident windows.",
+      "inventory": {
+        "northstar-radio-service": [
+          "cpu",
+          "mem"
+        ],
+        "northstar-transport-service": [
+          "cpu",
+          "mem"
+        ]
+      },
+      "condition": "practice",
+      "source_replies": {
+        "service": "This claim concerns northstar-radio-service.",
+        "channel": "Use the mem metric channel.",
+        "kind": "Use material absolute scaled magnitude of at least 3.0.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": null,
+      "reference": {
+        "fields": {
+          "service": "northstar-radio-service",
+          "channel": "mem",
+          "kind": "magnitude",
+          "polarity": "assert",
+          "window": "before_incident_vs_after_incident"
+        },
+        "needed": []
+      }
+    },
+    {
+      "id": "PRACTICE-2",
+      "dataset": "Northstar Telecom practice",
+      "text": "The primary service has positive signed CPU change between the before-incident and after-incident windows. The service name is missing.",
+      "inventory": {
+        "northstar-radio-service": [
+          "cpu",
+          "mem"
+        ],
+        "northstar-transport-service": [
+          "cpu",
+          "mem"
+        ]
+      },
+      "condition": "practice",
+      "source_replies": {
+        "service": "This claim concerns northstar-transport-service.",
+        "channel": "Use the cpu metric channel.",
+        "kind": "Use positive signed scaled change greater than zero.",
+        "polarity": "Check the asserted condition, rather than its negation.",
+        "window": "Compare before-incident observations with after-incident observations."
+      },
+      "suggestion": null,
+      "reference": {
+        "fields": {
+          "service": "northstar-transport-service",
+          "channel": "cpu",
+          "kind": "direction",
+          "polarity": "assert",
+          "window": "before_incident_vs_after_incident"
+        },
+        "needed": [
+          "service"
+        ]
+      }
+    }
+  ],
+  "participant_records": 0,
+  "provider_calls": 0,
+  "new_recordings": 0
+}
