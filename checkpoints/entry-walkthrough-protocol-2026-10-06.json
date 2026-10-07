@@ -1,0 +1,33 @@
+{
+  "schema": "entry-walkthrough-protocol-1",
+  "plan_sha256": "430eba047d3d6a459232beb3faba1096344e2fa640659903186cdae2f9bd1f6e",
+  "pack_sha256": "00faeca6b7f6e835f2a71e698b6675175cbe07165d9964bb4f7b9ab9be973814",
+  "ui_sha256": {
+    "triage_bench/entry_walkthrough_service.py": "be31c5cd0e30a201590b17a80288c561eaf2141b52734959c0bb0926c39b368d",
+    "triage_bench/web/entry-walkthrough.html": "7d11abd3902ab4b5598bb2ef2fff25dc47d7eb431dca309fa787d5882b6a41fe",
+    "triage_bench/web/entry-walkthrough.js": "a12d9847c6bb8e115ca98252dccd3ae2d42df0ae7137a2bc15c48e4506426aae",
+    "triage_bench/web/entry-walkthrough.css": "71379354d91428e955694ce391eb5dcb1c98d35bfc71c435a5c723aa65dc4919"
+  },
+  "task_order": [
+    "ENT-01",
+    "ENT-02",
+    "ENT-03",
+    "ENT-04",
+    "ENT-05",
+    "ENT-06",
+    "ENT-07",
+    "ENT-08"
+  ],
+  "conditions": [
+    "entry",
+    "assisted",
+    "assisted",
+    "entry",
+    "assisted",
+    "entry",
+    "entry",
+    "assisted"
+  ],
+  "preview_is_participant": false,
+  "provider_calls": 0
+}
