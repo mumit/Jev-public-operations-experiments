@@ -26,13 +26,13 @@ class ReportEvidenceStudy:
         if len(primary) != 8 or not primary <= {s['id'] for s in record['sources'] if s['status']=='available'}:
             raise ValueError('Primary reports are unavailable or changed.')
         for source in record['sources']:
-            source['display_title'] = source.get('title_observed') or notes['display_titles'].get(source['id']) or source['id']
             failure = next((s for s in notes['failed_retrieved_sources'] if s['id'] == source['id']), None)
             if failure:
                 source.update(failure)
                 cached = audit.CACHE/(source['id']+'.html')
                 if cached.exists() and audit.digest(cached.read_bytes()) != failure['raw_sha256']:
                     raise ValueError('Failed source snapshot changed.')
+            source['display_title'] = source.get('title_observed') or notes['display_titles'].get(source['id']) or source['id']
         return {'verification':verified, 'stage':design['stage'], 'audit_date':record['audit_date'],
                 'sources':[{**s,'primary':s['id'] in primary} for s in record['sources']],
                 'design':design, 'local_cache_available':audit.CACHE.exists(),

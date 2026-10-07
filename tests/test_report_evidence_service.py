@@ -22,6 +22,7 @@ class ReportEvidenceTests(unittest.TestCase):
         failures=[s for s in result['sources'] if s['status']=='unavailable']
         self.assertEqual(len(failures),2)
         self.assertTrue(all(s['raw_sha256'] and s['failure_reason'] for s in failures))
+        self.assertTrue(all(s['display_title']==s['title_observed'] for s in failures))
         self.assertNotIn('blocks',result['sources'][5])
         self.assertNotIn('text',result['sources'][0]['input_prefix'])
         for allocation in ('development','evaluation'):
