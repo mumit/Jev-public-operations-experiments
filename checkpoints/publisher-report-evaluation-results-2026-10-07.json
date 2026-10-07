@@ -1,0 +1,5859 @@
+{
+  "schema": "publisher-report-results-1",
+  "phase": "evaluation",
+  "actual_calls": 72,
+  "valid_answers": 72,
+  "input_tokens": 178872,
+  "protocol_sha256": "7871ce2ca965f37bdf8d83e2a6396915344c25b1a7d74bcf8f9d6e6cf8361c80",
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "new_telemetry_recordings": 0,
+  "outcomes": [
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.89
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.89,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.87
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.87,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.74
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.74,
+        "via": "jev"
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.51
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.51,
+        "via": "review"
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.83
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.83,
+        "via": "jev"
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.87
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.87,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.86
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.86,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.88
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.88,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.72
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.72,
+        "via": "jev"
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.5700000000000001
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.5700000000000001,
+        "via": "review"
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.8099999999999999
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.8099999999999999,
+        "via": "jev"
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.89
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.89,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.75
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.75,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.88
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.88,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.86
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.86,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.81
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.81,
+        "via": "jev"
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.54
+      },
+      "correct_choice": true,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.54,
+        "via": "review"
+      },
+      "correct_choice": true,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78,
+        "via": "jev"
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    }
+  ],
+  "panels": [
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 1,
+      "method": "rules",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 24
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 1,
+      "method": "jev",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 21,
+      "correct_display": 21,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 21,
+      "correct_display": 21,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 1,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 1,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 1,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 1,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 1,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 1,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 1,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 1,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 1,
+      "method": "rules",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 12
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 1,
+      "method": "jev",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 1,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 1,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 1,
+      "method": "rules",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 4
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 1,
+      "method": "jev",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 2,
+      "method": "rules",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 24
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 2,
+      "method": "jev",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 21,
+      "correct_display": 21,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 21,
+      "correct_display": 21,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 2,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 2,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 2,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 2,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 2,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 2,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 2,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 2,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 2,
+      "method": "rules",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 12
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 2,
+      "method": "jev",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 2,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 2,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 2,
+      "method": "rules",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 4
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 2,
+      "method": "jev",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 3,
+      "method": "rules",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 24
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 3,
+      "method": "jev",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 22,
+      "correct_display": 21,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 22,
+      "correct_display": 21,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 3,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 3,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 3,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 3,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 3,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 3,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 4,
+      "correct_display": 3,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 4,
+      "correct_display": 3,
+      "wrong_display": 2,
+      "withheld": 1
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 3,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 3,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 7,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 7,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 3,
+      "method": "rules",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 12
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 3,
+      "method": "jev",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 3,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 3,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 7,
+      "correct_display": 7,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 3,
+      "method": "rules",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 4
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 3,
+      "method": "jev",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    }
+  ],
+  "paired": [
+    {
+      "round": 1,
+      "gains": 21,
+      "losses": 0,
+      "passes": true
+    },
+    {
+      "round": 2,
+      "gains": 21,
+      "losses": 0,
+      "passes": true
+    },
+    {
+      "round": 3,
+      "gains": 21,
+      "losses": 0,
+      "passes": true
+    }
+  ],
+  "gates": [
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": true
+      },
+      "passes": false
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": false
+      },
+      "passes": false
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": true
+      },
+      "passes": false
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": true
+      },
+      "passes": false
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": true
+      },
+      "passes": false
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": false
+      },
+      "passes": false
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": true
+      },
+      "passes": false
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": true
+      },
+      "passes": false
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": true
+      },
+      "passes": false
+    },
+    {
+      "kind": "incident",
+      "key": "cf-kv-2023",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "cf-waf-2019",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "gh-april-2023",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": false
+      },
+      "passes": false
+    },
+    {
+      "kind": "incident",
+      "key": "aws-s3-2017",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": true
+      },
+      "passes": false
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": false,
+        "correct_display_coverage": true
+      },
+      "passes": false
+    }
+  ],
+  "complete_evidence": true,
+  "candidate_passes": false
+}
