@@ -1,0 +1,5895 @@
+{
+  "schema": "publisher-report-results-1",
+  "phase": "development",
+  "actual_calls": 72,
+  "valid_answers": 72,
+  "input_tokens": 192741,
+  "protocol_sha256": "7871ce2ca965f37bdf8d83e2a6396915344c25b1a7d74bcf8f9d6e6cf8361c80",
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "new_telemetry_recordings": 0,
+  "outcomes": [
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          2
+        ]
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          2
+        ],
+        "via": "rules"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "opposite_literal_negation",
+        "matched_blocks": [
+          2
+        ]
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "opposite_literal_negation",
+        "matched_blocks": [
+          2
+        ],
+        "via": "rules"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.86
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.86,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.85
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.85,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.84
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.84,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          0
+        ]
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          0
+        ],
+        "via": "rules"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          2
+        ]
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          2
+        ],
+        "via": "rules"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "opposite_literal_negation",
+        "matched_blocks": [
+          2
+        ]
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "opposite_literal_negation",
+        "matched_blocks": [
+          2
+        ],
+        "via": "rules"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.8
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.8,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.89
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.89,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.89
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.89,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.85
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.85,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.85
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.85,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          0
+        ]
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          0
+        ],
+        "via": "rules"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          2
+        ]
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          2
+        ],
+        "via": "rules"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "opposite_literal_negation",
+        "matched_blocks": [
+          2
+        ]
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "opposite_literal_negation",
+        "matched_blocks": [
+          2
+        ],
+        "via": "rules"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.93
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.93,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.88
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.88,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.86
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.86,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          0
+        ]
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          0
+        ],
+        "via": "rules"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97,
+        "via": "jev"
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true
+    }
+  ],
+  "panels": [
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 1,
+      "method": "rules",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 21
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 1,
+      "method": "jev",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 24,
+      "correct_display": 24,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 24,
+      "correct_display": 24,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 1,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 4
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 1,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 1,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 1,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 1,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 1,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 1,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 5
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 1,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 1,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 1,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 1,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 1,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 1,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 7
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 1,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 1,
+      "method": "rules",
+      "claims": 11,
+      "valid": 11,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 9
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 1,
+      "method": "jev",
+      "claims": 11,
+      "valid": 11,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 11,
+      "valid": 11,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 1,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 7
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 1,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 1,
+      "method": "rules",
+      "claims": 5,
+      "valid": 5,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 5
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 1,
+      "method": "jev",
+      "claims": 5,
+      "valid": 5,
+      "correct_choice": 5,
+      "correct_display": 5,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 1,
+      "method": "hybrid",
+      "claims": 5,
+      "valid": 5,
+      "correct_choice": 5,
+      "correct_display": 5,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 2,
+      "method": "rules",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 21
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 2,
+      "method": "jev",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 24,
+      "correct_display": 24,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 24,
+      "correct_display": 24,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 2,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 4
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 2,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 2,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 2,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 2,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 2,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 2,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 5
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 2,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 2,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 2,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 2,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 2,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 2,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 7
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 2,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 2,
+      "method": "rules",
+      "claims": 11,
+      "valid": 11,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 9
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 2,
+      "method": "jev",
+      "claims": 11,
+      "valid": 11,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 11,
+      "valid": 11,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 2,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 7
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 2,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 2,
+      "method": "rules",
+      "claims": 5,
+      "valid": 5,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 5
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 2,
+      "method": "jev",
+      "claims": 5,
+      "valid": 5,
+      "correct_choice": 5,
+      "correct_display": 5,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 2,
+      "method": "hybrid",
+      "claims": 5,
+      "valid": 5,
+      "correct_choice": 5,
+      "correct_display": 5,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 3,
+      "method": "rules",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 21
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 3,
+      "method": "jev",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 24,
+      "correct_display": 24,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 24,
+      "valid": 24,
+      "correct_choice": 24,
+      "correct_display": 24,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 3,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 4
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 3,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 3,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 3,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 3,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 3,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 3,
+      "method": "rules",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 5
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 3,
+      "method": "jev",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 6,
+      "correct_display": 6,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 3,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 6
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 3,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 3,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 8
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 3,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 3,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 7
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 3,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 3,
+      "method": "rules",
+      "claims": 11,
+      "valid": 11,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 9
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 3,
+      "method": "jev",
+      "claims": 11,
+      "valid": 11,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "supported",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 11,
+      "valid": 11,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 3,
+      "method": "rules",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 7
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 3,
+      "method": "jev",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "contradicted",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 8,
+      "valid": 8,
+      "correct_choice": 8,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 3,
+      "method": "rules",
+      "claims": 5,
+      "valid": 5,
+      "correct_choice": 0,
+      "correct_display": 0,
+      "wrong_display": 0,
+      "withheld": 5
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 3,
+      "method": "jev",
+      "claims": 5,
+      "valid": 5,
+      "correct_choice": 5,
+      "correct_display": 5,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "kind": "reference",
+      "key": "not_established",
+      "round": 3,
+      "method": "hybrid",
+      "claims": 5,
+      "valid": 5,
+      "correct_choice": 5,
+      "correct_display": 5,
+      "wrong_display": 0,
+      "withheld": 0
+    }
+  ],
+  "paired": [
+    {
+      "round": 1,
+      "gains": 21,
+      "losses": 0,
+      "passes": true
+    },
+    {
+      "round": 2,
+      "gains": 21,
+      "losses": 0,
+      "passes": true
+    },
+    {
+      "round": 3,
+      "gains": 21,
+      "losses": 0,
+      "passes": true
+    }
+  ],
+  "gates": [
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "overall",
+      "key": "all",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "cf-control-2023",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "gh-analysis-2018",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "aws-dec-2021",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "incident",
+      "key": "fastly-june-2021",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "service_impact",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "cause_certainty",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    },
+    {
+      "kind": "topic",
+      "key": "recovery_scope",
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "correct_display_coverage": true
+      },
+      "passes": true
+    }
+  ],
+  "complete_evidence": true,
+  "candidate_passes": true
+}
