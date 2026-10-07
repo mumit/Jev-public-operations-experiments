@@ -395,3 +395,7 @@ uv run --locked --extra public-data python -m scripts.verify_optional_question
 ```
 
 Both display policies use the same 276 replies; costs count once. First-question dependencies give 251 correct displays versus 188 with all-fields, with no wrong displayed action, but sixteen withheld needed clarifications. The bundle retains every miss and failed panel. The full replay includes thirty-three executed studies, all three preparation failures and both original pack validators, with no inference.
+
+## Prepared entry walkthrough
+
+The entry walkthrough plan, task pack and interface protocol are source checkpoints in Git. They reuse earlier optional-question replies and add no provider responses or public evidence asset. The thirty-two released bundles still contain 1,282 files and 16,156 cumulative actual provider responses. Participant exports stay private and are never added automatically to this repository or a release. Software preview exports are explicitly excluded from participant evidence.
