@@ -1,0 +1,151 @@
+{
+  "schema": "publisher-report-catalog-1",
+  "allocation_date": "2026-10-07",
+  "selection": "Purposive source audit across four publishers and three report stages; not a representative outage sample. All sources inspected before model outcomes.",
+  "sources": [
+    {
+      "id": "cf-control-2023",
+      "publisher": "Cloudflare",
+      "incident_group": "cf-control-nov2023",
+      "allocation": "development",
+      "report_kind": "postmortem",
+      "url": "https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/",
+      "content_checks": [
+        "control plane",
+        "analytics"
+      ]
+    },
+    {
+      "id": "cf-kv-2023",
+      "publisher": "Cloudflare",
+      "incident_group": "cf-kv-oct2023",
+      "allocation": "evaluation",
+      "report_kind": "postmortem",
+      "url": "https://blog.cloudflare.com/cloudflare-incident-on-october-30-2023/",
+      "content_checks": [
+        "Workers KV",
+        "401"
+      ]
+    },
+    {
+      "id": "cf-waf-2019",
+      "publisher": "Cloudflare",
+      "incident_group": "cf-waf-jul2019",
+      "allocation": "evaluation",
+      "report_kind": "postmortem",
+      "url": "https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/",
+      "content_checks": [
+        "regular expression",
+        "CPU"
+      ]
+    },
+    {
+      "id": "cf-backbone-2020",
+      "publisher": "Cloudflare",
+      "incident_group": "cf-backbone-jul2020",
+      "allocation": "audit_only",
+      "report_kind": "postmortem",
+      "url": "https://blog.cloudflare.com/cloudflare-outage-on-july-17-2020/",
+      "content_checks": [
+        "backbone",
+        "router"
+      ]
+    },
+    {
+      "id": "gh-analysis-2018",
+      "publisher": "GitHub",
+      "incident_group": "gh-oct2018",
+      "allocation": "development",
+      "report_kind": "postmortem",
+      "url": "https://github.blog/news-insights/company-news/oct21-post-incident-analysis/",
+      "content_checks": [
+        "MySQL",
+        "October"
+      ]
+    },
+    {
+      "id": "gh-initial-2018",
+      "publisher": "GitHub",
+      "incident_group": "gh-oct2018",
+      "allocation": "development",
+      "report_kind": "initial_report",
+      "url": "https://github.blog/news-insights/company-news/october21-incident-report/",
+      "content_checks": [
+        "October",
+        "data"
+      ]
+    },
+    {
+      "id": "gh-update-2018",
+      "publisher": "GitHub",
+      "incident_group": "gh-oct2018",
+      "allocation": "development",
+      "report_kind": "recovery_update",
+      "url": "https://github.blog/news-insights/incident-update/",
+      "content_checks": [
+        "October",
+        "normal"
+      ]
+    },
+    {
+      "id": "gh-april-2023",
+      "publisher": "GitHub",
+      "incident_group": "gh-month-apr2023",
+      "allocation": "evaluation",
+      "report_kind": "monthly_report",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-april-2023/",
+      "content_checks": [
+        "April",
+        "Actions"
+      ]
+    },
+    {
+      "id": "gh-march-2022",
+      "publisher": "GitHub",
+      "incident_group": "gh-month-mar2022",
+      "allocation": "audit_only",
+      "report_kind": "monthly_report",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-march-2022/",
+      "content_checks": [
+        "March",
+        "database"
+      ]
+    },
+    {
+      "id": "aws-dec-2021",
+      "publisher": "AWS",
+      "incident_group": "aws-use1-dec2021",
+      "allocation": "development",
+      "report_kind": "post_event_summary",
+      "url": "https://aws.amazon.com/message/12721",
+      "content_checks": [
+        "December",
+        "network"
+      ]
+    },
+    {
+      "id": "aws-s3-2017",
+      "publisher": "AWS",
+      "incident_group": "aws-s3-feb2017",
+      "allocation": "evaluation",
+      "report_kind": "post_event_summary",
+      "url": "https://aws.amazon.com/message/41926",
+      "content_checks": [
+        "February",
+        "S3"
+      ]
+    },
+    {
+      "id": "fastly-june-2021",
+      "publisher": "Fastly",
+      "incident_group": "fastly-jun2021",
+      "allocation": "development",
+      "report_kind": "incident_summary",
+      "url": "https://www.fastly.com/blog/summary-of-june-8-outage",
+      "content_checks": [
+        "configuration",
+        "bug"
+      ]
+    }
+  ]
+}
