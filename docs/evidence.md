@@ -417,3 +417,19 @@ The latest verifier explicitly checks the earlier independent ranking studies, b
 ## Publisher-report preparation
 
 The separate [report source audit and design](report-evidence.md) adds no provider responses or telemetry recordings. The twelve-source catalog, ten retained-source hashes, two failed-source records and frozen design are tracked in checkpoints. Full publisher reports stay in ignored local runs and are not included in the thirty-three existing public assets. Verify public provenance with scripts.audit_report_sources verify-catalog and scripts.verify_report_evidence_design; local exact extraction also requires retained snapshots. This preparation does not change the 16,300 recorded responses or release counts.
+
+## Publisher-written report comparison
+
+[publisher-reports-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/publisher-reports-v1) adds four files and 144 recorded Jev replies on 48 frozen claims from eight publisher reports, repeated over three rounds. It can be restored on its own; the earlier thirty-three assets are optional for this comparison. Claims, assistant-reviewed references, exact request hashes, protocols and scored results remain in Git.
+
+Development passes every frozen criterion. Evaluation gives 63 correct displays, six wrong displays and three withheld answers; two monthly-report claims account for all six repeated errors. The hybrid reproduces Jev’s answers and errors. References have zero human or independent specialist reviews.
+
+The archive contains 13,602 bytes with SHA-256 `f4f9b98ea94278121189537632f30698a1b585e66f40f8fd201d8b37d8c9f5a8`. All thirty-four assets preserve 16,444 cumulative actual provider responses in 1,292 files. This supplement contains original provider model/answers/usage payloads, validation and execution summaries. Full publisher reports and full-text requests remain local and are excluded.
+
+```bash
+gh release download publisher-reports-v1 --repo mumit/Jev-public-operations-experiments --pattern publisher-reports-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/publisher-reports-v1.tar.gz --manifest evidence/publisher-reports-v1.json
+uv run --locked --extra public-data python -m scripts.verify_publisher_reports
+```
+
+Public replay recomputes Jev and hybrid decisions, denominators and gates using precommitted literal-rule projections. Reconstructing the exact full-text requests and rule matches additionally requires the retained local source snapshots. Browsing and replay make no inference call. The incident-scope preview is unscored and adds no response to the bundle.

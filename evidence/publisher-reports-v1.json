@@ -1,0 +1,30 @@
+{
+  "schema": "publisher-report-evidence-1",
+  "archive": "publisher-reports-v1.tar.gz",
+  "archive_sha256": "f4f9b98ea94278121189537632f30698a1b585e66f40f8fd201d8b37d8c9f5a8",
+  "bytes": 13602,
+  "source_commit": "cfbbc983039e881789924ba8029935af0abea986",
+  "requires": [],
+  "recorded_hosted_calls": 144,
+  "full_source_reports": 0,
+  "full_text_requests": 0,
+  "verification_boundary": "Original provider payloads and method/gate replay using precommitted rule projections. Full request and rule reconstruction require local source snapshots.",
+  "files": {
+    "runs/publisher-report/public-evidence-v1/development/responses.jsonl": {
+      "bytes": 62202,
+      "sha256": "1791d00c74766393d017d535767b6a9f93e3919dcace778c53b703ba2f8386cc"
+    },
+    "runs/publisher-report/public-evidence-v1/development/summary.json": {
+      "bytes": 497,
+      "sha256": "2762cc3059833d163b7f24fdc88d9727e96b5f6fc8a48fcc9ce130f82135c34b"
+    },
+    "runs/publisher-report/public-evidence-v1/evaluation/responses.jsonl": {
+      "bytes": 61657,
+      "sha256": "41e7540df252d95c935ff3d2fb23b6ffdb8e54367f7884951ddd64f5984212dc"
+    },
+    "runs/publisher-report/public-evidence-v1/evaluation/summary.json": {
+      "bytes": 496,
+      "sha256": "f0df743055e533f892040680c2470d007a573e7d913af2d64190607248e9d97b"
+    }
+  }
+}
