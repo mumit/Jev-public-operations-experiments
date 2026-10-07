@@ -1,0 +1,24 @@
+{
+  "schema": "entry-walkthrough-plan-1",
+  "authorization": "On 2026-10-06 the user accepted a short entry walkthrough and volunteered to try it. Earlier continuation, major-step commits and public source/evidence publication remain authorized; participant exports are private and are never published automatically.",
+  "task": "Two practice tasks, eight exploratory entry tasks; four entry-alone and four assisted in fixed ABBA BAAB order. Each of complete wording, omitted service, omitted channel and vague comparison appears once per condition. Both conditions use two cases per application. Selection is purposeful after model-result exposure, not random or held-out. Distinct wording and catalogs do not eliminate carryover.",
+  "evidence": "Reuse inspected frozen optional statements and uniformly round-one replies. Add assistant-authored full entry references and field-specific scripted source replies. No fresh text transfer, measurement, recording, inference, numerical verdict or protected data. The failed first-question model gates remain failed.",
+  "procedure": "Practice is separate and excluded. Participant explicitly starts exploratory tasks. All five fields start blank; suggestions never fill fields or ask the source automatically. Both conditions can explicitly request the same field-specific source replies. Record submit or withhold once per task; no scored answer feedback until the eight tasks finish. Keep all attempts, unresolved tasks, incorrect fields, guesses without required source clarification and software interruptions.",
+  "recording": "Local browser storage and explicit private JSON download only. No personal name, server POST, provider call or automatic upload. Record selections, requested fields, final disposition, foreground-page time, wall time and optional usefulness comments. Foreground time is a browser proxy, not measured cognitive effort. One self-declared participant, unblinded conditions and assistant-authored references support descriptive usability only, not causal benefit, independent language judgment or production reliability.",
+  "freeze": "Commit authoring source and plan before task-pack preparation. Commit pack before browser QA. QA uses a separate assistant_preview mode excluded by the participant validator. Freeze exact task/reference and interface hashes, then commit protocol before enabling participant start. Never substitute QA records for human entries. Existing executed study producers remain unchanged.",
+  "source_sha256": {
+    "triage_bench/entry_walkthrough.py": "ecd9a5776c9e1e54613c54e7ddf05c79133febab5070aa5ce15dd07a890faf9c",
+    "scripts/entry_walkthrough.py": "ea63c9a84da1933dec8f02cde6a08a5c2ce2cec38ac82ccd8431d073b812337b"
+  },
+  "evidence_sha256": {
+    "checkpoints/optional-question-plan-2026-10-06.json": "c5ca19177ca729f09cd2d2facb4bd8f6cf5921f91fdfbf620c9ad871c061f1b4",
+    "checkpoints/optional-question-protocol-2026-10-06.json": "c1c30729e1b9ff592d939a46483f64c4b738585a7f176225d33678491c7124bd",
+    "checkpoints/optional-question-results-2026-10-06.json": "3aadff6edbe10cf490ff1b3eeb763d45c6ae95f914ca513c56698d4d7db3079c",
+    "runs/optional-clarification/development-data-2026-10-06-v1/inputs.json": "442d29a605d2542b74690edd846c6af1aa96d5ae502cdb5a65f856f30d18dde7",
+    "runs/optional-clarification/development-data-2026-10-06-v1/references.json": "ea5a278433456f3550d98b664f0a7b3f0e1b79c3e93a343501c93dc7b94660cf",
+    "runs/optional-clarification/development-data-2026-10-06-v1/manifest.json": "04b7e5c04a6b811b11aee6f0a23eaad1ef71cb56534fe5b3a15cca5efeb30a89",
+    "runs/optional-question/development-hosted-2026-10-06-v1/requests.json": "953c52080120c7ddb856aabb352995d10967dee8da8084443e29cb40cc9769ee",
+    "runs/optional-question/development-hosted-2026-10-06-v1/responses.jsonl": "f1c277c82c59463d3949aa94656a066e8ba1f219f0ba0670448056ea27b912da",
+    "runs/optional-question/development-hosted-2026-10-06-v1/summary.json": "0512fd7cc46b5f951f42adf39d4c64d6b6821f2700fbf9727fa23972bcd53191"
+  }
+}
