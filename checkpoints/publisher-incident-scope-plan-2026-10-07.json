@@ -1,0 +1,49 @@
+{
+  "schema": "publisher-incident-scope-plan-1",
+  "date": "2026-10-07",
+  "user_choice": "explicit analyst selection",
+  "task": "Judge a supplied claim against the incident explicitly selected by the analyst in a publisher-written report. No automatic date inference.",
+  "dataset": "Six unchanged gh-april-2023 claims and assistant-reviewed references from completed publisher-report study. Inspected-case development diagnostic; not new held-out evaluation.",
+  "selection_contract": {
+    "required": "One exact incident-section header from the report inventory. No default, date inference, claim-to-section inference or fallback.",
+    "invalid": "Missing, unknown or multiple selections require clarification before any call.",
+    "cross_incident": "A claim deliberately comparing incidents is outside this one-incident contract and needs a separate task.",
+    "fixture_attribution": "The assistant supplies the six prepared selections. Zero actual analyst entries, human or independent reviews.",
+    "mapping": {
+      "gh-april-2023-c1": "March 31",
+      "gh-april-2023-c2": "March 31",
+      "gh-april-2023-c3": "April 26",
+      "gh-april-2023-c4": "April 18",
+      "gh-april-2023-c5": "March 29",
+      "gh-april-2023-c6": "March 29"
+    }
+  },
+  "arms": {
+    "full": "Fresh calls with byte-identical original full-report request.",
+    "selected_full": "Original full report plus selected_incident field; all question text unchanged.",
+    "selected_section": "Report-wide introduction plus complete explicitly selected incident section and the same selected_incident field; all question text unchanged."
+  },
+  "sole_candidate": "selected_section",
+  "comparators": "full and selected_full cannot substitute after outcomes. Original literal rules are an offline comparator per arm, never a semantic ground truth.",
+  "rounds": 3,
+  "calls_per_arm": 18,
+  "maximum_calls": 54,
+  "once_only": true,
+  "maximum_request_bytes": 16000,
+  "model": "jev-1.13.0",
+  "display_probability": 0.7,
+  "failure_policy": "Stop globally on checkpoint/context/envelope/HTTP/network failures. Retain invalid fields, withhold and keep all six claims per arm per round. No retries, repair or omitted failures.",
+  "criteria_per_round": {
+    "no_wrong_display": true,
+    "correct_display_minimum": 5,
+    "no_correct_display_losses_against_fresh_full": true,
+    "both_previously_wrong_claims_correctly_displayed": [
+      "gh-april-2023-c1",
+      "gh-april-2023-c5"
+    ]
+  },
+  "success_boundary": "Every declared criterion in every round, complete evidence and preserved references. Passing supports a new-incident confirmation plan only, not operational promotion.",
+  "preservation": "Freeze producer source hashes, selection inventory, retained block hashes, exact request hashes, claim/reference dependencies and offline rule projections in a separately committed protocol before 54 calls. No old producer changes.",
+  "publication": "Publisher snapshots and full-text requests stay ignored local. Public bundle contains original answer/usage payloads, hashes and summaries. Public replay uses frozen literal-rule projections; source/wire reconstruction requires matching local snapshots.",
+  "protected_telemetry": "No new telemetry recording or protected allocation may open."
+}
