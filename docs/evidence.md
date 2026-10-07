@@ -399,3 +399,17 @@ Both display policies use the same 276 replies; costs count once. First-question
 ## Prepared entry walkthrough
 
 The entry walkthrough plan, task pack and interface protocol are source checkpoints in Git. They reuse earlier optional-question replies and add no provider responses or public evidence asset. The thirty-two released bundles still contain 1,282 files and 16,156 cumulative actual provider responses. Participant exports stay private and are never added automatically to this repository or a release. Software preview exports are explicitly excluded from participant evidence.
+
+## Fresh clarification versus literal rules
+
+[ambiguity-value-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/ambiguity-value-v1) adds six files and 144 actual Jev responses on 48 controlled statements over three rounds. Restore all thirty-two predecessors first. The archive includes inputs, separate authored references, a manifest, exact requests, original responses and an execution summary. Plans, protocols, scored results and the report remain in Git.
+
+The archive contains 47,889 bytes with SHA-256 `18437ddc6078f2ea2ecb97021cf758c79d533f69c822632071fc29fda9368c0d`. All thirty-three assets preserve 16,300 cumulative actual provider responses in 1,288 files. Jev gives 114/144 correct displays versus rules 126/144 and fails sixteen of 24 declared panels. Contextual gains, withholding and incorrect no-question decisions remain visible. No new recording, independent report or human review enters this controlled comparison. Private participant records are excluded.
+
+```bash
+gh release download ambiguity-value-v1 --repo mumit/Jev-public-operations-experiments --pattern ambiguity-value-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/ambiguity-value-v1.tar.gz --manifest evidence/ambiguity-value-v1.json
+uv run --locked --extra public-data python -m scripts.verify_ambiguity_value
+```
+
+The latest verifier explicitly checks the earlier independent ranking studies, both original data packs and frozen entry walkthrough, as well as the later recursive language-study chain. Its reported call/answer subtotal covers recent clarification-language studies; it is not the cumulative 16,300-response release count. Replay makes zero hosted calls. The separately versioned learning sandbox uses known examples and produces no public participant evidence.

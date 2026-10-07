@@ -28,7 +28,7 @@ All forty-five downloaded recordings are opened and preserved. The new protocol 
 
 The selected treatment retains the incomplete recording. A separately frozen protocol leaves its after-window unknown and tests both assertion polarities. It reuses the fifteen native-v2 recordings, without new source access or case replacement. Historical results, failed producers and the 0.70 display boundary stay frozen. Separate complete-window and missing-window gates prevent the many unanswerable claims from concealing comparison errors.
 
-## Confirmation and the next decision
+## Confirmation and language findings
 
 Both focused and calculated inputs answer and display all 1,080 verdicts correctly, with zero wrong displays, across 360 entries and three rounds. Every separate gate passes, including 112 complete-window metric comparisons and 24 missing-window claims per round. Exact code matches all references. Calculated facts add 9.8% input tokens and no observed accuracy or display gain over focused input on this panel.
 

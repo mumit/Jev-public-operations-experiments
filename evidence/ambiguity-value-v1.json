@@ -1,0 +1,69 @@
+{
+  "schema": "ambiguity-value-evidence-1",
+  "archive": "ambiguity-value-v1.tar.gz",
+  "archive_sha256": "18437ddc6078f2ea2ecb97021cf758c79d533f69c822632071fc29fda9368c0d",
+  "bytes": 47889,
+  "source_commit": "49895102e2389813e05fdfbe4d817f3601d435e7",
+  "requires": [
+    "public-study-v1",
+    "public-diagnostics-v1",
+    "public-selective-v1",
+    "public-confirmation-v1",
+    "public-agreement-v1",
+    "public-traces-development-v1",
+    "public-trace-task-v1",
+    "public-evidence-assessment-v1",
+    "public-claim-assessment-v1",
+    "public-claim-language-v1",
+    "public-report-reading-v1",
+    "public-claim-binding-v1",
+    "public-fresh-claims-v1",
+    "public-note-extraction-v1",
+    "public-sentence-review-v1",
+    "public-extraction-contrast-v1",
+    "public-note-language-v1",
+    "assistant-review-v1",
+    "binding-corruption-v1",
+    "subject-check-v1",
+    "separate-subject-v1",
+    "direct-subject-v1",
+    "prefix-subject-v1",
+    "excerpt-subject-v1",
+    "subject-robustness-v1",
+    "full-workflow-v1",
+    "explicit-claims-v1",
+    "explicit-format-v1",
+    "explicit-preparation-failures-v1",
+    "explicit-missing-v1",
+    "clarification-v1",
+    "optional-clarification-v1"
+  ],
+  "dataset_revision": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+  "recorded_hosted_calls": 144,
+  "files": {
+    "runs/ambiguity-value/development-data-2026-10-06-v1/inputs.json": {
+      "bytes": 29065,
+      "sha256": "f2a2437fa33cb53f44864d474823819a70f5326aa37526baeedb58d8391996f8"
+    },
+    "runs/ambiguity-value/development-data-2026-10-06-v1/manifest.json": {
+      "bytes": 375,
+      "sha256": "b6318e897cf96cde8ca9f9a32438818709f3c015c683f66f3a5ae23ab52a22e7"
+    },
+    "runs/ambiguity-value/development-data-2026-10-06-v1/references.json": {
+      "bytes": 10947,
+      "sha256": "cbc7b45c811be77fefad372024ca8362f34bcf1922aae7be16981757f9af5710"
+    },
+    "runs/ambiguity-value/development-hosted-2026-10-06-v1/requests.json": {
+      "bytes": 1358217,
+      "sha256": "00a74c1a034b5bb96251bc9c0e1b81d30bc28406c9c088b9c5a1f821688b8fca"
+    },
+    "runs/ambiguity-value/development-hosted-2026-10-06-v1/responses.jsonl": {
+      "bytes": 317536,
+      "sha256": "40f0f16f64a834a46e5f118f64e76ea21beb5682cd9760defb060ab33b303f2c"
+    },
+    "runs/ambiguity-value/development-hosted-2026-10-06-v1/summary.json": {
+      "bytes": 543,
+      "sha256": "1ed813862dea46e043e042b93a21a4f568eaf0a40cd11fcd6ff6eed41fe059b6"
+    }
+  }
+}

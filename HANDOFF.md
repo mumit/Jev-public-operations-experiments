@@ -6,6 +6,16 @@ The fresh ambiguity-value comparison is complete and failed. Read docs/ambiguity
 
 The separate /entry-workbench-v2 sandbox provides unscored practice on the original two practice and eight known examples. It uses plain metric labels, explicitly scripted source replies, an initial-choice snapshot, clarification-versus-confirmation reasons and neutral unavailable suggestions. Every value remains manual; local exports use a software-demo schema excluded from participant assessment. Interface fingerprints separate drafts across revisions but do not constitute a new frozen human-study protocol. Original /entry-walkthrough files and protocol remain unchanged. Participant exports and observations stay private; do not publish them or treat software QA as participation. No provider call or server write occurs through either new page.
 
+All forty-five preparation recordings remain preserved. No additional recording opened in the clarification studies. Original explicit ranks 1-3 (fifteen recordings), 22 cause-evaluation cases, thirty RE3 Sock Shop cases and 140 RE1 reserves remain unopened. Numerical policy checks stay in exact code and every claim field remains manual.
+
+Use scripts.verify_ambiguity_value for all thirty-four executed hosted studies, three preserved failures and both original pack validators without inference. The ambiguity-value-v1 supplement adds six files and 144 actual provider responses, requiring all thirty-two predecessors. All thirty-three public assets preserve 16,300 actual provider responses in 1,288 files. Read docs/evidence.md and docs/verification.md for publication and clean replay checks. Protected allocations remain unopened. Further substantive evidence needs independently authored reports with reviewed intended meanings or a newly selected bounded task and separately frozen protocol; do not reopen completed calls.
+
+## Historical checkpoints
+
+The sections below record earlier states and then-planned follow-ups. The current-state section above governs continuation.
+
+## Earlier explicit-entry and optional-language state
+
 The optional clarification work remains complete and frozen. Direct selection performs worse than its six-field control (149 versus 187 correct displays/276). The later same-reply policy gives 251 versus 188, with 63 gains, no losses and no wrong displays, but sixteen needed clarifications are withheld and nine of 24 frozen panels fail. Stop tuning on these inspected statements. The prepared walkthrough measures descriptive usability only; no human benefit, causal saving or readiness claim is established.
 
 The optional comparison has completed: direct 149 correct displays, checklist 187 across 276 opportunities each. Direct fails and adds five unnecessary health-request questions. Read docs/optional-clarification.md for the separate, prospective display-policy diagnosis. Neither method is promoted.
@@ -29,12 +39,6 @@ The inspector exposes both stages, exact requests, all option scores, field mask
 The user selected optional clarification suggestions alongside required entry on 2026-10-06. Read docs/optional-clarification.md. The completed plan froze 92 new controlled statements in 23 patterns and the same two public inventories before inference. Direct selects one of five questions, no_question or outside_scope; checklist retains the unchanged six-field focused input; parser stays frozen. The 552-call comparison is complete and failed; a separate 276-call policy diagnostic also fails its coverage requirements. Neither no_question nor a complete wording reference clears entry or establishes numerical truth. Every field still requires explicit selection. Silent no-question misses, withheld ambiguities and necessary questions in the wrong order remain scored.
 
 Producers, manual references and exact request hashes were committed before once-only inference. Keep every frozen producer and result unchanged. Both studies retain the 0.70 score boundary, whole-statement quarantine, missed ambiguities and full per-application/round/type denominators. Neither permits numerical inference, automatic entry or protected-data access. The next task needs a selected product objective and separately frozen protocol; do not rerun completed calls.
-
-Use scripts.verify_ambiguity_value for all thirty-four executed hosted studies, three preserved failures and both original pack validators without inference. The ambiguity-value-v1 supplement adds six files and 144 actual provider responses, requiring all thirty-two predecessors. All thirty-three public assets preserve 16,300 actual provider responses in 1,288 files. Read docs/evidence.md and docs/verification.md for publication and clean replay checks. Protected allocations remain unopened. Further substantive evidence needs independently authored reports with reviewed intended meanings or a newly selected bounded task and separately frozen protocol; do not reopen completed calls.
-
-## Historical checkpoints
-
-The sections below record earlier states and then-planned follow-ups. The current-state section above governs continuation.
 
 ## Earlier prefix state
 
