@@ -50,3 +50,7 @@ Export validation checks the frozen protocol, task order, fields and timing befo
 ## Early usability feedback
 
 Before a participant export, the user reported difficulty completing an unnamed-service task and interpreting “Which one metric channel should this claim check?” I explained that the source-question buttons supply omitted details and that a metric channel is the measurement to check, such as CPU or memory. This is informal qualitative feedback from preview use, not a scored participant result or measured assistance benefit. The frozen interface retains its original wording; a wording revision would need a separate version.
+
+## Separate learning sandbox
+
+The original interface and protocol remain frozen. A [separate sandbox](http://127.0.0.1:8769/entry-workbench-v2) reuses these known examples for unscored practice, with plain metric labels, initial-choice snapshots, explicit scripted-source attribution and clarification-versus-confirmation reasons. Its software-demo exports cannot enter this walkthrough's assessment. The [fresh Jev-versus-rules comparison](ambiguity-value.md) fails its criteria for another participant comparison. Private participant observations remain outside the repository.

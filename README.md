@@ -4,7 +4,7 @@ I am testing where Jev can help operations analysts: selecting investigation lea
 
 The current evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
-The latest optional clarification diagnostic improves correct displays from 188 to 251 out of 276 by gating only the fields needed for the first question on identical replies. It displays no wrong action but misses sixteen needed clarifications and fails its frozen coverage requirements. [Read both optional comparisons](docs/optional-clarification.md) and inspect [the required-entry prototype](http://127.0.0.1:8769/optional-clarification). Analyst benefit remains unestablished. A [short entry walkthrough](http://127.0.0.1:8769/entry-walkthrough) is prepared for the user: two practice tasks, then eight tasks with entry alone or recorded optional suggestions. Progress stays in the browser, and exports stay private. [Read the design and instructions](docs/optional-entry-evaluation.md). Participant observations and exports stay outside this repository; it publishes no participant outcomes.
+The fresh clarification comparison gives Jev 114 correct displayed actions out of 144 versus 126 for fixed literal rules. It avoids eighteen unnecessary rule questions and handles some contextual wording better, but misses seventeen needed first questions and displays four incorrect no-question decisions. The candidate fails; another participant comparison is not justified. [Read the results](docs/ambiguity-value.md), [inspect exact inputs and replies](http://127.0.0.1:8769/ambiguity-value), or [try the clearer learning sandbox](http://127.0.0.1:8769/entry-workbench-v2). The sandbox reuses known examples as unscored practice. Original participant exports and observations remain private and outside this repository.
 
 The missing-window confirmation gives focused and calculated Jev inputs 1,080/1,080 correct displayed answers each. The exact evaluator matches every policy reference without hosted calls. Calculated facts add no benefit on this panel, while the earlier boundary-fixture advantage remains recorded. All fifteen previously downloaded recordings remain included, including one with no after-window evidence. Inspect [the explicit-claim workflow](http://127.0.0.1:8769/explicit-claims?phase=fresh) and read [the task-fit assessment](docs/operations-fit.md). Those numerical results use assistant fixtures; they do not measure human effort or added utility.
 
@@ -12,6 +12,7 @@ The missing-window confirmation gives focused and calculated Jev inputs 1,080/1,
 
 | Study | Evidence | Result |
 |---|---|---|
+| Fresh clarification versus rules | 48 new controlled statements, three rounds, 144 calls | Jev 114/144 correct displays versus rules 126/144; 43/60 needed questions shown versus 54/60; contextual gains do not offset losses. Candidate fails. |
 | Optional display dependencies | 92 inspected statements, three rounds, two policies on 276 shared replies | First-question gives 251 correct displays versus 188; zero wrong displays, sixteen missed clarifications; coverage gates fail. |
 | Optional question selection | 92 new controlled statements, direct/checklist inputs, 552 calls | Direct displays 149 correct actions versus 187 for checklist and adds five unnecessary questions on health requests; candidate fails. |
 | Prefix context | 27 inspected notes, one subject per call, paired full/prefix inputs, three rounds | Train Ticket passes. Online Boutique displays 102/103/102 versus full-note 99/99/99; prefix has zero unsafe swapped displays, full-note has one. Subject errors and a quarantined reply remain; candidate fails. |
@@ -52,10 +53,11 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all thirty-two [public evidence bundles](docs/evidence.md) in order to inspect 16,156 recorded provider responses in 1,282 files. The newest supplement adds 828 replies and nine files from two optional clarification studies. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
+A fresh clone includes source, reports and checkpoints. Restore all thirty-three [public evidence bundles](docs/evidence.md) in order to inspect 16,300 recorded provider responses in 1,288 files. The newest supplement adds 144 replies and six files from the fresh clarification comparison. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
 
 ## Read and inspect
 
+- [Fresh clarification versus rules](docs/ambiguity-value.md): contextual gains, contradictions, missed questions and the separate learning sandbox.
 - [Optional clarification](docs/optional-clarification.md): direct selection, same-reply display dependencies, missed questions and a blank required-entry prototype.
 - [Clarification readiness](docs/clarification.md): instruction changes, improved coverage and repeated ambiguity errors.
 - [Explicit claims](docs/explicit-claims.md): compare general typed, focused and calculated inputs with exact policy computation; inspect the completed missing-window confirmation.
@@ -100,15 +102,15 @@ The clarification comparison improves correct displayed actions from 77 to 112 o
 
 ```bash
 uv run --locked --extra public-data python -m unittest discover -s tests -v
-uv run --locked --extra public-data python -m scripts.verify_optional_question
+uv run --locked --extra public-data python -m scripts.verify_ambiguity_value
 for file in triage_bench/web/*.js; do node --check "$file" || exit 1; done
 ```
 
-The latest verifier invokes thirty-three executed studies, three preparation failures and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
+The latest verifier invokes thirty-four executed studies, three preparation failures and both original pack validators without hosted calls. It reconstructs training-only ML, verifies exact requests and raw replies, recomputes assessments and preserves frozen thresholds and rejected evidence. The full unit suite and evidence verification require restored bundles; browser-script syntax checks do not. These checks need no API key.
 
 ## Continue the research
 
 Read HANDOFF.md and AGENTS.md before editing. Completed protocols are read-only in this repository, including requests to use an alternative output directory. New inference needs a separately frozen protocol and your own key in an ignored `.env` or environment variable. Do not change measured input builders or tune against inspected evaluation failures.
 
-Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). The numerical comparison is complete. Fixed numerical checks belong in code. The readiness comparison and both optional clarification studies are complete; none passes its frozen candidate requirements. The next choice is a participant-led convenience comparison despite missed questions, or explicit entry alone. Read [the optional results](docs/optional-clarification.md); historical readiness scores remain unchanged. The missing-window confirmation reuses fifteen already downloaded recordings with 2,160 valid calls and no case replacement. All three failed preparations remain preserved. Original explicit ranks 1-3, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves stay unopened.
+Read [the explicit-claim report](docs/explicit-claims.md) and [the remaining plan](docs/operations-fit.md). The numerical comparison is complete. Fixed numerical checks belong in code. The readiness comparison and both optional clarification studies are complete; none passes its frozen candidate requirements. The fresh clarification comparison also fails; continue with manual entry and exact numerical evaluation. Known examples remain available for learning, while operational language value needs independent reports and reviewed intended meanings. Read [the optional results](docs/optional-clarification.md); historical readiness scores remain unchanged. The missing-window confirmation reuses fifteen already downloaded recordings with 2,160 valid calls and no case replacement. All three failed preparations remain preserved. Original explicit ranks 1-3, 22 cause-evaluation cases, 30 RE3 Sock Shop cases and 140 RE1 reserves stay unopened.
 
