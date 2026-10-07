@@ -1,6 +1,6 @@
 # Try entry alone and entry with optional suggestions
 
-The user selected a short usability walkthrough. The task pack and interface are frozen; no participant export has been received. The user has tried the software-preview tasks and reported confusion about unnamed services and the phrase “metric channel.” The first-question policy still fails its model coverage requirements. This walkthrough asks whether its optional questions help someone complete explicit entries despite those misses.
+The user selected a short usability walkthrough. The task pack and interface are frozen. Participant outcomes and exports remain private. The user has tried the software-preview tasks and reported confusion about unnamed services and the phrase “metric channel.” The first-question policy still fails its model coverage requirements. This walkthrough asks whether its optional questions help someone complete explicit entries despite those misses.
 
 ## Take the walkthrough
 
@@ -45,7 +45,7 @@ A single walkthrough can expose confusing wording, extra questions, incorrect en
 
 Participant exports stay private and outside the repository and public evidence releases. The server receives no selections, questions, timing or comments. A submitted export is self-declared participation, not verified identity or independent specialist review. Software fixtures and browser checks remain separate from participant evidence.
 
-After an actual export arrives, validation will check the frozen protocol, task order, fields and timing before describing outcomes by condition. The next decision should follow those observations; this preparation adds no measured human benefit and does not replace the failed model gates.
+Export validation checks the frozen protocol, task order, fields and timing before describing outcomes by condition. The next decision should follow those observations; this preparation adds no measured human benefit and does not replace the failed model gates.
 
 ## Early usability feedback
 
