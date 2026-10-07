@@ -1,0 +1,313 @@
+{
+  "schema": "publisher-report-audit-1",
+  "audit_date": "2026-10-07",
+  "catalog_sha256": "6b618d5e16ccd3ee42598b6ffad01e6f241f4aa59061f28849cdf672829649fe",
+  "producer_sha256": "0d0583f7149374b05ff98a9d839bd96c06a853a21f2abb16bfb976a3a376e1cf",
+  "sources": [
+    {
+      "id": "cf-control-2023",
+      "publisher": "Cloudflare",
+      "incident_group": "cf-control-nov2023",
+      "allocation": "development",
+      "report_kind": "postmortem",
+      "url": "https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/",
+      "content_checks": [
+        "control plane",
+        "analytics"
+      ],
+      "status": "available",
+      "final_url": "https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/",
+      "title_observed": "Post mortem on the Cloudflare Control Plane and Analytics Outage",
+      "publisher_date_metadata": "2023-11-04T06:18:55.000Z",
+      "raw_bytes": 297694,
+      "raw_sha256": "433d183c8e895c75d7540cf2abb02354bf7069973a65806d8bd56367d3ed3a6b",
+      "normalized_sha256": "3b5ed505d86c45ca665d14db829af2d4bf60e09bd5e5c608167a0cf399b9e4c5",
+      "blocks": 54,
+      "article_words": 3192,
+      "input_prefix": {
+        "included_blocks": 35,
+        "omitted_blocks": 19,
+        "bytes": 13934,
+        "sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+      }
+    },
+    {
+      "id": "cf-kv-2023",
+      "publisher": "Cloudflare",
+      "incident_group": "cf-kv-oct2023",
+      "allocation": "evaluation",
+      "report_kind": "postmortem",
+      "url": "https://blog.cloudflare.com/cloudflare-incident-on-october-30-2023/",
+      "content_checks": [
+        "Workers KV",
+        "401"
+      ],
+      "status": "available",
+      "final_url": "https://blog.cloudflare.com/cloudflare-incident-on-october-30-2023/",
+      "title_observed": "Cloudflare incident on October 30, 2023",
+      "publisher_date_metadata": "2023-11-01T16:39:43.000Z",
+      "raw_bytes": 298355,
+      "raw_sha256": "ea3bedda05264111904bb2a2fd97f04df7717e4180fb453b9d79fbf95aa9f731",
+      "normalized_sha256": "fed0b682f2dc08e33090d85900539ce4543b59a7d2c8dcc1eef6290a82886674",
+      "blocks": 51,
+      "article_words": 1679,
+      "input_prefix": {
+        "included_blocks": 51,
+        "omitted_blocks": 0,
+        "bytes": 10895,
+        "sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+      }
+    },
+    {
+      "id": "cf-waf-2019",
+      "publisher": "Cloudflare",
+      "incident_group": "cf-waf-jul2019",
+      "allocation": "evaluation",
+      "report_kind": "postmortem",
+      "url": "https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/",
+      "content_checks": [
+        "regular expression",
+        "CPU"
+      ],
+      "status": "available",
+      "final_url": "https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/",
+      "title_observed": "Details of the Cloudflare outage on July 2, 2019",
+      "publisher_date_metadata": "2019-07-12T15:45:21.000Z",
+      "raw_bytes": 372986,
+      "raw_sha256": "55bcb9596199691eb8724209f5ab3f6e81cce78212a956f6ff2ca8beb0d5f4b3",
+      "normalized_sha256": "a8228c07693541dd38e580c6865bd019f372500fb90187e7371d379d1380d83a",
+      "blocks": 114,
+      "article_words": 4441,
+      "input_prefix": {
+        "included_blocks": 50,
+        "omitted_blocks": 64,
+        "bytes": 13664,
+        "sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+      }
+    },
+    {
+      "id": "cf-backbone-2020",
+      "publisher": "Cloudflare",
+      "incident_group": "cf-backbone-jul2020",
+      "allocation": "audit_only",
+      "report_kind": "postmortem",
+      "url": "https://blog.cloudflare.com/cloudflare-outage-on-july-17-2020/",
+      "content_checks": [
+        "backbone",
+        "router"
+      ],
+      "status": "available",
+      "final_url": "https://blog.cloudflare.com/cloudflare-outage-on-july-17-2020/",
+      "title_observed": "Cloudflare outage on July 17, 2020",
+      "publisher_date_metadata": "2020-07-18T01:22:00.000Z",
+      "raw_bytes": 284255,
+      "raw_sha256": "bf19318eadd72a8da0339777b3eed4399aed8076a270700b1da9faa61de6a0d8",
+      "normalized_sha256": "cd9870535f1a3327677cf85111a0085cff7a8bdd65f80dd0ad3e8e54cd4803a3",
+      "blocks": 34,
+      "article_words": 915,
+      "input_prefix": {
+        "included_blocks": 34,
+        "omitted_blocks": 0,
+        "bytes": 5748,
+        "sha256": "050313abe3c3a4c95a3c3156da730ec900a8e20fa09728175277e78bb96cde7f"
+      }
+    },
+    {
+      "id": "gh-analysis-2018",
+      "publisher": "GitHub",
+      "incident_group": "gh-oct2018",
+      "allocation": "development",
+      "report_kind": "postmortem",
+      "url": "https://github.blog/news-insights/company-news/oct21-post-incident-analysis/",
+      "content_checks": [
+        "MySQL",
+        "October"
+      ],
+      "status": "available",
+      "final_url": "https://github.blog/news-insights/company-news/oct21-post-incident-analysis/",
+      "title_observed": "October 21 post-incident analysis",
+      "publisher_date_metadata": "2018-10-30T07:00:00+00:00",
+      "raw_bytes": 184874,
+      "raw_sha256": "2fefd1a3c5e07265f22a65c62b30cfb0de0d6e3ee5470c8aaba95d4c38cb0d61",
+      "normalized_sha256": "96a83164062bfbec006cb6d6fbfe9d1dfb09f25cd49c1e4130a8718dc8f748e4",
+      "blocks": 61,
+      "article_words": 2787,
+      "input_prefix": {
+        "included_blocks": 47,
+        "omitted_blocks": 14,
+        "bytes": 13955,
+        "sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+      }
+    },
+    {
+      "id": "gh-initial-2018",
+      "publisher": "GitHub",
+      "incident_group": "gh-oct2018",
+      "allocation": "development",
+      "report_kind": "initial_report",
+      "url": "https://github.blog/news-insights/company-news/october21-incident-report/",
+      "content_checks": [
+        "October",
+        "data"
+      ],
+      "status": "unavailable",
+      "error_type": "ValueError"
+    },
+    {
+      "id": "gh-update-2018",
+      "publisher": "GitHub",
+      "incident_group": "gh-oct2018",
+      "allocation": "development",
+      "report_kind": "recovery_update",
+      "url": "https://github.blog/news-insights/incident-update/",
+      "content_checks": [
+        "October",
+        "normal"
+      ],
+      "status": "unavailable",
+      "error_type": "ValueError"
+    },
+    {
+      "id": "gh-april-2023",
+      "publisher": "GitHub",
+      "incident_group": "gh-month-apr2023",
+      "allocation": "evaluation",
+      "report_kind": "monthly_report",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-april-2023/",
+      "content_checks": [
+        "April",
+        "Actions"
+      ],
+      "status": "available",
+      "final_url": "https://github.blog/news-insights/company-news/github-availability-report-april-2023/",
+      "title_observed": "GitHub Availability Report: April 2023",
+      "publisher_date_metadata": "2023-05-03T21:00:32+00:00",
+      "raw_bytes": 172286,
+      "raw_sha256": "335de18d3d07d757492908b379d3abdab7dbbd91714c314ea137e13e8b5f42ab",
+      "normalized_sha256": "af0a1bd441991becb76eaa7a9535db6f21b73af635644653f6fea8c2ea9da827",
+      "blocks": 33,
+      "article_words": 1125,
+      "input_prefix": {
+        "included_blocks": 33,
+        "omitted_blocks": 0,
+        "bytes": 7155,
+        "sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+      }
+    },
+    {
+      "id": "gh-march-2022",
+      "publisher": "GitHub",
+      "incident_group": "gh-month-mar2022",
+      "allocation": "audit_only",
+      "report_kind": "monthly_report",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-march-2022/",
+      "content_checks": [
+        "March",
+        "database"
+      ],
+      "status": "available",
+      "final_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2022/",
+      "title_observed": "GitHub Availability Report: March 2022",
+      "publisher_date_metadata": "2022-04-06T18:45:52+00:00",
+      "raw_bytes": 176724,
+      "raw_sha256": "54afa62605a4369c21773e9917aba776d5b0fc5a34adb0656ba3b8fa5a1db7fd",
+      "normalized_sha256": "8eded462b13c1645e24bf1ac0d5b4003752fc36a242e894174f95e1e803aa171",
+      "blocks": 36,
+      "article_words": 1310,
+      "input_prefix": {
+        "included_blocks": 36,
+        "omitted_blocks": 0,
+        "bytes": 8231,
+        "sha256": "bad9f3e48bd69aa940689cbe3f5e8bb4cc9f1725ecc3f516e9c60a99988d5889"
+      }
+    },
+    {
+      "id": "aws-dec-2021",
+      "publisher": "AWS",
+      "incident_group": "aws-use1-dec2021",
+      "allocation": "development",
+      "report_kind": "post_event_summary",
+      "url": "https://aws.amazon.com/message/12721",
+      "content_checks": [
+        "December",
+        "network"
+      ],
+      "status": "available",
+      "final_url": "https://aws.amazon.com/message/12721/",
+      "title_observed": null,
+      "publisher_date_metadata": null,
+      "raw_bytes": 345994,
+      "raw_sha256": "901bc46acc261644683bc5770a3b4f9e538e5e815491dee958c7880363761d2c",
+      "normalized_sha256": "8bdfc64e8ae6bd77e159c517e3528db616363295c3dbab5e057d0f90302e4c3e",
+      "blocks": 38,
+      "article_words": 3860,
+      "input_prefix": {
+        "included_blocks": 22,
+        "omitted_blocks": 16,
+        "bytes": 12640,
+        "sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+      }
+    },
+    {
+      "id": "aws-s3-2017",
+      "publisher": "AWS",
+      "incident_group": "aws-s3-feb2017",
+      "allocation": "evaluation",
+      "report_kind": "post_event_summary",
+      "url": "https://aws.amazon.com/message/41926",
+      "content_checks": [
+        "February",
+        "S3"
+      ],
+      "status": "available",
+      "final_url": "https://aws.amazon.com/message/41926/",
+      "title_observed": null,
+      "publisher_date_metadata": null,
+      "raw_bytes": 305505,
+      "raw_sha256": "f7947d62b9ba744162ee049c52210d51d17c8c4d70a731b2bb6bc400eeb8e5e9",
+      "normalized_sha256": "ed9016c48022972f78b3d9950c4ea3ba444d7dfc46d002db592f7e08c3c2f520",
+      "blocks": 6,
+      "article_words": 905,
+      "input_prefix": {
+        "included_blocks": 6,
+        "omitted_blocks": 0,
+        "bytes": 5570,
+        "sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+      }
+    },
+    {
+      "id": "fastly-june-2021",
+      "publisher": "Fastly",
+      "incident_group": "fastly-jun2021",
+      "allocation": "development",
+      "report_kind": "incident_summary",
+      "url": "https://www.fastly.com/blog/summary-of-june-8-outage",
+      "content_checks": [
+        "configuration",
+        "bug"
+      ],
+      "status": "available",
+      "final_url": "https://www.fastly.com/blog/summary-of-june-8-outage",
+      "title_observed": "Summary of June 8 outage",
+      "publisher_date_metadata": null,
+      "raw_bytes": 133536,
+      "raw_sha256": "7bc59939d05058778c10f034b33e6bf8856d2c18244c2d27126e8dfa0899abba",
+      "normalized_sha256": "476bc1ba6f713ae4eccd52415a450c3e086f5194b99721840ee4186e69baa150",
+      "blocks": 17,
+      "article_words": 414,
+      "input_prefix": {
+        "included_blocks": 17,
+        "omitted_blocks": 0,
+        "bytes": 2641,
+        "sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+      }
+    }
+  ],
+  "available_sources": 10,
+  "new_provider_calls": 0,
+  "new_telemetry_recordings": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "source_authorship": "Publisher-written operational reports; questions and reference annotations are a separate assistant-reviewed task.",
+  "cache_policy": "Full HTML and article text remain in ignored local runs. Publish URLs, hashes, extraction provenance and research annotations; do not include full reports or full-text requests in release assets."
+}

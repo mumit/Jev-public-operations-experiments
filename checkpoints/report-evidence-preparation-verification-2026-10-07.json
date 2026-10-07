@@ -1,0 +1,32 @@
+{
+  "schema": "publisher-report-preparation-verification-1",
+  "date": "2026-10-07",
+  "source_allocation_commit": "6d74900",
+  "base_commit": "a77a3c91042fe6de68298fbfea61093e83ff1612",
+  "audit_sha256": "597d1a7ae12f389adc29ba76e3092743f1716a6b589b1d1b4ae923a1d37c6f10",
+  "catalog_sha256": "6b618d5e16ccd3ee42598b6ffad01e6f241f4aa59061f28849cdf672829649fe",
+  "design_sha256": "45364599c3e8404239193239643aa5d4a709517665151b5cddafe95fc864a76f",
+  "preparation": {
+    "status": "verified_preparation_only",
+    "retained_sources": 10,
+    "failed_sources": 2,
+    "primary_reports": 8,
+    "planned_unique_claims": 48,
+    "max_new_provider_calls": 144,
+    "actual_new_provider_calls": 0,
+    "new_telemetry_recordings": 0,
+    "inference_protocol_exists": false
+  },
+  "checks": {
+    "python_tests": 426,
+    "browser_script_syntax_checks": 36,
+    "service_tests_after_article_change": 42,
+    "report_preparation_tests_after_portability_change": 10,
+    "retained_source_cache_replayed": 10,
+    "failed_snapshot_hashes_verified": 2,
+    "earlier_complete_evidence_chain": "scripts.verify_ambiguity_value passed without inference"
+  },
+  "public_evidence_assets_unchanged": 33,
+  "public_recorded_provider_responses_unchanged": 16300,
+  "reference_review_status": "Assistant-reviewed references planned; zero human or independent specialist reviews."
+}

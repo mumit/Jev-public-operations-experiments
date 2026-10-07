@@ -64,3 +64,27 @@ class ReportSourceTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 'Preserve'):
                     audit.audit()
                 network.assert_not_called()
+
+    def test_saved_audit_verifies_without_network_and_detects_snapshot_drift(self):
+        with patch.object(audit.urllib.request, 'urlopen', side_effect=AssertionError('No network')):
+            self.assertEqual(audit.verify(local=False)['available_sources'], 10)
+        records = json.loads(audit.AUDIT.read_text())
+        raw = ('<div class="article-content"><p>' + 'Retained evidence. '*12 + '</p></div>').encode()
+        article = audit.extract(raw, 'Cloudflare')
+        canonical = (json.dumps(article, ensure_ascii=False, sort_keys=True, indent=2)+'\n').encode()
+        prefix = audit.input_prefix(article['blocks'])
+        for source in records['sources']:
+            source['status'] = 'unavailable'
+        records['sources'][0].update(status='available', raw_sha256=audit.digest(raw), normalized_sha256=audit.digest(canonical), input_prefix={k:v for k,v in prefix.items() if k!='text'})
+        records['available_sources'] = 1
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            path = folder/'audit.json'
+            path.write_text(json.dumps(records))
+            (folder/'cf-control-2023.html').write_bytes(raw)
+            (folder/'cf-control-2023.json').write_bytes(canonical)
+            with patch.object(audit, 'AUDIT', path), patch.object(audit, 'CACHE', folder), patch.object(audit.urllib.request, 'urlopen', side_effect=AssertionError('No network')):
+                self.assertEqual(audit.verify(local=True)['new_provider_calls'], 0)
+                (folder/'cf-control-2023.html').write_bytes(raw.replace(b'Retained', b'Changed'))
+                with self.assertRaisesRegex(ValueError, 'Cached source'):
+                    audit.verify(local=True)

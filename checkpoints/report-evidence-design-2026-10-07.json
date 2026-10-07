@@ -1,0 +1,78 @@
+{
+  "schema": "publisher-report-design-1",
+  "date": "2026-10-07",
+  "stage": "source_audit_complete_design_frozen_not_an_inference_protocol",
+  "audit_sha256": "597d1a7ae12f389adc29ba76e3092743f1716a6b589b1d1b4ae923a1d37c6f10",
+  "catalog_sha256": "6b618d5e16ccd3ee42598b6ffad01e6f241f4aa59061f28849cdf672829649fe",
+  "primary_sources": [
+    "cf-control-2023",
+    "gh-analysis-2018",
+    "aws-dec-2021",
+    "fastly-june-2021",
+    "cf-kv-2023",
+    "cf-waf-2019",
+    "gh-april-2023",
+    "aws-s3-2017"
+  ],
+  "source_selection": "Four development incident/report groups; four evaluation groups. Related updates stay with their incident but are not extra trials. Two other groups are audit-only. No source replacement after outcomes.",
+  "task": "Judge whether one written claim is supported, contradicted, or not established by the supplied report excerpt. This is report interpretation, not root-cause discovery or verification against telemetry.",
+  "topics": [
+    "service_impact",
+    "cause_certainty",
+    "recovery_scope"
+  ],
+  "claim_slots_per_source": {
+    "service_impact": 2,
+    "cause_certainty": 2,
+    "recovery_scope": 2
+  },
+  "planned_unique_claims": 48,
+  "rounds": 3,
+  "max_development_provider_calls": 72,
+  "max_evaluation_provider_calls": 72,
+  "max_total_provider_calls": 144,
+  "retries": 0,
+  "comparators": [
+    "literal_rules",
+    "jev"
+  ],
+  "candidate": "rules_with_jev_assistance",
+  "composition": "Rules answer when their fixed literal condition applies; otherwise use eligible Jev. Conflicts or invalid answers require review. Both standalone Jev and the hybrid use the same recorded reply. Rules must not read reference labels.",
+  "input": "One claim plus the unchanged contiguous prefix of complete extracted blocks, at most 14000 UTF-8 bytes. Preserve wording, polarity, qualifiers and order. Exclude URL, allocation, identity checks and reference annotations.",
+  "references": "Assistant-written claims and assistant-reviewed references with exact local block spans, scope and rationale. Independent publisher authorship does not make these references independent. Ambiguous references remain unscored with their planned slots disclosed; freeze the pack before calls.",
+  "profile": {
+    "model": "jev-1.13.0",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "context_tokens": 32768,
+    "display_probability": 0.7
+  },
+  "development_gate": {
+    "wrong_displays_each_topic_incident_round": 0,
+    "correct_display_coverage_each_incident_round_min": 0.8,
+    "correct_display_coverage_each_topic_round_min": 0.8,
+    "paired_correct_display_gains_over_rules_each_round_min": 2,
+    "paired_correct_display_losses_over_rules_each_round": 0,
+    "complete_planned_evidence": true,
+    "invalid_or_missing_responses": "Count as withheld and retain in all planned denominators."
+  },
+  "evaluation_gate": "Only execute evaluation after the sole hybrid candidate passes every development criterion. Apply the same criteria without edits. Do not select a replacement candidate from standalone Jev results.",
+  "freeze_before_calls": [
+    "Claim text and reference pack",
+    "Literal rules and hybrid composition code",
+    "Definitions, questions, choices and exact wire bytes",
+    "Producer fingerprints and full request-size checks",
+    "Once-only execution and complete failure-inclusive scorer"
+  ],
+  "public_evidence": "Publish URLs, hashes, scoped paraphrases, choices, probabilities, failures and paired scores. Full reports, exact full-text requests and source HTML stay in ignored local runs. Replay requires matching local publisher snapshots; a fresh fetch may differ.",
+  "limitations": [
+    "Purposive small public sample; not a prevalence or operational error estimate.",
+    "Sources were inspected during the audit; evaluation is separated by incident, not wholly unseen to the assistant.",
+    "Published postmortems use hindsight and may be in model pretraining.",
+    "Zero human or independent specialist reference reviews.",
+    "No telecom telemetry, anomaly-detection or live triage claim.",
+    "A probability threshold is a fixed display policy, not a calibrated error guarantee."
+  ],
+  "new_provider_calls": 0,
+  "new_telemetry_recordings": 0,
+  "audit_notes_sha256": "7d015aef1fc4362609fb64542246736ce86500ed0dc7f2d8ec3755d11fc8ed53"
+}

@@ -413,3 +413,7 @@ uv run --locked --extra public-data python -m scripts.verify_ambiguity_value
 ```
 
 The latest verifier explicitly checks the earlier independent ranking studies, both original data packs and frozen entry walkthrough, as well as the later recursive language-study chain. Its reported call/answer subtotal covers recent clarification-language studies; it is not the cumulative 16,300-response release count. Replay makes zero hosted calls. The separately versioned learning sandbox uses known examples and produces no public participant evidence.
+
+## Publisher-report preparation
+
+The separate [report source audit and design](report-evidence.md) adds no provider responses or telemetry recordings. The twelve-source catalog, ten retained-source hashes, two failed-source records and frozen design are tracked in checkpoints. Full publisher reports stay in ignored local runs and are not included in the thirty-three existing public assets. Verify public provenance with scripts.audit_report_sources verify-catalog and scripts.verify_report_evidence_design; local exact extraction also requires retained snapshots. This preparation does not change the 16,300 recorded responses or release counts.

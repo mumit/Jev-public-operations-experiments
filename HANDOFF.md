@@ -1,5 +1,15 @@
 # Handoff: public operations experiments
 
+## Current continuation: publisher-written reports
+
+The source audit and research design are complete, with zero new provider calls and zero new telemetry access. Read docs/report-evidence.md and inspect /report-evidence. The catalog allocates twelve documents in ten whole incident/monthly-report groups. Ten pass extraction; two related GitHub updates fail their frozen body identity checks. Preserve those failures and snapshots. Eight primary reports support 48 planned claim slots: four development groups and four evaluation groups. The other two groups are audit-only.
+
+Freeze assistant-written claims/references, literal rule code, hybrid composition and exact request hashes before inference. The sole candidate is rules with Jev assistance; standalone rules and Jev are comparators sharing the same 72 development replies. Evaluation permits another 72 calls only after every development criterion passes. Keep the 0.70 display boundary, three rounds, no retries and failure-inclusive denominators. Do not treat the design checkpoint as an inference protocol.
+
+Publisher authorship is independent of this project; references have zero human or independent specialist reviews. All sources were inspected during audit. Postmortems contain hindsight and may be in pretraining. Full reports and full-text requests stay in ignored local runs; public provenance records URLs and hashes. Exact replay needs matching local source snapshots. Verify with scripts.audit_report_sources verify (local cache) or verify-catalog (public provenance), and scripts.verify_report_evidence_design for allocation/budget checks. Preserve the earlier evidence chain and protected telemetry.
+
+## Earlier completed work
+
 ## Current state
 
 The fresh ambiguity-value comparison is complete and failed. Read docs/ambiguity-value.md and inspect /ambiguity-value. On 48 new controlled statements and three rounds, Jev gives 114/144 correct displayed actions versus literal rules 126/144; needed first questions are 43/60 versus 54/60. Jev shows contextual gains but retains four incorrect no-question displays and seventeen needed-question misses. Sixteen of 24 frozen panels fail. Preserve all producers, references, exact requests, responses and results; do not tune against these failures or initiate another participant comparison.

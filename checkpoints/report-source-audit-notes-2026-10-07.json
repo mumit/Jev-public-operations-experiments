@@ -1,0 +1,29 @@
+{
+  "schema": "publisher-report-audit-notes-1",
+  "audit_date": "2026-10-07",
+  "failed_retrieved_sources": [
+    {
+      "id": "gh-initial-2018",
+      "title_observed": "October 21 Incident Report",
+      "raw_sha256": "cdf336e58f429e8c517df9180a1b2498ad26d807e6d5b0189512fd6e8187742e",
+      "raw_bytes": 162279,
+      "failure_reason": "Frozen body identity check expected October. The page title contains the date; the extracted body does not.",
+      "retained_for_inference": false
+    },
+    {
+      "id": "gh-update-2018",
+      "title_observed": "October 22 Incident Update",
+      "raw_sha256": "1e392cc5530495b084bae7667e4f96a51be9a9e8e80a3587b96e4a3b8c563f76",
+      "raw_bytes": 160125,
+      "failure_reason": "Frozen body identity check expected October. The page title contains the date; the extracted body does not.",
+      "retained_for_inference": false
+    }
+  ],
+  "extraction_note": "The GitHub article container includes a trailing author credit. It is publisher page text, not a reference answer. No claim may concern author credits or navigation; references must cite operational report blocks.",
+  "new_provider_calls": 0,
+  "new_telemetry_recordings": 0,
+  "display_titles": {
+    "aws-dec-2021": "AWS service event, December 2021",
+    "aws-s3-2017": "AWS S3 disruption, February 2017"
+  }
+}
