@@ -1,6 +1,6 @@
 # Try entry alone and entry with optional suggestions
 
-The user selected a short usability walkthrough. The task pack is prepared; no participant results have been received. The first-question policy still fails its model coverage requirements. This walkthrough asks whether its optional questions help someone complete explicit entries despite those misses.
+The user selected a short usability walkthrough. The task pack and interface are frozen; no participant export has been received. The user has tried the software-preview tasks and reported confusion about unnamed services and the phrase “metric channel.” The first-question policy still fails its model coverage requirements. This walkthrough asks whether its optional questions help someone complete explicit entries despite those misses.
 
 ## Take the walkthrough
 
@@ -8,7 +8,7 @@ Open [the entry walkthrough](http://127.0.0.1:8769/entry-walkthrough). Allow abo
 
 1. Start with two practice tasks. They explain the fields and give immediate feedback; they do not enter the comparison.
 2. Start the eight tasks. Read each statement, then select service, metric channel, comparison, assertion and time window. Every field starts blank.
-3. Use **Ask the source** when a detail is unclear. The reply supplies information, but you make every selection yourself. Some tasks also show a recorded Jev question, which may help or miss a needed detail.
+3. Use **Ask the source** when a detail is unclear. The reply supplies information, but you make every selection yourself. “Which metric?” asks whether the statement concerns CPU, memory or another catalog measurement, not its numerical value. If the service is absent, ask “Which service?” rather than guess from the catalog. Some tasks also show a recorded Jev question, which may help or miss a needed detail.
 4. Submit once, or withhold an unresolved task. Add an optional note after completing it. Reference feedback appears after all eight tasks.
 5. Choose **Export private results** and share the JSON file here if you want it analyzed. Exporting does not upload anything.
 
@@ -41,8 +41,12 @@ Every assigned task stays in the denominator. Wall time and interruptions accomp
 
 ## What this can establish
 
-A single walkthrough can expose confusing wording, extra questions, incorrect entries or misleading suggestions. It cannot establish a causal time saving, authentic-report accuracy or operational reliability. The tasks and references share an assistant author, the participant is unblinded, and experience can carry between tasks despite the interleaved order. Full reference entries are hidden during the interface flow, but that is not secure blinding: the repository and earlier inspectors remain available.
+A single walkthrough can expose confusing wording, extra questions, incorrect entries or misleading suggestions. It cannot establish a causal time saving, authentic-report accuracy or operational reliability. The tasks and references share an assistant author, the participant is unblinded, and experience can carry between tasks despite the interleaved order. The user has already encountered comparison tasks in software preview and received guidance about source questions; any later participant export must retain that prior exposure as a limitation. Full reference entries are hidden during the interface flow, but that is not secure blinding: the repository and earlier inspectors remain available.
 
 Participant exports stay private and outside the repository and public evidence releases. The server receives no selections, questions, timing or comments. A submitted export is self-declared participation, not verified identity or independent specialist review. Software fixtures and browser checks remain separate from participant evidence.
 
 After an actual export arrives, validation will check the frozen protocol, task order, fields and timing before describing outcomes by condition. The next decision should follow those observations; this preparation adds no measured human benefit and does not replace the failed model gates.
+
+## Early usability feedback
+
+Before a participant export, the user reported difficulty completing an unnamed-service task and interpreting “Which one metric channel should this claim check?” I explained that the source-question buttons supply omitted details and that a metric channel is the measurement to check, such as CPU or memory. This is informal qualitative feedback from preview use, not a scored participant result or measured assistance benefit. The frozen interface retains its original wording; a wording revision would need a separate version.
