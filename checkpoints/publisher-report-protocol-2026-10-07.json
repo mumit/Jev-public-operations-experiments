@@ -1,0 +1,1583 @@
+{
+  "schema": "publisher-report-protocol-1",
+  "design_sha256": "45364599c3e8404239193239643aa5d4a709517665151b5cddafe95fc864a76f",
+  "claims_sha256": "52ed82b37f6e03bb14d5679b84f0adb557ef04c8c31914145b1babd90777fd04",
+  "references_sha256": "ad03fc5f7f147cdef9a17bd2a53cefba68b2dd34dfce8229f99c741241a8ed3b",
+  "source_sha256": {
+    "triage_bench/publisher_report_features.py": "b1b173cebdbf04a7fe21cf7e35db26243e19a9fd5594845c79d15a91890267ca",
+    "triage_bench/publisher_report_data.py": "29be5d04736a593b226e02dd06eea3b54a9290122efe8e9628fb4f6e19621947",
+    "triage_bench/publisher_report_scoring.py": "51a41568865cc002221e7b910f034aab6c9fb8bf8b950f6b9587fb5576b2b0b5",
+    "triage_bench/publisher_report_trial.py": "01db8688d994b85ef895012082ea4aec07a6e8cc8d9c3c5b60a0dd3f1078ccc0",
+    "scripts/run_publisher_reports.py": "c545167586d68148041a0033fb707f292ce40643e04f41a5b15b4da6ee204a41",
+    "triage_bench/report_source_audit.py": "0d0583f7149374b05ff98a9d839bd96c06a853a21f2abb16bfb976a3a376e1cf",
+    "triage_bench/profile.py": "4b8ea3f947f1af6797e1f9a1ba67fa0dbd0d150cbc2545cdd388a580a31ae8a7",
+    "triage_bench/hosted.py": "7e4a8ed9f019aedd1b72cbb6eb7e58c69290da23f19c1285f256fb670de915b8",
+    "triage_bench/runner.py": "831c155f0a5fd291da6f13d0d337b6fd73722126d87f8e5423ddcb974d7b152c",
+    "triage_bench/public_sentence_features.py": "18ac4bd0da224d50f0a143fee5efd882c780ab1e37c08299c04004ba1b59116a",
+    "triage_bench/public_rca_trial.py": "9a66e6f376dc9741c0b725f07c987df9d8505fafe72083154e64e866f5cf535f"
+  },
+  "profile": {
+    "model": "jev-1.13.0",
+    "endpoint": "https://api.typesafe.ai/v1/systemone",
+    "context_tokens": 32768,
+    "display_probability": 0.7
+  },
+  "requests": {
+    "development": [
+      {
+        "id": "cf-control-2023-c1::r1",
+        "claim_id": "cf-control-2023-c1",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "627aef7f34f1b58825f50c96624431fb1802b8d17687e272bb2000e0c33c8cd4"
+      },
+      {
+        "id": "cf-control-2023-c2::r1",
+        "claim_id": "cf-control-2023-c2",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "c29ea46c46df9c6cc701af0d74d3d6bc14eacb5f6520207bece560f9c84468eb"
+      },
+      {
+        "id": "cf-control-2023-c3::r1",
+        "claim_id": "cf-control-2023-c3",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "2935ac464e0c3b7da960dce191d465f32e205f8361f5a8bd32267bb2324badcc"
+      },
+      {
+        "id": "cf-control-2023-c4::r1",
+        "claim_id": "cf-control-2023-c4",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "8f4f0864e9d5e617df299b24b1b06a0bda371b85e1f8249a0efcf89c84d00117"
+      },
+      {
+        "id": "cf-control-2023-c5::r1",
+        "claim_id": "cf-control-2023-c5",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "cce4050a5c67afab746f4f3d04c4c56b4580061ca5a8ad2a23518eca42191095"
+      },
+      {
+        "id": "cf-control-2023-c6::r1",
+        "claim_id": "cf-control-2023-c6",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "bf669ee047ae3824738b77e98229e638948f9fd154417c2ff76904d288c33418"
+      },
+      {
+        "id": "gh-analysis-2018-c1::r1",
+        "claim_id": "gh-analysis-2018-c1",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "918c5810f63a3361ee7a49326adb822a7e4f9b2d45a70530a0137e053e5e2d09"
+      },
+      {
+        "id": "gh-analysis-2018-c2::r1",
+        "claim_id": "gh-analysis-2018-c2",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "280cf1e1ca113cceaa3550b30819587949379a4100fa31b79d14a3368c48c8a0"
+      },
+      {
+        "id": "gh-analysis-2018-c3::r1",
+        "claim_id": "gh-analysis-2018-c3",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "48add8963a61852ed8093ed19fe6a592e21c96627d11bd83462cb97f4eeda04c"
+      },
+      {
+        "id": "gh-analysis-2018-c4::r1",
+        "claim_id": "gh-analysis-2018-c4",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "5ce92f2546bc64f8715186e26a3bd6b58d6c50d76f92093cf7aea62b70bb1ed7"
+      },
+      {
+        "id": "gh-analysis-2018-c5::r1",
+        "claim_id": "gh-analysis-2018-c5",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "9152487793e045fd924fd3a29afad5897bd8103625d14b844fe8c63bd068fa67"
+      },
+      {
+        "id": "gh-analysis-2018-c6::r1",
+        "claim_id": "gh-analysis-2018-c6",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "f7e46d5360f87f1734b3b0d2b096514a7430d34b4d51915e04be2e65ce4b4149"
+      },
+      {
+        "id": "aws-dec-2021-c1::r1",
+        "claim_id": "aws-dec-2021-c1",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "81e22abdb0a0df740c7c324afb61c3701add6c626f52b692d3917950e30b5a40"
+      },
+      {
+        "id": "aws-dec-2021-c2::r1",
+        "claim_id": "aws-dec-2021-c2",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "0d4c7ef4c53a5ed90db5f2e32a24193f5e8628fd4703cad63944eadd3c6bd316"
+      },
+      {
+        "id": "aws-dec-2021-c3::r1",
+        "claim_id": "aws-dec-2021-c3",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "4b6058ca69e935a2a217d075cbe7506530586d0d8e8aca9fb33b24fe993edec0"
+      },
+      {
+        "id": "aws-dec-2021-c4::r1",
+        "claim_id": "aws-dec-2021-c4",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "6fbdd6da6c9bc74a1dce2a36dd1f927ed1614cf5a93cefb168fe124319bb91a6"
+      },
+      {
+        "id": "aws-dec-2021-c5::r1",
+        "claim_id": "aws-dec-2021-c5",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "dd1c704c0ab69ba3619fb91916ee52afc8a37b1f8e54e3b619448a3e749df90b"
+      },
+      {
+        "id": "aws-dec-2021-c6::r1",
+        "claim_id": "aws-dec-2021-c6",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "dbf9b3323d5c8df07d12988a179704112b16023bd4fc6ef01c6df5ae25bb8317"
+      },
+      {
+        "id": "fastly-june-2021-c1::r1",
+        "claim_id": "fastly-june-2021-c1",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "d8073c3d1252dcfd2da10e9e9151149e8c52dca23d43b2c647319bdcfe813b7d"
+      },
+      {
+        "id": "fastly-june-2021-c2::r1",
+        "claim_id": "fastly-june-2021-c2",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "012aa6d09de409e50860c9d47386fbb69d41523d5027a2b0fada3eaa610671cc"
+      },
+      {
+        "id": "fastly-june-2021-c3::r1",
+        "claim_id": "fastly-june-2021-c3",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "ad021857c79caab3a13543d00c889627917961f5bf1ffa1b95f5727c769599d3"
+      },
+      {
+        "id": "fastly-june-2021-c4::r1",
+        "claim_id": "fastly-june-2021-c4",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "798d6f83826186ce2d208e561138e4aebed744bcbbc977ef5206ae1e3a71a6ca"
+      },
+      {
+        "id": "fastly-june-2021-c5::r1",
+        "claim_id": "fastly-june-2021-c5",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "1b7dc08dc092de87bdca3ef568f4e6702a4cf833c0854509b465a86b5407637c"
+      },
+      {
+        "id": "fastly-june-2021-c6::r1",
+        "claim_id": "fastly-june-2021-c6",
+        "phase": "development",
+        "round": 1,
+        "request_sha256": "18559887c3a12841da2efab9f0f97ff6b0b78f9f31af00f93afd9856533375f6"
+      },
+      {
+        "id": "cf-control-2023-c2::r2",
+        "claim_id": "cf-control-2023-c2",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "c29ea46c46df9c6cc701af0d74d3d6bc14eacb5f6520207bece560f9c84468eb"
+      },
+      {
+        "id": "cf-control-2023-c3::r2",
+        "claim_id": "cf-control-2023-c3",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "2935ac464e0c3b7da960dce191d465f32e205f8361f5a8bd32267bb2324badcc"
+      },
+      {
+        "id": "cf-control-2023-c4::r2",
+        "claim_id": "cf-control-2023-c4",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "8f4f0864e9d5e617df299b24b1b06a0bda371b85e1f8249a0efcf89c84d00117"
+      },
+      {
+        "id": "cf-control-2023-c5::r2",
+        "claim_id": "cf-control-2023-c5",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "cce4050a5c67afab746f4f3d04c4c56b4580061ca5a8ad2a23518eca42191095"
+      },
+      {
+        "id": "cf-control-2023-c6::r2",
+        "claim_id": "cf-control-2023-c6",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "bf669ee047ae3824738b77e98229e638948f9fd154417c2ff76904d288c33418"
+      },
+      {
+        "id": "gh-analysis-2018-c1::r2",
+        "claim_id": "gh-analysis-2018-c1",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "918c5810f63a3361ee7a49326adb822a7e4f9b2d45a70530a0137e053e5e2d09"
+      },
+      {
+        "id": "gh-analysis-2018-c2::r2",
+        "claim_id": "gh-analysis-2018-c2",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "280cf1e1ca113cceaa3550b30819587949379a4100fa31b79d14a3368c48c8a0"
+      },
+      {
+        "id": "gh-analysis-2018-c3::r2",
+        "claim_id": "gh-analysis-2018-c3",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "48add8963a61852ed8093ed19fe6a592e21c96627d11bd83462cb97f4eeda04c"
+      },
+      {
+        "id": "gh-analysis-2018-c4::r2",
+        "claim_id": "gh-analysis-2018-c4",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "5ce92f2546bc64f8715186e26a3bd6b58d6c50d76f92093cf7aea62b70bb1ed7"
+      },
+      {
+        "id": "gh-analysis-2018-c5::r2",
+        "claim_id": "gh-analysis-2018-c5",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "9152487793e045fd924fd3a29afad5897bd8103625d14b844fe8c63bd068fa67"
+      },
+      {
+        "id": "gh-analysis-2018-c6::r2",
+        "claim_id": "gh-analysis-2018-c6",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "f7e46d5360f87f1734b3b0d2b096514a7430d34b4d51915e04be2e65ce4b4149"
+      },
+      {
+        "id": "aws-dec-2021-c1::r2",
+        "claim_id": "aws-dec-2021-c1",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "81e22abdb0a0df740c7c324afb61c3701add6c626f52b692d3917950e30b5a40"
+      },
+      {
+        "id": "aws-dec-2021-c2::r2",
+        "claim_id": "aws-dec-2021-c2",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "0d4c7ef4c53a5ed90db5f2e32a24193f5e8628fd4703cad63944eadd3c6bd316"
+      },
+      {
+        "id": "aws-dec-2021-c3::r2",
+        "claim_id": "aws-dec-2021-c3",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "4b6058ca69e935a2a217d075cbe7506530586d0d8e8aca9fb33b24fe993edec0"
+      },
+      {
+        "id": "aws-dec-2021-c4::r2",
+        "claim_id": "aws-dec-2021-c4",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "6fbdd6da6c9bc74a1dce2a36dd1f927ed1614cf5a93cefb168fe124319bb91a6"
+      },
+      {
+        "id": "aws-dec-2021-c5::r2",
+        "claim_id": "aws-dec-2021-c5",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "dd1c704c0ab69ba3619fb91916ee52afc8a37b1f8e54e3b619448a3e749df90b"
+      },
+      {
+        "id": "aws-dec-2021-c6::r2",
+        "claim_id": "aws-dec-2021-c6",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "dbf9b3323d5c8df07d12988a179704112b16023bd4fc6ef01c6df5ae25bb8317"
+      },
+      {
+        "id": "fastly-june-2021-c1::r2",
+        "claim_id": "fastly-june-2021-c1",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "d8073c3d1252dcfd2da10e9e9151149e8c52dca23d43b2c647319bdcfe813b7d"
+      },
+      {
+        "id": "fastly-june-2021-c2::r2",
+        "claim_id": "fastly-june-2021-c2",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "012aa6d09de409e50860c9d47386fbb69d41523d5027a2b0fada3eaa610671cc"
+      },
+      {
+        "id": "fastly-june-2021-c3::r2",
+        "claim_id": "fastly-june-2021-c3",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "ad021857c79caab3a13543d00c889627917961f5bf1ffa1b95f5727c769599d3"
+      },
+      {
+        "id": "fastly-june-2021-c4::r2",
+        "claim_id": "fastly-june-2021-c4",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "798d6f83826186ce2d208e561138e4aebed744bcbbc977ef5206ae1e3a71a6ca"
+      },
+      {
+        "id": "fastly-june-2021-c5::r2",
+        "claim_id": "fastly-june-2021-c5",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "1b7dc08dc092de87bdca3ef568f4e6702a4cf833c0854509b465a86b5407637c"
+      },
+      {
+        "id": "fastly-june-2021-c6::r2",
+        "claim_id": "fastly-june-2021-c6",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "18559887c3a12841da2efab9f0f97ff6b0b78f9f31af00f93afd9856533375f6"
+      },
+      {
+        "id": "cf-control-2023-c1::r2",
+        "claim_id": "cf-control-2023-c1",
+        "phase": "development",
+        "round": 2,
+        "request_sha256": "627aef7f34f1b58825f50c96624431fb1802b8d17687e272bb2000e0c33c8cd4"
+      },
+      {
+        "id": "cf-control-2023-c3::r3",
+        "claim_id": "cf-control-2023-c3",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "2935ac464e0c3b7da960dce191d465f32e205f8361f5a8bd32267bb2324badcc"
+      },
+      {
+        "id": "cf-control-2023-c4::r3",
+        "claim_id": "cf-control-2023-c4",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "8f4f0864e9d5e617df299b24b1b06a0bda371b85e1f8249a0efcf89c84d00117"
+      },
+      {
+        "id": "cf-control-2023-c5::r3",
+        "claim_id": "cf-control-2023-c5",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "cce4050a5c67afab746f4f3d04c4c56b4580061ca5a8ad2a23518eca42191095"
+      },
+      {
+        "id": "cf-control-2023-c6::r3",
+        "claim_id": "cf-control-2023-c6",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "bf669ee047ae3824738b77e98229e638948f9fd154417c2ff76904d288c33418"
+      },
+      {
+        "id": "gh-analysis-2018-c1::r3",
+        "claim_id": "gh-analysis-2018-c1",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "918c5810f63a3361ee7a49326adb822a7e4f9b2d45a70530a0137e053e5e2d09"
+      },
+      {
+        "id": "gh-analysis-2018-c2::r3",
+        "claim_id": "gh-analysis-2018-c2",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "280cf1e1ca113cceaa3550b30819587949379a4100fa31b79d14a3368c48c8a0"
+      },
+      {
+        "id": "gh-analysis-2018-c3::r3",
+        "claim_id": "gh-analysis-2018-c3",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "48add8963a61852ed8093ed19fe6a592e21c96627d11bd83462cb97f4eeda04c"
+      },
+      {
+        "id": "gh-analysis-2018-c4::r3",
+        "claim_id": "gh-analysis-2018-c4",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "5ce92f2546bc64f8715186e26a3bd6b58d6c50d76f92093cf7aea62b70bb1ed7"
+      },
+      {
+        "id": "gh-analysis-2018-c5::r3",
+        "claim_id": "gh-analysis-2018-c5",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "9152487793e045fd924fd3a29afad5897bd8103625d14b844fe8c63bd068fa67"
+      },
+      {
+        "id": "gh-analysis-2018-c6::r3",
+        "claim_id": "gh-analysis-2018-c6",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "f7e46d5360f87f1734b3b0d2b096514a7430d34b4d51915e04be2e65ce4b4149"
+      },
+      {
+        "id": "aws-dec-2021-c1::r3",
+        "claim_id": "aws-dec-2021-c1",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "81e22abdb0a0df740c7c324afb61c3701add6c626f52b692d3917950e30b5a40"
+      },
+      {
+        "id": "aws-dec-2021-c2::r3",
+        "claim_id": "aws-dec-2021-c2",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "0d4c7ef4c53a5ed90db5f2e32a24193f5e8628fd4703cad63944eadd3c6bd316"
+      },
+      {
+        "id": "aws-dec-2021-c3::r3",
+        "claim_id": "aws-dec-2021-c3",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "4b6058ca69e935a2a217d075cbe7506530586d0d8e8aca9fb33b24fe993edec0"
+      },
+      {
+        "id": "aws-dec-2021-c4::r3",
+        "claim_id": "aws-dec-2021-c4",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "6fbdd6da6c9bc74a1dce2a36dd1f927ed1614cf5a93cefb168fe124319bb91a6"
+      },
+      {
+        "id": "aws-dec-2021-c5::r3",
+        "claim_id": "aws-dec-2021-c5",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "dd1c704c0ab69ba3619fb91916ee52afc8a37b1f8e54e3b619448a3e749df90b"
+      },
+      {
+        "id": "aws-dec-2021-c6::r3",
+        "claim_id": "aws-dec-2021-c6",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "dbf9b3323d5c8df07d12988a179704112b16023bd4fc6ef01c6df5ae25bb8317"
+      },
+      {
+        "id": "fastly-june-2021-c1::r3",
+        "claim_id": "fastly-june-2021-c1",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "d8073c3d1252dcfd2da10e9e9151149e8c52dca23d43b2c647319bdcfe813b7d"
+      },
+      {
+        "id": "fastly-june-2021-c2::r3",
+        "claim_id": "fastly-june-2021-c2",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "012aa6d09de409e50860c9d47386fbb69d41523d5027a2b0fada3eaa610671cc"
+      },
+      {
+        "id": "fastly-june-2021-c3::r3",
+        "claim_id": "fastly-june-2021-c3",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "ad021857c79caab3a13543d00c889627917961f5bf1ffa1b95f5727c769599d3"
+      },
+      {
+        "id": "fastly-june-2021-c4::r3",
+        "claim_id": "fastly-june-2021-c4",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "798d6f83826186ce2d208e561138e4aebed744bcbbc977ef5206ae1e3a71a6ca"
+      },
+      {
+        "id": "fastly-june-2021-c5::r3",
+        "claim_id": "fastly-june-2021-c5",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "1b7dc08dc092de87bdca3ef568f4e6702a4cf833c0854509b465a86b5407637c"
+      },
+      {
+        "id": "fastly-june-2021-c6::r3",
+        "claim_id": "fastly-june-2021-c6",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "18559887c3a12841da2efab9f0f97ff6b0b78f9f31af00f93afd9856533375f6"
+      },
+      {
+        "id": "cf-control-2023-c1::r3",
+        "claim_id": "cf-control-2023-c1",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "627aef7f34f1b58825f50c96624431fb1802b8d17687e272bb2000e0c33c8cd4"
+      },
+      {
+        "id": "cf-control-2023-c2::r3",
+        "claim_id": "cf-control-2023-c2",
+        "phase": "development",
+        "round": 3,
+        "request_sha256": "c29ea46c46df9c6cc701af0d74d3d6bc14eacb5f6520207bece560f9c84468eb"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "cf-kv-2023-c1::r1",
+        "claim_id": "cf-kv-2023-c1",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "4b72cdd792065eaf7f6943535d4542261e4577cf3357458e9ae41e99aa77228d"
+      },
+      {
+        "id": "cf-kv-2023-c2::r1",
+        "claim_id": "cf-kv-2023-c2",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "9d5b76b050544d1aca69e4f7ee954a294d49aba404277e27fb4fd9ed9729cd08"
+      },
+      {
+        "id": "cf-kv-2023-c3::r1",
+        "claim_id": "cf-kv-2023-c3",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "63bc58cacd30527a395411da7adb3174fbace8f1d673a991d5bb49a312310de5"
+      },
+      {
+        "id": "cf-kv-2023-c4::r1",
+        "claim_id": "cf-kv-2023-c4",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "10afa30d92af5a8f882a33b5c5d8b869dcff81dee895d2cec38729bd1ce70f40"
+      },
+      {
+        "id": "cf-kv-2023-c5::r1",
+        "claim_id": "cf-kv-2023-c5",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "e07f2421268b78c21af7f5e0139ae0f45905741dab61356e31fc6d8b2ed1f224"
+      },
+      {
+        "id": "cf-kv-2023-c6::r1",
+        "claim_id": "cf-kv-2023-c6",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "915657f9d4ac6d8cdf87dc643cc157f34148d31784b7653a603558f455324cc7"
+      },
+      {
+        "id": "cf-waf-2019-c1::r1",
+        "claim_id": "cf-waf-2019-c1",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "afb9cb7b7c900d3ac4219aed0d39e38c223841698bf8c01579afc33e303c4b4d"
+      },
+      {
+        "id": "cf-waf-2019-c2::r1",
+        "claim_id": "cf-waf-2019-c2",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "3f0aa904387b7ad0d879f39d713e5e8551473a2d37d24aa5ecb084b9278c1eb4"
+      },
+      {
+        "id": "cf-waf-2019-c3::r1",
+        "claim_id": "cf-waf-2019-c3",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "18c7f51b8b44e22200b8d98b069da0598c9b3946ca1af155980fa5edeeb60161"
+      },
+      {
+        "id": "cf-waf-2019-c4::r1",
+        "claim_id": "cf-waf-2019-c4",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "e60b6b3aa462ae682221ed7e2ca98a4b236e2e0b553d9453ecc0400aaa9594de"
+      },
+      {
+        "id": "cf-waf-2019-c5::r1",
+        "claim_id": "cf-waf-2019-c5",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "5e7f3c56f2a6058299b2250a38cad433bb1ae608547138bf5a4684ca6d2b769c"
+      },
+      {
+        "id": "cf-waf-2019-c6::r1",
+        "claim_id": "cf-waf-2019-c6",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "5c465c690cd1a718bbd62fed071e382881ef8b8146e6c7d02893020df38a404f"
+      },
+      {
+        "id": "gh-april-2023-c1::r1",
+        "claim_id": "gh-april-2023-c1",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "4633b717fc100e8f12edcc91d50f3e08c9674de0d84fbebda8956542aa8f9964"
+      },
+      {
+        "id": "gh-april-2023-c2::r1",
+        "claim_id": "gh-april-2023-c2",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "812600f8a49cba229ea1a877eb695f7b3c8c36819dd0b5ae289f235e8f588030"
+      },
+      {
+        "id": "gh-april-2023-c3::r1",
+        "claim_id": "gh-april-2023-c3",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "631fade432e151adcf7902731c283c653a8f9212c3fddb8655621b470c47090c"
+      },
+      {
+        "id": "gh-april-2023-c4::r1",
+        "claim_id": "gh-april-2023-c4",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "b5e093ca0ac4c93219943f3aca1a4107053a477de8eaf21e509b801f6a77f503"
+      },
+      {
+        "id": "gh-april-2023-c5::r1",
+        "claim_id": "gh-april-2023-c5",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "c204f39f83515471e777f52dde721b62a950df1920ea3d32e6192ef197811770"
+      },
+      {
+        "id": "gh-april-2023-c6::r1",
+        "claim_id": "gh-april-2023-c6",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "32e132a43c4264fd319c84f0cc0b7b8a7199e76b371c62d85171f3b3bd3d84cb"
+      },
+      {
+        "id": "aws-s3-2017-c1::r1",
+        "claim_id": "aws-s3-2017-c1",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "40ed2006dda3ba41170ad71914263bc6db2917ed5aba0a283469375b8f36097e"
+      },
+      {
+        "id": "aws-s3-2017-c2::r1",
+        "claim_id": "aws-s3-2017-c2",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "39bb2fb5e7f1f3d4cc41c9d4f1131a1f78fb95c7e227d380f2b0b92f7468ee61"
+      },
+      {
+        "id": "aws-s3-2017-c3::r1",
+        "claim_id": "aws-s3-2017-c3",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "c0daa34f4a7fa2ee30a32256c525093cb681e11c8189ebff9a4665053bf93279"
+      },
+      {
+        "id": "aws-s3-2017-c4::r1",
+        "claim_id": "aws-s3-2017-c4",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "b480f3eb9c7993e65818ba74aa717668d6249a0283b870d6ff4a4ea68c2e533a"
+      },
+      {
+        "id": "aws-s3-2017-c5::r1",
+        "claim_id": "aws-s3-2017-c5",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "3a752bfa35c05b09c63585c6036b1e5ed86c7f66975795237c9c20460f2652f8"
+      },
+      {
+        "id": "aws-s3-2017-c6::r1",
+        "claim_id": "aws-s3-2017-c6",
+        "phase": "evaluation",
+        "round": 1,
+        "request_sha256": "645c8b5c905e24a7d786666ba5e123d76b78613449c56b189dd8cb12d721f429"
+      },
+      {
+        "id": "cf-kv-2023-c2::r2",
+        "claim_id": "cf-kv-2023-c2",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "9d5b76b050544d1aca69e4f7ee954a294d49aba404277e27fb4fd9ed9729cd08"
+      },
+      {
+        "id": "cf-kv-2023-c3::r2",
+        "claim_id": "cf-kv-2023-c3",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "63bc58cacd30527a395411da7adb3174fbace8f1d673a991d5bb49a312310de5"
+      },
+      {
+        "id": "cf-kv-2023-c4::r2",
+        "claim_id": "cf-kv-2023-c4",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "10afa30d92af5a8f882a33b5c5d8b869dcff81dee895d2cec38729bd1ce70f40"
+      },
+      {
+        "id": "cf-kv-2023-c5::r2",
+        "claim_id": "cf-kv-2023-c5",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "e07f2421268b78c21af7f5e0139ae0f45905741dab61356e31fc6d8b2ed1f224"
+      },
+      {
+        "id": "cf-kv-2023-c6::r2",
+        "claim_id": "cf-kv-2023-c6",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "915657f9d4ac6d8cdf87dc643cc157f34148d31784b7653a603558f455324cc7"
+      },
+      {
+        "id": "cf-waf-2019-c1::r2",
+        "claim_id": "cf-waf-2019-c1",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "afb9cb7b7c900d3ac4219aed0d39e38c223841698bf8c01579afc33e303c4b4d"
+      },
+      {
+        "id": "cf-waf-2019-c2::r2",
+        "claim_id": "cf-waf-2019-c2",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "3f0aa904387b7ad0d879f39d713e5e8551473a2d37d24aa5ecb084b9278c1eb4"
+      },
+      {
+        "id": "cf-waf-2019-c3::r2",
+        "claim_id": "cf-waf-2019-c3",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "18c7f51b8b44e22200b8d98b069da0598c9b3946ca1af155980fa5edeeb60161"
+      },
+      {
+        "id": "cf-waf-2019-c4::r2",
+        "claim_id": "cf-waf-2019-c4",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "e60b6b3aa462ae682221ed7e2ca98a4b236e2e0b553d9453ecc0400aaa9594de"
+      },
+      {
+        "id": "cf-waf-2019-c5::r2",
+        "claim_id": "cf-waf-2019-c5",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "5e7f3c56f2a6058299b2250a38cad433bb1ae608547138bf5a4684ca6d2b769c"
+      },
+      {
+        "id": "cf-waf-2019-c6::r2",
+        "claim_id": "cf-waf-2019-c6",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "5c465c690cd1a718bbd62fed071e382881ef8b8146e6c7d02893020df38a404f"
+      },
+      {
+        "id": "gh-april-2023-c1::r2",
+        "claim_id": "gh-april-2023-c1",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "4633b717fc100e8f12edcc91d50f3e08c9674de0d84fbebda8956542aa8f9964"
+      },
+      {
+        "id": "gh-april-2023-c2::r2",
+        "claim_id": "gh-april-2023-c2",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "812600f8a49cba229ea1a877eb695f7b3c8c36819dd0b5ae289f235e8f588030"
+      },
+      {
+        "id": "gh-april-2023-c3::r2",
+        "claim_id": "gh-april-2023-c3",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "631fade432e151adcf7902731c283c653a8f9212c3fddb8655621b470c47090c"
+      },
+      {
+        "id": "gh-april-2023-c4::r2",
+        "claim_id": "gh-april-2023-c4",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "b5e093ca0ac4c93219943f3aca1a4107053a477de8eaf21e509b801f6a77f503"
+      },
+      {
+        "id": "gh-april-2023-c5::r2",
+        "claim_id": "gh-april-2023-c5",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "c204f39f83515471e777f52dde721b62a950df1920ea3d32e6192ef197811770"
+      },
+      {
+        "id": "gh-april-2023-c6::r2",
+        "claim_id": "gh-april-2023-c6",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "32e132a43c4264fd319c84f0cc0b7b8a7199e76b371c62d85171f3b3bd3d84cb"
+      },
+      {
+        "id": "aws-s3-2017-c1::r2",
+        "claim_id": "aws-s3-2017-c1",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "40ed2006dda3ba41170ad71914263bc6db2917ed5aba0a283469375b8f36097e"
+      },
+      {
+        "id": "aws-s3-2017-c2::r2",
+        "claim_id": "aws-s3-2017-c2",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "39bb2fb5e7f1f3d4cc41c9d4f1131a1f78fb95c7e227d380f2b0b92f7468ee61"
+      },
+      {
+        "id": "aws-s3-2017-c3::r2",
+        "claim_id": "aws-s3-2017-c3",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "c0daa34f4a7fa2ee30a32256c525093cb681e11c8189ebff9a4665053bf93279"
+      },
+      {
+        "id": "aws-s3-2017-c4::r2",
+        "claim_id": "aws-s3-2017-c4",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "b480f3eb9c7993e65818ba74aa717668d6249a0283b870d6ff4a4ea68c2e533a"
+      },
+      {
+        "id": "aws-s3-2017-c5::r2",
+        "claim_id": "aws-s3-2017-c5",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "3a752bfa35c05b09c63585c6036b1e5ed86c7f66975795237c9c20460f2652f8"
+      },
+      {
+        "id": "aws-s3-2017-c6::r2",
+        "claim_id": "aws-s3-2017-c6",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "645c8b5c905e24a7d786666ba5e123d76b78613449c56b189dd8cb12d721f429"
+      },
+      {
+        "id": "cf-kv-2023-c1::r2",
+        "claim_id": "cf-kv-2023-c1",
+        "phase": "evaluation",
+        "round": 2,
+        "request_sha256": "4b72cdd792065eaf7f6943535d4542261e4577cf3357458e9ae41e99aa77228d"
+      },
+      {
+        "id": "cf-kv-2023-c3::r3",
+        "claim_id": "cf-kv-2023-c3",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "63bc58cacd30527a395411da7adb3174fbace8f1d673a991d5bb49a312310de5"
+      },
+      {
+        "id": "cf-kv-2023-c4::r3",
+        "claim_id": "cf-kv-2023-c4",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "10afa30d92af5a8f882a33b5c5d8b869dcff81dee895d2cec38729bd1ce70f40"
+      },
+      {
+        "id": "cf-kv-2023-c5::r3",
+        "claim_id": "cf-kv-2023-c5",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "e07f2421268b78c21af7f5e0139ae0f45905741dab61356e31fc6d8b2ed1f224"
+      },
+      {
+        "id": "cf-kv-2023-c6::r3",
+        "claim_id": "cf-kv-2023-c6",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "915657f9d4ac6d8cdf87dc643cc157f34148d31784b7653a603558f455324cc7"
+      },
+      {
+        "id": "cf-waf-2019-c1::r3",
+        "claim_id": "cf-waf-2019-c1",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "afb9cb7b7c900d3ac4219aed0d39e38c223841698bf8c01579afc33e303c4b4d"
+      },
+      {
+        "id": "cf-waf-2019-c2::r3",
+        "claim_id": "cf-waf-2019-c2",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "3f0aa904387b7ad0d879f39d713e5e8551473a2d37d24aa5ecb084b9278c1eb4"
+      },
+      {
+        "id": "cf-waf-2019-c3::r3",
+        "claim_id": "cf-waf-2019-c3",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "18c7f51b8b44e22200b8d98b069da0598c9b3946ca1af155980fa5edeeb60161"
+      },
+      {
+        "id": "cf-waf-2019-c4::r3",
+        "claim_id": "cf-waf-2019-c4",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "e60b6b3aa462ae682221ed7e2ca98a4b236e2e0b553d9453ecc0400aaa9594de"
+      },
+      {
+        "id": "cf-waf-2019-c5::r3",
+        "claim_id": "cf-waf-2019-c5",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "5e7f3c56f2a6058299b2250a38cad433bb1ae608547138bf5a4684ca6d2b769c"
+      },
+      {
+        "id": "cf-waf-2019-c6::r3",
+        "claim_id": "cf-waf-2019-c6",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "5c465c690cd1a718bbd62fed071e382881ef8b8146e6c7d02893020df38a404f"
+      },
+      {
+        "id": "gh-april-2023-c1::r3",
+        "claim_id": "gh-april-2023-c1",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "4633b717fc100e8f12edcc91d50f3e08c9674de0d84fbebda8956542aa8f9964"
+      },
+      {
+        "id": "gh-april-2023-c2::r3",
+        "claim_id": "gh-april-2023-c2",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "812600f8a49cba229ea1a877eb695f7b3c8c36819dd0b5ae289f235e8f588030"
+      },
+      {
+        "id": "gh-april-2023-c3::r3",
+        "claim_id": "gh-april-2023-c3",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "631fade432e151adcf7902731c283c653a8f9212c3fddb8655621b470c47090c"
+      },
+      {
+        "id": "gh-april-2023-c4::r3",
+        "claim_id": "gh-april-2023-c4",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "b5e093ca0ac4c93219943f3aca1a4107053a477de8eaf21e509b801f6a77f503"
+      },
+      {
+        "id": "gh-april-2023-c5::r3",
+        "claim_id": "gh-april-2023-c5",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "c204f39f83515471e777f52dde721b62a950df1920ea3d32e6192ef197811770"
+      },
+      {
+        "id": "gh-april-2023-c6::r3",
+        "claim_id": "gh-april-2023-c6",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "32e132a43c4264fd319c84f0cc0b7b8a7199e76b371c62d85171f3b3bd3d84cb"
+      },
+      {
+        "id": "aws-s3-2017-c1::r3",
+        "claim_id": "aws-s3-2017-c1",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "40ed2006dda3ba41170ad71914263bc6db2917ed5aba0a283469375b8f36097e"
+      },
+      {
+        "id": "aws-s3-2017-c2::r3",
+        "claim_id": "aws-s3-2017-c2",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "39bb2fb5e7f1f3d4cc41c9d4f1131a1f78fb95c7e227d380f2b0b92f7468ee61"
+      },
+      {
+        "id": "aws-s3-2017-c3::r3",
+        "claim_id": "aws-s3-2017-c3",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "c0daa34f4a7fa2ee30a32256c525093cb681e11c8189ebff9a4665053bf93279"
+      },
+      {
+        "id": "aws-s3-2017-c4::r3",
+        "claim_id": "aws-s3-2017-c4",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "b480f3eb9c7993e65818ba74aa717668d6249a0283b870d6ff4a4ea68c2e533a"
+      },
+      {
+        "id": "aws-s3-2017-c5::r3",
+        "claim_id": "aws-s3-2017-c5",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "3a752bfa35c05b09c63585c6036b1e5ed86c7f66975795237c9c20460f2652f8"
+      },
+      {
+        "id": "aws-s3-2017-c6::r3",
+        "claim_id": "aws-s3-2017-c6",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "645c8b5c905e24a7d786666ba5e123d76b78613449c56b189dd8cb12d721f429"
+      },
+      {
+        "id": "cf-kv-2023-c1::r3",
+        "claim_id": "cf-kv-2023-c1",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "4b72cdd792065eaf7f6943535d4542261e4577cf3357458e9ae41e99aa77228d"
+      },
+      {
+        "id": "cf-kv-2023-c2::r3",
+        "claim_id": "cf-kv-2023-c2",
+        "phase": "evaluation",
+        "round": 3,
+        "request_sha256": "9d5b76b050544d1aca69e4f7ee954a294d49aba404277e27fb4fd9ed9729cd08"
+      }
+    ]
+  },
+  "baseline": [
+    {
+      "id": "cf-control-2023-c1",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          2
+        ]
+      },
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "opposite_literal_negation",
+        "matched_blocks": [
+          2
+        ]
+      },
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "exact_sentence",
+        "matched_blocks": [
+          0
+        ]
+      },
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "prediction": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    }
+  ],
+  "rounds": 3,
+  "calls_per_phase": 72,
+  "maximum_calls": 144,
+  "maximum_request_bytes": 16000,
+  "retry_count": 0,
+  "failure_policy": "Global envelope/checkpoint/context/HTTP/network errors stop immediately. Invalid Choice fields are retained and withheld; never repair or retry. Keep all 24 planned claims in every round denominator.",
+  "review_status": "Assistant-authored claims and references on publisher-written sources; no independent reference review.",
+  "full_text_publication": "Full source snapshots and exact full-text requests stay local. Public evidence contains answer projections and precommitted literal-rule predictions; exact request and rule replay requires matching source snapshots."
+}
