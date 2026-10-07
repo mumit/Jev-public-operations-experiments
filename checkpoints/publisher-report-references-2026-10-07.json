@@ -1,0 +1,967 @@
+{
+  "schema": "publisher-report-references-1",
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "references": [
+    {
+      "id": "cf-control-2023-c1",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Traffic delivery",
+      "rationale": "The report explicitly preserves traffic delivery.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "start": 0,
+          "end": 283,
+          "sha256": "159e2f6a39e093276df1d4557960f0c2b1c8529afdb71f56f5c21a94116d89cc"
+        }
+      ],
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Traffic delivery",
+      "rationale": "This reverses the explicit traffic statement.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "start": 0,
+          "end": 283,
+          "sha256": "159e2f6a39e093276df1d4557960f0c2b1c8529afdb71f56f5c21a94116d89cc"
+        }
+      ],
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "choice": "not_established",
+      "review_status": "assistant_resolved",
+      "scope": "Transformer fault",
+      "rationale": "The maintenance link remains an unconfirmed explanation.",
+      "evidence_spans": [
+        {
+          "block": 16,
+          "start": 0,
+          "end": 408,
+          "sha256": "2c4851fd79488ea512708c5f91fdc1243e47bf9e7a12cfaea9852b1c61974789"
+        },
+        {
+          "block": 18,
+          "start": 0,
+          "end": 535,
+          "sha256": "b736b9d58f00b7c9105159148f579a6705f4b6d7cb06fe0287dc3865bb58c34d"
+        }
+      ],
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "choice": "not_established",
+      "review_status": "assistant_resolved",
+      "scope": "Failed circuit breakers",
+      "rationale": "The report leaves several explanations open.",
+      "evidence_spans": [
+        {
+          "block": 32,
+          "start": 0,
+          "end": 677,
+          "sha256": "7a8138ce471a526f40f264bf84d426c31af0a6f3a5f2794ee369cc41f6f86b0c"
+        }
+      ],
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Recovery at 17:57",
+      "rationale": "Most control-plane services recovered; other services remained unavailable.",
+      "evidence_spans": [
+        {
+          "block": 1,
+          "start": 0,
+          "end": 545,
+          "sha256": "7cbfebb1f31def51e5481b582be35c51912e5ef1dfe2bf0d9284b15f6d207e80"
+        }
+      ],
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "State at publication",
+      "rationale": "The opening recovery statement covers all customers.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "start": 0,
+          "end": 283,
+          "sha256": "159e2f6a39e093276df1d4557960f0c2b1c8529afdb71f56f5c21a94116d89cc"
+        }
+      ],
+      "excerpt_sha256": "d81114c2241e6e03959759269fdaa287789a88d22b4800946d9a529cacb3cdbc"
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "User data loss",
+      "rationale": "The opening summary explicitly rules out user data loss.",
+      "evidence_spans": [
+        {
+          "block": 0,
+          "start": 0,
+          "end": 544,
+          "sha256": "9934ed0073f32764ab1fb292c9702533c49ef5409a12ad989df95a7f3f6a564e"
+        }
+      ],
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "User data loss",
+      "rationale": "This reverses the reported integrity outcome.",
+      "evidence_spans": [
+        {
+          "block": 0,
+          "start": 0,
+          "end": 544,
+          "sha256": "9934ed0073f32764ab1fb292c9702533c49ef5409a12ad989df95a7f3f6a564e"
+        }
+      ],
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Failover trigger",
+      "rationale": "The maintenance disruption precedes the reported failover.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "start": 0,
+          "end": 387,
+          "sha256": "e7e23e5e405a410bf8f10f14c83db671b5b2dcb58393c638a9d704f51510092f"
+        },
+        {
+          "block": 9,
+          "start": 0,
+          "end": 598,
+          "sha256": "c949b67db7326c30676ac8d7cb48be521abe4827f0ce9e1b8b40a5b41a65026f"
+        }
+      ],
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Connectivity duration",
+      "rationale": "Connectivity recovered after seconds; degradation continued much longer.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "start": 0,
+          "end": 387,
+          "sha256": "e7e23e5e405a410bf8f10f14c83db671b5b2dcb58393c638a9d704f51510092f"
+        }
+      ],
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Topology versus backlog",
+      "rationale": "The report retains red status while queued work is processed.",
+      "evidence_spans": [
+        {
+          "block": 36,
+          "start": 0,
+          "end": 327,
+          "sha256": "41a25d160fba9ae468d2319d3f94bce9c092cc6bd67b1e9d880079792c18c34c"
+        },
+        {
+          "block": 40,
+          "start": 0,
+          "end": 242,
+          "sha256": "0e87a33eadb2940980d7bfaa72db305e454de0a8e26f2bd0135cad8bff06f964"
+        }
+      ],
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Post-recovery reconciliation",
+      "rationale": "The report describes reconciliation still in progress.",
+      "evidence_spans": [
+        {
+          "block": 0,
+          "start": 0,
+          "end": 544,
+          "sha256": "9934ed0073f32764ab1fb292c9702533c49ef5409a12ad989df95a7f3f6a564e"
+        },
+        {
+          "block": 45,
+          "start": 0,
+          "end": 806,
+          "sha256": "0989eba3fffcbd377afe3764358532ba1fd634d846e3f3f8822f4033b40b0370"
+        }
+      ],
+      "excerpt_sha256": "68defc1e991ef3669c34e3e7d465e336daa8b32261db0fb778f3dc3a3dcaef6b"
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "EC2 data plane versus control plane",
+      "rationale": "The report separates running instances from affected APIs.",
+      "evidence_spans": [
+        {
+          "block": 9,
+          "start": 0,
+          "end": 1859,
+          "sha256": "6f3f24da141e510ded9881e69dfea14a8e7e8328dcf78fd8ceed775fd5661c3f"
+        }
+      ],
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "S3 access paths",
+      "rationale": "VPC endpoint access is an explicit exception.",
+      "evidence_spans": [
+        {
+          "block": 11,
+          "start": 0,
+          "end": 182,
+          "sha256": "f8eaf427bc8dc4561670b008d7b95b8b3811ac0f8e91fd05ada7131a90c90507"
+        }
+      ],
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Congestion mechanism",
+      "rationale": "The report describes the scaling-triggered connection surge.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "start": 0,
+          "end": 1455,
+          "sha256": "e0061d4b6bd83dd816de9737b17d63856947922a3620112123def3b6b4e5cced"
+        }
+      ],
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "choice": "not_established",
+      "review_status": "assistant_resolved",
+      "scope": "Code-level diagnosis",
+      "rationale": "A latent client issue is described without a source-code location.",
+      "evidence_spans": [
+        {
+          "block": 6,
+          "start": 0,
+          "end": 1029,
+          "sha256": "840f01e22d8cdef816b8050576afe5bb6b1a388e04317c715927e8abcc3f7575"
+        }
+      ],
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "DNS recovery",
+      "rationale": "The report explicitly distinguishes DNS recovery from persistent congestion.",
+      "evidence_spans": [
+        {
+          "block": 5,
+          "start": 0,
+          "end": 1939,
+          "sha256": "31ad1e4b6f6853b02e107c9251cd30ccece0032f482243374f0d4231b81ad78d"
+        }
+      ],
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "API Gateway stabilization",
+      "rationale": "Residual errors and throttling continued after substantial recovery.",
+      "evidence_spans": [
+        {
+          "block": 12,
+          "start": 0,
+          "end": 1876,
+          "sha256": "4747aeb4d0814e30517eeafefec3064991a7b465c2f190a4e1d30b76549e7625"
+        }
+      ],
+      "excerpt_sha256": "f0e2682bd10b253ada49803ffb54865cce71127b75bfb1d412bb0e3462535a72"
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Network error scope",
+      "rationale": "The report gives this error proportion.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "start": 0,
+          "end": 175,
+          "sha256": "f18e3ca7a3bd2ee5403a14be25b17037ea70843f5247b6671efb19c0c5bb008d"
+        }
+      ],
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "choice": "not_established",
+      "review_status": "assistant_resolved",
+      "scope": "Customer count",
+      "rationale": "Network percentages do not establish a customer count.",
+      "evidence_spans": [
+        {
+          "block": 0,
+          "start": 0,
+          "end": 335,
+          "sha256": "0a36d145fc5fde0c9f8af94612e8c988340f6c5579a2e93d92256a02039adf59"
+        },
+        {
+          "block": 1,
+          "start": 0,
+          "end": 120,
+          "sha256": "28f9f1b4984b9ef0662a699e6f1804cb982e17eddeeaa220caa5f52598667eba"
+        },
+        {
+          "block": 4,
+          "start": 0,
+          "end": 175,
+          "sha256": "f18e3ca7a3bd2ee5403a14be25b17037ea70843f5247b6671efb19c0c5bb008d"
+        }
+      ],
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Trigger and latent defect",
+      "rationale": "Both the earlier defect and later valid trigger are reported.",
+      "evidence_spans": [
+        {
+          "block": 0,
+          "start": 0,
+          "end": 335,
+          "sha256": "0a36d145fc5fde0c9f8af94612e8c988340f6c5579a2e93d92256a02039adf59"
+        },
+        {
+          "block": 3,
+          "start": 0,
+          "end": 154,
+          "sha256": "93dbaf35f2c11c500d71f1808daa042cefc99edc85bcde8252e91a5ea0b5f6f7"
+        },
+        {
+          "block": 4,
+          "start": 0,
+          "end": 175,
+          "sha256": "f18e3ca7a3bd2ee5403a14be25b17037ea70843f5247b6671efb19c0c5bb008d"
+        }
+      ],
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "choice": "not_established",
+      "review_status": "assistant_resolved",
+      "scope": "Testing gap",
+      "rationale": "Investigating the detection gap is still a follow-up action.",
+      "evidence_spans": [
+        {
+          "block": 12,
+          "start": 0,
+          "end": 106,
+          "sha256": "bdb6fffa9974811cea984f2edbf77948b7c714f5d98606f8940b002ff026c272"
+        }
+      ],
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Recovery proportion",
+      "rationale": "The opening summary supplies the bounded recovery figure.",
+      "evidence_spans": [
+        {
+          "block": 0,
+          "start": 0,
+          "end": 335,
+          "sha256": "0a36d145fc5fde0c9f8af94612e8c988340f6c5579a2e93d92256a02039adf59"
+        }
+      ],
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Mitigation versus permanent fix",
+      "rationale": "Bug-fix rollout began later and was still ongoing.",
+      "evidence_spans": [
+        {
+          "block": 6,
+          "start": 0,
+          "end": 351,
+          "sha256": "4cece9b6966ece954ee48f57bbf04a7ad3b658fd144143c056cf93c0a064bf19"
+        },
+        {
+          "block": 7,
+          "start": 0,
+          "end": 194,
+          "sha256": "0c5e1d1b34c4e28974180ca6d2905b6212502de04a4d0ce35cdd0fca93e4b9a1"
+        },
+        {
+          "block": 10,
+          "start": 0,
+          "end": 81,
+          "sha256": "adff4b14cefef0087fbbe4cbd8e48fc6460dc8e5c674535c02add213236dbeac"
+        }
+      ],
+      "excerpt_sha256": "1838c6ef1acae415f1a72830047e166ad725b04dda7d9dacb35a5cfb98a8d00b"
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Worker dependency scope",
+      "rationale": "Impact depends on using KV.",
+      "evidence_spans": [
+        {
+          "block": 8,
+          "start": 0,
+          "end": 231,
+          "sha256": "aff703e5b895c1dbcdb3f0da102ed2c5861913993286e746de93a86ae031db96"
+        },
+        {
+          "block": 14,
+          "start": 0,
+          "end": 169,
+          "sha256": "e08098c6806731307f7d573b054c9dbe8cb7872538835f9ed2f69b7a8ae3b24f"
+        }
+      ],
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Access session conditions",
+      "rationale": "Only specified existing sessions were unaffected.",
+      "evidence_spans": [
+        {
+          "block": 10,
+          "start": 0,
+          "end": 372,
+          "sha256": "e6795a79ee8232d4e91ccaadf68ba906a2bf9d803fdff3a920e1be981a9fdf06"
+        }
+      ],
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Deployment destination",
+      "rationale": "The reported routing error explains the unauthorized responses.",
+      "evidence_spans": [
+        {
+          "block": 35,
+          "start": 0,
+          "end": 654,
+          "sha256": "1e4eca297ce7bfe019e79517a629b03af8bb5c68e5e6d1ec37a0812694f7e9f9"
+        },
+        {
+          "block": 36,
+          "start": 0,
+          "end": 469,
+          "sha256": "ea337e5c832832da36c55e83ca3deb77d254a2515dbbe912e3dad87b677eb21a"
+        },
+        {
+          "block": 37,
+          "start": 0,
+          "end": 338,
+          "sha256": "fd8a60eb37fc3b9a0acf7f58b0d2183529f2d247260aa9b7f094b8a578a680de"
+        }
+      ],
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "choice": "not_established",
+      "review_status": "assistant_resolved",
+      "scope": "Individual responsibility",
+      "rationale": "The mechanism is described without identifying an individual author.",
+      "evidence_spans": [
+        {
+          "block": 35,
+          "start": 0,
+          "end": 654,
+          "sha256": "1e4eca297ce7bfe019e79517a629b03af8bb5c68e5e6d1ec37a0812694f7e9f9"
+        },
+        {
+          "block": 36,
+          "start": 0,
+          "end": 469,
+          "sha256": "ea337e5c832832da36c55e83ca3deb77d254a2515dbbe912e3dad87b677eb21a"
+        }
+      ],
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Initial manual recovery",
+      "rationale": "The first manual change covered the majority of traffic; recovery followed.",
+      "evidence_spans": [
+        {
+          "block": 26,
+          "start": 0,
+          "end": 166,
+          "sha256": "a3b7eb06871b7402228e0d727b8be51ebc43455671d7c8b021173abffb933c24"
+        },
+        {
+          "block": 27,
+          "start": 0,
+          "end": 140,
+          "sha256": "2060ee61bf9b5c494083e0bd4015ac2f296a90c9665dbe7226429981e53223d0"
+        },
+        {
+          "block": 28,
+          "start": 0,
+          "end": 51,
+          "sha256": "acddf7d5b1bf572705b67c439329d97582992e43eee00c545d13328ef5eb1610"
+        }
+      ],
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Recovery dependency",
+      "rationale": "The failed dependency also blocked the normal recovery path.",
+      "evidence_spans": [
+        {
+          "block": 29,
+          "start": 0,
+          "end": 188,
+          "sha256": "a038b3c6f41d73f6ba7e2db6535fc7b6389a5b73ca36dd0c1cea0ecd4538aa24"
+        },
+        {
+          "block": 30,
+          "start": 0,
+          "end": 440,
+          "sha256": "d5b8f539592c38b99ac1b3ef3dbdceb3467c9c827d1bcfcf0acb5ba7a063e73d"
+        },
+        {
+          "block": 38,
+          "start": 0,
+          "end": 397,
+          "sha256": "634c19b613ab264746b032fec6680daf740c888c54cf93344450bffb0599bba7"
+        },
+        {
+          "block": 39,
+          "start": 0,
+          "end": 429,
+          "sha256": "7b8fab8409c588a7193ba0fbbe8f0e6dc1feb9bf61ec08e7868635578620d880"
+        }
+      ],
+      "excerpt_sha256": "3dbd82522563882689c4e461e248651b3e57a31d9ee5cf47e7b6ee72953c4004"
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "HTTP serving",
+      "rationale": "The report names these impacted functions.",
+      "evidence_spans": [
+        {
+          "block": 5,
+          "start": 0,
+          "end": 499,
+          "sha256": "bfc560bda418b7cffec6c87c67b5ccb7477e3eff2ad21a326c2e504acacbdeeb"
+        },
+        {
+          "block": 6,
+          "start": 0,
+          "end": 350,
+          "sha256": "c940f906ea50db311df94a2c4cfa0f04f4bfbd7badcca454e8929b6131736ee0"
+        }
+      ],
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "choice": "not_established",
+      "review_status": "assistant_resolved",
+      "scope": "Customer count",
+      "rationale": "The supplied excerpt describes broad impact without that count.",
+      "evidence_spans": [
+        {
+          "block": 5,
+          "start": 0,
+          "end": 499,
+          "sha256": "bfc560bda418b7cffec6c87c67b5ccb7477e3eff2ad21a326c2e504acacbdeeb"
+        },
+        {
+          "block": 6,
+          "start": 0,
+          "end": 350,
+          "sha256": "c940f906ea50db311df94a2c4cfa0f04f4bfbd7badcca454e8929b6131736ee0"
+        },
+        {
+          "block": 8,
+          "start": 0,
+          "end": 289,
+          "sha256": "332f4edcd8f9f7ac864759c4cbaf5348f28e83b364e30feb04a6e0b62ef72a94"
+        }
+      ],
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Investigator certainty at 14:00",
+      "rationale": "The report describes both findings at this time.",
+      "evidence_spans": [
+        {
+          "block": 20,
+          "start": 0,
+          "end": 487,
+          "sha256": "33b60909878a9d317348b13a87ca5e2004afc02991f538732d7386b52e8f42b2"
+        }
+      ],
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Current incident versus historical example",
+      "rationale": "The DNS change is an earlier anecdote; the current outage concerns WAF backtracking.",
+      "evidence_spans": [
+        {
+          "block": 0,
+          "start": 0,
+          "end": 320,
+          "sha256": "ba94eb65f9c15d1d191ae739e1733fa2201854b8b31a6573c9b912853e95af35"
+        },
+        {
+          "block": 5,
+          "start": 0,
+          "end": 499,
+          "sha256": "bfc560bda418b7cffec6c87c67b5ccb7477e3eff2ad21a326c2e504acacbdeeb"
+        },
+        {
+          "block": 6,
+          "start": 0,
+          "end": 350,
+          "sha256": "c940f906ea50db311df94a2c4cfa0f04f4bfbd7badcca454e8929b6131736ee0"
+        },
+        {
+          "block": 11,
+          "start": 0,
+          "end": 343,
+          "sha256": "6305abc2941b560e215425418d6d317d2e2a5df9763f5a302edeef03db06144f"
+        }
+      ],
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Traffic recovery versus protection",
+      "rationale": "WAF restoration followed traffic recovery and further tests.",
+      "evidence_spans": [
+        {
+          "block": 22,
+          "start": 0,
+          "end": 415,
+          "sha256": "d5817ad6756cdc09ece5f0827fd5a4d3194f4d3d6d1962c24bdeb93caf44c96f"
+        },
+        {
+          "block": 23,
+          "start": 0,
+          "end": 371,
+          "sha256": "bb167017a7437ad61dc700ac543ef8e7da9a49c610888fff7db397ec99c2ab76"
+        },
+        {
+          "block": 24,
+          "start": 0,
+          "end": 120,
+          "sha256": "e2081c578ad251768246324feb571b1e1b8425d8ec3b0d38800ff81704bfcb3b"
+        }
+      ],
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "WAF restoration",
+      "rationale": "Testing precedes the reported global re-enable.",
+      "evidence_spans": [
+        {
+          "block": 23,
+          "start": 0,
+          "end": 371,
+          "sha256": "bb167017a7437ad61dc700ac543ef8e7da9a49c610888fff7db397ec99c2ab76"
+        },
+        {
+          "block": 24,
+          "start": 0,
+          "end": 120,
+          "sha256": "e2081c578ad251768246324feb571b1e1b8425d8ec3b0d38800ff81704bfcb3b"
+        }
+      ],
+      "excerpt_sha256": "a561b9186a58e7166a485f32806bcef4cc1b9abfc99b931bf814ad00c5f072b7"
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "March 31 user subset",
+      "rationale": "The report narrows impact to this admin subset.",
+      "evidence_spans": [
+        {
+          "block": 11,
+          "start": 0,
+          "end": 335,
+          "sha256": "cced4396110bcc4cd0e592deb5525b93b5d3d66faafca965ab6d2a1af4dec009"
+        },
+        {
+          "block": 12,
+          "start": 0,
+          "end": 349,
+          "sha256": "f0b1c5afbe6aa91165da8e772f71bfb3887a74634a428e3b425b998bb8948b11"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "March 31 user subset",
+      "rationale": "The specified admin restriction contradicts universal impact.",
+      "evidence_spans": [
+        {
+          "block": 12,
+          "start": 0,
+          "end": 349,
+          "sha256": "f0b1c5afbe6aa91165da8e772f71bfb3887a74634a428e3b425b998bb8948b11"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "choice": "not_established",
+      "review_status": "assistant_resolved",
+      "scope": "Copilot diagnosis",
+      "rationale": "Contributing factors remained under investigation.",
+      "evidence_spans": [
+        {
+          "block": 19,
+          "start": 0,
+          "end": 115,
+          "sha256": "5fdbc374949f384f7c29f7490e98dccc1b0abb16fc5eabdb1690846404e9b443"
+        },
+        {
+          "block": 20,
+          "start": 0,
+          "end": 152,
+          "sha256": "3dfc989a0de1dc898d7d972290359aafbba2ccbff70aa79b74dfbd7638f50c5d"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "April 18 database change",
+      "rationale": "The report directly describes this mechanism.",
+      "evidence_spans": [
+        {
+          "block": 15,
+          "start": 0,
+          "end": 449,
+          "sha256": "05d59d34cf665770c4d28332bc189d82b696770ecf01db6e9c0b37b4ea30c532"
+        },
+        {
+          "block": 16,
+          "start": 0,
+          "end": 433,
+          "sha256": "3e7f9cf765ebbc561686375c2594773e5587904fe8a9ae5d66cdc273f1b00064"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "March 29 repeated degradation",
+      "rationale": "The early recovery reversed; the backlog cleared later.",
+      "evidence_spans": [
+        {
+          "block": 6,
+          "start": 0,
+          "end": 357,
+          "sha256": "b73e9faa887b5e065e18c7fa4c69abdd49a5ecdd8c9068e5a49c70ea91a3d267"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "March 29 complete backlog recovery",
+      "rationale": "The report supplies this final recovery time.",
+      "evidence_spans": [
+        {
+          "block": 6,
+          "start": 0,
+          "end": 357,
+          "sha256": "b73e9faa887b5e065e18c7fa4c69abdd49a5ecdd8c9068e5a49c70ea91a3d267"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Dependent AWS capabilities",
+      "rationale": "The report names dependent services affected by unavailable S3 APIs.",
+      "evidence_spans": [
+        {
+          "block": 1,
+          "start": 0,
+          "end": 1682,
+          "sha256": "91a06c60e85f3e65d8619020b2532025f6f31eaf94a1a884bac7b66ada83cf41"
+        }
+      ],
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Dashboard administration",
+      "rationale": "The S3 dependency prevented individual status updates until later.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "start": 0,
+          "end": 575,
+          "sha256": "fb3b75ef642f84b6cbe123b3e26fd84d8f613bb01ee1990dac5dbbe0d8ba147c"
+        }
+      ],
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Capacity removal",
+      "rationale": "The input error and excessive removal are reported.",
+      "evidence_spans": [
+        {
+          "block": 1,
+          "start": 0,
+          "end": 1682,
+          "sha256": "91a06c60e85f3e65d8619020b2532025f6f31eaf94a1a884bac7b66ada83cf41"
+        },
+        {
+          "block": 3,
+          "start": 0,
+          "end": 1369,
+          "sha256": "c12ec4c8c0ad02aefa74739ed09a6ba4a444d4773b080f53035e23ac03621e35"
+        }
+      ],
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "choice": "not_established",
+      "review_status": "assistant_resolved",
+      "scope": "Human error explanation",
+      "rationale": "The report describes the error without resolving its human origin.",
+      "evidence_spans": [
+        {
+          "block": 1,
+          "start": 0,
+          "end": 1682,
+          "sha256": "91a06c60e85f3e65d8619020b2532025f6f31eaf94a1a884bac7b66ada83cf41"
+        }
+      ],
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "API recovery phases",
+      "rationale": "PUT additionally required placement recovery, completed later.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "start": 0,
+          "end": 1466,
+          "sha256": "a63d2bf59b53e438acf3c07c1337147759288f3416cf8e6f47adc9ad481d44db"
+        }
+      ],
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "Dependent-service backlog",
+      "rationale": "Some dependent services needed more time for accumulated work.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "start": 0,
+          "end": 1466,
+          "sha256": "a63d2bf59b53e438acf3c07c1337147759288f3416cf8e6f47adc9ad481d44db"
+        }
+      ],
+      "excerpt_sha256": "867333e9163aaee26eea00aedf3103ca6d4f94cff390fdef8ed746c441a1a3e4"
+    }
+  ]
+}

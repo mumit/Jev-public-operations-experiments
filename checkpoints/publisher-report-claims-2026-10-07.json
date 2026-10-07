@@ -1,0 +1,293 @@
+{
+  "schema": "publisher-report-claims-1",
+  "claims": [
+    {
+      "id": "cf-control-2023-c1",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "claim": "Traffic through our network was not impacted."
+    },
+    {
+      "id": "cf-control-2023-c2",
+      "source_id": "cf-control-2023",
+      "topic": "service_impact",
+      "claim": "Traffic through our network was impacted."
+    },
+    {
+      "id": "cf-control-2023-c3",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "claim": "Cloudflare confirmed that the utility maintenance caused the second transformer fault."
+    },
+    {
+      "id": "cf-control-2023-c4",
+      "source_id": "cf-control-2023",
+      "topic": "cause_certainty",
+      "claim": "The ground fault is the established reason why the customer circuit breakers failed."
+    },
+    {
+      "id": "cf-control-2023-c5",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "claim": "All control-plane and logging services had recovered by November 2 at 17:57 UTC."
+    },
+    {
+      "id": "cf-control-2023-c6",
+      "source_id": "cf-control-2023",
+      "topic": "recovery_scope",
+      "claim": "At publication, the report describes services as restored for every customer."
+    },
+    {
+      "id": "gh-analysis-2018-c1",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "claim": "Ultimately, no user data was lost."
+    },
+    {
+      "id": "gh-analysis-2018-c2",
+      "source_id": "gh-analysis-2018",
+      "topic": "service_impact",
+      "claim": "Ultimately, user data was lost."
+    },
+    {
+      "id": "gh-analysis-2018-c3",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "claim": "A brief network partition triggered database failover to the West Coast."
+    },
+    {
+      "id": "gh-analysis-2018-c4",
+      "source_id": "gh-analysis-2018",
+      "topic": "cause_certainty",
+      "claim": "The optical maintenance kept the East Coast network link disconnected for the full day-long incident."
+    },
+    {
+      "id": "gh-analysis-2018-c5",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "claim": "Restoring the original database topology did not immediately clear the red service status."
+    },
+    {
+      "id": "gh-analysis-2018-c6",
+      "source_id": "gh-analysis-2018",
+      "topic": "recovery_scope",
+      "claim": "At publication, no database writes remained to be manually reconciled."
+    },
+    {
+      "id": "aws-dec-2021-c1",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "claim": "Existing EC2 instances kept running despite problems with the APIs used to create instances."
+    },
+    {
+      "id": "aws-dec-2021-c2",
+      "source_id": "aws-dec-2021",
+      "topic": "service_impact",
+      "claim": "S3 access was unaffected through every access path, including VPC endpoints."
+    },
+    {
+      "id": "aws-dec-2021-c3",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "claim": "Automatic scaling triggered excess connection activity that overwhelmed the devices between the two networks."
+    },
+    {
+      "id": "aws-dec-2021-c4",
+      "source_id": "aws-dec-2021",
+      "topic": "cause_certainty",
+      "claim": "The report identifies the exact line of client code responsible for inadequate back-off."
+    },
+    {
+      "id": "aws-dec-2021-c5",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "claim": "Resolving DNS errors at 9:28 AM PST also eliminated the network congestion and all service impact."
+    },
+    {
+      "id": "aws-dec-2021-c6",
+      "source_id": "aws-dec-2021",
+      "topic": "recovery_scope",
+      "claim": "The 4:37 PM PST API Gateway recovery still allowed some customers to see errors afterward."
+    },
+    {
+      "id": "fastly-june-2021-c1",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "claim": "The triggering configuration resulted in errors across 85 percent of the network."
+    },
+    {
+      "id": "fastly-june-2021-c2",
+      "source_id": "fastly-june-2021",
+      "topic": "service_impact",
+      "claim": "The report states exactly how many individual customers lost service."
+    },
+    {
+      "id": "fastly-june-2021-c3",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "claim": "A valid customer configuration activated a software defect introduced by an earlier deployment."
+    },
+    {
+      "id": "fastly-june-2021-c4",
+      "source_id": "fastly-june-2021",
+      "topic": "cause_certainty",
+      "claim": "The report settles why quality assurance failed to catch the defect."
+    },
+    {
+      "id": "fastly-june-2021-c5",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "claim": "Within 49 minutes, 95% of our network was operating as normal."
+    },
+    {
+      "id": "fastly-june-2021-c6",
+      "source_id": "fastly-june-2021",
+      "topic": "recovery_scope",
+      "claim": "Recovery of most services at 11:00 UTC meant the permanent software fix was already fully deployed."
+    },
+    {
+      "id": "cf-kv-2023-c1",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "claim": "Deployed Workers that did not use KV remained unaffected."
+    },
+    {
+      "id": "cf-kv-2023-c2",
+      "source_id": "cf-kv-2023",
+      "topic": "service_impact",
+      "claim": "Every existing Access session remained usable throughout the KV outage."
+    },
+    {
+      "id": "cf-kv-2023-c3",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "claim": "A deployment-tool defect directed production requests to an unauthorized staging version."
+    },
+    {
+      "id": "cf-kv-2023-c4",
+      "source_id": "cf-kv-2023",
+      "topic": "cause_certainty",
+      "claim": "The excerpt establishes which employee originally introduced the deployment-tool defect."
+    },
+    {
+      "id": "cf-kv-2023-c5",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "claim": "At 20:15 UTC, engineers had already restored every production route."
+    },
+    {
+      "id": "cf-kv-2023-c6",
+      "source_id": "cf-kv-2023",
+      "topic": "recovery_scope",
+      "claim": "The rollback was delayed because the normal rollback tooling depended on KV-backed authentication."
+    },
+    {
+      "id": "cf-waf-2019-c1",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "claim": "The incident disrupted HTTP and HTTPS proxying, CDN and WAF functionality."
+    },
+    {
+      "id": "cf-waf-2019-c2",
+      "source_id": "cf-waf-2019",
+      "topic": "service_impact",
+      "claim": "The excerpt gives an exact count of customers affected by the July 2 outage."
+    },
+    {
+      "id": "cf-waf-2019-c3",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "claim": "At 14:00 UTC, investigators had dismissed an attack and identified the WAF as responsible."
+    },
+    {
+      "id": "cf-waf-2019-c4",
+      "source_id": "cf-waf-2019",
+      "topic": "cause_certainty",
+      "claim": "The July 2 outage was attributed to a DNS Protocol Buffers change."
+    },
+    {
+      "id": "cf-waf-2019-c5",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "claim": "Returning traffic and CPU to expected levels at 14:09 UTC also meant WAF functionality was enabled globally."
+    },
+    {
+      "id": "cf-waf-2019-c6",
+      "source_id": "cf-waf-2019",
+      "topic": "recovery_scope",
+      "claim": "The team re-enabled the WAF globally at 14:52 UTC after testing the rollback."
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "claim": "The March 31 pull-request files issue affected repository admins who still had the relevant notice active."
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "source_id": "gh-april-2023",
+      "topic": "service_impact",
+      "claim": "The March 31 pull-request files failure affected every user regardless of repository role."
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "claim": "This report confirms the contributing factors behind the April 26 Copilot outage."
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "source_id": "gh-april-2023",
+      "topic": "cause_certainty",
+      "claim": "The April 18 issues and pull-request outage followed deletion of database nodes still serving traffic."
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "claim": "The first recovery period on March 29 permanently cleared the Actions workflow backlog."
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "source_id": "gh-april-2023",
+      "topic": "recovery_scope",
+      "claim": "All March 29 Actions backlogged workflows had recovered by 19:03 UTC."
+    },
+    {
+      "id": "aws-s3-2017-c1",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "claim": "The S3 interruption also affected dependent services, including new EC2 instance launches."
+    },
+    {
+      "id": "aws-s3-2017-c2",
+      "source_id": "aws-s3-2017",
+      "topic": "service_impact",
+      "claim": "Individual service status updates remained available on the dashboard throughout the disruption."
+    },
+    {
+      "id": "aws-s3-2017-c3",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "claim": "An incorrect command input removed more server capacity than intended."
+    },
+    {
+      "id": "aws-s3-2017-c4",
+      "source_id": "aws-s3-2017",
+      "topic": "cause_certainty",
+      "claim": "The excerpt explains exactly why the operator entered the incorrect input."
+    },
+    {
+      "id": "aws-s3-2017-c5",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "claim": "S3 PUT requests were fully recovered as soon as GET, LIST and DELETE recovered at 1:18 PM PST."
+    },
+    {
+      "id": "aws-s3-2017-c6",
+      "source_id": "aws-s3-2017",
+      "topic": "recovery_scope",
+      "claim": "Restoring S3 at 1:54 PM PST did not imply that every dependent service had finished recovering."
+    }
+  ]
+}
