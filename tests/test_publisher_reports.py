@@ -79,3 +79,20 @@ class PublisherReportTests(unittest.TestCase):
         with patch.object(trial,'verify',return_value={'candidate_passes':False}),patch.object(trial,'check') as check,patch.object(trial.urllib.request,'build_opener') as network:
             with self.assertRaisesRegex(ValueError,'failed development'):trial.run('evaluation',{})
             check.assert_not_called();network.assert_not_called()
+
+    def test_runner_stops_on_http_failure_and_cannot_retry(self):
+        import urllib.error
+        profile={'model':MODEL,'endpoint':'https://api.typesafe.ai/v1/systemone','context_tokens':32768,'api_key':'fixture-secret'}
+        plan={'profile':profile}
+        body=request({'report':'A saved report.','claim':'A written claim.'})
+        job={'id':'x::r1','claim_id':'x','phase':'development','round':1,'request_sha256':'hash','body':body}
+        with tempfile.TemporaryDirectory() as directory:
+            folder=Path(directory)/'run'
+            with patch.object(trial,'check',return_value=plan),patch.object(trial,'jobs',return_value=[job]*72),patch.object(trial,'destination',return_value=folder),patch.object(trial.urllib.request,'build_opener') as network:
+                network.return_value.open.side_effect=urllib.error.HTTPError(profile['endpoint'],400,'fixture-secret',{},None)
+                result=trial.run('development',profile)
+                self.assertEqual((result['attempted_calls'],result['unattempted_calls']),(1,71))
+                self.assertEqual(result['stopped_reason'],'provider_http_400')
+                self.assertNotIn('fixture-secret',(folder/'responses.jsonl').read_text())
+                with self.assertRaises(FileExistsError):trial.run('development',profile)
+                self.assertEqual(network.return_value.open.call_count,1)

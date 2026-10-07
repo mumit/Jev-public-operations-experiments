@@ -1,8 +1,8 @@
 # Reading publisher-written incident reports
 
-The next comparison asks whether Jev can interpret operational language more usefully than literal rules. The task is narrow: judge whether a claim about service impact, cause certainty or recovery follows from a supplied report excerpt. A correct answer describes what the publisher reports; it does not independently verify the incident.
+This comparison asks whether Jev can interpret operational language more usefully than literal rules. The task is narrow: judge whether a claim about service impact, cause certainty or recovery follows from a supplied report excerpt. A correct answer describes what the publisher reports; it does not independently verify the incident.
 
-The source audit is complete and the experiment design is frozen. Claim annotation, baseline implementation and exact request preparation come next. **No new model calls or telemetry downloads have occurred.** The earlier clarification comparison remains a failed candidate; this study starts with different source material and its own allocation.
+The audit and design were committed before inference. The separate comparison is now complete: development passes, while evaluation fails. Read [the recorded results](publisher-report-results.md). The audit itself made no model calls or telemetry downloads; the subsequent comparison recorded 144 Jev replies. The earlier clarification comparison remains a failed candidate; this study starts with different source material and its own allocation.
 
 ## What the source audit found
 
@@ -74,6 +74,6 @@ A useful result would show a repeatable gain over rules on this bounded reading 
 
 The repository records the source URLs, allocations, hashes, extraction provenance, failed audit entries and frozen design. Full HTML and report text stay in the ignored local cache. Future public evidence will contain scoped paraphrases, judgments, probabilities, failures and paired scores, rather than complete publisher reports or full-text requests. Exact replay requires matching source snapshots; a later publisher page may differ.
 
-The next step is to write and review the claim pack against the retained excerpts, implement the rules and freeze the exact request protocol. Only then can the development comparison begin. Existing telemetry allocations and completed studies remain unchanged.
+The claim pack, references, rules and exact request protocol were frozen before the completed comparison. The next input change needs a separate incident-selection contract and protocol. Existing telemetry allocations and completed studies remain unchanged.
 
 Inspect [the source audit](http://127.0.0.1:8769/report-evidence). Verify retained source snapshots with `python -m scripts.audit_report_sources verify`; use `verify-catalog` to check public provenance without the local cache. Neither action invokes Jev.
