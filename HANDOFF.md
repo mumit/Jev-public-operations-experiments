@@ -6,7 +6,7 @@ Read docs/literal-claims.md and inspect /literal-claims. The separately committe
 
 Only c3 changes reference from not_established to contradicted under the user's claim-as-written choice. Original reference spans and every historical score stay unchanged. Reclassifying old scoped replies alone gives 12 correct/three wrong/three withheld; that is not a model gain. This panel has no not-established reference, no new report or telemetry and no independent review.
 
-The user chose confirming selective behavior on new reports and all three verdict classes. Freeze a prospective source/claim/reference allocation and new selective coverage criterion before accessing new reports; retain literal definitions and 0.70. The failed five-of-six gate must remain visible. No further call may reuse either completed scope or literal protocol.
+The user chose confirming selective behavior on new reports and all three verdict classes. The v1 prospective allocation is committed and its once-only audit retrieved the three fixed January/February/March 2024 reports, with 3/1/2 sections. The three-section minimum fails before claims, references, requests or model calls. Preserve that audit. A separately committed v2 count-based preparation reuses all exact snapshots and all original report groups, sharing a section when fewer than three exist; it adds no source or telemetry access. Retain literal definitions and 0.70. The failed five-of-six gate must remain visible. No further call may reuse either completed scope or literal protocol.
 
 ## Earlier explicit incident selection diagnostic
 

@@ -1,0 +1,95 @@
+{
+  "schema": "publisher-selective-source-audit-1",
+  "plan_sha256": "074810e5129e3fad2bb6c2bfc44a77ecef32466249ff59ccbfe0f5cea4250e9d",
+  "producer_sha256": "8d9a16c61da489200f8fac2d2fd92c656db4ff3925b9c056fe3ec0ed27770a5c",
+  "sources": [
+    {
+      "id": "gh-january-2024",
+      "month": "January",
+      "year": 2024,
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "html_sha256": "8398e749f86a05ceb5bbb88d67308b3ed2b38f89fdcd56e59036ee5c913a64d8",
+      "status": "available",
+      "title": "GitHub Availability Report: January 2024",
+      "article_sha256": "c5d3888f7cfcf6ad5a49ae09defd720f5d10a3df96e9a693f9ef7a3f2e6d4f69",
+      "blocks": 18,
+      "incident_sections": 3,
+      "sections": [
+        {
+          "id": "1",
+          "label": "January 09 12:20 UTC (lasting 140 minutes)",
+          "start": 1,
+          "end": 4
+        },
+        {
+          "id": "4",
+          "label": "January 21 02:01 UTC (lasting 7 hours 3 minutes)",
+          "start": 4,
+          "end": 9
+        },
+        {
+          "id": "9",
+          "label": "January 31 12:30 UTC (lasting 147 minutes)",
+          "start": 9,
+          "end": 18
+        }
+      ],
+      "preparation_eligible": true
+    },
+    {
+      "id": "gh-february-2024",
+      "month": "February",
+      "year": 2024,
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "html_sha256": "57a2680da7d036e996d4f55bcde1c6988daa4b3b58212e6866d197a3f8ac8c65",
+      "status": "available",
+      "title": "GitHub Availability Report: February 2024",
+      "article_sha256": "e7486517c2d72d0cedd4e4bc8c6263712417a9bdd2407db453da8fe0acf7bdb7",
+      "blocks": 12,
+      "incident_sections": 1,
+      "sections": [
+        {
+          "id": "1",
+          "label": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+          "start": 1,
+          "end": 12
+        }
+      ],
+      "preparation_eligible": false
+    },
+    {
+      "id": "gh-march-2024",
+      "month": "March",
+      "year": 2024,
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "html_sha256": "d0df18ac3af3bd640ea46a784e4cac6d2ecf8112681c556ed42fa18a5d9ab748",
+      "status": "available",
+      "title": "GitHub Availability Report: March 2024",
+      "article_sha256": "59e60d8bb852bf31106ca45d0e19c5322195d0b9306685f130707cd6f2605fcf",
+      "blocks": 11,
+      "incident_sections": 2,
+      "sections": [
+        {
+          "id": "1",
+          "label": "March 15 19:42 UTC (lasting 42 minutes)",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "id": "3",
+          "label": "March 11 22:45 UTC (lasting 2 hours and 3 minutes)",
+          "start": 3,
+          "end": 11
+        }
+      ],
+      "preparation_eligible": false
+    }
+  ],
+  "preparation_eligible": false,
+  "new_provider_calls": 0,
+  "new_telemetry_recordings": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "full_source_publication": false,
+  "boundary": "Publisher snapshots only. Claims, references and exact model requests are not yet prepared."
+}

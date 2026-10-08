@@ -1,0 +1,64 @@
+{
+  "schema": "publisher-selective-confirmation-plan-2",
+  "date": "2026-10-07",
+  "user_choice": "Confirm selective literal-claim behavior on new reports and all three verdict classes.",
+  "relationship": "New selective objective, not promotion under the failed five-of-six development gate. No old score or producer is changed.",
+  "sources": [
+    {
+      "id": "gh-january-2024",
+      "month": "January",
+      "year": 2024,
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/"
+    },
+    {
+      "id": "gh-february-2024",
+      "month": "February",
+      "year": 2024,
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/"
+    },
+    {
+      "id": "gh-march-2024",
+      "month": "March",
+      "year": 2024,
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/"
+    }
+  ],
+  "allocation": "All three original whole monthly-report groups remain prospective model confirmation. No new source access, source exclusion or reallocation. Preserve prior failed preparation. Original source structure is now inspected; describe confirmation as prepared after layout audit, not wholly untouched to the assistant.",
+  "selection": "Keep all three original monthly report groups and reuse their exact cached snapshots. Topic positions impact/cause/recovery use section indices 0, min(1,last), min(2,last) in original document order. This deterministic count-based mapping shares a section when fewer than three exist. No content-based replacement or answer-led section selection.",
+  "claims": "Nine unchanged-source grounded claims per report: three per selected section, one supported, one contradicted and one not_established under the literal claim contract. No contradictory source edits, exact-arithmetic trick claims or answer-led excerpt trimming. Underlying unreported facts supply unknown examples; an assertion that the report confirms an explicitly unresolved cause is contradicted.",
+  "references": "Assistant-authored/reviewed with exact source-span hashes and explicit rationale. For unknown references, annotate relevant topic evidence and describe the absent fact; do not mistake absence of evidence for factual falsity. Zero independent reviews. Freeze before model calls.",
+  "model": "jev-1.13.0",
+  "arms": [
+    "legacy",
+    "literal"
+  ],
+  "requests": "Reuse the committed literal_claim_features request producer byte-for-byte. Both arms use identical explicitly selected state and fresh replies, scored under one new literal reference contract.",
+  "display_probability": 0.7,
+  "unique_claims": 27,
+  "rounds": 3,
+  "maximum_calls": 162,
+  "calls_per_arm": 81,
+  "maximum_request_bytes": 16000,
+  "source_policy": "Retain complete report-wide introduction plus the whole selected incident section. No summaries, truncation or source rewriting. Missing, oversized or unidentifiable sections stop before calls. Raw full reports and full-text requests remain ignored local.",
+  "criteria_per_report_per_round": {
+    "no_wrong_display": true,
+    "correct_display_minimum": 6,
+    "at_least_one_correct_display_in_each_verdict_class": true,
+    "no_correct_display_losses_against_fresh_legacy": true
+  },
+  "criteria_global_each_round": {
+    "no_wrong_display": true,
+    "complete_recorded_evidence": true,
+    "no_correct_display_losses_against_fresh_legacy": true
+  },
+  "retry_count": 0,
+  "failure_policy": "Global checkpoint/context/envelope/HTTP/network failure stops once. Retain invalid fields, failed sources and every planned denominator. No retry, replacement, repair or threshold change.",
+  "interpretation": "Small prospective publisher-report panel with assistant references and possible pretraining exposure. It tests selective literal reading, not live anomaly detection, diagnosis, analyst effort or operational reliability. If the legacy control has no wrong displays, report no observed comparative error opportunity rather than superiority.",
+  "protected_telemetry": "All earlier protected panels remain unopened; no telemetry access.",
+  "previous_preparation": "v1 audit finds 3, 1 and 2 sections in the unchanged allocated reports. Preserve audit, producer and all snapshots. Zero claims, reference annotations, exact model requests or provider calls occurred under v1.",
+  "known_source_section_counts": {
+    "gh-january-2024": 3,
+    "gh-february-2024": 1,
+    "gh-march-2024": 2
+  }
+}
