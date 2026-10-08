@@ -8,6 +8,8 @@ Preserve cross_report audit/data/trial/CLI, allocation, annotations, references,
 
 The cross-reports-v1 answer-only supplement adds two files and 162 replies. All thirty-eight assets preserve 16,858 actual provider responses in 1,300 files. Restore its four text-study predecessors first. The full publisher-text replay verifies 558 calls; the original evidence verifier and ambiguity-value chain remain separate. Read docs/evidence.md for restoration.
 
+Publication is verified in checkpoints/publisher-cross-publication-verification-2026-10-07.json. A separate checkout at b48f080 passes 487 tests, 38 browser checks and the 558-call text replay without credentials/full source. All 1,300 restored hashes match. Main app serves /cross-reports on port 8769.
+
 Next recommended step: naturally occurring analyst claims and a bounded claim-checking workflow, under a new precommitted protocol. This needs independently authored claims/intended scope or a user choice to continue controlled diagnostics. Assistant-made paraphrases cannot establish authentic analyst benefit. Do not tune the inspected transfer panel or run another call under its completed protocol.
 
 ## Completed new-report selective confirmation

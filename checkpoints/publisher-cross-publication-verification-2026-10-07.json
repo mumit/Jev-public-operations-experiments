@@ -1,0 +1,42 @@
+{
+  "schema": "publisher-cross-publication-verification-1",
+  "date": "2026-10-07",
+  "release": {
+    "tag": "cross-reports-v1",
+    "url": "https://github.com/mumit/Jev-public-operations-experiments/releases/tag/cross-reports-v1",
+    "bytes": 21207,
+    "sha256": "0676bfebe2c801f726c785e58783567457e78148aa0831f152a704be2e5f80e4",
+    "github_digest_matches": true,
+    "separate_download_digest_matches": true,
+    "target_commit": "b48f0809456589f296adb7a4ece13c3344ca65e8"
+  },
+  "clean_checkout_commit": "b48f0809456589f296adb7a4ece13c3344ca65e8",
+  "restored_asset_count": 38,
+  "restored_files": 1300,
+  "recorded_provider_responses": 16858,
+  "clean_python_tests": 487,
+  "local_python_tests": 487,
+  "browser_script_syntax_checks": 38,
+  "clean_publisher_text_replay_calls": 558,
+  "full_local_source_request_replay_calls": 558,
+  "prior_full_ambiguity_chain": "verified locally",
+  "original_evidence_and_pack_validators": "verified locally",
+  "clean_checkout_has_credentials": false,
+  "clean_checkout_has_publisher_snapshots": false,
+  "clean_checkout_has_full_text_requests": false,
+  "publication_identity_and_credential_scans": "passed",
+  "new_inference_during_verification": 0,
+  "browser_console_errors": 0,
+  "browser_checks": [
+    "complete 49-block readable source input",
+    "power error withheld with unchanged wrong choice",
+    "reference reveal and reset on report change",
+    "DNS service/cause/recovery claims and recorded rounds",
+    "all three class and per-report/global denominators",
+    "formatted reader and exact contextual return",
+    "loading clears stale source/claim/reference/judgment content",
+    "main loopback app restarted on port 8769"
+  ],
+  "boundary": "Public answer and rule-projection replay; exact source/wire reconstruction needs local snapshots. Same-assistant controlled references, zero independent reviews.",
+  "remaining_input": "Naturally occurring analyst claims/intended scope, or a choice to continue controlled diagnostics; no additional completed-protocol calls."
+}
