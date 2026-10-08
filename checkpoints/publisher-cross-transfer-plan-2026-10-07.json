@@ -1,0 +1,58 @@
+{
+  "schema": "publisher-cross-transfer-plan-1",
+  "date": "2026-10-07",
+  "user_choice": "Proceed with the recommended cross-publisher report claim checking study, keeping questions and display policy fixed.",
+  "sources": [
+    {
+      "id": "cf-power-2024",
+      "publisher": "Cloudflare",
+      "url": "https://blog.cloudflare.com/major-data-center-power-failure-again-cloudflare-code-orange-tested/",
+      "expected_title": "Major data center power failure (again): Cloudflare Code Orange tested"
+    },
+    {
+      "id": "cf-june20-2024",
+      "publisher": "Cloudflare",
+      "url": "https://blog.cloudflare.com/cloudflare-incident-on-june-20-2024/",
+      "expected_title": "Cloudflare incident on June 20, 2024"
+    },
+    {
+      "id": "cf-dns27-2024",
+      "publisher": "Cloudflare",
+      "url": "https://blog.cloudflare.com/cloudflare-1111-incident-on-june-27-2024/",
+      "expected_title": "Cloudflare 1.1.1.1 incident on June 27, 2024"
+    }
+  ],
+  "allocation": "Retain all three fixed whole report groups, with no replacement or content-based exclusion. Sources did not appear in any earlier Jev protocol. Discovery search results exposed source text before this plan, including substantial DNS report content. This is not blinded source allocation or independent reference work.",
+  "selection": "Explicit whole-report title selection in every request. Retain every extracted paragraph, heading, list item, table row and code block from the unique article container. No summary, answer-led section trimming or prefix truncation. Images are not supplied to this text task; their content cannot establish a reference.",
+  "preparation": "Freeze new extractor/audit before fetching snapshots; freeze 27 controlled claims and references before exact requests or model outcomes. Audit failure, missing source, wrong title/container or excessive input stops preparation with all failures retained.",
+  "claims": "Nine claims per report: impact, cause and recovery each have one supported, one contradicted and one not_established claim. Include temporal scope, service exceptions, causal certainty or staged recovery where the text permits. Unknown claims concern underlying unreported facts; missing information alone is not contradicted. No exact arithmetic tricks or altered source facts.",
+  "references": "Same-assistant controlled source-reading annotations, with rationales and exact block hashes. Zero human or independent reviews. Freeze before calls. Reference truth concerns the supplied report text, not live measurements or the underlying incident.",
+  "model": "jev-1.13.0",
+  "arms": [
+    "legacy",
+    "literal"
+  ],
+  "requests": "Reuse frozen literal_claim_features byte-for-byte on identical state within each pair. report_excerpt contains all extracted report blocks; selected_incident contains its exact title. Claim IDs, labels, annotations and source URLs do not enter state.",
+  "display_probability": 0.7,
+  "unique_claims": 27,
+  "rounds": 3,
+  "maximum_calls": 162,
+  "calls_per_arm": 81,
+  "maximum_request_bytes": 64000,
+  "retry_count": 0,
+  "criteria_per_report_per_round": {
+    "no_wrong_display": true,
+    "correct_display_minimum": 6,
+    "at_least_one_correct_display_in_each_verdict_class": true,
+    "no_correct_display_losses_against_fresh_legacy": true
+  },
+  "criteria_global_each_round": {
+    "no_wrong_display": true,
+    "complete_recorded_evidence": true,
+    "no_correct_display_losses_against_fresh_legacy": true
+  },
+  "failure_policy": "Once-only calls. Global checkpoint/context/envelope/HTTP/network failure stops execution. Retain invalid fields, failed sources and complete planned denominators. No retries, repairs, threshold fitting, reference correction after outcomes or substitute candidate.",
+  "interpretation": "Transfer from GitHub selected sections to a different publisher and longer whole incident reports; these differences are combined, so do not attribute results solely to publisher or context length. Controlled claims and assistant references do not establish authentic analyst performance, calibrated probabilities, live diagnosis or telecom readiness. If legacy has no wrong displays, report no comparative error opportunity.",
+  "publication": "Original answer/usage replies and summaries in a new immutable public release. Full publisher snapshots, report text and exact full-text requests stay local and ignored. Public replay uses committed rule projections; full input replay additionally requires retained snapshots.",
+  "protected_telemetry": "No new recording or protected allocation access."
+}

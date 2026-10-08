@@ -1,6 +1,10 @@
 # Handoff: public operations experiments
 
-## Current continuation: new-report selective confirmation complete
+## Current continuation: cross-publisher transfer preparation
+
+The user authorized the recommended report-checking transfer. The new cross-transfer plan fixes three Cloudflare sources and the same 27-claim/162-call paired comparison and selective gates. It records discovery-search exposure, including substantial DNS text. A new audit/extractor retains complete extracted prose, lists, tables and code, with no prefix truncation. Whole-report title supplies explicit selection. New context and publisher differences are combined. Audit/claims/references/exact requests must commit before their respective access/inference steps. No protected telemetry opens.
+
+## Completed new-report selective confirmation
 
 Read docs/selective-reports.md and inspect /selective-reports. The separately committed 162-call comparison covers 27 controlled claims on January/February/March 2024 publisher reports, with nine distinct claims in each verdict class. Literal definitions choose/display all 81 repeated judgments correctly; legacy chooses all 81 correctly, displays 78 and withholds three. Both display zero wrong answers. All twelve report/global/round gates pass. The three gains repeat one not-established March data-loss claim; there is no observed comparative error opportunity or improved choice accuracy.
 
@@ -8,7 +12,7 @@ Preserve selective_report_data/scoring/trial/CLI, annotations, references, exact
 
 The v1 source preparation failed its three-section minimum: reports contain 3/1/2 sections. The separate v2 plan committed a count-based mapping that retained every original snapshot/report and shared sections where needed. No claim, annotation, request or inference occurred under failed v1. February combines two incidents and has inconsistent source dates/durations; claims avoid those facts without repairing or trimming source text.
 
-The intended next task needs a choice before another study: continue report claim checking across another publisher, or return to live incident recommendations. Recommend the former with fixed questions and harder scope/time/uncertainty claims. The latter needs during-incident evidence and action references; retrospective reading results do not supply those. Neither additional inference nor protected access is authorized by this completed protocol.
+The user selected the recommended cross-publisher report-checking follow-up. It needs its own source, annotation and exact-call protocol before inference. The latter needs during-incident evidence and action references; retrospective reading results do not supply those. Neither additional inference nor protected access is authorized by this completed protocol.
 
 ## Earlier literal claim definitions
 
