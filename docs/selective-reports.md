@@ -55,7 +55,7 @@ The result does not establish an error-rate advantage: legacy has no wrong displ
 
 ## Next steps
 
-A useful next test would transfer the fixed input to a different publisher, with claims that combine time, service scope, uncertainty and recovery qualifications. Source allocation, references, coverage requirements and exact requests must be frozen before outcomes. Another threshold search on these three reports would not answer that question.
+The separately frozen [whole-report transfer](cross-reports.md) now tests a different publisher with time, service scope, uncertainty and recovery qualifications. It passes selective checks by withholding one repeated wrong choice while preserving correct displays. The questions and threshold remain fixed; the new result does not change this study’s outcomes.
 
 Before a workflow trial, the intended task needs a choice: report claim checking or live incident recommendations. Report checking can continue with public postmortems. Live recommendations need evidence available during an incident and references for the action an analyst should take; retrospective report-reading scores cannot provide them. No additional inference or protected data access is included in this completed protocol.
 

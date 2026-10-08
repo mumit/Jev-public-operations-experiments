@@ -1,8 +1,8 @@
 # Jev public operations experiments
 
-Latest: [new-report selective confirmation](docs/selective-reports.md) passes on 27 controlled claims across three monthly reports and all three verdict classes. Literal displays 81/81 repeated judgments correctly; legacy displays 78/81 with no wrong answer. Inspect `/selective-reports`. The earlier [literal](docs/literal-claims.md) and [scope](docs/incident-scope.md) coverage failures stay recorded.
+Latest: [whole-report transfer](docs/cross-reports.md) passes selective checks on 27 controlled claims from three Cloudflare reports. Both inputs display 78/81 correctly; literal withholds three repeated wrong judgments that legacy displays. Choice accuracy stays 78/81. Inspect `/cross-reports`. The [new-report confirmation](docs/selective-reports.md) and earlier [literal](docs/literal-claims.md)/[scope](docs/incident-scope.md) coverage failures stay recorded.
 
-I am testing where Jev can help operations analysts: selecting investigation leads, assessing evidence and checking written claims against public telemetry. The app exposes the measurements, exact requests, actual responses, local ML scores and frozen review thresholds.
+I am testing where Jev can help operations analysts: selecting investigation leads, assessing evidence and checking written claims against public telemetry and publisher reports. The app exposes the measurements, exact requests, actual responses, local ML scores and frozen review thresholds.
 
 The completed model evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.
 
@@ -16,6 +16,8 @@ The publisher-report comparison is complete. Development gives 72/72 correct dis
 
 | Study | Evidence | Result |
 |---|---|---|
+| Whole-report transfer | Three Cloudflare reports, 27 controlled claims, three rounds, 162 calls | Literal: 78/81 correct displays, zero wrong, three withheld. Legacy: 78/81 correct, three wrong. Same choice accuracy; all selective checks pass. |
+| New-report confirmation | Three new monthly reports, 27 controlled claims, three rounds, 162 calls | Literal: 81/81 correct displays versus legacy 78/81; both choose every answer correctly, zero wrong displays. All selective checks pass; no error opportunity. |
 | Publisher report interpretation | Eight reports, 48 claims, three rounds, 144 calls | Development 72/72 correct displays; evaluation 63/72, six wrong displays, three withheld. Hybrid fails on monthly-report scope. |
 | Fresh clarification versus rules | 48 new controlled statements, three rounds, 144 calls | Jev 114/144 correct displays versus rules 126/144; 43/60 needed questions shown versus 54/60; contextual gains do not offset losses. Candidate fails. |
 | Optional display dependencies | 92 inspected statements, three rounds, two policies on 276 shared replies | First-question gives 251 correct displays versus 188; zero wrong displays, sixteen missed clarifications; coverage gates fail. |
@@ -58,9 +60,12 @@ uv run --locked --extra public-data python -m triage_bench.app --port 8769
 
 Open [the public studies](http://127.0.0.1:8769/). The server binds to loopback and serves a read-only inspection app. It needs no API key and makes no model calls.
 
-A fresh clone includes source, reports and checkpoints. Restore all thirty-three [public evidence bundles](docs/evidence.md) in order to inspect 16,300 recorded provider responses in 1,288 files. The newest supplement adds 144 replies and six files from the fresh clarification comparison. Bundles preserve public measurements, separate references, exact requests, raw responses, fitted ML and execution records without credentials. Missing evidence stays explicitly unavailable.
+A fresh clone includes source, reports and checkpoints. Restore the versioned [public evidence bundles](docs/evidence.md) for recorded measurements, replies, fitted ML and execution records. Later publisher-text supplements contain answer payloads and request fingerprints; full publisher text and full-text requests stay local. All bundles exclude credentials. Missing evidence stays explicitly unavailable.
 
 ## Read and inspect
+
+- [Whole-report transfer](docs/cross-reports.md): fixed input, longer sources, one repeated error withheld, complete text inspection and the next workflow input.
+- [New-report confirmation](docs/selective-reports.md): all three verdict classes, coverage gains and preserved preparation failure.
 
 - [Fresh clarification versus rules](docs/ambiguity-value.md): contextual gains, contradictions, missed questions and the separate learning sandbox.
 - [Optional clarification](docs/optional-clarification.md): direct selection, same-reply display dependencies, missed questions and a blank required-entry prototype.

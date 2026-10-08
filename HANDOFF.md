@@ -1,8 +1,12 @@
 # Handoff: public operations experiments
 
-## Current continuation: cross-publisher transfer preparation
+## Current state: whole-report transfer complete
 
-The user authorized the recommended report-checking transfer. The new cross-transfer plan fixes three Cloudflare sources and the same 27-claim/162-call paired comparison and selective gates. It records discovery-search exposure, including substantial DNS text. A new audit/extractor retains complete extracted prose, lists, tables and code, with no prefix truncation. Whole-report title supplies explicit selection. New context and publisher differences are combined. Audit/claims/references/exact requests must commit before their respective access/inference steps. No protected telemetry opens.
+Read docs/cross-reports.md and inspect /cross-reports. The 162-call comparison on 27 controlled claims from three Cloudflare reports is complete. Literal gives 78/81 correct displays, zero wrong and three withheld; legacy gives 78/81 correct displays and three wrong. Both choose 78/81 correctly. Every selective gate passes. One report-establishment claim repeats the wrong not_established interpretation; literal lowers its probability below 0.70 without correcting it. No correct displayed gain or loss occurs. This is one distinct error repeated three times.
+
+Preserve cross_report audit/data/trial/CLI, allocation, annotations, references, protocol and replies. The full report extractor retains all prose/list/table/code blocks; exact whole-report title supplies selection. No question producer or threshold changes. Discovery searches exposed sources before allocation; references are assistant-written with zero independent reviews. Longer context and publisher change are combined, and the power report discusses earlier incident history. No protected telemetry opened. Public answers/projections replay separately from local source/full-request reconstruction.
+
+Next recommended step: naturally occurring analyst claims and a bounded claim-checking workflow, under a new precommitted protocol. This needs independently authored claims/intended scope or a user choice to continue controlled diagnostics. Assistant-made paraphrases cannot establish authentic analyst benefit. Do not tune the inspected transfer panel or run another call under its completed protocol.
 
 ## Completed new-report selective confirmation
 
@@ -12,7 +16,7 @@ Preserve selective_report_data/scoring/trial/CLI, annotations, references, exact
 
 The v1 source preparation failed its three-section minimum: reports contain 3/1/2 sections. The separate v2 plan committed a count-based mapping that retained every original snapshot/report and shared sections where needed. No claim, annotation, request or inference occurred under failed v1. February combines two incidents and has inconsistent source dates/durations; claims avoid those facts without repairing or trimming source text.
 
-The user selected the recommended cross-publisher report-checking follow-up. It needs its own source, annotation and exact-call protocol before inference. The latter needs during-incident evidence and action references; retrospective reading results do not supply those. Neither additional inference nor protected access is authorized by this completed protocol.
+The user selected cross-publisher report checking; the completed transfer appears above. Live incident recommendations remain a different task requiring during-incident evidence and action references. Retrospective reading results do not provide those. Neither additional inference nor protected access belongs to this completed new-report protocol.
 
 ## Earlier literal claim definitions
 
