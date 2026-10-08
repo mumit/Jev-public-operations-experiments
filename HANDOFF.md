@@ -6,6 +6,8 @@ Read docs/cross-reports.md and inspect /cross-reports. The 162-call comparison o
 
 Preserve cross_report audit/data/trial/CLI, allocation, annotations, references, protocol and replies. The full report extractor retains all prose/list/table/code blocks; exact whole-report title supplies selection. No question producer or threshold changes. Discovery searches exposed sources before allocation; references are assistant-written with zero independent reviews. Longer context and publisher change are combined, and the power report discusses earlier incident history. No protected telemetry opened. Public answers/projections replay separately from local source/full-request reconstruction.
 
+The cross-reports-v1 answer-only supplement adds two files and 162 replies. All thirty-eight assets preserve 16,858 actual provider responses in 1,300 files. Restore its four text-study predecessors first. The full publisher-text replay verifies 558 calls; the original evidence verifier and ambiguity-value chain remain separate. Read docs/evidence.md for restoration.
+
 Next recommended step: naturally occurring analyst claims and a bounded claim-checking workflow, under a new precommitted protocol. This needs independently authored claims/intended scope or a user choice to continue controlled diagnostics. Assistant-made paraphrases cannot establish authentic analyst benefit. Do not tune the inspected transfer panel or run another call under its completed protocol.
 
 ## Completed new-report selective confirmation

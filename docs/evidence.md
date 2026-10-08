@@ -469,3 +469,15 @@ uv run --locked --extra public-data python -m scripts.verify_selective_reports
 ```
 
 The public text chain replays 396 replies across the original publisher comparison, selected scope, literal definitions and new-report confirmation. It checks reference/source/producer fingerprints, original provider payloads, normalization, fixed rule projections, complete denominators and every gate, without inference. Full publisher snapshots and full-text requests stay local. Exact input and rule reconstruction additionally require those snapshots. The prior source preparation failure and its separate v2 count-based mapping remain committed.
+
+## Whole-report cross-publisher transfer
+
+[cross-reports-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/cross-reports-v1) adds two files and 162 original replies. Restore publisher-reports-v1, incident-scope-v1, literal-claim-v1 and selective-reports-v1 first. The archive contains 21,207 bytes with SHA-256 `0676bfebe2c801f726c785e58783567457e78148aa0831f152a704be2e5f80e4`. All thirty-eight assets preserve 16,858 provider responses in 1,300 files.
+
+```sh
+gh release download cross-reports-v1 --repo mumit/Jev-public-operations-experiments --pattern cross-reports-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/cross-reports-v1.tar.gz --manifest evidence/cross-reports-v1.json
+uv run --locked --extra public-data python -m scripts.verify_cross_reports
+```
+
+The public text chain replays 558 replies with zero inference. The literal candidate passes every selective gate, preserving 78 correct displays and withholding the same repeated wrong choice that legacy displays three times. Source and reference hashes, complete denominators, payload validation, fixed rule projections and historical failures remain verifiable. Full publisher reports and full-text requests stay local; reconstructing source extraction, exact wire bodies and rules requires those retained snapshots. Private participant records remain excluded.
