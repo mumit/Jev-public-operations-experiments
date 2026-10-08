@@ -457,3 +457,15 @@ uv run --locked --extra public-data python -m scripts.verify_literal_claim
 ```
 
 Both fresh arms are scored against the separate literal reference version. Literal gives twelve correct displays, zero wrong and six withheld; legacy gives twelve, two and four. The candidate fails coverage. Historical reference reclassification is reported separately and adds no response or model gain. Original scores remain unchanged. Full reports, full-text requests and private participant records stay excluded.
+
+## New-report selective confirmation
+
+[selective-reports-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/selective-reports-v1) adds two files and 162 actual replies. Restore publisher-reports-v1, incident-scope-v1 and literal-claim-v1 first. The archive contains 20,866 bytes with SHA-256 `9a1c97dc51057942469c93f1b8648b2642e8ab2c335ac90e65f8118db0e48cba`. All thirty-seven assets preserve 16,696 provider responses in 1,298 files.
+
+```sh
+gh release download selective-reports-v1 --repo mumit/Jev-public-operations-experiments --pattern selective-reports-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/selective-reports-v1.tar.gz --manifest evidence/selective-reports-v1.json
+uv run --locked --extra public-data python -m scripts.verify_selective_reports
+```
+
+The public text chain replays 396 replies across the original publisher comparison, selected scope, literal definitions and new-report confirmation. It checks reference/source/producer fingerprints, original provider payloads, normalization, fixed rule projections, complete denominators and every gate, without inference. Full publisher snapshots and full-text requests stay local. Exact input and rule reconstruction additionally require those snapshots. The prior source preparation failure and its separate v2 count-based mapping remain committed.
