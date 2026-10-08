@@ -1,0 +1,132 @@
+{
+  "schema": "publisher-literal-claim-references-1",
+  "plan_sha256": "ab699a4c8d019ae9c2b4cee7446c4031d6451cffa225c27ceb473160e404e7b2",
+  "original_references_sha256": "ad03fc5f7f147cdef9a17bd2a53cefba68b2dd34dfce8229f99c741241a8ed3b",
+  "selections_sha256": "3030d8c479ffdb6c9ad21d75cc39651774226a822d047810357edf1777f7d473",
+  "references": [
+    {
+      "id": "gh-april-2023-c1",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "March 31 user subset",
+      "rationale": "The report narrows impact to this admin subset.",
+      "evidence_spans": [
+        {
+          "block": 11,
+          "start": 0,
+          "end": 335,
+          "sha256": "cced4396110bcc4cd0e592deb5525b93b5d3d66faafca965ab6d2a1af4dec009"
+        },
+        {
+          "block": 12,
+          "start": 0,
+          "end": 349,
+          "sha256": "f0b1c5afbe6aa91165da8e772f71bfb3887a74634a428e3b425b998bb8948b11"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "March 31 user subset",
+      "rationale": "The specified admin restriction contradicts universal impact.",
+      "evidence_spans": [
+        {
+          "block": 12,
+          "start": 0,
+          "end": 349,
+          "sha256": "f0b1c5afbe6aa91165da8e772f71bfb3887a74634a428e3b425b998bb8948b11"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "Copilot diagnosis",
+      "rationale": "The claim says this report confirms the contributing factors; the report explicitly says their investigation remains ongoing.",
+      "evidence_spans": [
+        {
+          "block": 19,
+          "start": 0,
+          "end": 115,
+          "sha256": "5fdbc374949f384f7c29f7490e98dccc1b0abb16fc5eabdb1690846404e9b443"
+        },
+        {
+          "block": 20,
+          "start": 0,
+          "end": 152,
+          "sha256": "3dfc989a0de1dc898d7d972290359aafbba2ccbff70aa79b74dfbd7638f50c5d"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "April 18 database change",
+      "rationale": "The report directly describes this mechanism.",
+      "evidence_spans": [
+        {
+          "block": 15,
+          "start": 0,
+          "end": 449,
+          "sha256": "05d59d34cf665770c4d28332bc189d82b696770ecf01db6e9c0b37b4ea30c532"
+        },
+        {
+          "block": 16,
+          "start": 0,
+          "end": 433,
+          "sha256": "3e7f9cf765ebbc561686375c2594773e5587904fe8a9ae5d66cdc273f1b00064"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "choice": "contradicted",
+      "review_status": "assistant_resolved",
+      "scope": "March 29 repeated degradation",
+      "rationale": "The early recovery reversed; the backlog cleared later.",
+      "evidence_spans": [
+        {
+          "block": 6,
+          "start": 0,
+          "end": 357,
+          "sha256": "b73e9faa887b5e065e18c7fa4c69abdd49a5ecdd8c9068e5a49c70ea91a3d267"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "choice": "supported",
+      "review_status": "assistant_resolved",
+      "scope": "March 29 complete backlog recovery",
+      "rationale": "The report supplies this final recovery time.",
+      "evidence_spans": [
+        {
+          "block": 6,
+          "start": 0,
+          "end": 357,
+          "sha256": "b73e9faa887b5e065e18c7fa4c69abdd49a5ecdd8c9068e5a49c70ea91a3d267"
+        }
+      ],
+      "excerpt_sha256": "4834bc4d7c3e60b3fa575878cd1e76d5acec2cb6de75702e64c300f62d8f5ec2"
+    }
+  ],
+  "changed_reference_ids": [
+    "gh-april-2023-c3"
+  ],
+  "human_entries": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "reference_classes": [
+    "supported",
+    "contradicted"
+  ]
+}

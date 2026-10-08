@@ -433,3 +433,15 @@ uv run --locked --extra public-data python -m scripts.verify_publisher_reports
 ```
 
 Public replay recomputes Jev and hybrid decisions, denominators and gates using precommitted literal-rule projections. Reconstructing the exact full-text requests and rule matches additionally requires the retained local source snapshots. Browsing and replay make no inference call. The incident-scope preview is unscored and adds no response to the bundle.
+
+## Explicit incident-selection diagnostic
+
+[incident-scope-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/incident-scope-v1) adds two files and 54 actual provider replies. Restore publisher-reports-v1 first; the earlier thirty-three assets are optional for this text diagnostic. The archive contains 5,664 bytes with SHA-256 `7d626a934ec247409dfc7d14deac2f63ad0b681e2c23f25bd9ad65f4ac513408`. Thirty-five assets now preserve 16,498 provider responses in 1,294 files.
+
+```bash
+gh release download incident-scope-v1 --repo mumit/Jev-public-operations-experiments --pattern incident-scope-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/incident-scope-v1.tar.gz --manifest evidence/incident-scope-v1.json
+uv run --locked --extra public-data python -m scripts.verify_incident_scope
+```
+
+The section candidate fails every round, with no correct displayed gains over the full report. Public replay preserves the historical not_established policy for the confirmation claim. Any subsequent literal-policy comparison has separate references and evidence. Full reports, full-text requests and private participant records stay excluded. Public replay uses frozen rule projections; source and wire replay additionally require matching local snapshots.
