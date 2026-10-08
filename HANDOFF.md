@@ -1,6 +1,14 @@
 # Handoff: public operations experiments
 
-## Current continuation: explicit incident selection diagnostic complete
+## Current continuation: literal claim definitions complete
+
+Read docs/literal-claims.md and inspect /literal-claims. The separately committed 36-call comparison holds selected incident state fixed and changes only instructions/criteria. All replies validate. Under the new literal references, legacy gives 12 correct displays/two wrong/four withheld; literal gives 12/zero/six. Correct displayed gains and losses are zero. The candidate fails every round because coverage is four of six rather than five, and c1/c5 remain incorrectly chosen but withheld. Preserve literal_claim features/data/scoring/trial/CLI, plan, references, exact protocol and all outcomes.
+
+Only c3 changes reference from not_established to contradicted under the user's claim-as-written choice. Original reference spans and every historical score stay unchanged. Reclassifying old scoped replies alone gives 12 correct/three wrong/three withheld; that is not a model gain. This panel has no not-established reference, no new report or telemetry and no independent review.
+
+The user chose confirming selective behavior on new reports and all three verdict classes. Freeze a prospective source/claim/reference allocation and new selective coverage criterion before accessing new reports; retain literal definitions and 0.70. The failed five-of-six gate must remain visible. No further call may reuse either completed scope or literal protocol.
+
+## Earlier explicit incident selection diagnostic
 
 Read docs/incident-scope.md and inspect /incident-scope. The user chose explicit analyst selection on 2026-10-07. A separately committed three-arm diagnostic made 54 once-only valid calls on the six inspected monthly-report claims. Full control and selected section each give nine correct displays, six wrong and three withheld. Selected full gives nine correct, three wrong and six withheld. Neither changes correct displayed coverage; the selected-section candidate fails every round. Preserve incident_scope features/data/scoring/trial and CLI, plan, selections, protocol, references and all replies. Zero actual analyst entries or independent reviews; selections are assistant fixtures.
 

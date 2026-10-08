@@ -1,0 +1,58 @@
+{
+  "schema": "publisher-selective-confirmation-plan-1",
+  "date": "2026-10-07",
+  "user_choice": "Confirm selective literal-claim behavior on new reports and all three verdict classes.",
+  "relationship": "New selective objective, not promotion under the failed five-of-six development gate. No old score or producer is changed.",
+  "sources": [
+    {
+      "id": "gh-january-2024",
+      "month": "January",
+      "year": 2024,
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/"
+    },
+    {
+      "id": "gh-february-2024",
+      "month": "February",
+      "year": 2024,
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/"
+    },
+    {
+      "id": "gh-march-2024",
+      "month": "March",
+      "year": 2024,
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/"
+    }
+  ],
+  "allocation": "All three whole monthly-report groups are prospective confirmation. No content-based replacement, source exclusion or reallocation. Preserve failures; insufficient sources/sections stop preparation before inference.",
+  "selection": "Select the first three incident sections in each source document order. The assistant prepares explicit headers as fixtures; no automatic claim-to-date matching. Positions 1,2,3 receive impact, cause and recovery topics respectively. Section detection and extraction must be separately frozen before requests.",
+  "claims": "Nine unchanged-source grounded claims per report: three per selected section, one supported, one contradicted and one not_established under the literal claim contract. No contradictory source edits, exact-arithmetic trick claims or answer-led excerpt trimming. Underlying unreported facts supply unknown examples; an assertion that the report confirms an explicitly unresolved cause is contradicted.",
+  "references": "Assistant-authored/reviewed with exact source-span hashes and explicit rationale. For unknown references, annotate relevant topic evidence and describe the absent fact; do not mistake absence of evidence for factual falsity. Zero independent reviews. Freeze before model calls.",
+  "model": "jev-1.13.0",
+  "arms": [
+    "legacy",
+    "literal"
+  ],
+  "requests": "Reuse the committed literal_claim_features request producer byte-for-byte. Both arms use identical explicitly selected state and fresh replies, scored under one new literal reference contract.",
+  "display_probability": 0.7,
+  "unique_claims": 27,
+  "rounds": 3,
+  "maximum_calls": 162,
+  "calls_per_arm": 81,
+  "maximum_request_bytes": 16000,
+  "source_policy": "Retain complete report-wide introduction plus whole selected incident section. No summaries. Oversized or unidentifiable sections stop preparation. Raw full source and full-text requests stay ignored local; publish provenance/hashes, paraphrased claims, references and answer-only projections.",
+  "criteria_per_report_per_round": {
+    "no_wrong_display": true,
+    "correct_display_minimum": 6,
+    "at_least_one_correct_display_in_each_verdict_class": true,
+    "no_correct_display_losses_against_fresh_legacy": true
+  },
+  "criteria_global_each_round": {
+    "no_wrong_display": true,
+    "complete_recorded_evidence": true,
+    "no_correct_display_losses_against_fresh_legacy": true
+  },
+  "retry_count": 0,
+  "failure_policy": "Global checkpoint/context/envelope/HTTP/network failure stops once. Retain invalid fields, failed sources and every planned denominator. No retry, replacement, repair or threshold change.",
+  "interpretation": "Small prospective publisher-report panel with assistant references and possible pretraining exposure. It tests selective literal reading, not live anomaly detection, diagnosis, analyst effort or operational reliability. If the legacy control has no wrong displays, report no observed comparative error opportunity rather than superiority.",
+  "protected_telemetry": "All earlier protected panels remain unopened; no telemetry access."
+}

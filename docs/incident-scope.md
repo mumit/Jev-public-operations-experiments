@@ -58,7 +58,7 @@ The user has now selected literal judgment of the claim as written for the next 
 
 Incident selection remains a useful way to make the task scope explicit, but this experiment provides no displayed-accuracy gain from it. Shorter input also does not guarantee a better judgment. Model probabilities do not settle an ambiguous reference definition.
 
-The next diagnostic will compare the original and literal verdict definitions on fresh replies, holding the selected section and claim wording fixed. A separate protocol and reference version must precede those calls. Changes on these inspected cases remain development findings; later confirmation needs new reports and all three verdict classes.
+The [separate literal-definition comparison](literal-claims.md) is now complete. It holds state fixed, reduces wrong displays by withholding and adds no correct displayed judgment. Its coverage gate also fails. The user selected confirmation of selective behavior on new reports and all three verdict classes. Changes on these inspected cases remain development findings; later confirmation needs new reports and all three verdict classes.
 
 ## Inspect and replay
 
