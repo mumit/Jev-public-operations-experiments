@@ -1,0 +1,313 @@
+{
+  "schema": "publisher-selective-annotations-1",
+  "authorship": "Same assistant controlled claims and source-reading references; not independent review or authentic analyst entries.",
+  "human_entries": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "source_cautions": {
+    "gh-february-2024": "The retained combined section has inconsistent incident dates and durations. No claim uses those inconsistent facts; no source text was repaired."
+  },
+  "claims": [
+    {
+      "id": "gh-january-2024-c1",
+      "source_id": "gh-january-2024",
+      "topic": "impact",
+      "claim": "Some Git backend requests failed or timed out during the January 9 incident.",
+      "choice": "supported",
+      "evidence_blocks": [
+        2
+      ],
+      "rationale": "The impact paragraph includes the Git backend among services experiencing timed-out requests and failures."
+    },
+    {
+      "id": "gh-january-2024-c2",
+      "source_id": "gh-january-2024",
+      "topic": "impact",
+      "claim": "The January 9 incident caused no Git backend request failures or timeouts.",
+      "choice": "contradicted",
+      "evidence_blocks": [
+        2
+      ],
+      "rationale": "The paragraph explicitly includes Git backend failures and timeouts."
+    },
+    {
+      "id": "gh-january-2024-c3",
+      "source_id": "gh-january-2024",
+      "topic": "impact",
+      "claim": "The January 9 incident affected more than one thousand customers.",
+      "choice": "not_established",
+      "evidence_blocks": [
+        2
+      ],
+      "rationale": "The excerpt gives percentages of requests, not the number of affected customers; it neither establishes nor rules out this customer count."
+    },
+    {
+      "id": "gh-january-2024-c4",
+      "source_id": "gh-january-2024",
+      "topic": "cause",
+      "claim": "Operational problems with compute and storage resources disrupted Codespace creation and resumption on January 21.",
+      "choice": "supported",
+      "evidence_blocks": [
+        5
+      ],
+      "rationale": "The report attributes Codespaces creation and resumption issues to operational compute and storage problems."
+    },
+    {
+      "id": "gh-january-2024-c5",
+      "source_id": "gh-january-2024",
+      "topic": "cause",
+      "claim": "Compute and storage resources operated normally throughout the January 21 Codespaces incident.",
+      "choice": "contradicted",
+      "evidence_blocks": [
+        5
+      ],
+      "rationale": "The report explicitly describes operational issues with both resource types."
+    },
+    {
+      "id": "gh-january-2024-c6",
+      "source_id": "gh-january-2024",
+      "topic": "cause",
+      "claim": "A storage failure began before the compute problems in the January 21 incident.",
+      "choice": "not_established",
+      "evidence_blocks": [
+        5,
+        6,
+        7
+      ],
+      "rationale": "The excerpt does not establish the sequence of compute and storage problems. Regional recovery timing does not settle their order."
+    },
+    {
+      "id": "gh-january-2024-c7",
+      "source_id": "gh-january-2024",
+      "topic": "recovery",
+      "claim": "Changes were deployed to remediate the January 31 blocking issue, alongside improvements to testing and monitoring.",
+      "choice": "supported",
+      "evidence_blocks": [
+        11
+      ],
+      "rationale": "The remediation paragraph explicitly describes deployed changes and testing/monitoring steps."
+    },
+    {
+      "id": "gh-january-2024-c8",
+      "source_id": "gh-january-2024",
+      "topic": "recovery",
+      "claim": "No changes were deployed to remediate the January 31 blocking issue.",
+      "choice": "contradicted",
+      "evidence_blocks": [
+        11
+      ],
+      "rationale": "The remediation paragraph explicitly states that changes were deployed."
+    },
+    {
+      "id": "gh-january-2024-c9",
+      "source_id": "gh-january-2024",
+      "topic": "recovery",
+      "claim": "Restarting load balancers restored service during the January 31 incident.",
+      "choice": "not_established",
+      "evidence_blocks": [
+        10,
+        11
+      ],
+      "rationale": "The report describes remediation changes but does not say whether a restart restored service. The underlying recovery mechanism is not settled."
+    },
+    {
+      "id": "gh-february-2024-c1",
+      "source_id": "gh-february-2024",
+      "topic": "impact",
+      "claim": "The February 26 incident delayed Webhooks, GitHub Actions and UI updates.",
+      "choice": "supported",
+      "evidence_blocks": [
+        3
+      ],
+      "rationale": "The February 26 paragraph explicitly lists delays in all three."
+    },
+    {
+      "id": "gh-february-2024-c2",
+      "source_id": "gh-february-2024",
+      "topic": "impact",
+      "claim": "The February 26 incident lost customer data.",
+      "choice": "contradicted",
+      "evidence_blocks": [
+        3
+      ],
+      "rationale": "The report explicitly says no data was lost during that incident."
+    },
+    {
+      "id": "gh-february-2024-c3",
+      "source_id": "gh-february-2024",
+      "topic": "impact",
+      "claim": "The February 26 incident affected more than one thousand customers.",
+      "choice": "not_established",
+      "evidence_blocks": [
+        3
+      ],
+      "rationale": "The affected service types are listed, but the customer count is neither supplied nor bounded."
+    },
+    {
+      "id": "gh-february-2024-c4",
+      "source_id": "gh-february-2024",
+      "topic": "cause",
+      "claim": "Capacity constraints in the job queue and a failure of automated failover contributed to the February 26 incident.",
+      "choice": "supported",
+      "evidence_blocks": [
+        3
+      ],
+      "rationale": "The report relates the February 26 incident to both capacity constraints and automated failover failure."
+    },
+    {
+      "id": "gh-february-2024-c5",
+      "source_id": "gh-february-2024",
+      "topic": "cause",
+      "claim": "Automated failover worked normally during the February 26 incident.",
+      "choice": "contradicted",
+      "evidence_blocks": [
+        3
+      ],
+      "rationale": "The February 26 paragraph explicitly identifies failure of automated failover; successful failover in the other incident does not establish this claim."
+    },
+    {
+      "id": "gh-february-2024-c6",
+      "source_id": "gh-february-2024",
+      "topic": "cause",
+      "claim": "A memory leak caused the job-queue capacity constraints on February 26.",
+      "choice": "not_established",
+      "evidence_blocks": [
+        3
+      ],
+      "rationale": "The report identifies capacity constraints, but does not establish or exclude a memory leak as their underlying cause."
+    },
+    {
+      "id": "gh-february-2024-c7",
+      "source_id": "gh-february-2024",
+      "topic": "recovery",
+      "claim": "A correction at 11:21 UTC allowed the backlog to drain before full restoration at 11:27 UTC during the February 29 incident.",
+      "choice": "supported",
+      "evidence_blocks": [
+        4
+      ],
+      "rationale": "The February 29 paragraph describes the correction, subsequent backlog processing and full restoration in that order."
+    },
+    {
+      "id": "gh-february-2024-c8",
+      "source_id": "gh-february-2024",
+      "topic": "recovery",
+      "claim": "The successful February 29 failover at 09:32 UTC kept services healthy for the rest of the incident without a later backlog increase.",
+      "choice": "contradicted",
+      "evidence_blocks": [
+        4
+      ],
+      "rationale": "The report describes a later improper restoration to primary that significantly increased queued jobs before correction and final recovery."
+    },
+    {
+      "id": "gh-february-2024-c9",
+      "source_id": "gh-february-2024",
+      "topic": "recovery",
+      "claim": "Adding new machines cleared the February 29 backlog.",
+      "choice": "not_established",
+      "evidence_blocks": [
+        4,
+        5
+      ],
+      "rationale": "The excerpt reports a correction and later capacity improvements, but does not establish or rule out adding machines as the mechanism that cleared this backlog."
+    },
+    {
+      "id": "gh-march-2024-c1",
+      "source_id": "gh-march-2024",
+      "topic": "impact",
+      "claim": "The March 15 permissions regression caused failures in Codespaces, Actions and Pages.",
+      "choice": "supported",
+      "evidence_blocks": [
+        2
+      ],
+      "rationale": "The March 15 paragraph explicitly lists failures in the three services."
+    },
+    {
+      "id": "gh-march-2024-c2",
+      "source_id": "gh-march-2024",
+      "topic": "impact",
+      "claim": "GitHub Pages experienced no failures during the March 15 incident.",
+      "choice": "contradicted",
+      "evidence_blocks": [
+        2
+      ],
+      "rationale": "The March 15 paragraph explicitly includes Pages among services with failures."
+    },
+    {
+      "id": "gh-march-2024-c3",
+      "source_id": "gh-march-2024",
+      "topic": "impact",
+      "claim": "The March 15 incident lost customer repository data.",
+      "choice": "not_established",
+      "evidence_blocks": [
+        2
+      ],
+      "rationale": "The excerpt describes failures and rollback, but neither establishes nor rules out repository data loss."
+    },
+    {
+      "id": "gh-march-2024-c4",
+      "source_id": "gh-march-2024",
+      "topic": "cause",
+      "claim": "An inadvertent network-configuration deployment to the wrong environment caused the March 11 service degradation.",
+      "choice": "supported",
+      "evidence_blocks": [
+        4
+      ],
+      "rationale": "The March 11 paragraph attributes degradation to an inadvertent deployment to the wrong environment."
+    },
+    {
+      "id": "gh-march-2024-c5",
+      "source_id": "gh-march-2024",
+      "topic": "cause",
+      "claim": "The network-configuration deployment that caused the March 11 incident went to its intended environment.",
+      "choice": "contradicted",
+      "evidence_blocks": [
+        4
+      ],
+      "rationale": "The report explicitly says the configuration was deployed to the wrong environment."
+    },
+    {
+      "id": "gh-march-2024-c6",
+      "source_id": "gh-march-2024",
+      "topic": "cause",
+      "claim": "A database engineer approved the network-configuration deployment that caused the March 11 incident.",
+      "choice": "not_established",
+      "evidence_blocks": [
+        4
+      ],
+      "rationale": "The excerpt does not name the approver or their role; the incorrect deployment target does not settle approval."
+    },
+    {
+      "id": "gh-march-2024-c7",
+      "source_id": "gh-march-2024",
+      "topic": "recovery",
+      "claim": "Manual correction of configuration data enabled full rollback and service restoration by 00:48 UTC in the March 11 incident.",
+      "choice": "supported",
+      "evidence_blocks": [
+        4
+      ],
+      "rationale": "The report explicitly connects manual configuration correction with successful full rollback and restoration."
+    },
+    {
+      "id": "gh-march-2024-c8",
+      "source_id": "gh-march-2024",
+      "topic": "recovery",
+      "claim": "Full rollback completed in every data center without manual intervention during the March 11 incident.",
+      "choice": "contradicted",
+      "evidence_blocks": [
+        4
+      ],
+      "rationale": "Rollback failed in one data center and manual intervention was required before full rollback succeeded."
+    },
+    {
+      "id": "gh-march-2024-c9",
+      "source_id": "gh-march-2024",
+      "topic": "recovery",
+      "claim": "An on-call database engineer performed the manual configuration correction during the March 11 incident.",
+      "choice": "not_established",
+      "evidence_blocks": [
+        4
+      ],
+      "rationale": "The report establishes manual intervention, but does not name the operator or their role."
+    }
+  ]
+}

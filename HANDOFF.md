@@ -1,12 +1,14 @@
 # Handoff: public operations experiments
 
-## Current continuation: literal claim definitions complete
+## Current continuation: new-report selective preparation
 
 Read docs/literal-claims.md and inspect /literal-claims. The separately committed 36-call comparison holds selected incident state fixed and changes only instructions/criteria. All replies validate. Under the new literal references, legacy gives 12 correct displays/two wrong/four withheld; literal gives 12/zero/six. Correct displayed gains and losses are zero. The candidate fails every round because coverage is four of six rather than five, and c1/c5 remain incorrectly chosen but withheld. Preserve literal_claim features/data/scoring/trial/CLI, plan, references, exact protocol and all outcomes.
 
 Only c3 changes reference from not_established to contradicted under the user's claim-as-written choice. Original reference spans and every historical score stay unchanged. Reclassifying old scoped replies alone gives 12 correct/three wrong/three withheld; that is not a model gain. This panel has no not-established reference, no new report or telemetry and no independent review.
 
 The user chose confirming selective behavior on new reports and all three verdict classes. The v1 prospective allocation is committed and its once-only audit retrieved the three fixed January/February/March 2024 reports, with 3/1/2 sections. The three-section minimum fails before claims, references, requests or model calls. Preserve that audit. A separately committed v2 count-based preparation reuses all exact snapshots and all original report groups, sharing a section when fewer than three exist; it adds no source or telemetry access. Retain literal definitions and 0.70. The failed five-of-six gate must remain visible. No further call may reuse either completed scope or literal protocol.
+
+The v2 preparation now freezes 27 controlled claims, nine per report and one of each verdict class per impact/cause/recovery topic. Section assignment depends only on document order/count. The unchanged literal producer supplies both fresh arms; no reference or evidence annotation enters state. Six preparation/scoring/stop-policy tests pass. Commit the prepared pack, then freeze and commit 162 exact request hashes before inference. All earlier results remain frozen.
 
 ## Earlier explicit incident selection diagnostic
 
