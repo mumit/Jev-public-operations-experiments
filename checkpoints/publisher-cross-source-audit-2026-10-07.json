@@ -1,0 +1,60 @@
+{
+  "schema": "publisher-cross-source-audit-1",
+  "plan_sha256": "c42d662d53d121842c139e23726f3fc96232627d706d99f76a340a73f5e5eb5c",
+  "producer_sha256": "2a52add9e87a94786eb02407fe7b6b53aa2aa06ca43b77a69d397623ed295ac1",
+  "sources": [
+    {
+      "id": "cf-power-2024",
+      "publisher": "Cloudflare",
+      "url": "https://blog.cloudflare.com/major-data-center-power-failure-again-cloudflare-code-orange-tested/",
+      "expected_title": "Major data center power failure (again): Cloudflare Code Orange tested",
+      "html_sha256": "c796a13457c007f8e3f763becd49c5cdfd695bdc10ad475335791088d13e1813",
+      "status": "available",
+      "title": "Major data center power failure (again): Cloudflare Code Orange tested",
+      "article_sha256": "6ea9d4ee7d072e4e9f3f297d68a5992bfa21627d06ac733dcf8164bf7f6c054d",
+      "blocks": 49,
+      "text_sha256": "0e962ff619d14b07d5071cd3b74fa711865eb0c541d4acc6de259fa5b3e22dd3",
+      "text_bytes": 13678,
+      "probe_wire_bytes": 15394,
+      "code_blocks": 0,
+      "preparation_eligible": true
+    },
+    {
+      "id": "cf-june20-2024",
+      "publisher": "Cloudflare",
+      "url": "https://blog.cloudflare.com/cloudflare-incident-on-june-20-2024/",
+      "expected_title": "Cloudflare incident on June 20, 2024",
+      "html_sha256": "5e00bc26a9c1a2d7e0d02ea07d645154f4d35da5b7287907a7942712e72a888f",
+      "status": "available",
+      "title": "Cloudflare incident on June 20, 2024",
+      "article_sha256": "124b314fdcf904014abb97783b80ae519381289ebcb02b62bfa7b24fbd21fb48",
+      "blocks": 79,
+      "text_sha256": "34f362f564b57cc973db57905d3b92065be6263a241013a3c61ab2e88240fba4",
+      "text_bytes": 17521,
+      "probe_wire_bytes": 19335,
+      "code_blocks": 2,
+      "preparation_eligible": true
+    },
+    {
+      "id": "cf-dns27-2024",
+      "publisher": "Cloudflare",
+      "url": "https://blog.cloudflare.com/cloudflare-1111-incident-on-june-27-2024/",
+      "expected_title": "Cloudflare 1.1.1.1 incident on June 27, 2024",
+      "html_sha256": "b7034cc6b2c200e4176d36985c6384ac2ee6050fe101e7e8fa7e8b958fe59fe5",
+      "status": "available",
+      "title": "Cloudflare 1.1.1.1 incident on June 27, 2024",
+      "article_sha256": "5ef1ca2957610cc8b788f0aacd19cb134afa21d4622898505b04d5fc77abb2ab",
+      "blocks": 75,
+      "text_sha256": "deb100440511da6e1d8506ffdc6c8c75ff5362c61128ad09ba4872c400d51d7c",
+      "text_bytes": 23949,
+      "probe_wire_bytes": 25743,
+      "code_blocks": 2,
+      "preparation_eligible": true
+    }
+  ],
+  "preparation_eligible": true,
+  "new_provider_calls": 0,
+  "new_telemetry_recordings": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0
+}

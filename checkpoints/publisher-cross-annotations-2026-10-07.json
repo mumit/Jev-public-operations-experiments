@@ -1,0 +1,371 @@
+{
+  "schema": "publisher-cross-annotations-1",
+  "claims": [
+    {
+      "id": "cf-power-2024-c1",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "choice": "supported",
+      "claim": "The data plane kept operating during the March 26 power failure, while Analytics remained impaired.",
+      "evidence_blocks": [
+        32,
+        33
+      ],
+      "rationale": "The report explicitly separates the unaffected data plane from Analytics, which was not fully restored until later that day."
+    },
+    {
+      "id": "cf-power-2024-c2",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "choice": "contradicted",
+      "claim": "All customer-facing functions returned to normal by 15:05, including Analytics.",
+      "evidence_blocks": [
+        15,
+        33
+      ],
+      "rationale": "APIs and dashboards were normal at 15:05, but Analytics recovered later. The claim incorrectly extends the earlier recovery to every function."
+    },
+    {
+      "id": "cf-power-2024-c3",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "choice": "not_established",
+      "claim": "The March 26 Analytics interruption affected more than 1,000 customers.",
+      "evidence_blocks": [
+        33,
+        48
+      ],
+      "rationale": "The full report describes Analytics impairment and affected users without a customer count. The number remains unknown."
+    },
+    {
+      "id": "cf-power-2024-c4",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "choice": "supported",
+      "claim": "The initial assessment identified overly restrictive breaker settings as a contributor, without establishing when those settings were configured.",
+      "evidence_blocks": [
+        42,
+        43
+      ],
+      "rationale": "The assessment identifies incorrect breaker coordination as one contributor and explicitly says the configuration date is unknown; it is not a final exclusive-cause claim."
+    },
+    {
+      "id": "cf-power-2024-c5",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "choice": "contradicted",
+      "claim": "The report establishes when the breaker settings involved in the March 26 failure were configured.",
+      "evidence_blocks": [
+        43
+      ],
+      "rationale": "The report explicitly says it does not know when those settings were established."
+    },
+    {
+      "id": "cf-power-2024-c6",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "choice": "not_established",
+      "claim": "The same engineer configured the breaker settings on all four switchboards.",
+      "evidence_blocks": [
+        42,
+        43
+      ],
+      "rationale": "The full report names neither a responsible engineer nor who configured each board. A common operator is not established."
+    },
+    {
+      "id": "cf-power-2024-c7",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "choice": "supported",
+      "claim": "Automatic API and dashboard recovery preceded full Analytics restoration.",
+      "evidence_blocks": [
+        15,
+        33,
+        38
+      ],
+      "rationale": "APIs and dashboards recovered without human intervention within seven minutes, while Analytics returned later that day."
+    },
+    {
+      "id": "cf-power-2024-c8",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "choice": "contradicted",
+      "claim": "Every service recovered without manual intervention after the March 26 power loss.",
+      "evidence_blocks": [
+        15,
+        46
+      ],
+      "rationale": "The report explicitly identifies a few services requiring human intervention and subsequent work to automate them."
+    },
+    {
+      "id": "cf-power-2024-c9",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "choice": "not_established",
+      "claim": "Analytics was fully restored at exactly 21:30 UTC on March 26.",
+      "evidence_blocks": [
+        33,
+        48
+      ],
+      "rationale": "Later that day supplies ordering, not an exact Analytics restoration timestamp. The full report does not establish 21:30."
+    },
+    {
+      "id": "cf-june20-2024-c1",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "choice": "supported",
+      "claim": "The June 20 incidents increased both HTTP errors and high-percentile response latency.",
+      "evidence_blocks": [
+        0,
+        33,
+        34,
+        35
+      ],
+      "rationale": "The introduction and impact description report elevated HTTP errors and almost threefold p99 time to first byte."
+    },
+    {
+      "id": "cf-june20-2024-c2",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "choice": "contradicted",
+      "claim": "Every HTTP request handled by Cloudflare failed during the June 20 incidents.",
+      "evidence_blocks": [
+        0,
+        33,
+        34
+      ],
+      "rationale": "The report gives partial error percentages, explicitly far below every request. Higher latency also affected requests without making all requests fail."
+    },
+    {
+      "id": "cf-june20-2024-c3",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "choice": "not_established",
+      "claim": "More than 10,000 distinct customers experienced the June 20 incidents.",
+      "evidence_blocks": [
+        0,
+        77
+      ],
+      "rationale": "The full report describes a significant set of customers and request error percentages, without a distinct customer count."
+    },
+    {
+      "id": "cf-june20-2024-c4",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "choice": "supported",
+      "claim": "A new DDoS rule exposed a latent rate-limit bug, while backbone congestion was a separate event.",
+      "evidence_blocks": [
+        0,
+        2,
+        3,
+        6,
+        48,
+        49,
+        50,
+        51
+      ],
+      "rationale": "The report distinguishes the two events and says the new rule worked as expected but exposed existing rate-limit logic under particular cookie inputs."
+    },
+    {
+      "id": "cf-june20-2024-c5",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "choice": "contradicted",
+      "claim": "The two cookie-validation functions always agreed, so their disagreement could not trigger the infinite loop.",
+      "evidence_blocks": [
+        48,
+        49,
+        50,
+        51,
+        54
+      ],
+      "rationale": "The report explicitly says these functions can disagree for mixed valid and invalid cookies; that disagreement drives self-recursion and a nonterminating CPU loop."
+    },
+    {
+      "id": "cf-june20-2024-c6",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "choice": "not_established",
+      "claim": "A single identified customer sent every request that poisoned a process during the June 20 incident.",
+      "evidence_blocks": [
+        6,
+        54,
+        58
+      ],
+      "rationale": "The full report explains the request condition and its redistribution but identifies neither one customer nor a sole request source."
+    },
+    {
+      "id": "cf-june20-2024-c7",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "choice": "supported",
+      "claim": "Restarting poisoned processes restored capacity, while redirecting the triggering requests could spread the failure to other servers.",
+      "evidence_blocks": [
+        56,
+        57,
+        58,
+        66,
+        68,
+        71
+      ],
+      "rationale": "Restarts helped recover affected service. Rerouting did not repair poisoned processes and carried triggering requests to other servers."
+    },
+    {
+      "id": "cf-june20-2024-c8",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "choice": "contradicted",
+      "claim": "Traffic Manager kept issuing new routing actions throughout 18:35–18:52 UTC.",
+      "evidence_blocks": [
+        69
+      ],
+      "rationale": "The report explicitly identifies this interval as one in which Traffic Manager issued no new routing actions because its own exception handling halted activity."
+    },
+    {
+      "id": "cf-june20-2024-c9",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "choice": "not_established",
+      "claim": "Exactly 5,000 servers received a service restart during recovery.",
+      "evidence_blocks": [
+        68,
+        71
+      ],
+      "rationale": "The report describes widening and rolling restarts without a total server count. The full text does not establish this exact total."
+    },
+    {
+      "id": "cf-dns27-2024-c1",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "choice": "supported",
+      "claim": "Some affected requests reached Cloudflare with high latency, while others were blackholed before reaching its servers.",
+      "evidence_blocks": [
+        30,
+        32,
+        33,
+        38
+      ],
+      "rationale": "The report distinguishes unreachability from successful but slow delivery, including later leaked paths with high latency."
+    },
+    {
+      "id": "cf-dns27-2024-c2",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "choice": "contradicted",
+      "claim": "All affected users lost reachability throughout the DNS incident, with no successful requests reaching Cloudflare.",
+      "evidence_blocks": [
+        32,
+        33,
+        38
+      ],
+      "rationale": "The report explicitly describes requests reaching Cloudflare at high latency during the incident, contradicting universal uninterrupted unreachability."
+    },
+    {
+      "id": "cf-dns27-2024-c3",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "choice": "not_established",
+      "claim": "The DNS incident caused more than one million dollars in customer losses.",
+      "evidence_blocks": [
+        1,
+        3,
+        32
+      ],
+      "rationale": "The full report describes network and user reachability impact but supplies no monetary-loss assessment."
+    },
+    {
+      "id": "cf-dns27-2024-c4",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "choice": "supported",
+      "claim": "The leaked /24 route had a valid RPKI origin even though its propagation path was invalid.",
+      "evidence_blocks": [
+        47,
+        48,
+        49,
+        51
+      ],
+      "rationale": "The report explicitly separates valid origin validation for AS13335 from an invalid AS path caused by the route leak."
+    },
+    {
+      "id": "cf-dns27-2024-c5",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "choice": "contradicted",
+      "claim": "The invalid /32 updates appearing in Cloudflare BMP data prove that Cloudflare accepted those routes for forwarding.",
+      "evidence_blocks": [
+        43,
+        44
+      ],
+      "rationale": "The report labels those updates pre-policy and explicitly states that Cloudflare rejected them on import. Observation in BMP is not acceptance."
+    },
+    {
+      "id": "cf-dns27-2024-c6",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "choice": "not_established",
+      "claim": "AS267613 intentionally originated the /32 route to disrupt Cloudflare.",
+      "evidence_blocks": [
+        2,
+        9,
+        10,
+        20,
+        43
+      ],
+      "rationale": "The full report identifies the origin and invalid route but does not establish the operator intent. Its background explicitly allows accidental or purposeful hijacks."
+    },
+    {
+      "id": "cf-dns27-2024-c7",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "choice": "supported",
+      "claim": "The /32 blackholing appeared resolved while the /24 leak still added latency, before the leak was fully resolved at 02:28 on June 28.",
+      "evidence_blocks": [
+        30,
+        31
+      ],
+      "rationale": "The 22:16 timeline entry distinguishes apparent hijack resolution from continuing leaked-route latency; final leak resolution comes later."
+    },
+    {
+      "id": "cf-dns27-2024-c8",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "choice": "contradicted",
+      "claim": "Disabling the first partner peering at 20:08 resolved all impact, with no further route leaks or high latency.",
+      "evidence_blocks": [
+        25,
+        27,
+        29,
+        30,
+        31,
+        54
+      ],
+      "rationale": "Later leaked paths, high latency and additional peer shutdowns explicitly continue after the first action. Complete resolution was not immediate."
+    },
+    {
+      "id": "cf-dns27-2024-c9",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "choice": "not_established",
+      "claim": "Exactly 100,000 requests experienced high latency after 22:16 UTC.",
+      "evidence_blocks": [
+        30,
+        31,
+        32,
+        38
+      ],
+      "rationale": "The full report describes continuing high latency and final resolution without this request total or a count for the interval."
+    }
+  ],
+  "human_entries": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "source_cautions": [
+    "Same-assistant controlled claims and references after full source inspection, before any new Jev outcome. No independent reference review.",
+    "Discovery search exposed content before allocation, including substantial DNS text; source selection was not blinded.",
+    "Whole retrospective reports include causal hindsight, prior incidents and future proposals. Text excludes images but retains prose, lists, tables and code.",
+    "June 20 timeline says 19:34 for full DDoS-rule disablement; later prose says 19:36. Claims avoid asserting either precise disablement time without changing the source.",
+    "Publisher and longer whole-report context change together; effects cannot be attributed solely to either factor.",
+    "These public reports may be in model pretraining. Claims are controlled study text, not authentic analyst entries."
+  ]
+}
