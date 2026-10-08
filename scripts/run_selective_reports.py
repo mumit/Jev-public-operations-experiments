@@ -14,5 +14,5 @@ def main():
     elif a.action=='score':r=trial.score();trial.dump(trial.RESULT,r)
     elif a.action=='export':r=trial.export()
     else:r=trial.verify(local=a.action!='verify-public')
-    print(json.dumps({k:v for k,v in r.items() if k not in ('outcomes','panels','paired','gates','files','fixtures','inventory')}))
+    print(json.dumps({k:v for k,v in r.items() if k not in ('outcomes','panels','paired','gates','files','fixtures','inventory','claims','references')}))
 if __name__=='__main__':main()

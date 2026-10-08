@@ -1,0 +1,913 @@
+{
+  "schema": "publisher-selective-pack-1",
+  "plan_sha256": "ca196a7adf0588813ddd15f4b7dfa4d986bd7ddf8e2eb9e2d4786c1d6e0f5ed5",
+  "audit_sha256": "2cd1f8597b2ea461a5ea07a363fe68eeb4411e591b1869b03d28a287e3066980",
+  "annotations_sha256": "4c4ee4945e725f9c09aba2f171ab4c3f61e149af758c9f26ecd1d0939da89775",
+  "producer_sha256": "0eddb2357a378df958821ebcad32eaf6115a52272f9d060e6124c01add990a3b",
+  "claims": [
+    {
+      "id": "gh-january-2024-c1",
+      "source_id": "gh-january-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "topic": "impact",
+      "claim": "Some Git backend requests failed or timed out during the January 9 incident.",
+      "selected_incident": "January 09 12:20 UTC (lasting 140 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "scoped_report_sha256": "e32f45edb66350b96c99103ce04bad2bf27015cad8d40a68d71e20a7ea6394b9",
+      "excerpt_bytes": 1008
+    },
+    {
+      "id": "gh-january-2024-c2",
+      "source_id": "gh-january-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "topic": "impact",
+      "claim": "The January 9 incident caused no Git backend request failures or timeouts.",
+      "selected_incident": "January 09 12:20 UTC (lasting 140 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "scoped_report_sha256": "e32f45edb66350b96c99103ce04bad2bf27015cad8d40a68d71e20a7ea6394b9",
+      "excerpt_bytes": 1008
+    },
+    {
+      "id": "gh-january-2024-c3",
+      "source_id": "gh-january-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "topic": "impact",
+      "claim": "The January 9 incident affected more than one thousand customers.",
+      "selected_incident": "January 09 12:20 UTC (lasting 140 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "scoped_report_sha256": "e32f45edb66350b96c99103ce04bad2bf27015cad8d40a68d71e20a7ea6394b9",
+      "excerpt_bytes": 1008
+    },
+    {
+      "id": "gh-january-2024-c4",
+      "source_id": "gh-january-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "topic": "cause",
+      "claim": "Operational problems with compute and storage resources disrupted Codespace creation and resumption on January 21.",
+      "selected_incident": "January 21 02:01 UTC (lasting 7 hours 3 minutes)",
+      "selected_section_id": "4",
+      "retained_blocks": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "scoped_report_sha256": "2bdd1a5403e719550915dc179d705a6770385cb3497fb262e091529e6682e16f",
+      "excerpt_bytes": 1052
+    },
+    {
+      "id": "gh-january-2024-c5",
+      "source_id": "gh-january-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "topic": "cause",
+      "claim": "Compute and storage resources operated normally throughout the January 21 Codespaces incident.",
+      "selected_incident": "January 21 02:01 UTC (lasting 7 hours 3 minutes)",
+      "selected_section_id": "4",
+      "retained_blocks": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "scoped_report_sha256": "2bdd1a5403e719550915dc179d705a6770385cb3497fb262e091529e6682e16f",
+      "excerpt_bytes": 1052
+    },
+    {
+      "id": "gh-january-2024-c6",
+      "source_id": "gh-january-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "topic": "cause",
+      "claim": "A storage failure began before the compute problems in the January 21 incident.",
+      "selected_incident": "January 21 02:01 UTC (lasting 7 hours 3 minutes)",
+      "selected_section_id": "4",
+      "retained_blocks": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "scoped_report_sha256": "2bdd1a5403e719550915dc179d705a6770385cb3497fb262e091529e6682e16f",
+      "excerpt_bytes": 1052
+    },
+    {
+      "id": "gh-january-2024-c7",
+      "source_id": "gh-january-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "topic": "recovery",
+      "claim": "Changes were deployed to remediate the January 31 blocking issue, alongside improvements to testing and monitoring.",
+      "selected_incident": "January 31 12:30 UTC (lasting 147 minutes)",
+      "selected_section_id": "9",
+      "retained_blocks": [
+        0,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "scoped_report_sha256": "8ebdb0e0ec13a15f22ed7610142c73bf2bb17544d7e16036400b24c409a7f0cc",
+      "excerpt_bytes": 1279
+    },
+    {
+      "id": "gh-january-2024-c8",
+      "source_id": "gh-january-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "topic": "recovery",
+      "claim": "No changes were deployed to remediate the January 31 blocking issue.",
+      "selected_incident": "January 31 12:30 UTC (lasting 147 minutes)",
+      "selected_section_id": "9",
+      "retained_blocks": [
+        0,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "scoped_report_sha256": "8ebdb0e0ec13a15f22ed7610142c73bf2bb17544d7e16036400b24c409a7f0cc",
+      "excerpt_bytes": 1279
+    },
+    {
+      "id": "gh-january-2024-c9",
+      "source_id": "gh-january-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-january-2024/",
+      "topic": "recovery",
+      "claim": "Restarting load balancers restored service during the January 31 incident.",
+      "selected_incident": "January 31 12:30 UTC (lasting 147 minutes)",
+      "selected_section_id": "9",
+      "retained_blocks": [
+        0,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "scoped_report_sha256": "8ebdb0e0ec13a15f22ed7610142c73bf2bb17544d7e16036400b24c409a7f0cc",
+      "excerpt_bytes": 1279
+    },
+    {
+      "id": "gh-february-2024-c1",
+      "source_id": "gh-february-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "topic": "impact",
+      "claim": "The February 26 incident delayed Webhooks, GitHub Actions and UI updates.",
+      "selected_incident": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scoped_report_sha256": "d06537f6761e6ee38d3714c027b048f86cdbca8bedd9e5dd67fb0894f469d23e",
+      "excerpt_bytes": 2016
+    },
+    {
+      "id": "gh-february-2024-c2",
+      "source_id": "gh-february-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "topic": "impact",
+      "claim": "The February 26 incident lost customer data.",
+      "selected_incident": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scoped_report_sha256": "d06537f6761e6ee38d3714c027b048f86cdbca8bedd9e5dd67fb0894f469d23e",
+      "excerpt_bytes": 2016
+    },
+    {
+      "id": "gh-february-2024-c3",
+      "source_id": "gh-february-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "topic": "impact",
+      "claim": "The February 26 incident affected more than one thousand customers.",
+      "selected_incident": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scoped_report_sha256": "d06537f6761e6ee38d3714c027b048f86cdbca8bedd9e5dd67fb0894f469d23e",
+      "excerpt_bytes": 2016
+    },
+    {
+      "id": "gh-february-2024-c4",
+      "source_id": "gh-february-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "topic": "cause",
+      "claim": "Capacity constraints in the job queue and a failure of automated failover contributed to the February 26 incident.",
+      "selected_incident": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scoped_report_sha256": "d06537f6761e6ee38d3714c027b048f86cdbca8bedd9e5dd67fb0894f469d23e",
+      "excerpt_bytes": 2016
+    },
+    {
+      "id": "gh-february-2024-c5",
+      "source_id": "gh-february-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "topic": "cause",
+      "claim": "Automated failover worked normally during the February 26 incident.",
+      "selected_incident": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scoped_report_sha256": "d06537f6761e6ee38d3714c027b048f86cdbca8bedd9e5dd67fb0894f469d23e",
+      "excerpt_bytes": 2016
+    },
+    {
+      "id": "gh-february-2024-c6",
+      "source_id": "gh-february-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "topic": "cause",
+      "claim": "A memory leak caused the job-queue capacity constraints on February 26.",
+      "selected_incident": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scoped_report_sha256": "d06537f6761e6ee38d3714c027b048f86cdbca8bedd9e5dd67fb0894f469d23e",
+      "excerpt_bytes": 2016
+    },
+    {
+      "id": "gh-february-2024-c7",
+      "source_id": "gh-february-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "topic": "recovery",
+      "claim": "A correction at 11:21 UTC allowed the backlog to drain before full restoration at 11:27 UTC during the February 29 incident.",
+      "selected_incident": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scoped_report_sha256": "d06537f6761e6ee38d3714c027b048f86cdbca8bedd9e5dd67fb0894f469d23e",
+      "excerpt_bytes": 2016
+    },
+    {
+      "id": "gh-february-2024-c8",
+      "source_id": "gh-february-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "topic": "recovery",
+      "claim": "The successful February 29 failover at 09:32 UTC kept services healthy for the rest of the incident without a later backlog increase.",
+      "selected_incident": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scoped_report_sha256": "d06537f6761e6ee38d3714c027b048f86cdbca8bedd9e5dd67fb0894f469d23e",
+      "excerpt_bytes": 2016
+    },
+    {
+      "id": "gh-february-2024-c9",
+      "source_id": "gh-february-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-february-2024/",
+      "topic": "recovery",
+      "claim": "Adding new machines cleared the February 29 backlog.",
+      "selected_incident": "February 26 18:34 UTC (lasting 53 minutes) February 29 09:32 UTC (lasting 142 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "scoped_report_sha256": "d06537f6761e6ee38d3714c027b048f86cdbca8bedd9e5dd67fb0894f469d23e",
+      "excerpt_bytes": 2016
+    },
+    {
+      "id": "gh-march-2024-c1",
+      "source_id": "gh-march-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "topic": "impact",
+      "claim": "The March 15 permissions regression caused failures in Codespaces, Actions and Pages.",
+      "selected_incident": "March 15 19:42 UTC (lasting 42 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2
+      ],
+      "scoped_report_sha256": "7da1b12d5d1e6ee33588fd8a440aeb1f5ea31e8e055fad1e331375e2074985c9",
+      "excerpt_bytes": 674
+    },
+    {
+      "id": "gh-march-2024-c2",
+      "source_id": "gh-march-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "topic": "impact",
+      "claim": "GitHub Pages experienced no failures during the March 15 incident.",
+      "selected_incident": "March 15 19:42 UTC (lasting 42 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2
+      ],
+      "scoped_report_sha256": "7da1b12d5d1e6ee33588fd8a440aeb1f5ea31e8e055fad1e331375e2074985c9",
+      "excerpt_bytes": 674
+    },
+    {
+      "id": "gh-march-2024-c3",
+      "source_id": "gh-march-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "topic": "impact",
+      "claim": "The March 15 incident lost customer repository data.",
+      "selected_incident": "March 15 19:42 UTC (lasting 42 minutes)",
+      "selected_section_id": "1",
+      "retained_blocks": [
+        0,
+        1,
+        2
+      ],
+      "scoped_report_sha256": "7da1b12d5d1e6ee33588fd8a440aeb1f5ea31e8e055fad1e331375e2074985c9",
+      "excerpt_bytes": 674
+    },
+    {
+      "id": "gh-march-2024-c4",
+      "source_id": "gh-march-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "topic": "cause",
+      "claim": "An inadvertent network-configuration deployment to the wrong environment caused the March 11 service degradation.",
+      "selected_incident": "March 11 22:45 UTC (lasting 2 hours and 3 minutes)",
+      "selected_section_id": "3",
+      "retained_blocks": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "scoped_report_sha256": "50db11a1a34497fcd58645be9fc4dbf7c6120a568bfbbc7a66e819df9d7860fa",
+      "excerpt_bytes": 1352
+    },
+    {
+      "id": "gh-march-2024-c5",
+      "source_id": "gh-march-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "topic": "cause",
+      "claim": "The network-configuration deployment that caused the March 11 incident went to its intended environment.",
+      "selected_incident": "March 11 22:45 UTC (lasting 2 hours and 3 minutes)",
+      "selected_section_id": "3",
+      "retained_blocks": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "scoped_report_sha256": "50db11a1a34497fcd58645be9fc4dbf7c6120a568bfbbc7a66e819df9d7860fa",
+      "excerpt_bytes": 1352
+    },
+    {
+      "id": "gh-march-2024-c6",
+      "source_id": "gh-march-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "topic": "cause",
+      "claim": "A database engineer approved the network-configuration deployment that caused the March 11 incident.",
+      "selected_incident": "March 11 22:45 UTC (lasting 2 hours and 3 minutes)",
+      "selected_section_id": "3",
+      "retained_blocks": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "scoped_report_sha256": "50db11a1a34497fcd58645be9fc4dbf7c6120a568bfbbc7a66e819df9d7860fa",
+      "excerpt_bytes": 1352
+    },
+    {
+      "id": "gh-march-2024-c7",
+      "source_id": "gh-march-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "topic": "recovery",
+      "claim": "Manual correction of configuration data enabled full rollback and service restoration by 00:48 UTC in the March 11 incident.",
+      "selected_incident": "March 11 22:45 UTC (lasting 2 hours and 3 minutes)",
+      "selected_section_id": "3",
+      "retained_blocks": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "scoped_report_sha256": "50db11a1a34497fcd58645be9fc4dbf7c6120a568bfbbc7a66e819df9d7860fa",
+      "excerpt_bytes": 1352
+    },
+    {
+      "id": "gh-march-2024-c8",
+      "source_id": "gh-march-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "topic": "recovery",
+      "claim": "Full rollback completed in every data center without manual intervention during the March 11 incident.",
+      "selected_incident": "March 11 22:45 UTC (lasting 2 hours and 3 minutes)",
+      "selected_section_id": "3",
+      "retained_blocks": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "scoped_report_sha256": "50db11a1a34497fcd58645be9fc4dbf7c6120a568bfbbc7a66e819df9d7860fa",
+      "excerpt_bytes": 1352
+    },
+    {
+      "id": "gh-march-2024-c9",
+      "source_id": "gh-march-2024",
+      "source_url": "https://github.blog/news-insights/company-news/github-availability-report-march-2024/",
+      "topic": "recovery",
+      "claim": "An on-call database engineer performed the manual configuration correction during the March 11 incident.",
+      "selected_incident": "March 11 22:45 UTC (lasting 2 hours and 3 minutes)",
+      "selected_section_id": "3",
+      "retained_blocks": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "scoped_report_sha256": "50db11a1a34497fcd58645be9fc4dbf7c6120a568bfbbc7a66e819df9d7860fa",
+      "excerpt_bytes": 1352
+    }
+  ],
+  "references": [
+    {
+      "id": "gh-january-2024-c1",
+      "choice": "supported",
+      "rationale": "The impact paragraph includes the Git backend among services experiencing timed-out requests and failures.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "sha256": "53fc1124d1281c66a919bea41347359eb48c12018f7b9b137bf4d7d100fba772"
+        }
+      ]
+    },
+    {
+      "id": "gh-january-2024-c2",
+      "choice": "contradicted",
+      "rationale": "The paragraph explicitly includes Git backend failures and timeouts.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "sha256": "53fc1124d1281c66a919bea41347359eb48c12018f7b9b137bf4d7d100fba772"
+        }
+      ]
+    },
+    {
+      "id": "gh-january-2024-c3",
+      "choice": "not_established",
+      "rationale": "The excerpt gives percentages of requests, not the number of affected customers; it neither establishes nor rules out this customer count.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "sha256": "53fc1124d1281c66a919bea41347359eb48c12018f7b9b137bf4d7d100fba772"
+        }
+      ]
+    },
+    {
+      "id": "gh-january-2024-c4",
+      "choice": "supported",
+      "rationale": "The report attributes Codespaces creation and resumption issues to operational compute and storage problems.",
+      "evidence_spans": [
+        {
+          "block": 5,
+          "sha256": "f4d60bffc7e418731232ea86862b1f082b77ca74b8461fdd4a5bc31d97370814"
+        }
+      ]
+    },
+    {
+      "id": "gh-january-2024-c5",
+      "choice": "contradicted",
+      "rationale": "The report explicitly describes operational issues with both resource types.",
+      "evidence_spans": [
+        {
+          "block": 5,
+          "sha256": "f4d60bffc7e418731232ea86862b1f082b77ca74b8461fdd4a5bc31d97370814"
+        }
+      ]
+    },
+    {
+      "id": "gh-january-2024-c6",
+      "choice": "not_established",
+      "rationale": "The excerpt does not establish the sequence of compute and storage problems. Regional recovery timing does not settle their order.",
+      "evidence_spans": [
+        {
+          "block": 5,
+          "sha256": "f4d60bffc7e418731232ea86862b1f082b77ca74b8461fdd4a5bc31d97370814"
+        },
+        {
+          "block": 6,
+          "sha256": "cc7d7330320743f06c2db94fa4c7f7acbfa8f02bd07a61219e5d8067c572005a"
+        },
+        {
+          "block": 7,
+          "sha256": "da5f65c140438fa70c27c2c8a4c089ff0dd31072d0c9b41a541f08c5a4db78d1"
+        }
+      ]
+    },
+    {
+      "id": "gh-january-2024-c7",
+      "choice": "supported",
+      "rationale": "The remediation paragraph explicitly describes deployed changes and testing/monitoring steps.",
+      "evidence_spans": [
+        {
+          "block": 11,
+          "sha256": "89c2cdea2101ef7133ad112acb5e05141bd0c17940436c116101db791097c440"
+        }
+      ]
+    },
+    {
+      "id": "gh-january-2024-c8",
+      "choice": "contradicted",
+      "rationale": "The remediation paragraph explicitly states that changes were deployed.",
+      "evidence_spans": [
+        {
+          "block": 11,
+          "sha256": "89c2cdea2101ef7133ad112acb5e05141bd0c17940436c116101db791097c440"
+        }
+      ]
+    },
+    {
+      "id": "gh-january-2024-c9",
+      "choice": "not_established",
+      "rationale": "The report describes remediation changes but does not say whether a restart restored service. The underlying recovery mechanism is not settled.",
+      "evidence_spans": [
+        {
+          "block": 10,
+          "sha256": "5b26056b1976f501ba9115d4ba347f30d69d467bf5f4249af0e23a21c3f187c8"
+        },
+        {
+          "block": 11,
+          "sha256": "89c2cdea2101ef7133ad112acb5e05141bd0c17940436c116101db791097c440"
+        }
+      ]
+    },
+    {
+      "id": "gh-february-2024-c1",
+      "choice": "supported",
+      "rationale": "The February 26 paragraph explicitly lists delays in all three.",
+      "evidence_spans": [
+        {
+          "block": 3,
+          "sha256": "7cd33897d9226e937c50a03e9d066330916ad0c22495825a729dd8896e4284d4"
+        }
+      ]
+    },
+    {
+      "id": "gh-february-2024-c2",
+      "choice": "contradicted",
+      "rationale": "The report explicitly says no data was lost during that incident.",
+      "evidence_spans": [
+        {
+          "block": 3,
+          "sha256": "7cd33897d9226e937c50a03e9d066330916ad0c22495825a729dd8896e4284d4"
+        }
+      ]
+    },
+    {
+      "id": "gh-february-2024-c3",
+      "choice": "not_established",
+      "rationale": "The affected service types are listed, but the customer count is neither supplied nor bounded.",
+      "evidence_spans": [
+        {
+          "block": 3,
+          "sha256": "7cd33897d9226e937c50a03e9d066330916ad0c22495825a729dd8896e4284d4"
+        }
+      ]
+    },
+    {
+      "id": "gh-february-2024-c4",
+      "choice": "supported",
+      "rationale": "The report relates the February 26 incident to both capacity constraints and automated failover failure.",
+      "evidence_spans": [
+        {
+          "block": 3,
+          "sha256": "7cd33897d9226e937c50a03e9d066330916ad0c22495825a729dd8896e4284d4"
+        }
+      ]
+    },
+    {
+      "id": "gh-february-2024-c5",
+      "choice": "contradicted",
+      "rationale": "The February 26 paragraph explicitly identifies failure of automated failover; successful failover in the other incident does not establish this claim.",
+      "evidence_spans": [
+        {
+          "block": 3,
+          "sha256": "7cd33897d9226e937c50a03e9d066330916ad0c22495825a729dd8896e4284d4"
+        }
+      ]
+    },
+    {
+      "id": "gh-february-2024-c6",
+      "choice": "not_established",
+      "rationale": "The report identifies capacity constraints, but does not establish or exclude a memory leak as their underlying cause.",
+      "evidence_spans": [
+        {
+          "block": 3,
+          "sha256": "7cd33897d9226e937c50a03e9d066330916ad0c22495825a729dd8896e4284d4"
+        }
+      ]
+    },
+    {
+      "id": "gh-february-2024-c7",
+      "choice": "supported",
+      "rationale": "The February 29 paragraph describes the correction, subsequent backlog processing and full restoration in that order.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "sha256": "588ba239116c3f9941d6b348ddd9107ff3aa1f77337fac53b9621420ebaa05af"
+        }
+      ]
+    },
+    {
+      "id": "gh-february-2024-c8",
+      "choice": "contradicted",
+      "rationale": "The report describes a later improper restoration to primary that significantly increased queued jobs before correction and final recovery.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "sha256": "588ba239116c3f9941d6b348ddd9107ff3aa1f77337fac53b9621420ebaa05af"
+        }
+      ]
+    },
+    {
+      "id": "gh-february-2024-c9",
+      "choice": "not_established",
+      "rationale": "The excerpt reports a correction and later capacity improvements, but does not establish or rule out adding machines as the mechanism that cleared this backlog.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "sha256": "588ba239116c3f9941d6b348ddd9107ff3aa1f77337fac53b9621420ebaa05af"
+        },
+        {
+          "block": 5,
+          "sha256": "de45cceba67ba949eb65e7e8107a6b1a0a3b9c5a30c675a7411f5cd59e12df23"
+        }
+      ]
+    },
+    {
+      "id": "gh-march-2024-c1",
+      "choice": "supported",
+      "rationale": "The March 15 paragraph explicitly lists failures in the three services.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "sha256": "aead95af536b7dac9f4d03de7fcaed0358bd2b98b0213957c3c939fbbc318f46"
+        }
+      ]
+    },
+    {
+      "id": "gh-march-2024-c2",
+      "choice": "contradicted",
+      "rationale": "The March 15 paragraph explicitly includes Pages among services with failures.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "sha256": "aead95af536b7dac9f4d03de7fcaed0358bd2b98b0213957c3c939fbbc318f46"
+        }
+      ]
+    },
+    {
+      "id": "gh-march-2024-c3",
+      "choice": "not_established",
+      "rationale": "The excerpt describes failures and rollback, but neither establishes nor rules out repository data loss.",
+      "evidence_spans": [
+        {
+          "block": 2,
+          "sha256": "aead95af536b7dac9f4d03de7fcaed0358bd2b98b0213957c3c939fbbc318f46"
+        }
+      ]
+    },
+    {
+      "id": "gh-march-2024-c4",
+      "choice": "supported",
+      "rationale": "The March 11 paragraph attributes degradation to an inadvertent deployment to the wrong environment.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "sha256": "2941064cc8eb986645c1c19365ca65f2fcef7f81ebe2e596b878d476ed5e724f"
+        }
+      ]
+    },
+    {
+      "id": "gh-march-2024-c5",
+      "choice": "contradicted",
+      "rationale": "The report explicitly says the configuration was deployed to the wrong environment.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "sha256": "2941064cc8eb986645c1c19365ca65f2fcef7f81ebe2e596b878d476ed5e724f"
+        }
+      ]
+    },
+    {
+      "id": "gh-march-2024-c6",
+      "choice": "not_established",
+      "rationale": "The excerpt does not name the approver or their role; the incorrect deployment target does not settle approval.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "sha256": "2941064cc8eb986645c1c19365ca65f2fcef7f81ebe2e596b878d476ed5e724f"
+        }
+      ]
+    },
+    {
+      "id": "gh-march-2024-c7",
+      "choice": "supported",
+      "rationale": "The report explicitly connects manual configuration correction with successful full rollback and restoration.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "sha256": "2941064cc8eb986645c1c19365ca65f2fcef7f81ebe2e596b878d476ed5e724f"
+        }
+      ]
+    },
+    {
+      "id": "gh-march-2024-c8",
+      "choice": "contradicted",
+      "rationale": "Rollback failed in one data center and manual intervention was required before full rollback succeeded.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "sha256": "2941064cc8eb986645c1c19365ca65f2fcef7f81ebe2e596b878d476ed5e724f"
+        }
+      ]
+    },
+    {
+      "id": "gh-march-2024-c9",
+      "choice": "not_established",
+      "rationale": "The report establishes manual intervention, but does not name the operator or their role.",
+      "evidence_spans": [
+        {
+          "block": 4,
+          "sha256": "2941064cc8eb986645c1c19365ca65f2fcef7f81ebe2e596b878d476ed5e724f"
+        }
+      ]
+    }
+  ],
+  "human_entries": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "source_cautions": {
+    "gh-february-2024": "The retained combined section has inconsistent incident dates and durations. No claim uses those inconsistent facts; no source text was repaired."
+  },
+  "preparation": "Same-assistant controlled claims after a preserved layout-audit failure; before new model outcomes."
+}
