@@ -1,5 +1,7 @@
 # Jev public operations experiments
 
+Latest: [explicit incident selection](docs/incident-scope.md) completes 54 calls without improving correct displayed coverage. Inspect `/incident-scope` for the three inputs and retained failures.
+
 I am testing where Jev can help operations analysts: selecting investigation leads, assessing evidence and checking written claims against public telemetry. The app exposes the measurements, exact requests, actual responses, local ML scores and frozen review thresholds.
 
 The completed model evidence comes from controlled RCAEval Online Boutique, Sock Shop and Train Ticket faults. Each case supplies the injection boundary. These studies do not establish telecom readiness, anomaly detection or an operational error rate.

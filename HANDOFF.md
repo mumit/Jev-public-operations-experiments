@@ -1,6 +1,12 @@
 # Handoff: public operations experiments
 
-## Current continuation: publisher report comparison complete
+## Current continuation: explicit incident selection diagnostic complete
+
+Read docs/incident-scope.md and inspect /incident-scope. The user chose explicit analyst selection on 2026-10-07. A separately committed three-arm diagnostic made 54 once-only valid calls on the six inspected monthly-report claims. Full control and selected section each give nine correct displays, six wrong and three withheld. Selected full gives nine correct, three wrong and six withheld. Neither changes correct displayed coverage; the selected-section candidate fails every round. Preserve incident_scope features/data/scoring/trial and CLI, plan, selections, protocol, references and all replies. Zero actual analyst entries or independent reviews; selections are assistant fixtures.
+
+The section input moves the first-recovery claim to review but makes the unresolved-cause confirmation claim contradicted above 0.70 in every round. Those displays are wrong under the historical not_established reference. The user now chose judging the claim as written: a report-confirmation assertion is contradicted by an explicitly ongoing investigation. Freeze a new literal contract/reference version and fresh-control protocol; do not change historical references or claim a policy reclassification is a model gain. Inputs stay explicitly selected. This is inspected development; no telemetry or new report allocation opens.
+
+## Earlier publisher report comparison
 
 Read docs/publisher-report-results.md and inspect /report-comparison. The source audit retains ten of twelve documents, preserving two related GitHub identity-check failures. Eight primary reports supply 48 frozen assistant-authored claims, exact evidence spans, a literal baseline, Jev and the sole rules-with-Jev candidate. The committed exact protocol permits 72 development and 72 conditional evaluation calls; all 144 calls completed once with valid replies. No telemetry opened.
 

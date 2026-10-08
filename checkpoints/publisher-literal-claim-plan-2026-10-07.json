@@ -1,0 +1,36 @@
+{
+  "schema": "publisher-literal-claim-plan-1",
+  "date": "2026-10-07",
+  "user_choice": "Judge the claim as written; explicit ongoing investigation contradicts an assertion that the report confirms the cause.",
+  "scope": "Six inspected claims, the same selected incident headers and section text as the completed scope diagnostic. Development only.",
+  "references": "New assistant-reviewed literal reference version. Change only gh-april-2023-c3 from not_established to contradicted, preserving its evidence spans. Historical references and results stay frozen. No independent review.",
+  "arms": {
+    "legacy": "Byte-identical selected-section request from completed scope diagnostic, with fresh replies.",
+    "literal": "Same state and model, explicit literal-claim instructions and criteria. No rewriting of claims or source text."
+  },
+  "comparison_target": "Both fresh arms are scored against the new literal references. Legacy compatibility with the new task is not its historical score. Separately report how the old scope replies would classify under this new policy without describing reclassification as a model gain.",
+  "rounds": 3,
+  "calls_per_arm": 18,
+  "maximum_calls": 36,
+  "retry_count": 0,
+  "maximum_request_bytes": 16000,
+  "display_probability": 0.7,
+  "sole_candidate": "literal",
+  "criteria_per_round": {
+    "no_wrong_display": true,
+    "at_least_five_correct_displays": true,
+    "no_correct_display_losses_against_fresh_legacy": true,
+    "both_previous_error_claims_correct_displayed": [
+      "gh-april-2023-c1",
+      "gh-april-2023-c5"
+    ],
+    "confirmation_claim_correctly_displayed": "gh-april-2023-c3"
+  },
+  "limits": "These six new literal references include supported and contradicted, but no not_established examples. This diagnostic cannot validate all three classes or broader transfer. New reports and all three reference classes are required for confirmation.",
+  "preservation": "Commit plan, new reference version and producers, then exact protocol/request hashes before inference. Preserve old references/protocol/replies.",
+  "failure_policy": "Global checkpoint/envelope/context/network/HTTP errors stop once. Retain invalid fields and full denominators. No retries or repairs.",
+  "publication": "Full reports and full-text requests stay local. Public answers, usage, hashes and summaries only.",
+  "new_telemetry_recordings": 0,
+  "human_entries": 0,
+  "independent_reviews": 0
+}

@@ -1,3 +1,5 @@
+The [explicit-selection follow-up](incident-scope.md) adds no correct displayed judgments. Its unresolved-cause disagreement also exposes a verdict-definition issue: an assertion that a report confirms a cause differs from the cause itself. The next contract judges the claim literally, with separate references and fresh controls. Completed scores remain unchanged.
+
 # Where Jev fits, and what remains
 
 Explicit claim entry removes automatic report interpretation from this task. Jev checks every development claim correctly after code supplies eligibility and arithmetic. The exact evaluator produces the same verdicts without a model call. The current evidence therefore favors the exact evaluator for this fixed numerical policy. Jev's additional value to an analyst remains unmeasured.

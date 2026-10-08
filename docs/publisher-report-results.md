@@ -59,11 +59,11 @@ A higher threshold would conceal observed errors by changing coverage on inspect
 
 The sample is small and purposive. All sources were inspected during the audit, the reports may appear in pretraining, and postmortems contain hindsight. The assistant wrote the claims and reviewed the references. Passing development and failing evaluation are research results on this bounded task, not live triage accuracy, production reliability or telecom readiness.
 
-## The next experiment needs an incident-selection contract
+## Follow-up: explicit incident selection
 
-The recommended next input would contain the claim, the report-wide introduction and one explicitly selected incident section. That is a proposed transformation, not a measured improvement. A separate frozen comparison should use fresh full-report controls and the scoped input, preserve the claim meanings and references, and report gains and losses on every claim. Testing on this already inspected monthly report would be a development diagnostic, followed by confirmation on new incident groups.
+The user selected explicit analyst incident selection on October 7. The [separate scope diagnostic](incident-scope.md) compares fresh full-report calls, a selection field with the full report and the selected incident section. It is now complete and fails: correct displayed coverage stays unchanged, while narrowing the input makes the unresolved-cause confirmation claim more confident under the historical policy.
 
-The workflow choice is who supplies the incident selection: the analyst, or a deterministic date-matching step. Analyst selection gives the model an explicit scope but adds an entry field. Automatic selection adds another interpretation step that needs its own error handling, especially when dates are absent or contradictory. Neither choice is silently applied to the completed results.
+That disagreement distinguishes judging a claim about what a report confirms from judging whether its underlying cause is established. The user selected literal claim judgment for the next diagnostic. Historical references and scores stay unchanged; a separate contract, reference version and protocol must precede further calls.
 
 ## Inspect and replay
 
