@@ -1,0 +1,1530 @@
+{
+  "schema": "publisher-literal-claim-results-1",
+  "actual_calls": 36,
+  "valid_answers": 36,
+  "input_tokens": 30204,
+  "protocol_sha256": "a2683c73559746d5b25a580acbba132993063f3f3730f7ca5382dea07088b723",
+  "human_entries": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "new_telemetry_recordings": 0,
+  "historical_reply_reclassification": {
+    "new_calls": 0,
+    "meaning": "Policy reclassification only, not a measured model gain.",
+    "correct_choice": 12,
+    "correct_display": 12,
+    "wrong_display": 3,
+    "withheld": 3
+  },
+  "outcomes": [
+    {
+      "id": "gh-april-2023-c1",
+      "topic": "service_impact",
+      "arm": "legacy",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.63
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "topic": "service_impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.6868686868686869
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "topic": "service_impact",
+      "arm": "legacy",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "topic": "service_impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "topic": "cause_certainty",
+      "arm": "legacy",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.73
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "topic": "cause_certainty",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "topic": "cause_certainty",
+      "arm": "legacy",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "topic": "cause_certainty",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "topic": "recovery_scope",
+      "arm": "legacy",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.46
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "topic": "recovery_scope",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.49
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "topic": "recovery_scope",
+      "arm": "legacy",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "topic": "recovery_scope",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.82
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "topic": "service_impact",
+      "arm": "legacy",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.82
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "topic": "service_impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.67
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "topic": "service_impact",
+      "arm": "legacy",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "topic": "service_impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "topic": "cause_certainty",
+      "arm": "legacy",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.73
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "topic": "cause_certainty",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "topic": "cause_certainty",
+      "arm": "legacy",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "topic": "cause_certainty",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "topic": "recovery_scope",
+      "arm": "legacy",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.5
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "topic": "recovery_scope",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.44
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "topic": "recovery_scope",
+      "arm": "legacy",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.85
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "topic": "recovery_scope",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "topic": "service_impact",
+      "arm": "legacy",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.72
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c1",
+      "topic": "service_impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.53
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "topic": "service_impact",
+      "arm": "legacy",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c2",
+      "topic": "service_impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "topic": "cause_certainty",
+      "arm": "legacy",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.73
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c3",
+      "topic": "cause_certainty",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "topic": "cause_certainty",
+      "arm": "legacy",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c4",
+      "topic": "cause_certainty",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "topic": "recovery_scope",
+      "arm": "legacy",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.47
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c5",
+      "topic": "recovery_scope",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.56
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "topic": "recovery_scope",
+      "arm": "legacy",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.85
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "gh-april-2023-c6",
+      "topic": "recovery_scope",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    }
+  ],
+  "panels": [
+    {
+      "arm": "legacy",
+      "round": 1,
+      "topic": "all",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 2
+    },
+    {
+      "arm": "legacy",
+      "round": 1,
+      "topic": "service_impact",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "legacy",
+      "round": 1,
+      "topic": "cause_certainty",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "legacy",
+      "round": 1,
+      "topic": "recovery_scope",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "topic": "all",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 2
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "topic": "service_impact",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "topic": "cause_certainty",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "topic": "recovery_scope",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "legacy",
+      "round": 2,
+      "topic": "all",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 1,
+      "withheld": 1
+    },
+    {
+      "arm": "legacy",
+      "round": 2,
+      "topic": "service_impact",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "arm": "legacy",
+      "round": 2,
+      "topic": "cause_certainty",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "legacy",
+      "round": 2,
+      "topic": "recovery_scope",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "topic": "all",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 2
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "topic": "service_impact",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "topic": "cause_certainty",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "topic": "recovery_scope",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "legacy",
+      "round": 3,
+      "topic": "all",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 1,
+      "withheld": 1
+    },
+    {
+      "arm": "legacy",
+      "round": 3,
+      "topic": "service_impact",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "arm": "legacy",
+      "round": 3,
+      "topic": "cause_certainty",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "legacy",
+      "round": 3,
+      "topic": "recovery_scope",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "topic": "all",
+      "claims": 6,
+      "valid": 6,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 2
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "topic": "service_impact",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "topic": "cause_certainty",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 2,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "topic": "recovery_scope",
+      "claims": 2,
+      "valid": 2,
+      "correct_choice": 1,
+      "correct_display": 1,
+      "wrong_display": 0,
+      "withheld": 1
+    }
+  ],
+  "paired": [
+    {
+      "round": 1,
+      "gains": [],
+      "losses": []
+    },
+    {
+      "round": 2,
+      "gains": [],
+      "losses": []
+    },
+    {
+      "round": 3,
+      "gains": [],
+      "losses": []
+    }
+  ],
+  "gates": [
+    {
+      "round": 1,
+      "criteria": {
+        "no_wrong_display": true,
+        "at_least_five_correct_displays": false,
+        "no_correct_display_losses": true,
+        "both_previous_error_claims_correctly_displayed": false,
+        "confirmation_claim_correctly_displayed": true
+      },
+      "passes": false
+    },
+    {
+      "round": 2,
+      "criteria": {
+        "no_wrong_display": true,
+        "at_least_five_correct_displays": false,
+        "no_correct_display_losses": true,
+        "both_previous_error_claims_correctly_displayed": false,
+        "confirmation_claim_correctly_displayed": true
+      },
+      "passes": false
+    },
+    {
+      "round": 3,
+      "criteria": {
+        "no_wrong_display": true,
+        "at_least_five_correct_displays": false,
+        "no_correct_display_losses": true,
+        "both_previous_error_claims_correctly_displayed": false,
+        "confirmation_claim_correctly_displayed": true
+      },
+      "passes": false
+    }
+  ],
+  "candidate": "literal",
+  "complete_evidence": true,
+  "candidate_passes": false
+}
