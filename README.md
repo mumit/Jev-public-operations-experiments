@@ -1,6 +1,6 @@
 # Jev public operations experiments
 
-Latest: [literal claim definitions](docs/literal-claims.md) complete 36 calls with twelve correct displays, no wrong displays and six withheld answers. Coverage still fails the frozen gate. Inspect `/literal-claims` and the [scope comparison](docs/incident-scope.md) for the exact changes.
+Latest: [new-report selective confirmation](docs/selective-reports.md) passes on 27 controlled claims across three monthly reports and all three verdict classes. Literal displays 81/81 repeated judgments correctly; legacy displays 78/81 with no wrong answer. Inspect `/selective-reports`. The earlier [literal](docs/literal-claims.md) and [scope](docs/incident-scope.md) coverage failures stay recorded.
 
 I am testing where Jev can help operations analysts: selecting investigation leads, assessing evidence and checking written claims against public telemetry. The app exposes the measurements, exact requests, actual responses, local ML scores and frozen review thresholds.
 

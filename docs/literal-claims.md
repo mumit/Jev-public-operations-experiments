@@ -41,11 +41,11 @@ Reclassifying the eighteen earlier selected-section replies against the new lite
 
 That is a change in the task’s reference definition. The fresh paired comparison above measures the instruction change under one fixed new task. Keeping the two effects separate prevents an apparent accuracy gain caused only by changing what counts as correct.
 
-## Next study
+## New-report follow-up
 
-The user selected confirmation of this selective behavior on new reports and all three verdict classes. That study needs a prospective source allocation, new literal claims and references, exact frozen requests and its own call budget. It will keep the literal instructions and 0.70 threshold fixed.
+The selected follow-up is complete: [new-report confirmation](selective-reports.md) covers all three verdict classes on 27 controlled claims from three new monthly reports. Literal displays 81/81 repeated judgments correctly; legacy displays 78/81, with zero wrong displays in both. Every new selective gate passes, but there is no observed control error to prevent.
 
-The earlier candidate’s failure remains recorded. A new selective objective must declare its coverage requirement before source access and cannot claim the old five-of-six gate passed. Fresh reports will remain publisher-authored; assistant-written references still lack independent specialist review. Reports may occur in pretraining and contain hindsight, so even successful confirmation would not establish live triage readiness.
+That new objective and panel do not change this diagnostic's failed five-of-six requirement. Reports remain publisher-authored, claims/references remain assistant-controlled, and neither study establishes live triage readiness.
 
 ## Inspect and replay
 

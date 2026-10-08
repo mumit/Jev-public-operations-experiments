@@ -43,3 +43,5 @@ The selected optional assistant gives a more useful application diagnostic: gati
 Before any telecom pilot, representative telemetry, operational policies and independently reviewed references are still needed. Public application faults do not establish RAN, field-service or NOC reliability.
 
 The earlier [complete-workflow study](full-workflow.md) remains relevant: correctly accepted claims receive correct numerical verdicts, while automatic extraction creates five unsafe displays. A verdict cannot validate a sentence whose subject or meaning was interpreted incorrectly. That is why numerical checking and report interpretation need separate evidence.
+
+The [new-report confirmation](selective-reports.md) passes all three verdict classes on 27 controlled claims from three monthly reports. Literal gives 81 correct displays versus legacy 78, with zero wrong displays in both. The gain repeats one missing-fact claim; it does not establish lower error rates, independent reference agreement or live incident recommendations.
