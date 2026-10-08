@@ -63,7 +63,7 @@ The sample is small and purposive. All sources were inspected during the audit, 
 
 The user selected explicit analyst incident selection on October 7. The [separate scope diagnostic](incident-scope.md) compares fresh full-report calls, a selection field with the full report and the selected incident section. It is now complete and fails: correct displayed coverage stays unchanged, while narrowing the input makes the unresolved-cause confirmation claim more confident under the historical policy.
 
-That disagreement distinguishes judging a claim about what a report confirms from judging whether its underlying cause is established. The user selected literal claim judgment for the next diagnostic. Historical references and scores stay unchanged; a separate contract, reference version and protocol must precede further calls.
+That disagreement distinguishes judging a claim about what a report confirms from judging whether its underlying cause is established. The user selected literal claim judgment for the subsequent [definition diagnostic](literal-claims.md). That comparison and its [new-report follow-up](selective-reports.md) are complete under separate protocols. Historical references and scores stay unchanged.
 
 ## Inspect and replay
 

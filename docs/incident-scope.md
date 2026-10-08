@@ -52,13 +52,13 @@ The April 26 claim says the report confirms Copilot’s contributing factors. Th
 
 These count as wrong displays under the frozen reference policy. However, the claim describes what the report confirms, not simply whether the cause is known. Contradicted is a reasonable literal reading when the report explicitly defers that confirmation. The disagreement cannot by itself establish that Jev misunderstands the report.
 
-The user has now selected literal judgment of the claim as written for the next experiment. That new definition will mark this confirmation claim contradicted. It will not rewrite the completed results or turn their old wrong-display counts into measured improvements.
+The subsequent literal comparison follows the user’s claim-as-written choice and marks this confirmation claim contradicted. It preserves these completed results; old-score reclassification is not a measured model improvement.
 
 ## What follows
 
 Incident selection remains a useful way to make the task scope explicit, but this experiment provides no displayed-accuracy gain from it. Shorter input also does not guarantee a better judgment. Model probabilities do not settle an ambiguous reference definition.
 
-The [separate literal-definition comparison](literal-claims.md) is now complete. It holds state fixed, reduces wrong displays by withholding and adds no correct displayed judgment. Its coverage gate also fails. The user selected confirmation of selective behavior on new reports and all three verdict classes. Changes on these inspected cases remain development findings; later confirmation needs new reports and all three verdict classes.
+The [separate literal-definition comparison](literal-claims.md) is now complete. It holds state fixed, reduces wrong displays by withholding and adds no correct displayed judgment. Its coverage gate also fails. The selected [new-report confirmation](selective-reports.md) is also complete and passes its separate selective objective across all three verdict classes. That result does not change either earlier failed coverage gate.
 
 ## Inspect and replay
 

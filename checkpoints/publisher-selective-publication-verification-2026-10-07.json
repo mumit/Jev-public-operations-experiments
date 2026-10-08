@@ -1,0 +1,53 @@
+{
+  "schema": "publisher-selective-publication-verification-1",
+  "date": "2026-10-07",
+  "releases": [
+    {
+      "tag": "incident-scope-v1",
+      "url": "https://github.com/mumit/Jev-public-operations-experiments/releases/tag/incident-scope-v1",
+      "bytes": 5664,
+      "sha256": "7d626a934ec247409dfc7d14deac2f63ad0b681e2c23f25bd9ad65f4ac513408",
+      "github_digest_matches": true
+    },
+    {
+      "tag": "literal-claim-v1",
+      "url": "https://github.com/mumit/Jev-public-operations-experiments/releases/tag/literal-claim-v1",
+      "bytes": 3756,
+      "sha256": "7850092a0c52b375d4d59ea9befa028d186d625a45d0aa4302263152dc7cea92",
+      "github_digest_matches": true
+    },
+    {
+      "tag": "selective-reports-v1",
+      "url": "https://github.com/mumit/Jev-public-operations-experiments/releases/tag/selective-reports-v1",
+      "bytes": 20866,
+      "sha256": "9a1c97dc51057942469c93f1b8648b2642e8ab2c335ac90e65f8118db0e48cba",
+      "github_digest_matches": true
+    }
+  ],
+  "clean_checkout_commit": "a6075f8531fc8066faba75aae9f4d86ea92abf93",
+  "restored_asset_count": 37,
+  "restored_files": 1298,
+  "recorded_provider_responses": 16696,
+  "clean_python_tests": 475,
+  "local_python_tests": 475,
+  "browser_script_syntax_checks": 38,
+  "clean_publisher_text_replay_calls": 396,
+  "full_local_source_request_replay_calls": 396,
+  "prior_full_ambiguity_chain": "verified",
+  "original_evidence_and_pack_validators": "verified",
+  "clean_checkout_has_credentials": false,
+  "clean_checkout_has_publisher_snapshots": false,
+  "clean_checkout_has_full_text_requests": false,
+  "publication_identity_and_credential_scans": "passed",
+  "new_inference_during_verification": 0,
+  "browser_checks": [
+    "report selection and nine claims per report",
+    "all three verdict classes and per-report gates",
+    "reference hiding and reset",
+    "recorded rounds",
+    "exact input allowlist",
+    "contextual formatted return links",
+    "earlier scope scores and literal/historical reference separation"
+  ],
+  "boundary": "Public replay verifies provider payloads, fixed rule projections and gates. Exact full-text reconstruction requires retained matching snapshots. References are same-assistant controlled annotations."
+}
