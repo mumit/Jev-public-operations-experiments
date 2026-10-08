@@ -445,3 +445,15 @@ uv run --locked --extra public-data python -m scripts.verify_incident_scope
 ```
 
 The section candidate fails every round, with no correct displayed gains over the full report. Public replay preserves the historical not_established policy for the confirmation claim. Any subsequent literal-policy comparison has separate references and evidence. Full reports, full-text requests and private participant records stay excluded. Public replay uses frozen rule projections; source and wire replay additionally require matching local snapshots.
+
+## Literal-claim definition diagnostic
+
+[literal-claim-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/literal-claim-v1) adds two files and 36 actual replies. Restore publisher-reports-v1 and incident-scope-v1 first. The archive contains 3,756 bytes with SHA-256 `7850092a0c52b375d4d59ea9befa028d186d625a45d0aa4302263152dc7cea92`. All thirty-six assets preserve 16,534 provider responses in 1,296 files.
+
+```bash
+gh release download literal-claim-v1 --repo mumit/Jev-public-operations-experiments --pattern literal-claim-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/literal-claim-v1.tar.gz --manifest evidence/literal-claim-v1.json
+uv run --locked --extra public-data python -m scripts.verify_literal_claim
+```
+
+Both fresh arms are scored against the separate literal reference version. Literal gives twelve correct displays, zero wrong and six withheld; legacy gives twelve, two and four. The candidate fails coverage. Historical reference reclassification is reported separately and adds no response or model gain. Original scores remain unchanged. Full reports, full-text requests and private participant records stay excluded.
