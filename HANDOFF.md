@@ -2,7 +2,11 @@
 
 ## Current continuation: report-knowledge development
 
-The user selected the focused controlled diagnostic on 2026-10-08. The new plan compares unchanged literal controls with a question-only report-knowledge definition on all 27 inspected transfer claims and three companions. Freeze sources/annotations, pack and 180 exact requests before calls. All 27 historical references stay unchanged. The candidate must correct and display the original failure and every companion in each round, with no ordinary choice/display loss or wrong display. A failed development gate prevents new confirmation source allocation/access. Only complete committed success permits a separately frozen new-report study. No protected telemetry opens.
+Read docs/report-knowledge.md and inspect /report-knowledge. The 180-call development is complete: report knowledge chooses 90/90 correctly, displays 85 correctly, zero wrongly and withholds five. Literal chooses 87/90 correctly, displays 87 correctly, one wrongly and withholds two. The original failure is corrected/displayed at 0.99 in all rounds, but two other distinct claims lose five correct displays. Four of twelve gates pass; the candidate fails. New-report confirmation remains unallocated and unopened under this plan.
+
+Preserve report_knowledge features/data/scoring/trial/CLI, annotations, plan, pack, exact protocol and results. All 27 historical references are unchanged; three companions are assistant-written development. No correct choice loss occurs. Do not tune the threshold, rerun this protocol or substitute a candidate. The next step needs a new diagnostic choice or a prospective analyst display objective. Human entries/independent reviews remain zero; protected telemetry stays unopened.
+
+The report-knowledge-v1 answer-only supplement adds 180 replies in two files. The full publisher-text replay verifies 738 calls. All thirty-nine assets preserve 17,038 provider responses in 1,302 files. Restore all five preceding text bundles first; see docs/evidence.md.
 
 ## Completed whole-report transfer
 

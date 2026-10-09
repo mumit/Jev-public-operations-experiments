@@ -481,3 +481,15 @@ uv run --locked --extra public-data python -m scripts.verify_cross_reports
 ```
 
 The public text chain replays 558 replies with zero inference. The literal candidate passes every selective gate, preserving 78 correct displays and withholding the same repeated wrong choice that legacy displays three times. Source and reference hashes, complete denominators, payload validation, fixed rule projections and historical failures remain verifiable. Full publisher reports and full-text requests stay local; reconstructing source extraction, exact wire bodies and rules requires those retained snapshots. Private participant records remain excluded.
+
+## Report-knowledge development supplement
+
+[report-knowledge-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/report-knowledge-v1) adds two answer-only files and 180 original replies. Restore publisher-reports-v1, incident-scope-v1, literal-claim-v1, selective-reports-v1 and cross-reports-v1 first. Full publisher text and full-text requests stay local. The 22,501-byte archive has SHA-256 `53a248038289f4c155000eabb9524421b43d3b8e98015f8988e17da537e0705e`. All thirty-nine assets preserve 17,038 provider responses in 1,302 files.
+
+```bash
+gh release download report-knowledge-v1 --repo mumit/Jev-public-operations-experiments --pattern report-knowledge-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/report-knowledge-v1.tar.gz --manifest evidence/report-knowledge-v1.json
+uv run --locked --extra public-data python -m scripts.verify_report_knowledge
+```
+
+The publisher-text chain verifies 738 saved calls without inference. Public replay verifies answer payloads, fixed rule projections, fingerprints, complete denominators and gates. It preserves the failed development result; restoration does not unlock fresh confirmation sources.

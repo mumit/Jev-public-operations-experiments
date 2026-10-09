@@ -1,6 +1,6 @@
 # Jev public operations experiments
 
-Latest: [whole-report transfer](docs/cross-reports.md) passes selective checks on 27 controlled claims from three Cloudflare reports. Both inputs display 78/81 correctly; literal withholds three repeated wrong judgments that legacy displays. Choice accuracy stays 78/81. Inspect `/cross-reports`. The [new-report confirmation](docs/selective-reports.md) and earlier [literal](docs/literal-claims.md)/[scope](docs/incident-scope.md) coverage failures stay recorded.
+Latest: [report-knowledge diagnostic](docs/report-knowledge.md) corrects the earlier interpretation error but fails coverage: 90/90 correct choices, 85/90 correct displays and five withheld versus the literal control’s 87 correct displays and one wrong. Inspect `/report-knowledge`. New-report confirmation remains unopened; [earlier transfer](docs/cross-reports.md) and all historical outcomes stay frozen.
 
 I am testing where Jev can help operations analysts: selecting investigation leads, assessing evidence and checking written claims against public telemetry and publisher reports. The app exposes the measurements, exact requests, actual responses, local ML scores and frozen review thresholds.
 
@@ -64,6 +64,7 @@ A fresh clone includes source, reports and checkpoints. Restore the versioned [p
 
 ## Read and inspect
 
+- [Report-knowledge diagnostic](docs/report-knowledge.md): exact instruction change, corrected interpretation, five lost displays and failed confirmation gate.
 - [Whole-report transfer](docs/cross-reports.md): fixed input, longer sources, one repeated error withheld, complete text inspection and the next workflow input.
 - [New-report confirmation](docs/selective-reports.md): all three verdict classes, coverage gains and preserved preparation failure.
 
