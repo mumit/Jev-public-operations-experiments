@@ -1,0 +1,7497 @@
+{
+  "schema": "publisher-knowledge-development-results-1",
+  "actual_calls": 180,
+  "valid_answers": 180,
+  "input_tokens": 952146,
+  "protocol_sha256": "2ebc5d43d4d477cb56b1f29460918e099c524d8d59ba2e2d2294c28abbbf2741",
+  "human_entries": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0,
+  "new_telemetry_recordings": 0,
+  "outcomes": [
+    {
+      "id": "cf-power-2024-c1",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c1",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c2",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c2",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c3",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c3",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c4",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c4",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c5",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.64
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c5",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c6",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c6",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.81
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c7",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c7",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c8",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c8",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c9",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c9",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.88
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c1",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c1",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c2",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c2",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c3",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c3",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c4",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c4",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c5",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c5",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c6",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.75
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c6",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.63
+      },
+      "correct_choice": true,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c7",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.76
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c7",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.93
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c8",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c8",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c9",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c9",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c1",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c1",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c2",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c2",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c3",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c3",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c4",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c4",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c5",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c5",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c6",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c6",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.8
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c7",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c7",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c8",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c8",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c9",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c9",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c10",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c10",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.63
+      },
+      "correct_choice": true,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c11",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.93
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c11",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c12",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9400000000000001
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c12",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 1,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c1",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c1",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c2",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c2",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c3",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c3",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c4",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c4",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c5",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.71
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": true,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c5",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c6",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c6",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.84
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c7",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c7",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c8",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c8",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c9",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c9",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.78
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c1",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c1",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c2",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c2",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c3",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c3",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c4",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c4",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c5",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.95
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c5",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c6",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.79
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c6",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.69
+      },
+      "correct_choice": true,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c7",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.72
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c7",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.88
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c8",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c8",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c9",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c9",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c1",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c1",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c2",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c2",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c3",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c3",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c4",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c4",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c5",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c5",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c6",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c6",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.79
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c7",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.88
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c7",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c8",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c8",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c9",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c9",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c10",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c10",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.65
+      },
+      "correct_choice": true,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c11",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c11",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c12",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.91
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c12",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 2,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c1",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c1",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c2",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c2",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c3",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c3",
+      "source_id": "cf-power-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c4",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c4",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c5",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.6900000000000001
+      },
+      "correct_choice": false,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c5",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c6",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c6",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.82
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c7",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c7",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c8",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c8",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c9",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c9",
+      "source_id": "cf-power-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.84
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c1",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c1",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c2",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c2",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c3",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c3",
+      "source_id": "cf-june20-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c4",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c4",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c5",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.9400000000000001
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c5",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c6",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.8
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c6",
+      "source_id": "cf-june20-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": false,
+        "reason": "below_fixed_boundary",
+        "probability": 0.63
+      },
+      "correct_choice": true,
+      "correct_display": false,
+      "wrong_display": false,
+      "withheld": true,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c7",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.76
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c7",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.89
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c8",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c8",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c9",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-june20-2024-c9",
+      "source_id": "cf-june20-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c1",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c1",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c2",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c2",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c3",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c3",
+      "source_id": "cf-dns27-2024",
+      "topic": "impact",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c4",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c4",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c5",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c5",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c6",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.97
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c6",
+      "source_id": "cf-dns27-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.82
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c7",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.87
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c7",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.93
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c8",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.92
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c8",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c9",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.99
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-dns27-2024-c9",
+      "source_id": "cf-dns27-2024",
+      "topic": "recovery",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c10",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.96
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c10",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "not_established",
+      "prediction": {
+        "valid": true,
+        "choice": "not_established",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.72
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c11",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.93
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c11",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "supported",
+      "prediction": {
+        "valid": true,
+        "choice": "supported",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.98
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c12",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "literal",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 0.94
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    },
+    {
+      "id": "cf-power-2024-c12",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "arm": "knowledge",
+      "round": 3,
+      "reference": "contradicted",
+      "prediction": {
+        "valid": true,
+        "choice": "contradicted",
+        "displayed": true,
+        "reason": "eligible",
+        "probability": 1.0
+      },
+      "correct_choice": true,
+      "correct_display": true,
+      "wrong_display": false,
+      "withheld": false,
+      "valid": true,
+      "literal_rule": {
+        "valid": true,
+        "choice": null,
+        "displayed": false,
+        "reason": "no_literal_match",
+        "matched_blocks": []
+      },
+      "rule_outcome": {
+        "correct_choice": false,
+        "correct_display": false,
+        "wrong_display": false,
+        "withheld": true,
+        "valid": true
+      }
+    }
+  ],
+  "panels": [
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "all",
+      "reference_class": "all",
+      "claims": 30,
+      "valid": 30,
+      "correct_choice": 29,
+      "correct_display": 29,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "all",
+      "reference_class": "supported",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "all",
+      "reference_class": "contradicted",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "all",
+      "reference_class": "not_established",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-power-2024",
+      "reference_class": "all",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-power-2024",
+      "reference_class": "supported",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-power-2024",
+      "reference_class": "contradicted",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-power-2024",
+      "reference_class": "not_established",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-june20-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-june20-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-june20-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-june20-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 1,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "all",
+      "reference_class": "all",
+      "claims": 30,
+      "valid": 30,
+      "correct_choice": 30,
+      "correct_display": 28,
+      "wrong_display": 0,
+      "withheld": 2
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "all",
+      "reference_class": "supported",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "all",
+      "reference_class": "contradicted",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "all",
+      "reference_class": "not_established",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 2
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-power-2024",
+      "reference_class": "all",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 12,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-power-2024",
+      "reference_class": "supported",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-power-2024",
+      "reference_class": "contradicted",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-power-2024",
+      "reference_class": "not_established",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-june20-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-june20-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-june20-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-june20-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 1,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "all",
+      "reference_class": "all",
+      "claims": 30,
+      "valid": 30,
+      "correct_choice": 29,
+      "correct_display": 29,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "all",
+      "reference_class": "supported",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "all",
+      "reference_class": "contradicted",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "all",
+      "reference_class": "not_established",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-power-2024",
+      "reference_class": "all",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-power-2024",
+      "reference_class": "supported",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-power-2024",
+      "reference_class": "contradicted",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 1,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-power-2024",
+      "reference_class": "not_established",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-june20-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-june20-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-june20-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-june20-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 2,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "all",
+      "reference_class": "all",
+      "claims": 30,
+      "valid": 30,
+      "correct_choice": 30,
+      "correct_display": 28,
+      "wrong_display": 0,
+      "withheld": 2
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "all",
+      "reference_class": "supported",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "all",
+      "reference_class": "contradicted",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "all",
+      "reference_class": "not_established",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 2
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-power-2024",
+      "reference_class": "all",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 12,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-power-2024",
+      "reference_class": "supported",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-power-2024",
+      "reference_class": "contradicted",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-power-2024",
+      "reference_class": "not_established",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-june20-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-june20-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-june20-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-june20-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 2,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "all",
+      "reference_class": "all",
+      "claims": 30,
+      "valid": 30,
+      "correct_choice": 29,
+      "correct_display": 29,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "all",
+      "reference_class": "supported",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "all",
+      "reference_class": "contradicted",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "all",
+      "reference_class": "not_established",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-power-2024",
+      "reference_class": "all",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 11,
+      "correct_display": 11,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-power-2024",
+      "reference_class": "supported",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-power-2024",
+      "reference_class": "contradicted",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-power-2024",
+      "reference_class": "not_established",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-june20-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-june20-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-june20-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-june20-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "literal",
+      "round": 3,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "all",
+      "reference_class": "all",
+      "claims": 30,
+      "valid": 30,
+      "correct_choice": 30,
+      "correct_display": 29,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "all",
+      "reference_class": "supported",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "all",
+      "reference_class": "contradicted",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 10,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "all",
+      "reference_class": "not_established",
+      "claims": 10,
+      "valid": 10,
+      "correct_choice": 10,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-power-2024",
+      "reference_class": "all",
+      "claims": 12,
+      "valid": 12,
+      "correct_choice": 12,
+      "correct_display": 12,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-power-2024",
+      "reference_class": "supported",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-power-2024",
+      "reference_class": "contradicted",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-power-2024",
+      "reference_class": "not_established",
+      "claims": 4,
+      "valid": 4,
+      "correct_choice": 4,
+      "correct_display": 4,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-june20-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 8,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-june20-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-june20-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-june20-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 2,
+      "wrong_display": 0,
+      "withheld": 1
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "all",
+      "claims": 9,
+      "valid": 9,
+      "correct_choice": 9,
+      "correct_display": 9,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "supported",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "contradicted",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    },
+    {
+      "arm": "knowledge",
+      "round": 3,
+      "source_id": "cf-dns27-2024",
+      "reference_class": "not_established",
+      "claims": 3,
+      "valid": 3,
+      "correct_choice": 3,
+      "correct_display": 3,
+      "wrong_display": 0,
+      "withheld": 0
+    }
+  ],
+  "paired": [
+    {
+      "round": 1,
+      "choice_gains": [
+        "cf-power-2024-c5"
+      ],
+      "choice_losses": [],
+      "gains": [
+        "cf-power-2024-c5"
+      ],
+      "losses": [
+        "cf-june20-2024-c6",
+        "cf-power-2024-c10"
+      ],
+      "control_wrong_displays": 0
+    },
+    {
+      "round": 2,
+      "choice_gains": [
+        "cf-power-2024-c5"
+      ],
+      "choice_losses": [],
+      "gains": [
+        "cf-power-2024-c5"
+      ],
+      "losses": [
+        "cf-june20-2024-c6",
+        "cf-power-2024-c10"
+      ],
+      "control_wrong_displays": 1
+    },
+    {
+      "round": 3,
+      "choice_gains": [
+        "cf-power-2024-c5"
+      ],
+      "choice_losses": [],
+      "gains": [
+        "cf-power-2024-c5"
+      ],
+      "losses": [
+        "cf-june20-2024-c6"
+      ],
+      "control_wrong_displays": 0
+    }
+  ],
+  "gates": [
+    {
+      "source_id": "all",
+      "round": 1,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": false,
+        "at_least_one_correct_choice_gain": true,
+        "original_failure_correctly_chosen_and_displayed": true,
+        "all_companions_correctly_chosen_and_displayed": false
+      },
+      "passes": false
+    },
+    {
+      "source_id": "cf-power-2024",
+      "round": 1,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": false,
+        "six_correct_displays_minimum": true,
+        "all_classes_correctly_displayed": true
+      },
+      "passes": false
+    },
+    {
+      "source_id": "cf-june20-2024",
+      "round": 1,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": false,
+        "six_correct_displays_minimum": true,
+        "all_classes_correctly_displayed": true
+      },
+      "passes": false
+    },
+    {
+      "source_id": "cf-dns27-2024",
+      "round": 1,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": true,
+        "six_correct_displays_minimum": true,
+        "all_classes_correctly_displayed": true
+      },
+      "passes": true
+    },
+    {
+      "source_id": "all",
+      "round": 2,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": false,
+        "at_least_one_correct_choice_gain": true,
+        "original_failure_correctly_chosen_and_displayed": true,
+        "all_companions_correctly_chosen_and_displayed": false
+      },
+      "passes": false
+    },
+    {
+      "source_id": "cf-power-2024",
+      "round": 2,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": false,
+        "six_correct_displays_minimum": true,
+        "all_classes_correctly_displayed": true
+      },
+      "passes": false
+    },
+    {
+      "source_id": "cf-june20-2024",
+      "round": 2,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": false,
+        "six_correct_displays_minimum": true,
+        "all_classes_correctly_displayed": true
+      },
+      "passes": false
+    },
+    {
+      "source_id": "cf-dns27-2024",
+      "round": 2,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": true,
+        "six_correct_displays_minimum": true,
+        "all_classes_correctly_displayed": true
+      },
+      "passes": true
+    },
+    {
+      "source_id": "all",
+      "round": 3,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": false,
+        "at_least_one_correct_choice_gain": true,
+        "original_failure_correctly_chosen_and_displayed": true,
+        "all_companions_correctly_chosen_and_displayed": true
+      },
+      "passes": false
+    },
+    {
+      "source_id": "cf-power-2024",
+      "round": 3,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": true,
+        "six_correct_displays_minimum": true,
+        "all_classes_correctly_displayed": true
+      },
+      "passes": true
+    },
+    {
+      "source_id": "cf-june20-2024",
+      "round": 3,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": false,
+        "six_correct_displays_minimum": true,
+        "all_classes_correctly_displayed": true
+      },
+      "passes": false
+    },
+    {
+      "source_id": "cf-dns27-2024",
+      "round": 3,
+      "criteria": {
+        "complete_valid_evidence": true,
+        "no_wrong_displays": true,
+        "no_correct_choice_losses": true,
+        "no_correct_display_losses": true,
+        "six_correct_displays_minimum": true,
+        "all_classes_correctly_displayed": true
+      },
+      "passes": true
+    }
+  ],
+  "candidate": "knowledge",
+  "complete_evidence": true,
+  "candidate_passes": false
+}
