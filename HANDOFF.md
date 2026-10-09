@@ -8,6 +8,8 @@ Preserve report_knowledge features/data/scoring/trial/CLI, annotations, plan, pa
 
 The report-knowledge-v1 answer-only supplement adds 180 replies in two files. The full publisher-text replay verifies 738 calls. All thirty-nine assets preserve 17,038 provider responses in 1,302 files. Restore all five preceding text bundles first; see docs/evidence.md.
 
+Publication is verified in checkpoints/publisher-knowledge-publication-verification-2026-10-08.json. A separate checkout at 93903dc passes 499 tests, 39 browser checks and the 738-call text replay without credentials or publisher snapshots. All 1,302 restored hashes match; the public release checksum matches GitHub and a separate download. Main serves /report-knowledge on loopback port 8769.
+
 ## Completed whole-report transfer
 
 Read docs/cross-reports.md and inspect /cross-reports. The 162-call comparison on 27 controlled claims from three Cloudflare reports is complete. Literal gives 78/81 correct displays, zero wrong and three withheld; legacy gives 78/81 correct displays and three wrong. Both choose 78/81 correctly. Every selective gate passes. One report-establishment claim repeats the wrong not_established interpretation; literal lowers its probability below 0.70 without correcting it. No correct displayed gain or loss occurs. This is one distinct error repeated three times.
