@@ -51,3 +51,7 @@ The [whole-report transfer](cross-reports.md) passes the same selective checks o
 ## Report-knowledge development
 
 The 180-call controlled diagnostic corrects the report-establishment error and chooses 90/90 reference answers correctly. It displays 85 correctly, zero wrongly and withholds five; the literal control displays 87 correctly, one wrongly and withholds two. Five correct displays are lost on two distinct claims, so eight of twelve frozen gates fail. New-report confirmation remains unopened. [The report](report-knowledge.md) preserves the exact instruction change, development limits and remaining decision. Earlier results stay unchanged.
+
+## Accepted review-budget confirmation
+
+The [new prospective study](review-budget.md) passes all twelve checks with 25/27 correct displays, two reviews and no wrong display in every round. Both variants choose 81/81 correctly; literal displays 79 versus knowledge’s 75, so there is no error-rate comparison or measured advantage. All six candidate reviews repeat two not-established claims. Coverage in that class is 21/27, lower than the overall 75/81. Source-supported review is the next recommended mitigation; actual analyst benefit remains unmeasured. Earlier no-loss failures stay frozen.

@@ -1,6 +1,6 @@
 # Jev public operations experiments
 
-Latest: [report-knowledge diagnostic](docs/report-knowledge.md) corrects the earlier interpretation error but fails coverage: 90/90 correct choices, 85/90 correct displays and five withheld versus the literal control’s 87 correct displays and one wrong. Inspect `/report-knowledge`. New-report confirmation remains unopened; [earlier transfer](docs/cross-reports.md) and all historical outcomes stay frozen.
+Latest: [review-budget confirmation](docs/review-budget.md) passes the accepted objective: 25/27 correct displays, two reviews and no wrong display in every round. Both arms choose 81/81 correctly; literal displays 79 overall versus the candidate’s 75, so there is no comparative error reduction. Inspect `/review-budget`. The earlier [report-knowledge development](docs/report-knowledge.md) remains failed under its original no-loss gate.
 
 I am testing where Jev can help operations analysts: selecting investigation leads, assessing evidence and checking written claims against public telemetry and publisher reports. The app exposes the measurements, exact requests, actual responses, local ML scores and frozen review thresholds.
 
@@ -64,6 +64,7 @@ A fresh clone includes source, reports and checkpoints. Restore the versioned [p
 
 ## Read and inspect
 
+- [Accepted review-budget confirmation](docs/review-budget.md): fresh reports, every-round 90% floor/10% ceiling, two repeated unknowns and four display losses.
 - [Report-knowledge diagnostic](docs/report-knowledge.md): exact instruction change, corrected interpretation, five lost displays and failed confirmation gate.
 - [Whole-report transfer](docs/cross-reports.md): fixed input, longer sources, one repeated error withheld, complete text inspection and the next workflow input.
 - [New-report confirmation](docs/selective-reports.md): all three verdict classes, coverage gains and preserved preparation failure.

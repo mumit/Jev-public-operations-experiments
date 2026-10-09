@@ -2,7 +2,11 @@
 
 ## Current continuation: prospective review budget
 
-The user accepted up to one claim in ten sent to review on 2026-10-08. The new publisher-review-budget plan allocates three fixed 2025 Cloudflare reports before whole-source access. It retains report_knowledge_features, literal controls and 0.70 unchanged. All 27 prospective claims and references must freeze before 162 exact paired requests. Each round needs at least 25/27 correct displays, at most two reviews, no wrong displays and complete evidence. Every report must correctly display all three verdict classes. No telemetry opens. The earlier no-loss diagnostic remains failed; this is a new objective on fresh-to-protocol reports, with recorded discovery exposure.
+Read docs/review-budget.md and inspect /review-budget. The 162-call prospective confirmation is complete and passes all twelve checks. Knowledge displays 25/27 correctly in every round, reviews two and displays zero wrong. Both arms choose 81/81 correctly; literal displays 79 correctly/reviews two, knowledge displays 75/reviews six. Four correct displays are lost and none gained; there is no comparative error opportunity. All candidate withholding is in not_established: 21/27 displayed in that class, versus 27/27 for each other class. Two distinct claims repeat: named-customer attribution and per-project completion dates.
+
+Preserve review_budget audit/data/scoring/trial/CLI, plan, annotations, pack, exact protocol and replies. Full source/requests stay local. The new objective accepts review and preserves all earlier failed gates; no threshold or question producer changed. Discovery was exposed, controlled claims/references are assistant-written, and human/independent reviews remain zero. No protected telemetry opens. The next evidence-support mitigation needs a separate protocol and reference definition; authentic analyst usefulness or review-time benefit needs an actual workflow. No additional completed-protocol call or automatic answer substitution.
+
+The review-budget-v1 answer-only supplement adds 162 replies in two files. All forty assets preserve 17,200 provider responses in 1,304 files; the full publisher-text chain verifies 900 calls. Restore its six text-study predecessors first; see docs/evidence.md.
 
 ## Completed report-knowledge development
 

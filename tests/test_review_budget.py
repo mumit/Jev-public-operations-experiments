@@ -39,7 +39,7 @@ class ReviewBudgetTests(unittest.TestCase):
   rows=rows[1:];s=score(p,r,rows,True,b);self.assertFalse(s['candidate_passes'])
   with self.assertRaises(ValueError):score(p,r,rows+[rows[0]],True,b)
  def test_new_source_preparation_and_input_allowlist(self):
-  with patch.object(data,'committed'),patch.object(data.audit,'committed'):pack=data.prepare()
+  pack=data.load(data.PACK);data.packets(local=False)
   self.assertEqual(len(pack['claims']),27);self.assertEqual(len(pack['references']),27);self.assertEqual(pack['independent_reference_reviews'],0)
   packet=dict(pack['claims'][0]);packet.update(report='Full source',scoped_report='Full source',choice='SECRET',rationale='SECRET')
   a=request(packet,'literal');b=request(packet,'knowledge');self.assertEqual(a['state'],b['state']);self.assertNotIn('assertion_scope',json.loads(b['state']));self.assertNotIn('SECRET',b['state'])

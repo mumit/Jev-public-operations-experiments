@@ -493,3 +493,15 @@ uv run --locked --extra public-data python -m scripts.verify_report_knowledge
 ```
 
 The publisher-text chain verifies 738 saved calls without inference. Public replay verifies answer payloads, fixed rule projections, fingerprints, complete denominators and gates. It preserves the failed development result; restoration does not unlock fresh confirmation sources.
+
+## Accepted review-budget confirmation supplement
+
+[review-budget-v1](https://github.com/mumit/Jev-public-operations-experiments/releases/tag/review-budget-v1) adds two answer-only files and 162 original replies. Restore publisher-reports-v1, incident-scope-v1, literal-claim-v1, selective-reports-v1, cross-reports-v1 and report-knowledge-v1 first. Full reports and full-text requests remain local. The 20,052-byte archive has SHA-256 `5229b7324244d1ee892b51c24a2c54fad66b97ae7ef3763c8a927c3f820f25f3`. All forty assets preserve 17,200 provider responses in 1,304 files.
+
+```bash
+gh release download review-budget-v1 --repo mumit/Jev-public-operations-experiments --pattern review-budget-v1.tar.gz --dir runs/downloads
+uv run --locked --extra public-data python -m scripts.restore_evidence runs/downloads/review-budget-v1.tar.gz --manifest evidence/review-budget-v1.json
+uv run --locked --extra public-data python -m scripts.verify_review_budget
+```
+
+The publisher-text chain verifies 900 saved calls without inference. Replay preserves both the new passing objective and all earlier failed gates. Public evidence uses fixed rule projections; exact full-input reconstruction additionally requires matching local source snapshots.

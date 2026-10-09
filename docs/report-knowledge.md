@@ -59,11 +59,13 @@ Choosing the correct class and displaying useful guidance are separate outcomes.
 
 The exact-string rule matches none of these claims and withholds every answer. It is a narrow control; no new ML model was trained for this text task.
 
-## What remains
+## What remained at completion
 
 New-report confirmation is blocked by failed development gates. No new report was allocated or opened. Earlier failures, references and protected telemetry allocations remain intact.
 
 The next decision is whether to pursue another separately frozen question diagnostic or change the analyst-facing display objective. My recommendation is to preserve this candidate as an interpretation finding and first define the acceptable cost of review: how much correct coverage can be lost to avoid a wrong display? That decision needs an explicit prospective requirement and fresh confirmation. This panel cannot establish analyst benefit, independently agreed interpretation or telecom readiness.
+
+A later [prospective review-budget confirmation](review-budget.md) uses the user’s accepted 90% correct-display floor and 10% review ceiling on newly allocated reports. It passes that separate objective with 75/81 correct displays and no wrong display. This earlier diagnostic remains failed; its references, criteria and results stay unchanged.
 
 ## Inspect and replay
 
