@@ -8,6 +8,8 @@ Preserve review_budget audit/data/scoring/trial/CLI, plan, annotations, pack, ex
 
 The review-budget-v1 answer-only supplement adds 162 replies in two files. All forty assets preserve 17,200 provider responses in 1,304 files; the full publisher-text chain verifies 900 calls. Restore its six text-study predecessors first; see docs/evidence.md.
 
+Publication is verified in checkpoints/publisher-review-budget-publication-verification-2026-10-08.json. A separate checkout at ccdaccc passes all 510 tests, 40 browser checks and the 900-call text replay without credentials or publisher snapshots. All 1,304 restored hashes match, as do GitHub and separate-download archive digests. Main serves /review-budget on loopback port 8769. The next mitigation outcome is pending user selection: source-supported reviews or fewer withheld claims; no new inference is authorized by the completed confirmation.
+
 ## Completed report-knowledge development
 
 Read docs/report-knowledge.md and inspect /report-knowledge. The 180-call development is complete: report knowledge chooses 90/90 correctly, displays 85 correctly, zero wrongly and withholds five. Literal chooses 87/90 correctly, displays 87 correctly, one wrongly and withholds two. The original failure is corrected/displayed at 0.99 in all rounds, but two other distinct claims lose five correct displays. Four of twelve gates pass; the candidate fails. New-report confirmation remains unallocated and unopened under this plan.
