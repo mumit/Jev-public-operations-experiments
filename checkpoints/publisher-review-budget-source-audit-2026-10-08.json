@@ -1,0 +1,57 @@
+{
+  "schema": "publisher-review-budget-source-audit-1",
+  "plan_sha256": "73436c650f948c54b09f89826485bb97a3fd727ab0a4d73550c1c4a179c83f07",
+  "producer_sha256": "38478983be5ac04b66be06076e538ba14f708b56b9a7f9e01e40c2b68d47047e",
+  "sources": [
+    {
+      "id": "cf-kv12-2025",
+      "url": "https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/",
+      "expected_title": "Cloudflare service outage June 12, 2025",
+      "html_sha256": "964c61b21258ea08c0cc04102351de40338b63a46188283eff5d68e4940f749b",
+      "status": "available",
+      "title": "Cloudflare service outage June 12, 2025",
+      "article_sha256": "4b25d7c1beba94dd662c646479afa0b8896666443d3780a5e9aab2893742e646",
+      "blocks": 61,
+      "text_sha256": "d884565a9d46344c52722aa60707099ac9a8f7c4ae0e19e54c750e087ac26a47",
+      "text_bytes": 17250,
+      "probe_wire_bytes": 19906,
+      "code_blocks": 0,
+      "preparation_eligible": true
+    },
+    {
+      "id": "cf-dns14-2025",
+      "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/",
+      "expected_title": "Cloudflare 1.1.1.1 incident on July 14, 2025",
+      "html_sha256": "4764d5f58e976a8ef0f64e72272fe2a25e1fcb6b926b1840892cb377a5696622",
+      "status": "available",
+      "title": "Cloudflare 1.1.1.1 incident on July 14, 2025",
+      "article_sha256": "6c5b24e439ec262a25275d1d3212b4f1304c2a31cc828073b0e544f5373c9acc",
+      "blocks": 48,
+      "text_sha256": "8eabc216d012805a477eaa87fe61f9cd040e79fe93dc64a08516163c8350ada4",
+      "text_bytes": 13275,
+      "probe_wire_bytes": 15890,
+      "code_blocks": 1,
+      "preparation_eligible": true
+    },
+    {
+      "id": "cf-nov18-2025",
+      "url": "https://blog.cloudflare.com/18-november-2025-outage/",
+      "expected_title": "Cloudflare outage on November 18, 2025",
+      "html_sha256": "ddf983564d7cb2442d05d9f050a3cd31a85e204ece2f6b87e88f5a0327e692ab",
+      "status": "available",
+      "title": "Cloudflare outage on November 18, 2025",
+      "article_sha256": "d3a11e9ba1b72e8af9577ed68cb5ee259765cb1267cc7473bcac9ae7565e057e",
+      "blocks": 77,
+      "text_sha256": "3f19f281fc343111ad3551f901e01adf51552eab4c42115e9a33a699227d7e82",
+      "text_bytes": 18046,
+      "probe_wire_bytes": 20765,
+      "code_blocks": 1,
+      "preparation_eligible": true
+    }
+  ],
+  "preparation_eligible": true,
+  "new_provider_calls": 0,
+  "new_telemetry_recordings": 0,
+  "human_reviews": 0,
+  "independent_reference_reviews": 0
+}

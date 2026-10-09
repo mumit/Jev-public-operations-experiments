@@ -1,0 +1,388 @@
+{
+  "schema": "publisher-review-budget-annotations-1",
+  "authorship": "Assistant-controlled claims and source-backed references after whole-source inspection, before model outcomes; zero independent review.",
+  "claims": [
+    {
+      "id": "cf-kv12-2025-c1",
+      "source_id": "cf-kv12-2025",
+      "topic": "impact",
+      "choice": "supported",
+      "assertion_scope": "report_knowledge",
+      "claim": "The report says most Gateway DNS queries were unaffected, while queries with identity-based DoH rules failed.",
+      "evidence_blocks": [
+        10
+      ],
+      "rationale": "The service table explicitly distinguishes most DNS queries from identity-based DoH exceptions."
+    },
+    {
+      "id": "cf-kv12-2025-c2",
+      "source_id": "cf-kv12-2025",
+      "topic": "impact",
+      "choice": "contradicted",
+      "assertion_scope": "incident_fact",
+      "claim": "Every Gateway DNS query failed during the June 12 outage.",
+      "evidence_blocks": [
+        10
+      ],
+      "rationale": "Most Gateway DNS queries were unaffected; the universal failure claim conflicts with the stated exceptions."
+    },
+    {
+      "id": "cf-kv12-2025-c3",
+      "source_id": "cf-kv12-2025",
+      "topic": "impact",
+      "choice": "not_established",
+      "assertion_scope": "incident_fact",
+      "claim": "Exactly 10,000 Gateway users were affected by the June 12 outage.",
+      "evidence_blocks": [
+        0,
+        1,
+        10
+      ],
+      "rationale": "The report describes Gateway impact but gives no affected-user count establishing or excluding this number."
+    },
+    {
+      "id": "cf-kv12-2025-c4",
+      "source_id": "cf-kv12-2025",
+      "topic": "cause",
+      "choice": "supported",
+      "assertion_scope": "incident_fact",
+      "claim": "A third-party storage failure disrupted Workers KV and services that depended on it.",
+      "evidence_blocks": [
+        1,
+        2,
+        31,
+        33
+      ],
+      "rationale": "The storage dependency failure and its cascading impact are explicitly described."
+    },
+    {
+      "id": "cf-kv12-2025-c5",
+      "source_id": "cf-kv12-2025",
+      "topic": "cause",
+      "choice": "contradicted",
+      "assertion_scope": "report_knowledge",
+      "claim": "The report establishes why the portion of CDN traffic that failed to reroute was not rerouted.",
+      "evidence_blocks": [
+        25
+      ],
+      "rationale": "The report explicitly says that portion of traffic is under investigation. That conflicts with asserted established explanation under the literal reporting contract."
+    },
+    {
+      "id": "cf-kv12-2025-c6",
+      "source_id": "cf-kv12-2025",
+      "topic": "cause",
+      "choice": "not_established",
+      "assertion_scope": "incident_fact",
+      "claim": "A single named customer generated all the extra Zero Trust registration traffic during the outage.",
+      "evidence_blocks": [
+        25
+      ],
+      "rationale": "Additional registration traffic is described, but the source neither identifies a single generating customer nor excludes that attribution."
+    },
+    {
+      "id": "cf-kv12-2025-c7",
+      "source_id": "cf-kv12-2025",
+      "topic": "recovery",
+      "choice": "supported",
+      "assertion_scope": "incident_fact",
+      "claim": "Services began recovering at 20:23 UTC, before service-level objectives returned to their pre-incident level at 20:28 UTC.",
+      "evidence_blocks": [
+        48,
+        50
+      ],
+      "rationale": "The timeline states recovery beginning at 20:23 and service-level objectives returning at 20:28."
+    },
+    {
+      "id": "cf-kv12-2025-c8",
+      "source_id": "cf-kv12-2025",
+      "topic": "recovery",
+      "choice": "contradicted",
+      "assertion_scope": "incident_fact",
+      "claim": "All planned Workers KV redundancy improvements were complete when services recovered from the outage.",
+      "evidence_blocks": [
+        53,
+        56,
+        57,
+        58,
+        59
+      ],
+      "rationale": "After recovery, redundancy and related workstreams remained actively in flight, conflicting with completion of all planned improvements."
+    },
+    {
+      "id": "cf-kv12-2025-c9",
+      "source_id": "cf-kv12-2025",
+      "topic": "recovery",
+      "choice": "not_established",
+      "assertion_scope": "report_knowledge",
+      "claim": "The report gives an exact calendar date for completing all planned Workers KV storage redundancy work.",
+      "evidence_blocks": [
+        53,
+        56,
+        59
+      ],
+      "rationale": "The report says work is being accelerated and remains in flight, but supplies no exact calendar completion date. Omission alone is not explicit contradiction."
+    },
+    {
+      "id": "cf-dns14-2025-c1",
+      "source_id": "cf-dns14-2025",
+      "topic": "impact",
+      "choice": "supported",
+      "assertion_scope": "report_knowledge",
+      "claim": "The report says DNS over HTTPS using cloudflare-dns.com remained available while queries to the withdrawn resolver IP addresses were disrupted.",
+      "evidence_blocks": [
+        25,
+        26,
+        27
+      ],
+      "rationale": "DoH through the domain uses different addresses and remained available; withdrawn addresses were unreachable."
+    },
+    {
+      "id": "cf-dns14-2025-c2",
+      "source_id": "cf-dns14-2025",
+      "topic": "impact",
+      "choice": "contradicted",
+      "assertion_scope": "incident_fact",
+      "claim": "Every DNS transport and resolver address was completely unavailable worldwide during the July 14 incident.",
+      "evidence_blocks": [
+        26
+      ],
+      "rationale": "DoH through cloudflare-dns.com and some UDP traffic remained mostly unaffected, contradicting universal unavailability."
+    },
+    {
+      "id": "cf-dns14-2025-c3",
+      "source_id": "cf-dns14-2025",
+      "topic": "impact",
+      "choice": "not_established",
+      "assertion_scope": "incident_fact",
+      "claim": "Exactly one million individual users experienced the July 14 resolver outage.",
+      "evidence_blocks": [
+        1,
+        3,
+        23,
+        26
+      ],
+      "rationale": "Global impact and a majority of users are described, without an exact individual-user count establishing or excluding one million."
+    },
+    {
+      "id": "cf-dns14-2025-c4",
+      "source_id": "cf-dns14-2025",
+      "topic": "cause",
+      "choice": "supported",
+      "assertion_scope": "incident_fact",
+      "claim": "The June 6 configuration error remained dormant until the July 14 change refreshed the associated routes.",
+      "evidence_blocks": [
+        10,
+        13,
+        14,
+        32
+      ],
+      "rationale": "The earlier error had no immediate impact; a later change triggered the global routing refresh."
+    },
+    {
+      "id": "cf-dns14-2025-c5",
+      "source_id": "cf-dns14-2025",
+      "topic": "cause",
+      "choice": "contradicted",
+      "assertion_scope": "report_knowledge",
+      "claim": "The report identifies the BGP hijack as the cause of the resolver outage.",
+      "evidence_blocks": [
+        4,
+        16,
+        37
+      ],
+      "rationale": "The source explicitly says the hijack was unrelated and not the outage cause."
+    },
+    {
+      "id": "cf-dns14-2025-c6",
+      "source_id": "cf-dns14-2025",
+      "topic": "cause",
+      "choice": "not_established",
+      "assertion_scope": "incident_fact",
+      "claim": "One engineer authored both the June 6 and July 14 configuration changes.",
+      "evidence_blocks": [
+        10,
+        13,
+        14,
+        35
+      ],
+      "rationale": "Changes and peer review are described, but no shared author is established or explicitly excluded."
+    },
+    {
+      "id": "cf-dns14-2025-c7",
+      "source_id": "cf-dns14-2025",
+      "topic": "recovery",
+      "choice": "supported",
+      "assertion_scope": "incident_fact",
+      "claim": "Readvertising the prefixes at 22:20 UTC restored roughly 77% of prior traffic, with normal traffic levels observed at 22:54 UTC.",
+      "evidence_blocks": [
+        39,
+        40
+      ],
+      "rationale": "The restoration section reports partial recovery to about 77%, then normal traffic at 22:54."
+    },
+    {
+      "id": "cf-dns14-2025-c8",
+      "source_id": "cf-dns14-2025",
+      "topic": "recovery",
+      "choice": "contradicted",
+      "assertion_scope": "incident_fact",
+      "claim": "All required edge-server IP bindings were already restored immediately after the 22:20 UTC revert.",
+      "evidence_blocks": [
+        39,
+        40
+      ],
+      "rationale": "About 23% of the fleet had lost required bindings and still needed reconfiguration after readvertisement."
+    },
+    {
+      "id": "cf-dns14-2025-c9",
+      "source_id": "cf-dns14-2025",
+      "topic": "recovery",
+      "choice": "not_established",
+      "assertion_scope": "report_knowledge",
+      "claim": "The report states the exact date when deprecation of the legacy addressing systems will be complete.",
+      "evidence_blocks": [
+        42,
+        43,
+        44,
+        47
+      ],
+      "rationale": "Deprecation and accelerated migration are planned or active, without an exact completion date. This is missing reporting, not an explicitly conflicting date."
+    },
+    {
+      "id": "cf-nov18-2025-c1",
+      "source_id": "cf-nov18-2025",
+      "topic": "impact",
+      "choice": "supported",
+      "assertion_scope": "report_knowledge",
+      "claim": "The report says existing Access sessions were unaffected even while authentication failed for most users.",
+      "evidence_blocks": [
+        20
+      ],
+      "rationale": "The Access table explicitly separates existing sessions from widespread authentication failures."
+    },
+    {
+      "id": "cf-nov18-2025-c2",
+      "source_id": "cf-nov18-2025",
+      "topic": "impact",
+      "choice": "contradicted",
+      "assertion_scope": "incident_fact",
+      "claim": "All customers on the old FL proxy engine received HTTP 5xx errors because of the bad feature file.",
+      "evidence_blocks": [
+        32,
+        33
+      ],
+      "rationale": "The report says old-engine customers did not see errors; they instead received incorrect bot scores, with impact depending on rules."
+    },
+    {
+      "id": "cf-nov18-2025-c3",
+      "source_id": "cf-nov18-2025",
+      "topic": "impact",
+      "choice": "not_established",
+      "assertion_scope": "incident_fact",
+      "claim": "Exactly 250,000 customers received HTTP 5xx errors during the November 18 outage.",
+      "evidence_blocks": [
+        0,
+        7,
+        15,
+        31,
+        33
+      ],
+      "rationale": "The report describes error traffic and affected systems without an exact affected-customer count establishing or excluding this number."
+    },
+    {
+      "id": "cf-nov18-2025-c4",
+      "source_id": "cf-nov18-2025",
+      "topic": "cause",
+      "choice": "supported",
+      "assertion_scope": "incident_fact",
+      "claim": "A database permissions change introduced duplicate metadata rows that made the Bot Management feature file too large.",
+      "evidence_blocks": [
+        1,
+        41,
+        44,
+        47,
+        50
+      ],
+      "rationale": "The permissions change exposed additional schema metadata; duplicate features exceeded the runtime limit."
+    },
+    {
+      "id": "cf-nov18-2025-c5",
+      "source_id": "cf-nov18-2025",
+      "topic": "cause",
+      "choice": "contradicted",
+      "assertion_scope": "report_knowledge",
+      "claim": "The report confirms that a cyberattack caused the November 18 network outage.",
+      "evidence_blocks": [
+        1,
+        3,
+        10,
+        34
+      ],
+      "rationale": "An attack was an initial mistaken suspicion; the source explicitly excludes malicious activity as the cause."
+    },
+    {
+      "id": "cf-nov18-2025-c6",
+      "source_id": "cf-nov18-2025",
+      "topic": "cause",
+      "choice": "not_established",
+      "assertion_scope": "incident_fact",
+      "claim": "The same engineer approved both the database permissions change and the Bot Management runtime feature limit.",
+      "evidence_blocks": [
+        41,
+        49
+      ],
+      "rationale": "The change and runtime limit are documented, but no approving engineer or common approval identity is established or excluded."
+    },
+    {
+      "id": "cf-nov18-2025-c7",
+      "source_id": "cf-nov18-2025",
+      "topic": "recovery",
+      "choice": "supported",
+      "assertion_scope": "incident_fact",
+      "claim": "Core traffic was largely normal by 14:30 UTC, and all systems were functioning normally by 17:06 UTC.",
+      "evidence_blocks": [
+        3,
+        75,
+        76
+      ],
+      "rationale": "The source distinguishes main-traffic recovery from the later restoration of all systems."
+    },
+    {
+      "id": "cf-nov18-2025-c8",
+      "source_id": "cf-nov18-2025",
+      "topic": "recovery",
+      "choice": "contradicted",
+      "assertion_scope": "incident_fact",
+      "claim": "All systems were fully back to normal at 14:30 UTC.",
+      "evidence_blocks": [
+        3,
+        12,
+        75,
+        76
+      ],
+      "rationale": "Further service restarts and mitigation continued until 17:06, conflicting with complete recovery at 14:30."
+    },
+    {
+      "id": "cf-nov18-2025-c9",
+      "source_id": "cf-nov18-2025",
+      "topic": "recovery",
+      "choice": "not_established",
+      "assertion_scope": "report_knowledge",
+      "claim": "The report supplies an exact completion date for each listed follow-up hardening project.",
+      "evidence_blocks": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "rationale": "Follow-up work is listed as begun, with no exact per-project calendar completion dates. Missing discussion alone does not establish contradiction."
+    }
+  ],
+  "source_cautions": {
+    "cf-kv12-2025": "The service table reports 90.22% failed KV requests while a later figure caption rounds to 91%. Claims avoid treating these as conflicting exact rates. The CDN rerouting exception remains under investigation.",
+    "cf-dns14-2025": "Routing refresh at 21:48 precedes traffic decline at 21:52; impact end at 22:54 precedes incident resolution at 22:55. Claims preserve stages and transport/address exceptions.",
+    "cf-nov18-2025": "Intro and chart use 11:20 onset while the timeline labels impact start at 11:28; bypass prose uses 13:04/13:10 and timeline 13:05. Claims avoid a single exact onset/bypass time and preserve all full text. The report includes hypotheses, unaffected sessions and proxy-dependent impact."
+  }
+}
