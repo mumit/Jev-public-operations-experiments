@@ -1,0 +1,69 @@
+{
+  "schema": "publisher-review-budget-plan-1",
+  "date": "2026-10-08",
+  "user_choice": "Accept at most one in ten checks sent to review for now; seek later mitigations. Proceed on fresh reports under a new prospective objective.",
+  "historical_boundary": "The report-knowledge development remains failed under its original no-loss requirements. This plan authorizes a new allocation; it does not override or relabel any completed gate.",
+  "purpose": "Confirm unchanged report-knowledge definitions on newly allocated whole reports with a 90% correct-display floor and 10% review ceiling.",
+  "arms": [
+    "literal",
+    "knowledge"
+  ],
+  "candidate": "knowledge",
+  "question_producer": "triage_bench/report_knowledge_features.py",
+  "display_probability": 0.7,
+  "maximum_request_bytes": 64000,
+  "maximum_calls": 162,
+  "rounds": 3,
+  "claims_per_report": 9,
+  "claims_per_topic": 3,
+  "topics": [
+    "impact",
+    "cause",
+    "recovery"
+  ],
+  "reference_classes": [
+    "supported",
+    "contradicted",
+    "not_established"
+  ],
+  "scope_strata": [
+    "incident_fact",
+    "report_knowledge"
+  ],
+  "minimum_report_knowledge_claims_per_report": 3,
+  "global_each_round": {
+    "complete_valid_evidence": true,
+    "minimum_correct_display_fraction": 0.9,
+    "maximum_review_fraction": 0.1,
+    "maximum_wrong_displays": 0
+  },
+  "report_each_round": {
+    "complete_valid_evidence": true,
+    "maximum_wrong_displays": 0,
+    "all_three_reference_classes_correctly_displayed": true
+  },
+  "comparison": "Report every choice/display gain/loss against fresh literal controls; comparative gains are diagnostic and not an eligibility condition.",
+  "source_policy": "All allocated reports must pass once-only official-publisher identity, extraction and wire-size audit. Retain whole prose/list/table/code in source order. Whitespace normalized; images excluded. No source replacement, answer-led trimming or retry.",
+  "reference_policy": "Controlled claims and source-backed references authored and frozen after full source inspection but before model outcomes. Preserve unknown event facts versus reporting assertions; no reference repair after calls. Missing information alone is not contradiction. Record exact block hashes, scope strata and cautions outside state.",
+  "stop_policy": "Any failed source/preparation check stops before inference. Any global/envelope/context/network/HTTP failure stops inference once, preserving all planned denominators. No retries, substitution, threshold tuning or follow-on mitigation in this completed protocol.",
+  "protected_access": "No new telemetry or protected allocations open.",
+  "review_status": "Publisher-written retrospective reports; assistant-written claims/references; zero human entries or independent reference reviews. Not authentic analyst claims or calibrated operational risk.",
+  "discovery_exposure": "Search results before allocation exposed June 12 introduction and service impact, substantial July 14 background/timeline including non-causal BGP activity, and November 18 introduction/root-cause summary. Other index snippets also appeared. Selection is not blinded. No whole snapshot was downloaded before allocation. Public sources may be in model training.",
+  "sources": [
+    {
+      "id": "cf-kv12-2025",
+      "url": "https://blog.cloudflare.com/cloudflare-service-outage-june-12-2025/",
+      "expected_title": "Cloudflare service outage June 12, 2025"
+    },
+    {
+      "id": "cf-dns14-2025",
+      "url": "https://blog.cloudflare.com/cloudflare-1-1-1-1-incident-on-july-14-2025/",
+      "expected_title": "Cloudflare 1.1.1.1 incident on July 14, 2025"
+    },
+    {
+      "id": "cf-nov18-2025",
+      "url": "https://blog.cloudflare.com/18-november-2025-outage/",
+      "expected_title": "Cloudflare outage on November 18, 2025"
+    }
+  ]
+}

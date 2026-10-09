@@ -1,6 +1,10 @@
 # Handoff: public operations experiments
 
-## Current continuation: report-knowledge development
+## Current continuation: prospective review budget
+
+The user accepted up to one claim in ten sent to review on 2026-10-08. The new publisher-review-budget plan allocates three fixed 2025 Cloudflare reports before whole-source access. It retains report_knowledge_features, literal controls and 0.70 unchanged. All 27 prospective claims and references must freeze before 162 exact paired requests. Each round needs at least 25/27 correct displays, at most two reviews, no wrong displays and complete evidence. Every report must correctly display all three verdict classes. No telemetry opens. The earlier no-loss diagnostic remains failed; this is a new objective on fresh-to-protocol reports, with recorded discovery exposure.
+
+## Completed report-knowledge development
 
 Read docs/report-knowledge.md and inspect /report-knowledge. The 180-call development is complete: report knowledge chooses 90/90 correctly, displays 85 correctly, zero wrongly and withholds five. Literal chooses 87/90 correctly, displays 87 correctly, one wrongly and withholds two. The original failure is corrected/displayed at 0.99 in all rounds, but two other distinct claims lose five correct displays. Four of twelve gates pass; the candidate fails. New-report confirmation remains unallocated and unopened under this plan.
 
