@@ -1,0 +1,37 @@
+{
+  "schema": "publisher-knowledge-development-plan-1",
+  "date": "2026-10-08",
+  "user_choice": "One focused controlled diagnostic, then frozen transfer to new reports if the development candidate qualifies.",
+  "purpose": "Distinguish underlying incident facts from claims about what a report says or establishes. Correct the interpretation, not just reduce confidence.",
+  "development": "Reuse all 27 inspected cross-report claims and exact sources, plus three controlled companion claims on the power report. Preserve every original reference. New companions are same-assistant annotations on inspected text, not fresh report validation.",
+  "unique_claims": 30,
+  "arms": [
+    "literal",
+    "knowledge"
+  ],
+  "rounds": 3,
+  "maximum_calls": 180,
+  "retry_count": 0,
+  "maximum_request_bytes": 64000,
+  "model": "jev-1.13.0",
+  "context_tokens": 32768,
+  "display_probability": 0.7,
+  "candidate": "knowledge",
+  "input": "Reuse the literal request as the byte-identical control. Candidate changes only question instructions and verdict criteria. Each paired state is identical and contains full report text, exact report title and claim. No scope labels, answers, evidence annotations or gold extracted facts enter state.",
+  "criteria_each_round": {
+    "complete_valid_evidence": true,
+    "no_wrong_displays": true,
+    "no_correct_choice_losses": true,
+    "no_correct_display_losses": true,
+    "at_least_one_correct_choice_gain": true,
+    "original_failure_correctly_chosen_and_displayed": true,
+    "all_three_companions_correctly_chosen_and_displayed": true,
+    "all_classes_correctly_displayed_per_report": true,
+    "six_correct_displays_per_report_minimum": true
+  },
+  "failure_policy": "Preserve failed replies and full denominators. Stop once on HTTP/context/global/envelope/network failure, without retry, repair, reference revision or substitute candidate. If any development gate fails, do not allocate or open new confirmation reports under this plan. A different candidate needs a new selected diagnostic.",
+  "confirmation": "Only after complete committed and verified development success: commit a separate source allocation/audit and confirmation plan before downloading new reports; freeze source-linked claims/references and exact requests before a new budget of at most 162 calls. Keep the winning candidate bytes and 0.70 fixed. Confirmation is not authorized by the development protocol itself.",
+  "interpretation": "Inspected development on same-assistant controlled claims and references. No authentic analyst entries or independent review, source-blinded allocation, calibrated risk, live triage or protected access.",
+  "publication": "New immutable answer-only supplement. Full publisher reports/full-text requests remain local and ignored. Preserve all earlier producers and outcomes.",
+  "protected_telemetry": "No new recording or protected allocation access."
+}

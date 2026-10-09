@@ -1,6 +1,10 @@
 # Handoff: public operations experiments
 
-## Current state: whole-report transfer complete
+## Current continuation: report-knowledge development
+
+The user selected the focused controlled diagnostic on 2026-10-08. The new plan compares unchanged literal controls with a question-only report-knowledge definition on all 27 inspected transfer claims and three companions. Freeze sources/annotations, pack and 180 exact requests before calls. All 27 historical references stay unchanged. The candidate must correct and display the original failure and every companion in each round, with no ordinary choice/display loss or wrong display. A failed development gate prevents new confirmation source allocation/access. Only complete committed success permits a separately frozen new-report study. No protected telemetry opens.
+
+## Completed whole-report transfer
 
 Read docs/cross-reports.md and inspect /cross-reports. The 162-call comparison on 27 controlled claims from three Cloudflare reports is complete. Literal gives 78/81 correct displays, zero wrong and three withheld; legacy gives 78/81 correct displays and three wrong. Both choose 78/81 correctly. Every selective gate passes. One report-establishment claim repeats the wrong not_established interpretation; literal lowers its probability below 0.70 without correcting it. No correct displayed gain or loss occurs. This is one distinct error repeated three times.
 

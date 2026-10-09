@@ -1,0 +1,40 @@
+{
+  "schema": "publisher-knowledge-companions-1",
+  "claims": [
+    {
+      "id": "cf-power-2024-c10",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "claim": "The breaker settings were configured in 2022.",
+      "choice": "not_established",
+      "rationale": "The report explicitly says the configuration time is unknown. It establishes neither this underlying date nor an incompatible date.",
+      "evidence_blocks": [
+        43
+      ]
+    },
+    {
+      "id": "cf-power-2024-c11",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "claim": "The report says the configuration time of the breaker settings is unknown.",
+      "choice": "supported",
+      "rationale": "This assertion concerns what the report states. Its explicit lack of knowledge supports the complete claim.",
+      "evidence_blocks": [
+        43
+      ]
+    },
+    {
+      "id": "cf-power-2024-c12",
+      "source_id": "cf-power-2024",
+      "topic": "cause",
+      "claim": "The report says there is no remaining uncertainty about when the breaker settings were configured.",
+      "choice": "contradicted",
+      "rationale": "The explicit statement that the configuration time is unknown conflicts with this assertion of complete reported knowledge. It is not a substituted underlying-date claim.",
+      "evidence_blocks": [
+        43
+      ]
+    }
+  ],
+  "human_entries": 0,
+  "independent_reference_reviews": 0
+}
